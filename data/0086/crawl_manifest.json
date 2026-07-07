@@ -1,0 +1,111 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:48:35.787310+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 9,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-eignungsverfahren",
+            "title": "Eignungsverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.uni-muenchen.de/studium/studiengaenge/master/master_informatik/bewerbung/index.html",
+            "title": "Weitere Informationen hier",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/16_mhdb_msc_informatik_120_ects_psto_08_09_2010_stand_18_12_2014_en.pdf",
+            "title": "Modulhandbuch Masterstudiengang Informatik auf der Basis der Prüfungs- und Studienordnung vom 08.09.2010, Stand: 18.12.2014 (English version).pdf (PDF, 418 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/16_mhdb_msc_informatik_120_ects_psto_08_09_2010_stand_18_12_2014_de.pdf",
+            "title": "Modulhandbuch Masterstudiengang Informatik auf der Basis der Prüfungs- und Studienordnung vom 08.09.2010, Stand: 18.12.2014 (PDF, 445 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.uni-muenchen.de/studium/studiengaenge/master/master_informatik/2023-01-20_ma-informatik_modulhandbuch-z-psto-2022-bei-beginn-im-sose.pdf",
+            "title": "Modulhandbuch zum Masterstudiengang Informatik (bei Beginn im Sommersemester), auf Basis der am 30.06.2022 vom Senat der LMU verabschiedeten Prüfungs- und Studienordnung",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.uni-muenchen.de/studium/studiengaenge/master/master_informatik/2023-01-20_ma-informatik_modulhandbuch-z-psto-2022-bei-beginn-im-wise.pdf",
+            "title": "Modulhandbuch zum Masterstudiengang Informatik (bei Beginn im Wintersemester), auf Basis der am 30.06.2022 vom Senat der LMU verabschiedeten Prüfungs- und Studienordnung",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.mathematik-informatik-statistik.uni-muenchen.de",
+            "title": "Fakultät für Mathematik, Informatik und Statistik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.lmu.de",
+            "title": "Institut für Informatik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.lmu.de/studium/studienberatung/index.html",
+            "title": "Fachstudienberatung Informatik",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

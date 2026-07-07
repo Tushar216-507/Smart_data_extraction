@@ -1,0 +1,56 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:50:12.897672+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 4,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/theaterwissenschaft-bachelor-hauptfach-3024.html",
+            "title": "weitere Informationen zu Studienzugang und Immatrikulation",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/09-geschkunst/kunstwissenschaften/downloads/modulhandbuch_ba_twm.pdf",
+            "title": "Modulhandbuch B.A. Theaterwissenschaft (PDF, 644 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/09-geschkunst/fakultaet-geschichts-und-kunstwissenschaften/downloads/studienverlauf_batw_1220.pdf",
+            "title": "Prüfungsformen und -anteile. (PDF, 99 KB)",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/international-office/index.html",
+            "title": "International Office - wichtige Informationen für internationale Studierende",
+            "category": "international",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

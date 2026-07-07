@@ -1,0 +1,133 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:31.020072+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 11,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freie Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/kommunikationswissenschaft-bachelor-nebenfach-2929.html",
+            "title": "Kommunikationswissenschaft (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/rechtswissenschaften-bachelor-nebenfach-2999.html",
+            "title": "Rechtswissenschaften (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sinologie.uni-muenchen.de/studium_lehre1/studienangebot/ba-sinologie/ba_sinologie_modulhandbuch_25.pdf",
+            "title": "Modulhandbuch zum Bachelorstudiengang Sinologie auf Basis der Prüfungs- und Studienordnung vom 02. März 2010, Stand: 03.07.2025",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sinologie.uni-muenchen.de/index.html",
+            "title": "Institut für Sinologie",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de/studium/studienbuero/index.html",
+            "title": "Studienbüro der Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sinologie.uni-muenchen.de/studium_lehre/studienberatung",
+            "title": "Ansprechpartner der Studienberatung Sinologie",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

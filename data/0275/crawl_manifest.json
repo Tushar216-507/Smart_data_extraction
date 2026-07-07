@@ -1,0 +1,89 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:50:21.907961+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 7,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/psy/de/studium/m.sc.-wirtschafts-organisations-und-sozialpsychologie/bewerbung",
+            "title": "Neu hier und Interesse geweckt? Jetzt über die Bewerbung informieren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/downloads/studiengaenge/wos-master_modulhandbuch.pdf",
+            "title": "Modulhandbuch nach PStO 2011 (PDF, 658 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/dokumente_downloads/dokumente_studiengaenge/master-wos/ma-psychologie-wirtschafts-organisations-u-sozialpsychologie_modulhandbuch-der-psto-2025.pdf",
+            "title": "Modulhandbuch nach PStO 2025 (PDF, 464 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/pruefungsaemter/pruefungsamt-fuer-geistes-und-sozialwissenschaften/aktuelles/studienbegleitende-und-pruefungsrelevante-termine/11-fakultaet-fuer-psychologie-und-paedagogik/11-folgesemester/wintersemester-2025-2026",
+            "title": "Anmeldezeitraums",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/psy/de/das-department",
+            "title": "Department",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/pruefungsaemter/pruefungsamt-fuer-geistes-und-sozialwissenschaften/abschluesse/master/11-fakultaet-fuer-psychologie-und-paedagogik/psychologie/wirtschafts-organisations-.-und-sozialpsychologie",
+            "title": "Prüfungsordnung",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/pruefungsaemter/pruefungsamt-fuer-geistes-und-sozialwissenschaften/aktuelles/studienbegleitende-und-pruefungsrelevante-termine/11-fakultaet-fuer-psychologie-und-paedagogik",
+            "title": "Weiterlesen",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

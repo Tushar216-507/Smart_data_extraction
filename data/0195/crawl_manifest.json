@@ -1,0 +1,89 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:40.265255+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 7,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-eignungsverfahren",
+            "title": "Eignungsverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/bewerbung/master_bewerbung/index.html",
+            "title": "Weitere Informationen hier",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/studiengaenge1/master111/mdhb_soziologie_ma.pdf",
+            "title": "Modulhandbuch zum Masterstudiengang Soziologie auf Basis der Prüfungs- und Studienordnung vom 12. September 2018, Stand: 13.01.2025",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/studiengaenge1/master11/studienplan_ma.pdf",
+            "title": "Modulplan",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/index.html",
+            "title": "Institut für Soziologie",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sozialwissenschaften.uni-muenchen.de",
+            "title": "Sozialwissenschaftliche Fakultät",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/fachstudienberatung/index.html",
+            "title": "Fachstudienberatung Soziologie",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

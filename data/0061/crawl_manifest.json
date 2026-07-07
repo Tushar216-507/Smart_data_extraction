@@ -1,0 +1,133 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:48:20.918875+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 11,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freie Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/kommunikationswissenschaft-bachelor-hauptfach-2928.html",
+            "title": "Kommunikationswissenschaft (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/modulhandbuecher/modulhandbuch_nebenfach_60.pdf",
+            "title": "Modulhandbuch für das Studium des Fachs Geographie als Nebenfach im Umfang von 60 ECTS-Punkten für Bachelorstudiengänge auf Basis der Prüfungs- und Studienordnung vom 09. Oktober 2019. Stand: 01. Oktober 2019 (PDF, 475 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/modulhandbuch_nebenfach_60.pdf",
+            "title": "Modulhandbuch Nebenfach Geographie im Umfang von 60 ECTS für Bachelorstudiengänge, auf Basis der Prüfungs- und Studienordnung vom 09.10.2009, Stand: 10/2018 (PDF, 499 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.geo.uni-muenchen.de",
+            "title": "Fakultät für Geowissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.geographie.uni-muenchen.de/department/fiona/index.php",
+            "title": "https://www.geographie.uni-muenchen.de/department/fiona/index.php",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.geographie.uni-muenchen.de/department/fiona/studium/bachelor/bachelor_nebenfach/index.html",
+            "title": "https://www.geographie.uni-muenchen.de/department/fiona/studium/bachelor/bachelor_nebenfach/index.html",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.geo.lmu.de/geographie/de/studium/studienberatung-und-anlaufstellen",
+            "title": "Ansprechpartner der Fachstudienberatung Geographie",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

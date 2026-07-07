@@ -1,0 +1,166 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:37.785417+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 14,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freier Zugang",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/informatik-bachelor-mit-nebenfach-30-ects-bachelor-hauptfach-2911.html",
+            "title": "Informatik Bachelor mit Nebenfach 30 ECTS (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-studienorientierungsverfahren",
+            "title": "Studienorientierungsverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/bewerbung/bachelor_bewerbung/index.html",
+            "title": "Weitere Informationen sowie Fristen",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/studiengaenge1/nebenfach11/mdhb_soziologie_nf_30.pdf",
+            "title": "Modulhandbuch zum Nebenfach Soziologie im Umfang von 30 ECTS-Punkten für Bachelorstudiengänge auf Basis der Prüfungs- und Studienordnung vom 15. Juni 2018, Stand: 13.01.2025",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/studiengaenge1/nebenfach11/mdhb_soziologie_nf_30stat.pdf",
+            "title": "Modulhandbuch zum Nebenfach Soziologie im Umfang von 30 ECTS-Punkten für den Bachelorstudiengang Statistik, auf Basis der Prüfungs- und Studienordnung vom 15. Juni 2018, Stand: 13.01.2025",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/studiengaenge1/nebenfach11/modulplan-nebenfach-30-ects.pdf",
+            "title": "Modulplan für das Nebenfach Soziologie (30 ECTS)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/studiengaenge1/nebenfach11/modul_-neben_-statistik-30ects.pdf",
+            "title": "Modulplan für das Nebenfach Soziologie für Studierende der Statisitk (30 ECTS)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/index.html",
+            "title": "Institut für Soziologie",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sozialwissenschaften.uni-muenchen.de",
+            "title": "Sozialwissenschaftliche Fakultät",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.soziologie.uni-muenchen.de/studium-und-lehre/fachstudienberatung/index.html",
+            "title": "Fachstudienberatung Soziologie",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

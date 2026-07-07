@@ -1,0 +1,67 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:25.704095+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 5,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/psy/de/studium/m.sc.-wirtschafts-organisations-und-sozialpsychologie/bewerbung",
+            "title": "Bewerbungsportal und -fristen hier",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/amtliche-veroeffentlichungen/satzungqualifikationwos-a.pdf",
+            "title": "Satzung über die Qualifikation und die Zulassung für den Masterstudiengang Psychologie: Wirtschafts-, Organisations- und Sozialpsychologie an der Ludwig-Maximilians-Universität München vom 2. Juni 2025 (PDF, 95 KB)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/oertliches-auswahlverfahren-durch-die-fakultaet",
+            "title": "Örtliches Auswahlverfahren durch die Fakultät",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/modulhandbuecher/ma-psychologie-wirtschafts-organisations-u-sozialpsychologie_modulhandbuch-der-psto-2025.pdf",
+            "title": "Modulhandbuch zum Masterstudiengang: Psychologie: Wirtschafts-, Organisations- und Sozialpsychologie (Master of Science, M.Sc.) (120 ECTS-Punkte) auf Basis der Prüfungs- und Studienordnung 2025 Stand: 09.07.2025 (PDF, 464 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.fak11.lmu.de",
+            "title": "Fakultät für Psychologie und Pädagogik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

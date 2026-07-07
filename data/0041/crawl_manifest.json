@@ -1,0 +1,100 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:48:08.954228+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 8,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freie Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/medienkulturwissenschaft-bachelor-hauptfach-27648.html",
+            "title": "Medienkulturwissenschaft (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sprach-und-literaturwissenschaften.uni-muenchen.de/studium/dhs/struktur_information/dh_sl.pdf",
+            "title": "Modulhandbuch zum Nebenfach Digital Humanities - Sprach und Literaturwissenschaften im Umfang von 60 ECTS-Punkten für Bachelorstudiengänge, basierend auf der am am 20. Juni 2024 vom Senat der Ludwig-Maximilians-Universität München verabschiedeten Prüfungs- und Studienordnung (Stand: 12.08.2024)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/modulhandbuchdhs.pdf",
+            "title": "Modulhandbuch zum Nebenfach Digital Humanities - Sprachwissenschaften im Umfang von 60 ECTS-Punkten für Bachelorstudiengänge, auf Basis der Prüfungs- und Studienordnung vom 29.09.2017 (Stand: 31.07.2018) (PDF, 691 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sprach-und-literaturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Sprach- und Literaturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:50:14.326162+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 3,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+            "title": "Auswahlkriterien und Grenzwerte bei örtlicher Zulassungsbeschränkung",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/oertlich-zulassungsbeschraenkte-studiengaenge/index.html",
+            "title": "Bewerbungsmodalitäten für örtlich zulassungsbeschränkte Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/psy/de/das-department",
+            "title": "Department",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

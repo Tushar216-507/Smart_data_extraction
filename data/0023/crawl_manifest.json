@@ -1,0 +1,111 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:47:58.062327+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 9,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freier Zugang",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/kommunikationswissenschaft-bachelor-nebenfach-2929.html",
+            "title": "Kommunikationswissenschaft (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/rechtswissenschaften-bachelor-nebenfach-2999.html",
+            "title": "Rechtswissenschaften (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-voranmeldeverfahren",
+            "title": "Voranmeldeverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.zfb.uni-muenchen.de/index.html",
+            "title": "Modulhandbuch Bachelorstudiengang Buchwissenschaft auf Basis der am 23.07.2015 und am 13.06.2016 geänderten Prüfungs- und Studienordnung vom 10.01.2012, Stand: 20.07.2018",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sprach-und-literaturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Sprach- und Literaturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

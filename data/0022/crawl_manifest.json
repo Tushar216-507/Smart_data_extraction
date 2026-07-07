@@ -1,0 +1,133 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:47:57.503138+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 11,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.biologie.uni-muenchen.de/studium/vor_studium/infos_bewerbung/eignungsfeststellung/index.html",
+            "title": "Fakultät für Biologie",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freie Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/informatik-bachelor-mit-nebenfach-30-ects-bachelor-hauptfach-2911.html",
+            "title": "Informatik Bachelor mit Nebenfach 30 ECTS (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/19_mhdb_nf_biologie_30_ects_psto_15_07_2009_stand_27_11_2012.pdf",
+            "title": "Modulhandbuch für das Nebenfach Biologie mit 30 ECTS-Punkte auf Basis der Prüfungs- und Studienordnung vom 15.07.2009, Stand: 27. November 2012.pdf (PDF, 243 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/2g.-modulhandbuch-bachelor-nebenfach-biologie.pdf",
+            "title": "Modulhandbuch Nebenfach: Biologie für Bachelorstudiengänge (30 ECTS-Punkte) auf Basis der Prüfungs- und Studienordnung 2020, Stand: 15. Juni 2020 (PDF, 561 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.biologie.uni-muenchen.de",
+            "title": "Fakultät für Biologie",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.biologie.uni-muenchen.de/studium/einfuehrungsveranstaltung/index.html",
+            "title": "Fakultät für Biologie",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.bio.lmu.de/de/studium/fuer-studierende/ansprechpartner/pruefungsamt",
+            "title": "Öffnungszeiten, Telefon, E-Mai",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

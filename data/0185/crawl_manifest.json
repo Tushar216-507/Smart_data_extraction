@@ -1,0 +1,78 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:32.628379+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 6,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freie Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sinologie.uni-muenchen.de/studium_lehre1/studienangebot/masinologie/d_2-modulhandbuch-ma.pdf",
+            "title": "Modulhandbuch zum Masterstudiengang Sinologie auf Basis der Prüfungs- und Studienordnung vom 16. Juli 2012, Stand: 07.10.2024",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sinologie.uni-muenchen.de/index.html",
+            "title": "Institut für Sinologie",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de/studium/studienbuero/index.html",
+            "title": "Studienbüro der Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sinologie.uni-muenchen.de/studium_lehre/studienberatung",
+            "title": "Ansprechpartner der Studienberatung Sinologie",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

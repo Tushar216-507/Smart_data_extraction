@@ -1,0 +1,4 @@
+Das Nebenfach KUNST, MUSIK, THEATER (KMT) für Bachelorstudiengänge ist ein Nebenfach mit 60 ECTS-Punkten, das mit einem Hauptfach im Umfang von 120 ECTS-Punkten kombiniert wird. Das Studium kann sowohl im SS als auch im WS begonnen werden. Das fächerübergreifende Nebenfach umfasst Lehrveranstaltungen der Theaterwissenschaft, Musikwissenschaft, Musikpädagogik, Kunstgeschichte und Kunstpädagogik. Ein Fachbereichs-Schwerpunkt ist ebenso möglich wie das Studium der Bandbreite der Kunstwissenschaften.
+Erste [Informationen zum Studienfach](https://lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/kunst-musik-theater-bachelor-nebenfach-2934.html) erhalten Sie im Studienangebot der LMU, ausführliche Informationen auf der [Kunst, Musik, Theater-Website](../../../../studium/nebenfach-kunst-musik-theater/) des Departments Kunstwissenschaften.
+
+KONTAKT: Nebenfach-Koordinatorin Dr. Agathe Schmiddunser

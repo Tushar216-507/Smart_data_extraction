@@ -1,0 +1,67 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:47:47.937822+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 5,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-eignungsverfahren",
+            "title": "Eignungsverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "http://www.en.amerikanistik.uni-muenchen.de/studium/ma/application/index.html",
+            "title": "Weitere Informationen hier",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.en.amerikanistik.uni-muenchen.de/studium/ma/ma_program/mhb_ma-am_2019.pdf",
+            "title": "Master's Programme American History, Culture and Society: Module Catalogue, based on the 'Prüfungs- und Studienordnung' of 21 Jan 2020, issued on 04 May 2020",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.amerikanistik.uni-muenchen.de/index.html",
+            "title": "Amerika-Institut München",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.sprach-und-literaturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Sprach- und Literaturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

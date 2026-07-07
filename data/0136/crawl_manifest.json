@@ -1,0 +1,100 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:07.070190+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 8,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-eignungsverfahren",
+            "title": "Eignungsverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freier Zugang",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.naher-osten.uni-muenchen.de/studium_lehre/ma_nahermittlererosten/bewerbung/index.html",
+            "title": "Fristen und weitere Informationen hier",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.naher-osten.uni-muenchen.de/studium_lehre/ma_nahermittlererosten/2021-02-25_ma-naher-und-mittlerer-osten_modulhandbuch-nach-psto-2020_final.pdf",
+            "title": "Modulhandbuch für den Masterstudiengang Naher und Mittlerer Osten auf Basis der Prüfungs- und Studienordnung vom 08. September 2020 (Stand: 25.02.2021)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.naher-osten.uni-muenchen.de/index.html",
+            "title": "Institut für den Nahen und Mittleren Osten",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de/studium/studienbuero/index.html",
+            "title": "Studienbüro der Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.naher-osten.uni-muenchen.de/studium_lehre/studienberatung",
+            "title": "Ansprechpartner der Fachstudienberatung Naher und Mittlerer Osten",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

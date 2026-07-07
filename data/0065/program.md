@@ -1,0 +1,75 @@
+## Beschreibung des Studienfachs
+
+Geophysik ist eine Naturwissenschaft an der Schnittstelle von Geowissenschaften und Physik. Ihr Ziel ist die Kartierung geologischer Strukturen mit geophysikalischen Methoden von lokalen bis zu globalen Skalen sowie deren Interpretation mit den Gesetzen der Physik. Bei der Kartierung kommen vor allem seismische, gravimetrische und magnetische Messungen zum Zug, um Strukturen von der Erdoberfläche bis zum Erdkern zu erfassen. Bei der Interpretation gewinnt die numerische Simulation zunehmend an Bedeutung, mit deren Hilfe komplexe Modelle der Schlüsselprozesse studiert werden. Methodisch zeichnet sich die Geophysik durch eine gleichberechtigte Stellung der Feldforschung sowie der physikalisch-mathematischen Analyse aus. Der stärker forschungsorientierte gemeinsame Masterstudiengang Geophysics der Ludwig-Maximilians-Universität München und der Technischen Universität München zielt auf den Erwerb der fachwissenschaftlichen Kompetenzen inhaltlicher, theoretischer und methodischer Art ab. Durch die Vermittlung fortgeschrittener geophysikalischer Konzepte, Theorien und Methoden aus den Gebieten der Geodynamik, Seismologie und Geomagnetik soll das Studium primär zum systematischen Verständnis geophysikalischer Phänomene befähigen.
+
+### Tätigkeits- und Berufsfelder
+
+Neben der universitären Forschung Lehre eröffnet sich Absolventinnen und Absolventen ein breites Betätigungsfeld im öffentlichen Dienst und in der freien Wirtschaft (z.B. Umweltschutzorganisationen, Bauunternehmen, Versicherungen). Als Tätigkeitsfelder können z.B. genannt werden: Gewinnung und Analyse von Geodaten (Datenerhebung und -analyse), Klimaforschung, Rohstoffgewinnung und -verarbeitung. Darüber hinaus sind Geowissenschaftler im Bereich der Laboranalysen in der Umweltberatung und -management oder in der Verfahrens- oder Produktentwicklung tätig. Geowissenschaftler können als Gutachter und Sachverständige, in der Restaurierung/Konservierung oder im Informations- und Wissensmanagement arbeiten.
+
+## Fakten auf einen Blick
+
+Studiengang: Geophysics (Master)
+
+Abschlussgrad: Master of Science (M.Sc.)
+
+Fachtyp: Hauptfach
+
+Regelstudienzeit: 4 Fachsemester
+
+Studienform: Weiterführendes Studium mit berufsqualifizierendem Abschluss
+
+Studienbeginn: nur im Wintersemester
+
+Studiensprache: Englisch
+
+Fakultät: Fakultät für Geowissenschaften
+
+Fächergruppe: Mathematik und Naturwissenschaften
+
+ECTS: 120
+
+Anmerkungen: Gemeinsamer Studiengang der LMU und der Technischen Universität München; Einschreibung nur an der LMU für beide Hochschulen.
+
+## Bewerbung und Zulassung
+
+Formale Studienvoraussetzung: Hochschulzugangsberechtigung
+
+Zulassungsmodus 1. Semester: Eignungsverfahren
+
+Zulassungsmodus höheres Semester: Eignungsverfahren
+
+Zugangsdetails: Für die Aufnahme in den Masterstudiengang Geophysics wird neben einem ersten berufsqualifizierenden Hochschulabschlusses im Umfang von mindestens 180 ECTS-Punkten oder eines gleichwertigen Abschlusses aus dem Inland oder Ausland der Fachrichtungen Geowissenschaften, Geophysik, Mineralogie, Geologie, Physik, Informatik, Mathematik, Ingenieurwesen oder eines verwandten Faches die erfolgreiche Teilnahme an einem Eignungsverfahren vorausgesetzt. Deutsche oder diesen gleichgestellte Bewerberinnen und Bewerber haben den Antrag auf Zulassung zum Eignungsverfahren für das jeweils folgende Wintersemester auf elektronischem Weg über ein Online-Bewerbungsportal bis zum 15. Juli eines Jahres einzureichen. Andere Bewerberinnen und Bewerber müssen den Antrag bis zum 28. Februar eines Jahres einreichen (Ausschlussfristen). Weitere Informationen hier .
+
+Link zum Fach: Master Geophysics
+
+## Ihr Weg zum Studienplatz
+
+## Der Studiengang im Detail
+
+### Studienaufbau
+
+Detaillierter Studienplan: [Studyplan for the International Masters Programme in Geophysics (PDF, 51 KB)](https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/studienaufbau-uebersicht/msc-geophysics_v2_study-plan.pdf)
+
+### Modulhandbuch
+
+Modulhandbuch: [Module Catalogue Master’s Programme: Geophysics (Master of Science, M.Sc.) (120 ECTS credits) (PDF, 585 KB)](https://cms-cdn.lmu.de/media/contenthub/studiengangsfinder/downloads/modulhandbuecher/msc-geophysics-modulhandbuch-2020-01-09.pdf)
+
+### Unterrichtssprache
+
+Englisch
+
+### Prüfungs- und Studienordnungen
+
+[Prüfungs- und Studienordnung der Ludwig-Maximilians-Universität München für den gemeinsamen Masterstudiengang Geophysics der Ludwig-Maximilians-Universität München und der Technischen Universität München (2020) vom 6. Dezember 2019 (PDF, 159 KB)](https://cms-cdn.lmu.de/media/contenthub/amtliche-veroeffentlichungen/1367-20gp-ma-2020-ps00.pdf)[Satzung zur Änderung der Prüfungs- und Studienordnung der Ludwig-Maximilians-Universität München und der Technischen Universität München für den gemeinsamen Masterstudiengang Geophysics (2007) vom 13. August 2014 (PDF, 27 KB)](https://cms-cdn.lmu.de/media/contenthub/amtliche-veroeffentlichungen/1020-20gp-ma-2007-ps01.pdf)[Prüfungs- und Studienordnung der Ludwig-Maximilians-Universität München und der Technischen Universität München für den gemeinsamen Masterstudiengang Geophysics vom 30. Oktober 2007 (PDF, 297 KB)](https://cms-cdn.lmu.de/media/contenthub/amtliche-veroeffentlichungen/221-20gp-ma-07-ps00.pdf)
+
+## Department für Geo- und Umweltwissenschaften
+
+Sprechstunden, Aushänge, Änderungen des Lehrangebots
+
+## Fachstudienberatung MA Geophysics
+
+Inhaltliche und spezifische Fragen des Studiums, Studienaufbau, Stundenplan, fachliche Schwerpunkte
+
+## Prüfungsamt Naturwissenschaften Innenstadt (PANI) Kontaktstelle Geowissenschaften
+
+Prüfungsangelegenheiten, Prüfungsanmeldung, Semesteranrechnungsbescheide

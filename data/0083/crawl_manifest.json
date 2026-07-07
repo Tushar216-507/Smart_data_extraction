@@ -1,0 +1,122 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:48:33.639102+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 10,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/rechtswissenschaften-bachelor-nebenfach-2999.html",
+            "title": "Rechtswissenschaften (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/wirtschaftswissenschaften-bachelor-nebenfach-3035.html",
+            "title": "Wirtschaftswissenschaften (Örtliche Zulassungsbeschränkung)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/oertlich-zulassungsbeschraenkte-studiengaenge",
+            "title": "Örtliche Zulassungsbeschränkung",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.uni-muenchen.de/studium/studiengaenge/bachelor/bachelor_informatik/2023-11-22-ba-informatik-m-60-ects-nf_modulhandbuch-z-psto-2022.pdf",
+            "title": "Modulhandbuch zum Bachelorstudiengang Informatik mit Nebenfach im Umfang von 60 ECTS-Punkten, auf Basis der am 30.06.2022 vom Senat der LMU verabschiedeten Prüfungs- und Studienordnung",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.mathematik-informatik-statistik.uni-muenchen.de",
+            "title": "Fakultät für Mathematik, Informatik und Statistik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.lmu.de",
+            "title": "Institut für Informatik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.ifi.lmu.de/studium/studienberatung/index.html",
+            "title": "Fachstudienberatung Informatik",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:23.198292+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 4,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freie Studiengänge",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.vfp-archaeologie.uni-muenchen.de/studium_lehre/stud_ma-pra/mhdb_ma-prov-archaeologie.pdf",
+            "title": "Modulhandbuch zum Masterstudiengang Provinzialrömische Archäologie auf Basis der Prüfungs- und Studienordnung vom 14. November 2014, Stand: 05.03.2025",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de",
+            "title": "Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.kulturwissenschaften.uni-muenchen.de/studium/studienbuero/index.html",
+            "title": "Studienbüro der Fakultät für Kulturwissenschaften",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

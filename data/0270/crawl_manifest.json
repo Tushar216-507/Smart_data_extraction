@@ -1,0 +1,133 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:50:19.047028+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 11,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/immatrikulation",
+            "title": "hier",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.efv.verwaltung.uni-muenchen.de/kpp",
+            "title": "Online-Bewerbungsportal",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/dokumente_downloads/dokumente_lehr_forschungseinheiten/lehrstuhl_klinischepsychologie/satzungqualifikationpsychth-a.pdf",
+            "title": "Satzung über die Qualifikation, die Zulassung und die Fächerwahl zum Masterstudiengang Psychologie: Klinische Psychologie und Psychotherapie (PDF, 95 KB)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/dokumente_downloads/dokumente_lehr_forschungseinheiten/lehrstuhl_klinischepsychologie/modulhandbuch_2022_masterklippt.pdf",
+            "title": "Modulhandbuch (PDF, 486 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/psy/de/das-department",
+            "title": "Department",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.psy.lmu.de/munik/institut/index.html",
+            "title": "Münchner Universitäres Institut für Kinder und Jugendlichenpsychotherapieausbildung (MUNIK)",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://munip-ambulanz.de",
+            "title": "Münchner Universitäres Institut für Psychologische Psychotherapieausbildung (MUNIP)",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/pruefungsaemter/pruefungsamt-fuer-geistes-und-sozialwissenschaften/abschluesse/master/11-fakultaet-fuer-psychologie-und-paedagogik/psychologie/klinische-psychologie-und-psychotherapie",
+            "title": "Prüfungsauschuss",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/en/study/important-contacts/international-office",
+            "title": "International Office",
+            "category": "international",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.bdp-berufsberatung.de",
+            "title": "Berufsverbands Deutscher Psychologinnen und Psychologen",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung",
+            "title": "zentralen Studienberatung",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

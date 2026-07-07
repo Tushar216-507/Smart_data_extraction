@@ -1,0 +1,111 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:50:20.336631+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 9,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/dokumente_downloads/dokumente_studiengaenge/master-ls/application_form_ls_for_io.pdf",
+            "title": "help (PDF, 516 KB)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/en/study/degree-students/applications-for-admission/where-do-i-apply/index.html",
+            "title": "here",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.portal.graduatecenter.lmu.de/ocgc/mscls",
+            "title": "online application tool",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/en/study/degree-students/applications-for-admission/index.html",
+            "title": "website of the international office",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/dokumente_downloads/dokumente_studiengaenge/master-ls/module_catalogue_learningsciencesandhumandevelopment_oct25-2.pdf",
+            "title": "Module Catalogue (PDF, 430 KB)",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/semester-fees-for-the-munich-student-union",
+            "title": "student union",
+            "category": "fees",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/psy/de/das-department",
+            "title": "Department",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/en/workspace-for-students/international-student-guide/index.html",
+            "title": "Housing, Finances, Visa, ...",
+            "category": "international",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/en/study/degree-students/steps-to-studying-at-lmu",
+            "title": "International Office",
+            "category": "international",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}

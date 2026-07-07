@@ -1,0 +1,177 @@
+{
+    "version": 1,
+    "created_at": "2026-07-07T17:49:54.294651+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 15,
+        "completed": 0,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/freie-studiengaenge",
+            "title": "Freier Zugang",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/hochschulzugang/bewerbung-zulassung-und-immatrikulation/studiengaenge-mit-voranmeldeverfahren",
+            "title": "Voranmeldeverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/16-finmath/workgroup-finmath/downloads/neuwhandbuch_2021.pdf",
+            "title": "Modulhandbuch Hauptfach: Bachelor of Science in Wirtschaftsmathematik (180 ECTS-Punkte) auf Basis der Prufungs- und Studienordnung vom 08. Dezember 2021, Stand: 22.4.2022",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://cms-cdn.lmu.de/media/16-finmath/workgroup-finmath/downloads/neuwhandbuch_2015.pdf",
+            "title": "Modulhandbuch Hauptfach: Bachelor of Science in Wirtschaftsmathematik (180 ECTS-Punkte) auf Basis der Prufungs- und Studienordnung vom 17. August 2015, Stand: 2.5.2016",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.fm.math.lmu.de/en/student-q-a/q-a-general-questions",
+            "title": "Q&A - Can I receive credit for more than one course within the same module?",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1099487&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+            "title": "Rechenmethoden",
+            "category": "curriculum",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.math.lmu.de/schulen/studienanfaenger/brueckenkurs/index.html",
+            "title": "Department Mathematik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.math.lmu.de/lmu-mathe-sommer",
+            "title": "Department Mathematik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.math.lmu.de/mathematik-am-samstag",
+            "title": "Department Mathematik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.mathematik-informatik-statistik.uni-muenchen.de",
+            "title": "Fakultät für Mathematik, Informatik und Statistik",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "http://www.mathematik.uni-muenchen.de",
+            "title": "Mathematisches Institut",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.fm.math.lmu.de/en/student-advisory",
+            "title": "Fachstudienberatung Wirtschaftsmathematik",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/informationen-und-veranstaltungen",
+            "title": "Information und Orientierung zu Studienbeginn",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/beratung-und-orientierung/lmu-erleben",
+            "title": "Studieren erleben",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        },
+        {
+            "url": "https://www.lmu.de/de/studium/wichtige-kontakte/zentrale-studienberatung/index.html",
+            "title": "Website",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program"
+        }
+    ]
+}
