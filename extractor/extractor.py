@@ -5,6 +5,7 @@ from datetime import datetime
 from extractor.page_pipeline import PagePipeline
 from extractor.manifest_builder import ManifestBuilder
 from extractor.link_discovery import LinkDiscovery
+from extractor.evidence_expander import EvidenceExpander
 
 
 class ProgramExtractor:
@@ -14,6 +15,7 @@ class ProgramExtractor:
         self.page_pipeline = PagePipeline()
         self.manifest_builder = ManifestBuilder()
         self.link_discovery = LinkDiscovery()
+        self.evidence_expander = EvidenceExpander()
 
     def load_programs(self, json_file):
 
@@ -211,6 +213,10 @@ class ProgramExtractor:
             folder
         )
 
+        self.evidence_expander.expand(
+            folder
+        )
+
         print(
             f"✓ {metadata['title_en']}"
         )
@@ -227,7 +233,7 @@ class ProgramExtractor:
 
         programs = self.load_programs(
             input_json
-        )
+        )[:1]
 
         os.makedirs(
             output_folder,

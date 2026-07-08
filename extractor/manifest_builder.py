@@ -6,11 +6,9 @@ from datetime import datetime
 class ManifestBuilder:
 
     MAX_DEPTH = 2
-    best_links = {}
 
     EXPAND_CATEGORIES = {
         "admission",
-        "fees",
         "curriculum",
         "department",
         "international"
@@ -54,6 +52,8 @@ class ManifestBuilder:
             "queue": []
         }
 
+        best_links = {}
+
         seen = set()
 
         for link in links_data["links"]:
@@ -94,7 +94,12 @@ class ManifestBuilder:
 
         for link in best_links.values():
 
+            if link["priority"] < 50:
+                continue
+
             manifest["queue"].append({
+
+                "id": None,
 
                 "url": link["url"],
 
@@ -115,8 +120,27 @@ class ManifestBuilder:
 
                 "status": "pending",
 
-                "parent": "program"
+                "parent": "program",
+
+                "children_discovered": False,
+
+                "page_folder": None,
+
+                "downloaded_at": None
             })
+
+        CATEGORY_PRIORITY = {
+            "admission": 1,
+            "curriculum": 2,
+            "department": 3,
+            "international": 4,
+            "fees": 5,
+            "career": 6,
+            "module_handbook": 7,
+            "study_regulations": 8,
+            "brochure": 9,
+            "contact": 10
+        }
 
         manifest["queue"].sort(
 
@@ -124,11 +148,13 @@ class ManifestBuilder:
 
                 x["depth"],
 
-                -x["priority"],
+                CATEGORY_PRIORITY.get(
+                    x["category"],
+                    99
+                ),
 
-                x["category"],
+                -x["priority"]
 
-                x["title"].lower()
             )
         )
 

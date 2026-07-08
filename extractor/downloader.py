@@ -93,3 +93,51 @@ class PageDownloader:
 
             "html": response.text
         }
+    
+    def download_file(
+        self,
+        url,
+        output_path
+    ):
+
+        response = self.session.get(
+
+            url,
+
+            timeout=self.timeout,
+
+            allow_redirects=True,
+
+            verify=self.verify_ssl,
+
+            stream=True
+        )
+
+        response.raise_for_status()
+
+        with open(
+            output_path,
+            "wb"
+        ) as f:
+
+            for chunk in response.iter_content(
+                chunk_size=8192
+            ):
+
+                if chunk:
+                    f.write(chunk)
+
+        return {
+
+            "url": response.url,
+
+            "status": response.status_code,
+
+            "content_type":
+                response.headers.get(
+                    "Content-Type",
+                    ""
+                ),
+
+            "filename": output_path
+        }

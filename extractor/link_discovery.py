@@ -44,6 +44,26 @@ class LinkDiscovery:
         "teilen"
     ]
 
+    BUTTON_TEXTS = {
+        "weiter",
+        "weiter zum studienplatz",
+        "jetzt bewerben",
+        "bewerben",
+        "read more",
+        "learn more",
+        "next",
+        "overview",
+        "zur übersicht",
+        "mehr",
+        "mehr erfahren",
+        "english",
+        "switch to english",
+        "deutsch",
+        "sprachversion",
+        "en",
+        "de"
+    }
+
     def __init__(self):
         pass
 
@@ -54,6 +74,30 @@ class LinkDiscovery:
         parsed = urlparse(url)
 
         path = parsed.path.lower()
+
+        if any(
+            x in path
+            for x in [
+
+                "english",
+
+                "sprachversion",
+
+                "language"
+
+            ]
+        ):
+
+            return {
+
+                "type":"page",
+
+                "category":"language",
+
+                "purpose":"navigation",
+
+                "priority":0
+            }
 
         title = text.lower()
 
@@ -130,8 +174,6 @@ class LinkDiscovery:
 
             "apply",
 
-            "immatrikulation"
-
         ]):
 
             return {
@@ -149,7 +191,7 @@ class LinkDiscovery:
         # Curriculum
         # -----------------------------
 
-        if any(x in value for x in [
+        if any(x in path for x in [
 
             "curriculum",
 
@@ -176,7 +218,7 @@ class LinkDiscovery:
         # Fees
         # -----------------------------
 
-        if any(x in value for x in [
+        if any(x in path for x in [
 
             "fee",
 
@@ -205,7 +247,7 @@ class LinkDiscovery:
         # Scholarships
         # -----------------------------
 
-        if any(x in value for x in [
+        if any(x in path for x in [
 
             "scholarship",
 
@@ -282,7 +324,7 @@ class LinkDiscovery:
         # Career
         # -----------------------------
 
-        if any(x in value for x in [
+        if any(x in path for x in [
 
             "career",
 
@@ -337,7 +379,7 @@ class LinkDiscovery:
         # Discovery
         # -----------------------------
 
-        if "sitemap" in value:
+        if "sitemap" in path:
 
             return {
 
@@ -350,7 +392,7 @@ class LinkDiscovery:
                 "priority": 40
             }
 
-        if "search" in value:
+        if "search" in path:
 
             return {
 
@@ -411,6 +453,9 @@ class LinkDiscovery:
 
             text = a.get_text(" ", strip=True)
 
+            if text.lower() in self.BUTTON_TEXTS:
+                continue
+
             if not text:
                 continue
 
@@ -428,12 +473,28 @@ class LinkDiscovery:
             ):
                 continue
 
-            is_pdf = url.lower().endswith(".pdf")
-
             info = self.classify(
                 url,
                 text
             )
+
+            BAD_PATTERNS = [
+
+                "weiter-zum-studienplatz",
+
+                "jetzt-bewerben",
+
+                "/en/",
+
+                "/english/"
+
+            ]
+
+            if any(
+                x in url.lower()
+                for x in BAD_PATTERNS
+            ):
+                continue
 
             results.append({
 

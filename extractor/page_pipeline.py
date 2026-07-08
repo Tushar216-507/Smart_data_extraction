@@ -27,6 +27,8 @@ class PagePipeline:
 
             "status": page.get("status", 200),
 
+            "title": page.get("title", ""),
+
             "raw_html": raw_html,
 
             "clean_html": clean_html,
