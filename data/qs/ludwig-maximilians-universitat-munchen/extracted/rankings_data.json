@@ -1,0 +1,567 @@
+{
+  "source": {
+    "provider": "QS TopUniversities",
+    "profile_url": "https://www.topuniversities.com/universities/ludwig-maximilians-universitat-munchen",
+    "university_slug": "ludwig-maximilians-universitat-munchen"
+  },
+  "identifiers": {
+    "qs_profile_id": 420,
+    "drupal_node_id": 294840
+  },
+  "university": {
+    "name": "Ludwig-Maximilians-Universität München"
+  },
+  "rankings": [
+    {
+      "ranking_id": 513,
+      "profile_id": 420,
+      "offset": 0,
+      "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/513/420/0?_wrapper_format=drupal_ajax",
+      "ranking_name": "QS World University Rankings",
+      "current_ranking": {
+        "year": 2027,
+        "rank": "#61",
+        "rank_numeric": 61,
+        "rank_min": null,
+        "rank_max": null,
+        "is_tied": false,
+        "is_range": false,
+        "score": 79.6
+      },
+      "overall_score": 79.6,
+      "ranking_history": [
+        {
+          "year": 2027,
+          "rank": "#61",
+          "rank_numeric": 61,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2026,
+          "rank": "#=58",
+          "rank_numeric": 58,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2025,
+          "rank": "#59",
+          "rank_numeric": 59,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2024,
+          "rank": "#54",
+          "rank_numeric": 54,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2023,
+          "rank": "#59",
+          "rank_numeric": 59,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2022,
+          "rank": "#64",
+          "rank_numeric": 64,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2021,
+          "rank": "#63",
+          "rank_numeric": 63,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2020,
+          "rank": "#63",
+          "rank_numeric": 63,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2019,
+          "rank": "#62",
+          "rank_numeric": 62,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2018,
+          "rank": "#66",
+          "rank_numeric": 66,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2017,
+          "rank": "#=68",
+          "rank_numeric": 68,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2016,
+          "rank": "#75",
+          "rank_numeric": 75,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2015,
+          "rank": "#=52",
+          "rank_numeric": 52,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 79.6
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 97.3
+        },
+        {
+          "name": "Citations per Faculty",
+          "score": 62.2
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 70.7
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 93.3
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 38.9
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 82.2
+        },
+        {
+          "name": "International Research Network",
+          "score": 95.2
+        },
+        {
+          "name": "International Student Ratio",
+          "score": 57.5
+        },
+        {
+          "name": "Sustainability",
+          "score": 88.3
+        }
+      ],
+      "extraction": {
+        "html_fragments_found": 1,
+        "ranking_records_found": 13,
+        "criteria_found": 10,
+        "history_source": "qs_json_data"
+      }
+    },
+    {
+      "ranking_id": 516,
+      "profile_id": 420,
+      "offset": 501,
+      "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/516/420/501?_wrapper_format=drupal_ajax",
+      "ranking_name": "QS Sustainability Rankings",
+      "current_ranking": {
+        "year": 2026,
+        "rank": "#11",
+        "rank_numeric": 11,
+        "rank_min": null,
+        "rank_max": null,
+        "is_tied": false,
+        "is_range": false,
+        "score": 82.4
+      },
+      "overall_score": 82.4,
+      "ranking_history": [
+        {
+          "year": 2026,
+          "rank": "#11",
+          "rank_numeric": 11,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2025,
+          "rank": "#=6",
+          "rank_numeric": 6,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2024,
+          "rank": "#6",
+          "rank_numeric": 6,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2023,
+          "rank": "#9",
+          "rank_numeric": 9,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2022,
+          "rank": "#=14",
+          "rank_numeric": 14,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2021,
+          "rank": "#15",
+          "rank_numeric": 15,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2020,
+          "rank": "#14",
+          "rank_numeric": 14,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 82.4
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 82.2
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 85.3
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 77.5
+        },
+        {
+          "name": "H-index Citations",
+          "score": 83.1
+        }
+      ],
+      "extraction": {
+        "html_fragments_found": 2,
+        "ranking_records_found": 7,
+        "criteria_found": 5,
+        "history_source": "qs_json_data"
+      }
+    },
+    {
+      "ranking_id": 4085,
+      "profile_id": 420,
+      "offset": 0,
+      "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4085/420/0?_wrapper_format=drupal_ajax",
+      "ranking_name": "QS Ranking 4085",
+      "current_ranking": {
+        "year": 2026,
+        "rank": "#=103",
+        "rank_numeric": 103,
+        "rank_min": null,
+        "rank_max": null,
+        "is_tied": true,
+        "is_range": false,
+        "score": 89.5
+      },
+      "overall_score": 89.5,
+      "ranking_history": [
+        {
+          "year": 2026,
+          "rank": "#=103",
+          "rank_numeric": 103,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2025,
+          "rank": "#89",
+          "rank_numeric": 89,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2024,
+          "rank": "#=255",
+          "rank_numeric": 255,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2023,
+          "rank": "#161-170",
+          "rank_numeric": null,
+          "rank_min": 161,
+          "rank_max": 170,
+          "is_tied": false,
+          "is_range": true,
+          "score": null
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 89.5
+        },
+        {
+          "name": "Impact of Education",
+          "score": 96
+        },
+        {
+          "name": "Employability & Opportunities",
+          "score": 99.2
+        },
+        {
+          "name": "Environmental Impact",
+          "score": 81.5
+        },
+        {
+          "name": "Equality",
+          "score": 86.9
+        },
+        {
+          "name": "Governance",
+          "score": 89.1
+        },
+        {
+          "name": "Knowledge Exchange",
+          "score": 97.7
+        },
+        {
+          "name": "Health and Wellbeing",
+          "score": 99
+        },
+        {
+          "name": "Social Impact",
+          "score": 95.8
+        },
+        {
+          "name": "Environmental Education",
+          "score": 93.7
+        },
+        {
+          "name": "Environmental Sustainability",
+          "score": 52.9
+        },
+        {
+          "name": "Environmental Research",
+          "score": 97.5
+        }
+      ],
+      "extraction": {
+        "html_fragments_found": 1,
+        "ranking_records_found": 4,
+        "criteria_found": 12,
+        "history_source": "qs_json_data"
+      }
+    },
+    {
+      "ranking_id": 4093,
+      "profile_id": 420,
+      "offset": 0,
+      "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4093/420/0?_wrapper_format=drupal_ajax",
+      "ranking_name": "QS Ranking 4093",
+      "current_ranking": {
+        "year": 2026,
+        "rank": "#6",
+        "rank_numeric": 6,
+        "rank_min": null,
+        "rank_max": null,
+        "is_tied": false,
+        "is_range": false,
+        "score": 92.1
+      },
+      "overall_score": 92.1,
+      "ranking_history": [
+        {
+          "year": 2026,
+          "rank": "#6",
+          "rank_numeric": 6,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2025,
+          "rank": "#8",
+          "rank_numeric": 8,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": false,
+          "is_range": false,
+          "score": null
+        },
+        {
+          "year": 2024,
+          "rank": "#=6",
+          "rank_numeric": 6,
+          "rank_min": null,
+          "rank_max": null,
+          "is_tied": true,
+          "is_range": false,
+          "score": null
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 92.1
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 99.9
+        },
+        {
+          "name": "International Student Diversity",
+          "score": 56
+        },
+        {
+          "name": "Outbound Exchange Students",
+          "score": 85.2
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 87.6
+        },
+        {
+          "name": "Papers per Faculty",
+          "score": 75
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 99.7
+        },
+        {
+          "name": "Sustainability",
+          "score": 97
+        },
+        {
+          "name": "International Research Network",
+          "score": 94.2
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 94.1
+        },
+        {
+          "name": "Inbound Exchange Students",
+          "score": 49.2
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 80.1
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 57.3
+        }
+      ],
+      "extraction": {
+        "html_fragments_found": 1,
+        "ranking_records_found": 3,
+        "criteria_found": 13,
+        "history_source": "qs_json_data"
+      }
+    }
+  ],
+  "extraction": {
+    "endpoints_discovered": 4,
+    "unique_endpoints": 4,
+    "endpoints_processed": 4,
+    "endpoints_failed": 0,
+    "ranking_records_found": 27,
+    "failed_endpoints": [],
+    "extracted_at": "2026-07-12T17:08:15.936364+00:00"
+  }
+}

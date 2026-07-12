@@ -1,0 +1,676 @@
+{
+  "schema": {
+    "name": "qs_university_data",
+    "version": "1.0"
+  },
+  "source": {
+    "provider": "QS TopUniversities",
+    "profile_url": "https://www.topuniversities.com/universities/ludwig-maximilians-universitat-munchen",
+    "university_slug": "ludwig-maximilians-universitat-munchen",
+    "built_at": "2026-07-12T17:18:39.053411+00:00"
+  },
+  "identifiers": {
+    "qs_profile_id": 420,
+    "drupal_node_id": 294840
+  },
+  "university": {
+    "name": "Ludwig-Maximilians-Universität München",
+    "description": "Learn more about studying at Ludwig-Maximilians-Universität München including how it performs in QS rankings, the cost of tuition and further course information.",
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/ludwig-maximilians-universitt-mnchen_420_large.jpg"
+  },
+  "overview": {
+    "content": "Ludwig-Maximilians-Universität München\n- the University in the heart of Munich - is recognized as one of Europe's premier academic and research institutions . Since our founding in 1472, LMU has attracted inspired scholars and talented students from around the globe , keeping the University at the nexus of ideas that challenge and change our complex world.\nAs\none of Europe's leading research universities\n, LMU looks back on 500 years of tradition . Its excellence in teaching and research embraces a wide diversity of fields -- from the humanities and cultural studies through law, economics and social sciences to medicine and natural sciences. An intense interdisciplinary approach fosters the innovation so critical to our global future.\nCreative thinking, problem-solving and research are central to LMU's academic programs . Its University Hospital is, next to the Charité in Berlin, the most prestigious and largest institution of this kind in Germany."
+  },
+  "locations": {
+    "campuses": [
+      {
+        "name": "Ludwig-Maximilians-Universität München",
+        "address": {
+          "street": "Geschwister-Scholl-Platz 1",
+          "city": "Munich",
+          "postal_code": "80539",
+          "country": "Germany"
+        }
+      }
+    ]
+  },
+  "statistics": {
+    "total_students": {
+      "display_value": "35,596",
+      "value": 35596,
+      "breakdown": {
+        "undergraduate_percentage": 62.8,
+        "postgraduate_percentage": 37.2
+      }
+    },
+    "international_students": {
+      "display_value": "7,403",
+      "value": 7403,
+      "breakdown": {
+        "undergraduate_percentage": 49.5,
+        "postgraduate_percentage": 50.5
+      }
+    },
+    "total_faculty_staff": {
+      "display_value": "3,569",
+      "value": 3569,
+      "breakdown": {
+        "domestic_percentage": 70.0,
+        "international_percentage": 30.0
+      }
+    }
+  },
+  "cost_of_living": {
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "items": [
+      {
+        "category": "accommodation",
+        "label": "Accommodation",
+        "display_value": "$9,790",
+        "amount": 9790.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "food",
+        "label": "Food",
+        "display_value": "$3,600",
+        "amount": 3600.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "transport",
+        "label": "Transport",
+        "display_value": "$710",
+        "amount": 710.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "utilities",
+        "label": "Utilities",
+        "display_value": "$4,690",
+        "amount": 4690.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "ranking_id": 513,
+      "name": "QS World University Rankings",
+      "current": {
+        "year": 2027,
+        "rank": "#61",
+        "rank_numeric": 61,
+        "is_tied": false,
+        "is_range": false,
+        "score": 79.6
+      },
+      "overall_score": 79.6,
+      "history": [
+        {
+          "year": 2027,
+          "rank": "#61",
+          "rank_numeric": 61,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2026,
+          "rank": "#=58",
+          "rank_numeric": 58,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#59",
+          "rank_numeric": 59,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#54",
+          "rank_numeric": 54,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#59",
+          "rank_numeric": 59,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#64",
+          "rank_numeric": 64,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#63",
+          "rank_numeric": 63,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2020,
+          "rank": "#63",
+          "rank_numeric": 63,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2019,
+          "rank": "#62",
+          "rank_numeric": 62,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2018,
+          "rank": "#66",
+          "rank_numeric": 66,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2017,
+          "rank": "#=68",
+          "rank_numeric": 68,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2016,
+          "rank": "#75",
+          "rank_numeric": 75,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2015,
+          "rank": "#=52",
+          "rank_numeric": 52,
+          "is_tied": true,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 79.6
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 97.3
+        },
+        {
+          "name": "Citations per Faculty",
+          "score": 62.2
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 70.7
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 93.3
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 38.9
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 82.2
+        },
+        {
+          "name": "International Research Network",
+          "score": 95.2
+        },
+        {
+          "name": "International Student Ratio",
+          "score": 57.5
+        },
+        {
+          "name": "Sustainability",
+          "score": 88.3
+        }
+      ],
+      "source": {
+        "profile_id": 420,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/513/420/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 516,
+      "name": "QS Sustainability Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#11",
+        "rank_numeric": 11,
+        "is_tied": false,
+        "is_range": false,
+        "score": 82.4
+      },
+      "overall_score": 82.4,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#11",
+          "rank_numeric": 11,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=6",
+          "rank_numeric": 6,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#6",
+          "rank_numeric": 6,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#9",
+          "rank_numeric": 9,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#=14",
+          "rank_numeric": 14,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#15",
+          "rank_numeric": 15,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2020,
+          "rank": "#14",
+          "rank_numeric": 14,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 82.4
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 82.2
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 85.3
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 77.5
+        },
+        {
+          "name": "H-index Citations",
+          "score": 83.1
+        }
+      ],
+      "source": {
+        "profile_id": 420,
+        "offset": 501,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/516/420/501?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4085,
+      "name": "QS Ranking 4085",
+      "current": {
+        "year": 2026,
+        "rank": "#=103",
+        "rank_numeric": 103,
+        "is_tied": true,
+        "is_range": false,
+        "score": 89.5
+      },
+      "overall_score": 89.5,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#=103",
+          "rank_numeric": 103,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#89",
+          "rank_numeric": 89,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=255",
+          "rank_numeric": 255,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#161-170",
+          "rank_min": 161,
+          "rank_max": 170,
+          "is_tied": false,
+          "is_range": true
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 89.5
+        },
+        {
+          "name": "Impact of Education",
+          "score": 96
+        },
+        {
+          "name": "Employability & Opportunities",
+          "score": 99.2
+        },
+        {
+          "name": "Environmental Impact",
+          "score": 81.5
+        },
+        {
+          "name": "Equality",
+          "score": 86.9
+        },
+        {
+          "name": "Governance",
+          "score": 89.1
+        },
+        {
+          "name": "Knowledge Exchange",
+          "score": 97.7
+        },
+        {
+          "name": "Health and Wellbeing",
+          "score": 99
+        },
+        {
+          "name": "Social Impact",
+          "score": 95.8
+        },
+        {
+          "name": "Environmental Education",
+          "score": 93.7
+        },
+        {
+          "name": "Environmental Sustainability",
+          "score": 52.9
+        },
+        {
+          "name": "Environmental Research",
+          "score": 97.5
+        }
+      ],
+      "source": {
+        "profile_id": 420,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4085/420/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4093,
+      "name": "QS Ranking 4093",
+      "current": {
+        "year": 2026,
+        "rank": "#6",
+        "rank_numeric": 6,
+        "is_tied": false,
+        "is_range": false,
+        "score": 92.1
+      },
+      "overall_score": 92.1,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#6",
+          "rank_numeric": 6,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#8",
+          "rank_numeric": 8,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=6",
+          "rank_numeric": 6,
+          "is_tied": true,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 92.1
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 99.9
+        },
+        {
+          "name": "International Student Diversity",
+          "score": 56
+        },
+        {
+          "name": "Outbound Exchange Students",
+          "score": 85.2
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 87.6
+        },
+        {
+          "name": "Papers per Faculty",
+          "score": 75
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 99.7
+        },
+        {
+          "name": "Sustainability",
+          "score": 97
+        },
+        {
+          "name": "International Research Network",
+          "score": 94.2
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 94.1
+        },
+        {
+          "name": "Inbound Exchange Students",
+          "score": 49.2
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 80.1
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 57.3
+        }
+      ],
+      "source": {
+        "profile_id": 420,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4093/420/0?_wrapper_format=drupal_ajax"
+      }
+    }
+  ],
+  "scholarships": {
+    "available": true,
+    "sections": [
+      {
+        "title": "Scholarships",
+        "content": "Scholarships\nSelecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n967.7K\n2227\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n492.5K\n786\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n224.5K\n334"
+      },
+      {
+        "title": "Scholarships",
+        "content": "Selecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n967.7K\n2227\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n492.5K\n786\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n224.5K\n334"
+      },
+      {
+        "title": "How to get a full scholarship",
+        "content": "Looking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n967.7K\n2227"
+      },
+      {
+        "title": "Scholarships to study abroad",
+        "content": "Find scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n492.5K\n786"
+      },
+      {
+        "title": "Scholarship Applications: Frequently Asked Questions",
+        "content": "Get answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n224.5K\n334"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/how-get-full-scholarship"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=913584&redirect_path=/universities/ludwig-maximilians-universitat-munchen"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/sabrinacollier"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-abroad"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=118181&redirect_path=/universities/ludwig-maximilians-universitat-munchen"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/qs-staff-writer"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarship-applications-frequently-asked-questions"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=268050&redirect_path=/universities/ludwig-maximilians-universitat-munchen"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/laurat"
+      }
+    ]
+  },
+  "social_links": [
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.de/lmu.muenchen",
+      "source_url": "www.facebook.de/lmu.muenchen"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCmIoovqeiujBp1sZHI7-poQ",
+      "source_url": "https://www.youtube.com/channel/UCmIoovqeiujBp1sZHI7-poQ"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://www.twitter.de/LMU_muenchen",
+      "source_url": "www.twitter.de/LMU_muenchen"
+    }
+  ],
+  "media": {
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/ludwig-maximilians-universitt-mnchen_420_large.jpg",
+    "image_urls": [
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/Geschwister-Scholl-Platz_ID16335-1622550278.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu-munich-new-semester.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/brunnen.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/LMU_BMC-20-1622549771.jpg_ID17437%20%281%29",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/Nanoinstitut_ID16901_1-1622549797.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/Philologicum_ID18943_1-1622549826.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu-munich-new-auditorium-.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu-munich-bio-campus.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu-munich-bio.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu-munich-students-biocenter.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu-munich-students-main-green.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/dsc-4741.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/lmu_munich_cover-1673534738.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles/logos/ludwig-maximilians-universitt-mnchen_420_large.jpg"
+    ],
+    "image_count": 14
+  },
+  "supplementary_content": {
+    "additional_sections": [
+      {
+        "title": "Available programmes",
+        "content": "Master\n(32)\nPG\nArts and Humanities\n(6)\nM.A. American History, Culture and Society\n::type_cta_button::\nGo to Programme\nMA English Studies (English version)\nMaster in Logic and Philosophy of Science\nBusiness and Management\nExecutive Master of Insurance (E.M. Insurance)\nM.Sc. in Management - European Triple Degree (ETD)\nM.Sc. in Management - International Triple Degree\nMSc Data Science\nMaster's program Management and Digital Technologies (MMT)\nEngineering and Technology\nSoftware Engineering: Elite Graduate Program\nLife Sciences and Medicine\nElite Master Program Human Biology - Principles of Health and Disease\nErasmus Mundus Master Programme in Evolutionary Biology\nM.Sc. In Neuro-Cognitive Psychology\nM.Sc. Psychology: Learning Sciences\nMSc International Health\nMSc Neurosciences\nMaster Program Molecular and Cellular Biology\nMaster Program Plant Sciences\nMaster in Biochemistry\nMaster's program Geobiology and Paleobiology (MGAP)\nMunich Graduate School for Evolution, Ecology and Systematics (EES LMU)\nView All\nNatural Sciences\nElite Master Course Theoretical and Mathematical Physics\nInternational Masters Programme in Geophysics\nM.Sc. Geomaterials and Geochemistry\nM.Sc. Meteorology\nMSc Physics\nMaster Degree in Financial and Insurance Mathematics\nMaster in Materials Science (Exploring Large Scale Facilities)\nMaster of Science (M.Sc.) in Astrophysics\nSocial Sciences and Management\nMaster Program Statistics and Data Science\nMaster Program in Economics\nMaster in Quantitative Economics\nMundus Journalism MA Degree"
+      }
+    ]
+  },
+  "extraction": {
+    "profile": {
+      "json_ld_items_found": 5,
+      "profile_badges_found": 3,
+      "campuses_found": 1,
+      "social_links_found": 3,
+      "website_urls_found": 0,
+      "images_found": 14,
+      "statistics_found": 3,
+      "cost_items_found": 4,
+      "scholarship_sections_found": 5,
+      "university_information_sections_found": 2,
+      "ranking_summaries_found": 1,
+      "ranking_endpoints_found": 4,
+      "additional_sections_found": 1
+    },
+    "rankings": {
+      "endpoints_discovered": 4,
+      "unique_endpoints": 4,
+      "endpoints_processed": 4,
+      "endpoints_failed": 0,
+      "ranking_records_found": 27,
+      "extracted_at": "2026-07-12T17:08:15.936364+00:00"
+    }
+  },
+  "build_summary": {
+    "ranking_count": 4,
+    "ranking_history_records": 27,
+    "ranking_criteria_count": 40,
+    "campus_count": 1,
+    "social_link_count": 3,
+    "image_count": 14,
+    "statistics_sections": 3,
+    "has_cost_of_living": true,
+    "has_programmes": false
+  }
+}
