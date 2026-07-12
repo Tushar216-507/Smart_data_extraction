@@ -1,10 +1,10 @@
 {
     "version": 1,
-    "created_at": "2026-07-08T11:44:48.495660+05:30",
+    "created_at": "2026-07-09T10:19:38.241887+05:30",
     "max_depth": 2,
     "statistics": {
-        "pending": 0,
-        "completed": 4,
+        "pending": 1,
+        "completed": 3,
         "failed": 0
     },
     "queue": [
@@ -20,8 +20,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": true,
-            "page_folder": "0001",
-            "downloaded_at": "2026-07-08T11:44:50.489180+05:30"
+            "page_folder": "0005",
+            "downloaded_at": "2026-07-09T10:19:41.365671+05:30"
         },
         {
             "id": null,
@@ -35,8 +35,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": false,
-            "page_folder": "0002",
-            "downloaded_at": "2026-07-08T11:44:58.564537+05:30"
+            "page_folder": "0006",
+            "downloaded_at": "2026-07-09T10:19:45.920774+05:30"
         },
         {
             "id": null,
@@ -50,8 +50,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": false,
-            "page_folder": "0003",
-            "downloaded_at": "2026-07-08T11:45:00.779548+05:30"
+            "page_folder": "0007",
+            "downloaded_at": "2026-07-09T10:19:49.101343+05:30"
         },
         {
             "id": null,
@@ -62,11 +62,11 @@
             "priority": 60,
             "depth": 1,
             "expand": false,
-            "status": "completed",
+            "status": "pending",
             "parent": "program",
             "children_discovered": false,
-            "page_folder": "0004",
-            "downloaded_at": "2026-07-08T11:45:03.063433+05:30"
+            "page_folder": null,
+            "downloaded_at": null
         }
     ]
 }

@@ -4,7 +4,8 @@ from pathlib import Path
 from .models import (
     EvidencePack,
     EvidencePage,
-    PdfEvidence
+    PdfEvidence,
+    ProgramEvidence
 )
 
 
@@ -54,28 +55,31 @@ class EvidencePackBuilder:
 
         pack = EvidencePack(
 
-            university=program_metadata.get(
-                "university",
-                ""
+        program=ProgramEvidence(
+
+            markdown=program_markdown,
+
+            metadata=program_metadata,
+
+            raw_html=self.load_text(
+                program_dir / "raw.html"
             ),
 
-            program_name=program_metadata.get(
-                "title",
-                ""
-            ),
-
-            program_markdown=program_markdown,
-
-            program_metadata=program_metadata,
-
-            crawl_manifest=self.load_json(
-                root / "crawl_manifest.json"
-            ),
-
-            links=self.load_json(
-                root / "links.json"
+            clean_html=self.load_text(
+                program_dir / "clean.html"
             )
+
+        ),
+
+        crawl_manifest=self.load_json(
+            root / "crawl_manifest.json"
+        ),
+
+        links=self.load_json(
+            root / "links.json"
         )
+
+    )
 
         pages_root = root / "pages"
 
@@ -106,6 +110,11 @@ class EvidencePackBuilder:
                         title=metadata.get("title", ""),
 
                         category=metadata.get(
+                            "category",
+                            ""
+                        ),
+
+                        document_type=metadata.get(
                             "category",
                             ""
                         ),
@@ -141,6 +150,10 @@ class EvidencePackBuilder:
                         ),
 
                         markdown=page_md,
+
+                        clean_html=self.load_text(
+                            folder / "clean.html"
+                        ),
 
                         metadata=metadata
                     )
