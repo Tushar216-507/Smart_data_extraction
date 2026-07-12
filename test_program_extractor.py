@@ -18,6 +18,10 @@ from knowledge.extractors.program_extractor import (
     ProgramExtractor
 )
 
+from knowledge.storage.fact_repository import (
+    FactRepository
+)
+
 
 load_dotenv()
 
@@ -32,8 +36,7 @@ pack = builder.build(
 provider = OpenAIProvider(
 
     api_key="",
-
-    model="gpt-4o-mini"
+    model="gpt-4.1"
 )
 
 
@@ -49,6 +52,23 @@ extractor = ProgramExtractor(
 
 facts = extractor.extract(
     pack.program
+)
+
+repository = FactRepository()
+
+output_path = repository.save(
+    facts=facts.facts,
+    output_path=(
+        "data/0001/knowledge/"
+        "raw_program_facts.json"
+    ),
+)
+
+print()
+
+print(
+    f"✓ Raw facts saved to: "
+    f"{output_path}"
 )
 
 

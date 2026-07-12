@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0001",
+  "program_name": "Egyptology and Coptology",
+  "source_file": "data\\0001\\knowledge\\normalized_program_facts.json",
+  "output_directory": "final",
+  "input_fact_count": 144,
+  "unique_fact_count": 144,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 144,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 144,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 19,
+    "admission": 7,
+    "curriculum": 105,
+    "career": 6,
+    "fees": 1,
+    "scholarships": 0,
+    "contacts": 4,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "final\\program_data.json",
+    "admission": "final\\admission_data.json",
+    "curriculum": "final\\curriculum_data.json",
+    "career": "final\\career_data.json",
+    "fees": "final\\fees_data.json",
+    "contacts": "final\\contacts_data.json",
+    "student_life": "final\\student_life_data.json",
+    "summary": "final\\build_summary.json"
+  }
+}

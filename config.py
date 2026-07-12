@@ -7,3 +7,5 @@ class Config:
     OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
     OPENAI_MODEL = os.getenv('OPENAI_MODEL')
     GROQ_MODEL = os.getenv('GROQ_MODEL')
+    NVIDIA_API_KEY = os.getenv('NVIDIA_API_KEY')
+    NVIDIA_MODEL = os.getenv('NVIDIA_MODEL')
