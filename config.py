@@ -12,6 +12,9 @@ class Config:
     NVIDIA_API_KEY = os.getenv('NVIDIA_API_KEY')
     NVIDIA_MODEL = os.getenv('NVIDIA_MODEL')
 
+    GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+    NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
+
     AZURE_IMG_ENDPOINT=os.getenv('AZURE_IMG_ENDPOINT')
     AZURE_PDF_ENDPOINT=os.getenv('AZURE_PDF_ENDPOINT')
     AZURE_IMG_KEY=os.getenv('AZURE_IMG_KEY')
