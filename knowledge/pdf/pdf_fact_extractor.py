@@ -584,6 +584,8 @@ class PDFFactExtractor:
         "identity",
         "overview",
         "qualification",
+        "program",
+        "requirement",
         "academic_structure",
         "curriculum",
         "module",
@@ -1404,14 +1406,21 @@ class PDFFactExtractor:
             or f"chunk_{chunk_index:04d}"
         )
 
+        section = chunk.get("section")
+
+        if not isinstance(section, dict):
+            section = {}
+
         section_title = (
-            chunk.get("section_title")
+            section.get("title")
+            or chunk.get("section_title")
             or chunk.get("title")
             or "Unknown section"
         )
 
         section_type = (
-            chunk.get("section_type")
+            section.get("type")
+            or chunk.get("section_type")
             or "other"
         )
 
@@ -1444,6 +1453,18 @@ class PDFFactExtractor:
             ),
         }
 
+        chunk_statistics = (
+            chunk.get("statistics")
+            or chunk.get("content_statistics")
+            or {}
+        )
+
+        if not isinstance(
+            chunk_statistics,
+            dict,
+        ):
+            chunk_statistics = {}
+
         chunk_context = {
             "chunk_number": chunk_index,
             "total_chunks": total_chunks,
@@ -1472,10 +1493,22 @@ class PDFFactExtractor:
                 )
             ),
             "contains_table": bool(
-                chunk.get("contains_table")
+                chunk_statistics.get(
+                    "contains_table",
+                    chunk.get(
+                        "contains_table",
+                        False,
+                    ),
+                )
             ),
             "table_count": self._safe_int(
-                chunk.get("table_count"),
+                chunk_statistics.get(
+                    "table_count",
+                    chunk.get(
+                        "table_count",
+                        0,
+                    ),
+                ),
                 default=0,
             ),
         }
@@ -2847,13 +2880,42 @@ class PDFFactExtractor:
                 extracted_code,
             )
 
+        entity_type = str(
+            entity.get("type")
+            or ""
+        ).casefold()
+
         if field.endswith(
             (
                 "_title",
                 "_name",
             )
         ):
-            if (
+            # Preserve already valid canonical identity fields.
+            if field in {
+                "program_name",
+                "module_name",
+                "course_name",
+            }:
+                pass
+
+            elif entity_type in {
+                "program",
+                "programme",
+            }:
+                fact["field"] = "program_name"
+
+            elif entity_type == "course":
+                fact["field"] = "course_name"
+
+            elif entity_type in {
+                "module",
+                "module_component",
+                "component",
+            }:
+                fact["field"] = "module_name"
+
+            elif (
                 "course" in field
                 or (
                     extracted_code
@@ -2861,17 +2923,15 @@ class PDFFactExtractor:
                 )
             ):
                 fact["field"] = "course_name"
-                entity["type"] = (
-                    entity.get("type")
-                    or "course"
-                )
+
+                if not entity.get("type"):
+                    entity["type"] = "course"
 
             else:
-                fact["field"] = "module_name"
-                entity["type"] = (
-                    entity.get("type")
-                    or "module"
-                )
+                # Unknown descriptive fields are preserved.
+                # Do not automatically convert every *_name or
+                # *_title field into module_name.
+                fact["field"] = field
 
         elif field.endswith(
             (
@@ -2880,21 +2940,44 @@ class PDFFactExtractor:
                 "_credit",
             )
         ):
-            if (
+            # Preserve valid canonical credit fields.
+            if field in {
+                "total_credits",
+                "module_credits",
+                "course_credits",
+                "component_credits",
+            }:
+                pass
+
+            elif entity_type in {
+                "program",
+                "programme",
+            }:
+                fact["field"] = "total_credits"
+
+            elif entity_type == "course":
+                fact["field"] = "course_credits"
+
+            elif entity_type in {
+                "module_component",
+                "component",
+            }:
+                fact["field"] = "component_credits"
+
+            elif entity_type == "module":
+                fact["field"] = "module_credits"
+
+            elif (
                 "course" in field
                 or (
                     extracted_code
                     and "." in extracted_code
                 )
             ):
-                fact["field"] = (
-                    "course_credits"
-                )
+                fact["field"] = "course_credits"
 
             else:
-                fact["field"] = (
-                    "module_credits"
-                )
+                fact["field"] = field
 
         elif field.endswith(
             (
@@ -2928,6 +3011,23 @@ class PDFFactExtractor:
         """
         Build complete PDF provenance for one fact.
         """
+
+        section = chunk.get("section")
+
+        if not isinstance(section, dict):
+            section = {}
+
+        chunk_statistics = (
+            chunk.get("statistics")
+            or chunk.get("content_statistics")
+            or {}
+        )
+
+        if not isinstance(
+            chunk_statistics,
+            dict,
+        ):
+            chunk_statistics = {}
 
         chunk_content = str(
             chunk.get("content")
@@ -2971,21 +3071,35 @@ class PDFFactExtractor:
                 or chunk.get("id")
             ),
             "section_title": (
-                chunk.get("section_title")
+                section.get("title")
+                or chunk.get("section_title")
                 or chunk.get("title")
             ),
             "section_type": (
-                chunk.get("section_type")
+                section.get("type")
+                or chunk.get("section_type")
                 or "other"
             ),
             "pages": self._extract_page_numbers(
                 chunk
             ),
             "contains_table": bool(
-                chunk.get("contains_table")
+                chunk_statistics.get(
+                    "contains_table",
+                    chunk.get(
+                        "contains_table",
+                        False,
+                    ),
+                )
             ),
             "table_count": self._safe_int(
-                chunk.get("table_count"),
+                chunk_statistics.get(
+                    "table_count",
+                    chunk.get(
+                        "table_count",
+                        0,
+                    ),
+                ),
                 default=0,
             ),
             "content_sha256": str(
@@ -3813,60 +3927,82 @@ class PDFFactExtractor:
         chunk: dict[str, Any],
     ) -> list[int]:
         """
-        Extract page numbers from different evidence-builder structures.
+        Extract page numbers from both the current nested evidence schema
+        and older flat chunk schemas.
         """
 
-        candidates = [
-            chunk.get("pages"),
-            chunk.get("page_numbers"),
-            chunk.get("page_refs"),
-            chunk.get("page_references"),
-        ]
+        location = chunk.get("location")
 
-        page_range = chunk.get("page_range")
+        if not isinstance(location, dict):
+            location = {}
 
-        if page_range is not None:
-            candidates.append(page_range)
+        page_candidates = (
+            location.get("page_numbers")
+            or chunk.get("page_numbers")
+            or chunk.get("pages")
+            or []
+        )
 
-        page_numbers: set[int] = set()
-
-        for candidate in candidates:
-            self._collect_page_numbers(
-                candidate,
-                page_numbers,
-            )
-
-        if not page_numbers:
+        if isinstance(page_candidates, dict):
             start_page = (
-                chunk.get("start_page")
-                or chunk.get("page_start")
+                page_candidates.get("start")
+                or page_candidates.get("start_page")
             )
 
             end_page = (
-                chunk.get("end_page")
-                or chunk.get("page_end")
+                page_candidates.get("end")
+                or page_candidates.get("end_page")
+                or start_page
             )
 
-            if (
-                self._is_integer_like(start_page)
-                and self._is_integer_like(end_page)
-            ):
-                start = int(start_page)
-                end = int(end_page)
+            if start_page is not None:
+                try:
+                    start_page = int(start_page)
+                    end_page = int(end_page)
 
-                if end >= start:
-                    page_numbers.update(
-                        range(start, end + 1)
+                    return list(
+                        range(
+                            start_page,
+                            end_page + 1,
+                        )
                     )
 
-            elif self._is_integer_like(
-                start_page
-            ):
-                page_numbers.add(
-                    int(start_page)
+                except (
+                    TypeError,
+                    ValueError,
+                ):
+                    return []
+
+        if not isinstance(
+            page_candidates,
+            (list, tuple, set),
+        ):
+            page_candidates = [
+                page_candidates
+            ]
+
+        page_numbers: list[int] = []
+
+        for page_number in page_candidates:
+            try:
+                normalized_page = int(
+                    page_number
                 )
 
-        return sorted(page_numbers)
+            except (
+                TypeError,
+                ValueError,
+            ):
+                continue
+
+            if normalized_page not in page_numbers:
+                page_numbers.append(
+                    normalized_page
+                )
+
+        return sorted(
+            page_numbers
+        )
 
     def _collect_page_numbers(
         self,
