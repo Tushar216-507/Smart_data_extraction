@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import datetime
+from workspace.workspace_manager import WorkspaceManager
 
 from extractor.page_pipeline import PagePipeline
 from extractor.manifest_builder import ManifestBuilder
@@ -10,7 +11,13 @@ from extractor.evidence_expander import EvidenceExpander
 
 class ProgramExtractor:
 
-    def __init__(self):
+    def __init__(
+        self,
+        workspace: WorkspaceManager,
+        program_id: str,
+    ):
+        self.workspace = workspace
+        self.program_id = program_id
 
         self.page_pipeline = PagePipeline()
         self.manifest_builder = ManifestBuilder()
@@ -24,37 +31,11 @@ class ProgramExtractor:
 
         return data["program_urls"]
 
-    def create_program_folder(self, base_path, index):
-
-        folder = os.path.join(
-            base_path,
-            f"{index:04d}"
-        )
-
-        os.makedirs(folder, exist_ok=True)
-
-        os.makedirs(
-            os.path.join(folder, "program"),
-            exist_ok=True
-        )
-
-        os.makedirs(
-            os.path.join(folder, "pages"),
-            exist_ok=True
-        )
-
-        os.makedirs(
-            os.path.join(folder, "assets"),
-            exist_ok=True
-        )
-
-        return folder
-
     def save_metadata(self, folder, metadata):
 
-        path = os.path.join(
-            folder,
-            "metadata.json"
+        path = (
+            self.workspace.program_root(self.program_id)
+            / "metadata.json"
         )
 
         with open(
@@ -72,10 +53,9 @@ class ProgramExtractor:
 
     def save_html(self, folder, html):
 
-        path = os.path.join(
-            folder,
-            "program",
-            "raw.html"
+        path = (
+            self.workspace.webpage_dir(self.program_id)
+            / "raw.html"
         )
 
         with open(
@@ -88,10 +68,9 @@ class ProgramExtractor:
 
     def save_clean_html(self, folder, html):
 
-        path = os.path.join(
-            folder,
-            "program",
-            "clean.html"
+        path = (
+            self.workspace.webpage_dir(self.program_id)
+            / "clean.html"
         )
 
         with open(
@@ -104,10 +83,9 @@ class ProgramExtractor:
 
     def save_markdown(self, folder, markdown):
 
-        path = os.path.join(
-            folder,
-            "program",
-            "program.md"
+        path = (
+            self.workspace.webpage_dir(self.program_id)
+            / "program.md"
         )
 
         with open(
@@ -120,9 +98,9 @@ class ProgramExtractor:
 
     def save_links(self, folder, metadata, links):
 
-        path = os.path.join(
-            folder,
-            "links.json"
+        path = (
+            self.workspace.program_root(self.program_id)
+            / "links.json"
         )
 
         summary = {
@@ -172,11 +150,13 @@ class ProgramExtractor:
                 ensure_ascii=False
             )
 
-    def process_program(self, folder, metadata):
+    def process_program(self, metadata):
 
         page = self.page_pipeline.process(
             metadata["url"]
         )
+
+        program_folder = self.workspace.program_root(self.program_id)
 
         links = self.link_discovery.discover(
             page["raw_html"],
@@ -184,37 +164,37 @@ class ProgramExtractor:
         )
 
         self.save_metadata(
-            folder,
+            program_folder,
             metadata
         )
 
         self.save_html(
-            folder,
+            program_folder,
             page["raw_html"]
         )
 
         self.save_clean_html(
-            folder,
+            program_folder,
             page["clean_html"]
         )
 
         self.save_markdown(
-            folder,
+            program_folder,
             page["markdown"]
         )
 
         self.save_links(
-            folder,
+            program_folder,
             metadata,
             links
         )
 
         self.manifest_builder.build(
-            folder
+            program_folder
         )
 
         self.evidence_expander.expand(
-            folder
+            program_folder
         )
 
         print(
@@ -227,18 +207,11 @@ class ProgramExtractor:
 
         input_json,
 
-        output_folder="data"
-
     ):
 
         programs = self.load_programs(
             input_json
         )[:1]
-
-        os.makedirs(
-            output_folder,
-            exist_ok=True
-        )
 
         total = len(programs)
 
@@ -256,14 +229,12 @@ class ProgramExtractor:
             )
 
             folder = self.create_program_folder(
-                output_folder,
-                index
+                self.program_id
             )
 
             try:
 
                 self.process_program(
-                    folder,
                     metadata
                 )
 

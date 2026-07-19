@@ -132,33 +132,72 @@ IMPORTANT RULES
    - an abbreviation
    - a value that should not be translated
 8. Keep distinct facts separate.
-9. Do not merge unrelated modules, courses, requirements, assessments, or hours.
-10. Preserve identifiers such as:
+
+9. Extract substantive descriptive and narrative information, not only short,
+   numerical, categorical, or table-based values. Preserve directly supported
+   information such as:
+   - descriptions and overviews
+   - content, topics, themes, and subject coverage
+   - learning outcomes
+   - knowledge, skills, competencies, and abilities
+   - aims and objectives
+   - completion, award, credit, and progression conditions
+   - rules, restrictions, exceptions, and important notes
+   - academic purpose and intended educational development
+
+   Extract these as separate facts when they express distinct meanings.
+   Do not omit a descriptive passage merely because it is long, written in
+   prose, or appears beside structured information.
+
+10. When descriptive information applies to a specific program, module, course,
+    component, requirement, or other academic entity, attach the fact to that
+    entity and preserve the appropriate parent relationship.
+
+11. Use clear, stable, meaning-based snake_case fields for descriptive facts.
+    Prefer fields such as:
+    - description
+    - content
+    - learning_outcomes
+    - knowledge
+    - skills
+    - competencies
+    - objectives
+    - completion_conditions
+    - award_conditions
+    - progression_conditions
+    - important_information
+
+    Use another clear field when none of these accurately represents the
+    evidence. Do not force distinct meanings into one field.
+
+12. Do not merge unrelated modules, courses, requirements, assessments, or hours.
+
+13. Preserve identifiers such as:
     - module codes
     - course codes
     - unit codes
     - requirement codes
     - qualification names
-11. Preserve relationships using "entity" and "parent_entity".
-12. Do not convert hours, credits, grades, currencies, dates, semesters, terms,
+14. Preserve relationships using "entity" and "parent_entity".
+15. Do not convert hours, credits, grades, currencies, dates, semesters, terms,
     or academic periods unless the evidence explicitly provides the conversion.
-13. Do not assume that CP, ECTS, credits, credit hours, units, points, or similar
+16. Do not assume that CP, ECTS, credits, credit hours, units, points, or similar
     systems are equivalent.
-14. Do not treat an example as a mandatory requirement.
-15. Do not treat a recommendation as a requirement.
-16. Do not treat an elective as compulsory.
-17. Do not treat a module component as a complete module.
-18. Preserve optional, compulsory, elective, conditional, alternative, and
+17. Do not treat an example as a mandatory requirement.
+18. Do not treat a recommendation as a requirement.
+19. Do not treat an elective as compulsory.
+20. Do not treat a module component as a complete module.
+21. Preserve optional, compulsory, elective, conditional, alternative, and
     recommended statuses.
-19. Extract repeated facts when they belong to different modules or courses.
-20. Return valid JSON only.
-21. Translate meanings, not academic systems. Do not convert one credit system,
+22. Extract repeated facts when they belong to different modules or courses.
+23. Return valid JSON only.
+24. Translate meanings, not academic systems. Do not convert one credit system,
    qualification system, grade system, semester system, or academic concept
    into another.
-22. Preserve official names in "original_value". A translated name may be placed
+25. Preserve official names in "original_value". A translated name may be placed
    in "value", but do not replace or lose the official source-language name.
 
-23. Normalize common descriptive values into clear English when directly
+26. Normalize common descriptive values into clear English when directly
     supported. Examples:
 
     "Deutsch" -> "German"
@@ -731,6 +770,27 @@ class PDFFactExtractor:
         "program_title": "program_name",
         "programme_name": "program_name",
         "programme_title": "program_name",
+
+        # -------------------------------------------------------------
+        # Narrative / descriptive fields
+        # -------------------------------------------------------------
+        "content_description": "content",
+        "module_content": "content",
+        "course_content": "content",
+
+        "qualification_goal": "learning_outcomes",
+        "qualification_goals": "learning_outcomes",
+        "qualification": "learning_outcomes",
+        "qualification_objective": "learning_outcomes",
+        "qualification_objectives": "learning_outcomes",
+        "learning_objectives": "learning_outcomes",
+
+        "prerequisite": "prerequisites",
+
+        "important_information": "other_information",
+        "additional_information": "other_information",
+        "general_information": "other_information",
+        
     }
 
     DETERMINISTIC_VALUE_TRANSLATIONS = {

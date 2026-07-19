@@ -338,7 +338,7 @@ def resolve_provider_configuration(
             "base_url": openai_base_url,
             "model": (
                 configured_model
-                or "gpt-4.1-mini"
+                or "openai/gpt-oss-120b"
             ),
         }
 
@@ -349,7 +349,7 @@ def resolve_provider_configuration(
             "base_url": None,
             "model": (
                 configured_model
-                or "gpt-4.1-mini"
+                or "openai/gpt-oss-120b"
             ),
         }
 
@@ -363,7 +363,7 @@ def resolve_provider_configuration(
         "your_model_name\n\n"
         "Or configure OpenAI:\n"
         "OPENAI_API_KEY=your_key\n"
-        "OPENAI_MODEL=gpt-4.1-mini"
+        "OPENAI_MODEL=openai/gpt-oss-120b"
     )
 
 
