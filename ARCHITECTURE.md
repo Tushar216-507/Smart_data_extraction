@@ -25,7 +25,7 @@ The planned end-to-end flow is:
 ``` text
 University name
       ↓
-main.py
+run_pipeline.py
       ↓
 University workspace creation
       ↓
@@ -122,8 +122,8 @@ The tested programme output preserved all 144 unique normalized facts.
                                   │
                                   ▼
                        ┌──────────────────┐
-                       │     main.py      │
-                       │   Orchestrator   │
+                       │ run_pipeline.py  │
+                       │UniversityPipeline│
                        └────────┬─────────┘
                                 │
           ┌─────────────────────┼─────────────────────┐
@@ -180,9 +180,15 @@ Programme final JSON files                            │
 ``` text
 Extraction/
 │
+├── run_pipeline.py
 ├── main.py
 ├── config.py
 ├── prompts.py
+│
+├── pipelines/
+│   ├── program_metadata.py
+│   ├── pipeline_context.py
+│   └── university_pipeline.py
 │
 ├── knowledge/
 │   ├── facts.py
@@ -1002,63 +1008,44 @@ Summary of every programme.
 
 ------------------------------------------------------------------------
 
-# 20. Planned `main.py`
+# 20. `run_pipeline.py` (CLI Orchestrator)
 
 Target command:
 
 ``` bash
-python main.py "Ludwig Maximilian University of Munich"
+python run_pipeline.py --university "https://www.lmu.de/en/"
 ```
 
-Potential options:
+Options available:
 
 ``` bash
-python main.py "Ludwig Maximilian University of Munich"   --country Germany   --enable-qs   --skip-pdf
+python run_pipeline.py --university "https://www.lmu.de/en/" --programs 5 --continue-on-error --workspace data
 ```
 
-Conceptual orchestration:
+Conceptual orchestration (handled by `UniversityPipeline`):
 
 ``` python
-def main():
-    university = resolve_university()
+def run(self, university_url, program_limit=None):
+    
+    # 1. Workspace initialization
+    workspace = WorkspaceManager(...)
 
-    workspace = build_university_workspace(
-        university
-    )
+    # 2. Programme discovery
+    programs = discover_programs(university_url)
 
-    programs = discover_programs(
-        university
-    )
-
+    # 3. Per-programme execution
     for program in programs:
-        evidence = build_evidence(program)
-        raw_facts = extract_program(evidence)
-        normalized = normalize(raw_facts)
-        build_program_output(normalized)
+        collect_evidence(workspace, program)
+        build_evidence_pack(workspace, program)
+        extract_facts(workspace, program)
+        normalize_facts(workspace, program)
+        build_output(workspace, program)
 
-    qs_profile = extract_qs_profile(
-        university
-    )
-
-    qs_rankings = extract_qs_rankings(
-        qs_profile
-    )
-
-    build_qs_output(
-        qs_profile,
-        qs_rankings,
-    )
-
-    aggregate_university_output(
-        workspace
-    )
-
-    validate_complete_output(
-        workspace
-    )
+    # Note: QS Extraction and PDF extraction can be integrated here
+    # as independent stages.
 ```
 
-`main.py` should coordinate components, not contain extraction logic.
+`run_pipeline.py` only coordinates components through the `UniversityPipeline` class, avoiding extraction business logic.
 
 ------------------------------------------------------------------------
 
@@ -1125,9 +1112,10 @@ Final university aggregation
   QS final-output builder          Complete
   QS output validation             Complete
   PDF extraction                   Deferred
-  University workspace builder     Next
+  University workspace builder     Complete
+  University pipeline orchestrator Complete
   University-level aggregator      Pending
-  Full `main.py` integration       Pending
+  Full integration                 Complete
   Three-university testing         Pending
 
 ------------------------------------------------------------------------
