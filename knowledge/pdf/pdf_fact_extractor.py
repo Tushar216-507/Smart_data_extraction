@@ -44,12 +44,9 @@ from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Callable, Iterable, Optional
+from typing import Any, Iterable, Optional
 
-try:
-    from openai import OpenAI
-except ImportError:  # pragma: no cover
-    OpenAI = None
+from knowledge.llm.client import LLMClient
 
 
 LOGGER = logging.getLogger(__name__)
@@ -76,25 +73,25 @@ LOGGER = logging.getLogger(__name__)
 # Azure Document Intelligence is intentionally excluded because it is not
 # part of this LLM token-pricing tracker.
 
-PROVIDER_PRICING = {
-    "openai": {
-        "input_price_per_million": 2.00,
-        "output_price_per_million": 8.00,
-        "billing_type": "token_based",
-    },
+# PROVIDER_PRICING = {
+#     "openai": {
+#         "input_price_per_million": 2.00,
+#         "output_price_per_million": 8.00,
+#         "billing_type": "token_based",
+#     },
 
-    "groq": {
-        "input_price_per_million": 0.15,
-        "output_price_per_million": 0.60,
-        "billing_type": "token_based",
-    },
+#     "groq": {
+#         "input_price_per_million": 0.15,
+#         "output_price_per_million": 0.60,
+#         "billing_type": "token_based",
+#     },
 
-    "nvidia": {
-        "input_price_per_million": 0.00,
-        "output_price_per_million": 0.00,
-        "billing_type": "free_hosted",
-    },
-}
+#     "nvidia": {
+#         "input_price_per_million": 0.00,
+#         "output_price_per_million": 0.00,
+#         "billing_type": "free_hosted",
+#     },
+# }
 
 # =============================================================================
 # EXTRACTION PROMPT
@@ -576,7 +573,6 @@ class ChunkExtractionResult:
     attempts: int = 0
     error: Optional[str] = None
     response_text: Optional[str] = None
-    usage: Optional[dict[str, Any]] = None
 
 
 # =============================================================================
@@ -862,11 +858,8 @@ class PDFFactExtractor:
 
     def __init__(
         self,
-        client: Any = None,
-        api_key: Optional[str] = None,
-        base_url: Optional[str] = None,
+        client: LLMClient,
         model: Optional[str] = None,
-        llm_callable: Optional[Callable[..., Any]] = None,
         system_prompt: str = PDF_PROGRAM_EXTRACTION_PROMPT,
         temperature: float = 0.0,
         max_tokens: int = 12000,
@@ -886,7 +879,6 @@ class PDFFactExtractor:
             or "gpt-4.1-mini"
         )
 
-        self.llm_callable = llm_callable
         self.system_prompt = system_prompt.strip()
         self.temperature = float(temperature)
         self.max_tokens = int(max_tokens)
@@ -902,140 +894,6 @@ class PDFFactExtractor:
         self.logger = logger or LOGGER
 
         self.client = client
-
-        resolved_api_key = (
-            api_key
-            or os.getenv("OPENAI_API_KEY")
-            or os.getenv("GROQ_API_KEY")
-            or os.getenv("NVIDIA_API_KEY")
-        )
-
-        resolved_base_url = (
-            base_url
-            or os.getenv("OPENAI_BASE_URL")
-            or os.getenv("GROQ_BASE_URL")
-            or os.getenv("NVIDIA_BASE_URL")
-        )
-
-        # Store the base URL for provider detection.
-        self.base_url = resolved_base_url
-
-        if self.client is None and self.llm_callable is None:
-            if resolved_api_key:
-                if OpenAI is None:
-                    raise ImportError(
-                        "The 'openai' package is required when no custom "
-                        "llm_callable is supplied. Install it using:\n"
-                        "pip install openai"
-                    )
-
-                client_kwargs: dict[str, Any] = {
-                    "api_key": resolved_api_key,
-                    "timeout": self.request_timeout,
-                }
-
-                if resolved_base_url:
-                    client_kwargs["base_url"] = (
-                        resolved_base_url
-                    )
-
-                self.client = OpenAI(
-                    **client_kwargs
-                )
-
-    # =========================================================================
-    # PUBLIC API
-    # =========================================================================
-
-    def _detect_provider(
-        self,
-    ) -> str:
-        """
-        Detect the configured LLM provider.
-
-        Supported providers:
-
-        - OpenAI
-        - Groq
-        - NVIDIA NIM
-
-        Provider detection primarily uses the configured base URL.
-        """
-
-        base_url = str(
-            self.base_url
-            or ""
-        ).casefold()
-
-        model = str(
-            self.model
-            or ""
-        ).casefold()
-
-        if (
-            "api.groq.com" in base_url
-            or "groq" in base_url
-        ):
-            return "groq"
-
-        if (
-            "integrate.api.nvidia.com" in base_url
-            or "nvidia" in base_url
-            or model.startswith("nvidia/")
-        ):
-            return "nvidia"
-
-        if (
-            "api.openai.com" in base_url
-            or model.startswith("gpt-")
-            or model.startswith("openai/")
-        ):
-            return "openai"
-
-        return "unknown"
-    
-    def _get_provider_pricing(
-        self,
-    ) -> dict[str, Any]:
-        """
-        Return pricing information for the configured provider.
-        """
-
-        provider = self._detect_provider()
-
-        pricing = PROVIDER_PRICING.get(
-            provider
-        )
-
-        if pricing is None:
-            return {
-                "provider": provider,
-                "currency": "USD",
-                "input_price_per_million": None,
-                "output_price_per_million": None,
-                "billing_type": "unknown",
-            }
-
-        return {
-            "provider": provider,
-            "currency": "USD",
-
-            "input_price_per_million": (
-                pricing[
-                    "input_price_per_million"
-                ]
-            ),
-
-            "output_price_per_million": (
-                pricing[
-                    "output_price_per_million"
-                ]
-            ),
-
-            "billing_type": (
-                pricing["billing_type"]
-            ),
-        }
 
     def extract(
         self,
@@ -1194,10 +1052,6 @@ class PDFFactExtractor:
                     chunk_result.facts
                 ),
                 "error": chunk_result.error,
-                "usage": (
-                    chunk_result.usage
-                    or self._empty_usage()
-                ),
             }
 
             chunk_results.append(chunk_summary)
@@ -1393,18 +1247,15 @@ class PDFFactExtractor:
                     user_prompt=user_prompt,
                 )
 
-                usage = self._extract_response_usage(
-                    response
-                )
-
-                response_text = self._response_to_text(
-                    response
-                )
+                if isinstance(response, dict):
+                    response_text = json.dumps(response, ensure_ascii=False)
+                else:
+                    response_text = str(response)
 
                 last_response_text = response_text
 
                 parsed_response = self._parse_json_response(
-                    response
+                    response_text
                 )
 
                 facts = parsed_response.get("facts", [])
@@ -1420,7 +1271,6 @@ class PDFFactExtractor:
                     facts=facts,
                     attempts=attempt,
                     response_text=response_text,
-                    usage=usage
                 )
 
             except Exception as exc:
@@ -1592,644 +1442,26 @@ class PDFFactExtractor:
     # LLM
     # =========================================================================
 
-    @staticmethod
-    def _calculate_token_expense(
-        *,
-        token_count: int,
-        price_per_million: Optional[float],
-    ) -> Optional[float]:
-        """
-        Calculate token expense in USD.
-        """
-
-        if price_per_million is None:
-            return None
-
-        expense = (
-            float(token_count)
-            / 1_000_000
-        ) * float(
-            price_per_million
-        )
-
-        return round(
-            expense,
-            12,
-        )
-
-    def _empty_usage(
-        self,
-    ) -> dict[str, Any]:
-        """
-        Return an empty provider-aware usage record.
-        """
-
-        pricing = self._get_provider_pricing()
-
-        input_price = pricing.get(
-            "input_price_per_million"
-        )
-
-        output_price = pricing.get(
-            "output_price_per_million"
-        )
-
-        return {
-            "provider": pricing["provider"],
-            "model": self.model,
-
-            "input_tokens": 0,
-            "output_tokens": 0,
-            "total_tokens": 0,
-
-            "pricing": {
-                "input_usd_per_million_tokens": (
-                    input_price
-                ),
-
-                "output_usd_per_million_tokens": (
-                    output_price
-                ),
-
-                "billing_type": (
-                    pricing["billing_type"]
-                ),
-
-                "currency": "USD",
-            },
-
-            "expense": {
-                "input_tokens_expense": (
-                    0.0
-                    if input_price is not None
-                    else None
-                ),
-
-                "output_tokens_expense": (
-                    0.0
-                    if output_price is not None
-                    else None
-                ),
-
-                "total_tokens_expense": (
-                    0.0
-                    if (
-                        input_price is not None
-                        and output_price is not None
-                    )
-                    else None
-                ),
-
-                "currency": "USD",
-            },
-        }
-    
-    def _aggregate_usage(
-        self,
-        chunk_results: list[dict[str, Any]],
-    ) -> dict[str, Any]:
-        """
-        Aggregate token usage and provider-specific expenses
-        across all completed LLM requests.
-        """
-
-        pricing = self._get_provider_pricing()
-
-        input_price = pricing.get(
-            "input_price_per_million"
-        )
-
-        output_price = pricing.get(
-            "output_price_per_million"
-        )
-
-        total_input_tokens = 0
-        total_output_tokens = 0
-        total_tokens = 0
-
-        request_count = 0
-
-        for chunk_result in chunk_results:
-            usage = (
-                chunk_result.get("usage")
-                or {}
-            )
-
-            if usage:
-                request_count += 1
-
-            total_input_tokens += self._safe_int(
-                usage.get("input_tokens"),
-                default=0,
-            )
-
-            total_output_tokens += self._safe_int(
-                usage.get("output_tokens"),
-                default=0,
-            )
-
-            total_tokens += self._safe_int(
-                usage.get("total_tokens"),
-                default=0,
-            )
-
-        if total_tokens <= 0:
-            total_tokens = (
-                total_input_tokens
-                + total_output_tokens
-            )
-
-        input_token_expense = (
-            self._calculate_token_expense(
-                token_count=total_input_tokens,
-                price_per_million=input_price,
-            )
-        )
-
-        output_token_expense = (
-            self._calculate_token_expense(
-                token_count=total_output_tokens,
-                price_per_million=output_price,
-            )
-        )
-
-        if (
-            input_token_expense is not None
-            and output_token_expense is not None
-        ):
-            total_token_expense = round(
-                input_token_expense
-                + output_token_expense,
-                12,
-            )
-
-        else:
-            total_token_expense = None
-
-        return {
-            "provider": pricing["provider"],
-            "model": self.model,
-
-            "requests": request_count,
-
-            "input_tokens": (
-                total_input_tokens
-            ),
-
-            "output_tokens": (
-                total_output_tokens
-            ),
-
-            "total_tokens": (
-                total_tokens
-            ),
-
-            "pricing": {
-                "input_usd_per_million_tokens": (
-                    input_price
-                ),
-
-                "output_usd_per_million_tokens": (
-                    output_price
-                ),
-
-                "billing_type": (
-                    pricing["billing_type"]
-                ),
-
-                "currency": "USD",
-            },
-
-            "expense": {
-                "input_tokens_expense": (
-                    input_token_expense
-                ),
-
-                "output_tokens_expense": (
-                    output_token_expense
-                ),
-
-                "total_tokens_expense": (
-                    total_token_expense
-                ),
-
-                "currency": "USD",
-            },
-        }
     
     def _call_llm(
         self,
         system_prompt: str,
         user_prompt: str,
-    ) -> Any:
+    ) -> str:
         """
-        Call either a custom provider function or an OpenAI-compatible client.
-        """
-
-        if self.llm_callable is not None:
-            return self._call_custom_llm(
-                system_prompt=system_prompt,
-                user_prompt=user_prompt,
-            )
-
-        if self.client is None:
-            raise RuntimeError(
-                "No LLM provider is configured. Supply one of:\n"
-                "- client\n"
-                "- api_key\n"
-                "- OPENAI_API_KEY\n"
-                "- NVIDIA_API_KEY\n"
-                "- llm_callable"
-            )
-
-        request_kwargs: dict[str, Any] = {
-            "model": self.model,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": system_prompt,
-                },
-                {
-                    "role": "user",
-                    "content": user_prompt,
-                },
-            ],
-            "temperature": self.temperature,
-            "max_tokens": self.max_tokens,
-        }
-
-        try:
-            return self.client.chat.completions.create(
-                **request_kwargs,
-                response_format={
-                    "type": "json_object",
-                },
-            )
-
-        except Exception as structured_error:
-            self.logger.debug(
-                "Structured JSON response mode was unavailable. "
-                "Retrying without response_format. Error: %s",
-                structured_error,
-            )
-
-            return self.client.chat.completions.create(
-                **request_kwargs
-            )
-
-    def _call_custom_llm(
-        self,
-        system_prompt: str,
-        user_prompt: str,
-    ) -> Any:
-        """
-        Call a custom LLM provider while supporting simple and keyword APIs.
+        Execute an LLM request through the shared LLMClient.
         """
 
-        try:
-            return self.llm_callable(
-                system_prompt=system_prompt,
-                user_prompt=user_prompt,
-                model=self.model,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens,
-            )
-
-        except TypeError:
-            return self.llm_callable(
-                system_prompt,
-                user_prompt,
-            )
-        
-    def _extract_response_usage(
-        self,
-        response: Any,
-    ) -> dict[str, Any]:
-        """
-        Extract token usage and calculate provider-specific expense.
-
-        Supports OpenAI-compatible responses from:
-
-        - OpenAI
-        - Groq
-        - NVIDIA NIM
-
-        OpenAI-compatible APIs commonly expose:
-
-            prompt_tokens
-            completion_tokens
-            total_tokens
-
-        Some APIs may instead expose:
-
-            input_tokens
-            output_tokens
-            total_tokens
-        """
-
-        usage_object = None
-
-        if isinstance(
-            response,
-            dict,
-        ):
-            usage_object = response.get(
-                "usage"
-            )
-
-        else:
-            usage_object = getattr(
-                response,
-                "usage",
-                None,
-            )
-
-        input_tokens = 0
-        output_tokens = 0
-        total_tokens = 0
-
-        if usage_object is not None:
-            input_tokens = self._read_usage_integer(
-                usage_object,
-                "prompt_tokens",
-                "input_tokens",
-            )
-
-            output_tokens = self._read_usage_integer(
-                usage_object,
-                "completion_tokens",
-                "output_tokens",
-            )
-
-            total_tokens = self._read_usage_integer(
-                usage_object,
-                "total_tokens",
-            )
-
-        if total_tokens <= 0:
-            total_tokens = (
-                input_tokens
-                + output_tokens
-            )
-
-        pricing = self._get_provider_pricing()
-
-        input_price = pricing.get(
-            "input_price_per_million"
+        return self.client.extract(
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            response_schema={"type": "json_object"},
+            temperature=self.temperature,
         )
 
-        output_price = pricing.get(
-            "output_price_per_million"
-        )
-
-        input_token_expense = (
-            self._calculate_token_expense(
-                token_count=input_tokens,
-                price_per_million=input_price,
-            )
-        )
-
-        output_token_expense = (
-            self._calculate_token_expense(
-                token_count=output_tokens,
-                price_per_million=output_price,
-            )
-        )
-
-        if (
-            input_token_expense is not None
-            and output_token_expense is not None
-        ):
-            total_token_expense = round(
-                input_token_expense
-                + output_token_expense,
-                12,
-            )
-
-        else:
-            total_token_expense = None
-
-        return {
-            "provider": pricing["provider"],
-            "model": self.model,
-
-            "input_tokens": input_tokens,
-            "output_tokens": output_tokens,
-            "total_tokens": total_tokens,
-
-            "pricing": {
-                "input_usd_per_million_tokens": (
-                    input_price
-                ),
-
-                "output_usd_per_million_tokens": (
-                    output_price
-                ),
-
-                "billing_type": (
-                    pricing["billing_type"]
-                ),
-
-                "currency": "USD",
-            },
-
-            "expense": {
-                "input_tokens_expense": (
-                    input_token_expense
-                ),
-
-                "output_tokens_expense": (
-                    output_token_expense
-                ),
-
-                "total_tokens_expense": (
-                    total_token_expense
-                ),
-
-                "currency": "USD",
-            },
-        }
-
-    @staticmethod
-    def _read_usage_integer(
-        usage_object: Any,
-        *field_names: str,
-    ) -> int:
-        """
-        Read a token count from dictionary-style or
-        object-style OpenAI-compatible usage metadata.
-
-        Supported examples:
-
-            response.usage.prompt_tokens
-            response.usage.completion_tokens
-            response.usage.total_tokens
-
-        and:
-
-            {
-                "prompt_tokens": 100,
-                "completion_tokens": 200,
-                "total_tokens": 300
-            }
-        """
-
-        for field_name in field_names:
-            value = None
-
-            if isinstance(
-                usage_object,
-                dict,
-            ):
-                value = usage_object.get(
-                    field_name
-                )
-
-            else:
-                value = getattr(
-                    usage_object,
-                    field_name,
-                    None,
-                )
-
-            if value is None:
-                continue
-
-            try:
-                return max(
-                    0,
-                    int(value),
-                )
-
-            except (
-                TypeError,
-                ValueError,
-            ):
-                continue
-
-        return 0
     # =========================================================================
     # RESPONSE PARSING
     # =========================================================================
-
-    def _response_to_text(
-        self,
-        response: Any,
-    ) -> str:
-        """
-        Convert common LLM response types to text.
-        """
-
-        if response is None:
-            return ""
-
-        if isinstance(response, str):
-            return response
-
-        if isinstance(response, dict):
-            return json.dumps(
-                response,
-                ensure_ascii=False,
-            )
-
-        choices = getattr(
-            response,
-            "choices",
-            None,
-        )
-
-        if choices:
-            first_choice = choices[0]
-
-            message = getattr(
-                first_choice,
-                "message",
-                None,
-            )
-
-            if message is not None:
-                content = getattr(
-                    message,
-                    "content",
-                    None,
-                )
-
-                if content is not None:
-                    return self._flatten_message_content(
-                        content
-                    )
-
-            text = getattr(
-                first_choice,
-                "text",
-                None,
-            )
-
-            if text is not None:
-                return str(text)
-
-        output_text = getattr(
-            response,
-            "output_text",
-            None,
-        )
-
-        if output_text is not None:
-            return str(output_text)
-
-        content = getattr(
-            response,
-            "content",
-            None,
-        )
-
-        if content is not None:
-            return self._flatten_message_content(
-                content
-            )
-
-        return str(response)
-
-    @staticmethod
-    def _flatten_message_content(
-        content: Any,
-    ) -> str:
-        """
-        Flatten string or multi-part message content.
-        """
-
-        if isinstance(content, str):
-            return content
-
-        if isinstance(content, list):
-            parts: list[str] = []
-
-            for item in content:
-                if isinstance(item, str):
-                    parts.append(item)
-
-                elif isinstance(item, dict):
-                    text = (
-                        item.get("text")
-                        or item.get("content")
-                    )
-
-                    if text is not None:
-                        parts.append(str(text))
-
-                else:
-                    text = getattr(
-                        item,
-                        "text",
-                        None,
-                    )
-
-                    if text is not None:
-                        parts.append(str(text))
-
-            return "\n".join(parts)
-
-        return str(content)
 
     def _parse_json_response(
         self,
@@ -2243,9 +1475,10 @@ class PDFFactExtractor:
             parsed = deepcopy(response)
 
         else:
-            response_text = self._response_to_text(
-                response
-            )
+            if isinstance(response, dict):
+                response_text = json.dumps(response, ensure_ascii=False)
+            else:
+                response_text = str(response)
 
             cleaned_text = self._strip_code_fence(
                 response_text
@@ -3746,9 +2979,6 @@ class PDFFactExtractor:
                     total_pages
                 ),
                 "page_numbers": total_pages,
-                "usage": self._aggregate_usage(
-                    chunk_results
-                ),
             },
             "distribution": {
                 "by_category": category_counts,

@@ -6,6 +6,8 @@ from config import Config
 
 from .provider import LLMProvider
 
+from .llm_response import LLMResponse
+
 
 class NvidiaProvider(LLMProvider):
     """
@@ -34,6 +36,7 @@ class NvidiaProvider(LLMProvider):
         )
 
         self.model = model
+        self.provider_name = "NVIDIA"
         self.max_tokens = max_tokens
 
     def extract(
@@ -81,6 +84,8 @@ class NvidiaProvider(LLMProvider):
             )
         )
 
+        usage = response.usage
+
         content = (
             response
             .choices[0]
@@ -127,4 +132,22 @@ class NvidiaProvider(LLMProvider):
                 "'facts' must be a list."
             )
 
-        return data
+        return LLMResponse(
+            result=data,
+
+            provider=self.provider_name,
+
+            model=self.model,
+
+            prompt_tokens=(
+                usage.prompt_tokens
+                if usage
+                else 0
+            ),
+
+            completion_tokens=(
+                usage.completion_tokens
+                if usage
+                else 0
+            ),
+        )

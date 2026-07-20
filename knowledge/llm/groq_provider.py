@@ -6,6 +6,8 @@ from config import Config
 
 from .provider import LLMProvider
 
+from .llm_response import LLMResponse
+
 
 class GroqProvider(LLMProvider):
     """
@@ -31,6 +33,7 @@ class GroqProvider(LLMProvider):
         )
 
         self.model = model
+        self.provider_name = "Groq"
 
     def extract(
         self,
@@ -76,6 +79,8 @@ class GroqProvider(LLMProvider):
                 **request_options
             )
         )
+
+        usage= response.usage
 
         content = (
             response
@@ -125,4 +130,22 @@ class GroqProvider(LLMProvider):
                 "'facts' must be a list."
             )
 
-        return data
+        return LLMResponse(
+            result=data,
+
+            provider=self.provider_name,
+
+            model=self.model,
+
+            prompt_tokens=(
+                usage.prompt_tokens
+                if usage
+                else 0
+            ),
+
+            completion_tokens=(
+                usage.completion_tokens
+                if usage
+                else 0
+            ),
+        )

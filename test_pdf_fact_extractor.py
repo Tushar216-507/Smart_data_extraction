@@ -50,6 +50,10 @@ from knowledge.pdf.pdf_fact_extractor import (
     PDFFactExtractor,
 )
 
+from knowledge.billing.usage_tracker import UsageTracker
+from knowledge.llm.client import LLMClient
+from knowledge.llm.nvidia_provider import NvidiaProvider
+
 
 # =============================================================================
 # CONFIGURATION
@@ -956,7 +960,7 @@ def main() -> None:
         "VALIDATING LLM CONFIGURATION"
     )
 
-    provider = (
+    provider_config = (
         resolve_provider_configuration()
     )
 
@@ -966,20 +970,17 @@ def main() -> None:
 
     print_value(
         "Provider",
-        provider["provider"],
+        provider_config["provider"],
     )
 
     print_value(
         "Model",
-        provider["model"],
+        provider_config["model"],
     )
 
     print_value(
         "Base URL",
-        (
-            provider["base_url"]
-            or "Default provider endpoint"
-        ),
+        provider_config["base_url"] or "Default provider endpoint",
     )
 
     print_success(
@@ -995,12 +996,24 @@ def main() -> None:
         "INITIALIZING PDF FACT EXTRACTOR"
     )
 
-    extractor = PDFFactExtractor(
-        api_key=provider["api_key"],
-        base_url=provider["base_url"],
-        model=provider["model"],
-        temperature=0.0,
+    tracker = UsageTracker()
+
+    provider = NvidiaProvider(
+        api_key=provider_config["api_key"],
+        model=provider_config["model"],
         max_tokens=12000,
+    )
+
+    client = LLMClient(
+        provider=provider,
+        usage_tracker=tracker,
+        stage="PDF Extraction",
+        program_id=PROGRAM_ID,
+    )
+
+    extractor = PDFFactExtractor(
+        client=client,
+        temperature=0.0,
         request_timeout=180.0,
         max_retries=3,
         retry_delay=2.0,

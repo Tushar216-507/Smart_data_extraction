@@ -253,9 +253,7 @@ IMPORTANT
                     f"{error}"
                 )
 
-        print(
-            "\nProgram extraction completed."
-        )
+        print("\nProgram extraction completed.")
 
         return collection
 

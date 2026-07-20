@@ -4,6 +4,7 @@ from openai import OpenAI
 from config import Config
 
 from .provider import LLMProvider
+from .llm_response import LLMResponse
 
 
 class OpenAIProvider(LLMProvider):
@@ -19,6 +20,7 @@ class OpenAIProvider(LLMProvider):
         )
 
         self.model = model
+        self.provider_name = "OpenAI"
 
     def extract(
         self,
@@ -74,7 +76,25 @@ class OpenAIProvider(LLMProvider):
             if not isinstance(data["facts"], list):
                 raise ValueError("'facts' must be a list.")
 
-            return data
+            return LLMResponse(
+                result=data,
+
+                provider=self.provider_name,
+
+                model=self.model,
+
+                prompt_tokens=(
+                    usage.prompt_tokens
+                    if usage
+                    else 0
+                ),
+
+                completion_tokens=(
+                    usage.completion_tokens
+                    if usage
+                    else 0
+                ),
+            )
 
         except json.JSONDecodeError as e:
 
