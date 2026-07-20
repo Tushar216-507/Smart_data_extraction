@@ -252,7 +252,24 @@ def translate_batch(pages):
 
     return pages
 
-def run(base_url):
+def discover_programs(base_url):
+    """
+    Discover all programme URLs from a university website.
+
+    This runs the complete discovery pipeline:
+      1. Sitemap extraction
+      2. Fallback BFS crawl (if sitemap is thin)
+      3. Keyword filtering for programme URLs
+      4. Link verification
+      5. Page metadata extraction
+      6. Metadata translation
+
+    Returns:
+        dict with keys:
+            university_base_url  (str)
+            total_working_program_urls  (int)
+            program_urls  (list of programme metadata dicts)
+    """
     print(f"\nStarting discovery for: {base_url}\n")
 
     # --- Step 1: Sitemap ---
@@ -281,7 +298,11 @@ def run(base_url):
     if not candidates:
         print("\nNo candidate URLs found. Try lowering MIN_SITEMAP_URLS_BEFORE_FALLBACK "
               "or check if the site blocks bots.")
-        return
+        return {
+            "university_base_url": base_url,
+            "total_working_program_urls": 0,
+            "program_urls": [],
+        }
 
     # --- Step 4: Verify links are actually working ---
     print(f"\nStep 4: Verifying {len(candidates)} links...")
@@ -329,17 +350,35 @@ def run(base_url):
 
     program_pages = translated_pages
 
-    # --- Step 5: Save output ---
     result = {
         "university_base_url": base_url,
         "total_working_program_urls": len(program_pages),
         "program_urls": program_pages,
     }
 
-    with open("output1.json", "w", encoding="utf-8") as f:
+    print(f"\nDiscovery complete. Found {len(program_pages)} working program URLs.\n")
+
+    return result
+
+
+def save_discovery(result, output_file="output1.json"):
+    """Save discovery result to a JSON file."""
+
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
-    print(f"\nDone. Saved {len(working_urls)} working program URLs to output.json\n")
+    print(f"Saved {result['total_working_program_urls']} programs to {output_file}")
+
+
+def run(base_url):
+    """
+    Run discovery and save to file.
+
+    Kept for backward compatibility with standalone usage.
+    """
+    result = discover_programs(base_url)
+    save_discovery(result)
+    return result
 
 
 if __name__ == "__main__":
@@ -349,4 +388,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     target_url = sys.argv[1].rstrip("/")
-    run(target_url)
+    run(target_url)

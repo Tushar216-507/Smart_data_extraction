@@ -85,6 +85,7 @@ class WorkspaceManager:
 
         folders = [
             "webpage",
+            "pages",
             "pdf",
             "evidence",
             "facts",
@@ -109,6 +110,9 @@ class WorkspaceManager:
 
     def webpage_dir(self, program_id: str) -> Path:
         return self.program_root(program_id) / "webpage"
+
+    def pages_dir(self, program_id: str) -> Path:
+        return self.program_root(program_id) / "pages"
 
     def pdf_dir(self, program_id: str) -> Path:
         return self.program_root(program_id) / "pdf"

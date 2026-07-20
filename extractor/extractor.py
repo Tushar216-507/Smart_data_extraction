@@ -21,7 +21,7 @@ class ProgramExtractor:
         self.page_pipeline = PagePipeline()
         self.manifest_builder = ManifestBuilder(workspace,program_id)
         self.link_discovery = LinkDiscovery()
-        self.evidence_expander = EvidenceExpander()
+        self.evidence_expander = EvidenceExpander(workspace, program_id)
 
     def load_programs(self, json_file):
 
@@ -201,7 +201,7 @@ class ProgramExtractor:
 
         programs = self.load_programs(
             input_json
-        )[:1]
+        )
 
         total = len(programs)
 

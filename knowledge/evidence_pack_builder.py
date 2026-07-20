@@ -43,14 +43,18 @@ class EvidencePackBuilder:
 
         root = Path(program_folder)
 
-        program_dir = root / "program"
-
+        # Metadata is saved at the programme root by
+        # extractor/extractor.py ProgramExtractor.
         program_metadata = self.load_json(
-            program_dir / "metadata.json"
+            root / "metadata.json"
         )
 
+        # The main programme page content is stored in
+        # the webpage/ subfolder by WorkspaceManager.
+        webpage_dir = root / "webpage"
+
         program_markdown = self.load_text(
-            program_dir / "program.md"
+            webpage_dir / "program.md"
         )
 
         pack = EvidencePack(
@@ -62,11 +66,11 @@ class EvidencePackBuilder:
             metadata=program_metadata,
 
             raw_html=self.load_text(
-                program_dir / "raw.html"
+                webpage_dir / "raw.html"
             ),
 
             clean_html=self.load_text(
-                program_dir / "clean.html"
+                webpage_dir / "clean.html"
             )
 
         ),
