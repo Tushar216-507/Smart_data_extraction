@@ -1,5 +1,4 @@
-import json
-import os
+import json 
 from datetime import datetime
 from workspace.workspace_manager import WorkspaceManager
 
@@ -20,7 +19,7 @@ class ProgramExtractor:
         self.program_id = program_id
 
         self.page_pipeline = PagePipeline()
-        self.manifest_builder = ManifestBuilder()
+        self.manifest_builder = ManifestBuilder(workspace,program_id)
         self.link_discovery = LinkDiscovery()
         self.evidence_expander = EvidenceExpander()
 
@@ -31,7 +30,7 @@ class ProgramExtractor:
 
         return data["program_urls"]
 
-    def save_metadata(self, folder, metadata):
+    def save_metadata(self, metadata):
 
         path = (
             self.workspace.program_root(self.program_id)
@@ -51,7 +50,7 @@ class ProgramExtractor:
                 ensure_ascii=False
             )
 
-    def save_html(self, folder, html):
+    def save_html(self, html):
 
         path = (
             self.workspace.webpage_dir(self.program_id)
@@ -66,7 +65,7 @@ class ProgramExtractor:
 
             f.write(html)
 
-    def save_clean_html(self, folder, html):
+    def save_clean_html(self, html):
 
         path = (
             self.workspace.webpage_dir(self.program_id)
@@ -81,7 +80,7 @@ class ProgramExtractor:
 
             f.write(html)
 
-    def save_markdown(self, folder, markdown):
+    def save_markdown(self, markdown):
 
         path = (
             self.workspace.webpage_dir(self.program_id)
@@ -96,7 +95,7 @@ class ProgramExtractor:
 
             f.write(markdown)
 
-    def save_links(self, folder, metadata, links):
+    def save_links(self, metadata, links):
 
         path = (
             self.workspace.program_root(self.program_id)
@@ -164,38 +163,29 @@ class ProgramExtractor:
         )
 
         self.save_metadata(
-            program_folder,
             metadata
         )
 
         self.save_html(
-            program_folder,
             page["raw_html"]
         )
 
         self.save_clean_html(
-            program_folder,
             page["clean_html"]
         )
 
         self.save_markdown(
-            program_folder,
             page["markdown"]
         )
 
         self.save_links(
-            program_folder,
             metadata,
             links
         )
 
-        self.manifest_builder.build(
-            program_folder
-        )
+        self.manifest_builder.build()
 
-        self.evidence_expander.expand(
-            program_folder
-        )
+        self.evidence_expander.expand()
 
         print(
             f"✓ {metadata['title_en']}"
@@ -228,7 +218,7 @@ class ProgramExtractor:
                 f"[{index}/{total}]"
             )
 
-            folder = self.create_program_folder(
+            self.workspace.create_program(
                 self.program_id
             )
 

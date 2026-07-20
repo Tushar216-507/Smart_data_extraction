@@ -1,6 +1,7 @@
 import json
-import os
 from datetime import datetime
+
+from workspace.workspace_manager import WorkspaceManager
 
 from extractor.page_pipeline import PagePipeline
 from extractor.link_discovery import LinkDiscovery
@@ -9,7 +10,14 @@ from extractor.downloader import PageDownloader
 
 class EvidenceExpander:
 
-    def __init__(self):
+    def __init__(
+        self,
+        workspace: WorkspaceManager,
+        program_id: str,
+    ):
+
+        self.workspace = workspace
+        self.program_id = program_id
 
         self.pipeline = PagePipeline()
         self.discovery = LinkDiscovery()
@@ -19,11 +27,11 @@ class EvidenceExpander:
     # Manifest
     ###########################################################
 
-    def load_manifest(self, program_folder):
+    def load_manifest(self):
 
-        path = os.path.join(
-            program_folder,
-            "crawl_manifest.json"
+        path = (
+            self.workspace.program_root(self.program_id)
+            / "crawl_manifest.json"
         )
 
         with open(
@@ -34,11 +42,11 @@ class EvidenceExpander:
 
             return json.load(f)
 
-    def save_manifest(self, program_folder, manifest):
+    def save_manifest(self, manifest):
 
-        path = os.path.join(
-            program_folder,
-            "crawl_manifest.json"
+        path = (
+            self.workspace.program_root(self.program_id)
+            / "crawl_manifest.json"
         )
 
         with open(
@@ -58,34 +66,28 @@ class EvidenceExpander:
     # Folder creation
     ###########################################################
 
-    def create_page_folder(self, program_folder):
+    def create_page_folder(self):
 
-        pages_folder = os.path.join(
-            program_folder,
-            "pages"
+        pages_folder = self.workspace.pages_dir(
+            self.program_id
         )
 
-        os.makedirs(
-            pages_folder,
+        pages_folder.mkdir(
+            parents=True,
             exist_ok=True
         )
 
         existing = []
 
-        for name in os.listdir(pages_folder):
+        for child in pages_folder.iterdir():
 
-            full = os.path.join(
-                pages_folder,
-                name
-            )
-
-            if os.path.isdir(full):
+            if child.is_dir():
 
                 try:
                     existing.append(
-                        int(name)
+                        int(child.name)
                     )
-                except:
+                except ValueError:
                     pass
 
         if existing:
@@ -98,13 +100,13 @@ class EvidenceExpander:
 
         folder_name = f"{next_id:04d}"
 
-        folder = os.path.join(
-            pages_folder,
-            folder_name
+        folder = (
+            pages_folder
+            / folder_name
         )
 
-        os.makedirs(
-            folder,
+        folder.mkdir(
+            parents=True,
             exist_ok=True
         )
 
@@ -118,10 +120,7 @@ class EvidenceExpander:
 
         with open(
 
-            os.path.join(
-                folder,
-                "metadata.json"
-            ),
+            folder / "metadata.json",
 
             "w",
 
@@ -144,10 +143,7 @@ class EvidenceExpander:
 
         with open(
 
-            os.path.join(
-                folder,
-                "raw.html"
-            ),
+            folder / "raw.html",
 
             "w",
 
@@ -161,10 +157,7 @@ class EvidenceExpander:
 
         with open(
 
-            os.path.join(
-                folder,
-                "clean.html"
-            ),
+            folder / "clean.html",
 
             "w",
 
@@ -178,10 +171,7 @@ class EvidenceExpander:
 
         with open(
 
-            os.path.join(
-                folder,
-                "page.md"
-            ),
+            folder / "page.md",
 
             "w",
 
@@ -195,10 +185,7 @@ class EvidenceExpander:
 
         with open(
 
-            os.path.join(
-                folder,
-                "links.json"
-            ),
+            folder / "links.json",
 
             "w",
 
@@ -224,16 +211,13 @@ class EvidenceExpander:
     def process_page(
         self,
         queue_item,
-        program_folder
     ):
 
         print(
             f'Processing: {queue_item["title"]}'
         )
 
-        folder_name, folder = self.create_page_folder(
-            program_folder
-        )
+        folder_name, folder = self.create_page_folder()
 
         ##################################################
         # PDF
@@ -241,20 +225,14 @@ class EvidenceExpander:
 
         if queue_item["type"] == "pdf":
 
-            assets = os.path.join(
-                folder,
-                "assets"
-            )
+            assets = folder / "assets"
 
-            os.makedirs(
-                assets,
+            assets.mkdir(
+                parents=True,
                 exist_ok=True
             )
 
-            pdf_file = os.path.join(
-                assets,
-                "source.pdf"
-            )
+            pdf_file = assets / "source.pdf"
 
             result = self.downloader.download_file(
 
@@ -482,9 +460,9 @@ class EvidenceExpander:
     # Expand
     ###########################################################
 
-    def expand(self, program_folder):
+    def expand(self):
 
-        manifest = self.load_manifest(program_folder)
+        manifest = self.load_manifest()
 
         while True:
 
@@ -503,8 +481,7 @@ class EvidenceExpander:
             try:
 
                 links = self.process_page(
-                    pending,
-                    program_folder
+                    pending
                 )
 
                 self.enqueue_children(
@@ -528,7 +505,6 @@ class EvidenceExpander:
             )
 
             self.save_manifest(
-                program_folder,
                 manifest
             )
 

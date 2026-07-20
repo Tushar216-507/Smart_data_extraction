@@ -1,9 +1,17 @@
 import json
-import os
 from datetime import datetime
+from workspace.workspace_manager import WorkspaceManager
 
 
 class ManifestBuilder:
+
+    def __init__(
+        self,
+        workspace: WorkspaceManager,
+        program_id: str,
+    ):
+        self.workspace = workspace
+        self.program_id = program_id
 
     MAX_DEPTH = 2
 
@@ -14,15 +22,15 @@ class ManifestBuilder:
         "international"
     }
 
-    def build(self, program_folder):
+    def build(self):
 
-        links_path = os.path.join(
-            program_folder,
-            "links.json"
+        links_path = (
+            self.workspace.program_root(self.program_id)
+            / "links.json"
         )
 
-        if not os.path.exists(links_path):
-            return
+        if not links_path.exists():
+            return  
 
         with open(
             links_path,
@@ -162,11 +170,9 @@ class ManifestBuilder:
             manifest["queue"]
         )
 
-        output = os.path.join(
-
-            program_folder,
-
-            "crawl_manifest.json"
+        output = (
+            self.workspace.program_root(self.program_id)
+            / "crawl_manifest.json"
         )
 
         with open(
