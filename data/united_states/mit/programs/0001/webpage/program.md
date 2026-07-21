@@ -1,0 +1,1 @@
+From artificial intelligence to sustainability to leadership, MIT Professional Education provides a diverse range of offerings developed and taught by MIT faculty and instructors for engineering and technology professionals around the globe. Choose from dozens of courses and professional certificate programs in the language and modality that best fit your career or organization.

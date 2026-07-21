@@ -17,18 +17,15 @@ Usage:
 """
 
 import sys
-import re
 import json
 import requests
 from groq import Groq
-import os
 import json
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import sitemap
-import crawler
 from config import Config
+from discovery.engine import DiscoveryEngine
 
 # ---- Settings ----
 MIN_SITEMAP_URLS_BEFORE_FALLBACK = 20   # if sitemap gives fewer than this, also crawl
@@ -50,65 +47,10 @@ HEADERS = {
 # accidentally appear inside an unrelated word). Short fragments like "ba"/"ma"
 # are checked with a word-boundary regex instead, since as plain substrings they
 # false-matched inside ordinary words (e.g. "thema-finden" contains "ma-").
-DEGREE_KEYWORDS_SAFE = [
-    "bachelor", "bachelors", "undergraduate",
-    "master", "masters", "postgraduate",
-    # German equivalents (common for DE/AT/CH universities)
-    "bachelorstudium", "masterstudium",
-]
-
-DEGREE_KEYWORDS_BOUNDARY = [
-    r"b\.sc", r"bsc", r"b\.a\b",
-    r"m\.sc", r"msc", r"m\.a\b",
-]
-DEGREE_BOUNDARY_PATTERN = re.compile(
-    r"(?<![a-z])(" + "|".join(DEGREE_KEYWORDS_BOUNDARY) + r")(?![a-z])"
-)
-
-# Anything containing these is almost certainly NOT a program page, regardless of
-# whether it also matches a degree keyword above (e.g. "postdoc career programme",
-# "alumni mentoring program", a news article mentioning "master's degree").
-EXCLUDE_KEYWORDS = [
-    "news", "newsroom", "press", "pressemitteilung", "media-relations",
-    "event", "veranstaltung", "calendar",
-    "alumni", "career", "cooperation", "mentoring",
-    "contact", "kontakt", "faq",
-    "examination-office", "pruefungsamt",
-    "admission", "application", "deadline",
-    "job", "stelle", "vacancy",
-    "workspace-for-students",
-    "prize", "award", "thesis", "auszeichnung",
-]
-
-# Detail-page pattern seen on many university catalogs: a subject slug followed
-# by a trailing numeric ID, e.g. .../data-science-master-4464.html
-# This is a strong (but optional) signal - real catalog entries are usually
-# generated from a database and follow this template; blog/news pages don't.
-DETAIL_PAGE_PATTERN = re.compile(r"-\d+\.html$")
 
 client = Groq(
     api_key=Config.GROQ_API_KEY
 )
-
-
-def looks_like_program_url(url):
-    """
-    A URL qualifies if:
-      - it contains a degree-level keyword (bachelor/master/etc), AND
-      - it does NOT contain an exclude keyword (news, alumni, career, etc)
-    The numeric-ID detail-page pattern is treated as a bonus signal, not a hard
-    requirement, since not every university's catalog uses that convention.
-    """
-    lower = url.lower()
-
-    if any(bad in lower for bad in EXCLUDE_KEYWORDS):
-        return False
-
-    if any(keyword in lower for keyword in DEGREE_KEYWORDS_SAFE):
-        return True
-
-    return bool(DEGREE_BOUNDARY_PATTERN.search(lower))
-
 
 def check_link_alive(url):
     """Returns (url, is_alive). Tries HEAD first (cheap), falls back to GET."""
@@ -273,27 +215,18 @@ def discover_programs(base_url):
     print(f"\nStarting discovery for: {base_url}\n")
 
     # --- Step 1: Sitemap ---
-    print("Step 1: Fetching sitemap URLs...")
-    sitemap_urls = sitemap.get_all_sitemap_urls(base_url)
-    print(f"  Found {len(sitemap_urls)} total URLs in sitemap(s)")
+    print("Step 1: Discovering programme URLs...")
 
-    all_urls = set(sitemap_urls)
+    engine = DiscoveryEngine()
 
-    # --- Step 2: Fallback crawl if sitemap was thin or missing ---
-    if len(sitemap_urls) < MIN_SITEMAP_URLS_BEFORE_FALLBACK:
-        print(f"\nStep 2: Sitemap gave < {MIN_SITEMAP_URLS_BEFORE_FALLBACK} URLs, falling back to crawler...")
-        crawled_urls = crawler.crawl(base_url, max_pages=MAX_CRAWL_PAGES)
-        print(f"  Crawler found {len(crawled_urls)} URLs")
-        all_urls.update(crawled_urls)
-    else:
-        print("\nStep 2: Sitemap gave enough URLs, skipping fallback crawl")
+    discovery_result = engine.discover(base_url)
 
-    print(f"\nTotal unique URLs collected: {len(all_urls)}")
+    candidates = [
+        candidate.url
+        for candidate in discovery_result.candidates
+    ]
 
-    # --- Step 3: Filter for program/course-looking URLs ---
-    print("\nStep 3: Filtering for program/course URLs...")
-    candidates = [u for u in all_urls if looks_like_program_url(u)]
-    print(f"  {len(candidates)} candidate program URLs after keyword filter")
+    print(f"  Found {len(candidates)} candidate URLs")
 
     if not candidates:
         print("\nNo candidate URLs found. Try lowering MIN_SITEMAP_URLS_BEFORE_FALLBACK "
@@ -388,4 +321,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     target_url = sys.argv[1].rstrip("/")
-    run(target_url)
+    run(target_url)

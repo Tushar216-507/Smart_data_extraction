@@ -7,7 +7,7 @@ Usage:
 
     python run_pipeline.py --university "https://www.lmu.de/en/"
 
-    python run_pipeline.py --university "https://www.lmu.de/en/" --programs 1
+    python run_pipeline.py --university "https://www.mit.edu/" --programs 1
 
     python run_pipeline.py --university "https://www.lmu.de/en/" --programs 5 --continue-on-error
 

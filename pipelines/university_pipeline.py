@@ -213,7 +213,9 @@ class UniversityPipeline:
 
         self._print_stage(1, total_stages, self.STAGES[0])
 
-        programs = self._discover_programs(context)
+        context.discovery = self._discover_programs(context)
+
+        programs = context.discovery
 
         if not programs:
             self._print_error("No programmes found. Stopping.")
@@ -237,6 +239,8 @@ class UniversityPipeline:
 
         for index, program in enumerate(programs, start=1):
 
+            context.program = program
+
             program_id = f"{index:04d}"
 
             self._print_program_header(
@@ -247,7 +251,6 @@ class UniversityPipeline:
                 self._run_program_pipeline(
                     context=context,
                     program_id=program_id,
-                    program=program,
                     program_index=index,
                     total_programs=len(programs),
                     total_stages=total_stages,
@@ -306,12 +309,16 @@ class UniversityPipeline:
         self,
         context: PipelineContext,
         program_id: str,
-        program: ProgramMetadata,
         program_index: int,
         total_programs: int,
         total_stages: int,
     ) -> None:
         """Execute stages 2–6 for a single programme."""
+
+        program = context.program
+
+        if program is None:
+            raise RuntimeError("No program is set in the pipeline context.")
 
         workspace = context.workspace
 
@@ -334,9 +341,14 @@ class UniversityPipeline:
 
         program_folder = workspace.program_root(program_id)
 
-        evidence_pack = self.evidence_pack_builder.build(
+        context.evidence_pack = self.evidence_pack_builder.build(
             program_folder
         )
+
+        evidence_pack = context.evidence_pack
+
+        if evidence_pack is None:
+            raise RuntimeError("Evidence pack was not created.")
 
         page_count = len(evidence_pack.pages)
         pdf_count = len(evidence_pack.pdfs)
@@ -358,9 +370,10 @@ class UniversityPipeline:
             client=extraction_client,
         )
 
-        raw_facts = extractor.extract(
+        context.raw_facts = extractor.extract(
             evidence_pack.program,
         )
+        raw_facts = context.raw_facts
 
         raw_facts_path = (
             workspace.facts_dir(program_id)
@@ -392,7 +405,11 @@ class UniversityPipeline:
             client=normalization_client,
         )
 
-        normalized_facts = normalizer.normalize(chunks)
+        context.normalized_facts = normalizer.normalize(chunks)
+        normalized_facts = context.normalized_facts
+
+        if normalized_facts is None:
+            raise RuntimeError("Semantic normalization failed.")
 
         normalized_path = (
             workspace.facts_dir(program_id)
@@ -415,11 +432,15 @@ class UniversityPipeline:
             output_directory=output_dir,
         )
 
-        result = builder.build(
+        context.final_output = builder.build(
             facts=normalized_facts.facts,
             program_id=program_id,
             program_name=program.display_name,
         )
+        result = context.final_output
+
+        if result is None:
+            raise RuntimeError("Final output generation failed.")
 
         written = len(result.get("output_files", {}))
 
