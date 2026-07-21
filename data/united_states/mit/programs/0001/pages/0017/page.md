@@ -1,0 +1,21 @@
+## General
+
+Courses generally focus on scientific and technical leadership and can include faculty from any of MIT’s five schools. Topics can target a specialized field or combine management and technology. Companies may also request a customized version of our on-campus and online courses[.](https://professional.mit.edu/programs/short-programs)
+
+Both corporate and international courses are taught by MIT faculty. Faculty develop curriculum for each course, drawing on their academic and research experience and engagement with industry.
+
+MIT Professional Education staff work with managers to define curricula, then collaborate with MIT faculty to design a specialized learning experience.
+
+These courses can be delivered at MIT, the company site, or off site.
+
+A corporate course typically runs a single week but may extend several weeks over a year with interrelated projects. Some courses are as short as two days.
+
+An International Programs course typically runs 2-5 days.
+
+International Programs offerings are non-degree and not-for-academic-credit programs. Upon completion of the program International Programs awards each participant an MIT Professional Education Certificate of Completion and offers CEUs (Continuing Education Units).
+
+If you are interested in earning MIT academic credit you may want to consider the [Advanced Study Program](https://professional.mit.edu/news/newsletters/articles/advanced-study-program).
+
+Corporate and International programs are typically offered to groups of 30 or more, but a company may negotiate class size with the MIT Professional Education office.
+
+The cost of a corporate or international course is determined by factors including the length of the course and the number of students involved. In general, the per-person cost of MIT Professional Education Corporate courses is not less than Short Programs tuition, and it can be more depending on the duration, complexity, and level of curriculum development required.

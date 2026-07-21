@@ -25,6 +25,7 @@ class CrawlerStrategy(DiscoveryStrategy):
     ) -> list[CandidateURL]:
 
         domain = urlparse(context.base_url).netloc
+        base_domain = domain[4:] if domain.startswith("www.") else domain
 
         queue = deque([context.base_url])
 
@@ -60,7 +61,7 @@ class CrawlerStrategy(DiscoveryStrategy):
 
                 parsed = urlparse(link)
 
-                if parsed.netloc != domain:
+                if not parsed.netloc.endswith(base_domain):
                     continue
 
                 if link not in context.discovered_urls:

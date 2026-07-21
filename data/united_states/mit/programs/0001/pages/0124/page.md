@@ -1,0 +1,3 @@
+## Graduate students who have pursued available grants, fellowships, and assistantships may also apply for student loans.
+
+[Learn more about loans](https://oge.mit.edu/gpp/funding/loans/) in the OGE’s graduate policies and procedures resources. Information on applying for [federal and MIT loans](https://sfs.mit.edu/graduate-students/) for graduate students is available from Student Financial Services, Building E17-294.

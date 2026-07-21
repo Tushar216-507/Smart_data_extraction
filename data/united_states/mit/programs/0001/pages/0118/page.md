@@ -1,0 +1,5 @@
+## Whether you’re interested in academia or industry, here’s how to advance your career and professional development.
+
+In this section, learn about resources for career planning and professional development for Master’s and PhD students at MIT, including leadership, teaching, and writing. You will find robust resources at the [Career Advising and Professional Development](https://capd.mit.edu/signature-resources-for-grad-students/) (CAPD) office, including the [Path of Professorship workshop](https://capd.mit.edu/flagship-graduate-student-professional-development-program-the-path-of-professorship/); other offices and groups around the Institute offer additional help.
+
+If you are interested or already engaged in [entrepreneurship](https://oge.mit.edu/student-support-development/entrepreneurship/), we have resources for you as well.

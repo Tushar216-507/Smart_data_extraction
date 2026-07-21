@@ -1,0 +1,58 @@
+{
+  "program_id": "0001",
+  "program_name": "Degree programs",
+  "fact_count": 3,
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "residency_requirements",
+      "value": "All MIT graduate degree programs have residency requirements that reflect academic terms, excluding summer.",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "thesis_requirement",
+      "value": "Some degrees require completion of an acceptable thesis prepared in residence at MIT, unless special permission is granted for part of the thesis work to be done elsewhere.",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "pro_seminar_or_capstone_requirement",
+      "value": "Other degrees require a pro-seminar or capstone experience.",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      }
+    }
+  ]
+}

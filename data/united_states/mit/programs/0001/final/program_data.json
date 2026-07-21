@@ -1,12 +1,12 @@
 {
   "program_id": "0001",
-  "program_name": "PROGRAMS",
-  "fact_count": 6,
+  "program_name": "Degree programs",
+  "fact_count": 2,
   "facts": [
     {
       "category": "overview",
-      "field": "description",
-      "value": "MIT Professional Education provides a diverse range of offerings developed and taught by MIT faculty and instructors for engineering and technology professionals around the globe.",
+      "field": "interdepartmental_programs_info",
+      "value": "MIT has a number of established interdepartmental programs, and many more opportunities for students to arrange interdepartmental programs with interested faculty members.",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0001",
@@ -16,14 +16,14 @@
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       }
     },
     {
       "category": "overview",
-      "field": "topics_covered",
-      "value": "Artificial intelligence, sustainability, leadership",
+      "field": "departments_and_programs_list_available",
+      "value": "An alphabetical list of all the available departments and programs that offer a graduate-level degree is provided.",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0001",
@@ -33,76 +33,8 @@
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
-      }
-    },
-    {
-      "category": "overview",
-      "field": "offerings_type",
-      "value": "Dozens of courses and professional certificate programs",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
-      }
-    },
-    {
-      "category": "overview",
-      "field": "target_audience",
-      "value": "Engineering and technology professionals worldwide",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
-      }
-    },
-    {
-      "category": "overview",
-      "field": "delivery_modality",
-      "value": "Courses and certificate programs are offered in various languages and modalities to fit the learner's career or organization",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
-      }
-    },
-    {
-      "category": "faculty",
-      "field": "instructors",
-      "value": "MIT faculty and instructors",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       }
     }
   ]

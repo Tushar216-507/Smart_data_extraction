@@ -55,9 +55,18 @@ class OpenAIProvider(LLMProvider):
 
             kwargs["response_format"] = response_schema
 
-        response = self.client.chat.completions.create(
-            **kwargs
-        )
+        import time
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                response = self.client.chat.completions.create(**kwargs)
+                break
+            except Exception as e:
+                if "429" in str(e) or "rate" in str(e).lower():
+                    if attempt < max_retries - 1:
+                        time.sleep(10)
+                        continue
+                raise
 
         usage = response.usage
 

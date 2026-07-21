@@ -1,16 +1,50 @@
 {
-  "fact_count": 6,
+  "fact_count": 8,
   "facts": [
     {
-      "category": "overview",
-      "field": "description",
-      "value": "MIT Professional Education provides a diverse range of offerings developed and taught by MIT faculty and instructors for engineering and technology professionals around the globe.",
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "All graduate students must have a primary affiliation with and be registered in a single department.",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "Every applicant accepted by MIT is admitted through one of the graduate departments.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "Applicants should apply to the department or graduate program conducting research in the area of interest.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -20,14 +54,14 @@
     },
     {
       "category": "overview",
-      "field": "topics_covered",
-      "value": "Artificial intelligence, sustainability, leadership",
+      "field": "interdepartmental_programs_info",
+      "value": "MIT has a number of established interdepartmental programs, and many more opportunities for students to arrange interdepartmental programs with interested faculty members.",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -37,14 +71,14 @@
     },
     {
       "category": "overview",
-      "field": "offerings_type",
-      "value": "Dozens of courses and professional certificate programs",
+      "field": "departments_and_programs_list_available",
+      "value": "An alphabetical list of all the available departments and programs that offer a graduate-level degree is provided.",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -53,15 +87,15 @@
       }
     },
     {
-      "category": "overview",
-      "field": "target_audience",
-      "value": "Engineering and technology professionals worldwide",
+      "category": "curriculum",
+      "field": "residency_requirements",
+      "value": "All MIT graduate degree programs have residency requirements that reflect academic terms, excluding summer.",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -70,15 +104,15 @@
       }
     },
     {
-      "category": "overview",
-      "field": "delivery_modality",
-      "value": "Courses and certificate programs are offered in various languages and modalities to fit the learner's career or organization",
+      "category": "curriculum",
+      "field": "thesis_requirement",
+      "value": "Some degrees require completion of an acceptable thesis prepared in residence at MIT, unless special permission is granted for part of the thesis work to be done elsewhere.",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -87,15 +121,15 @@
       }
     },
     {
-      "category": "faculty",
-      "field": "instructors",
-      "value": "MIT faculty and instructors",
+      "category": "curriculum",
+      "field": "pro_seminar_or_capstone_requirement",
+      "value": "Other degrees require a pro-seminar or capstone experience.",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "PROGRAMS | Professional Education",
-        "url": "http://professional.mit.edu/programs"
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
       },
       "metadata": {
         "chunk_id": "program_0001",

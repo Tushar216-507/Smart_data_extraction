@@ -1,20 +1,20 @@
 {
   "status": "success",
   "program_id": "0001",
-  "program_name": "PROGRAMS",
+  "program_name": "Degree programs",
   "source_file": null,
   "output_directory": "data\\united_states\\mit\\programs\\0001\\final",
-  "input_fact_count": 6,
-  "unique_fact_count": 6,
+  "input_fact_count": 8,
+  "unique_fact_count": 8,
   "exact_duplicate_count": 0,
-  "handled_fact_count": 6,
+  "handled_fact_count": 8,
   "unhandled_fact_count": 0,
-  "written_fact_count": 6,
+  "written_fact_count": 8,
   "dropped_fact_count": 0,
   "section_fact_counts": {
-    "program": 6,
-    "admission": 0,
-    "curriculum": 0,
+    "program": 2,
+    "admission": 3,
+    "curriculum": 3,
     "career": 0,
     "fees": 0,
     "scholarships": 0,
@@ -29,6 +29,8 @@
   },
   "generated_files": {
     "program": "data\\united_states\\mit\\programs\\0001\\final\\program_data.json",
+    "admission": "data\\united_states\\mit\\programs\\0001\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\mit\\programs\\0001\\final\\curriculum_data.json",
     "summary": "data\\united_states\\mit\\programs\\0001\\final\\build_summary.json"
   }
 }

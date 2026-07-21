@@ -1,0 +1,7 @@
+A doctoral degree requires the satisfactory completion of an approved program of advanced study and original research of high quality.
+
+Please note that the Doctor of Philosophy (PhD) and Doctor of Science (ScD) degrees are awarded interchangeably by all departments in the School of Engineering and the School of Science, except in the fields of biology, cognitive science, neuroscience, medical engineering, and medical physics. This means that, excepting the departments outlined above, the coursework and expectations to earn a Doctor of Philosophy and for a Doctor of Science degree from these schools are generally the same. Doctoral students may choose which degree they wish to complete.
+
+Applicants interested in graduate education should apply to the department or graduate program conducting research in the area of interest. Some departments require a doctoral candidate to take a “minor” program outside of the student’s principal field of study; if you wish to apply to one of these departments, please consider additional fields you may like to pursue.
+
+Below is a list of programs and departments that offer doctoral-level degrees.

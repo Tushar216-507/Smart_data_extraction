@@ -1,0 +1,3 @@
+Why choose MIT? Our own graduate students have asked this very same question, and have shared their insights through [insightful blog posts](https://oge.mit.edu/news-and-events/blog/). Diverse students explore topics from choosing an advisor to balancing mental health and wellness.
+
+[insightful blog posts](https://oge.mit.edu/news-and-events/blog/). Diverse students explore topics from choosing an advisor to balancing mental health and wellness.

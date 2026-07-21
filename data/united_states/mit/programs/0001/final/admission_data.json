@@ -1,0 +1,58 @@
+{
+  "program_id": "0001",
+  "program_name": "Degree programs",
+  "fact_count": 3,
+  "facts": [
+    {
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "All graduate students must have a primary affiliation with and be registered in a single department.",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "Every applicant accepted by MIT is admitted through one of the graduate departments.",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "Applicants should apply to the department or graduate program conducting research in the area of interest.",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Degree programs | Office of Graduate Education",
+        "url": "https://oge.mit.edu/graduate-admissions/programs"
+      }
+    }
+  ]
+}

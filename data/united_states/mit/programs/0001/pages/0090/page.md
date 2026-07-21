@@ -1,0 +1,11 @@
+## Professional development
+
+Graduate professional development is skills-based training complementary to your academic coursework that will augment any career path you decide to follow, within and beyond academe.
+
+MIT provides professional development resources to help you deepen your skills and knowledge in seven areas: [career advancement](https://capd.mit.edu/channels/career-advancement/), [communication](https://capd.mit.edu/channels/communication/), [interpersonal skills](https://capd.mit.edu/channels/interpersonal-skills/), [leadership and mentoring](https://capd.mit.edu/channels/leadership-mentoring/), [personal development](https://capd.mit.edu/channels/personal-development/), [social responsibility](https://capd.mit.edu/channels/social-responsibility/), and [teaching.](https://capd.mit.edu/channels/teaching/) These are the competencies that employers find most essential to success, and they will also help you excel in the challenges you face now as a graduate student. Visit the Graduate Professional Development webpages linked above to find resources on each of these competencies, as well as upcoming professional development workshops and events from CAPD and our partners around the Institute.
+
+The[Experiential Learning Exchange (ELx)](https://elx.mit.edu/) is a central portal for undergraduate and graduate students to find and apply for all types of Experiential Learning Opportunities (ELOs) at MIT.
+
+[The Academics, Research, & Careers committee of the Graduate Student Council](https://gsc.mit.edu/committees/arc/) organizes a professional development skills workshop and offers a Professional Development Exploration Grant. This grant provides funding for students to explore a professional development opportunity in an area outside their academic or research focus.
+
+To hear about upcoming events, sign up for the [CAPD Graduate Career News list](https://capd.mit.edu/how-to-sign-up-for-newsletters-customized-emails/) and the [Graduate Student Council Professional Development email list](http://mailman.mit.edu/mailman/listinfo/gsc-pds-announce).

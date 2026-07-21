@@ -1,0 +1,9 @@
+Healthcare in the US might seem very different—buying insurance, making appointments, choosing a primary care provider. Trying to make sense of it all? We’ve got the answers to all your questions.
+
+You’ll get your routine care from your primary care provider (PCP), but, for treatment of complicated medical problems or special tests, your PCP may refer you to a specialty provider at MIT Health or elsewhere.
+
+We provide interpreter services for more than 150 spoken languages and American Sign Language (ASL), document translation, and assistive listening devices.
+
+You’ll get your routine care from your primary care provider (PCP), but, for treatment of complicated medical problems or special tests, your PCP may refer you to a specialty provider at MIT Health or elsewhere.
+
+We provide interpreter services for more than 150 spoken languages and American Sign Language (ASL), document translation, and assistive listening devices.

@@ -1,0 +1,3 @@
+Extensive information and links regarding careers, jobs, and internships may be found on the [Career Advising and Professional Development site](https://capd.mit.edu/jobs-and-internships/).
+
+On-campus and some off-campus job listings are posted online by [Student Financial Services](http://sfs.mit.edu/jobs/about-jobs-mit). On-campus jobs are available in technical and nontechnical fields in academic departments, laboratories, and administrative offices. Paid community service jobs are also available for students with Federal Work-Study in their financial aid package.

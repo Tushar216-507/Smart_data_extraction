@@ -422,6 +422,9 @@ class LinkDiscovery:
 
         seen = set()
 
+        _domain = urlparse(base_url).netloc
+        base_domain = _domain[4:] if _domain.startswith("www.") else _domain
+
         results = []
 
         for a in soup.find_all("a", href=True):
@@ -511,8 +514,7 @@ class LinkDiscovery:
                 "domain": parsed.netloc,
 
                 "internal": (
-                    parsed.netloc ==
-                    urlparse(base_url).netloc
+                    parsed.netloc.endswith(base_domain)
                 ),
 
                 "category": info["category"],

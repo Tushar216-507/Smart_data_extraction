@@ -19,7 +19,7 @@ Usage:
 import sys
 import json
 import requests
-from groq import Groq
+from openai import OpenAI
 import json
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -48,8 +48,9 @@ HEADERS = {
 # are checked with a word-boundary regex instead, since as plain substrings they
 # false-matched inside ordinary words (e.g. "thema-finden" contains "ma-").
 
-client = Groq(
-    api_key=Config.GROQ_API_KEY
+client = OpenAI(
+    api_key=Config.NVIDIA_API_KEY,
+    base_url=Config.NVIDIA_BASE_URL
 )
 
 def check_link_alive(url):
@@ -67,69 +68,75 @@ def check_link_alive(url):
         return url, False
 
 
-def verify_links(urls):
-    """Checks a list of URLs concurrently, returns only the working ones."""
-    working = []
+def verify_links(candidates):
+    """Checks a list of CandidateURLs concurrently, returns only the working ones."""
+    working = set()
     with ThreadPoolExecutor(max_workers=LINK_CHECK_WORKERS) as executor:
-        futures = {executor.submit(check_link_alive, url): url for url in urls}
+        futures = {executor.submit(check_link_alive, c.url): c.url for c in candidates}
         for i, future in enumerate(as_completed(futures), 1):
             url, alive = future.result()
             if alive:
-                working.append(url)
+                working.add(url)
             if i % 25 == 0:
-                print(f"  checked {i}/{len(urls)} links...")
-    return sorted(working)
+                print(f"  checked {i}/{len(candidates)} links...")
+    # Preserve the original ranking order
+    return [c for c in candidates if c.url in working]
 
-def fetch_page_metadata(url):
+def fetch_page_metadata(candidate):
     """
-    Downloads a page and extracts useful metadata.
+    Downloads a page and extracts useful metadata into the CandidateURL.
     """
-
     try:
         response = requests.get(
-            url,
+            candidate.url,
             headers=HEADERS,
             timeout=LINK_CHECK_TIMEOUT
         )
-
         response.encoding = response.apparent_encoding
-
         if response.status_code >= 400:
             return None
 
         soup = BeautifulSoup(response.content, "lxml")
-
-        title = ""
-        if soup.title:
-            title = soup.title.get_text(" ", strip=True)
-
-        h1 = ""
+        title = soup.title.get_text(" ", strip=True) if soup.title else ""
+        
         h1_tag = soup.find("h1")
-        if h1_tag:
-            h1 = h1_tag.get_text(" ", strip=True)
+        h1 = h1_tag.get_text(" ", strip=True) if h1_tag else ""
+        
+        structured_data = []
+        for script in soup.find_all('script', type='application/ld+json'):
+            try:
+                import json
+                data = json.loads(script.string)
+                if isinstance(data, list):
+                    structured_data.extend(data)
+                else:
+                    structured_data.append(data)
+            except Exception:
+                pass
 
-        return {
-            "url": url,
+        candidate.metadata.update({
             "title": title,
             "h1": h1,
-            'status': response.status_code
-        }
+            "status": response.status_code,
+            "structured_data": structured_data
+        })
 
+        return candidate
     except Exception:
         return None
     
-def translate_batch(pages):
+def translate_batch(candidates):
 
-    if not pages:
-        return pages
+    if not candidates:
+        return candidates
 
     payload = []
 
-    for i, page in enumerate(pages):
+    for i, candidate in enumerate(candidates):
         payload.append({
             "id": i,
-            "title": page["title"],
-            "h1": page["h1"]
+            "title": candidate.metadata.get("title", ""),
+            "h1": candidate.metadata.get("h1", "")
         })
 
     example = {
@@ -137,18 +144,21 @@ def translate_batch(pages):
             {
                 "id": 0,
                 "title_en": "",
-                "h1_en": ""
+                "h1_en": "",
+                "page_type": "Degree Programme"
             }
         ]
     }
 
     prompt = f"""
     Translate all university programme metadata to English.
+    AND classify the page_type as exactly one of: Degree Programme, Programme Hub, Degree Catalogue, Admissions, Support, Navigation, Other.
 
     Rules:
     - Return ONLY valid JSON.
     - Keep academic meaning.
     - Translate German university terminology naturally.
+    - Classify accurately.
     - Do not invent information.
     - Preserve ids.
 
@@ -161,17 +171,28 @@ def translate_batch(pages):
     {json.dumps(example, indent=2)}
 """
 
-    response = client.chat.completions.create(
-        model=Config.GROQ_MODEL,
-        temperature=0,
-        response_format={"type": "json_object"},
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
-    )
+    import time
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=Config.NVIDIA_MODEL,
+                temperature=0,
+                response_format={"type": "json_object"},
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ]
+            )
+            break
+        except Exception as e:
+            if "429" in str(e) or "rate" in str(e).lower():
+                if attempt < max_retries - 1:
+                    time.sleep(10)
+                    continue
+            raise
 
     translated = json.loads(
         response.choices[0].message.content
@@ -179,20 +200,20 @@ def translate_batch(pages):
 
     lookup = {item["id"]: item for item in translated}
 
-    for i, page in enumerate(pages):
+    for i, candidate in enumerate(candidates):
 
         if i not in lookup:
             continue
 
         item = lookup[i]
 
-        page["title_original"] = page["title"]
-        page["h1_original"] = page["h1"]
+        candidate.metadata["title_original"] = candidate.metadata.get("title", "")
+        candidate.metadata["h1_original"] = candidate.metadata.get("h1", "")
+        candidate.metadata["title_en"] = item.get("title_en", "")
+        candidate.metadata["h1_en"] = item.get("h1_en", "")
+        candidate.page_type = item.get("page_type", "Unknown")
 
-        page["title_en"] = item["title_en"]
-        page["h1_en"] = item["h1_en"]
-
-    return pages
+    return candidates
 
 def discover_programs(base_url):
     """
@@ -221,10 +242,7 @@ def discover_programs(base_url):
 
     discovery_result = engine.discover(base_url)
 
-    candidates = [
-        candidate.url
-        for candidate in discovery_result.candidates
-    ]
+    candidates = discovery_result.candidates
 
     print(f"  Found {len(candidates)} candidate URLs")
 
@@ -240,56 +258,82 @@ def discover_programs(base_url):
     # --- Step 4: Verify links are actually working ---
     print(f"\nStep 4: Verifying {len(candidates)} links...")
 
-    working_urls = verify_links(candidates)
+    working_candidates = verify_links(candidates)
 
-    print(f"  {len(working_urls)}/{len(candidates)} links are working")
+    print(f"  {len(working_candidates)}/{len(candidates)} links are working")
 
     print("\nStep 5: Extracting page metadata...")
 
-    program_pages = []
+    program_candidates = []
 
     print("\nFetching metadata...")
 
-    for index, url in enumerate(working_urls, start=1):
+    for index, candidate in enumerate(working_candidates, start=1):
 
-        page = fetch_page_metadata(url)
+        updated_candidate = fetch_page_metadata(candidate)
 
-        if page:
-            program_pages.append(page)
+        if updated_candidate:
+            program_candidates.append(updated_candidate)
 
         if index % 25 == 0:
-            print(f"  fetched {index}/{len(working_urls)}")
+            print(f"  fetched {index}/{len(working_candidates)}")
 
-    print("\nTranslating metadata...")
+    print("\nTranslating metadata & Classifying intents...")
 
     BATCH_SIZE = 20
 
-    translated_pages = []
+    for start in range(0, len(program_candidates), BATCH_SIZE):
 
-    for start in range(0, len(program_pages), BATCH_SIZE):
-
-        batch = program_pages[start:start+BATCH_SIZE]
+        batch = program_candidates[start:start+BATCH_SIZE]
 
         print(
-            f"  translating batch "
+            f"  processing batch "
             f"{start//BATCH_SIZE + 1}"
         )
 
         if ENABLE_TRANSLATION:
-            translated = translate_batch(batch)
-            translated_pages.extend(translated)
+            translate_batch(batch)
         else:
-            translated_pages.extend(batch)
+            for c in batch:
+                c.metadata["title_original"] = c.metadata.get("title", "")
+                c.metadata["h1_original"] = c.metadata.get("h1", "")
+                c.metadata["title_en"] = c.metadata.get("title", "")
+                c.metadata["h1_en"] = c.metadata.get("h1", "")
+                c.page_type = "Unknown"
 
-    program_pages = translated_pages
+    print("\nRe-evaluating candidates based on metadata...")
+    from discovery.evaluation import CandidateEvaluator
+    evaluator = CandidateEvaluator()
+    for c in program_candidates:
+        evaluator.evaluate(c)
 
-    result = {
+    program_candidates.sort(key=lambda x: x.score, reverse=True)
+
+    print(f"\nDiscovery complete. Found {len(program_candidates)} working program URLs.")
+    
+    program_pages = []
+    for c in program_candidates:
+        page_data = {
+            "url": c.url,
+            "status": c.metadata.get("status", 200),
+            "title": c.metadata.get("title", ""),
+            "h1": c.metadata.get("h1", ""),
+            "title_original": c.metadata.get("title_original", ""),
+            "h1_original": c.metadata.get("h1_original", ""),
+            "title_en": c.metadata.get("title_en", ""),
+            "h1_en": c.metadata.get("h1_en", ""),
+            "page_type": c.page_type,
+            "score": c.score,
+            "reasons": c.reasons
+        }
+        program_pages.append(page_data)
+
+    return {
         "university_base_url": base_url,
         "total_working_program_urls": len(program_pages),
         "program_urls": program_pages,
     }
 
-    print(f"\nDiscovery complete. Found {len(program_pages)} working program URLs.\n")
 
     return result
 

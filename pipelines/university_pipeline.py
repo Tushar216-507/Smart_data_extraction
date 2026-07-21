@@ -34,6 +34,7 @@ from pipelines.program_metadata import ProgramMetadata
 
 from workspace.workspace_manager import WorkspaceManager
 
+from config import Config
 from knowledge.billing.usage_tracker import UsageTracker
 from knowledge.llm.client import LLMClient
 from knowledge.llm.provider import LLMProvider
@@ -494,24 +495,15 @@ class UniversityPipeline:
     @staticmethod
     def _create_llm_provider() -> LLMProvider:
         """
-        Create the LLM provider with Groq primary and
-        NVIDIA fallback.
+        Create the LLM provider using NVIDIA.
         """
-
         try:
-            primary = GroqProvider()
-        except ValueError:
-            raise RuntimeError(
-                "Groq API key is not configured. "
-                "Set GROQ_API_KEY in your .env file."
-            )
-
-        try:
-            fallback = NvidiaProvider()
-            return FallbackProvider(primary, fallback)
+            return NvidiaProvider(api_key=Config.NVIDIA_API_KEY)
         except Exception:
-            # NVIDIA fallback not available — use Groq only
-            return primary
+            raise RuntimeError(
+                "NVIDIA API key is not configured. "
+                "Set NVIDIA_API_KEY in your .env file."
+            )
 
     # ==============================================================
     # URL Helpers
