@@ -59,6 +59,11 @@ class CrawlerStrategy(DiscoveryStrategy):
 
                 link = self._normalize(link)
 
+                if self._should_skip(link):
+                    continue
+
+                anchor_text = a.get_text(" ",strip=True)
+
                 parsed = urlparse(link)
 
                 if not parsed.netloc.endswith(base_domain):
@@ -68,15 +73,20 @@ class CrawlerStrategy(DiscoveryStrategy):
 
                     context.discovered_urls.add(link)
 
-                    candidates.append(
-                        CandidateURL(
-                            url=link,
-                            source="crawler",
+                    if self._looks_like_program_page(link, anchor_text):
+                        candidates.append(
+                            CandidateURL(
+                                url=link,
+                                source="crawler",
+                            )
                         )
-                    )
 
                 if link not in context.visited_urls:
-                    queue.append(link)
+
+                    if self._should_follow_link(link, anchor_text):
+                        queue.appendleft(link)
+                    else:
+                        queue.append(link)
 
         return candidates
 
@@ -126,3 +136,100 @@ class CrawlerStrategy(DiscoveryStrategy):
             f"{parsed.netloc}"
             f"{parsed.path}"
         ).rstrip("/")
+    
+    PROGRAM_PAGE_KEYWORDS = [
+        "bachelor",
+        "bachelors",
+        "undergraduate",
+        "master",
+        "masters",
+        "graduate",
+        "phd",
+        "doctorate",
+        "degree",
+        "program",
+        "programme",
+    ]
+
+    SKIP_KEYWORDS = [
+        "news",
+        "event",
+        "calendar",
+        "contact",
+        "privacy",
+        "terms",
+        "login",
+        "signin",
+        "register",
+        "facebook",
+        "twitter",
+        "linkedin",
+        "instagram",
+        "youtube",
+    ]
+
+    def _should_skip(self, url: str) -> bool:
+        path = urlparse(url).path.lower()
+        return any(keyword in path for keyword in self.SKIP_KEYWORDS)
+
+    def _looks_like_program_page(self, url: str, text: str = "") -> bool:
+        """
+        Returns True only for likely individual programme pages,
+        not programme hubs.
+        """
+        path = urlparse(url).path.lower()
+        anchor = text.lower().strip()
+
+        # Must contain at least one programme keyword
+        if not any(keyword in (path + " " + anchor) for keyword in self.PROGRAM_PAGE_KEYWORDS):
+            return False
+
+        # Generic hub pages
+        hub_patterns = [
+            "/programs",
+            "/programmes",
+            "/degrees",
+            "/courses",
+            "/graduate-programs",
+            "/undergraduate-programs",
+            "/fields-of-study",
+            "/academics",
+        ]
+
+        if any(path.endswith(pattern) for pattern in hub_patterns):
+            return False
+
+        # Individual programme pages usually have deeper URLs
+        return len([p for p in path.split("/") if p]) >= 2
+    
+    def _should_follow_link(self, url: str, text: str = "") -> bool:
+        """
+        Returns True if the crawler should continue exploring this link.
+        """
+
+        content = f"{url} {text}".lower()
+
+        follow_keywords = [
+            "academics",
+            "academic",
+            "study",
+            "studies",
+            "program",
+            "programme",
+            "degree",
+            "course",
+            "graduate",
+            "undergraduate",
+            "master",
+            "bachelor",
+            "phd",
+            "doctorate",
+            "school",
+            "faculty",
+            "department",
+            "college",
+            "field",
+            "discipline",
+        ]
+
+        return any(keyword in content for keyword in follow_keywords)

@@ -1,139 +1,377 @@
 {
-  "fact_count": 8,
+  "fact_count": 22,
   "facts": [
     {
-      "category": "admission",
-      "field": "primary_affiliation_requirement",
-      "value": "All graduate students must have a primary affiliation with and be registered in a single department.",
+      "category": "curriculum",
+      "field": "programme_name",
+      "value": "Master of Engineering in Civil and Environmental Engineering",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
       },
       "metadata": {
         "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
-      }
-    },
-    {
-      "category": "admission",
-      "field": "admission_through_department",
-      "value": "Every applicant accepted by MIT is admitted through one of the graduate departments.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
-      },
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
-      }
-    },
-    {
-      "category": "admission",
-      "field": "application_target",
-      "value": "Applicants should apply to the department or graduate program conducting research in the area of interest.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
-      },
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
         "chunk_order": 0
       }
     },
     {
       "category": "curriculum",
-      "field": "residency_requirements",
-      "value": "All MIT graduate degree programs have residency requirements that reflect academic terms, excluding summer.",
+      "field": "track_name",
+      "value": "Climate, Environment, and Sustainability Track",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
       },
       "metadata": {
         "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
         "chunk_order": 0
       }
     },
     {
       "category": "curriculum",
-      "field": "thesis_requirement",
-      "value": "Some degrees require completion of an acceptable thesis prepared in residence at MIT, unless special permission is granted for part of the thesis work to be done elsewhere.",
+      "field": "climate_environment_sustainability_core_subjects_required",
+      "value": "Select three core subjects (total 36 units)",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
       },
       "metadata": {
         "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
         "chunk_order": 0
       }
     },
     {
       "category": "curriculum",
-      "field": "pro_seminar_or_capstone_requirement",
-      "value": "Other degrees require a pro-seminar or capstone experience.",
+      "field": "climate_environment_sustainability_core_subjects_list",
+      "value": "Atmospheric Boundary Layer Flows and Wind Energy; Energy Systems for Climate Change Mitigation; Global Change Science; Chemicals in the Environment; Environmental Law, Policy, and Economics: Pollution Prevention and Control; Introduction to the Terrestrial Carbon Cycle and Ecosystem Ecology; Physics and Engineering of Renewable Energy Systems; Machine Learning for Sustainable Systems; Modeling with Machine Learning: from Algorithms to Applications; Machine Learning for Sustainable Systems",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
       },
       "metadata": {
         "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
         "chunk_order": 0
       }
     },
     {
-      "category": "other",
-      "field": "interdepartmental_programs_info",
-      "value": "MIT has a number of established interdepartmental programs, and many more opportunities for students to arrange interdepartmental programs with interested faculty members.",
+      "category": "curriculum",
+      "field": "climate_environment_sustainability_core_units",
+      "value": "36 units",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
       },
       "metadata": {
         "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
         "chunk_order": 0
       }
     },
     {
-      "category": "other",
-      "field": "departments_and_programs_list_available",
-      "value": "An alphabetical list of all the available departments and programs that offer a graduate-level degree is provided.",
+      "category": "curriculum",
+      "field": "climate_environment_sustainability_restricted_elective_units",
+      "value": "12 units",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
       },
       "metadata": {
         "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "climate_environment_sustainability_restricted_elective_requirement",
+      "value": "Select one 12-unit Civil and Environmental Engineering subject",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "climate_environment_sustainability_unrestricted_electives_units",
+      "value": "18 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "climate_environment_sustainability_thesis_units",
+      "value": "24 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "climate_environment_sustainability_total_units",
+      "value": "90 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "track_name",
+      "value": "Data Science for Engineering Systems Track",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_studio_course",
+      "value": "Data-Centric Engineering Studio",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_studio_units",
+      "value": "12 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_core_units_required",
+      "value": "Select at least 18 units from the following subjects",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_core_subjects_list",
+      "value": "Advancing Mechanics and Materials via Machine Learning; Architecting and Engineering Software Systems; Business and Operations Analytics; Modeling with Machine Learning: from Algorithms to Applications; Machine Learning for Sustainable Systems; Statistics, Computation and Applications",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_concentration_units",
+      "value": "24 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_concentration_options",
+      "value": "Computational Modeling and Design for Sustainability; Resilient Infrastructure Systems and Services",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "computational_modeling_and_design_subjects_list",
+      "value": "Startup Sustainable Tech; Atomistic Modeling and Simulation of Materials and Structures; Materials in Agriculture, Food Security, and Food Safety; Transport Processes in the Environment; Fluids and Diseases; Atmospheric Boundary Layer Flows and Wind Energy; Computational Methods for Flow in Porous Media",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "resilient_infrastructure_subjects_list",
+      "value": "Transportation: Foundations and Methods; Demand Modeling; Resilient Networks; Logistics Systems; Urban Last-Mile Logistics; Supply Chain and Demand Analytics; Infrastructure Design for Climate Change; Structural Dynamics; Topology Optimization of Structures",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_unrestricted_electives_units",
+      "value": "12 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_thesis_units",
+      "value": "24 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "data_science_total_units",
+      "value": "90 units",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+        "url": "https://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Civil and Environmental Engineering",
         "chunk_order": 0
       }
     }

@@ -1,7 +1,117 @@
-All graduate students, whether or not they are participating in an interdepartmental program, must have a primary affiliation with and be registered in a single department. Every applicant accepted by MIT is admitted through one of the graduate departments. MIT has a number of established interdepartmental programs, and there are many more opportunities for students to arrange interdepartmental programs with interested faculty members.
+# Master of Engineering in Civil and Environmental Engineering
 
-All MIT graduate degree programs have residency requirements, which reflect academic terms (excluding summer). Some degrees also require completion of an acceptable thesis prepared in residence at MIT, unless special permission is granted for part of the thesis work to be accomplished elsewhere. Other degrees require a pro-seminar or capstone experience.
+Climate, Environment, and Sustainability Track Requirements
 
-Applicants interested in graduate education should apply to the department or graduate program conducting research in the area of interest. Below is an alphabetical list of all the available departments and programs that offer a graduate-level degree.
+Select three of the following core subjects:
+36
 
-Interested in reading first-hand accounts of MIT graduate students from a variety of programs? Visit the Grad Blog.
+Atmospheric Boundary Layer Flows and Wind Energy
+
+Energy Systems for Climate Change Mitigation
+
+Global Change Science
+
+Chemicals in the Environment
+
+Environmental Law, Policy, and Economics: Pollution Prevention and Control
+
+Introduction to the Terrestrial Carbon Cycle and Ecosystem Ecology
+
+Physics and Engineering of Renewable Energy Systems
+
+Machine Learning for Sustainable Systems
+
+Modeling with Machine Learning: from Algorithms to Applications
+
+and Machine Learning for Sustainable Systems
+
+Restricted Elective
+12
+
+Select one 12-unit Civil and Environmental Engineering subject
+
+Unrestricted Electives
+18
+
+Thesis
+
+[1.THG](/search/?P=1.THG)
+Graduate Thesis
+24
+
+Total Units
+90
+
+Data Science for Engineering Systems Track Requirements
+
+[1.577](/search/?P=1.577)
+Data-Centric Engineering Studio
+12
+
+Select at least 18 units from the following subjects:
+18
+
+Advancing Mechanics and Materials via Machine Learning
+
+Architecting and Engineering Software Systems
+
+Business and Operations Analytics
+
+Modeling with Machine Learning: from Algorithms to Applications
+
+and Machine Learning for Sustainable Systems
+
+Statistics, Computation and Applications
+
+Concentration
+24
+
+Select 24 units from either the Computational Modeling and Design for Sustainability concentration or the Resilient Infrastructure Systems and Services concentration:
+
+Computational Modeling and Design for Sustainability
+
+Startup Sustainable Tech
+
+Atomistic Modeling and Simulation of Materials and Structures
+
+Materials in Agriculture, Food Security, and Food Safety
+
+Transport Processes in the Environment
+
+Fluids and Diseases
+
+Atmospheric Boundary Layer Flows and Wind Energy
+
+Computational Methods for Flow in Porous Media
+
+Resilient Infrastructure Systems and Services
+
+Transportation: Foundations and Methods
+
+Demand Modeling
+
+Resilient Networks
+
+Logistics Systems
+
+Urban Last-Mile Logistics
+
+Supply Chain and Demand Analytics
+
+Infrastructure Design for Climate Change
+
+Structural Dynamics
+
+Topology Optimization of Structures
+
+Unrestricted Electives
+12
+
+Thesis
+
+[1.THG](/search/?P=1.THG)
+Graduate Thesis
+24
+
+Total Units
+90

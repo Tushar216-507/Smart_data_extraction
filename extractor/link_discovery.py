@@ -157,12 +157,41 @@ class LinkDiscovery:
 
                 "priority": priority
             }
+        
+        # -----------------------------
+        # Research / Centers
+        # -----------------------------
+
+        if any(x in value for x in [
+            "research",
+            "researcher",
+            "center",
+            "centre",
+            "institute",
+            "laboratory",
+            "lab",
+            "innovation",
+            "innovation hub",
+            "research group",
+            "research centre",
+        ]):
+
+            return {
+
+                "type": "page",
+
+                "category": "research",
+
+                "purpose": "navigation",
+
+                "priority": 0
+            }
 
         # -----------------------------
         # Admission
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "admission",
 
@@ -191,7 +220,7 @@ class LinkDiscovery:
         # Curriculum
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "curriculum",
 
@@ -218,7 +247,7 @@ class LinkDiscovery:
         # Fees
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "fee",
 
@@ -247,7 +276,7 @@ class LinkDiscovery:
         # Scholarships
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "scholarship",
 
@@ -272,7 +301,7 @@ class LinkDiscovery:
         # Department
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "department",
 
@@ -299,7 +328,7 @@ class LinkDiscovery:
         # International
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "international",
 
@@ -324,7 +353,7 @@ class LinkDiscovery:
         # Career
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "career",
 
@@ -352,7 +381,7 @@ class LinkDiscovery:
         # Contact
         # -----------------------------
 
-        if any(x in path for x in [
+        if any(x in value for x in [
 
             "contact",
 
@@ -373,6 +402,45 @@ class LinkDiscovery:
                 "purpose": "evidence",
 
                 "priority": 60
+            }
+        
+        # -----------------------------
+        # Ignore Pages
+        # -----------------------------
+
+        if any(x in value for x in [
+
+            "news",
+            "press",
+            "media",
+            "events",
+            "event",
+            "calendar",
+            "seminar",
+            "workshop",
+            "conference",
+            "webinar",
+            "alumni",
+            "donate",
+            "giving",
+            "support us",
+            "foundation",
+            "library",
+            "bookstore",
+            "shop",
+            "merchandise"
+
+        ]):
+
+            return {
+
+                "type": "page",
+
+                "category": "ignore",
+
+                "purpose": "navigation",
+
+                "priority": 0
             }
 
         # -----------------------------

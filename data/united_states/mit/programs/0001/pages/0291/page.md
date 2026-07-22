@@ -1,0 +1,9 @@
+# Koch Institute for Integrative Cancer Research
+
+The [Koch Institute for Integrative Cancer Research at MIT](http://ki.mit.edu/) is a National Cancer Institute (NCI) basic research center, one of the two NCI-designated centers in the Greater Boston area. The Koch Institute brings scientists and engineers together under one roof to accelerate the discovery and application of new ways to detect, monitor, treat, and prevent cancer. The Koch Institute's researchers include cancer biologists; chemists; materials science, chemical, electrical, and biological engineers; computer scientists; and others, all dedicated to bringing the most advanced science and technology to bear in the fight against cancer.
+
+The Koch Institute draws its faculty from both the School of Science and the School of Engineering. While graduate students typically enroll in their respective departmental program, students in any MIT department may ask to do doctoral thesis research under the supervision of a Koch Institute faculty member. If accepted, they may be eligible for support as research assistants.
+
+Opportunities for undergraduate research are available through the [Undergraduate Research Opportunities Program](/mit/undergraduate-education/academic-research-options/undergraduate-research-opportunities-program/). If an undergraduate student is interested in working in a particular lab, they may also contact the appropriate faculty member directly. In addition, the Koch Institute regularly presents seminars on cancer research and public events throughout the year.
+
+For further information, [contact Andreea O'Connell](mailto:andreeao@mit.edu), director of finance and administration, at 617-258-7448.

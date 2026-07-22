@@ -413,6 +413,9 @@ class EvidenceExpander:
             if link["url"] in existing_urls:
                 continue
 
+            if not link["internal"]:
+                continue
+
             manifest["queue"].append({
 
                 "id": None,
@@ -466,14 +469,23 @@ class EvidenceExpander:
 
         while True:
 
-            pending = None
+            pending_items = [
+                item
+                for item in manifest['queue']
+                if item['status'] == 'pending'
+            ]
 
-            for item in manifest["queue"]:
+            if not pending_items:
+                break
 
-                if item["status"] == "pending":
+            pending = max(
+                pending_items,
+                key = lambda x: (
+                    x["priority"],
+                    -x["depth"]
+                )
+            )
 
-                    pending = item
-                    break
 
             if pending is None:
                 break
