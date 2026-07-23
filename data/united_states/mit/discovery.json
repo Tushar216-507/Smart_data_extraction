@@ -1,6 +1,6 @@
 {
   "university_base_url": "https://www.mit.edu",
-  "total_working_program_urls": 576,
+  "total_working_program_urls": 589,
   "program_urls": [
     {
       "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition",
@@ -43,19 +43,37 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/master-architecture-studies",
+      "url": "http://catalog.mit.edu/degree-charts/master-civil-environmental-engineering-course-1p",
       "status": 200,
-      "title": "Master of Science in Architecture Studies | MIT Course Catalog",
-      "h1": "Master of Science in Architecture Studies",
-      "title_original": "Master of Science in Architecture Studies | MIT Course Catalog",
-      "h1_original": "Master of Science in Architecture Studies",
-      "title_en": "Master of Science in Architecture Studies | MIT Course Catalog",
-      "h1_en": "Master of Science in Architecture Studies",
+      "title": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+      "h1": "Master of Engineering in Civil and Environmental Engineering",
+      "title_original": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+      "h1_original": "Master of Engineering in Civil and Environmental Engineering",
+      "title_en": "Master of Engineering in Civil and Environmental Engineering | MIT Course Catalog",
+      "h1_en": "Master of Engineering in Civil and Environmental Engineering",
       "page_type": "Degree Programme",
       "score": 155,
       "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bdegrees?\\b'",
-        "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "+ Classified as Degree Programme",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/master-architecture",
+      "status": 200,
+      "title": "Master of Architecture | MIT Course Catalog",
+      "h1": "Master of Architecture",
+      "title_original": "Master of Architecture | MIT Course Catalog",
+      "h1_original": "Master of Architecture",
+      "title_en": "Master of Architecture | MIT Course Catalog",
+      "h1_en": "Master of Architecture",
+      "page_type": "Degree Programme",
+      "score": 135,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
         "+ URL matched '\\bmasters?\\b'",
         "+ Classified as Degree Programme",
         "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
@@ -80,14 +98,14 @@
       ]
     },
     {
-      "url": "https://oge.mit.edu/gpp/advanced-degrees/masters-degree",
+      "url": "http://catalog.mit.edu/degree-charts/master-civil-environmental-engineering",
       "status": 200,
-      "title": "Master’s degree | Office of Graduate Education",
-      "h1": "Master’s degree",
-      "title_original": "Master’s degree | Office of Graduate Education",
-      "h1_original": "Master’s degree",
-      "title_en": "Master’s degree | Office of Graduate Education",
-      "h1_en": "Master’s degree",
+      "title": "Master of Science in Civil and Environmental Engineering | MIT Course Catalog",
+      "h1": "Master of Science in Civil and Environmental Engineering",
+      "title_original": "Master of Science in Civil and Environmental Engineering | MIT Course Catalog",
+      "h1_original": "Master of Science in Civil and Environmental Engineering",
+      "title_en": "Master of Science in Civil and Environmental Engineering | MIT Course Catalog",
+      "h1_en": "Master of Science in Civil and Environmental Engineering",
       "page_type": "Degree Programme",
       "score": 135,
       "reasons": [
@@ -98,14 +116,50 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/minor-african-studies",
+      "url": "http://catalog.mit.edu/degree-charts/master-science-writing",
       "status": 200,
-      "title": "Minor in African and African Diaspora Studies | MIT Course Catalog",
-      "h1": "Minor in African and African Diaspora Studies",
-      "title_original": "Minor in African and African Diaspora Studies | MIT Course Catalog",
-      "h1_original": "Minor in African and African Diaspora Studies",
-      "title_en": "Minor in African and African Diaspora Studies | MIT Course Catalog",
-      "h1_en": "Minor in African and African Diaspora Studies",
+      "title": "Master of Science in Science Writing | MIT Course Catalog",
+      "h1": "Master of Science in Science Writing",
+      "title_original": "Master of Science in Science Writing | MIT Course Catalog",
+      "h1_original": "Master of Science in Science Writing",
+      "title_en": "Master of Science in Science Writing | MIT Course Catalog",
+      "h1_en": "Master of Science in Science Writing",
+      "page_type": "Degree Programme",
+      "score": 135,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "+ Classified as Degree Programme",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/master-transportation",
+      "status": 200,
+      "title": "Master of Science in Transportation | MIT Course Catalog",
+      "h1": "Master of Science in Transportation",
+      "title_original": "Master of Science in Transportation | MIT Course Catalog",
+      "h1_original": "Master of Science in Transportation",
+      "title_en": "Master of Science in Transportation | MIT Course Catalog",
+      "h1_en": "Master of Science in Transportation",
+      "page_type": "Degree Programme",
+      "score": 135,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "+ Classified as Degree Programme",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/minor-american-studies",
+      "status": 200,
+      "title": "Minor in American Studies | MIT Course Catalog",
+      "h1": "Minor in American Studies",
+      "title_original": "Minor in American Studies | MIT Course Catalog",
+      "h1_original": "Minor in American Studies",
+      "title_en": "Minor in American Studies | MIT Course Catalog",
+      "h1_en": "Minor in American Studies",
       "page_type": "Degree Programme",
       "score": 130,
       "reasons": [
@@ -151,86 +205,6 @@
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bminor\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-1-electrical-science-and-engineering",
-      "status": 200,
-      "title": "6-1: Electrical Science and Engineering - MIT EECS",
-      "h1": "6-1: Electrical Science and Engineering",
-      "title_original": "6-1: Electrical Science and Engineering - MIT EECS",
-      "h1_original": "6-1: Electrical Science and Engineering",
-      "title_en": "6-1: Electrical Science and Engineering - MIT EECS",
-      "h1_en": "6-1: Electrical Science and Engineering",
-      "page_type": "Degree Programme",
-      "score": 125,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bcurriculum\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-2-electrical-engineering-and-computer-science",
-      "status": 200,
-      "title": "6-2: Electrical Engineering and Computer Science - MIT EECS",
-      "h1": "6-2: Electrical Engineering and Computer Science",
-      "title_original": "6-2: Electrical Engineering and Computer Science - MIT EECS",
-      "h1_original": "6-2: Electrical Engineering and Computer Science",
-      "title_en": "6-2: Electrical Engineering and Computer Science - MIT EECS",
-      "h1_en": "6-2: Electrical Engineering and Computer Science",
-      "page_type": "Degree Programme",
-      "score": 125,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bcurriculum\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-3-computer-science-and-engineering",
-      "status": 200,
-      "title": "6-3: Computer Science and Engineering - MIT EECS",
-      "h1": "6-3: Computer Science and Engineering",
-      "title_original": "6-3: Computer Science and Engineering - MIT EECS",
-      "h1_original": "6-3: Computer Science and Engineering",
-      "title_en": "6-3: Computer Science and Engineering - MIT EECS",
-      "h1_en": "6-3: Computer Science and Engineering",
-      "page_type": "Degree Programme",
-      "score": 125,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bcurriculum\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-4-artificial-intelligence-and-decision-making",
-      "status": 200,
-      "title": "6-4: Artificial Intelligence and Decision Making - MIT EECS",
-      "h1": "6-4: Artificial Intelligence and Decision Making",
-      "title_original": "6-4: Artificial Intelligence and Decision Making - MIT EECS",
-      "h1_original": "6-4: Artificial Intelligence and Decision Making",
-      "title_en": "6-4: Artificial Intelligence and Decision Making - MIT EECS",
-      "h1_en": "6-4: Artificial Intelligence and Decision Making",
-      "page_type": "Degree Programme",
-      "score": 125,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bcurriculum\\b'",
         "+ URL matched '\\bacademics?\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
@@ -353,6 +327,61 @@
         "+ URL matched '\\bmasters?\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/master-computer-science-economics-data-science-course-6-14-p",
+      "status": 200,
+      "title": "Computer Science, Economics, and Data Science (Course 6-14P) | MIT Course Catalog",
+      "h1": "Computer Science, Economics, and Data Science (Course 6-14P)",
+      "title_original": "Computer Science, Economics, and Data Science (Course 6-14P) | MIT Course Catalog",
+      "h1_original": "Computer Science, Economics, and Data Science (Course 6-14P)",
+      "title_en": "Computer Science, Economics, and Data Science (Course 6-14P) | MIT Course Catalog",
+      "h1_en": "Computer Science, Economics, and Data Science (Course 6-14P)",
+      "page_type": "Degree Programme",
+      "score": 115,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/chemical-engineering-course-10-c",
+      "status": 200,
+      "title": "Bachelor of Science as Recommended by the Department of Chemical Engineering (Course 10-C) | MIT Course Catalog",
+      "h1": "Bachelor of Science as Recommended by the Department of Chemical Engineering (Course 10-C)",
+      "title_original": "Bachelor of Science as Recommended by the Department of Chemical Engineering (Course 10-C) | MIT Course Catalog",
+      "h1_original": "Bachelor of Science as Recommended by the Department of Chemical Engineering (Course 10-C)",
+      "title_en": "Bachelor of Science as Recommended by the Department of Chemical Engineering (Course 10-C) | MIT Course Catalog",
+      "h1_en": "Bachelor of Science as Recommended by the Department of Chemical Engineering (Course 10-C)",
+      "page_type": "Degree Programme",
+      "score": 115,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/materials-science-engineering-course-3-a",
+      "status": 200,
+      "title": "Bachelor of Science as Recommended by the Department of Materials Science and Engineering (Course 3-A) | MIT Course Catalog",
+      "h1": "Bachelor of Science as Recommended by the Department of Materials Science and Engineering (Course 3-A)",
+      "title_original": "Bachelor of Science as Recommended by the Department of Materials Science and Engineering (Course 3-A) | MIT Course Catalog",
+      "h1_original": "Bachelor of Science as Recommended by the Department of Materials Science and Engineering (Course 3-A)",
+      "title_en": "Bachelor of Science as Recommended by the Department of Materials Science and Engineering (Course 3-A) | MIT Course Catalog",
+      "h1_en": "Bachelor of Science as Recommended by the Department of Materials Science and Engineering (Course 3-A)",
+      "page_type": "Degree Programme",
+      "score": 115,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
       ]
     },
     {
@@ -489,14 +518,33 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/middle-eastern-studies",
+      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/ancient-medieval-studies",
       "status": 200,
-      "title": "Minor in Middle Eastern Studies | MIT Course Catalog",
-      "h1": "Minor in Middle Eastern Studies",
-      "title_original": "Minor in Middle Eastern Studies | MIT Course Catalog",
-      "h1_original": "Minor in Middle Eastern Studies",
-      "title_en": "Minor in Middle Eastern Studies | MIT Course Catalog",
-      "h1_en": "Minor in Middle Eastern Studies",
+      "title": "Minor in Ancient and Medieval Studies | MIT Course Catalog",
+      "h1": "Minor in Ancient and Medieval Studies",
+      "title_original": "Minor in Ancient and Medieval Studies | MIT Course Catalog",
+      "h1_original": "Minor in Ancient and Medieval Studies",
+      "title_en": "Minor in Ancient and Medieval Studies | MIT Course Catalog",
+      "h1_en": "Minor in Ancient and Medieval Studies",
+      "page_type": "Degree Programme",
+      "score": 105,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/energy-studies",
+      "status": 200,
+      "title": "Minor in Energy Studies | MIT Course Catalog",
+      "h1": "Minor in Energy Studies",
+      "title_original": "Minor in Energy Studies | MIT Course Catalog",
+      "h1_original": "Minor in Energy Studies",
+      "title_en": "Minor in Energy Studies | MIT Course Catalog",
+      "h1_en": "Minor in Energy Studies",
       "page_type": "Degree Programme",
       "score": 105,
       "reasons": [
@@ -582,14 +630,71 @@
       ]
     },
     {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program",
+      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/program-objectives-and-accreditation",
       "status": 200,
-      "title": "MEng program - MIT EECS",
-      "h1": "MEng program",
-      "title_original": "MEng program - MIT EECS",
-      "h1_original": "MEng program",
-      "title_en": "MEng program - MIT EECS",
-      "h1_en": "MEng program",
+      "title": "Program objectives and accreditation - MIT EECS",
+      "h1": "Program objectives and accreditation",
+      "title_original": "Program objectives and accreditation - MIT EECS",
+      "h1_original": "Program objectives and accreditation",
+      "title_en": "Program objectives and accreditation - MIT EECS",
+      "h1_en": "Program objectives and accreditation",
+      "page_type": "Degree Programme",
+      "score": 100,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/requirements",
+      "status": 200,
+      "title": "Requirements - MIT EECS",
+      "h1": "Requirements",
+      "title_original": "Requirements - MIT EECS",
+      "h1_original": "Requirements",
+      "title_en": "Requirements - MIT EECS",
+      "h1_en": "Requirements",
+      "page_type": "Degree Programme",
+      "score": 100,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/thesis-proposal",
+      "status": 200,
+      "title": "Thesis Proposal - MIT EECS",
+      "h1": "Thesis Proposal",
+      "title_original": "Thesis Proposal - MIT EECS",
+      "h1_original": "Thesis Proposal",
+      "title_en": "Thesis Proposal - MIT EECS",
+      "h1_en": "Thesis Proposal",
+      "page_type": "Degree Programme",
+      "score": 100,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/meng-thesis",
+      "status": 200,
+      "title": "MEng Thesis - MIT EECS",
+      "h1": "MEng Thesis",
+      "title_original": "MEng Thesis - MIT EECS",
+      "h1_original": "MEng Thesis",
+      "title_en": "MEng Thesis - MIT EECS",
+      "h1_en": "MEng Thesis",
       "page_type": "Degree Programme",
       "score": 100,
       "reasons": [
@@ -615,43 +720,6 @@
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/global-studies-languages-course-21g",
-      "status": 200,
-      "title": "Global Studies and Languages (Course 21G) | MIT Course Catalog",
-      "h1": "Global Studies and Languages (Course 21G)",
-      "title_original": "Global Studies and Languages (Course 21G) | MIT Course Catalog",
-      "h1_original": "Global Studies and Languages (Course 21G)",
-      "title_en": "Global Studies and Languages (Course 21G) | MIT Course Catalog",
-      "h1_en": "Global Studies and Languages (Course 21G)",
-      "page_type": "Degree Programme",
-      "score": 95,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/master-music-technology-computation",
-      "status": 200,
-      "title": "Music Technology and Computation | MIT Course Catalog",
-      "h1": "Music Technology and Computation",
-      "title_original": "Music Technology and Computation | MIT Course Catalog",
-      "h1_original": "Music Technology and Computation",
-      "title_en": "Music Technology and Computation | MIT Course Catalog",
-      "h1_en": "Music Technology and Computation",
-      "page_type": "Degree Programme",
-      "score": 95,
-      "reasons": [
-        "+ URL matched '\\bdegrees?\\b'",
-        "+ URL matched '\\bmasters?\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
       ]
@@ -692,68 +760,68 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/astronomy",
+      "url": "http://catalog.mit.edu/degree-charts/biological-engineering-course-20",
       "status": 200,
-      "title": "Minor in Astronomy | MIT Course Catalog",
-      "h1": "Minor in Astronomy",
-      "title_original": "Minor in Astronomy | MIT Course Catalog",
-      "h1_original": "Minor in Astronomy",
-      "title_en": "Minor in Astronomy | MIT Course Catalog",
-      "h1_en": "Minor in Astronomy",
+      "title": "Biological Engineering (Course 20) | MIT Course Catalog",
+      "h1": "Biological Engineering (Course 20)",
+      "title_original": "Biological Engineering (Course 20) | MIT Course Catalog",
+      "h1_original": "Biological Engineering (Course 20)",
+      "title_en": "Biological Engineering (Course 20) | MIT Course Catalog",
+      "h1_en": "Biological Engineering (Course 20)",
       "page_type": "Degree Programme",
-      "score": 85,
+      "score": 75,
       "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/biomedical-engineering",
+      "url": "http://catalog.mit.edu/degree-charts/chemical-engineering-course-10",
       "status": 200,
-      "title": "Minor in Biomedical Engineering | MIT Course Catalog",
-      "h1": "Minor in Biomedical Engineering",
-      "title_original": "Minor in Biomedical Engineering | MIT Course Catalog",
-      "h1_original": "Minor in Biomedical Engineering",
-      "title_en": "Minor in Biomedical Engineering | MIT Course Catalog",
-      "h1_en": "Minor in Biomedical Engineering",
+      "title": "Chemical Engineering (Course 10) | MIT Course Catalog",
+      "h1": "Chemical Engineering (Course 10)",
+      "title_original": "Chemical Engineering (Course 10) | MIT Course Catalog",
+      "h1_original": "Chemical Engineering (Course 10)",
+      "title_en": "Chemical Engineering (Course 10) | MIT Course Catalog",
+      "h1_en": "Chemical Engineering (Course 10)",
       "page_type": "Degree Programme",
-      "score": 85,
+      "score": 75,
       "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/statistics-data-science",
+      "url": "http://catalog.mit.edu/degree-charts/chemical-biological-engineering-course-10-b",
       "status": 200,
-      "title": "Minor in Statistics and Data Science | MIT Course Catalog",
-      "h1": "Minor in Statistics and Data Science",
-      "title_original": "Minor in Statistics and Data Science | MIT Course Catalog",
-      "h1_original": "Minor in Statistics and Data Science",
-      "title_en": "Minor in Statistics and Data Science | MIT Course Catalog",
-      "h1_en": "Minor in Statistics and Data Science",
+      "title": "Chemical-Biological Engineering (Course 10-B) | MIT Course Catalog",
+      "h1": "Chemical-Biological Engineering (Course 10-B)",
+      "title_original": "Chemical-Biological Engineering (Course 10-B) | MIT Course Catalog",
+      "h1_original": "Chemical-Biological Engineering (Course 10-B)",
+      "title_en": "Chemical-Biological Engineering (Course 10-B) | MIT Course Catalog",
+      "h1_en": "Chemical-Biological Engineering (Course 10-B)",
       "page_type": "Degree Programme",
-      "score": 85,
+      "score": 75,
       "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/engineering-chemical-engineering-course-10-eng",
+      "url": "http://catalog.mit.edu/degree-charts/engineering-civil-environmental-engineering-course-1-eng",
       "status": 200,
-      "title": "Engineering (Course 10-ENG) | MIT Course Catalog",
-      "h1": "Engineering (Course 10-ENG)",
-      "title_original": "Engineering (Course 10-ENG) | MIT Course Catalog",
-      "h1_original": "Engineering (Course 10-ENG)",
-      "title_en": "Engineering (Course 10-ENG) | MIT Course Catalog",
-      "h1_en": "Engineering (Course 10-ENG)",
+      "title": "Engineering (Course 1-ENG) | MIT Course Catalog",
+      "h1": "Engineering (Course 1-ENG)",
+      "title_original": "Engineering (Course 1-ENG) | MIT Course Catalog",
+      "h1_original": "Engineering (Course 1-ENG)",
+      "title_en": "Engineering (Course 1-ENG) | MIT Course Catalog",
+      "h1_en": "Engineering (Course 1-ENG)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -800,24 +868,6 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/mechanical-ocean-engineering-course-2-oe",
-      "status": 200,
-      "title": "Mechanical and Ocean Engineering (Course 2-OE) | MIT Course Catalog",
-      "h1": "Mechanical and Ocean Engineering (Course 2-OE)",
-      "title_original": "Mechanical and Ocean Engineering (Course 2-OE) | MIT Course Catalog",
-      "h1_original": "Mechanical and Ocean Engineering (Course 2-OE)",
-      "title_en": "Mechanical and Ocean Engineering (Course 2-OE) | MIT Course Catalog",
-      "h1_en": "Mechanical and Ocean Engineering (Course 2-OE)",
-      "page_type": "Degree Programme",
-      "score": 75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
       "url": "http://catalog.mit.edu/degree-charts/mechanical-engineering-course-2-a",
       "status": 200,
       "title": "Engineering (Course 2-A) | MIT Course Catalog",
@@ -836,14 +886,50 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/anthropology-course-21a",
+      "url": "http://catalog.mit.edu/degree-charts/nuclear-science-engineering-course-22",
       "status": 200,
-      "title": "Anthropology (Course 21A) | MIT Course Catalog",
-      "h1": "Anthropology (Course 21A)",
-      "title_original": "Anthropology (Course 21A) | MIT Course Catalog",
-      "h1_original": "Anthropology (Course 21A)",
-      "title_en": "Anthropology (Course 21A) | MIT Course Catalog",
-      "h1_en": "Anthropology (Course 21A)",
+      "title": "Nuclear Science and Engineering (Course 22) | MIT Course Catalog",
+      "h1": "Nuclear Science and Engineering (Course 22)",
+      "title_original": "Nuclear Science and Engineering (Course 22) | MIT Course Catalog",
+      "h1_original": "Nuclear Science and Engineering (Course 22)",
+      "title_en": "Nuclear Science and Engineering (Course 22) | MIT Course Catalog",
+      "h1_en": "Nuclear Science and Engineering (Course 22)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/engineering-nuclear-science-engineering-course-22-eng",
+      "status": 200,
+      "title": "Engineering (Course 22-ENG) | MIT Course Catalog",
+      "h1": "Engineering (Course 22-ENG)",
+      "title_original": "Engineering (Course 22-ENG) | MIT Course Catalog",
+      "h1_original": "Engineering (Course 22-ENG)",
+      "title_en": "Engineering (Course 22-ENG) | MIT Course Catalog",
+      "h1_en": "Engineering (Course 22-ENG)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/writing-course-21w",
+      "status": 200,
+      "title": "Writing (Course 21W) | MIT Course Catalog",
+      "h1": "Writing (Course 21W)",
+      "title_original": "Writing (Course 21W) | MIT Course Catalog",
+      "h1_original": "Writing (Course 21W)",
+      "title_en": "Writing (Course 21W) | MIT Course Catalog",
+      "h1_en": "Writing (Course 21W)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -872,14 +958,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/linguistics-philosophy-course-24-2",
+      "url": "http://catalog.mit.edu/degree-charts/mathematical-economics-course-14-2",
       "status": 200,
-      "title": "Linguistics and Philosophy (Course 24-2) | MIT Course Catalog",
-      "h1": "Linguistics and Philosophy (Course 24-2)",
-      "title_original": "Linguistics and Philosophy (Course 24-2) | MIT Course Catalog",
-      "h1_original": "Linguistics and Philosophy (Course 24-2)",
-      "title_en": "Linguistics and Philosophy (Course 24-2) | MIT Course Catalog",
-      "h1_en": "Linguistics and Philosophy (Course 24-2)",
+      "title": "Mathematical Economics (Course 14-2) | MIT Course Catalog",
+      "h1": "Mathematical Economics (Course 14-2)",
+      "title_original": "Mathematical Economics (Course 14-2) | MIT Course Catalog",
+      "h1_original": "Mathematical Economics (Course 14-2)",
+      "title_en": "Mathematical Economics (Course 14-2) | MIT Course Catalog",
+      "h1_en": "Mathematical Economics (Course 14-2)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -890,14 +976,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/literature-course-21l",
+      "url": "http://catalog.mit.edu/degree-charts/philosophy-course-24-1",
       "status": 200,
-      "title": "Literature (Course 21L) | MIT Course Catalog",
-      "h1": "Literature (Course 21L)",
-      "title_original": "Literature (Course 21L) | MIT Course Catalog",
-      "h1_original": "Literature (Course 21L)",
-      "title_en": "Literature (Course 21L) | MIT Course Catalog",
-      "h1_en": "Literature (Course 21L)",
+      "title": "Philosophy (Course 24-1) | MIT Course Catalog",
+      "h1": "Philosophy (Course 24-1)",
+      "title_original": "Philosophy (Course 24-1) | MIT Course Catalog",
+      "h1_original": "Philosophy (Course 24-1)",
+      "title_en": "Philosophy (Course 24-1) | MIT Course Catalog",
+      "h1_en": "Philosophy (Course 24-1)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -908,14 +994,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/music-course-21m",
+      "url": "http://catalog.mit.edu/degree-charts/political-science-course-17",
       "status": 200,
-      "title": "Music (Course 21M) | MIT Course Catalog",
-      "h1": "Music (Course 21M)",
-      "title_original": "Music (Course 21M) | MIT Course Catalog",
-      "h1_original": "Music (Course 21M)",
-      "title_en": "Music (Course 21M) | MIT Course Catalog",
-      "h1_en": "Music (Course 21M)",
+      "title": "Political Science (Course 17) | MIT Course Catalog",
+      "h1": "Political Science (Course 17)",
+      "title_original": "Political Science (Course 17) | MIT Course Catalog",
+      "h1_original": "Political Science (Course 17)",
+      "title_en": "Political Science (Course 17) | MIT Course Catalog",
+      "h1_en": "Political Science (Course 17)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -944,14 +1030,32 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/management-course-15-1",
+      "url": "http://catalog.mit.edu/degree-charts/biology-course-7",
       "status": 200,
-      "title": "Management (Course 15-1) | MIT Course Catalog",
-      "h1": "Management (Course 15-1)",
-      "title_original": "Management (Course 15-1) | MIT Course Catalog",
-      "h1_original": "Management (Course 15-1)",
-      "title_en": "Management (Course 15-1) | MIT Course Catalog",
-      "h1_en": "Management (Course 15-1)",
+      "title": "Biology (Course 7) | MIT Course Catalog",
+      "h1": "Biology (Course 7)",
+      "title_original": "Biology (Course 7) | MIT Course Catalog",
+      "h1_original": "Biology (Course 7)",
+      "title_en": "Biology (Course 7) | MIT Course Catalog",
+      "h1_en": "Biology (Course 7)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/chemistry-biology-course-5-7",
+      "status": 200,
+      "title": "Chemistry and Biology (Course 5-7) | MIT Course Catalog",
+      "h1": "Chemistry and Biology (Course 5-7)",
+      "title_original": "Chemistry and Biology (Course 5-7) | MIT Course Catalog",
+      "h1_original": "Chemistry and Biology (Course 5-7)",
+      "title_en": "Chemistry and Biology (Course 5-7) | MIT Course Catalog",
+      "h1_en": "Chemistry and Biology (Course 5-7)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -980,19 +1084,73 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/mathematics-course-18",
+      "url": "http://catalog.mit.edu/degree-charts/chemistry-course-5",
       "status": 200,
-      "title": "Mathematics (Course 18) | MIT Course Catalog",
-      "h1": "Mathematics (Course 18)",
-      "title_original": "Mathematics (Course 18) | MIT Course Catalog",
-      "h1_original": "Mathematics (Course 18)",
-      "title_en": "Mathematics (Course 18) | MIT Course Catalog",
-      "h1_en": "Mathematics (Course 18)",
+      "title": "Chemistry (Course 5) | MIT Course Catalog",
+      "h1": "Chemistry (Course 5)",
+      "title_original": "Chemistry (Course 5) | MIT Course Catalog",
+      "h1_original": "Chemistry (Course 5)",
+      "title_en": "Chemistry (Course 5) | MIT Course Catalog",
+      "h1_en": "Chemistry (Course 5)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/earth-atmospheric-planetary-sciences-course-12",
+      "status": 200,
+      "title": "Earth, Atmospheric, and Planetary Sciences (Course 12) | MIT Course Catalog",
+      "h1": "Earth, Atmospheric, and Planetary Sciences (Course 12)",
+      "title_original": "Earth, Atmospheric, and Planetary Sciences (Course 12) | MIT Course Catalog",
+      "h1_original": "Earth, Atmospheric, and Planetary Sciences (Course 12)",
+      "title_en": "Earth, Atmospheric, and Planetary Sciences (Course 12) | MIT Course Catalog",
+      "h1_en": "Earth, Atmospheric, and Planetary Sciences (Course 12)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/advanced-urbanism",
+      "status": 200,
+      "title": "Advanced Urbanism | MIT Course Catalog",
+      "h1": "Advanced Urbanism",
+      "title_original": "Advanced Urbanism | MIT Course Catalog",
+      "h1_original": "Advanced Urbanism",
+      "title_en": "Advanced Urbanism | MIT Course Catalog",
+      "h1_en": "Advanced Urbanism",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/computational-science-engineering",
+      "status": 200,
+      "title": "Computational Science and Engineering | MIT Course Catalog",
+      "h1": "Computational Science and Engineering",
+      "title_original": "Computational Science and Engineering | MIT Course Catalog",
+      "h1_original": "Computational Science and Engineering",
+      "title_en": "Computational Science and Engineering | MIT Course Catalog",
+      "h1_en": "Computational Science and Engineering",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
       ]
@@ -1016,32 +1174,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/harvard-mit-health-sciences-technology",
+      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/joint-program-woods-hole-oceanographic-institution",
       "status": 200,
-      "title": "Harvard-MIT Health Sciences and Technology Program | MIT Course Catalog",
-      "h1": "Harvard-MIT Health Sciences and Technology Program",
-      "title_original": "Harvard-MIT Health Sciences and Technology Program | MIT Course Catalog",
-      "h1_original": "Harvard-MIT Health Sciences and Technology Program",
-      "title_en": "Harvard-MIT Health Sciences and Technology Program | MIT Course Catalog",
-      "h1_en": "Harvard-MIT Health Sciences and Technology Program",
-      "page_type": "Degree Programme",
-      "score": 75,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bgraduate\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/leaders-global-operations",
-      "status": 200,
-      "title": "Leaders for Global Operations | MIT Course Catalog",
-      "h1": "Leaders for Global Operations",
-      "title_original": "Leaders for Global Operations | MIT Course Catalog",
-      "h1_original": "Leaders for Global Operations",
-      "title_en": "Leaders for Global Operations | MIT Course Catalog",
-      "h1_en": "Leaders for Global Operations",
+      "title": "Joint Program with Woods Hole Oceanographic Institution | MIT Course Catalog",
+      "h1": "Joint Program with Woods Hole Oceanographic Institution",
+      "title_original": "Joint Program with Woods Hole Oceanographic Institution | MIT Course Catalog",
+      "h1_original": "Joint Program with Woods Hole Oceanographic Institution",
+      "title_en": "Joint Program with Woods Hole Oceanographic Institution | MIT Course Catalog",
+      "h1_en": "Joint Program with Woods Hole Oceanographic Institution",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -1106,14 +1246,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/social-engineering-systems",
+      "url": "http://catalog.mit.edu/interdisciplinary/graduate-programs/phd-statistics",
       "status": 200,
-      "title": "Social and Engineering Systems | MIT Course Catalog",
-      "h1": "Social and Engineering Systems",
-      "title_original": "Social and Engineering Systems | MIT Course Catalog",
-      "h1_original": "Social and Engineering Systems",
-      "title_en": "Social and Engineering Systems | MIT Course Catalog",
-      "h1_en": "Social and Engineering Systems",
+      "title": "Interdisciplinary Doctoral Program in Statistics | MIT Course Catalog",
+      "h1": "Interdisciplinary Doctoral Program in Statistics",
+      "title_original": "Interdisciplinary Doctoral Program in Statistics | MIT Course Catalog",
+      "h1_original": "Interdisciplinary Doctoral Program in Statistics",
+      "title_en": "Interdisciplinary Doctoral Program in Statistics | MIT Course Catalog",
+      "h1_en": "Interdisciplinary Doctoral Program in Statistics",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -1142,6 +1282,24 @@
       ]
     },
     {
+      "url": "http://catalog.mit.edu/degree-charts/electrical-engineering-computing-course-6-5",
+      "status": 200,
+      "title": "Electrical Engineering with Computing (Course 6-5) | MIT Course Catalog",
+      "h1": "Electrical Engineering with Computing (Course 6-5)",
+      "title_original": "Electrical Engineering with Computing (Course 6-5) | MIT Course Catalog",
+      "h1_original": "Electrical Engineering with Computing (Course 6-5)",
+      "title_en": "Electrical Engineering with Computing (Course 6-5) | MIT Course Catalog",
+      "h1_en": "Electrical Engineering with Computing (Course 6-5)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "http://catalog.mit.edu/degree-charts/humanities-engineering-course-21e",
       "status": 200,
       "title": "Humanities and Engineering (Course 21E) | MIT Course Catalog",
@@ -1150,6 +1308,24 @@
       "h1_original": "Humanities and Engineering (Course 21E)",
       "title_en": "Humanities and Engineering (Course 21E) | MIT Course Catalog",
       "h1_en": "Humanities and Engineering (Course 21E)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/humanities-science-course-21s",
+      "status": 200,
+      "title": "Humanities and Science (Course 21S) | MIT Course Catalog",
+      "h1": "Humanities and Science (Course 21S)",
+      "title_original": "Humanities and Science (Course 21S) | MIT Course Catalog",
+      "h1_original": "Humanities and Science (Course 21S)",
+      "title_en": "Humanities and Science (Course 21S) | MIT Course Catalog",
+      "h1_en": "Humanities and Science (Course 21S)",
       "page_type": "Degree Programme",
       "score": 75,
       "reasons": [
@@ -1178,6 +1354,42 @@
       ]
     },
     {
+      "url": "http://catalog.mit.edu/degree-charts/computer-science-economics-data-science-course-6-14",
+      "status": 200,
+      "title": "Computer Science, Economics, and Data Science (Course 6-14) | MIT Course Catalog",
+      "h1": "Computer Science, Economics, and Data Science (Course 6-14)",
+      "title_original": "Computer Science, Economics, and Data Science (Course 6-14) | MIT Course Catalog",
+      "h1_original": "Computer Science, Economics, and Data Science (Course 6-14)",
+      "title_en": "Computer Science, Economics, and Data Science (Course 6-14) | MIT Course Catalog",
+      "h1_en": "Computer Science, Economics, and Data Science (Course 6-14)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://catalog.mit.edu/degree-charts/engineering-civil-environmental-engineering-course-1-eng",
+      "status": 200,
+      "title": "Engineering (Course 1-ENG) | MIT Course Catalog",
+      "h1": "Engineering (Course 1-ENG)",
+      "title_original": "Engineering (Course 1-ENG) | MIT Course Catalog",
+      "h1_original": "Engineering (Course 1-ENG)",
+      "title_en": "Engineering (Course 1-ENG) | MIT Course Catalog",
+      "h1_en": "Engineering (Course 1-ENG)",
+      "page_type": "Degree Programme",
+      "score": 75,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://dmse.mit.edu/education/graduate-program",
       "status": 200,
       "title": "Graduate Program - MIT Department of Materials Science and Engineering",
@@ -1191,24 +1403,6 @@
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "+ Classified as Degree Programme",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/mit/research/womens-gender-studies-program",
-      "status": 200,
-      "title": "Women's and Gender Studies Program | MIT Course Catalog",
-      "h1": "Women's and Gender Studies Program",
-      "title_original": "Women's and Gender Studies Program | MIT Course Catalog",
-      "h1_original": "Women's and Gender Studies Program",
-      "title_en": "Women's and Gender Studies Program | MIT Course Catalog",
-      "h1_en": "Women's and Gender Studies Program",
-      "page_type": "Degree Programme",
-      "score": 70,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
         "+ Classified as Degree Programme",
         "- Metadata lacks specific degree indicators"
       ]
@@ -1301,14 +1495,14 @@
       ]
     },
     {
-      "url": "https://catalog.mit.edu/degree-charts/computation-cognition-6-9",
+      "url": "http://catalog.mit.edu/degree-charts/urban-science-planning-computer-science-11-6",
       "status": 200,
-      "title": "Computation and Cognition (Course 6-9) | MIT Course Catalog",
-      "h1": "Computation and Cognition (Course 6-9)",
-      "title_original": "Computation and Cognition (Course 6-9) | MIT Course Catalog",
-      "h1_original": "Computation and Cognition (Course 6-9)",
-      "title_en": "Computation and Cognition (Course 6-9) | MIT Course Catalog",
-      "h1_en": "Computation and Cognition (Course 6-9)",
+      "title": "Urban Science and Planning with Computer Science (Course 11-6) | MIT Course Catalog",
+      "h1": "Urban Science and Planning with Computer Science (Course 11-6)",
+      "title_original": "Urban Science and Planning with Computer Science (Course 11-6) | MIT Course Catalog",
+      "h1_original": "Urban Science and Planning with Computer Science (Course 11-6)",
+      "title_en": "Urban Science and Planning with Computer Science (Course 11-6) | MIT Course Catalog",
+      "h1_en": "Urban Science and Planning with Computer Science (Course 11-6)",
       "page_type": "Degree Programme",
       "score": 55,
       "reasons": [
@@ -1318,14 +1512,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/computation-cognition-6-9",
+      "url": "http://catalog.mit.edu/degree-charts/phd-biological-engineering",
       "status": 200,
-      "title": "Computation and Cognition (Course 6-9) | MIT Course Catalog",
-      "h1": "Computation and Cognition (Course 6-9)",
-      "title_original": "Computation and Cognition (Course 6-9) | MIT Course Catalog",
-      "h1_original": "Computation and Cognition (Course 6-9)",
-      "title_en": "Computation and Cognition (Course 6-9) | MIT Course Catalog",
-      "h1_en": "Computation and Cognition (Course 6-9)",
+      "title": "Doctor of Philosophy in Biological Engineering | MIT Course Catalog",
+      "h1": "Doctor of Philosophy in Biological Engineering",
+      "title_original": "Doctor of Philosophy in Biological Engineering | MIT Course Catalog",
+      "h1_original": "Doctor of Philosophy in Biological Engineering",
+      "title_en": "Doctor of Philosophy in Biological Engineering | MIT Course Catalog",
+      "h1_en": "Doctor of Philosophy in Biological Engineering",
       "page_type": "Degree Programme",
       "score": 55,
       "reasons": [
@@ -1335,14 +1529,65 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/phd-chemistry",
+      "url": "http://catalog.mit.edu/degree-charts/phd-materials-science-engineering",
       "status": 200,
-      "title": "Doctor of Philosophy in Chemistry | MIT Course Catalog",
-      "h1": "Doctor of Philosophy in Chemistry",
-      "title_original": "Doctor of Philosophy in Chemistry | MIT Course Catalog",
-      "h1_original": "Doctor of Philosophy in Chemistry",
-      "title_en": "Doctor of Philosophy in Chemistry | MIT Course Catalog",
-      "h1_en": "Doctor of Philosophy in Chemistry",
+      "title": "Doctor of Philosophy in Materials Science and Engineering | MIT Course Catalog",
+      "h1": "Doctor of Philosophy in Materials Science and Engineering",
+      "title_original": "Doctor of Philosophy in Materials Science and Engineering | MIT Course Catalog",
+      "h1_original": "Doctor of Philosophy in Materials Science and Engineering",
+      "title_en": "Doctor of Philosophy in Materials Science and Engineering | MIT Course Catalog",
+      "h1_en": "Doctor of Philosophy in Materials Science and Engineering",
+      "page_type": "Degree Programme",
+      "score": 55,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/phd-economics",
+      "status": 200,
+      "title": "Doctor of Philosophy in Economics | MIT Course Catalog",
+      "h1": "Doctor of Philosophy in Economics",
+      "title_original": "Doctor of Philosophy in Economics | MIT Course Catalog",
+      "h1_original": "Doctor of Philosophy in Economics",
+      "title_en": "Doctor of Philosophy in Economics | MIT Course Catalog",
+      "h1_en": "Doctor of Philosophy in Economics",
+      "page_type": "Degree Programme",
+      "score": 55,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/phd-mathematics",
+      "status": 200,
+      "title": "Doctor of Philosophy in Mathematics | MIT Course Catalog",
+      "h1": "Doctor of Philosophy in Mathematics",
+      "title_original": "Doctor of Philosophy in Mathematics | MIT Course Catalog",
+      "h1_original": "Doctor of Philosophy in Mathematics",
+      "title_en": "Doctor of Philosophy in Mathematics | MIT Course Catalog",
+      "h1_en": "Doctor of Philosophy in Mathematics",
+      "page_type": "Degree Programme",
+      "score": 55,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/phd-brain-cognitive-sciences",
+      "status": 200,
+      "title": "Doctor of Philosophy in Brain and Cognitive Sciences Fields | MIT Course Catalog",
+      "h1": "Doctor of Philosophy in Brain and Cognitive Sciences Fields",
+      "title_original": "Doctor of Philosophy in Brain and Cognitive Sciences Fields | MIT Course Catalog",
+      "h1_original": "Doctor of Philosophy in Brain and Cognitive Sciences Fields",
+      "title_en": "Doctor of Philosophy in Brain and Cognitive Sciences Fields | MIT Course Catalog",
+      "h1_en": "Doctor of Philosophy in Brain and Cognitive Sciences Fields",
       "page_type": "Degree Programme",
       "score": 55,
       "reasons": [
@@ -1369,14 +1614,14 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/degree-charts/mba-sm-leaders-global-operations",
+      "url": "http://catalog.mit.edu/degree-charts/phd-computational-science-engineering",
       "status": 200,
-      "title": "Leaders for Global Operations MBA and SM in Engineering | MIT Course Catalog",
-      "h1": "Leaders for Global Operations MBA and SM in Engineering",
-      "title_original": "Leaders for Global Operations MBA and SM in Engineering | MIT Course Catalog",
-      "h1_original": "Leaders for Global Operations MBA and SM in Engineering",
-      "title_en": "Leaders for Global Operations MBA and SM in Engineering | MIT Course Catalog",
-      "h1_en": "Leaders for Global Operations MBA and SM in Engineering",
+      "title": "Doctoral Programs in Computational Science and Engineering | MIT Course Catalog",
+      "h1": "Doctoral Programs in Computational Science and Engineering",
+      "title_original": "Doctoral Programs in Computational Science and Engineering | MIT Course Catalog",
+      "h1_original": "Doctoral Programs in Computational Science and Engineering",
+      "title_en": "Doctoral Programs in Computational Science and Engineering | MIT Course Catalog",
+      "h1_en": "Doctoral Programs in Computational Science and Engineering",
       "page_type": "Degree Programme",
       "score": 55,
       "reasons": [
@@ -1457,6 +1702,58 @@
       ]
     },
     {
+      "url": "http://web.mit.edu/uwip/www",
+      "status": 200,
+      "title": "MIT Undergraduate Womxn in Physics",
+      "h1": "Undergraduate Womxn in Physics",
+      "title_original": "MIT Undergraduate Womxn in Physics",
+      "h1_original": "Undergraduate Womxn in Physics",
+      "title_en": "MIT Undergraduate Womxn in Physics",
+      "h1_en": "Undergraduate Womxn in Physics",
+      "page_type": "Degree Programme",
+      "score": 30,
+      "reasons": [
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/undergraduate-education/career/teacher-licensure-education",
+      "status": 200,
+      "title": "Teacher Licensure and Education | MIT Course Catalog",
+      "h1": "Teacher Licensure and Education",
+      "title_original": "Teacher Licensure and Education | MIT Course Catalog",
+      "h1_original": "Teacher Licensure and Education",
+      "title_en": "Teacher Licensure and Education | MIT Course Catalog",
+      "h1_en": "Teacher Licensure and Education",
+      "page_type": "Degree Programme",
+      "score": 5,
+      "reasons": [
+        "+ URL matched '\\bundergraduate\\b'",
+        "- URL matched '\\bcareers?\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://lgo.mit.edu/mit-lgo-program/staff",
+      "status": 200,
+      "title": "MIT LGO Program | Staff and Executive Leadership",
+      "h1": "Staff",
+      "title_original": "MIT LGO Program | Staff and Executive Leadership",
+      "h1_original": "Staff",
+      "title_en": "MIT LGO Program | Staff and Executive Leadership",
+      "h1_en": "Staff",
+      "page_type": "Degree Programme",
+      "score": 0,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "- URL matched '\\bstaff\\b'",
+        "+ Classified as Degree Programme",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://oge.mit.edu/gpp/advanced-degrees/masters-degree/simultaneous-registration-for-two-masters-degrees",
       "status": 200,
       "title": "Simultaneous registration for two master’s degrees | Office of Graduate Education",
@@ -1465,12 +1762,30 @@
       "h1_original": "Simultaneous registration for two master’s degrees",
       "title_en": "Simultaneous registration for two master’s degrees | Office of Graduate Education",
       "h1_en": "Simultaneous registration for two master’s degrees",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -15,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
         "+ URL matched '\\bmasters?\\b'",
-        "- Classified as Admissions",
+        "- Classified as Support",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
+      "url": "https://oge.mit.edu/gpp/advanced-degrees/masters-degree",
+      "status": 200,
+      "title": "Master’s degree | Office of Graduate Education",
+      "h1": "Master’s degree",
+      "title_original": "Master’s degree | Office of Graduate Education",
+      "h1_original": "Master’s degree",
+      "title_en": "Master’s degree | Office of Graduate Education",
+      "h1_en": "Master’s degree",
+      "page_type": "Degree Catalogue",
+      "score": -15,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
       ]
     },
@@ -1521,14 +1836,14 @@
       "h1_original": "Curriculum",
       "title_en": "Curriculum - MIT EECS",
       "h1_en": "Curriculum",
-      "page_type": "Programme Hub",
+      "page_type": "Navigation",
       "score": -25,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bcurriculum\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Navigation (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -1541,46 +1856,6 @@
       "h1_original": "Advanced Standing Exams in EECS",
       "title_en": "Advanced Standing Exams in EECS - MIT EECS",
       "h1_en": "Advanced Standing Exams in EECS",
-      "page_type": "Support",
-      "score": -25,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bcurriculum\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/faq-about-fall-2024-changes",
-      "status": 200,
-      "title": "FAQ about Fall 2024 Changes - MIT EECS",
-      "h1": "FAQ about Fall 2024 Changes",
-      "title_original": "FAQ about Fall 2024 Changes - MIT EECS",
-      "h1_original": "FAQ about Fall 2024 Changes",
-      "title_en": "FAQ about Fall 2024 Changes - MIT EECS",
-      "h1_en": "FAQ about Fall 2024 Changes",
-      "page_type": "Support",
-      "score": -25,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bcurriculum\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/2022-curriculum-transition",
-      "status": 200,
-      "title": "2022 Curriculum Transition - MIT EECS",
-      "h1": "2022 Curriculum Transition",
-      "title_original": "2022 Curriculum Transition - MIT EECS",
-      "h1_original": "2022 Curriculum Transition",
-      "title_en": "2022 Curriculum Transition - MIT EECS",
-      "h1_en": "2022 Curriculum Transition",
       "page_type": "Support",
       "score": -25,
       "reasons": [
@@ -1792,8 +2067,8 @@
       "h1": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment  Authorizations",
       "title_original": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment  Authorizations | ISO",
       "h1_original": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment  Authorizations",
-      "title_en": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment  Authorizations | ISO",
-      "h1_en": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment  Authorizations",
+      "title_en": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment Authorizations | ISO",
+      "h1_en": "Guidance On Determining “Directly Related” Employment For F-1 Off-Campus Work/Employment Authorizations",
       "page_type": "Support",
       "score": -45,
       "reasons": [
@@ -1919,44 +2194,6 @@
       ]
     },
     {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/program-objectives-and-accreditation",
-      "status": 200,
-      "title": "Program objectives and accreditation - MIT EECS",
-      "h1": "Program objectives and accreditation",
-      "title_original": "Program objectives and accreditation - MIT EECS",
-      "h1_original": "Program objectives and accreditation",
-      "title_en": "Program objectives and accreditation - MIT EECS",
-      "h1_en": "Program objectives and accreditation",
-      "page_type": "Support",
-      "score": -50,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/requirements",
-      "status": 200,
-      "title": "Requirements - MIT EECS",
-      "h1": "Requirements",
-      "title_original": "Requirements - MIT EECS",
-      "h1_original": "Requirements",
-      "title_en": "Requirements - MIT EECS",
-      "h1_en": "Requirements",
-      "page_type": "Support",
-      "score": -50,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
       "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/application-acceptance",
       "status": 200,
       "title": "Application, Acceptance, and Deferral - MIT EECS",
@@ -1984,44 +2221,6 @@
       "h1_original": "Funding",
       "title_en": "Funding - MIT EECS",
       "h1_en": "Funding",
-      "page_type": "Support",
-      "score": -50,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/thesis-proposal",
-      "status": 200,
-      "title": "Thesis Proposal - MIT EECS",
-      "h1": "Thesis Proposal",
-      "title_original": "Thesis Proposal - MIT EECS",
-      "h1_original": "Thesis Proposal",
-      "title_en": "Thesis Proposal - MIT EECS",
-      "h1_en": "Thesis Proposal",
-      "page_type": "Support",
-      "score": -50,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bundergraduate\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/meng-thesis",
-      "status": 200,
-      "title": "MEng Thesis - MIT EECS",
-      "h1": "MEng Thesis",
-      "title_original": "MEng Thesis - MIT EECS",
-      "h1_original": "MEng Thesis",
-      "title_en": "MEng Thesis - MIT EECS",
-      "h1_en": "MEng Thesis",
       "page_type": "Support",
       "score": -50,
       "reasons": [
@@ -2250,13 +2449,13 @@
       "h1_original": "Major Course of Study",
       "title_en": "Major Course of Study | MIT Course Catalog",
       "h1_en": "Major Course of Study",
-      "page_type": "Degree Catalogue",
+      "page_type": "Programme Hub",
       "score": -50,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2269,12 +2468,12 @@
       "h1_original": "Entrepreneurship Development Program | MIT Sloan | MIT Sloan Executive Education",
       "title_en": "Entrepreneurship Development Program | MIT Sloan | MIT Sloan Executive Education",
       "h1_en": "Entrepreneurship Development Program | MIT Sloan | MIT Sloan Executive Education",
-      "page_type": "Other",
+      "page_type": "Programme Hub",
       "score": -50,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
-        "- Classified as Other",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators",
         "+ Found educational structured data (Course/EducationalOccupationalProgram)"
       ]
@@ -2294,6 +2493,61 @@
         "+ URL matched '\\bmasters?\\b'",
         "+ URL matched '\\bcatalog(?:ue)?\\b'",
         "- Classified as Other",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/global-studies-languages-course-21g",
+      "status": 200,
+      "title": "Global Studies and Languages (Course 21G) | MIT Course Catalog",
+      "h1": "Global Studies and Languages (Course 21G)",
+      "title_original": "Global Studies and Languages (Course 21G) | MIT Course Catalog",
+      "h1_original": "Global Studies and Languages (Course 21G)",
+      "title_en": "Global Studies and Languages (Course 21G) | MIT Course Catalog",
+      "h1_en": "Global Studies and Languages (Course 21G)",
+      "page_type": "Programme Hub",
+      "score": -55,
+      "reasons": [
+        "+ URL matched '\\bcourses?\\b'",
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
+        "- Classified as Programme Hub (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/master-music-technology-computation",
+      "status": 200,
+      "title": "Music Technology and Computation | MIT Course Catalog",
+      "h1": "Music Technology and Computation",
+      "title_original": "Music Technology and Computation | MIT Course Catalog",
+      "h1_original": "Music Technology and Computation",
+      "title_en": "Music Technology and Computation | MIT Course Catalog",
+      "h1_en": "Music Technology and Computation",
+      "page_type": "Programme Hub",
+      "score": -55,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "- Classified as Programme Hub (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/degree-charts/master-real-estate-development",
+      "status": 200,
+      "title": "Real Estate Development | MIT Course Catalog",
+      "h1": "Real Estate Development",
+      "title_original": "Real Estate Development | MIT Course Catalog",
+      "h1_original": "Real Estate Development",
+      "title_en": "Real Estate Development | MIT Course Catalog",
+      "h1_en": "Real Estate Development",
+      "page_type": "Programme Hub",
+      "score": -55,
+      "reasons": [
+        "+ URL matched '\\bdegrees?\\b'",
+        "+ URL matched '\\bmasters?\\b'",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2323,13 +2577,13 @@
       "h1_original": "Degree programs",
       "title_en": "Degree programs | Office of Graduate Education",
       "h1_en": "Degree programs",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -60,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
         "+ Found by catalog",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2523,6 +2777,25 @@
       ]
     },
     {
+      "url": "https://www.eecs.mit.edu/academics/graduate-programs/funding/ta-appointments",
+      "status": 200,
+      "title": "TA Appointments - MIT EECS",
+      "h1": "TA Appointments",
+      "title_original": "TA Appointments - MIT EECS",
+      "h1_original": "TA Appointments",
+      "title_en": "TA Appointments - MIT EECS",
+      "h1_en": "TA Appointments",
+      "page_type": "Support",
+      "score": -60,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://www.eecs.mit.edu/academics/graduate-programs/graduate-program-requirements",
       "status": 200,
       "title": "Graduate Program Requirements - MIT EECS",
@@ -2538,6 +2811,82 @@
         "+ URL matched '\\bgraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
         "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process",
+      "status": 200,
+      "title": "Admission Process - MIT EECS",
+      "h1": "Admission Process",
+      "title_original": "Admission Process - MIT EECS",
+      "h1_original": "Admission Process",
+      "title_en": "Admission Process - MIT EECS",
+      "h1_en": "Admission Process",
+      "page_type": "Admissions",
+      "score": -60,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "- Classified as Admissions",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/graduate-programs/graduate-research",
+      "status": 200,
+      "title": "Graduate Research - MIT EECS",
+      "h1": "Graduate Research",
+      "title_original": "Graduate Research - MIT EECS",
+      "h1_original": "Graduate Research",
+      "title_en": "Graduate Research - MIT EECS",
+      "h1_en": "Graduate Research",
+      "page_type": "Support",
+      "score": -60,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/graduate-programs/funding",
+      "status": 200,
+      "title": "EECS Graduate Funding - MIT EECS",
+      "h1": "EECS Graduate Funding",
+      "title_original": "EECS Graduate Funding - MIT EECS",
+      "h1_original": "EECS Graduate Funding",
+      "title_en": "EECS Graduate Funding - MIT EECS",
+      "h1_en": "EECS Graduate Funding",
+      "page_type": "Support",
+      "score": -60,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.eecs.mit.edu/academics/graduate-programs/resources-for-current-students",
+      "status": 200,
+      "title": "Resources for Current Students - MIT EECS",
+      "h1": "Resources for Current Students",
+      "title_original": "Resources for Current Students - MIT EECS",
+      "h1_original": "Resources for Current Students",
+      "title_en": "Resources for Current Students - MIT EECS",
+      "h1_en": "Resources for Current Students",
+      "page_type": "Support",
+      "score": -60,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bgraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2588,13 +2937,13 @@
       "h1_original": "What faculty members are looking for in a grad school statement of objectives.",
       "title_en": "What faculty members are looking for in a grad school statement of objectives. - MIT EECS",
       "h1_en": "What faculty members are looking for in a grad school statement of objectives.",
-      "page_type": "Support",
+      "page_type": "Admissions",
       "score": -60,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2683,13 +3032,13 @@
       "h1_original": "BE Application Assistance Program",
       "title_en": "BE Application Assistance Program | MIT Department of Biological Engineering",
       "h1_en": "BE Application Assistance Program",
-      "page_type": "Support",
+      "page_type": "Admissions",
       "score": -60,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Support",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2737,12 +3086,12 @@
       "h1_original": "Undergraduate Program",
       "title_en": "Undergraduate Program | Task Force 2021 and Beyond | MIT - Massachusetts Institute of Technology",
       "h1_en": "Undergraduate Program",
-      "page_type": "Other",
+      "page_type": "Programme Hub",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bundergraduate\\b'",
-        "- Classified as Other",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2755,13 +3104,13 @@
       "h1_original": "Academics",
       "title_en": "Course 9: Brain and Cognitive Sciences | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2774,13 +3123,13 @@
       "h1_original": "Academics",
       "title_en": "Course 6-9: Computation and Cognition | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Other",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Other",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2793,13 +3142,13 @@
       "h1_original": "Academics",
       "title_en": "Course Offerings | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2812,13 +3161,13 @@
       "h1_original": "Academics",
       "title_en": "Course 9: Brain and Cognitive Sciences | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Other",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Other",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2831,13 +3180,13 @@
       "h1_original": "Academics",
       "title_en": "Course 6-9: Computation and Cognition | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Other",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Other",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2850,13 +3199,31 @@
       "h1_original": "Academics",
       "title_en": "Course Offerings | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/public-policy",
+      "status": 200,
+      "title": "Minor in Public Policy | MIT Course Catalog",
+      "h1": "Minor in Public Policy",
+      "title_original": "Minor in Public Policy | MIT Course Catalog",
+      "h1_original": "Minor in Public Policy",
+      "title_en": "Minor in Public Policy | MIT Course Catalog",
+      "h1_en": "Minor in Public Policy",
+      "page_type": "Degree Catalogue",
+      "score": -65,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2869,12 +3236,48 @@
       "h1_original": "Minors",
       "title_en": "Minors | MIT Course Catalog",
       "h1_en": "Minors",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bundergraduate\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/environment-sustainability",
+      "status": 200,
+      "title": "Minor in Environment and Sustainability | MIT Course Catalog",
+      "h1": "Minor in Environment and Sustainability",
+      "title_original": "Minor in Environment and Sustainability | MIT Course Catalog",
+      "h1_original": "Minor in Environment and Sustainability",
+      "title_en": "Minor in Environment and Sustainability | MIT Course Catalog",
+      "h1_en": "Minor in Environment and Sustainability",
+      "page_type": "Degree Catalogue",
+      "score": -65,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/interdisciplinary/undergraduate-programs/minors/polymers-soft-matter",
+      "status": 200,
+      "title": "Minor in Polymers and Soft Matter | MIT Course Catalog",
+      "h1": "Minor in Polymers and Soft Matter",
+      "title_original": "Minor in Polymers and Soft Matter | MIT Course Catalog",
+      "h1_original": "Minor in Polymers and Soft Matter",
+      "title_en": "Minor in Polymers and Soft Matter | MIT Course Catalog",
+      "h1_en": "Minor in Polymers and Soft Matter",
+      "page_type": "Degree Catalogue",
+      "score": -65,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ URL matched '\\bundergraduate\\b'",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2905,12 +3308,12 @@
       "h1_original": "",
       "title_en": "Legal Studies Concentration - MIT School of Humanities, Arts, and Social Sciences",
       "h1_en": "",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -65,
       "reasons": [
         "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
         "+ URL matched '\\bundergraduate\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2923,12 +3326,12 @@
       "h1_original": "Undergraduate tuition",
       "title_en": "Undergraduate tuition | MIT Registrar",
       "h1_en": "Undergraduate tuition",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -70,
       "reasons": [
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Admissions",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2941,12 +3344,12 @@
       "h1_original": "Light load tuition",
       "title_en": "Light load tuition | MIT Registrar",
       "h1_en": "Light load tuition",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -70,
       "reasons": [
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Admissions",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -2959,24 +3362,60 @@
       "h1_original": "Graduate degree requirements",
       "title_en": "Graduate degree requirements | MIT Registrar",
       "h1_en": "Graduate degree requirements",
-      "page_type": "Degree Catalogue",
+      "page_type": "Support",
       "score": -70,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
         "+ URL matched '\\bgraduate\\b'",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/undergraduate-education/academic-research-options/independent-activities-period",
+      "status": 200,
+      "title": "Independent Activities Period | MIT Course Catalog",
+      "h1": "Independent Activities Period",
+      "title_original": "Independent Activities Period | MIT Course Catalog",
+      "h1_original": "Independent Activities Period",
+      "title_en": "Independent Activities Period | MIT Course Catalog",
+      "h1_en": "Independent Activities Period",
+      "page_type": "Degree Catalogue",
+      "score": -70,
+      "reasons": [
+        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
         "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
     {
-      "url": "http://catalog.mit.edu/mit/undergraduate-education/academic-research-options",
+      "url": "http://catalog.mit.edu/mit/undergraduate-education/academic-research-options/freshman-advising-seminars",
       "status": 200,
-      "title": "Academic and Research Options | MIT Course Catalog",
-      "h1": "Academic and Research Options",
-      "title_original": "Academic and Research Options | MIT Course Catalog",
-      "h1_original": "Academic and Research Options",
-      "title_en": "Academic and Research Options | MIT Course Catalog",
-      "h1_en": "Academic and Research Options",
+      "title": "First-Year Advising Seminars | MIT Course Catalog",
+      "h1": "First-Year Advising Seminars",
+      "title_original": "First-Year Advising Seminars | MIT Course Catalog",
+      "h1_original": "First-Year Advising Seminars",
+      "title_en": "First-Year Advising Seminars | MIT Course Catalog",
+      "h1_en": "First-Year Advising Seminars",
+      "page_type": "Support",
+      "score": -70,
+      "reasons": [
+        "+ URL matched '\\bundergraduate\\b'",
+        "+ URL matched '\\bacademics?\\b'",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/undergraduate-education/academic-research-options/interphase-edge",
+      "status": 200,
+      "title": "Interphase EDGE/x | MIT Course Catalog",
+      "h1": "Interphase EDGE/x",
+      "title_original": "Interphase EDGE/x | MIT Course Catalog",
+      "h1_original": "Interphase EDGE/x",
+      "title_en": "Interphase EDGE/x | MIT Course Catalog",
+      "h1_en": "Interphase EDGE/x",
       "page_type": "Programme Hub",
       "score": -70,
       "reasons": [
@@ -2995,12 +3434,12 @@
       "h1_original": "Edgerton Center",
       "title_en": "Edgerton Center | MIT Course Catalog",
       "h1_en": "Edgerton Center",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -70,
       "reasons": [
         "+ URL matched '\\bundergraduate\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3085,12 +3524,12 @@
       "h1_original": "Graduate Degrees",
       "title_en": "Graduate Degrees - CEE MIT | Civil & Environmental Engineering",
       "h1_en": "Graduate Degrees",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -70,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3211,12 +3650,12 @@
       "h1_original": "About Margaret MacVicar",
       "title_en": "About Margaret MacVicar | MIT Registrar",
       "h1_en": "About Margaret MacVicar",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcurriculum\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3247,12 +3686,12 @@
       "h1_original": "Certificate & Online Programs",
       "title_en": "Certificate & Online Programs | Office of Graduate Education",
       "h1_en": "Certificate & Online Programs",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3265,12 +3704,12 @@
       "h1_original": "Exchange, Special, & Visiting Students",
       "title_en": "Exchange, Special, & Visiting Students | Office of Graduate Education",
       "h1_en": "Exchange, Special, & Visiting Students",
-      "page_type": "Support",
+      "page_type": "Admissions",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Support",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3283,12 +3722,12 @@
       "h1_original": "Graduate Application Assistance Programs (GAAP)",
       "title_en": "Graduate Application Assistance Programs (GAAP) | Office of Graduate Education",
       "h1_en": "Graduate Application Assistance Programs (GAAP)",
-      "page_type": "Programme Hub",
+      "page_type": "Support",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3301,30 +3740,12 @@
       "h1_original": "Graduate Student Appreciation Week",
       "title_en": "Graduate Student Appreciation Week | Office of Graduate Education",
       "h1_en": "Graduate Student Appreciation Week",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Other",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://catalog.mit.edu/degree-charts/brain-cognitive-sciences-course-9",
-      "status": 200,
-      "title": "Brain and Cognitive Sciences (Course 9) | MIT Course Catalog",
-      "h1": "Brain and Cognitive Sciences (Course 9)",
-      "title_original": "Brain and Cognitive Sciences (Course 9) | MIT Course Catalog",
-      "h1_original": "Brain and Cognitive Sciences (Course 9)",
-      "title_en": "Brain and Cognitive Sciences (Course 9) | MIT Course Catalog",
-      "h1_en": "Brain and Cognitive Sciences (Course 9)",
-      "page_type": "Degree Catalogue",
-      "score": -75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3337,102 +3758,30 @@
       "h1_original": "Graduate Application Assistance Program (GAAP)",
       "title_en": "Graduate Application Assistance Program (GAAP) - MIT EECS",
       "h1_en": "Graduate Application Assistance Program (GAAP)",
-      "page_type": "Programme Hub",
+      "page_type": "Admissions",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
+        "- Classified as Admissions",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/graduate-education/study",
+      "status": 200,
+      "title": "Graduate Study at MIT | MIT Course Catalog",
+      "h1": "Graduate Study at MIT",
+      "title_original": "Graduate Study at MIT | MIT Course Catalog",
+      "h1_original": "Graduate Study at MIT",
+      "title_en": "Graduate Study at MIT | MIT Course Catalog",
+      "h1_en": "Graduate Study at MIT",
+      "page_type": "Programme Hub",
+      "score": -75,
+      "reasons": [
+        "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
+        "+ URL matched '\\bgraduate\\b'",
         "- Classified as Programme Hub (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/planning-course-11",
-      "status": 200,
-      "title": "Planning (Course 11) | MIT Course Catalog",
-      "h1": "Planning (Course 11)",
-      "title_original": "Planning (Course 11) | MIT Course Catalog",
-      "h1_original": "Planning (Course 11)",
-      "title_en": "Planning (Course 11) | MIT Course Catalog",
-      "h1_en": "Planning (Course 11)",
-      "page_type": "Degree Catalogue",
-      "score": -75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/architecture-course-4",
-      "status": 200,
-      "title": "Architecture (Course 4) | MIT Course Catalog",
-      "h1": "Architecture (Course 4)",
-      "title_original": "Architecture (Course 4) | MIT Course Catalog",
-      "h1_original": "Architecture (Course 4)",
-      "title_en": "Architecture (Course 4) | MIT Course Catalog",
-      "h1_en": "Architecture (Course 4)",
-      "page_type": "Degree Catalogue",
-      "score": -75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/architecture-course-4-b",
-      "status": 200,
-      "title": "Art and Design (Course 4-B) | MIT Course Catalog",
-      "h1": "Art and Design (Course 4-B)",
-      "title_original": "Art and Design (Course 4-B) | MIT Course Catalog",
-      "h1_original": "Art and Design (Course 4-B)",
-      "title_en": "Art and Design (Course 4-B) | MIT Course Catalog",
-      "h1_en": "Art and Design (Course 4-B)",
-      "page_type": "Degree Catalogue",
-      "score": -75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/aerospace-engineering-course-16",
-      "status": 200,
-      "title": "Aerospace Engineering (Course 16) | MIT Course Catalog",
-      "h1": "Aerospace Engineering (Course 16)",
-      "title_original": "Aerospace Engineering (Course 16) | MIT Course Catalog",
-      "h1_original": "Aerospace Engineering (Course 16)",
-      "title_en": "Aerospace Engineering (Course 16) | MIT Course Catalog",
-      "h1_en": "Aerospace Engineering (Course 16)",
-      "page_type": "Degree Catalogue",
-      "score": -75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/degree-charts/chemical-biological-engineering-course-10-b",
-      "status": 200,
-      "title": "Chemical-Biological Engineering (Course 10-B) | MIT Course Catalog",
-      "h1": "Chemical-Biological Engineering (Course 10-B)",
-      "title_original": "Chemical-Biological Engineering (Course 10-B) | MIT Course Catalog",
-      "h1_original": "Chemical-Biological Engineering (Course 10-B)",
-      "title_en": "Chemical-Biological Engineering (Course 10-B) | MIT Course Catalog",
-      "h1_en": "Chemical-Biological Engineering (Course 10-B)",
-      "page_type": "Degree Catalogue",
-      "score": -75,
-      "reasons": [
-        "+ URL matched '\\bcourses?\\b'",
-        "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3589,12 +3938,12 @@
       "h1_original": "Committee on Graduate Programs",
       "title_en": "Committee on Graduate Programs | Office of Graduate Education",
       "h1_en": "Committee on Graduate Programs",
-      "page_type": "Support",
+      "page_type": "Other",
       "score": -75,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Support",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3679,12 +4028,12 @@
       "h1_original": "PKG Courses",
       "title_en": "PKG Courses – PKG",
       "h1_en": "PKG Courses",
-      "page_type": "Degree Catalogue",
+      "page_type": "Programme Hub",
       "score": -80,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3743,7 +4092,7 @@
       ]
     },
     {
-      "url": "https://news.mit.edu/index%2Ephp/2026/qa-path-phd-computational-science-engineering-0520",
+      "url": "https://news.mit.edu/2026/qa-path-phd-computational-science-engineering-0520",
       "status": 200,
       "title": "Q&A: The path to a PhD in computational science and engineering at MIT | MIT News | Massachusetts Institute of Technology",
       "h1": "Q&A: The path to a PhD in computational science and engineering at MIT",
@@ -3775,38 +4124,6 @@
       ]
     },
     {
-      "url": "https://capd.mit.edu/resources/application-materials-for-phds-and-postdocs-examples-and-how-to-guides",
-      "status": 200,
-      "title": "Application materials for PhDs and Postdocs: Examples and how-to guides – Career Advising & Professional Development | MIT",
-      "h1": "Application materials for PhDs and Postdocs: Examples and how-to guides",
-      "title_original": "Application materials for PhDs and Postdocs: Examples and how-to guides – Career Advising & Professional Development | MIT",
-      "h1_original": "Application materials for PhDs and Postdocs: Examples and how-to guides",
-      "title_en": "Application materials for PhDs and Postdocs: Examples and how-to guides – Career Advising & Professional Development | MIT",
-      "h1_en": "Application materials for PhDs and Postdocs: Examples and how-to guides",
-      "page_type": "Support",
-      "score": -80,
-      "reasons": [
-        "- Classified as Support",
-        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
-      ]
-    },
-    {
-      "url": "https://capd.mit.edu/resources/md-phd-mock-interview-questions",
-      "status": 200,
-      "title": "MD-PhD Mock Interview Questions – Career Advising & Professional Development | MIT",
-      "h1": "MD-PhD Mock Interview Questions",
-      "title_original": "MD-PhD Mock Interview Questions – Career Advising & Professional Development | MIT",
-      "h1_original": "MD-PhD Mock Interview Questions",
-      "title_en": "MD-PhD Mock Interview Questions – Career Advising & Professional Development | MIT",
-      "h1_en": "MD-PhD Mock Interview Questions",
-      "page_type": "Support",
-      "score": -80,
-      "reasons": [
-        "- Classified as Support",
-        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
-      ]
-    },
-    {
       "url": "https://www.mit.edu/research/centers-labs-programs",
       "status": 200,
       "title": "Centers, Labs & Programs | MIT - Massachusetts Institute of Technology",
@@ -3815,12 +4132,12 @@
       "h1_original": "Massachusetts Institute of Technology",
       "title_en": "Centers, Labs & Programs | MIT - Massachusetts Institute of Technology",
       "h1_en": "Massachusetts Institute of Technology",
-      "page_type": "Navigation",
+      "page_type": "Programme Hub",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ Found by catalog",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -3886,12 +4203,12 @@
       "h1_original": "Undergraduates",
       "title_en": "Undergraduates » MIT Physics",
       "h1_en": "Undergraduates",
-      "page_type": "Navigation",
+      "page_type": "Programme Hub",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4048,12 +4365,12 @@
       "h1_original": "Other programs with non-standard tuition",
       "title_en": "Other programs with non-standard tuition | MIT Registrar",
       "h1_en": "Other programs with non-standard tuition",
-      "page_type": "Degree Catalogue",
+      "page_type": "Other",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4119,12 +4436,12 @@
       "h1_original": "Academics",
       "title_en": "Classes | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4137,12 +4454,12 @@
       "h1_original": "Academics",
       "title_en": "Research | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4299,12 +4616,12 @@
       "h1_original": "Academics",
       "title_en": "Classes | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4389,12 +4706,12 @@
       "h1_original": "Academics",
       "title_en": "MCN Faculty and Research Areas | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4407,12 +4724,12 @@
       "h1_original": "Academics",
       "title_en": "Model Systems | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4453,41 +4770,6 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/mit/overview/academic-program",
-      "status": 200,
-      "title": "Academic Program | MIT Course Catalog",
-      "h1": "Academic Program",
-      "title_original": "Academic Program | MIT Course Catalog",
-      "h1_original": "Academic Program",
-      "title_en": "Academic Program | MIT Course Catalog",
-      "h1_en": "Academic Program",
-      "page_type": "Degree Catalogue",
-      "score": -85,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "+ URL matched '\\bacademics?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements",
-      "status": 200,
-      "title": "General Institute Requirements | MIT Course Catalog",
-      "h1": "General Institute Requirements",
-      "title_original": "General Institute Requirements | MIT Course Catalog",
-      "h1_original": "General Institute Requirements",
-      "title_en": "General Institute Requirements | MIT Course Catalog",
-      "h1_en": "General Institute Requirements",
-      "page_type": "Support",
-      "score": -85,
-      "reasons": [
-        "+ URL matched '\\bundergraduate\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
       "url": "http://catalog.mit.edu/mit/undergraduate-education/admissions",
       "status": 200,
       "title": "Admissions | MIT Course Catalog",
@@ -4501,6 +4783,23 @@
       "reasons": [
         "+ URL matched '\\bundergraduate\\b'",
         "- Classified as Admissions",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/undergraduate-education/costs",
+      "status": 200,
+      "title": "Costs | MIT Course Catalog",
+      "h1": "Costs",
+      "title_original": "Costs | MIT Course Catalog",
+      "h1_original": "Costs",
+      "title_en": "Costs | MIT Course Catalog",
+      "h1_en": "Costs",
+      "page_type": "Support",
+      "score": -85,
+      "reasons": [
+        "+ URL matched '\\bundergraduate\\b'",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4717,11 +5016,11 @@
       "h1_original": "When can a new undergraduate international student arrive for Fall 2025?",
       "title_en": "When can a new undergraduate international student arrive for Fall 2025? | ISO",
       "h1_en": "When can a new undergraduate international student arrive for Fall 2025?",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -85,
       "reasons": [
         "+ URL matched '\\bundergraduate\\b'",
-        "- Classified as Admissions",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4734,11 +5033,11 @@
       "h1_original": "Prospective Students",
       "title_en": "Prospective Students - MIT Department of Biology",
       "h1_en": "Prospective Students",
-      "page_type": "Programme Hub",
+      "page_type": "Admissions",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4870,11 +5169,11 @@
       "h1_original": "Advanced Degrees",
       "title_en": "Advanced Degrees | Office of Graduate Education",
       "h1_en": "Advanced Degrees",
-      "page_type": "Degree Catalogue",
+      "page_type": "Programme Hub",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -4938,11 +5237,11 @@
       "h1_original": "About MIT",
       "title_en": "About MIT | Office of Graduate Education",
       "h1_en": "About MIT",
-      "page_type": "Other",
+      "page_type": "Navigation",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Other",
+        "- Classified as Navigation (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5074,11 +5373,11 @@
       "h1_original": "Procedures",
       "title_en": "Procedures | Office of Graduate Education",
       "h1_en": "Procedures",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Admissions",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5278,11 +5577,11 @@
       "h1_original": "Cost of Attendance",
       "title_en": "Cost of Attendance | Office of Graduate Education",
       "h1_en": "Cost of Attendance",
-      "page_type": "Support",
+      "page_type": "Admissions",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Support",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5312,11 +5611,11 @@
       "h1_original": "Estimated living expenses for 12 months",
       "title_en": "Estimated living expenses for 12 months | Office of Graduate Education",
       "h1_en": "Estimated living expenses for 12 months",
-      "page_type": "Support",
+      "page_type": "Admissions",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Support",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5329,11 +5628,11 @@
       "h1_original": "Additional considerations and information",
       "title_en": "Additional considerations and information | Office of Graduate Education",
       "h1_en": "Additional considerations and information",
-      "page_type": "Support",
+      "page_type": "Admissions",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Support",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5525,6 +5824,40 @@
       ]
     },
     {
+      "url": "http://catalog.mit.edu/mit/graduate-education/other-institutions",
+      "status": 200,
+      "title": "Other Institutions | MIT Course Catalog",
+      "h1": "Other Institutions",
+      "title_original": "Other Institutions | MIT Course Catalog",
+      "h1_original": "Other Institutions",
+      "title_en": "Other Institutions | MIT Course Catalog",
+      "h1_en": "Other Institutions",
+      "page_type": "Navigation",
+      "score": -95,
+      "reasons": [
+        "+ URL matched '\\bgraduate\\b'",
+        "- Classified as Navigation (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/graduate-education/admissions",
+      "status": 200,
+      "title": "Admissions | MIT Course Catalog",
+      "h1": "Admissions",
+      "title_original": "Admissions | MIT Course Catalog",
+      "h1_original": "Admissions",
+      "title_en": "Admissions | MIT Course Catalog",
+      "h1_en": "Admissions",
+      "page_type": "Admissions",
+      "score": -95,
+      "reasons": [
+        "+ URL matched '\\bgraduate\\b'",
+        "- Classified as Admissions",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "http://catalog.mit.edu/mit/graduate-education/costs",
       "status": 200,
       "title": "Costs | MIT Course Catalog",
@@ -5533,11 +5866,11 @@
       "h1_original": "Costs",
       "title_en": "Costs | MIT Course Catalog",
       "h1_en": "Costs",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5601,11 +5934,11 @@
       "h1_original": "Graduate Application Timeline & FAQ",
       "title_en": "Graduate Application Timeline & FAQ - CEE MIT | Graduate Program",
       "h1_en": "Graduate Application Timeline & FAQ",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Admissions",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -5882,23 +6215,6 @@
       ]
     },
     {
-      "url": "https://engineering.mit.edu/graduate/mathworks-fellowship",
-      "status": 200,
-      "title": "MathWorks Fellowships | MIT School of Engineering",
-      "h1": "MathWorks Fellowships",
-      "title_original": "MathWorks Fellowships | MIT School of Engineering",
-      "h1_original": "MathWorks Fellowships",
-      "title_en": "MathWorks Fellowships | MIT School of Engineering",
-      "h1_en": "MathWorks Fellowships",
-      "page_type": "Support",
-      "score": -95,
-      "reasons": [
-        "+ URL matched '\\bgraduate\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
       "url": "http://mitcommlab.mit.edu/be/commkit/graduate-school-personal-statement",
       "status": 200,
       "title": "Graduate School Statement of Purpose : Biological Engineering Communication Lab",
@@ -6001,14 +6317,31 @@
       ]
     },
     {
-      "url": "https://capd.mit.edu/channels/prepare-for-graduate-professional-school",
+      "url": "https://mitcommlab.mit.edu/nse/commkit/graduate-school-personal-statement",
       "status": 200,
-      "title": "Prepare for graduate & professional school – Career Advising & Professional Development | MIT",
-      "h1": "Prepare for graduate & professional school",
-      "title_original": "Prepare for graduate & professional school – Career Advising & Professional Development | MIT",
-      "h1_original": "Prepare for graduate & professional school",
-      "title_en": "Prepare for graduate & professional school – Career Advising & Professional Development | MIT",
-      "h1_en": "Prepare for graduate & professional school",
+      "title": "Graduate School Personal Statement : NSE Communication Lab",
+      "h1": "Graduate School Personal Statement",
+      "title_original": "Graduate School Personal Statement : NSE Communication Lab",
+      "h1_original": "Graduate School Personal Statement",
+      "title_en": "Graduate School Personal Statement : NSE Communication Lab",
+      "h1_en": "Graduate School Personal Statement",
+      "page_type": "Support",
+      "score": -95,
+      "reasons": [
+        "+ URL matched '\\bgraduate\\b'",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://mitcommlab.mit.edu/nse/2020/12/02/three-tips-applying-to-graduate-school",
+      "status": 200,
+      "title": "Three Tips for Your Grad School Personal Statement : NSE Communication Lab",
+      "h1": "Three Tips for Your Grad School Personal Statement",
+      "title_original": "Three Tips for Your Grad School Personal Statement : NSE Communication Lab",
+      "h1_original": "Three Tips for Your Grad School Personal Statement",
+      "title_en": "Three Tips for Your Grad School Personal Statement : NSE Communication Lab",
+      "h1_en": "Three Tips for Your Grad School Personal Statement",
       "page_type": "Support",
       "score": -95,
       "reasons": [
@@ -6026,11 +6359,11 @@
       "h1_original": "Office of Graduate Education -",
       "title_en": "Office of Graduate Education",
       "h1_en": "Office of Graduate Education -",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6077,11 +6410,11 @@
       "h1_original": "Interdisciplinary degree paths",
       "title_en": "Interdisciplinary degree paths | Office of Graduate Education",
       "h1_en": "Interdisciplinary degree paths",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6213,11 +6546,11 @@
       "h1_original": "Interdisciplinary degree paths",
       "title_en": "Interdisciplinary degree paths | Office of Graduate Education",
       "h1_en": "Interdisciplinary degree paths",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -95,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6358,6 +6691,23 @@
       ]
     },
     {
+      "url": "https://studentinsuranceoffice.mit.edu/about/graduate-vision",
+      "status": 200,
+      "title": "Massachusetts Institute of Technology  | Home",
+      "h1": "Massachusetts Institute of Technology",
+      "title_original": "Massachusetts Institute of Technology  | Home",
+      "h1_original": "Massachusetts Institute of Technology",
+      "title_en": "Massachusetts Institute of Technology  | Home",
+      "h1_en": "Massachusetts Institute of Technology",
+      "page_type": "Navigation",
+      "score": -95,
+      "reasons": [
+        "+ URL matched '\\bgraduate\\b'",
+        "- Classified as Navigation (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "http://policies.mit.edu/policies-procedures/80-graduate-student-appointments",
       "status": 200,
       "title": "8.0 Graduate Student Appointments | Policies",
@@ -6468,11 +6818,11 @@
       "h1_original": "",
       "title_en": "MIT-Program-Guide",
       "h1_en": "",
-      "page_type": "Degree Catalogue",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6502,11 +6852,11 @@
       "h1_original": "Capabilities & Expertise",
       "title_en": "Capabilities & Expertise",
       "h1_en": "Capabilities & Expertise",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6536,11 +6886,11 @@
       "h1_original": "Client Impact Stories | MIT Sloan",
       "title_en": "Client Impact Stories | MIT Sloan",
       "h1_en": "Client Impact Stories | MIT Sloan",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6604,11 +6954,11 @@
       "h1_original": "Entrepreneurship Development Program Live Info Session",
       "title_en": "Entrepreneurship Development Program Live Info Session | MIT Sloan Executive Education",
       "h1_en": "Entrepreneurship Development Program Live Info Session",
-      "page_type": "Other",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Other",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6842,11 +7192,11 @@
       "h1_original": "LEAH Knox Scholars Program",
       "title_en": "LEAH Knox Scholars Program - MIT Department of Biology",
       "h1_en": "LEAH Knox Scholars Program",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6859,11 +7209,11 @@
       "h1_original": "Research Scholars Program",
       "title_en": "Research Scholars Program | Brain and Cognitive Sciences",
       "h1_en": "Research Scholars Program",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -6944,11 +7294,11 @@
       "h1_original": "Lease to Own",
       "title_en": "Lease to Own | MIT Copytech",
       "h1_en": "Lease to Own",
-      "page_type": "Other",
+      "page_type": "Support",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Other",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7012,11 +7362,11 @@
       "h1_original": "Fellowships",
       "title_en": "Fellowships – PKG",
       "h1_en": "Fellowships",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7046,11 +7396,11 @@
       "h1_original": "PKG Fellowships",
       "title_en": "PKG Fellowships – PKG",
       "h1_en": "PKG Fellowships",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7063,11 +7413,11 @@
       "h1_original": "DUSP-PKG Summer Fellowships",
       "title_en": "DUSP-PKG Summer Fellowships – PKG",
       "h1_en": "DUSP-PKG Summer Fellowships",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7080,11 +7430,11 @@
       "h1_original": "ESG-PKG Fellowships",
       "title_en": "ESG-PKG Fellowships – PKG",
       "h1_en": "ESG-PKG Fellowships",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7097,11 +7447,11 @@
       "h1_original": "Projects for Peace Fellowship",
       "title_en": "Projects for Peace Fellowship – PKG",
       "h1_en": "Projects for Peace Fellowship",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7242,19 +7592,19 @@
       ]
     },
     {
-      "url": "http://catalog.mit.edu/mit/research/mit-portugal-program",
+      "url": "http://catalog.mit.edu/mit/research/program-art-culture-technology",
       "status": 200,
-      "title": "MIT Portugal Program | MIT Course Catalog",
-      "h1": "MIT Portugal Program",
-      "title_original": "MIT Portugal Program | MIT Course Catalog",
-      "h1_original": "MIT Portugal Program",
-      "title_en": "MIT Portugal Program | MIT Course Catalog",
-      "h1_en": "MIT Portugal Program",
-      "page_type": "Programme Hub",
+      "title": "Art, Culture, and Technology Program | MIT Course Catalog",
+      "h1": "Art, Culture, and Technology Program",
+      "title_original": "Art, Culture, and Technology Program | MIT Course Catalog",
+      "h1_original": "Art, Culture, and Technology Program",
+      "title_en": "Art, Culture, and Technology Program | MIT Course Catalog",
+      "h1_en": "Art, Culture, and Technology Program",
+      "page_type": "Degree Catalogue",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -7284,11 +7634,11 @@
       "h1_original": "",
       "title_en": "",
       "h1_en": "",
-      "page_type": "Support",
+      "page_type": "Other",
       "score": -100,
       "reasons": [
         "+ URL matched '\\bstudies\\b|\\bstudy\\b'",
-        "- Classified as Support",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -8381,6 +8731,23 @@
       ]
     },
     {
+      "url": "https://news.mit.edu/index%2ephp/topic/classes-and-programs",
+      "status": 200,
+      "title": "Classes and programs | MIT News | Massachusetts Institute of Technology",
+      "h1": "Classes and programs",
+      "title_original": "Classes and programs | MIT News | Massachusetts Institute of Technology",
+      "h1_original": "Classes and programs",
+      "title_en": "Classes and programs | MIT News | Massachusetts Institute of Technology",
+      "h1_en": "Classes and programs",
+      "page_type": "Other",
+      "score": -100,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "- Classified as Other",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://news.mit.edu/2025/new-community-computational-science-engineering-phd-program-0916",
       "status": 200,
       "title": "A new community for computational science and engineering | MIT News | Massachusetts Institute of Technology",
@@ -8615,40 +8982,6 @@
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "- Classified as Programme Hub (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://capd.mit.edu/resources/aamc-database-of-summer-enrichment-programs",
-      "status": 200,
-      "title": "AAMC Database of Summer Enrichment Programs – Career Advising & Professional Development | MIT",
-      "h1": "AAMC Database of Summer Enrichment Programs",
-      "title_original": "AAMC Database of Summer Enrichment Programs – Career Advising & Professional Development | MIT",
-      "h1_original": "AAMC Database of Summer Enrichment Programs",
-      "title_en": "AAMC Database of Summer Enrichment Programs – Career Advising & Professional Development | MIT",
-      "h1_en": "AAMC Database of Summer Enrichment Programs",
-      "page_type": "Support",
-      "score": -100,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://capd.mit.edu/resources/summer-health-professions-education-program",
-      "status": 200,
-      "title": "Summer Health Professions Education Program – Career Advising & Professional Development | MIT",
-      "h1": "Summer Health Professions Education Program",
-      "title_original": "Summer Health Professions Education Program – Career Advising & Professional Development | MIT",
-      "h1_original": "Summer Health Professions Education Program",
-      "title_en": "Summer Health Professions Education Program – Career Advising & Professional Development | MIT",
-      "h1_en": "Summer Health Professions Education Program",
-      "page_type": "Support",
-      "score": -100,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9018,11 +9351,11 @@
       "h1_original": "Massachusetts Institute of Technology",
       "title_en": "About MIT | MIT - Massachusetts Institute of Technology",
       "h1_en": "Massachusetts Institute of Technology",
-      "page_type": "Navigation",
+      "page_type": "Other",
       "score": -115,
       "reasons": [
         "+ Found by search",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9035,11 +9368,11 @@
       "h1_original": "Learn with MIT",
       "title_en": "Learn with MIT | MIT Learn",
       "h1_en": "Learn with MIT",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -115,
       "reasons": [
         "+ Found by search",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9078,23 +9411,6 @@
       ]
     },
     {
-      "url": "https://www.google.com/maps/place/Massachusetts+Institute+of+Technology/@42.360091,-71.09416,15z/data=!4m5!3m4!1s0x0:0xd0e08ea5b308203c!8m2!3d42.360091!4d-71.09416",
-      "status": 200,
-      "title": "Google Maps",
-      "h1": "",
-      "title_original": "Google Maps",
-      "h1_original": "",
-      "title_en": "Google Maps",
-      "h1_en": "",
-      "page_type": "Navigation",
-      "score": -115,
-      "reasons": [
-        "+ Found by search",
-        "- Classified as Navigation (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
       "url": "https://www.mit.edu/visitmit",
       "status": 200,
       "title": "Visit | MIT - Massachusetts Institute of Technology",
@@ -9103,11 +9419,11 @@
       "h1_original": "Massachusetts Institute of Technology",
       "title_en": "Visit | MIT - Massachusetts Institute of Technology",
       "h1_en": "Massachusetts Institute of Technology",
-      "page_type": "Navigation",
+      "page_type": "Other",
       "score": -115,
       "reasons": [
         "+ Found by search",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9188,11 +9504,11 @@
       "h1_original": "",
       "title_en": "MIT Social Media Hub – Explore the Massachusetts Institute of Technology through social media",
       "h1_en": "",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -115,
       "reasons": [
         "+ Found by search",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9222,11 +9538,11 @@
       "h1_original": "",
       "title_en": "Massachusetts Institute of Technology (MIT)",
       "h1_en": "",
-      "page_type": "Navigation",
+      "page_type": "Other",
       "score": -115,
       "reasons": [
         "+ Found by search",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9293,22 +9609,6 @@
       "score": -120,
       "reasons": [
         "- Classified as Other",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "http://web.mit.edu/uwip/www",
-      "status": 200,
-      "title": "MIT Undergraduate Womxn in Physics",
-      "h1": "Undergraduate Womxn in Physics",
-      "title_original": "MIT Undergraduate Womxn in Physics",
-      "h1_original": "Undergraduate Womxn in Physics",
-      "title_en": "MIT Undergraduate Womxn in Physics",
-      "h1_en": "Undergraduate Womxn in Physics",
-      "page_type": "Programme Hub",
-      "score": -120,
-      "reasons": [
-        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9385,10 +9685,10 @@
       "h1_original": "Teach for ESP!",
       "title_en": "MIT ESP - Teach for ESP!",
       "h1_en": "Teach for ESP!",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -120,
       "reasons": [
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9437,22 +9737,6 @@
       "score": -120,
       "reasons": [
         "- Classified as Admissions",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.eecs.mit.edu/research/explore-all-research-areas/programming-languages-and-software-engineering",
-      "status": 200,
-      "title": "Programming Languages and Software Engineering - MIT EECS",
-      "h1": "Programming Languages and Software Engineering",
-      "title_original": "Programming Languages and Software Engineering - MIT EECS",
-      "h1_original": "Programming Languages and Software Engineering",
-      "title_en": "Programming Languages and Software Engineering - MIT EECS",
-      "h1_en": "Programming Languages and Software Engineering",
-      "page_type": "Programme Hub",
-      "score": -120,
-      "reasons": [
-        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9553,6 +9837,22 @@
       ]
     },
     {
+      "url": "http://catalog.mit.edu/subjects/sp",
+      "status": 200,
+      "title": "Special Programs | MIT Course Catalog",
+      "h1": "Special Programs",
+      "title_original": "Special Programs | MIT Course Catalog",
+      "h1_original": "Special Programs",
+      "title_en": "Special Programs | MIT Course Catalog",
+      "h1_en": "Special Programs",
+      "page_type": "Degree Catalogue",
+      "score": -120,
+      "reasons": [
+        "- Classified as Degree Catalogue (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://cee.mit.edu/people_individual/benedetto-marelli",
       "status": 200,
       "title": "Benedetto Marelli - cee.mit.edu",
@@ -9601,7 +9901,7 @@
       ]
     },
     {
-      "url": "https://news.mit.edu/index%2Ephp/2026/nanoscientist-graduates-with-her-very-good-boy-0529",
+      "url": "https://news.mit.edu/2026/nanoscientist-graduates-with-her-very-good-boy-0529",
       "status": 200,
       "title": "Scene at MIT: A nanoscientist graduates with her very good boy | MIT News | Massachusetts Institute of Technology",
       "h1": "Scene at MIT: A nanoscientist graduates with her very good boy",
@@ -9613,22 +9913,6 @@
       "score": -120,
       "reasons": [
         "- Classified as Other",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://capd.mit.edu/resources/hiring-international-graduates",
-      "status": 200,
-      "title": "Hiring international graduates – Career Advising & Professional Development | MIT",
-      "h1": "Hiring international graduates",
-      "title_original": "Hiring international graduates – Career Advising & Professional Development | MIT",
-      "h1_original": "Hiring international graduates",
-      "title_en": "Hiring international graduates – Career Advising & Professional Development | MIT",
-      "h1_en": "Hiring international graduates",
-      "page_type": "Support",
-      "score": -120,
-      "reasons": [
-        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9673,10 +9957,10 @@
       "h1_original": "Splash 2025 Information",
       "title_en": "MIT ESP - Splash 2025 Information",
       "h1_en": "Splash 2025 Information",
-      "page_type": "Admissions",
+      "page_type": "Support",
       "score": -120,
       "reasons": [
-        "- Classified as Admissions",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9737,14 +10021,14 @@
       "h1_original": "Academics",
       "title_en": "Course 6-9 Career Outlook | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Support",
       "score": -125,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
         "- URL matched '\\bcareers?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9757,14 +10041,32 @@
       "h1_original": "Academics",
       "title_en": "Course 9: Career Outlook | Brain and Cognitive Sciences",
       "h1_en": "Academics",
-      "page_type": "Programme Hub",
+      "page_type": "Support",
       "score": -125,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "+ URL matched '\\bcourses?\\b'",
         "+ URL matched '\\bacademics?\\b'",
         "- URL matched '\\bcareers?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "http://catalog.mit.edu/mit/undergraduate-education/career",
+      "status": 200,
+      "title": "Career and Professional Options | MIT Course Catalog",
+      "h1": "Career and Professional Options",
+      "title_original": "Career and Professional Options | MIT Course Catalog",
+      "h1_original": "Career and Professional Options",
+      "title_en": "Career and Professional Options | MIT Course Catalog",
+      "h1_en": "Career and Professional Options",
+      "page_type": "Support",
+      "score": -145,
+      "reasons": [
+        "+ URL matched '\\bundergraduate\\b'",
+        "- URL matched '\\bcareers?\\b'",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9777,65 +10079,13 @@
       "h1_original": "Graduate Students",
       "title_en": "Graduate Students - cee.mit.edu",
       "h1_en": "Graduate Students",
-      "page_type": "Support",
+      "page_type": "Programme Hub",
       "score": -145,
       "reasons": [
         "+ URL matched '\\bgraduate\\b'",
         "- URL matched '\\bpeople\\b'",
-        "- Classified as Support",
+        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://lgo.mit.edu/mit-lgo-program/staff",
-      "status": 200,
-      "title": "MIT LGO Program | Staff and Executive Leadership",
-      "h1": "Staff",
-      "title_original": "MIT LGO Program | Staff and Executive Leadership",
-      "h1_original": "Staff",
-      "title_en": "MIT LGO Program | Staff and Executive Leadership",
-      "h1_en": "Staff",
-      "page_type": "Other",
-      "score": -150,
-      "reasons": [
-        "+ URL matched '\\bprograms?\\b'",
-        "- URL matched '\\bstaff\\b'",
-        "- Classified as Other",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://capd.mit.edu/blog/2022/11/21/phd-applicants-everything-you-need-to-know-about-letters-of-recommendation",
-      "status": 200,
-      "title": "PhD applicants: Everything you need to know about letters of recommendation – Career Advising & Professional Development | MIT",
-      "h1": "PhD applicants: Everything you need to know about letters of recommendation",
-      "title_original": "PhD applicants: Everything you need to know about letters of recommendation – Career Advising & Professional Development | MIT",
-      "h1_original": "PhD applicants: Everything you need to know about letters of recommendation",
-      "title_en": "PhD applicants: Everything you need to know about letters of recommendation – Career Advising & Professional Development | MIT",
-      "h1_en": "PhD applicants: Everything you need to know about letters of recommendation",
-      "page_type": "Admissions",
-      "score": -160,
-      "reasons": [
-        "- URL matched '\\bblog\\b'",
-        "- Classified as Admissions",
-        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
-      ]
-    },
-    {
-      "url": "https://capd.mit.edu/blog/2022/11/21/phd-applicants-writing-your-statement-of-purpose-social-science-and-humanities",
-      "status": 200,
-      "title": "PhD applicants: Writing your statement of purpose (social science and humanities) – Career Advising & Professional Development | MIT",
-      "h1": "PhD applicants: Writing your statement of purpose (social science and humanities)",
-      "title_original": "PhD applicants: Writing your statement of purpose (social science and humanities) – Career Advising & Professional Development | MIT",
-      "h1_original": "PhD applicants: Writing your statement of purpose (social science and humanities)",
-      "title_en": "PhD applicants: Writing your statement of purpose (social science and humanities) – Career Advising & Professional Development | MIT",
-      "h1_en": "PhD applicants: Writing your statement of purpose (social science and humanities)",
-      "page_type": "Admissions",
-      "score": -160,
-      "reasons": [
-        "- URL matched '\\bblog\\b'",
-        "- Classified as Admissions",
-        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
       ]
     },
     {
@@ -9900,12 +10150,12 @@
       "h1_original": "Inside the Entrepreneurship Development Program Impact Report",
       "title_en": "Inside the Entrepreneurship Development Program Impact Report | MIT Sloan Executive Education",
       "h1_en": "Inside the Entrepreneurship Development Program Impact Report",
-      "page_type": "Programme Hub",
+      "page_type": "Other",
       "score": -180,
       "reasons": [
         "+ URL matched '\\bprograms?\\b'",
         "- URL matched '\\bblog\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9918,11 +10168,11 @@
       "h1_original": "Managers' Feedback Program",
       "title_en": "Managers' Feedback Program | MIT Human Resources",
       "h1_en": "Managers' Feedback Program",
-      "page_type": "Programme Hub",
+      "page_type": "Support",
       "score": -180,
       "reasons": [
         "- URL matched '\\bcareers?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9935,11 +10185,11 @@
       "h1_original": "Management Foundations Cohort Program",
       "title_en": "Management Foundations Cohort Program  | MIT Human Resources",
       "h1_en": "Management Foundations Cohort Program",
-      "page_type": "Programme Hub",
+      "page_type": "Support",
       "score": -180,
       "reasons": [
         "- URL matched '\\bcareers?\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -9986,11 +10236,11 @@
       "h1_original": "Touchstone @ MIT",
       "title_en": "Touchstone@MIT : Please Authenticate",
       "h1_en": "Touchstone @ MIT",
-      "page_type": "Navigation",
+      "page_type": "Support",
       "score": -180,
       "reasons": [
         "- URL matched '\\bcareers?\\b'",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -10047,23 +10297,6 @@
       ]
     },
     {
-      "url": "https://capd.mit.edu/blog/2023/04/03/interfaith-dialog-programming",
-      "status": 200,
-      "title": "Interfaith Dialog Programming – Career Advising & Professional Development | MIT",
-      "h1": "Interfaith Dialog Programming",
-      "title_original": "Interfaith Dialog Programming – Career Advising & Professional Development | MIT",
-      "h1_original": "Interfaith Dialog Programming",
-      "title_en": "Interfaith Dialog Programming – Career Advising & Professional Development | MIT",
-      "h1_en": "Interfaith Dialog Programming",
-      "page_type": "Programme Hub",
-      "score": -200,
-      "reasons": [
-        "- URL matched '\\bblog\\b'",
-        "- Classified as Programme Hub (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
       "url": "https://hr.mit.edu/l2l/alumni",
       "status": 200,
       "title": "L2L Program Alumni | MIT Human Resources",
@@ -10089,12 +10322,12 @@
       "h1_original": "Massachusetts Institute of Technology",
       "title_en": "Privacy | MIT - Massachusetts Institute of Technology",
       "h1_en": "Massachusetts Institute of Technology",
-      "page_type": "Navigation",
+      "page_type": "Support",
       "score": -215,
       "reasons": [
         "- URL matched '\\bprivacy\\b'",
         "+ Found by search",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Support",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -10107,14 +10340,14 @@
       "h1_original": "10 Great Jobs for People With Biology Degrees—Because You Don’t Have to Be a Biologist",
       "title_en": "10 Great Jobs for People With Biology Degrees—Because You Don’t Have to Be a Biologist – Career Advising & Professional Development | MIT",
       "h1_en": "10 Great Jobs for People With Biology Degrees—Because You Don’t Have to Be a Biologist",
-      "page_type": "Support",
+      "page_type": "Other",
       "score": -285,
       "reasons": [
         "+ URL matched '\\bdegrees?\\b'",
         "- URL matched '\\bblog\\b'",
         "- URL matched '\\bjobs?\\b'",
         "- URL matched '\\bpeople\\b'",
-        "- Classified as Support",
+        "- Classified as Other",
         "- Metadata lacks specific degree indicators"
       ]
     }

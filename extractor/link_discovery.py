@@ -312,6 +312,34 @@ class LinkDiscovery:
             "fakult"
 
         ]):
+            
+            # Generic department landing pages are usually navigation.
+            # Programme-specific department pages are handled later by
+            # evidence expansion if they contain useful links.
+
+            if any(x in value for x in [
+
+                "history",
+                "about",
+                "people",
+                "staff",
+                "faculty-directory",
+                "directory",
+                "organization",
+                "employment",
+                "career",
+                "career-fair"
+
+            ]):
+                return {
+                    "type": "page",
+
+                    "category": "department",
+
+                    "purpose": "navigation",
+                    
+                    "priority": 0
+                }
 
             return {
 

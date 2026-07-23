@@ -1,5 +1,5 @@
 {
-  "fact_count": 37,
+  "fact_count": 40,
   "facts": [
     {
       "category": "identity",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "category": "overview",
+      "category": "identity",
       "field": "offering_departments",
       "value": "Department of Electrical Engineering and Computer Science; Department of Brain and Cognitive Sciences",
       "confidence": 1.0,
@@ -54,7 +54,24 @@
     },
     {
       "category": "overview",
-      "field": "focus",
+      "field": "curriculum_type",
+      "value": "Joint curriculum offered by two departments",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Computation and Cognition",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "overview",
+      "field": "focus_areas",
       "value": "Computational and engineering approaches to brain science, cognition, and machine intelligence",
       "confidence": 1.0,
       "source": {
@@ -71,8 +88,8 @@
     },
     {
       "category": "admission",
-      "field": "program_open_to",
-      "value": "Computation and Cognition (6-9) majors at MIT",
+      "field": "eligibility_criteria",
+      "value": "Only open to Computation and Cognition (6-9) majors at MIT",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -87,9 +104,9 @@
       }
     },
     {
-      "category": "admission",
-      "field": "program_not_for_doctoral_intent",
-      "value": "Best suited for students who wish to work towards a master’s degree but do not intend to enroll in a doctoral program in a related field",
+      "category": "overview",
+      "field": "target_audience",
+      "value": "Students who wish to work towards a master’s degree but do not intend to enroll in a doctoral program in a related field",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -105,7 +122,7 @@
     },
     {
       "category": "curriculum",
-      "field": "program_duration_years",
+      "field": "program_duration",
       "value": "Five to five-and-a-half years",
       "confidence": 1.0,
       "source": {
@@ -123,7 +140,7 @@
     {
       "category": "curriculum",
       "field": "degree_awarded",
-      "value": "Bachelor of Science and Master of Engineering in Computation and Cognition",
+      "value": "Bachelor's degree and Master of Engineering in Computation and Cognition",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -139,8 +156,8 @@
     },
     {
       "category": "curriculum",
-      "field": "degree_path",
-      "value": "Students may earn the bachelor's and master's degree concurrently or sequentially",
+      "field": "degree_pathway",
+      "value": "Degree can be earned concurrently or sequentially with the undergraduate degree",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -157,7 +174,7 @@
     {
       "category": "curriculum",
       "field": "additional_units_required",
-      "value": "90 units including 24 units of thesis work",
+      "value": "90 additional units, including 24 units of thesis work",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -173,8 +190,8 @@
     },
     {
       "category": "curriculum",
-      "field": "semesters_required",
-      "value": "Ten or eleven semesters (compresses a four-year bachelor's and a two-year master's)",
+      "field": "semester_count",
+      "value": "Ten or eleven semesters to complete the combined bachelor's and master's coursework",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -190,8 +207,8 @@
     },
     {
       "category": "curriculum",
-      "field": "subject_use_restriction",
-      "value": "Subjects cannot be used to satisfy both undergraduate and graduate requirements, including second majors, minors, and minimum GIR units",
+      "field": "subject_credit_policy",
+      "value": "Subjects cannot be used to satisfy both undergraduate and graduate requirements, including second majors, minors, and GIRs",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -259,7 +276,7 @@
     {
       "category": "admission",
       "field": "research_experience_requirement",
-      "value": "One UROP or SuperUROP",
+      "value": "At least one UROP or SuperUROP",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -275,8 +292,25 @@
     },
     {
       "category": "admission",
-      "field": "thesis_supervisor_commitment_requirement",
-      "value": "A commitment from a MIT faculty member to supervise thesis research (non‑MIT faculty may serve as co‑advisors with approval, but a MIT faculty advisor is required; purely engineering thesis projects are not accepted)",
+      "field": "thesis_supervisor_commitment",
+      "value": "Commitment from a faculty member to supervise thesis research (MIT faculty required; non‑MIT faculty may serve as co‑advisors with approval)",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      },
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "thesis_project_type_restriction",
+      "value": "Purely engineering thesis projects will not be accepted",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -293,7 +327,7 @@
     {
       "category": "admission",
       "field": "application_timing",
-      "value": "Students in junior year or first semester of senior year should submit an application in November or April",
+      "value": "Students in their junior year or first semester of senior year should submit an application in November or April",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -326,8 +360,8 @@
     },
     {
       "category": "admission",
-      "field": "decision_timing",
-      "value": "Decisions typically sent out 2-3 weeks after the grade deadline",
+      "field": "decision_timeline",
+      "value": "Decisions are typically sent out 2-3 weeks after the grade deadline",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -342,7 +376,7 @@
       }
     },
     {
-      "category": "admission",
+      "category": "contacts",
       "field": "application_website",
       "value": "https://bcsis.mit.edu/meng_application.cgi",
       "confidence": 1.0,
@@ -359,7 +393,7 @@
       }
     },
     {
-      "category": "fees",
+      "category": "scholarships",
       "field": "departmental_funding_guarantee",
       "value": "Departmental funding for the MEng program is not guaranteed",
       "confidence": 1.0,
@@ -377,7 +411,7 @@
     },
     {
       "category": "scholarships",
-      "field": "available_funding_sources",
+      "field": "funding_sources",
       "value": "Teaching assistantships and research assistantships",
       "confidence": 1.0,
       "source": {
@@ -394,8 +428,8 @@
     },
     {
       "category": "scholarships",
-      "field": "full_time_ta_ra_compensation",
-      "value": "Monthly stipend, full tuition, and health insurance for full‑time TA or RA positions",
+      "field": "assistantship_benefits",
+      "value": "Full-time TA or RA provides a monthly stipend, full tuition, and health insurance",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -412,7 +446,7 @@
     {
       "category": "scholarships",
       "field": "ta_workload",
-      "value": "Approximately 20 hours per week on teaching for full‑time TAships",
+      "value": "Full-time teaching assistants should expect to work approximately 20 hours per week on teaching",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -428,8 +462,8 @@
     },
     {
       "category": "scholarships",
-      "field": "ra_funding_difficulty",
-      "value": "Research assistantship support for MEng students can be difficult to secure and requires advanced planning with research advisors",
+      "field": "ra_funding_notes",
+      "value": "Research assistantship support can be difficult to secure; advanced planning with thesis supervisor is recommended",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -444,8 +478,8 @@
       }
     },
     {
-      "category": "scholarships",
-      "field": "ta_information_link",
+      "category": "contacts",
+      "field": "ta_information_url",
       "value": "https://www.eecs.mit.edu/academics/graduate-programs/funding/ta-appointments/",
       "confidence": 1.0,
       "source": {
@@ -478,9 +512,9 @@
       }
     },
     {
-      "category": "other",
-      "field": "full_time_ta_ra_course_load",
-      "value": "Students with a full‑time TA or RA may register for two 12‑unit subjects in addition to 12 units of thesis credit",
+      "category": "curriculum",
+      "field": "registration_limit_fulltime_assistantship",
+      "value": "Full-time TA or RA may register for two 12‑unit subjects plus 12 units of thesis credit",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -495,8 +529,8 @@
       }
     },
     {
-      "category": "other",
-      "field": "half_ta_ra_course_load",
+      "category": "curriculum",
+      "field": "registration_limit_half_assistantship",
       "value": "Students holding a half TA or half RA may register for an additional class",
       "confidence": 1.0,
       "source": {
@@ -512,8 +546,8 @@
       }
     },
     {
-      "category": "other",
-      "field": "units_per_term",
+      "category": "curriculum",
+      "field": "term_units_range",
       "value": "Students are registered for 48 to 60 units each term",
       "confidence": 1.0,
       "source": {
@@ -529,9 +563,9 @@
       }
     },
     {
-      "category": "other",
-      "field": "ta_ra_eligibility_semesters",
-      "value": "MEng students are eligible for RA and TA positions only during their first three regular semesters (summers excluded) as graduate students",
+      "category": "scholarships",
+      "field": "assistantship_eligibility_semesters",
+      "value": "MEng students are eligible for RA/TA positions only during their first three regular semesters (excluding summers) as graduate students",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -546,9 +580,9 @@
       }
     },
     {
-      "category": "other",
-      "field": "additional_support_term_eligibility",
-      "value": "Students who have been a graduate TA at least once or have unusual circumstances may request one additional term (fourth term) of support eligibility",
+      "category": "scholarships",
+      "field": "assistantship_extension_policy",
+      "value": "A student who has been a graduate TA at least once or has unusual circumstances may request one additional (fourth) term of support eligibility",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -563,8 +597,8 @@
       }
     },
     {
-      "category": "other",
-      "field": "cost_of_attendance_information_link",
+      "category": "contacts",
+      "field": "cost_of_attendance_url",
       "value": "https://sfs.mit.edu/graduate-students/guide/grad-cost-of-attendance/",
       "confidence": 1.0,
       "source": {
@@ -580,9 +614,9 @@
       }
     },
     {
-      "category": "other",
-      "field": "program_prepares_for_careers",
-      "value": "Advanced applications of artificial intelligence and machine learning, and further graduate study in systems and cognitive neuroscience",
+      "category": "overview",
+      "field": "curriculum_flexibility_description",
+      "value": "The curriculum provides flexibility to accommodate a wide diversity of interests, from biologically‑inspired approaches to artificial intelligence to reverse‑engineering circuits in the brain",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -597,9 +631,9 @@
       }
     },
     {
-      "category": "other",
-      "field": "student_department_membership",
-      "value": "Students are full members of both departments",
+      "category": "career",
+      "field": "career_preparation",
+      "value": "Prepares students for careers in advanced applications of artificial intelligence and machine learning, as well as further graduate study in systems and cognitive neuroscience",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
@@ -614,9 +648,26 @@
       }
     },
     {
-      "category": "other",
-      "field": "program_flexibility_description",
-      "value": "Curriculum provides flexibility to accommodate diverse interests from biologically‑inspired approaches to artificial intelligence to reverse engineering circuits in the brain",
+      "category": "overview",
+      "field": "departmental_membership",
+      "value": "Students in the program are full members of both departments",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      },
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "overview",
+      "field": "program_type",
+      "value": "Joint master’s program",
       "confidence": 1.0,
       "source": {
         "source_type": "program",

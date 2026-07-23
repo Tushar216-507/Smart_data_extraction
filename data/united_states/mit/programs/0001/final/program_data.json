@@ -1,7 +1,7 @@
 {
   "program_id": "0001",
   "program_name": "Academics",
-  "fact_count": 8,
+  "fact_count": 12,
   "facts": [
     {
       "category": "identity",
@@ -59,7 +59,24 @@
     },
     {
       "category": "overview",
-      "field": "focus",
+      "field": "curriculum_type",
+      "value": "Joint curriculum offered by two departments",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Master of Engineering in Computation and Cognition",
+        "chunk_order": 0
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "overview",
+      "field": "focus_areas",
       "value": "Computational and engineering approaches to brain science, cognition, and machine intelligence",
       "confidence": 1.0,
       "metadata": {
@@ -75,9 +92,9 @@
       }
     },
     {
-      "category": "identity",
-      "field": "department",
-      "value": "Students are full members of both departments",
+      "category": "overview",
+      "field": "target_audience",
+      "value": "Students who wish to work towards a master’s degree but do not intend to enroll in a doctoral program in a related field",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -93,8 +110,42 @@
     },
     {
       "category": "overview",
-      "field": "program_flexibility_description",
-      "value": "Curriculum provides flexibility to accommodate diverse interests from biologically‑inspired approaches to artificial intelligence to reverse engineering circuits in the brain",
+      "field": "curriculum_flexibility_description",
+      "value": "The curriculum provides flexibility to accommodate a wide diversity of interests, from biologically‑inspired approaches to artificial intelligence to reverse‑engineering circuits in the brain",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "overview",
+      "field": "departmental_membership",
+      "value": "Students in the program are full members of both departments",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "identity",
+      "field": "programme_type",
+      "value": "Joint master’s program",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -128,7 +179,24 @@
     {
       "category": "identity",
       "field": "degree_type",
-      "value": "Bachelor of Science and Master of Engineering in Computation and Cognition",
+      "value": "Bachelor's degree and Master of Engineering in Computation and Cognition",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "identity",
+      "field": "consecutive_master_available",
+      "value": "Degree can be earned concurrently or sequentially with the undergraduate degree",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",

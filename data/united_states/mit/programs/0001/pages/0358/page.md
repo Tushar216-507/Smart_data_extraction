@@ -1,0 +1,7 @@
+Financial Support Policies
+
+Most EECS graduate students continuing in the SM and PhD programs are supported by RESEARCH ASSISTANTSHIPS or TEACHING ASSISTANTSHIPS. (Newly admitted students are automatically considered for all assistantships and Departmental fellowships, and these students should see the Admissions [FAQ #17](https://www.eecs.mit.edu/academics/graduate-programs/admission-process/graduate-admissions-faqs/#faq-17) concerning financial support for newly admitted students). Assistantships pay full tuition and a monthly stipend for the tenure of the appointment.
+
+Assistantship appointments are made for one term, for the nine month academic year, for a three month summer appointment or for any combination. Renewals are based on the performance and progress of the students as well as the financial capabilities of the faculty member in charge. Students should never assume that their assistantship will continue. Responsibility for securing support after the first year remains with the student.
+
+For more detailed information regarding the cost of attendance, including specific costs for tuition and fees, books and supplies, housing and food as well as transportation, please visit [the SFS website.](https://sfs.mit.edu/graduate-students/guide/grad-cost-of-attendance/)

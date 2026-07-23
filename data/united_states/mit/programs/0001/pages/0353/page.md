@@ -1,0 +1,49 @@
+## Teaching Assistant Information
+
+APPLICATION DEADLINES:
+
+FALL TERM: March 22
+
+SPRING TERM: October 22
+
+PAY:
+
+Teaching Assistants are paid semimonthly – one check mid-month and the other on the last working day of the month. For pay purposes, the Fall term runs from September 1 through January 15; the Spring term runs from January 16 through May 31. You will be paid a monthly stipend for the period of your appointment; this appointment also provides health insurance and a full tuition award. If you experience problems with your pay or your tuition award, check with Lisa Bella in Room 38-490, or at [isabell@mit.edu](mailto:isabell@mit.edu). It is recommended that you sign up for direct deposit, otherwise checks are handed out in Payroll, NE49-3131.
+
+For the Academic Year 2026-27 the stipend rates are as follows: (new rates haven’t been established yet)
+
+MEng/SM: $4369/mo.
+
+PhD: $4695/mo.
+
+I-9 FORM:
+
+The U.S. government requires all graduate students hired for research, teaching, etc., to sign, under penalty of perjury, an “Employment Eligibility Verification” (I-9 Form). You must produce specified documents, which verify your identity and authorization to work and present them at the Atlas Service Center located on the first floor of E17. Your appointment and ability to start employment cannot be completed until the signed I-9 Form and the appropriate documents have been processed at the Atlas Service Center.  You can find more information at <https://hr.mit.edu/i-9>.
+
+INCOME TAX:
+
+Federal Income Tax will be withheld from your pay. If you have not already filled out tax withholding forms, or if you wish to change your withholding forms, please go to the Payroll Office, NE49-3131 or refer to [https://vpf.mit.edu/tax-withholding](https://vpf.mit.edu/tax-withholding ) for payroll forms.
+
+REGISTRATION:
+
+Teaching Assistants are limited to a maximum of 27 units of classroom subjects, 12 units of thesis. First time Teaching Assistants who are satisfying the department teaching requirement will be called Teaching Fellows, they should register for 20 units of credit under 6.9900[6.981] Teaching Electrical Engineering and Computer Science.
+
+Teaching Assistants who have previously been TAs should not register for 6.9900 and will no longer be eligible for units and receive pay at the same time for their services.
+
+Teaching Assistants MUST NOT be registered for the subject to which they are assigned as a TA.  Please check with your program administrator to see what other registration restrictions apply.
+
+ASSIGNMENTS:
+
+Most teaching assignments for the Fall term are made in April: most teaching assignments for the Spring are made in November. Teaching Assistants assigned to subjects giving final exams should expect to help proctor and grade these exams.
+
+OFFICE SPACE:
+
+Office space is very limited.  You may inquire about space by contacting Lisa Bella at [isabell@mit.edu](mailto:isabell@mit.edu) or visiting her in room 38-490.
+
+SAFETY:
+
+As a condition of employment, any TA who is assigned to a laboratory subject, must complete an online electrical safety-training course at the beginning of term. You will be contacted directly regarding this online training.
+
+General Information about the responsibilities and privileges of the Graduate Student Staff may be found in the Graduate School Manual. For specific information about your role as a Teaching Assistant in the Department, you may consult your immediate supervisor, or Lisa Bella, Assistant to the Education Officers, ([isabell@mit.edu](mailto:isabell@mit.edu), room 38-475),  Meredith Bittrich in the Graduate Office ([bittrich@mit.edu](mailto:jfischer@mit.edu), room 38-444), Dr. Katrina LaCurts in the Undergraduate Office ([lacurts@mit.edu](mailto:lacurts@mit.edu), room 45-219) or the current departmental Education Officers, Professors Rob Miller, Jing Kong, Guy Bresler, and Senior Lecturer Silvina Hanono Wachman.
+
+\*For questions regarding TA appointments, please contact Lisa Bella at <isabell@mit.edu>, 617-253-4611, or visit in room 38-490.

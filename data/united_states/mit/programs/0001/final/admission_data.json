@@ -1,29 +1,12 @@
 {
   "program_id": "0001",
   "program_name": "Academics",
-  "fact_count": 11,
+  "fact_count": 10,
   "facts": [
     {
       "category": "admission",
-      "field": "program_open_to",
-      "value": "Computation and Cognition (6-9) majors at MIT",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0002",
-        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
-        "chunk_order": 1
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0002",
-        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
-        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "program_not_for_doctoral_intent",
-      "value": "Best suited for students who wish to work towards a master’s degree but do not intend to enroll in a doctoral program in a related field",
+      "field": "formal_requirements",
+      "value": "Only open to Computation and Cognition (6-9) majors at MIT",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -91,7 +74,7 @@
     {
       "category": "admission",
       "field": "research_experience_requirement",
-      "value": "One UROP or SuperUROP",
+      "value": "At least one UROP or SuperUROP",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -107,8 +90,25 @@
     },
     {
       "category": "admission",
-      "field": "thesis_supervisor_commitment_requirement",
-      "value": "A commitment from a MIT faculty member to supervise thesis research (non‑MIT faculty may serve as co‑advisors with approval, but a MIT faculty advisor is required; purely engineering thesis projects are not accepted)",
+      "field": "thesis_supervisor_commitment",
+      "value": "Commitment from a faculty member to supervise thesis research (MIT faculty required; non‑MIT faculty may serve as co‑advisors with approval)",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "thesis_project_type_restriction",
+      "value": "Purely engineering thesis projects will not be accepted",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -125,7 +125,7 @@
     {
       "category": "admission",
       "field": "application_timing",
-      "value": "Students in junior year or first semester of senior year should submit an application in November or April",
+      "value": "Students in their junior year or first semester of senior year should submit an application in November or April",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -158,25 +158,8 @@
     },
     {
       "category": "admission",
-      "field": "decision_timing",
-      "value": "Decisions typically sent out 2-3 weeks after the grade deadline",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0002",
-        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
-        "chunk_order": 1
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0002",
-        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
-        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "application_website",
-      "value": "https://bcsis.mit.edu/meng_application.cgi",
+      "field": "decision_timeline",
+      "value": "Decisions are typically sent out 2-3 weeks after the grade deadline",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",

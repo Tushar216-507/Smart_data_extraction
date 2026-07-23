@@ -1,10 +1,10 @@
 {
     "version": 1,
-    "created_at": "2026-07-23T12:46:25.557767+05:30",
+    "created_at": "2026-07-23T16:13:39.143936+05:30",
     "max_depth": 2,
     "statistics": {
         "pending": 0,
-        "completed": 21,
+        "completed": 19,
         "failed": 1
     },
     "queue": [
@@ -20,8 +20,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": true,
-            "page_folder": "0326",
-            "downloaded_at": "2026-07-23T12:46:28.899619+05:30"
+            "page_folder": "0348",
+            "downloaded_at": "2026-07-23T16:13:42.185043+05:30"
         },
         {
             "id": null,
@@ -35,8 +35,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": true,
-            "page_folder": "0329",
-            "downloaded_at": "2026-07-23T12:46:39.140006+05:30"
+            "page_folder": "0351",
+            "downloaded_at": "2026-07-23T16:13:51.184558+05:30"
         },
         {
             "id": null,
@@ -50,8 +50,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": true,
-            "page_folder": "0332",
-            "downloaded_at": "2026-07-23T12:48:15.816168+05:30"
+            "page_folder": "0354",
+            "downloaded_at": "2026-07-23T16:15:28.905284+05:30"
         },
         {
             "id": null,
@@ -67,7 +67,7 @@
             "children_discovered": false,
             "page_folder": null,
             "downloaded_at": null,
-            "error": "HTTPSConnectionPool(host='sfs.mit.edu', port=443): Max retries exceeded with url: /graduate-students/guide/grad-cost-of-attendance (Caused by ConnectTimeoutError(<HTTPSConnection(host='sfs.mit.edu', port=443) at 0x21d6483bed0>, 'Connection to sfs.mit.edu timed out. (connect timeout=30)'))"
+            "error": "HTTPSConnectionPool(host='sfs.mit.edu', port=443): Max retries exceeded with url: /graduate-students/guide/grad-cost-of-attendance (Caused by ConnectTimeoutError(<HTTPSConnection(host='sfs.mit.edu', port=443) at 0x2335c859090>, 'Connection to sfs.mit.edu timed out. (connect timeout=30)'))"
         },
         {
             "id": null,
@@ -81,8 +81,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": false,
-            "page_folder": "0340",
-            "downloaded_at": "2026-07-23T12:48:41.292124+05:30"
+            "page_folder": "0360",
+            "downloaded_at": "2026-07-23T16:15:41.510294+05:30"
         },
         {
             "id": null,
@@ -96,8 +96,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": false,
-            "page_folder": "0344",
-            "downloaded_at": "2026-07-23T12:48:48.113211+05:30"
+            "page_folder": "0364",
+            "downloaded_at": "2026-07-23T16:15:48.075390+05:30"
         },
         {
             "id": null,
@@ -111,8 +111,8 @@
             "status": "completed",
             "parent": "program",
             "children_discovered": false,
-            "page_folder": "0331",
-            "downloaded_at": "2026-07-23T12:48:15.015115+05:30"
+            "page_folder": "0353",
+            "downloaded_at": "2026-07-23T16:15:28.093568+05:30"
         },
         {
             "id": null,
@@ -124,10 +124,10 @@
             "depth": 2,
             "expand": true,
             "status": "completed",
-            "parent": "0326",
+            "parent": "0348",
             "children_discovered": false,
-            "page_folder": "0327",
-            "downloaded_at": "2026-07-23T12:46:32.906079+05:30"
+            "page_folder": "0349",
+            "downloaded_at": "2026-07-23T16:13:45.209400+05:30"
         },
         {
             "id": null,
@@ -139,10 +139,10 @@
             "depth": 2,
             "expand": true,
             "status": "completed",
-            "parent": "0326",
+            "parent": "0348",
             "children_discovered": false,
-            "page_folder": "0328",
-            "downloaded_at": "2026-07-23T12:46:36.050653+05:30"
+            "page_folder": "0350",
+            "downloaded_at": "2026-07-23T16:13:48.142114+05:30"
         },
         {
             "id": null,
@@ -154,10 +154,10 @@
             "depth": 2,
             "expand": true,
             "status": "completed",
-            "parent": "0326",
+            "parent": "0348",
             "children_discovered": false,
-            "page_folder": "0337",
-            "downloaded_at": "2026-07-23T12:48:35.578003+05:30"
+            "page_folder": "0359",
+            "downloaded_at": "2026-07-23T16:15:38.454247+05:30"
         },
         {
             "id": null,
@@ -169,10 +169,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0326",
+            "parent": "0348",
             "children_discovered": false,
-            "page_folder": "0345",
-            "downloaded_at": "2026-07-23T12:48:51.256974+05:30"
+            "page_folder": "0365",
+            "downloaded_at": "2026-07-23T16:15:51.103671+05:30"
         },
         {
             "id": null,
@@ -184,10 +184,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0326",
+            "parent": "0348",
             "children_discovered": false,
-            "page_folder": "0346",
-            "downloaded_at": "2026-07-23T12:48:54.393835+05:30"
+            "page_folder": "0366",
+            "downloaded_at": "2026-07-23T16:15:54.148616+05:30"
         },
         {
             "id": null,
@@ -199,10 +199,10 @@
             "depth": 2,
             "expand": true,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0333",
-            "downloaded_at": "2026-07-23T12:48:16.963877+05:30"
+            "page_folder": "0355",
+            "downloaded_at": "2026-07-23T16:15:29.936909+05:30"
         },
         {
             "id": null,
@@ -214,10 +214,10 @@
             "depth": 2,
             "expand": true,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0334",
-            "downloaded_at": "2026-07-23T12:48:18.011256+05:30"
+            "page_folder": "0356",
+            "downloaded_at": "2026-07-23T16:15:30.913342+05:30"
         },
         {
             "id": null,
@@ -229,10 +229,10 @@
             "depth": 2,
             "expand": true,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0335",
-            "downloaded_at": "2026-07-23T12:48:19.135638+05:30"
+            "page_folder": "0357",
+            "downloaded_at": "2026-07-23T16:15:31.986751+05:30"
         },
         {
             "id": null,
@@ -244,40 +244,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0336",
-            "downloaded_at": "2026-07-23T12:48:20.229367+05:30"
-        },
-        {
-            "id": null,
-            "url": "https://www.eecs.mit.edu/about/departmental-history",
-            "title": "Departmental History",
-            "category": "department",
-            "type": "page",
-            "priority": 80,
-            "depth": 2,
-            "expand": true,
-            "status": "completed",
-            "parent": "0332",
-            "children_discovered": false,
-            "page_folder": "0338",
-            "downloaded_at": "2026-07-23T12:48:36.766427+05:30"
-        },
-        {
-            "id": null,
-            "url": "https://www.eecs.mit.edu/about/departmental-organization",
-            "title": "Departmental Organization",
-            "category": "department",
-            "type": "page",
-            "priority": 80,
-            "depth": 2,
-            "expand": true,
-            "status": "completed",
-            "parent": "0332",
-            "children_discovered": false,
-            "page_folder": "0339",
-            "downloaded_at": "2026-07-23T12:48:38.172439+05:30"
+            "page_folder": "0358",
+            "downloaded_at": "2026-07-23T16:15:33.054311+05:30"
         },
         {
             "id": null,
@@ -289,10 +259,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0341",
-            "downloaded_at": "2026-07-23T12:48:42.612869+05:30"
+            "page_folder": "0361",
+            "downloaded_at": "2026-07-23T16:15:42.569777+05:30"
         },
         {
             "id": null,
@@ -304,10 +274,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0342",
-            "downloaded_at": "2026-07-23T12:48:43.666416+05:30"
+            "page_folder": "0362",
+            "downloaded_at": "2026-07-23T16:15:43.578369+05:30"
         },
         {
             "id": null,
@@ -319,10 +289,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0343",
-            "downloaded_at": "2026-07-23T12:48:44.765236+05:30"
+            "page_folder": "0363",
+            "downloaded_at": "2026-07-23T16:15:44.549721+05:30"
         },
         {
             "id": null,
@@ -334,10 +304,10 @@
             "depth": 2,
             "expand": false,
             "status": "completed",
-            "parent": "0332",
+            "parent": "0354",
             "children_discovered": false,
-            "page_folder": "0347",
-            "downloaded_at": "2026-07-23T12:48:55.744597+05:30"
+            "page_folder": "0367",
+            "downloaded_at": "2026-07-23T16:15:55.181341+05:30"
         }
     ]
 }

@@ -1,46 +1,12 @@
 {
   "program_id": "0001",
   "program_name": "Academics",
-  "fact_count": 5,
+  "fact_count": 6,
   "facts": [
     {
       "category": "curriculum",
-      "field": "units_per_term",
-      "value": "Students are registered for 48 to 60 units each term",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0002",
-        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
-        "chunk_order": 1
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0002",
-        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
-        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
-      }
-    },
-    {
-      "category": "curriculum",
-      "field": "degree_path",
-      "value": "Students may earn the bachelor's and master's degree concurrently or sequentially",
-      "confidence": 1.0,
-      "metadata": {
-        "chunk_id": "program_0002",
-        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
-        "chunk_order": 1
-      },
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0002",
-        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
-        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
-      }
-    },
-    {
-      "category": "curriculum",
       "field": "additional_units_required",
-      "value": "90 units including 24 units of thesis work",
+      "value": "90 additional units, including 24 units of thesis work",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -56,8 +22,8 @@
     },
     {
       "category": "curriculum",
-      "field": "semesters_required",
-      "value": "Ten or eleven semesters (compresses a four-year bachelor's and a two-year master's)",
+      "field": "semester_count",
+      "value": "Ten or eleven semesters to complete the combined bachelor's and master's coursework",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
@@ -73,8 +39,59 @@
     },
     {
       "category": "curriculum",
-      "field": "subject_use_restriction",
-      "value": "Subjects cannot be used to satisfy both undergraduate and graduate requirements, including second majors, minors, and minimum GIR units",
+      "field": "subject_credit_policy",
+      "value": "Subjects cannot be used to satisfy both undergraduate and graduate requirements, including second majors, minors, and GIRs",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "registration_limit_fulltime_assistantship",
+      "value": "Full-time TA or RA may register for two 12‑unit subjects plus 12 units of thesis credit",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "registration_limit_half_assistantship",
+      "value": "Students holding a half TA or half RA may register for an additional class",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "term_units_range",
+      "value": "Students are registered for 48 to 60 units each term",
       "confidence": 1.0,
       "metadata": {
         "chunk_id": "program_0002",
