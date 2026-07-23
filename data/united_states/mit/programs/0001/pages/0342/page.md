@@ -1,0 +1,22 @@
+### MIT’s largest academic department, EECS offers a vibrant, exciting workplace in which to build your career. Browse our current openings below.
+
+### Faculty Positions
+
+The Massachusetts Institute of Technology (MIT) Department of Electrical Engineering and Computer Science (EECS) in Cambridge, Massachusetts seeks candidates for faculty positions starting July 1, 2026, or on a mutually agreed date thereafter. We welcome outstanding applicants with research and teaching interests in any area of electrical engineering, computer science, and artificial intelligence and decision making. EECS believes that the broad range of intellectual, cultural and social interests and perspectives of our faculty, staff, and students is vitally important to the distinction and excellence of our academic and research programs. The Department offers supportive mentorship to junior faculty and a strong commitment to an inclusive, welcoming culture.
+
+Appointment will be at the assistant or untenured associate professor level. In special cases, a senior faculty appointment may be possible, commensurate with experience. Faculty duties include teaching at the undergraduate and graduate levels, research, and supervision of student research. Candidates should hold a Ph.D. in electrical engineering and computer science or a related field by the start of employment. The pay range for a 9-month academic appointment at the entry-level Assistant Professor rank (excluding summer salary): $140,000 – $150,000. The pay offered to a selected candidate during hiring will be based on factors such as (but not limited to) the scope and responsibilities of the position, the candidate’s work experience and education/training, internal peer equity, and applicable legal requirements. This pay range represents base pay only and does not include any other benefits or compensation. Employment is contingent upon the completion of a satisfactory background check, including possible verification of any finding of misconduct (or pending investigation) from prior employers.
+
+Candidates must register with the EECS search website at <https://faculty-searches.mit.edu/eecs/register.tcl>, and must submit application materials electronically to this website. Applications must include a cover letter, curriculum vitae, a research statement (2-4 pages) and a teaching statement (1-2 pages). Each application should include the names and addresses of three or more individuals who will provide letters of recommendation. Letter writers should submit their letters directly to MIT, preferably on the website or by mailing to the address below. Complete applications should be received by December 1, 2025. Applications will be considered complete only when both the applicant materials and at least three letters of recommendation are received.
+
+It is the responsibility of the candidate to arrange reference letters to be uploaded at <https://faculty-searches.mit.edu/eecs/letters> by December 1, 2025.
+
+Send all materials not submitted on the website to:
+
+Professor Asu Ozdaglar
+Department Head, Electrical Engineering and Computer Science
+Massachusetts Institute of Technology
+Room 38-403
+77 Massachusetts Avenue
+Cambridge, MA 02139
+
+MIT is an equal employment opportunity employer.   We value diversity and strongly encourage applications from individuals from all identities and background.   All qualified applicants will receive equitable consideration for employment based on their experience and qualifications and will not be discriminated against on the basis of race, color, sex, sexual orientation, gender identity, pregnancy, religion, disability, age, genetic information, veteran status, ancestry, or national or ethnic origin.   See MIT’s full policy on Nondiscrimination (<https://policies.mit.edu/policies-procedures/90-relations-and-responsibilities-within-mit-community/93-nondiscrimination>).   Know your rights: <https://www.eeoc.gov/sites/default/files/2022-10/EEOC_KnowYourRights_screen_reader_10_20.pdf>

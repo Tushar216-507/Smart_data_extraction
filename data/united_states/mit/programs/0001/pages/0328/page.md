@@ -1,0 +1,8 @@
+# How to Apply to MCN
+
+MCN students are first admitted to either the [Biology](https://biology.mit.edu/graduate/) or [Brain and Cognitive Sciences](/node/20) (BCS) graduate programs and can join the MCN program anytime during their first year. The choice of which department to enter from is up to the student, and students may apply to both programs. The Biology or BCS admissions committees are responsible for admission decisions.
+
+- [Application process for the BCS graduate program](/node/6033)
+- [Application process for the Biology graduate program](https://biology.mit.edu/graduate/prospective-students/application-process/)
+
+Qualifying and selected students will be invited to interview days that are hosted by the Biology or BCS departments. The [Biology program](https://biology.mit.edu/graduate/) offers broad training in modern biology, and students can use their elective course selections to focus on neuroscience coursework. The [BCS program](/node/20) is focused more directly on brain science, and includes students interested in brain function spanning from the molecular level to cognitive and computational approaches. Students should examine both programs carefully to determine which department best matches their interests relating to coursework and program design. The number of students admitted to each program varies from year to year in each department, but typically range from 25-40 in Biology and 10-18 in BCS.

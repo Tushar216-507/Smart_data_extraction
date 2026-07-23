@@ -308,6 +308,21 @@ def discover_programs(base_url):
         evaluator.evaluate(c)
 
     program_candidates.sort(key=lambda x: x.score, reverse=True)
+    print()
+    print("\nTop 10 Ranked Program Candidates")
+    print("-" * 120)
+
+    for i, c in enumerate(program_candidates[:10], start=1):
+        print(
+            f"{i:2d}. "
+            f"Score={c.score:4} | "
+            f"Type={c.page_type:18} | "
+            f"Title={c.metadata.get('title_en', '')[:60]} | "
+            f"H1={c.metadata.get('h1_en', '')[:60]}"
+        )
+        print(f"    URL: {c.url}")
+        print(f"    Reasons: {c.reasons}")
+        print()
 
     print(f"\nDiscovery complete. Found {len(program_candidates)} working program URLs.")
     

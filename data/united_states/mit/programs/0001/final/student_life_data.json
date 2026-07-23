@@ -1,23 +1,74 @@
 {
   "program_id": "0001",
-  "program_name": "Degree programs",
-  "fact_count": 1,
+  "program_name": "Academics",
+  "fact_count": 4,
   "facts": [
     {
       "category": "student_life",
-      "field": "grad_blog_reference",
-      "value": "First‑hand accounts of MIT graduate students from a variety of programs can be read on the Grad Blog.",
+      "field": "full_time_ta_ra_course_load",
+      "value": "Students with a full‑time TA or RA may register for two 12‑unit subjects in addition to 12 units of thesis credit",
       "confidence": 1.0,
       "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
       },
       "source": {
         "source_type": "program",
-        "source_id": "program_0001",
-        "title": "Degree programs | Office of Graduate Education",
-        "url": "https://oge.mit.edu/graduate-admissions/programs"
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "half_ta_ra_course_load",
+      "value": "Students holding a half TA or half RA may register for an additional class",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "ta_ra_eligibility_semesters",
+      "value": "MEng students are eligible for RA and TA positions only during their first three regular semesters (summers excluded) as graduate students",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "additional_support_term_eligibility",
+      "value": "Students who have been a graduate TA at least once or have unusual circumstances may request one additional term (fourth term) of support eligibility",
+      "confidence": 1.0,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "This program is only open to Computation and Cognition (6-9) majors at MIT and is best suited for students who wish to work towards a master’s degree but do not intend enroll in a doctoral program in a related field.",
+        "chunk_order": 1
+      },
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0002",
+        "title": "Master of Engineering in Computation and Cognition | Brain and Cognitive Sciences",
+        "url": "http://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition/master-engineering-computation-and-cognition"
       }
     }
   ]
