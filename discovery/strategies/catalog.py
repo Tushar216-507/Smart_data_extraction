@@ -22,10 +22,16 @@ class CatalogStrategy(DiscoveryStrategy):
         "courses",
         "catalog",
         "catalogue",
-        "study",
-        "studies",
         "bachelor",
+        "bachelors",
         "master",
+        "masters",
+        "undergraduate",
+        "postgraduate",
+        "graduate",
+        "curriculum",
+        "major",
+        "minor",
     ]
 
     def discover(
@@ -39,6 +45,28 @@ class CatalogStrategy(DiscoveryStrategy):
         # Inspect URLs discovered by earlier strategies
         for candidate in context.candidate_urls.values():
 
+            print(f"CatalogStrategy -> {candidate.url}")
+
+            SKIP_SECTIONS = (
+                "/news",
+                "/events",
+                "/about",
+                "/staff",
+                "/admin",
+                "/admin-services",
+                "/ict",
+                "/library",
+                "/governance",
+                "/benefits",
+                "/pay-and-pensions",
+                "/contact",
+                "/jobs",
+                "/careers",
+            )
+
+            if any(section in candidate.url.lower() for section in SKIP_SECTIONS):
+                continue
+
             soup = self._download(context, candidate.url)
 
             if soup is None:
@@ -49,6 +77,9 @@ class CatalogStrategy(DiscoveryStrategy):
                 href = a["href"].strip()
 
                 if not href:
+                    continue
+
+                if href.startswith(("mailto:", "tel:", "javascript:")):
                     continue
 
                 url = urljoin(candidate.url, href)
@@ -99,7 +130,11 @@ class CatalogStrategy(DiscoveryStrategy):
 
     def _looks_like_catalog(self, url):
 
-        path = urlparse(url).path.lower()
+        try:
+            path = urlparse(url).path.lower()
+        except ValueError:
+            print(f"\nInvalid URL: {url}\n")
+            raise
 
         return any(
             keyword in path

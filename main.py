@@ -268,15 +268,27 @@ def discover_programs(base_url):
 
     print("\nFetching metadata...")
 
-    for index, candidate in enumerate(working_candidates, start=1):
+    METADATA_WORKERS = 25
 
-        updated_candidate = fetch_page_metadata(candidate)
+    with ThreadPoolExecutor(max_workers=METADATA_WORKERS) as executor:
 
-        if updated_candidate:
-            program_candidates.append(updated_candidate)
+        futures = {
+            executor.submit(fetch_page_metadata, candidate): candidate
+            for candidate in working_candidates
+        }
 
-        if index % 25 == 0:
-            print(f"  fetched {index}/{len(working_candidates)}")
+        for index, future in enumerate(as_completed(futures), start=1):
+
+            updated_candidate = future.result()
+
+            if updated_candidate:
+                program_candidates.append(updated_candidate)
+
+            if index % 25 == 0:
+                print(f"  fetched {index}/{len(working_candidates)}")
+
+    # Restore the original URL ranking because threads finish out of order.
+    program_candidates.sort(key=lambda c: c.score, reverse=True)
 
     print("\nTranslating metadata & Classifying intents...")
 

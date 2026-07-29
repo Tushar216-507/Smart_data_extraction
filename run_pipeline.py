@@ -18,6 +18,7 @@ in pipelines/university_pipeline.py (UniversityPipeline).
 import sys
 import argparse
 from urllib.parse import urlparse
+import traceback
 
 from pipelines.university_pipeline import UniversityPipeline
 
@@ -166,6 +167,7 @@ def main():
 
     except Exception as error:
         print(f"\nPipeline failed: {type(error).__name__}: {error}")
+        traceback.print_exc()
         sys.exit(1)
 
 
