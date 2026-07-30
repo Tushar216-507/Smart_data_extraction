@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from discovery.context import DiscoveryContext
 from discovery.models import CandidateURL
 from discovery.strategies.base import DiscoveryStrategy
+print(">>> USING NavigationStrategy:", __file__)
 
 
 class NavigationStrategy(DiscoveryStrategy):
@@ -17,27 +18,63 @@ class NavigationStrategy(DiscoveryStrategy):
     """
 
     NAVIGATION_KEYWORDS = [
+        # Study
         "study",
         "studies",
-        "academics",
+        "education",
+        "learn",
+
+        # Academics
         "academic",
+        "academics",
+
+        # Programmes
         "program",
         "programs",
+        "programme",
+        "programmes",
         "degree",
         "degrees",
         "course",
         "courses",
+        "curriculum",
+
+        # Student journey
         "admission",
         "admissions",
-        "education",
+        "apply",
+        "application",
+        "prospective",
+        "future students",
+
+        # Organization
+        "school",
         "schools",
-        "faculties",
         "faculty",
-        "departments",
+        "faculties",
         "department",
-        "graduate",
+        "departments",
+        "college",
+        "institute",
+
+        # Levels
         "undergraduate",
-        "research",
+        "graduate",
+        "postgraduate",
+        "master",
+        "masters",
+        "bachelor",
+        "bachelors",
+        "phd",
+        "doctorate",
+
+        # Common university wording
+        "disciplines",
+        "fields of study",
+        "subject areas",
+        "find your programme",
+        "find your program",
+        "degree finder",
     ]
 
     def discover(
@@ -50,13 +87,35 @@ class NavigationStrategy(DiscoveryStrategy):
         if soup is None:
             return []
 
+        print("\n===== Navigation Debug =====")
+        print("Title:", soup.title)
+        print("Total links:", len(soup.find_all("a")))
+        print("Total href links:", len(soup.find_all("a", href=True)))
+        print("Total nav tags:", len(soup.find_all("nav")))
+        print("Total header tags:", len(soup.find_all("header")))
+        print("Total footer tags:", len(soup.find_all("footer")))
+        print("============================\n")
         discovered = []
         seen = set()
 
         selectors = [
+            # Traditional navigation
             "nav",
             "header",
             "footer",
+
+            # Modern university layouts
+            "main",
+            "section",
+            "aside",
+
+            # Common navigation/menu containers
+            '[role="navigation"]',
+            '[class*="nav"]',
+            '[class*="menu"]',
+            '[class*="mega"]',
+            '[class*="study"]',
+            '[class*="academ"]',
         ]
 
         for selector in selectors:
@@ -116,8 +175,14 @@ class NavigationStrategy(DiscoveryStrategy):
                 timeout=15,
                 headers={
                     "User-Agent":
-                    "Mozilla/5.0 (DiscoveryEngine)"
+                    "Mozilla/5.0"
                 },
+            )
+
+            print(
+                "[NavigationStrategy]",
+                response.status_code,
+                response.headers.get("Content-Type")
             )
 
             if response.status_code != 200:
@@ -128,7 +193,8 @@ class NavigationStrategy(DiscoveryStrategy):
                 "html.parser",
             )
 
-        except Exception:
+        except Exception as e:
+            print(f"[NavigationStrategy] Download failed: {e}")
             return None
 
     def _is_relevant(

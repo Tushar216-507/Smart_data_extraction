@@ -152,15 +152,38 @@ class CrawlerStrategy(DiscoveryStrategy):
     ]
 
     SKIP_KEYWORDS = [
+        # News & events
         "news",
         "event",
+        "events",
         "calendar",
+        "press",
+        "media",
+
+        # General pages
         "contact",
+        "about",
+        "history",
         "privacy",
         "terms",
+        "cookies",
+
+        # Authentication
         "login",
         "signin",
         "register",
+
+        # Careers
+        "jobs",
+        "careers",
+        "vacancies",
+
+        # Fundraising
+        "giving",
+        "donate",
+        "alumni",
+
+        # Social
         "facebook",
         "twitter",
         "linkedin",
@@ -212,24 +235,56 @@ class CrawlerStrategy(DiscoveryStrategy):
         follow_keywords = [
             "academics",
             "academic",
+
             "study",
             "studies",
+
             "program",
+            "programs",
             "programme",
+            "programmes",
+
             "degree",
+            "degrees",
+
             "course",
+            "courses",
+
             "graduate",
             "undergraduate",
+            "postgraduate",
+
             "master",
+            "masters",
+
             "bachelor",
+            "bachelors",
+
             "phd",
             "doctorate",
+
             "school",
+            "schools",
+
             "faculty",
+            "faculties",
+
             "department",
+            "departments",
+
             "college",
+            "institute",
+
+            "curriculum",
+
             "field",
+            "fields",
+
             "discipline",
+            "disciplines",
+
+            "subject",
+            "subjects",
         ]
 
         return any(keyword in content for keyword in follow_keywords)

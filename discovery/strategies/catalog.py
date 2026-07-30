@@ -82,13 +82,18 @@ class CatalogStrategy(DiscoveryStrategy):
                 if href.startswith(("mailto:", "tel:", "javascript:")):
                     continue
 
+                anchor_text = a.get_text(" ", strip=True).lower()
+
+                if len(anchor_text) < 3:
+                    continue
+
                 url = urljoin(candidate.url, href)
                 url = self._normalize(url)
 
                 if url in seen:
                     continue
 
-                if not self._looks_like_catalog(url):
+                if not self._looks_like_catalog(url, anchor_text):
                     continue
 
                 seen.add(url)
@@ -128,7 +133,7 @@ class CatalogStrategy(DiscoveryStrategy):
         except Exception:
             return None
 
-    def _looks_like_catalog(self, url):
+    def _looks_like_catalog(self, url,anchor_text=""):
 
         try:
             path = urlparse(url).path.lower()
@@ -136,8 +141,10 @@ class CatalogStrategy(DiscoveryStrategy):
             print(f"\nInvalid URL: {url}\n")
             raise
 
+        value = f"{path} {anchor_text.lower()}"
+
         return any(
-            keyword in path
+            keyword in value
             for keyword in self.CATALOG_KEYWORDS
         )
 

@@ -432,17 +432,7 @@ class EvidenceExpander:
 
                 "depth": parent_item["depth"] + 1,
 
-                "expand": (
-                    link["category"]
-                    in
-                    (
-                        "admission",
-                        "fees",
-                        "department",
-                        "curriculum",
-                        "international"
-                    )
-                ),
+                "expand": link["type"] != "pdf",
 
                 "status": "pending",
 

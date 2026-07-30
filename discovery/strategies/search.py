@@ -15,13 +15,25 @@ class SearchStrategy(DiscoveryStrategy):
 
     SEARCH_TERMS = [
         "program",
+        "programme",
         "degree",
         "course",
+        "bachelor",
+        "master",
+        "graduate",
+        "undergraduate",
+        "study",
+        "study programs",
+        "degree programs",
     ]
 
     SEARCH_PATHS = [
         "/search",
         "/search/",
+        "/find",
+        "/finder",
+        "/program-search",
+        "/programme-search",
     ]
 
     def discover(

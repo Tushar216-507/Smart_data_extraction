@@ -46,6 +46,11 @@ from knowledge.evidence_pack_builder import EvidencePackBuilder
 from knowledge.extractors.program_extractor import (
     ProgramExtractor as KnowledgeExtractor,
 )
+
+from knowledge.pdf.azure_document_extractor import AzureDocumentExtractor
+from knowledge.pdf.pdf_evidence_builder import PDFEvidenceBuilder
+from knowledge.pdf.pdf_fact_extractor import PDFFactExtractor
+
 from knowledge.normalization.normalization_chunker import (
     NormalizationChunker,
 )
@@ -372,7 +377,7 @@ class UniversityPipeline:
         )
 
         context.raw_facts = extractor.extract(
-            evidence_pack.program,
+            evidence_pack,
         )
         raw_facts = context.raw_facts
 
@@ -387,6 +392,18 @@ class UniversityPipeline:
         )
 
         print(f"  ✓ {len(raw_facts.facts)} raw facts extracted")
+
+        # ----------------------------------------------------------
+        # PDF Fact Extraction
+        # ----------------------------------------------------------
+
+        pdf_facts = self._run_pdf_pipeline(
+            evidence_pack=evidence_pack,
+            context=context,
+            program_id=program_id,
+        )
+
+        raw_facts.facts.extend(pdf_facts)
 
         # Stage 5: Semantic Normalization
         self._print_stage(5, total_stages, self.STAGES[4])
@@ -446,6 +463,84 @@ class UniversityPipeline:
         written = len(result.get("output_files", {}))
 
         print(f"  ✓ {written} output files written")
+
+    def _run_pdf_pipeline(
+        self,
+        evidence_pack,
+        context: PipelineContext,
+        program_id: str,
+    ) -> list:
+        """
+        Run the complete PDF extraction pipeline and return extracted facts.
+        """
+
+        pdf_facts = []
+
+        azure_extractor = AzureDocumentExtractor()
+        evidence_builder = PDFEvidenceBuilder()
+
+        fact_extractor = PDFFactExtractor(
+            client=LLMClient(
+                provider=context.llm_provider,
+                usage_tracker=context.usage_tracker,
+                stage="pdf_extraction",
+                program_id=program_id,
+            )
+        )
+
+        for pdf in evidence_pack.pdfs:
+            print(f"    Processing PDF: {pdf.title}")
+
+            try:
+
+                pdf_root = (
+                    context.workspace.program_root(program_id)
+                    / "pdf"
+                )
+
+                from pathlib import Path
+
+                document_path = Path(pdf.pdf_path)
+                document_id = document_path.stem
+
+                document_folder = pdf_root / document_id
+
+                azure_result = azure_extractor.extract(
+                    pdf_path=document_path,
+                    output_dir=document_folder,
+                    document_id=document_id,
+                    source_url=pdf.metadata.get("url"),
+                    source_title=pdf.title,
+                )
+
+                evidence_result = evidence_builder.build(
+                    document_data_path=document_folder / "extracted" / "document_data.json",
+                    output_dir=document_folder / "evidence",
+                    program_id=program_id,
+                    document_id=document_id,
+                    source_pdf_path=document_path,
+                    source_url=pdf.metadata.get("url"),
+                    program_name=context.program.display_name,
+                )
+
+                fact_result = fact_extractor.extract(
+                    evidence_path=document_folder / "evidence" / "pdf_evidence_chunks.json",
+                    output_dir=document_folder / "facts",
+                    program_id=program_id,
+                    document_id=document_id,
+                    university_name=context.university.name,
+                    program_name=context.program.display_name,
+                )
+
+                pdf_facts.extend(
+                    fact_result.get("facts", [])
+                )
+
+            except Exception as exc:
+                print(f"      ✗ PDF processing failed: {pdf.title}")
+                print(f"        {exc}")
+                continue
+        return pdf_facts
 
     # ==============================================================
     # Stage 1: Programme Discovery

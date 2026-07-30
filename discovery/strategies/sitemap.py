@@ -47,6 +47,31 @@ class SitemapStrategy(DiscoveryStrategy):
 
             for page in pages:
 
+                page_lower = page.lower()
+
+                # Ignore obviously irrelevant sitemap entries
+                if any(skip in page_lower for skip in (
+                    "/news",
+                    "/events",
+                    "/event",
+                    "/blog",
+                    "/press",
+                    "/media",
+                    "/library",
+                    "/contact",
+                    "/privacy",
+                    "/terms",
+                    "/login",
+                    "/jobs",
+                    "/careers",
+                    "/staff",
+                    "/about",
+                    "/alumni",
+                    "/giving",
+                    "/donate",
+                )):
+                    continue
+
                 candidates.append(
                     CandidateURL(
                         url=page,

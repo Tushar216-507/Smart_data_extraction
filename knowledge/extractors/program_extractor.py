@@ -1,7 +1,10 @@
 import json
 from typing import Any
 
-from knowledge.models import ProgramEvidence
+from knowledge.models import (
+    ProgramEvidence,
+    EvidencePack,
+)
 from knowledge.facts import (
     FactCollection,
     ExtractedFact,
@@ -92,21 +95,48 @@ IMPORTANT
 
     def extract(
         self,
-        program: ProgramEvidence,
+        pack: EvidencePack,
     ) -> FactCollection:
 
-        chunks = self.chunker.chunk(
-            content=program.markdown,
-            source_type="program",
+        chunks = []
+
+        # Main programme page
+        chunks.extend(
+            self.chunker.chunk(
+                content=pack.program.markdown,
+                source_type="program",
+            )
         )
+
+        # Supporting HTML pages
+        for page in pack.pages:
+            if page.markdown.strip():
+                chunks.extend(
+                    self.chunker.chunk(
+                        content=page.markdown,
+                        source_type="page",
+                    )
+                )
 
         collection = FactCollection()
 
         seen_facts: set[str] = set()
 
+        program_chunks = sum(1 for c in chunks if c.source_type == "program")
+        page_chunks = sum(1 for c in chunks if c.source_type == "page")
+        pdf_chunks = sum(1 for c in chunks if c.source_type == "pdf")
+
         print(
-            f"\nExtracting program data from "
-            f"{len(chunks)} evidence chunks...\n"
+            f"\nProgram chunks : {program_chunks}"
+        )
+        print(
+            f"Page chunks    : {page_chunks}"
+        )
+        print(
+            f"PDF chunks     : {pdf_chunks}"
+        )
+        print(
+            f"Total chunks   : {len(chunks)}\n"
         )
 
         for index, chunk in enumerate(
@@ -124,7 +154,7 @@ IMPORTANT
                         PROGRAM_EXTRACTION_PROMPT
                     ),
                     user_prompt=self.build_user_prompt(
-                        program=program,
+                        program=pack.program,
                         chunk=chunk,
                     ),
                 )
@@ -178,15 +208,10 @@ IMPORTANT
 
                     fact_metadata.update(
                         {
-                            "chunk_id": (
-                                chunk.chunk_id
-                            ),
-                            "chunk_title": (
-                                chunk.title
-                            ),
-                            "chunk_order": (
-                                chunk.order
-                            ),
+                            "chunk_id": chunk.chunk_id,
+                            "chunk_title": chunk.title,
+                            "chunk_order": chunk.order,
+                            "source_type": chunk.source_type,
                         }
                     )
 
@@ -208,19 +233,19 @@ IMPORTANT
                             source=(
                                 SourceReference(
                                     source_type=(
-                                        "program"
+                                        chunk.source_type
                                     ),
                                     source_id=(
                                         chunk.chunk_id
                                     ),
                                     title=(
-                                        program.metadata.get(
+                                        pack.program.metadata.get(
                                             "title",
                                             "",
                                         )
                                     ),
                                     url=(
-                                        program.metadata.get(
+                                        pack.program.metadata.get(
                                             "url",
                                             "",
                                         )
