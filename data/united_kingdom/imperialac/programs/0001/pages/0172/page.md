@@ -1,0 +1,5 @@
+If you are an international student considering studying at Imperial, please email us at [international-recruitment@imperial.ac.uk](mailto:international-recruitment@imperial.ac.uk). Our friendly International Student Recruitment team is here to answer any questions you may have.
+
+If you're a current international student at Imperial and you have questions about student visas, ATAS, or other immigration issues, please email the International Student Support team at [international@imperial.ac.uk](mailto: international@imperial.ac.uk).
+
+If you are a visiting student and you have a question about student exchanges and other opportunities for visiting students at Imperial, please check out our [Visiting student pages](/study/apply/visiting-students/) and email the [relevant Admissions Team](https://www.imperial.ac.uk/study/apply/contact/) if you have any questions.

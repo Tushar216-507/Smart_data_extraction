@@ -1,0 +1,5 @@
+# UFR de Physique
+
+Son potentiel de recherche et d’enseignement en physique fondamentale et appliquée fait de l'UFR de physique de notre université un des pôles de compétences les plus importants en France et en Europe. Chaque année, elle attire des physiciennes et physiciens du monde entier : doctorantes, doctorants, post-doctorantes, post-doctorants ou encore chercheuses et chercheurs reconnus et de nombreux étudiants et étudiantes qui viennent participer à des programmes de recherche ou acquérir une formation académique et professionnelle.
+
+L'UFR de Physique regroupe 18 laboratoires, tous associés au CNRS, et deux fédérations de recherche. Les équipes sont toutes impliquées dans des collaborations avec les grands établissements scientifiques et techniques de la région Île-de-France et les grands équipements européens comme le CERN, par exemple.

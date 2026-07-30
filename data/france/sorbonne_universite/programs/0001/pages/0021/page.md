@@ -1,0 +1,57 @@
+# International master Inflamed
+
+Our body can defend itself against external aggressions and repair itself after an injury. These two essential mechanisms are supported by a process called inflammation involving the immune system. Yet, when inflammation is uncontrolled, deregulated and becomes chronic, it increases the risk of cardiovascular disease, metabolic diseases, arthritis etc. Thus, a better understanding of the role of inflammation in the onset of diseases would help to prevent them, and to define new therapeutic strategies.
+
+In this context, the International Master of Sciences (Msc) Inflamed (Inflammation in Diseases) provides an interdisciplinary program between Sorbonne Université and the University of Ghent (Belgium). The Msc Inflamed program is a specific track of the Msc Integrated Biology and Physiology, Major Physiology and Human Physiopathology. The Msc Inflamed program offers courses and internships during the first year and/or second year of the Master. Students will follow courses in both Paris and Ghent.
+
+The objectives of the Master are to provide up-to-date interdisciplinary courses about inflammation and its role in diseases, skills to analyze and develop scientific strategies that focus on disease etiology, cell and murine models of diseases, as well as technological strategies and tools. Courses are given by teachers who are fully involved in research programs in laboratories at Sorbonne Université and Ghent University. Courses are taught in English, enabling our students to improve their communication skills.
+
+The Master is open to all Master 1 and Master 2 students from Sorbonne Université and Ghent University.
+
+## Courses
+
+- Transgenetics of Animal Model Organisms
+- Experimental Molecular Cell Biology
+- Bioinformatics Algorithms
+- Systems Biology
+- Drug Design
+- Project Biomedical Biotechnology
+- Gene Regulation and Epigenetics
+- Human and Animal Biotechnology
+- Experimental Design
+- Immunology
+
+- Applied Molecular Biology Tools
+- Python for Physiology
+- Fundamental and Integrated Immunology
+- Embryonic Models For The Study of Genetic Diseases And Cancer
+- Introductory Course on Stem Cell Biology
+- Research Project in a laboratory
+
+- Research Project (Master Thesis)
+- Cardiovascular Diseases
+- Lung Diseases
+- Science and Society
+- Drug Odyssey
+- Initiation to Bioengineering
+- Physiopathology of Sensory Diseases
+
+- Internship in a laboratory
+- Master thesis
+
+> Agathe Boujou (2022-2023)
+>
+> Not knowing the city of Ghent before leaving, it was a great discovery! Life there is soothing compared to Paris. The bicycle is the most popular means of transport and it must be admitted that it is very practical, even if it rains! Ghent is in the Flemish part of Belgium, so Flemish is spoken there and I forget French by only speaking English at the University and with ERASMUS students in university rooms!
+>
+>
+> I went to Ghent to study the role of inflammation in the development of pathologies, so I took courses at the University of Ghent and did my internship at the Inflammation Center in Ghent. The courses, in English, are very interesting and complementary to those taught at Sorbonne University. The teachers are very knowledgeable and attentive. They are there to help us succeed. The courses are well distributed in the timetable and this allowed me to alternate with the internship in the laboratory.
+> For the research project, I studied with a doctoral student the link between pediatric asthma, maternal allergy and a severe Respiratory Syncytial Virus infection in the first months of life. I was able to practice several laboratory techniques such as genotyping, flow cytometry, cell isolation or ELISA. This laboratory experience was very enriching and made me want to pursue a doctorate after the master!
+
+> Marija Vertinska (2022-2023)
+>
+> My experience in Ghent as an international student with the Erasmus+ program was incredibly positive. As soon as I arrived, I was warmly welcomed. The accommodation was conveniently located between the two campuses and the city center, which made my bike trips easy.
+>
+>
+> What struck me the most during my stay in Ghent was the cultural diversity that reigned on the university campus. I met students from different countries, which was very enriching. Student life was also lively with many discounts and events organized by the university.
+> The lessons were of good quality and the teachers adopted an interactive pedagogical approach. They were always there to answer my questions, I really appreciated this availability.
+> Ghent is a beautiful city with medieval architecture creating a unique atmosphere. The city was very dynamic, offering many opportunities for outings and cultural activities. It made my stay even more memorable.

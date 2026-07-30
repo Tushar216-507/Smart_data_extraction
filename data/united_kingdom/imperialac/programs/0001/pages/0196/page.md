@@ -1,0 +1,3 @@
+When applying for a Student Route visa you’ll need to prove you have enough money to support yourself and any dependants during your studies. The amount you need to show will influenced by a number of factors including whether or not you are applying for your visa from overseas or from within the UK.
+
+Please read this guidance carefully and [email our team](mailto:international@imperial.ac.uk) if there is anything you are not sure about.

@@ -1,0 +1,7 @@
+Bursaries and scholarships are a source of financial support which, unlike student loans, you don't need to pay back.
+
+Scholarships are usually linked to achievement (academic, sport, music). They may also take into account your personal circumstances, such as where you come from or your ethnic heritage.
+
+Our Imperial Bursary for Home students, meanwhile, is awarded based on financial need. If your annual household income remains under £70,000 then you'll automatically qualify for a bursary for every year that your course lasts.
+
+Explore the options below to see what you may be eligible for.

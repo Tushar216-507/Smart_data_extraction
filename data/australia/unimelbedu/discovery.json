@@ -1,0 +1,42 @@
+{
+  "university_base_url": "https://www.unimelb.edu.au",
+  "total_working_program_urls": 2,
+  "program_urls": [
+    {
+      "url": "https://giving.unimelb.edu.au/scholarships-graduate",
+      "status": 200,
+      "title": "Scholarships Graduate",
+      "h1": "Scholarships Graduate",
+      "title_original": "Scholarships Graduate",
+      "h1_original": "Scholarships Graduate",
+      "title_en": "Scholarships Graduate",
+      "h1_en": "Scholarships Graduate",
+      "page_type": "Support",
+      "score": -80,
+      "reasons": [
+        "+ URL matched '\\bgraduate\\b'",
+        "+ Found by catalog",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://sport.unimelb.edu.au/programs/strong-women",
+      "status": 200,
+      "title": "Strong Women | Melbourne University Sport",
+      "h1": "Strong Women",
+      "title_original": "Strong Women | Melbourne University Sport",
+      "h1_original": "Strong Women",
+      "title_en": "Strong Women | Melbourne University Sport",
+      "h1_en": "Strong Women",
+      "page_type": "Other",
+      "score": -85,
+      "reasons": [
+        "+ URL matched '\\bprograms?\\b'",
+        "+ Found by catalog",
+        "- Classified as Other",
+        "- Metadata lacks specific degree indicators"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+You may be invited for an interview as part of the selection process, particularly if you are applying for a course in Imperial Business School.
+
+If you are shortlisted, you may be offered an in-person interview or a virtual interview, depending on your circumstances and the course you're applying for.
+
+The department you have applied to will contact you directly with more information, including whether you can attend online.
+
+We will use the email address you provided on your application to invite you, so please monitor your inbox and respond promptly.
+
+We will also update your account in My Imperial.
