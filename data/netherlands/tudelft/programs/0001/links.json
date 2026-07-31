@@ -1,8 +1,8 @@
 {
-    "program_url": "https://www.tudelft.nl/en/education/programmes/bachelors",
-    "generated_at": "2026-07-30T16:02:44.996341+05:30",
+    "program_url": "https://www.tudelft.nl/en/education/programmes/phd",
+    "generated_at": "2026-07-31T11:05:34.401733+05:30",
     "summary": {
-        "total_links": 4,
+        "total_links": 6,
         "evidence_links": 0,
         "pdf_links": 0,
         "discovery_links": 0
@@ -12,8 +12,34 @@
             "source": "program_page",
             "relation": "direct",
             "type": "page",
+            "title": "Course enrollment current PhDs",
+            "url": "https://tudelftgs.opleidingsportaal.nl",
+            "domain": "tudelftgs.opleidingsportaal.nl",
+            "internal": false,
+            "category": "other",
+            "purpose": "navigation",
+            "priority": 10,
+            "visited": false
+        },
+        {
+            "source": "program_page",
+            "relation": "direct",
+            "type": "page",
             "title": "Intranet",
             "url": "http://intranet.tudelft.nl",
+            "domain": "intranet.tudelft.nl",
+            "internal": true,
+            "category": "other",
+            "purpose": "navigation",
+            "priority": 10,
+            "visited": false
+        },
+        {
+            "source": "program_page",
+            "relation": "direct",
+            "type": "page",
+            "title": "Portal for current PhDs",
+            "url": "https://intranet.tudelft.nl/-/i-m-a-phd-student",
             "domain": "intranet.tudelft.nl",
             "internal": true,
             "category": "other",

@@ -28,6 +28,7 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import List, Optional
 from urllib.parse import urlparse
+import traceback
 
 from pipelines.pipeline_context import PipelineContext
 from pipelines.program_metadata import ProgramMetadata
@@ -505,6 +506,8 @@ class UniversityPipeline:
 
                 document_folder = pdf_root / document_id
 
+                print(">>> Before Azure")
+
                 azure_result = azure_extractor.extract(
                     pdf_path=document_path,
                     output_dir=document_folder,
@@ -512,6 +515,11 @@ class UniversityPipeline:
                     source_url=pdf.metadata.get("url"),
                     source_title=pdf.title,
                 )
+
+                print(">>> After Azure")
+
+                print(f"PDF Path: {document_path}")
+                print(f"Exists: {document_path.exists()}")
 
                 evidence_result = evidence_builder.build(
                     document_data_path=document_folder / "extracted" / "document_data.json",
@@ -523,14 +531,18 @@ class UniversityPipeline:
                     program_name=context.program.display_name,
                 )
 
+                print(">>> After Evidence Builder")
+
                 fact_result = fact_extractor.extract(
                     evidence_path=document_folder / "evidence" / "pdf_evidence_chunks.json",
                     output_dir=document_folder / "facts",
                     program_id=program_id,
                     document_id=document_id,
-                    university_name=context.university.name,
+                    university_name=context.workspace.university,
                     program_name=context.program.display_name,
                 )
+
+                print(">>> After Fact Extractor")
 
                 pdf_facts.extend(
                     fact_result.get("facts", [])
@@ -538,7 +550,7 @@ class UniversityPipeline:
 
             except Exception as exc:
                 print(f"      ✗ PDF processing failed: {pdf.title}")
-                print(f"        {exc}")
+                traceback.print_exc()
                 continue
         return pdf_facts
 

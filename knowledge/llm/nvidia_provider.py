@@ -98,16 +98,28 @@ class NvidiaProvider(LLMProvider):
                 "NVIDIA returned an empty response."
             )
 
-        try:
-            data = json.loads(
-                content
-            )
+        # Remove markdown code fences if present
+        content = content.strip()
 
-        except json.JSONDecodeError as error:
-            raise ValueError(
-                "Invalid JSON returned by NVIDIA:"
-                f"\n\n{content}"
-            ) from error
+        if content.startswith("```json"):
+            content = content[7:]
+
+        if content.startswith("```"):
+            content = content[3:]
+
+        if content.endswith("```"):
+            content = content[:-3]
+
+        content = content.strip()
+
+        try:
+            data = json.loads(content)
+
+        except json.JSONDecodeError:
+            print("\nInvalid JSON received from NVIDIA.")
+            print("Response length:", len(content))
+            print(content[:1000])
+            raise
 
         if not isinstance(
             data,

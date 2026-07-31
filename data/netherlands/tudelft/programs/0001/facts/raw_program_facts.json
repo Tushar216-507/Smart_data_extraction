@@ -1,16 +1,34 @@
 {
-  "fact_count": 87,
+  "fact_count": 91,
   "facts": [
     {
-      "category": "overview",
-      "field": "english_taught_programmes_count",
-      "value": "4",
+      "category": "identity",
+      "field": "university_name",
+      "value": "TU Delft",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "identity",
+      "field": "university_description",
+      "value": "oldest and largest technical university in the Netherlands",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -21,68 +39,14 @@
     },
     {
       "category": "overview",
-      "field": "english_taught_programmes",
-      "value": "Aerospace Engineering; Computer Science and Engineering; Earth, Climate and Technology; Nanobiology",
+      "field": "research_approach",
+      "value": "world-class research combining science, engineering and design in a socially responsible manner",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0,
-        "source_type": "program"
-      }
-    },
-    {
-      "category": "curriculum",
-      "field": "bachelor_programme_duration_years",
-      "value": "3",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0,
-        "source_type": "program"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "admission_check_advice",
-      "value": "Applicants should check the admission requirements to see whether they qualify",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "program_0001",
-        "chunk_title": "Programme Information",
-        "chunk_order": 0,
-        "source_type": "program"
-      }
-    },
-    {
-      "category": "student_life",
-      "field": "information_activities_recommendation",
-      "value": "Prospective students are recommended to participate in several information activities",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "program",
-        "source_id": "program_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -93,14 +57,14 @@
     },
     {
       "category": "overview",
-      "field": "institution_offers_bachelor_programmes",
-      "value": "TU Delft offers bachelor's programmes",
+      "field": "graduate_school",
+      "value": "TU Delft Graduate School",
       "confidence": 1.0,
       "source": {
         "source_type": "program",
         "source_id": "program_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "program_0001",
@@ -110,735 +74,69 @@
       }
     },
     {
-      "category": "language",
-      "field": "applicable_programmes",
-      "value": "PhD and EngD programmes at TU Delft",
+      "category": "admission",
+      "field": "research_opportunity",
+      "value": "PhD candidates can conduct in-depth paid research in their chosen field",
       "confidence": 1.0,
       "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "required_toefl_score_new",
-      "value": "TOEFL iBT overall band score of 5 and a minimum score of 4.5 for each section (test reports obtained from 21 January 2026)",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "required_toefl_score_old",
-      "value": "TOEFL iBT overall band score of at least 100 and a minimum score of 22 for each section (test reports obtained before 21 January 2026)",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "toefl_mybest_not_accepted",
-      "value": "TOEFL MyBest scores are not accepted; the required scores must be obtained in a single test",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "required_ielts_score",
-      "value": "IELTS Academic overall band score of at least 7.0 and a minimum score of 6.5 for each section",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "ielts_one_skill_retake_accepted",
-      "value": "IELTS One Skill Retake is accepted",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "ielts_online_not_accepted",
-      "value": "IELTS Online (Academic) and IELTS Indicator tests cannot be accepted",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "accepted_cambridge_certificates",
-      "value": "Cambridge Assessment English C1 Advanced (Certificate of Advanced English) and C2 Proficiency (Certificate of Proficiency in English)",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "cambridge_c1_advanced_score",
-      "value": "Overall score of 185",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "cambridge_c2_proficiency_score",
-      "value": "Overall score of 185",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "test_result_validity",
-      "value": "Test results must have been awarded within the last two years",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "other_testing_organisations_not_permitted",
-      "value": "Testing organisations other than TOEFL, IELTS, and Cambridge Assessment English are not permitted",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "test_results_submission_timing",
-      "value": "Test results are not required to be presented with the application; they will be requested later during the selection procedure",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "English language requirement",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "test_accommodations_available",
-      "value": "IELTS and TOEFL provide accommodations for test takers with specific learning difficulties (e.g., dyslexia, motor disability) or health-related needs, such as extended test time, after personal discussion with the testing institution.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "ielts_accommodations_url",
-      "value": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fielts.org%2Ftake-a-test%2Fbooking-your-test%2Faccess-arrangements%23%3A~%3Atext%3DIf%2520you%2520have%2520a%2520specific%2Carrangements%2520are%2520subject%2520to%2520approval.&data=05%7C02%7Cwebredactie-mc%40tudelft.nl%7C6831703ca8c74064d78308dc57a8cb6d%7C096e524d692940308cd38ab42de0887b%7C0%7C0%7C638481629672006447%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=%2F3IIOuh1OtEjqeaNffTf5zJxexoxUVEDJsXb6Xl7%2BCo%3D&reserved=0",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "toefl_accommodations_url",
-      "value": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ets.org%2Ftoefl%2Ftest-takers%2Fibt%2Fregister%2Fdisability-accommodations.html&data=05%7C02%7Cwebredactie-mc%40tudelft.nl%7C6831703ca8c74064d78308dc57a8cb6d%7C096e524d692940308cd38ab42de0887b%7C0%7C0%7C638481629672027417%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=bK%2BwjPBqNR4b15ErOUpQa%2FGmYvd%2BDzTcmegRrCW9ago%3D&reserved=0",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
       }
     },
     {
       "category": "admission",
-      "field": "english_proficiency_exemption_native_speakers",
-      "value": "Native English speakers are exempt from the English proficiency test requirement.",
+      "field": "remuneration",
+      "value": "research is paid",
       "confidence": 1.0,
       "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "career",
+      "field": "societal_impact",
+      "value": "degree aims to have impact for a better society",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
       }
     },
     {
       "category": "admission",
-      "field": "english_proficiency_exemption_non_native_master",
-      "value": "Non-native applicants who have obtained an English-taught Master's degree are generally exempt from the English proficiency test, but may be required to take a placement test if their proficiency is deemed insufficient during the selection process.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "english_proficiency_placement_test_location",
-      "value": "The placement test can only be taken at TU Delft and not online.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "overview",
-      "field": "programme_features",
-      "value": "Offers an excellent research and learning environment, inspiring supervision by leading scientists, and a highly valued Doctoral Education course programme.",
+      "field": "required_knowledge",
+      "value": "Familiarity with the theory and methodology of the research field",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Fees and funding",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "phd_contribution_required",
-      "value": "A contribution is required to support the costs of PhD programmes.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Fees and funding",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "tuition_fee_amount",
-      "value": "11,000 euros per PhD programme",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "tuition_fee_purpose",
-      "value": "contribution to the cost of supporting and training you as a PhD candidate, and use general campus facilities",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "bench_fee_description",
-      "value": "annual contribution to the costs incurred in the provision of workspaces and laboratories, based on the anticipated use of these facilities",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "bench_fee_fixed_duration",
-      "value": "remains fixed during your PhD programme",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "bench_fee_variability",
-      "value": "bench fees differ per candidate and research project",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "fees",
-      "field": "bench_fee_charging_entity",
-      "value": "charged to the institute you work for; if you are not funded by an institute, the costs will be charged to you",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "agreements_recorded_at",
-      "value": "at the start of the PhD programme (preferably before your first working day)",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "agreements_content",
-      "value": "how the fees are calculated; what they will amount to; to whom they will be charged",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "fee_waiver_discretion",
-      "value": "it is at the faculty’s discretion to waive either or both fees",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0002",
-        "chunk_title": "Tuition fees and bench fees + Agreements",
-        "chunk_order": 1,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "regular_phd_position",
-      "value": "You are employed on a four-year contract at your supervisor’s department. Depending on your research project and its funding, you may also be required to spend time on teaching or supervision activities.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Funding",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "own_funding_scholarship_or_grant",
-      "value": "If there are no PhD positions available in your area of interest, you must find your own funding, which could be a scholarship or a grant.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Funding",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "other",
-      "field": "sponsorship",
-      "value": "A sponsorship from your employer can also be a way of arranging your own funding; employers sometimes provide financial support when their employees become part-time PhD candidates at TU Delft.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Funding",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "career",
-      "field": "typical_career_routes",
-      "value": "Working in the tech industry; Working at a research institute; Working in government; Starting your own business",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "career",
-      "field": "career_support_offered",
-      "value": "Career counselling; Trainings & workshops; Events",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "career",
-      "field": "career_centre_name",
-      "value": "TU Delft Career Centre",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "career",
-      "field": "alumni_survey_frequency",
-      "value": "Every year",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "career",
-      "field": "alumni_survey_description",
-      "value": "Survey among recently graduated PhDs about their career development after obtaining their PhD",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "career",
-      "field": "alumni_survey_link",
-      "value": "https://filelist.tudelft.nl/TUDelft/Onderwijs/Opleidingen/PhD/Graduate%20School/PhD%20Alumni%20Survey_2020_Versie%201.pdf",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "contacts",
-      "field": "postal_address",
-      "value": "PO Box 5, 2600 AA Delft",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "Contact + Postadres",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "phd_application_method",
-      "value": "Apply to a specific PhD position listed on the vacancy website.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -849,14 +147,50 @@
     },
     {
       "category": "admission",
-      "field": "phd_vacancy_website_url",
+      "field": "required_education",
+      "value": "Dutch master’s degree or a foreign equivalent",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_language_skills",
+      "value": "Proficiency in English",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_portal_url",
       "value": "https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures?searchCriteria%5b0%5d%5bkey%5d=LOV25&searchCriteria%5b0%5d%5bvalues%5d%5b%5d=11383&searchCriteria%5b1%5d%5bkey%5d=LOV27&searchCriteria%5b1%5d%5bvalues%5d%5b%5d=11422&searchCriteria%5b2%5d%5bkey%5d=Resultsperpage&searchCriteria%5b2%5d%5bvalues%5d%5b%5d=10",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -868,103 +202,13 @@
     {
       "category": "admission",
       "field": "job_alert_option",
-      "value": "Set a job alert to receive notifications of new PhD opportunities.",
+      "value": "Applicants can set a job alert to receive notifications of new PhD vacancies",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "How to become a PhD candidate + Admission requirements",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "documents",
-      "field": "phd_journey_brochure_publisher",
-      "value": "Universities of the Netherlands",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "How to become a PhD candidate + Admission requirements",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "documents",
-      "field": "phd_journey_brochure_content",
-      "value": "Provides an overview of the structure and organisation of the PhD journey, as well as expectations, rights, and responsibilities.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "How to become a PhD candidate + Admission requirements",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "admission_requirement_theory_methodology",
-      "value": "Be familiar with the theory and methodology of the research field.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "How to become a PhD candidate + Admission requirements",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "admission_requirement_master_degree",
-      "value": "Have a Dutch master’s degree (or a foreign equivalent).",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "How to become a PhD candidate + Admission requirements",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "admission_requirement_english_proficiency",
-      "value": "Be proficient in English.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -976,13 +220,31 @@
     {
       "category": "admission",
       "field": "additional_requirements_note",
-      "value": "Read the job description carefully for any additional requirements.",
+      "value": "Applicants should read the job description carefully for any additional requirements",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "phd_journey_brochure",
+      "value": "The Universities of the Netherlands have published a brochure providing an overview of the structure, organisation, expectations, rights, and responsibilities of PhD journeys at Dutch universities",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -994,31 +256,13 @@
     {
       "category": "language",
       "field": "required_language_skills",
-      "value": "English proficiency",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0001",
-        "chunk_title": "How to become a PhD candidate + Admission requirements",
-        "chunk_order": 0,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "language",
-      "field": "minimum_english_proficiency_purpose",
-      "value": "To communicate and interact well, participate in English-taught Doctoral Education courses, write scientific articles and dissertation, and successfully defend the PhD dissertation",
+      "value": "English proficiency is required to communicate and interact well, participate in English-taught Doctoral Education courses, write scientific articles and the dissertation, and successfully defend the PhD dissertation.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1029,14 +273,14 @@
     },
     {
       "category": "language",
-      "field": "toeFL_iBT_requirement_from_jan_21_2026",
-      "value": "Overall band score of 5 and a minimum score of 4.5 for each section (test reports obtained from January 21, 2026)",
+      "field": "toefl_score_requirement_post_2026",
+      "value": "For TOEFL iBT test reports obtained from January 21, 2026: overall band score of 5 and a minimum score of 4.5 for each section.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1047,14 +291,14 @@
     },
     {
       "category": "language",
-      "field": "toeFL_iBT_requirement_before_jan_21_2026",
-      "value": "Overall band score of at least 100 and a minimum score of 22 for each section (test reports obtained before January 21, 2026)",
+      "field": "toefl_score_requirement_pre_2026",
+      "value": "For TOEFL iBT test reports obtained before January 21, 2026: overall band score of at least 100 and a minimum score of 22 for each section.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1065,14 +309,14 @@
     },
     {
       "category": "language",
-      "field": "toeFL_mybest_not_accepted",
-      "value": "TOEFL MyBest scores are not accepted; required scores must be obtained in a single test",
+      "field": "toefl_mybest_not_accepted",
+      "value": "TOEFL MyBest scores are not accepted; the required scores must be obtained in a single test.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1083,14 +327,32 @@
     },
     {
       "category": "language",
-      "field": "ielts_academic_requirement",
-      "value": "Overall band score of at least 7.0 and a minimum of 6.5 for each section",
+      "field": "ielts_score_requirement",
+      "value": "IELTS Academic version with an overall band score of at least 7.0 and a minimum of 6.5 for each section.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "ielts_one_skill_retake_accepted",
+      "value": "IELTS One Skill Retake is accepted.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1102,13 +364,13 @@
     {
       "category": "language",
       "field": "ielts_online_not_accepted",
-      "value": "IELTS Online (Academic) test and IELTS Indicator test cannot be accepted",
+      "value": "IELTS Online (Academic) and IELTS Indicator tests cannot be accepted.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1119,14 +381,14 @@
     },
     {
       "category": "language",
-      "field": "cambridge_assessment_english_certificates_accepted",
-      "value": "C1 Advanced (Certificate of Advanced English) with overall score 185; C2 Proficiency (Certificate of Proficiency in English) with overall score 185",
+      "field": "cambridge_certificate_requirements",
+      "value": "Accepted Cambridge Assessment English certificates: C1 Advanced (Certificate of Advanced English) with an overall score of 185; C2 Proficiency (Certificate of Proficiency in English) with an overall score of 185.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1137,14 +399,14 @@
     },
     {
       "category": "language",
-      "field": "test_results_validity_period",
-      "value": "Test results must have been awarded within the last two years (e.g., if appointed 30 January 2028, TOEFL scores must be dated on or after 30 January 2026)",
+      "field": "test_score_validity",
+      "value": "Test results must have been awarded within the last two years.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1156,13 +418,31 @@
     {
       "category": "language",
       "field": "test_results_submission_timing",
-      "value": "Test results do not need to be presented with the application; they will be requested later during the selection procedure",
+      "value": "Test results are not required to be presented with the application; they will be requested later during the selection procedure.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "other_testing_organisations_not_permitted",
+      "value": "Testing organisations other than TOEFL, IELTS, and Cambridge Assessment English are not permitted.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1173,32 +453,14 @@
     },
     {
       "category": "admission",
-      "field": "test_accommodations_providers",
-      "value": "IELTS and TOEFL offer accommodations for test takers with specific learning difficulties (e.g., dyslexia, motor disability) or health-related needs.",
+      "field": "test_accommodations_available",
+      "value": "IELTS and TOEFL provide accommodations for test takers with specific learning difficulties (e.g., dyslexia or motor disability) or health-related needs, such as extended test time, which must be discussed personally with the testing institution.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "test_accommodation_discussion",
-      "value": "Applicants may discuss extensions of test time directly with the testing institution.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0003",
@@ -1215,8 +477,8 @@
       "source": {
         "source_type": "page",
         "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0003",
@@ -1233,8 +495,8 @@
       "source": {
         "source_type": "page",
         "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0003",
@@ -1244,15 +506,15 @@
       }
     },
     {
-      "category": "admission",
-      "field": "english_test_exemption_native_speakers",
-      "value": "Native speakers are exempt from the English proficiency test requirement.",
+      "category": "language",
+      "field": "english_proficiency_exemption",
+      "value": "Native speakers are exempt from the English test requirement; non‑native applicants who have obtained an English‑taught Master's degree are also exempt in principle.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0003",
@@ -1262,15 +524,15 @@
       }
     },
     {
-      "category": "admission",
-      "field": "english_test_exemption_english_taught_masters",
-      "value": "Non-native applicants who have obtained an English-taught Master's degree are exempt in principle from the English proficiency test requirement.",
+      "category": "language",
+      "field": "english_proficiency_placement_test_requirement",
+      "value": "If, during the selection process, a candidate with an English‑taught Master's degree is deemed not to meet the English proficiency requirements, they may be asked to take a placement test.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0003",
@@ -1280,33 +542,15 @@
       }
     },
     {
-      "category": "admission",
-      "field": "english_placement_test_may_be_required",
-      "value": "If during the selection process the English proficiency of a candidate with an English-taught Master's degree is deemed insufficient, the candidate may be asked to take a placement test.",
-      "confidence": 1.0,
-      "source": {
-        "source_type": "page",
-        "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
-      },
-      "metadata": {
-        "chunk_id": "page_0003",
-        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
-        "chunk_order": 2,
-        "source_type": "page"
-      }
-    },
-    {
-      "category": "admission",
-      "field": "english_placement_test_location",
+      "category": "language",
+      "field": "placement_test_location",
       "value": "The placement test can only be taken at TU Delft and not online.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0003",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0003",
@@ -1317,14 +561,14 @@
     },
     {
       "category": "overview",
-      "field": "highlights",
-      "value": "Offers an excellent research and learning environment, inspiring supervision by leading scientists, and a highly valued Doctoral Education course programme.",
+      "field": "description",
+      "value": "TU Delft offers an excellent research and learning environment, inspiring supervision by leading scientists, and a highly valued Doctoral Education course programme.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1335,14 +579,14 @@
     },
     {
       "category": "fees",
-      "field": "phd_contribution",
-      "value": "A contribution is required to support the costs of PhD programmes.",
+      "field": "contribution_required",
+      "value": "The university requires a contribution to support the costs of PhD programmes.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1359,8 +603,8 @@
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1377,8 +621,8 @@
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1389,14 +633,50 @@
     },
     {
       "category": "fees",
-      "field": "bench_fee_description",
-      "value": "Annual contribution to the costs incurred in the provision of workspaces and laboratories, based on anticipated use of these facilities; fee remains fixed during the PhD programme; varies per candidate and research project",
+      "field": "bench_fee_type",
+      "value": "Annual contribution to the costs incurred in the provision of workspaces and laboratories",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "bench_fee_fixed_during_programme",
+      "value": "The bench fee remains fixed during the PhD programme",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "bench_fee_variability",
+      "value": "Bench fees differ per candidate and research project based on anticipated use of facilities",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1408,13 +688,13 @@
     {
       "category": "fees",
       "field": "bench_fee_charged_to",
-      "value": "Charged to the institute you work for; if not funded by an institute, charged to the candidate",
+      "value": "Charged to the institute the candidate works for; if not funded by an institute, charged to the candidate",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1425,14 +705,32 @@
     },
     {
       "category": "other",
-      "field": "agreements_recorded_at_start",
-      "value": "Agreements are recorded at the start of the PhD programme (preferably before the first working day) on how the fees are calculated, what they will amount to, and to whom they will be charged",
+      "field": "fee_agreements_recorded_at",
+      "value": "At the start of the PhD programme (preferably before the first working day)",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "fee_agreements_content",
+      "value": "How the fees are calculated; what they will amount to; to whom they will be charged",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1444,13 +742,13 @@
     {
       "category": "other",
       "field": "fee_waiver_discretion",
-      "value": "Faculty may waive either or both fees at its discretion",
+      "value": "It is at the faculty’s discretion to waive either or both fees",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0002",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0002",
@@ -1460,15 +758,87 @@
       }
     },
     {
+      "category": "other",
+      "field": "regular_phd_position_employment_contract",
+      "value": "Four-year contract employed at the supervisor’s department.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "regular_phd_position_teaching_expectation",
+      "value": "May be expected to spend time on teaching or supervision activities depending on the research project and its funding.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "own_funding_scholarship_or_grant",
+      "value": "If no PhD positions are available, candidates must find their own funding, which can be a scholarship or a grant.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "own_funding_sponsorship",
+      "value": "A sponsorship from the candidate’s employer can be used to arrange own funding; employers sometimes provide financial support when their employees become part-time PhD candidates at TU Delft.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
       "category": "career",
-      "field": "career_prospect_description",
-      "value": "Obtaining a PhD at TU Delft is one of the highest levels of academic achievement and provides a solid basis for future careers both inside and outside academia.",
+      "field": "career_basis_statement",
+      "value": "Obtaining a PhD at TU Delft provides a solid basis for a future career both inside and outside academia.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1479,14 +849,14 @@
     },
     {
       "category": "career",
-      "field": "typical_career_paths",
-      "value": "Many PhD alumni stay in academia; other common career routes include working in the tech industry, working at a research institute, working in government, and starting your own business.",
+      "field": "career_opportunities",
+      "value": "Academia; Tech industry; Research institute; Government; Starting your own business",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1497,14 +867,50 @@
     },
     {
       "category": "career",
-      "field": "career_counselling_offered",
-      "value": "TU Delft offers career counselling, trainings & workshops, and events to help PhD graduates explore career opportunities.",
+      "field": "career_counselling",
+      "value": "TU Delft offers career counselling to help PhD candidates orientate on career opportunities after their PhD.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "training_and_workshops",
+      "value": "TU Delft provides trainings and workshops for PhD candidates to develop career-relevant skills.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "career_events",
+      "value": "TU Delft organizes events to support PhD candidates' career development.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1516,13 +922,13 @@
     {
       "category": "career",
       "field": "career_centre_support",
-      "value": "The TU Delft Career Centre assists PhD graduates in transitioning to their next career step.",
+      "value": "The TU Delft Career Centre assists PhD candidates in transitioning to their next career step.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1532,15 +938,15 @@
       }
     },
     {
-      "category": "statistics",
+      "category": "career",
       "field": "alumni_survey_frequency",
-      "value": "Every year a survey is conducted among recently graduated PhDs to assess their career development after obtaining their PhD.",
+      "value": "A survey is conducted every year among recently graduated PhDs to assess their career development.",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",
@@ -1550,15 +956,681 @@
       }
     },
     {
-      "category": "documents",
-      "field": "alumni_survey_factsheet_url",
+      "category": "career",
+      "field": "alumni_survey_link",
       "value": "https://filelist.tudelft.nl/TUDelft/Onderwijs/Opleidingen/PhD/Graduate%20School/PhD%20Alumni%20Survey_2020_Versie%201.pdf",
       "confidence": 1.0,
       "source": {
         "source_type": "page",
         "source_id": "page_0001",
-        "title": "Bachelors",
-        "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "alumni_survey_description",
+      "value": "The PhD Alumni Survey provides facts about alumni career outcomes and experiences.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "mailing_address",
+      "value": "Postbus 5, 2600 AA Delft",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Contact + Postadres",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_knowledge",
+      "value": "Familiar with the theory and methodology of the research field",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_degree",
+      "value": "Dutch master’s degree (or a foreign equivalent)",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_language_skills",
+      "value": "Proficient in English",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_method",
+      "value": "Apply to a specific PhD position listed on the TU Delft vacancy website",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "vacancy_website_url",
+      "value": "https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures?searchCriteria%5b0%5d%5bkey%5d=LOV25&searchCriteria%5b0%5d%5bvalues%5d%5b%5d=11383&searchCriteria%5b1%5d%5bkey%5d=LOV27&searchCriteria%5b1%5d%5bvalues%5d%5b%5d=11422&searchCriteria%5b2%5d%5bkey%5d=Resultsperpage&searchCriteria%5b2%5d%5bvalues%5d%5b%5d=10",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "job_alert_option",
+      "value": "Set a job alert to receive notifications when new PhD opportunities are posted",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "phd_journey_brochure",
+      "value": "Brochure published by the Universities of the Netherlands providing an overview of the structure, organisation, expectations, rights, and responsibilities of PhD journeys at Dutch universities; recommended to review",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to become a PhD candidate + Admission requirements",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "required_language_skills",
+      "value": "Communicate and interact well; Participate in English-taught Doctoral Education courses; Write scientific articles and dissertation; Successfully defend PhD dissertation",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "toefl_requirement_new",
+      "value": "For TOEFL iBT test reports obtained from 21 January 2026: overall band score of 5 and a minimum score of 4.5 for each section",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "toefl_requirement_old",
+      "value": "For TOEFL iBT test reports obtained before 21 January 2026: overall band score of at least 100 and a minimum score of 22 for each section; MyBest scores are not accepted; scores must be from a single test",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "ielts_requirement",
+      "value": "IELTS Academic overall band score of at least 7.0 and a minimum of 6.5 for each section; IELTS One Skill Retake accepted; IELTS Online (Academic) and IELTS Indicator not accepted",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "cambridge_certificate_requirement",
+      "value": "Cambridge Assessment English certificates accepted: C1 Advanced (Certificate of Advanced English) with overall score 185; C2 Proficiency (Certificate of Proficiency in English) with overall score 185",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "test_score_validity",
+      "value": "Test results must have been awarded within the last two years (e.g., if appointment is 30 January 2028, TOEFL scores must be newer than 30 January 2026)",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "other_testing_organizations",
+      "value": "Testing organisations other than TOEFL, IELTS, and Cambridge Assessment English are not permitted",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "language",
+      "field": "test_results_submission",
+      "value": "Test results do not need to be presented with the application; they will be requested later during the selection procedure",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English language requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_accommodation_providers",
+      "value": "IELTS and TOEFL offer accommodations for test takers with specific learning difficulties (e.g., dyslexia), motor disabilities, or health-related needs.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_accommodation_ielts_url",
+      "value": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fielts.org%2Ftake-a-test%2Fbooking-your-test%2Faccess-arrangements%23%3A~%3Atext%3DIf%2520you%2520have%2520a%2520specific%2Carrangements%2520are%2520subject%2520to%2520approval.&data=05%7C02%7Cwebredactie-mc%40tudelft.nl%7C6831703ca8c74064d78308dc57a8cb6d%7C096e524d692940308cd38ab42de0887b%7C0%7C0%7C638481629672006447%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=%2F3IIOuh1OtEjqeaNffTf5zJxexoxUVEDJsXb6Xl7%2BCo%3D&reserved=0",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_accommodation_toefl_url",
+      "value": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ets.org%2Ftoefl%2Ftest-takers%2Fibt%2Fregister%2Fdisability-accommodations.html&data=05%7C02%7Cwebredactie-mc%40tudelft.nl%7C6831703ca8c74064d78308dc57a8cb6d%7C096e524d692940308cd38ab42de0887b%7C0%7C0%7C638481629672027417%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=bK%2BwjPBqNR4b15ErOUpQa%2FGmYvd%2BDzTcmegRrCW9ago%3D&reserved=0",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "english_test_exemption_native_speakers",
+      "value": "Native English speakers are exempt from the English proficiency test requirement.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "english_test_exemption_english_taught_masters",
+      "value": "Non‑native applicants who have obtained an English‑taught Master’s degree are generally exempt from the English proficiency test, but may be required to take a placement test if their proficiency is judged insufficient.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "english_placement_test_location",
+      "value": "The placement test can only be taken at TU Delft and not online.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Accommodations for test takers with disabilities or health-related needs + Exemptions from English proficiency test",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "tuition_fee_amount",
+      "value": "11,000 euros per PhD programme",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "bench_fee_description",
+      "value": "Annual contribution to the costs incurred in the provision of workspaces and laboratories, based on anticipated use of these facilities",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "bench_fee_variability",
+      "value": "Bench fees differ per candidate and research project because costs vary",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "bench_fee_charging_entity",
+      "value": "The fee is charged to the institute the candidate works for; if the candidate is not funded by an institute, the costs are charged to the candidate",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "agreements_recorded_at_start",
+      "value": "At the start of the PhD programme (preferably before the first working day), agreements are recorded",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "agreements_content",
+      "value": "How the fees are calculated; what they will amount to; to whom they will be charged",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition fees and bench fees + Agreements",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "funding_option_regular_phd_position",
+      "value": "You are employed on a four-year contract at your supervisor’s department; depending on your research project and its funding, you may be expected to spend time on teaching or supervision activities.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "own_funding_scholarship_or_grant",
+      "value": "If there are no PhD positions available in your area of interest, you will have to find your own funding, which could be a scholarship or a grant.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "own_funding_sponsorship",
+      "value": "A sponsorship from your employer can also be a way of arranging your own funding; employers sometimes provide financial support when their employees become part-time PhD candidates at TU Delft.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Funding",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "career_outlook",
+      "value": "A PhD from TU Delft provides a solid basis for future careers both inside and outside academia.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "typical_employment_sectors",
+      "value": "PhD alumni work in academia, the tech industry, research institutes, government, and start their own businesses.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "career_counselling_services",
+      "value": "TU Delft offers career counselling, trainings and workshops, and events to help PhD candidates explore career opportunities.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "career_centre_role",
+      "value": "The TU Delft Career Centre assists PhD graduates in transitioning to their next career step.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Your career perspectives + Your career perspectives + Career counselling and training + By the numbers",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "alumni_survey",
+      "value": "An annual survey of recent PhD graduates collects data on their career development; the 2020 factsheet is available at https://filelist.tudelft.nl/TUDelft/Onderwijs/Opleidingen/PhD/Graduate%20School/PhD%20Alumni%20Survey_2020_Versie%201.pdf.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "PhD at TU Delft",
+        "url": "https://www.tudelft.nl/en/education/programmes/phd"
       },
       "metadata": {
         "chunk_id": "page_0001",

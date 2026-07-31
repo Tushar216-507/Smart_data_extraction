@@ -3,6 +3,23 @@
   "total_working_program_urls": 12,
   "program_urls": [
     {
+      "url": "https://www.tudelft.nl/en/education/programmes/phd",
+      "status": 200,
+      "title": "PhD at TU Delft",
+      "h1": "",
+      "title_original": "PhD at TU Delft",
+      "h1_original": "",
+      "title_en": "PhD at TU Delft",
+      "h1_en": "",
+      "page_type": "Degree Programme",
+      "score": 80,
+      "reasons": [
+        "+ Found by navigation",
+        "+ Classified as Degree Programme",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
       "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
       "status": 200,
       "title": "Bachelors",
@@ -33,23 +50,6 @@
       "score": -30,
       "reasons": [
         "+ URL matched '\\bmasters?\\b'",
-        "+ Found by navigation",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/education/programmes/phd",
-      "status": 200,
-      "title": "PhD at TU Delft",
-      "h1": "",
-      "title_original": "PhD at TU Delft",
-      "h1_original": "",
-      "title_en": "PhD at TU Delft",
-      "h1_en": "",
-      "page_type": "Degree Catalogue",
-      "score": -70,
-      "reasons": [
         "+ Found by navigation",
         "- Classified as Degree Catalogue (Not a leaf node)",
         "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
@@ -109,6 +109,23 @@
       ]
     },
     {
+      "url": "https://www.tudelft.nl/en/education",
+      "status": 200,
+      "title": "Students and Education | TU Delft | University of Technology",
+      "h1": "",
+      "title_original": "Students and Education | TU Delft | University of Technology",
+      "h1_original": "",
+      "title_en": "Students and Education | TU Delft | University of Technology",
+      "h1_en": "",
+      "page_type": "Navigation",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Navigation (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://www.tudelft.nl/en/research/faculties-and-institutes",
       "status": 200,
       "title": "Faculties and institutes",
@@ -122,6 +139,40 @@
       "reasons": [
         "+ Found by navigation",
         "- Classified as Navigation (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.tudelft.nl/en/learningforlife",
+      "status": 200,
+      "title": "TU Delft Learning for Life",
+      "h1": "TU Delft Learning for Life",
+      "title_original": "TU Delft Learning for Life",
+      "h1_original": "TU Delft Learning for Life",
+      "title_en": "TU Delft Learning for Life",
+      "h1_en": "TU Delft Learning for Life",
+      "page_type": "Programme Hub",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Programme Hub (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.tudelft.nl/en/education/admission-and-application",
+      "status": 200,
+      "title": "Admission and Application",
+      "h1": "Admission and Application",
+      "title_original": "Admission and Application",
+      "h1_original": "Admission and Application",
+      "title_en": "Admission and Application",
+      "h1_en": "Admission and Application",
+      "page_type": "Admissions",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Admissions",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -151,62 +202,11 @@
       "h1_original": "Programmes",
       "title_en": "Programmes",
       "h1_en": "Programmes",
-      "page_type": "Programme Hub",
+      "page_type": "Degree Catalogue",
       "score": -110,
       "reasons": [
         "+ Found by navigation",
-        "- Classified as Programme Hub (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/learningforlife",
-      "status": 200,
-      "title": "TU Delft Learning for Life",
-      "h1": "TU Delft Learning for Life",
-      "title_original": "TU Delft Learning for Life",
-      "h1_original": "TU Delft Learning for Life",
-      "title_en": "TU Delft Learning for Life",
-      "h1_en": "TU Delft Learning for Life",
-      "page_type": "Support",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/education/admission-and-application",
-      "status": 200,
-      "title": "Admission and Application",
-      "h1": "Admission and Application",
-      "title_original": "Admission and Application",
-      "h1_original": "Admission and Application",
-      "title_en": "Admission and Application",
-      "h1_en": "Admission and Application",
-      "page_type": "Admissions",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Admissions",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/education",
-      "status": 200,
-      "title": "Students and Education | TU Delft | University of Technology",
-      "h1": "",
-      "title_original": "Students and Education | TU Delft | University of Technology",
-      "h1_original": "",
-      "title_en": "Students and Education | TU Delft | University of Technology",
-      "h1_en": "",
-      "page_type": "Navigation",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Navigation (Not a leaf node)",
+        "- Classified as Degree Catalogue (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     }

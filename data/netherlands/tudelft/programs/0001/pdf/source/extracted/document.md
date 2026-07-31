@@ -1,0 +1,3345 @@
+<!-- PageHeader="4 TUDelft" -->
+
+
+# Doctoral Regulations 2023
+
+
+<figure>
+</figure>
+
+
+<!-- PageBreak -->
+
+
+## Doctoral Regulations 2023
+
+<!-- PageBreak -->
+
+
+### Doctoral Regulations
+
+Delft University of Technology
+
+For further information about these regulations, please
+contact: The Graduate Office, TU Delft Graduate School
+www.graduateschool.tudelft.nl
+
+This is a translation of the Dutch version of the Regulations. In case of a conflict
+between the English and Dutch version of the Regulations, the Dutch version will prevail
+and will be binding.
+
+The Doctoral Regulations were established by the Board for Doctorates in its
+meeting of 19 June 2023.
+
+Prof. T.H.J.J. van der Hagen
+Chair of the Board for Doctorates
+Rector Magnificus of TU Delft
+
+<!-- PageBreak -->
+
+<!-- PageHeader="TU Delft Doctoral Regulations 2023" -->
+<!-- PageBreak -->
+
+<!-- PageBreak -->
+
+<!-- PageBreak -->
+
+
+#### Foreword
+
+Awarding the degree of Doctor is a great privilege for a Dutch university. It is
+one of the unique, distinctive and inalienable prerogatives of a university. It
+is the highest academic accolade we have in the Netherlands.
+
+The doctoral research that leads to the doctoral dissertation is an exciting
+process during which the candidate blossoms into a fully-fledged
+researcher, capable of conducting and reporting independent scientific
+research in accordance with the principles of good academic practice:
+transparency, integrity, and respect for third-party findings. The candidate
+is supervised during this process by (a) promotor(s) and/or copromotor(s).
+The ultimate defence of the doctoral dissertation in the presence of an
+independent committee consisting of scientists experienced in TU Delft
+decorum is one of the most striking moments in the academic career of the
+candidate and their supervisors.
+
+All the more reason to go into the process that underpins the preparation
+and writing of the doctoral dissertation with due care and attention. To that
+end, the Doctoral Regulations and the Implementation Decree provide
+rules with which everyone involved in this process must comply. These
+new regulations contain various changes compared to the 2018 version,
+relating to English language skills, premature termination, the expansion of
+the four eyes principle, the composition of the team of supervisors and the
+doctoral committee and data management. In line with developments in
+society, the Doctoral Regulations and the Implementation Decree have
+been formulated using gender-neutral language.
+
+The Board for Doctorates and the Graduate School of Delft University of
+Technology aim to ensure that our PhD candidates experience and benefit
+from a rich and informative development process and can take pride in
+being awarded their doctorate by their promotors.
+
+Kind regards,
+
+Prof. T.H.J.J. van der Hagen
+Rector Magnificus
+
+Prof. B. van Arem
+Pro Vice Rector Magnificus for Doctoral Affairs
+Delft, September 2023
+
+<!-- PageBreak -->
+
+<!-- PageBreak -->
+
+
+### Table of Contents
+
+
+<table>
+<tr>
+<td>1</td>
+<td>Definitions</td>
+<td>9</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Doctorate</td>
+<td>12</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Joint doctorate</td>
+<td>13</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Start of doctoral programme</td>
+<td>13</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Doctoral candidate and preparation of the doctoral dissertation</td>
+<td>14</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Doctoral Education programme</td>
+<td>15</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Go/No Go and Go/No Go and Premature termination</td>
+<td>15</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Supervision of the doctoral candidate</td>
+<td>17</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Duties and responsibilities of promotor and copromotor</td>
+<td>19</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Approval of draft doctoral dissertation</td>
+<td>20</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Application for doctoral defence ceremony</td>
+<td>21</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Composition of doctoral committee</td>
+<td>22</td>
+</tr>
+<tr>
+<td>13</td>
+<td rowspan="2">Appointment of doctoral committee and announcement of provisional doctoral defence date</td>
+<td rowspan="2">23</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Assessment of draft doctoral dissertation by doctoral committee</td>
+<td>24</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Preparations for the doctoral defence ceremony</td>
+<td>25</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Doctoral defence ceremony</td>
+<td>26</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Awarding of the degree of Doctor</td>
+<td>27</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Awarding of the degree of Doctor with designation cum laude</td>
+<td>28</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Disputes</td>
+<td>30</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Mediation</td>
+<td>31</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Honorary doctorate</td>
+<td>31</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Final provisions</td>
+<td>32</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Transitional provisions</td>
+<td>33</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+<!-- PageBreak -->
+
+
+### Article 1
+
+
+### Definitions
+
+1.1.
+The terms used in these Regulations are defined as follows:
+
+
+<table>
+<tr>
+<td>Board for Doctorates:</td>
+<td>the board for doctorates of the university within the meaning of Article 7.18 section 4 and Article 9.10 of the Act;</td>
+</tr>
+<tr>
+<td>Copromotor:</td>
+<td>the person appointed by the Board for Doctorates to work with the promotor in supervising the doctoral candidate;</td>
+</tr>
+<tr>
+<td>DE Programme:</td>
+<td>the Doctoral Education (DE) training programme that is compulsory for doctoral candidates;</td>
+</tr>
+<tr>
+<td>Doctoral candidate:</td>
+<td>the person registered as such at the TU Delft Graduate School and following a Doctoral Programme;</td>
+</tr>
+<tr>
+<td>Doctoral committee:</td>
+<td>the committee, appointed by the Board for Doctorates, before which the doctoral defence ceremony will take place;</td>
+</tr>
+<tr>
+<td>Doctoral defence ceremony:</td>
+<td>the public session of the doctoral committee in which the doctoral candidate defends the doctoral dissertation, including appendices and propositions, in order to be awarded the degree of Doctor;</td>
+</tr>
+<tr>
+<td>Doctoral dissertation:</td>
+<td>the scientific treatise as defined in Section 7.18, paragraph 2b of the WHW;</td>
+</tr>
+<tr>
+<td>Doctoral Examination Working Committee:</td>
+<td>the committee established as such by the Rector Magnificus, whose members deputise for the Rector Magnificus in his role as chairperson during the doctoral defence ceremony;</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="9" -->
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<td>Doctoral Programme:</td>
+<td>the period from the registered start of the doctoral research up to and including the doctoral defence ceremony;</td>
+</tr>
+<tr>
+<td>Draft doctoral dissertation:</td>
+<td>the draft for the doctoral dissertation that is submitted for assessment by the doctoral committee after being approved by the promotor;</td>
+</tr>
+<tr>
+<td>Faculty Graduate School:</td>
+<td>the Graduate School of a faculty as defined in Article 18a of the Executive and Management Regulations;</td>
+</tr>
+<tr>
+<td>Go/No-Go meeting:</td>
+<td>meeting at the end of the first year of the doctoral programme in which the intended promotor makes an assessment, based on a committee's recommendations, as to whether the doctoral candidate is considered capable of successfully completing the Doctoral Programme;</td>
+</tr>
+<tr>
+<td>Graduate School Office:</td>
+<td>support office of the TU Delft Graduate School responsible for day-to-day business concerning doctorates and which supports the TU Delft Graduate School;</td>
+</tr>
+<tr>
+<td>Implementation Decree:</td>
+<td>more specific rules concerning the implementation of the Doctoral Regulations, to be adopted by the Board for Doctorates;</td>
+</tr>
+<tr>
+<td>Intended promotor:</td>
+<td>full professor or staff member with a doctorate to whom the ius promovendi has been awarded who has reached agreement with the doctoral candidate on the subject of the doctoral research and who, once a Go decision has been made based on the Go/No Go meeting, requests that the Board for Doctorates appoint him as promotor;</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="10" -->
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<td>Ius promovendi</td>
+<td>the right to be eligible to be appointed as a promotor on the grounds of Section 7.18 of the WHW;</td>
+</tr>
+<tr>
+<td>Promotor:</td>
+<td>the full professor or staff member with a doctorate appointed as such by the Board for Doctorates in accordance with Section 7.18, paragraph 4 of the WHW to whom the ius promovendi has been awarded or whose ius promovendi has been recognized by the TU Delft Board for Doctorates;</td>
+</tr>
+<tr>
+<td>Propositions:</td>
+<td>statements argued and appended to the doctoral dissertation designated by the promotor as academically sound, examinable and defensible and which the doctoral candidate will defend;</td>
+</tr>
+<tr>
+<td>Rector Magnificus:</td>
+<td>the Rector Magnificus of the university, also chairperson of the Board for Doctorates, or the replacement of the Rector Magnificus during a doctoral defence ceremony;</td>
+</tr>
+<tr>
+<td>TU Delft Graduate School:</td>
+<td>the Graduate School of the university, as defined in Article 18a of TU Delft's Executive and Management Regulations, consisting of the faculty Graduate Schools and a board;</td>
+</tr>
+<tr>
+<td>Vice-Rector:</td>
+<td>the vice-chairperson of the Board for Doctorates, who also chairs the Doctoral Examination Working Committee;</td>
+</tr>
+<tr>
+<td>WHW:</td>
+<td>the Higher Education and Scientific Research Act of the Netherlands (Wet op het hoger onderwijs en wetenschappelijk onderzoek).</td>
+</tr>
+</table>
+
+
+<!-- PageNumber="11" -->
+<!-- PageBreak -->
+
+
+#### 1.2. Any references in these Regulations to:
+
+a.
+promotor or copromotor should be interpreted as meaning
+promotors and/or copromotor in cases in which more than
+one promotor and/or copromotor have been appointed;
+
+b.
+promotor or copromotor should also be interpreted as
+intended promotor or intended copromotor during the
+period before a Go decision has been made and the
+appointment as promotor has taken place;
+
+C.
+full professor should also be interpreted as the former full professor
+acting as promotor.
+
+1.3.
+The provisions included in these Regulations concerning the doctoral
+dissertation will also be applicable to the Doctoral Design (with
+appendices). This refers to the original, innovative technical design,
+comprising design drawings, models and/or other products
+developed by using appropriate specialist theoretical knowledge,
+methods and/or calculations, combined with scientific justification
+and documentation compiled in writing.
+
+
+##### Article 2 Doctorate
+
+2.1.
+The degree of Doctor can be obtained at TU Delft following the
+public defence of a doctoral dissertation before the Board for
+Doctorates or the doctoral committee appointed by it. The Board for
+Doctorates awards the degree of Doctor. By way of a departure
+from that stipulated in the other Articles in these Regulations, the
+provisions of Article 21 will apply to the awarding of the honorary
+doctoral degree.
+
+2.2.
+Admission to the doctoral defence ceremony will be open to anyone:
+
+a.
+who has been awarded the degree of Master in
+accordance with Section 7.10 a, paragraph 1, 2 or 3 of the
+WHW, and
+
+b.
+who, as proof of competence to practice science
+independently has written a doctoral dissertation,
+and
+
+C.
+has met the other requirements set in these Doctoral
+Regulations with regard to, among other things:
+
+\- completing a Doctoral programme,
+
+\- following a DE programme and
+
+\- the quality and content of the doctoral dissertation.
+
+<!-- PageNumber="12" -->
+<!-- PageBreak -->
+
+2.3.
+In exceptional circumstances, the Board for Doctorates can, on their request,
+admit access to the doctoral programme and the doctoral defence ceremony
+to a person who is not in possession of the required degree but who meets
+the requirements stipulated in Article 2.2b and c, if the person requesting this
+demonstrates sufficient knowledge in some other way, and to the satisfaction
+of the Board for Doctorates. The Board for Doctorates can determine more
+specific rules for this in the Implementation Decree.
+
+
+### Article 3 Joint Doctorate
+
+3.1.
+TU Delft can, together with one or more Dutch or foreign institutions
+of academic education, jointly:
+
+a.
+award the degree of Doctor by issuing a single degree
+certificate;
+
+b.
+award the degree of Doctor, with each of the institutions
+awarding the degree of Doctor including a reference to the
+fact that the degree is being awarded jointly.
+
+3.2.
+The joint doctorate will be awarded by the Board for Doctorates,
+together with or in conjunction with a similar body at the partner
+institution.
+
+3.3.
+The joint doctorate will meet the following requirements:
+
+a.
+a cooperation agreement has been concluded with
+the other institution in advance;
+
+b.
+the Board for Doctorates has issued permission in
+writing prior to the Doctoral Programme;
+
+C.
+the provisions of the Doctoral Regulations will apply to the
+joint doctorate, unless exceptions apply that have been
+substantiated and authorised by the Board for Doctorates.
+
+3.4.
+In the Implementation Decree, the Board for Doctorates will
+determine more specific rules with regard to the conditions and
+requirements that a joint doctorate must always meet.
+
+
+### Article 4 Start of Doctoral Programme
+
+4.1.
+A person who wishes to complete a Doctoral Programme must in order to
+obtain a doctorate:
+
+a.
+enter into consultations with the most appropriate (full
+professor or the associate professor with a doctorate to
+whom the ius promovendi has been awarded), specialised
+in the field of science involved and reach agreement on the
+subject of the doctoral research, the title of the doctoral
+dissertation and the staff member's willingness to act as
+promotor,
+and
+
+b.
+provide proof of identity and register as a doctoral
+
+<!-- PageNumber="13" -->
+<!-- PageBreak -->
+
+candidate at the TU Delft Graduate School by
+submitting a certified copy of a degree certificate as
+defined in Article 2.2a or a copy of the awarding of
+access pursuant to Article 2.3 and
+
+C.
+provide proof of a good command of spoken and
+written English language proficiency
+
+4.2.
+When the conditions stipulated in 4.1 have been met, the TU Delft
+Graduate School will ensure a statement is issued as soon as
+possible on behalf of the Board for Doctorates detailing the
+registration as a doctoral candidate and the appointment as the
+intended promotor of the person referred to in 4.1a, and the
+appointment of an intended copromotor.
+
+4.3.
+Within three months of the start of the Doctoral Programme,
+the doctoral candidate must have made agreements with the
+intended promotor on supervision, the appointment of one or
+two intended (co)promotor(s) as referred to in Article 8 and the
+content of the DE Programme to be followed by the doctoral
+candidate. These agreements must be recorded in a PhD
+agreement and submitted to the Faculty Graduate School.
+
+
+### Article 5 Doctoral candidate and preparation of doctoral dissertation
+
+5.1.
+The doctoral candidate will conduct independent scientific
+research and will maintain the customary academic contacts with
+fellow scientists.
+
+5.2.
+The doctoral candidate is responsible for producing the doctoral
+dissertation as a contribution to science and ensuring the research
+is conducted:
+
+a.
+in accordance with the code of conduct and
+professional code applicable to professional
+activities in the area of the science (domain)
+concerned;
+
+b.
+according to the statutory regulations and university
+regulations applicable and in all events, for research
+involving animal testing, hazardous (e.g. radioactive)
+materials, hazardous (e.g. biological) substances; and
+
+C.
+without the imposition of any limitations that conflict with
+academic freedom on the research and the freedom of
+publication of data and results from the research, also
+insofar as (part of) the research is funded by third parties.
+
+<!-- PageNumber="14" -->
+<!-- PageBreak -->
+
+
+### Article 6 Doctoral Education Programme
+
+6.1.
+The doctoral candidate is obliged to follow the DE Programme and
+will receive a DE certificate when completing the DE programme
+successfully. The doctoral candidate will register the planning and
+progress on the DE Programme record in the system designated
+for this.
+
+6.2.
+The DE Programme consists of the following components:
+transferable, research-related and discipline-related skills courses
+The Board for Doctorates will specify further requirements
+concerning the size and scope of these components.
+
+6.3.
+In very exceptional cases, the Board for Doctorates can award
+an exemption from taking a component or course in the DE
+Programme. The doctoral candidate must submit a request to
+this effect within twelve months of the Doctoral Programme's
+start to the Faculty Graduate School director.
+
+6.4.
+In very exceptional cases, the Board for Doctorates can award full
+dispensation from taking the DE Programme. The doctoral
+candidate must submit a request to this effect within four months
+of the Doctoral Programme start to the Faculty Graduate School
+director. The Board for Doctorates can specify further
+requirements concerning the maximum scope of this
+dispensation.
+
+
+### Article 7 Go/No Go and premature termination
+
+7.1.
+At the latest one year after the registered start date of the Doctoral
+Programme, a Go/No Go meeting will be held between the doctoral
+candidate and the intended promotor, following which the intended
+promotor will explicitly inform the doctoral candidate of the former's
+expectations concerning the successful completion of the Doctoral
+Programme within a reasonable period. Based on this, the intended
+promotor will decide whether the Doctoral Programme will proceed
+(Go) or will be terminated (No Go).
+
+7.2.
+If the doctoral candidate is working on the Doctoral Programme full-
+time, four years from the start of the Doctoral Programme is deemed
+a reasonable period.
+
+7.3.
+In the decision referred to in paragraph 1, the intended promotor
+will take prior advice from a committee consisting of at least three
+members, including an independent full professor or assistant/
+associate professor holding a doctorate. This independent member
+is not involved in the doctoral research, is from outside the
+promotor's research group and preferably works outside the
+promotor's department. Close family members with an affinity up to
+
+<!-- PageNumber="15" -->
+<!-- PageBreak -->
+
+and including the fourth degree or other persons with such a
+relationship to the doctoral candidate that they cannot make an
+independent judgement will not be eligible to act as committee
+members.
+
+7.4.
+If the intended promotor reaches a Go decision, as a result of which
+the Doctoral Programme can proceed, the intended promotor will,
+within two weeks of the decision, request that the faculty Graduate
+School formally register the doctoral candidate with the Board for
+Doctorates for further admission to the Doctoral Programme. At the
+same time, the intended promotor will ask to be appointed as a
+promotor by the Board for Doctorates and also ask them to appoint
+any copromotor.
+
+7.5.
+Within four weeks of the requests referred to in the previous
+paragraph, the Board for Doctorates will notify the doctoral
+candidate whether the doctoral candidate has been formally
+admitted to the Doctoral Programme and of the appointment of the
+promotor and any copromotor, who will also be notified of this.
+
+7.6.
+If the intended promotor reaches a No-Go decision, the Doctoral
+Programme will end for the doctoral candidate and the doctoral
+candidate's registration at TU Delft will be terminated.
+
+7.7.
+In addition to a termination of the Doctoral Programme as referred
+to in paragraph 6 of this article, the Doctoral Programme will end
+and the doctoral candidate's registration at TU Delft will be
+terminated:
+
+\- through termination by the doctoral candidate;
+
+\- through termination by the Board for Doctorates.
+
+7.8
+If the doctoral candidate wishes to terminate the Doctoral Programme, the
+doctoral candidate will inform the Board for Doctorates in writing, stating
+the reasons. The Board for Doctorates can ask the doctoral candidate, the
+director of the Faculty Graduate School involved and/or the (co)promotor
+for a clarification.
+
+7.9
+The Board for Doctorates can proceed to terminate the Doctoral
+Programme if:
+
+a.
+the doctoral candidate fails to fulfil interim agreements with
+the promotor after being repeatedly summoned in writing to
+meet these requests;
+
+b.
+In interim evaluations, it repeatedly becomes apparent that
+the progress made by the PHD candidate does not provide
+sufficient grounds for the promoter to expect the candidate to
+submit a (draft) dissertation that meets the requirements set
+by the promoter based on the promoter's responsibility for the
+dissertation as the basis for the promotion.
+
+C.
+the doctoral candidate has not, during a period of at least six
+months, responded to repeated requests by the promotor for
+detailed consultation about the content and progress of the
+
+<!-- PageNumber="16" -->
+<!-- PageBreak -->
+
+d.
+(draft) doctoral dissertation;
+
+the Board for Doctorates decides not to appoint another
+promotor as referred to in Article 10 paragraph 6;
+
+e.
+the Board for Doctorates, acting on a proposal by the director
+of the Faculty Graduate School involved or otherwise, deems
+that it cannot reasonably be demanded of the TU Delft to
+continue with the Doctoral Programme.
+
+The termination by the Board for Doctorates will take place in writing,
+stating reasons.
+
+
+#### Article 8 Supervision of the doctoral candidate
+
+8.1.
+A doctoral candidate is supervised, in any event, by a promotor and
+one or two (co)promotor(s). If the doctorate involves collaboration
+with another university or knowledge institution, a fourth (co)promotor
+may be appointed.
+
+8.2
+The Board for Doctorates appoints one or more TU Delft full
+professors or staff members with a doctorate who have been awarded
+the ius promovendi as promotor. The third (co)promotor can be
+replaced by an external adviser. At least one of the promotors must
+have an employment contract with TU Delft and be sufficiently
+available for the performance of the duties and responsibilities of a
+promotor. In addition to the promotor(s) referred to above, a promotor
+from another Dutch or foreign institution for higher education and
+research can be appointed, provided that said promotor has the ius
+promovendi from that institution. In the event that the doctorate
+involves collaboration with another university and four (co)promotor(s)
+are appointed, a maximum of two of the (co)promotor(s) must have an
+employment contract with TU Delft.
+
+8.3
+Close family members with an affinity up to and including the fourth
+degree or other persons with such a relationship to the doctoral
+candidate such that they cannot reasonably be expected to make an
+independent judgement on the doctoral candidate will not be eligible
+to act as promotor or copromotor.
+
+8.4
+A full professor or associate professor given an honourable discharge
+will, until five years after being discharged, retain the right to act as
+promotor to the doctoral candidate for whom the full professor or
+associate professor who has been given an honourable discharge
+was appointed as promotor by the Board for Doctorates, on condition
+that the Board for Doctorates agrees to the continuation of the
+promotorship. In such cases, the Board for Doctorates can determine
+that an additional (co)promotor be appointed from the academic staff.
+
+<!-- PageNumber="17" -->
+<!-- PageBreak -->
+
+8.5
+At the promotor's request the Board for Doctorates can appoint a
+copromotor and/or an external adviser instead of a third (co)promotor.
+The copromotor appointed must be an employee at TU Delft or an
+institute of higher education with which TU Delft as an institution has a
+cooperation agreement. Anyone who has been awarded a doctorate,
+is a member of the academic staff, has specific expertise in the
+scientific area to which the doctoral dissertation relates and does not
+have the ius promovendi can be appointed as copromotor. Anyone
+who is an expert in the scientific area of the doctoral dissertation, or a
+part thereof, can be appointed as an external adviser. The appointed
+copromotor or the external adviser must also be involved in the daily
+supervision of the doctoral candidate.
+
+8.6
+If there are several intended promotors or copromotors, they will
+appoint one of them as coordinator. The coordinator is responsible for
+communication with the doctoral candidate, the Faculty Graduate
+School, the University Graduate School, the Board for Doctorates and
+other parties involved, such as fellow promotors and copromotors, in
+so far it concerns issues related to the Doctoral Regulations. The term
+promotor in these Regulations should be interpreted as 'corresponding
+promotor' and signifies the coordinating (co)promotor. In the event of a
+difference of opinion between the various promotors (or intended
+promotors), the Board for Doctorates will act as it sees fit.
+
+8.7
+The Board for Doctorates will appoint the promotor and possibly also
+the copromotor and the external adviser after a Go decision has been
+made (to proceed with the Doctoral Programme), as stipulated in
+Article 7.
+
+8.8
+The Board for Doctorates may decide not to appoint the (co)promotor
+or external adviser, or to remove an appointed (co)promotor or
+external adviser from their positions in the event of serious neglect of
+their duties and responsibilities. Prior to the decision referred to, the
+Board will give the (co)promotor or external adviser involved the
+opportunity to present their case. At the request of a (co)promotor, the
+Board for Doctorates can also remove a (co)promotor or external
+adviser from their positions.
+
+<!-- PageNumber="18" -->
+<!-- PageBreak -->
+
+
+## Article 9
+
+
+## Duties and responsibilities of promotor and copromotor
+
+9.1.
+The promotor is responsible for supervising the doctoral candidate
+throughout the entire Doctoral Programme and in preparing the
+doctoral dissertation. There will be regular consultations between
+the promotor and the doctoral candidate. The supervision provided
+will aim to ensure that:
+
+a.
+the research is conducted in accordance with Article 5;
+
+b.
+the draft doctoral dissertation is submitted and approved
+within a reasonable period after the start of the doctoral
+research;
+
+C.
+the doctoral candidate develops to become a fully
+fledged scientific researcher;
+
+d.
+the doctoral candidate follows and successfully
+completes the DE Programme;
+
+e.
+the progress of the doctoral candidate is regularly
+discussed, and the resulting agreements are set down in
+writing in a system designated for this and submitted to the
+Faculty Graduate School.
+
+9.2.
+In case a copromotor has been appointed, the tasks and authority
+formulated in these Regulations shall, as far as possible be jointly
+exercised by the promotor and copromotor. In this case, the use of
+the term promotor in these Regulations shall also be understood the
+copromotor, where applicable.
+
+9.3.
+The promotor assesses the draft doctoral dissertation based on
+the requirements that the promotor sets for the dissertation as the
+basis for awarding the doctorate, considering the promotor's
+responsibility for the doctoral dissertation.
+
+In assessing the draft doctoral dissertation, the promotor will take
+account of the following factors:
+
+a.
+the relevance of the subject;
+
+b.
+the importance of the problem definition and its
+precise formulation;
+
+C.
+the originality of the approach and process;
+
+d.
+the scientific nature of the research: organisation, analysis,
+processing of materials and synthesis;
+
+e.
+the presence of creative suggestions with regard to the
+area of science treated in the doctoral dissertation;
+
+f.
+a critical confrontation of the candidate's conclusions with existing
+theories or views;
+
+g.
+a balanced structure in the doctoral dissertation;
+clarity of style, correct and appropriate use of language;
+
+<!-- PageNumber="19" -->
+<!-- PageBreak -->
+
+h.
+the absence of anything at odds with public order or
+decency;
+
+i.
+the absence of plagiarism, and
+
+j.
+the other provisions stipulated in Article 5.2.
+
+9.4.
+In consultation with the doctoral candidate and other persons
+involved in preparing the draft doctoral dissertation, the promotor
+can propose changes and/or additions.
+
+9.5.
+The promotor
+
+–
+–
+notifies the Board for Doctorates in writing that the
+draft doctoral dissertation has been approved;
+attaches the approval of the propositions;
+
+–
+submits a proposal for composition of a
+doctoral committee;
+
+–
+after receipt of the judgement of the doctoral
+committee, provides written notification of the approval
+of the definitive doctoral dissertation and;
+
+–
+
+makes the necessary preparations for the
+doctoral defence ceremony in accordance with
+the Doctoral Regulations and the
+Implementation Decree.
+
+
+## Article 10 Approval of draft doctoral dissertation
+
+10.1.
+Upon the request of the doctoral candidate for the approval of the
+draft doctoral dissertation, the promotor shall decide if the doctoral
+candidate has met the requirements as mentioned in these
+doctoral regulations.
+
+10.2.
+If more than one promotor and/or copromotor have been appointed,
+the approval of the draft doctoral dissertation is reached through
+mutual consultation between them. If consensus is reached, the
+promotor will provide a written notification of this mutual agreement
+to the Board for Doctorates, while also sending a copy to the
+doctoral candidate.
+
+10.3.
+If this consultation does not result in agreement, each promotor will
+notify the Board for Doctorates, while also sending a copy to the
+doctoral candidate, of each promotor's evaluative and substantiated
+judgement, after which the Board for Doctorates will take
+appropriate action.
+
+10.4.
+The promotor shall decide to approve or refuse to approve the
+draft dissertation within two months of receipt of the draft doctoral
+dissertation, unless the doctoral candidate agrees to a longer
+decision period. In case the deadline of this period is exceeded,
+the doctoral candidate may request the Board for Doctorates to
+
+<!-- PageNumber="20" -->
+<!-- PageBreak -->
+
+instruct the promotor to make a decision on the approval by a
+certain deadline. The Board for Doctorates shall decide within
+one week after receiving the request.
+
+10.5.
+In the event of a refusal to approve the draft doctoral dissertation,
+the Board for Doctorates, at the request of the doctoral
+candidate, and after allowing the latter and the promotor the
+opportunity to present their cases, relieve the promotor from their
+respective promotor duties. The Board for Doctorates will appoint
+another promotor, in case it deems that the doctoral trajectory
+can continue, with amendments and modifications to the draft
+doctoral dissertation. The Board for Doctorates will not appoint
+an alternative promotor, when a new appointment is not
+necessary, which may be the case if multiple promotors have
+been appointed. The appointment of an alternative promotor will
+only take place after the dean of the faculty concerned has been
+given the opportunity to offer advice.
+
+10.6.
+If, in the situation described in the previous paragraph, the Board
+for Doctorates judges that the Doctoral Programme cannot
+proceed even with amendments and modifications to the draft
+doctoral dissertation because of its insufficient quality, it will not
+appoint an alternative promotor.
+
+
+### Article 11 Application for doctoral defence ceremony
+
+11.1.
+After the draft doctoral dissertation has been approved by the
+promotor and the doctoral candidate has successfully
+completed the DE Programme, or been awarded full
+dispensation from it, the doctoral candidate can apply for the
+doctoral defence ceremony. For this purpose, the doctoral
+candidate must, with the approval of the promotor, submit a
+request for a provisional defence ceremony date.
+
+11.2.
+The following must be appended to this request:
+
+a.
+the definitive title of the doctoral dissertation and a digital
+copy of the draft doctoral dissertation with propositions;
+
+b.
+a written statement from the promotor confirming that the promotor
+has approved the draft doctoral dissertation, that it is free of
+plagiarism and that all relevant research data/code on which the
+doctoral dissertation is based are FAIR (Findable, Accessible,
+Interoperable and Reusable) by sharing them in a research data
+repository.
+
+<!-- PageNumber="21" -->
+<!-- PageBreak -->
+
+
+## Article 12 Composition of Doctoral Committee
+
+12.1.
+A doctoral committee consists of at least six and at most eight
+members and is composed as follows:
+
+a.
+the Rector Magnificus or a member of the Doctoral
+Examination Working Committee as chairperson;
+
+b.
+the promotor;
+
+C.
+at least four independent members, as described in 12.2;
+
+d.
+possibly one or two extra (co)promotor(s);
+
+e.
+possibly another extra member, which also includes an external
+adviser as referred to in Article 8 of these Regulations.
+
+12.2.
+All members act as examiner during the doctoral defence ceremony
+and have the task of assessing the doctoral dissertation. An
+independent member has not been involved in the preparation of the
+doctoral dissertation. An independent member should be able to give
+an independent assessment of the quality of the doctoral dissertation
+and the doctoral candidate without having any personal stakes in the
+outcomes of the assessment and that of the other members of the
+doctoral committee.
+
+12.3.
+The expertise of the members in the field of science of the doctoral
+dissertation or part of it is required. This requirement does not apply
+to the chairperson.
+
+12.4.
+Close family members with an affinity up to and including the fourth degree or
+other persons with such a relationship to the doctoral candidate that they
+cannot make an independent judgement will not be eligible to act as
+members of the doctoral committee.
+
+12.5.
+At least three independent members will have ius promovendi at a
+Dutch or foreign university, of whom at least one must be employed
+at TU Delft as full professor and at least one at an institute for higher
+education other than TU Delft.
+
+12.6.
+The other members will be holders of a doctorate. The Board for
+Doctorates may depart from this requirement in response to a
+substantiated request from the promotor.
+
+12.7.
+If the doctoral committee includes only one independent member
+who is employed at TU Delft as a full professor, another TU Delft full
+professor must be added to the committee as a back-up member. If
+the doctoral committee consists of four independent members, a
+back-up member must be added to the committee. The back-up
+committee member, does not have to be a full professor at TU Delft
+if the
+
+<!-- PageNumber="22" -->
+<!-- PageBreak -->
+
+committee already has two independent members who have been
+appointed full professors at TU Delft. The back up committee
+member must be available on-call until ten minutes before the time
+of the doctoral defence ceremony and will only be part of the
+committee if the aforementioned independent member is unable to
+take part in the doctoral defence ceremony. The back up member is
+exempt from the assessment of the doctoral dissertation and the
+propositions, but must be sufficiently familiar with the doctoral
+dissertation and the propositions to act as an examiner.
+
+
+## Article 13 Appointment of Doctoral Committee and announcement of provisional doctoral defence date
+
+13.1.
+At the latest twelve weeks before the provisional defence
+ceremony date, the promotor will submit a written and
+substantiated proposal for the composition of the doctoral
+committee. The promotor should be convinced that the members
+will accept the appointment and be present at the doctoral
+defence ceremony on the provisional defence ceremony date.
+This committee proposal will include relevant details concerning
+the proposed committee members, including the evaluation of
+their independence as intended in Article 12.2.
+
+3.2. Within one week after receipt of the committee composition
+proposal, the Board for Doctorates will decide on the appointment
+of members of the doctoral committee. A written notification will be
+sent concerning this decision to the promotor, the doctoral
+candidate and the members of the doctoral committee.
+
+13.3.
+If the Board for Doctorates does not agree to the composition of
+the doctoral committee proposed by the promotor, it will request a
+new proposal on this from the promotor. The Board for Doctorates
+reserves the right to appoint members to the doctoral committee.
+
+13.4.
+The members of the doctoral committee will confirm whether or not
+they agree to their appointment as soon as possible to the Board for
+Doctorates and the promotor, at the latest within two weeks of their
+appointment.
+
+13.5.
+Once the members of the doctoral committee have confirmed
+their presence and availability, the provisional doctoral
+defence date is announced.
+
+<!-- PageNumber="23" -->
+<!-- PageBreak -->
+
+
+## Article 14 Assessment of draft doctoral dissertation by doctoral committee
+
+14.1.
+At the latest in the eleventh week before the provisional
+defence date, the Graduate School Office will send each of the
+proposed members of the doctoral committee and the Board
+for Doctorates a copy of the draft doctoral dissertation.
+
+14.2.
+Within six weeks of their appointment, the doctoral committee
+members will report in writing to the Board for Doctorates and a
+copy thereof to the promotor. They will report on their evaluative
+judgement of the draft doctoral dissertation. The draft dissertation
+should show sufficient evidence that the doctoral candidate is
+capable of independently practising science and whether the
+doctoral candidate can be admitted to the doctoral defence
+ceremony. The promotor makes sure the doctoral committee
+members communicate their judgement timely to the Board for
+Doctorates.
+
+14.3.
+Doctoral committee members can vote on admission to the doctoral
+defence ceremony as follows:
+
+A.
+Approval without reservation: the member considers
+written comments to be unnecessary or advises
+stylistic/textual improvements that have no impact on the
+conclusions but aim to improve readability;
+
+B.
+Approval with reservation: the member is of the opinion
+that essential corrections need to be made to the doctoral
+dissertation before approval can be given for admission
+and gives detailed indications of these to the doctoral
+candidate and the promotor within four weeks of the
+member's appointment to the committee and notifies the
+Board for Doctorates about this;
+
+C.
+No approval: the member does not consider the doctoral
+dissertation to be of sufficient academic quality and level
+and is of the opinion that the doctoral candidate cannot be
+admitted to the doctoral defence ceremony. The member
+may also indicate that a revised version of the draft
+doctoral dissertation can be submitted after serious
+substantive conditions have been met.
+
+14.4.
+The result of the vote referred to in paragraph 3 is 'postponement of
+the doctoral defence ceremony' if at least:
+
+a.
+two members vote according to 14.3 C,
+
+b.
+one member votes according to 14.3 C and two according to 14.3 B,
+or
+
+C.
+three members vote according to 14.3 B.
+
+14.5.
+If the vote of the members of the doctoral committee shows
+that the doctoral candidate can be admitted to the doctoral
+
+<!-- PageNumber="24" -->
+<!-- PageBreak -->
+
+defence ceremony, the doctoral candidate and the promotor, if
+applicable, must take the written comments referred to in
+paragraph 3 into account in the definitive version of the
+doctoral dissertation. On the basis of the written comments of
+a committee member, the Board for Doctorates can decide to
+contact the promotor to ascertain whether these comments
+are being taken into account in the definitive version of the
+doctoral dissertation.
+
+14.6.
+If the result of the vote is 'postponement of the doctoral defence
+ceremony', the Board for Doctorates will give the promotor an
+opportunity to present a counterargument. The Board for
+Doctorates will urge the promotor to take account of the
+committee's objections in a new draft doctoral dissertation. If the
+promotor, following consultation with the doctoral candidate, agrees
+to a new draft doctoral dissertation being prepared and to the
+postponement, a new defence ceremony date will be agreed on,
+after the revised draft doctoral dissertation has been approved. The
+revised draft doctoral dissertation will be resubmitted to the doctoral
+committee, who will again assess it and vote in accordance with
+this Article.
+
+14.7.
+If the involvement of the Rector Magnificus referred to in paragraph
+6 does not result in agreement with the promotor, the Board for
+Doctorates will decide on the postponement of the doctoral defence
+ceremony. Based on its findings, the Board for Doctorates can
+refuse to hold the doctoral defence ceremony if it does not have
+confidence that its postponement will result in improved quality of
+the doctoral dissertation. In that case, the doctoral committee will be
+disbanded, and the Board for Doctorates will then act according to
+the relevant circumstances.
+
+
+## Article 15 Preparations for the doctoral defence ceremony
+
+15.1.
+After the promotor has approved the definitive doctoral dissertation,
+and has notified the Board for Doctorates about this, the date and
+time of the doctoral defence ceremony are set definitively on behalf
+of the Board for Doctorates.
+
+15.2.
+The Graduate School Office will ensure that the doctoral
+defence ceremony is announced at least one week before the
+set date. The Graduate School Office will ensure that the
+doctoral candidate is aware of the doctoral defence ceremony
+protocol at least two weeks before the doctoral defence
+ceremony. Two weeks before the doctoral defence ceremony
+at the latest, the doctoral candidate will contact the chairperson
+of the doctoral committee and make an appointment with the
+chairperson. If desired, the doctoral candidate will also make
+
+<!-- PageNumber="25" -->
+<!-- PageBreak -->
+
+an appointment with the other members of the doctoral
+committee.
+
+15.3.
+If persons who are not members of the doctoral committee wish to
+examine the candidate, a written request to this effect must be
+submitted at the latest two weeks before the provisional defence
+ceremony date to the Board for Doctorates, which will make a
+decision on whether to honour the request within one week. An
+examiner of this type must hold a doctorate or be authorised to act
+as a promotor.
+
+
+## Article 16 Doctoral defence ceremony
+
+16.1.
+The doctoral defence ceremony takes place in public before the
+Board for Doctorates or a doctoral committee established by it. The
+doctoral defence ceremony is chaired by the Rector Magnificus, a
+member of the Doctoral Examination Working Committee or a
+member of the Board for Doctorates. The doctoral committee
+convenes for a closed meeting before the public defence. In the case
+of exceptional circumstances or on the basis of a substantial request
+by the doctoral candidate, the Board for Doctorates can decide to
+hold a fully or partially closed doctoral defence ceremony.
+Such a request must be submitted two weeks before the doctoral
+defence ceremony, if possible.
+
+16.2.
+The doctoral candidate will spend one hour defending the
+doctoral dissertation and the propositions in the face of the
+reservations of the doctoral committee, as well as anyone given
+permission in accordance with Article 15.3. During the defence
+of the doctoral dissertation and the propositions, the doctoral
+candidate can be assisted by one or two paranymphs
+(supporters).
+
+16.3.
+After the defence, the session will be adjourned for deliberations
+by the doctoral committee.
+
+16.4.
+If permission is obtained in advance from the Board for
+Doctorates, it is possible for the doctoral defence ceremony to
+take place partially in digital form, whereby members of the
+doctoral committee will participate via a secure video connection
+provided by the Board for Doctorates. In exceptional cases it may
+be permitted for the doctoral candidate (also) to take part in the
+session by digital means. The chairperson and at least one
+promotor from the doctoral committee are always physically
+present at the session. The chairperson determines the procedure
+during a hybrid session.
+
+<!-- PageNumber="26" -->
+<!-- PageBreak -->
+
+
+## Article 17 Awarding of the degree of Doctor
+
+17.1.
+The decision on the awarding of the degree of Doctor will be
+taken in a closed meeting of the doctoral committee immediately
+after the adjournment of the doctoral defence ceremony. The
+chairperson will ask the members for their judgement on the
+defence in particular and will also take into account the quality of
+the doctoral dissertation and propositions. If at least one member
+of the doctoral committee demands it, a roll call vote will be held
+on the proposal to award the degree of Doctor. In this context, the
+committee members vote for or against awarding, or abstain. The
+degree of Doctor is not awarded if at least:
+
+a.
+two members vote against;
+
+b.
+one member votes against and two members abstain;
+
+C.
+three members abstain.
+
+In appropriate cases, the chairperson can issue a written
+report on the closed meeting to the Board for Doctorates.
+
+17.2.
+If the degree of Doctor is awarded, the chairperson of the doctoral
+committee and the promotor (and where applicable also the
+copromotor) will sign the certificate. When the doctoral defence
+ceremony is reconvened, the chairperson will inform the doctoral
+candidate that the doctoral committee has decided on behalf of the
+Board for Doctorates to award the doctoral degree.
+
+If the designation cum laude is also to be attached to the doctorate,
+this will also be announced. The chairperson will explicitly draw the
+attention of the Doctor to the scientific integrity associated with
+obtaining a doctorate.
+
+17.3.
+In the event that the degree of Doctor is not awarded after the vote referred to
+in paragraph 1,
+
+a.
+the chairperson will inform the doctoral candidate of this during the
+meeting referred to in paragraph 1,
+
+b.
+after reconvening the doctoral defence ceremony, the
+chairperson will announce that the awarding of the
+degree of Doctor is to be postponed and will then close
+the session, and
+
+C.
+the chairperson will provide notification of the decision
+made by the doctoral committee in writing to the Rector
+Magnificus who will then convene a special session of the
+doctoral committee, together with the Board for
+Doctorates.
+
+17.4.
+The result of the session referred to in paragraph 3 c can either be
+that the doctoral candidate is readmitted to defend the doctoral
+dissertation and propositions or that the degree of Doctor is not
+
+<!-- PageNumber="27" -->
+<!-- PageBreak -->
+
+awarded. The Rector Magnificus will inform the doctoral candidate of
+this decision in writing, together with the reasons for it.
+
+17.5.
+Candidates who are awarded the degree of Doctor receive the
+certificate referred to in paragraph 2. The form and content of the
+certificate is established by the Board for Doctorates. If the
+designation cum laude referred to in Article 18 is awarded, this is
+indicated on the certificate.
+
+17.6.
+On request, the Board for Doctorates will issue a replacement
+certificate to the owner of the certificate referred to in paragraph 2 in
+connection with a change to the name of the person in question as
+a consequence of the application of Articles 4, fourth paragraph, 7,
+first paragraph, or 28b second paragraph of Book 1 of the Dutch
+Civil Code. The replacement certificate will contain no other
+changes to the original relevant details. The replacement certificate
+is to be issued after proof of identity has been provided and subject
+to the condition that the original certificate is handed in to the TU
+Delft Graduate School Office.
+
+
+## Article 18 Awarding of the degree of Doctor with designation cum laude
+
+18.1.
+If the promotor or another member of the doctoral committee is of
+the opinion that the doctoral dissertation shows evidence of
+exceptional competence on the part of the doctoral candidate to
+practice science independently, the promotor or another member of
+the doctoral committee can submit a proposal in writing, including
+full substantiation, for the awarding of the degree of Doctor with
+designation cum laude. A proposal of this kind can only be
+submitted after the promotor has agreed to it. The proposal will be
+accompanied by a recent curriculum vitae of the doctoral candidate
+and at least two letters of recommendation from leading external
+experts in the area of science concerned, who are not members of
+the doctoral committee. These experts are not close family members
+with an affinity up to and including the fourth degree or have such a
+relationship to the doctoral candidate that they cannot make an
+independent judgement about the doctoral candidate.
+
+18.2.
+The following criteria apply to the awarding of the designation cum laude:
+
+a.
+the doctoral research conducted is pioneering and
+innovative;
+
+b.
+the candidate has reached the result independently;
+
+C.
+the doctoral dissertation was completed within a
+reasonable period;
+
+d.
+the candidate's publications and appearances in the
+scientific community have made an impression on
+
+<!-- PageNumber="28" -->
+<!-- PageBreak -->
+
+e.
+
+leading colleagues;
+
+the candidate has preferably also demonstrated
+the implications of the research for technology
+and science.
+
+The doctoral committee can also take into account publications or
+other evidence of outstanding scientific quality.
+
+18.3.
+The proposal referred to in paragraph 1 must be in the
+possession of the Rector Magnificus at the latest five weeks
+before the agreed defence ceremony date. The Rector
+Magnificus will assess whether the nomination meets the
+procedural criteria. If the proposal is declared admissible, the
+Rector Magnificus will notify the other members of the doctoral
+committee and issue them with copies of the proposal and the
+referees' letters. If the proposal is not sufficiently substantiated to
+enable a decision to be taken, the Rector Magnificus will contact
+the promotor. The proposal may be rewritten and enhanced, after
+which the Rector Magnificus will make a decision on the
+application. If the proposal is rejected, the applicant and the
+chairperson of the doctoral committee are notified to this effect.
+
+The proposal as well as the referees' letters must be handled strictly
+and confidentially at all times and only made known to members of
+the doctoral committee.
+
+18.4.
+If a proposal to award the degree of Doctor with designation cum
+laude has been made and there are no objections from the Board for
+Doctorates, the doctoral committee will include it in its deliberations
+prior to the doctoral defence ceremony.
+
+18.5.
+Deliberations will be held on the proposal to award the degree of
+Doctor with designation cum laude during the meeting referred to in
+Article 17.1. This will involve: the proposal, the content of the
+doctoral dissertation and the propositions and their defence, the
+criteria for the awarding of the designation cum laude and the letters
+of recommendation.
+
+18.6.
+After the deliberations referred to in Article 17.1, all members of the
+doctoral committee will vote anonymously and in writing on the
+proposal to award the degree of Doctor with designation cum laude
+and the decision on the awarding of it will be made. The following
+voting protocol applies. The proposal will be rejected if at least:
+
+a.
+two members vote against;
+
+b.
+one member votes against and two members abstain;
+
+C.
+three members abstain.
+
+Article 19
+Disputes
+
+<!-- PageNumber="29" -->
+<!-- PageBreak -->
+
+19.1.
+For these Regulations, a dispute is interpreted to mean an
+objection to a decision by or on behalf of the Board for Doctorates
+within the meaning of the General Administrative Law Act
+(Algemene wet bestuursrecht) or a complaint against the conduct
+of a doctoral candidate, promotor, copromotor, doctoral committee
+member or another person involved in the Doctoral Programme.
+The handling of a dispute will be subject to the General
+Administrative Law Act (Algemene wet bestuursrecht). A dispute
+concerning the legal status of a doctoral candidate with an
+appointment is not included in this definition of dispute.
+
+19.2.
+An interested party can lodge an objection with the Board for
+Doctorates to a decision by or on behalf of the Board for
+Doctorates within six weeks of being informed of the decision.
+
+19.3.
+An independent committee appointed by the Board for Doctorates
+will give advice on the objection. The Implementation Decree will
+include further details of the composition and working methods of
+the committee.
+
+19.4.
+The committee will give the parties involved the opportunity to
+present their cases and will be entitled to elicit information that is
+necessary for it to exercise its duty responsibly.
+
+19.5.
+Within six weeks of the objection being lodged, the committee will
+issue written advice to the Board for Doctorates together with a
+report of the hearings.
+
+19.6.
+The Board will decide on the objection with due observance of the
+time periods specified in the General Administrative Law Act.
+
+19.7.
+The provisions of paragraphs 2 to 6 will apply mutatis
+mutandis to the handling of a complaint as defined in the first
+paragraph.
+
+Article 20
+Mediation
+
+20.1.
+Before a dispute can be handled, the Board for Doctorates must
+submit the dispute for mediation to the director of the Faculty
+Graduate School or to another person appointed for this purpose
+by the Board for Doctorates. The mediator will investigate whether
+an amicable settlement of the dispute is possible and will hold
+hearings with the parties involved in the dispute for this purpose.
+
+20.2.
+If the mediation does not result in agreement within four weeks, the
+person who raised the dispute can request, within two weeks after
+completion of the mediation, that the Board for Doctorates handle
+the dispute. With the consent of the person who raised the dispute,
+
+<!-- PageNumber="30" -->
+<!-- PageBreak -->
+
+the deadlines in Articles 19.5 and 19.6 will be extended to take
+account of the mediation.
+
+20.3.
+An interested party can turn to the director of the Faculty Graduate
+School directly for mediation in a dispute. Paragraph 1, sentence 2
+and paragraph 2, sentence 1 apply in this case. The period for
+submitting a dispute to the Board for Doctorates will, by way of
+departure from Article 19.2, begin after the interested party has been
+notified of the result of mediation.
+
+20.4.
+This article does not apply to an objection by a doctoral
+candidate to a No-Go decision by the intended promotor,
+referred to in Article 7.6.
+
+20.5.
+The provisions of paragraphs 1 to 3 of this Article will apply mutatis
+mutandis to the handling of a complaint as defined in the first
+paragraph of Article 19.1.
+
+
+## Article 21 Honorary doctorate
+
+21.1.
+Following nomination by a dean or the Executive Board, the Board
+for Doctorates has the power to award an honorary doctorate to:
+
+a.
+a person who has conducted research that has been
+shown to be of exceptional significance to the practice of
+science at the university or for science in general, and that
+of TU Delft in particular;
+
+b.
+a person who, from a scientific, cultural or societal
+perspective, has either directly or indirectly
+contributed exceptionally to academic education
+and research.
+
+21.2.
+If the Board for Doctorates intends to approve a nomination by a
+dean to award an honorary doctorate, the Executive Board will be
+invited to present its views on this nomination in confidence. After
+taking cognisance of the Executive Board's position, the Board for
+
+<!-- PageNumber="31" -->
+<!-- PageBreak -->
+
+Doctorates will make a decision on the awarding of the honorary
+doctorate.
+
+21.3.
+If the Board for Doctorates decides to award an honorary doctorate,
+it will also appoint one or more TU Delft full professors as promotor.
+Confidential notification of the decision will be made to the doctoral
+candidate, the promotor and the dean of the faculty involved. The
+decision will not be made public until the doctoral candidate has
+declared a willingness to accept the honorary doctorate.
+
+21.4.
+The awarding of the honorary doctorate will take place in a public,
+special session of the Board for Doctorates. On behalf of the
+Rector Magnificus, the promotor will confer the dignity awarded on
+the honorary doctoral candidate, while expressing words of praise
+and appreciation. As proof of the dignity awarded, the honorary
+Doctor will be presented with a shoulder cape and a certificate
+signed by the Rector Magnificus.
+
+
+## Article 22 Final provisions
+
+22.1.
+The Board for Doctorates can determine more specific rules in the
+Implementation Decree, including rules concerning the following:
+
+a.
+admission to the doctoral defence ceremony in exceptional cases
+(Article 2.3);
+
+b.
+the joint doctorate (Article 2.4);
+
+C.
+the requirements for and the form of the doctoral dissertation;
+
+d.
+the requirements for and the form of the propositions;
+
+e.
+the procedure for the doctoral conferral ceremony and the defence;
+
+f.
+the settlement of disputes;
+
+g.
+continuation of promotorship after the honourable discharge of a full
+professor.
+
+22.2.
+The Board for Doctorates may prescribe (digital) forms that must be
+used by the parties involved in the acts included in these
+Regulations.
+
+22.3.
+In cases not covered in these Doctoral Regulations, or if any Article
+is susceptible to multiple interpretations, the Board for Doctorates
+will decide.
+
+22.4.
+Anyone who wishes to be exempted from a provision in the
+Doctoral Regulations must submit a written and substantiated
+request to that effect to the Board for Doctorates, which will reach a
+decision on it within 30 days.
+
+22.5.
+In exceptional cases, the Board for Doctorates can allow
+substantiated departures from that stipulated in these Regulations ..
+
+<!-- PageNumber="32" -->
+<!-- PageBreak -->
+
+
+## Article 23 Transitional provisions
+
+Decisions that precede the entry into force of these Regulations, or any
+amendments to it, made concerning the appointment of the promotor and
+copromotor, the composition of the doctoral committee or exemptions from or
+amendments to that stipulated in these Regulations will remain in full force.
+
+<!-- PageNumber="33" -->
+<!-- PageBreak -->
+
+<!-- PageNumber="34" -->
+<!-- PageBreak -->
+
+
+# TUDelft Implementation decree on Doctoral Regulations 2023
+
+
+<figure>
+</figure>
+
+
+<!-- PageBreak -->
+
+
+## Implementation decree on Doctoral Regulations 2023
+
+<!-- PageBreak -->
+
+
+### Implementation decree on Doctoral Regulations
+
+This implementation decree clarifies a number of articles of the TU Delft
+Doctoral Regulations 2023 and provides guidelines on protocol and practice
+for their implementation and enforcement, as mentioned in Article 22 and
+other articles of the Doctoral Regulations, accepted by the Board for
+Doctorates on 19 June 2023.
+
+<!-- PageBreak -->
+
+
+### Table of Contents
+
+
+<table>
+<tr>
+<td>A.</td>
+<td>Admission to the doctoral defence ceremony in exceptional cases (Article 2.3 Doctoral Regulations)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>B.</td>
+<td>Joint doctorate (Article 3 Doctoral Regulations)</td>
+<td>6</td>
+</tr>
+<tr>
+<td rowspan="2">C.</td>
+<td rowspan="2">Further explanation of Doctoral Education Programme (Article 6 Doctoral Regulations)</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+</tr>
+<tr>
+<td rowspan="2">D.</td>
+<td rowspan="2">Requirements and format of doctoral dissertation (Articles 5 and 9.3 Doctoral Regulations)</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+</tr>
+<tr>
+<td rowspan="2">E.</td>
+<td>Requirements for the propositions</td>
+<td></td>
+</tr>
+<tr>
+<td>(Article 9.5 Doctoral Regulations)</td>
+<td>17</td>
+</tr>
+<tr>
+<td>F.</td>
+<td>Preparation for and procedures during the doctoral defence ceremony and the awarding of the degree of doctor</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(Articles 15, 16, 17 and 18 Doctoral Regulations)</td>
+<td>18</td>
+</tr>
+<tr>
+<td rowspan="2">G.</td>
+<td>Disputes Advisory Committee</td>
+<td></td>
+</tr>
+<tr>
+<td>(Article 19.3 Doctoral Regulations)</td>
+<td>25</td>
+</tr>
+<tr>
+<td rowspan="2">H.</td>
+<td rowspan="2">Continuation of promotorship after the honourable discharge of a full professor (Article 8.4 Doctoral Regulations)</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+</tr>
+</table>
+
+
+Appendices:
+
+
+<table>
+<tr>
+<td>I:</td>
+<td>Further remarks on the propositions</td>
+<td>27</td>
+</tr>
+<tr>
+<td>I.</td>
+<td>Certificate</td>
+<td>29</td>
+</tr>
+<tr>
+<td>III:</td>
+<td>Timeline for final phase of Doctoral Programme</td>
+<td>30</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+#### A. Admission to the doctoral defence ceremony in exceptional cases (Article 2.3 Doctoral Regulations)
+
+1\.
+Any individual who does not meet the educational requirements
+specified in Article 2.2 paragraph a of the TU Delft Doctoral
+Regulations may submit a request to the Board for Doctorates to
+gain admission to the doctoral defence ceremony:
+
+a. if the individual can provide proof of possession of a diploma that
+is comparable to the Dutch Master level;
+
+b. If 1.a does not apply: on the basis of a reasoned
+recommendation from the intended promotor for exemption
+from these requirements.
+
+2\.
+a. The applicant must submit the following, in the context of the
+assessment of Article 1.a:
+
+\- a certified copy of the highest-level certificate of
+education obtained by the applicant;
+
+\- the transcript of records pertaining to these certificates;
+
+\- if the certificate and the transcript of records are not written in
+Dutch, English, French or German, certified translations of
+these documents into Dutch or English should also be included;
+
+\- a curriculum vitae;
+
+b. In the context of assessment of the request on the basis of
+article 1.b, and before submission of the documents referred to
+in paragraph a of this article, the applicant must submit a
+reasoned recommendation by the promotor explaining why the
+candidate should be admitted to the doctoral programme.
+Existing expertise and relevant work experience in the field
+should also be described in detail.
+
+c. The request described in paragraph b of this article must be
+submitted to the Faculty Graduate School director. If the director
+approves, said director will submit the request together with any
+recommendations to the Board for Doctorates.
+
+d. The Board for Doctorates will decide on the basis of the documents
+submitted whether the applicant will be allowed to start the doctoral
+programme. The Board for Doctorates may impose additional
+requirements for the Doctoral Education Programme to be followed
+by the candidate.
+
+e. The Graduate School Office notifies the intended promotor and the
+candidate as quickly as possible regarding the decision taken.
+
+<!-- PageNumber="5" -->
+<!-- PageBreak -->
+
+
+#### B. Joint doctorate (Article 3 Doctoral Regulations)
+
+1\.
+The following criteria are used in the evaluation by the Board for
+Doctorates (although others may be added) in addition to the
+academic criteria that apply to every doctorate:
+
+a. the strategic importance to TU Delft of the collaboration;
+
+b. the reputation (ranking) of the partner institution;
+
+c. the practicability of cooperation;
+
+d. the financial consequences resulting from the cooperation.
+
+
+#### 2. The following variants are possible for joint doctorates:
+
+
+##### a. A joint doctorate degree leading to one coherent diploma per institution
+
+A joint doctorate leading to one coherent (dual) diploma from each
+institution, as defined in article 3.1.b of the Doctorate Regulations,
+is possible under the following conditions:
+
+\- There is a long-term collaboration between the partner
+institutions (guideline: minimum duration of 10 years), as
+evidenced by a cooperation agreement between them, in
+accordance with the model given in the 'Guidelines for drawing
+up agreements for joint doctoral supervision' (hereinafter:
+Guidelines);
+
+\- Several doctoral candidates should be involved in this
+collaboration under the supervision of both institutions and
+for whom both have a shared responsibility (guideline: at
+least 10 doctoral candidates);
+
+\- For the joint responsibility of providing supervision to the
+doctoral candidate, an agreement will be made regarding the
+mutually applicable quality standards for the Doctoral
+Programme and the doctoral dissertation in accordance with
+the model set out in the Guidelines. This agreement is signed
+by the Rector Magnificus, as chairperson of the Board for
+Doctorates;
+
+\- Agreements are made for the joint doctoral research and
+Doctoral Education between the partner institutions, the
+promotors and the candidate in accordance with the model set
+out in the Guidelines. A copy of this agreement must be
+submitted to the Faculty Graduate School within 3 months of
+commencement of the doctoral research.
+
+
+##### b. One diploma
+
+A joint doctorate leading to one (joint) diploma, as defined
+in Article 3.1.a of the Doctorate Regulations, is possible
+only in exceptional cases. The explicit permission of the
+Board for Doctorates is required for this, which must
+consult in advance with the Executive Board on this
+matter.
+
+<!-- PageNumber="6" -->
+<!-- PageBreak -->
+
+3\.
+The stipulations in the Doctoral Regulations will apply to the joint
+doctorate, unless a departure from these stipulations is authorised by
+the Board for Doctorates. Regulations and additional requirements
+can only be deviated from in exceptional circumstances:
+
+a. Successful completion of the DE programme (Article 6 Doctoral
+Regulations);
+
+b. The composition of the doctoral committee (Article 12 Doctoral
+Regulations). Additional requirement, replacing Article 12.5 of the
+Doctoral Regulations: At least three independent members will
+have ius promovendi at a Dutch or foreign university, of whom at
+least one must be employed at TU Delft or at the partner institution
+as a full professor and at least one at an institute for higher
+education other than TU Delft or the partner institution;
+
+C.
+Requirements for the doctoral dissertation (art. 9 and 14
+Doctoral Regulations, Executive Decision parts D and E).
+Additional requirement: supervision by partner institution to be
+mentioned on reverse side of the title page;
+
+d. The doctoral defence ceremony must be held at TU
+Delft (Executive Decision part F);
+
+e. Any doctorate issued on behalf of TU Delft cannot include the
+designation 'cum laude'.
+
+Unless otherwise agreed, the defence will be held at TU Delft in accordance
+with the TU Delft Doctoral Regulations, and one diploma will be issued by
+TU Delft, in accordance with the guidelines of TU Delft. The partner
+institution will also issue a diploma.
+
+4\.
+To the diploma to be issued, the following will apply:
+
+a.
+\- Both partner institutions refer to the cooperation in the diploma
+text.
+
+\- On the TU Delft diploma, in addition to the usual text, the
+following words are to be included:
+
+'This is a dual diploma together with the following partner institute for higher
+education:
+... [name, city, country] ... ,
+stipulated in the diploma supplement and approved by the Board for
+Doctorates.'
+
+\- The partner institution must include the above text or
+words of similar meaning on the diploma, the diploma
+supplement or another document.
+
+<!-- PageNumber="7" -->
+<!-- PageBreak -->
+
+b. A supplement written in English will be added to the TU
+Delft diploma stating:
+
+\- the name of the research groups and supervisors who were
+involved in the realisation of the dissertation;
+
+\- the subject of the research;
+
+\- the education and training courses completed, if these are not stated on
+the Doctoral Education certificate;
+
+\- the conferences at which the candidate has presented
+the work done;
+
+\- the publications to which the candidate has made a significant
+contribution, as evidenced by (co)authorship.
+
+The partner institution must include the above sections insofar
+as possible on the diploma supplement or another document.
+
+c. The TU Delft Graduate School Office will provide a template for
+the diploma supplement to be completed by the promotors. The
+promotors may also propose adding relevant information relating
+to the research and the education of the candidate. The
+completed template is submitted, along with the approval of the
+draft doctoral dissertation, to the Graduate School Office. The
+Graduate School Office takes care of production of the
+supplement, which is given a TU Delft seal and is signed by the
+chairperson of the Board for Doctorates of TU Delft.
+
+5\.
+Regarding the doctoral defence ceremony, a formal statement will
+be drawn up for the benefit of the partner institution detailing which
+formal procedures relating to the evaluation of the doctoral
+dissertation, its doctoral defence, and the awarding of the degree of
+doctor have taken place. The statement will be signed by the
+Rector Magnificus, or by an equivalent officer, together with the
+diploma.
+
+<!-- PageNumber="8" -->
+<!-- PageBreak -->
+
+
+##### C. Further explanation of Doctoral Education Programme (Article 6 Doctoral Regulations)
+
+1\.
+The Doctoral Education (DE) program consists of the following three
+categories: transferable, research-related and discipline-related
+skills. For each category, a candidate must obtain 15 GS credits,
+making a total of 45 GS credits, of which at least 5 GS credits must
+be obtained by completing Learning on-the-job activities. 1 GS credit
+equals 12 hours of Doctoral Education which includes up to four
+hours of self- study.
+
+2\.
+The Board for Doctorates oversees the quality of the programme's
+contents and can impose further quality requirements and/or reject
+courses that do not conform to the overall quality requirements. In
+addition, the Board for Doctorates may require certain courses to be
+completed, such as an introductory course or a career development
+course.
+
+3\.
+On the basis of a request by the doctoral candidate, the Board for
+Doctorates can decide to grant the doctoral candidate an exemption
+for part of the DE programme. In order to be able to attain a DE
+certificate despite the exemption, the doctoral candidate must have
+obtained at least 30 GS credits.
+
+The following rules will apply in the case of an exemption request:
+
+a. The application must be supplemented by a reasoned
+request written entirely by the candidate;
+
+b. The promotor and the FGS support the request before it is
+sent to the Board for Doctorates via the UGS;
+
+c. An exemption request must be submitted within one year after the start date
+of the Doctoral Programme and involve a minimum of 5 GS credits;
+
+d. No exemption will be granted for learning on-the-job activities.
+
+4\.
+On the basis of a request by the doctoral candidate, the Board for
+Doctorates can decide to grant said the doctoral candidate dispensation
+from the DE obligation, which means that the doctoral candidate is
+wholly exempted from it. A dispensation is granted only in exceptional
+circumstances, for example to very experienced doctoral candidates
+who can demonstrate that they already have all the required skills at a
+high level. The intended promotor and the doctoral candidate believe
+that there are valid reasons to request a full dispensation from the DE
+programme. A request for dispensation must be submitted within the
+first four months from the start date of the Doctoral Programme to the
+director of the Faculty Graduate School, who - if the director agrees to
+it - will present the request to the Board for Doctorates. The granting of
+the dispensation means that no DE certificate will be issued.
+
+<!-- PageNumber="9" -->
+<!-- PageBreak -->
+
+
+#### D. Requirements and format of doctoral dissertation (Articles 5 and 9.3 Doctoral Regulations)
+
+
+##### 1. Contents
+
+1.1.
+The subject of the doctoral dissertation must relate to the
+academic fields into which research is being conducted at the
+university.
+
+1.2.
+The doctoral dissertation must clearly demonstrate the ability of the
+candidate to practise science in an independent manner. It will consist
+of a scientific treatise, or a collection of articles previously published by
+the candidate, or a combination of both of these.
+
+1.3.
+If one or more articles have been written by multiple authors, only
+articles written predominantly by the doctoral candidate will be
+accepted as doctoral articles. The doctoral candidate and the promotor
+are responsible for ensuring that the other authors of articles included
+in the doctoral dissertation have given their consent for this in writing.
+
+1.4.
+The doctoral dissertation must be free of plagiarism. The promotor is
+responsible for ensuring that this is the case and is to make a statement
+to this effect upon approving the draft doctoral dissertation. TU Delft
+requires the promotor and doctoral candidate to submit a digital version
+of the (draft) doctoral dissertation for a plagiarism scan using the
+software made available for this by the TU Delft Library.
+
+1.5.
+The doctoral dissertation, particularly any foreword and/or epilogue,
+may include a brief word of thanks expressed in an appropriate form of
+language and in consultation with the promotor.
+An acknowledgements section is also permitted, as is common practice
+in international literature. These sections will not be considered as
+proof of aptitude for the independent practice of science. With the
+exception of these sections, the doctoral dissertation will not include
+any expressions of beliefs (religious or otherwise), advertisements or
+other writing that does not relate directly to the doctoral dissertation. To
+the extent that such elements are contained in the text, they will be very
+limited in size, and will not be offensive or contrary to public order or
+common decency, and will comply with article 5.2 of the Doctorate
+Regulations.
+
+<!-- PageNumber="10" -->
+<!-- PageBreak -->
+
+6\. The doctoral dissertation should also state which flow of funds
+was used to (partly) finance the research , whereby the following
+distinctions are to be made:
+
+a. first flow of funds: funds allocated by the Ministry of Education, Culture and
+Science to the university, including research, policy and education incentive
+funds, etc.
+
+b. second flow of funds: funds allocated by the Ministry of
+Education, Culture and Science via the Netherlands
+Organisation for Scientific Research (NWO) and its
+foundations such as FOM, STW and SON;
+
+C.
+third flow of funds: funds from industry, institutions or
+organisations, but also from the Royal Netherlands Academy
+of Arts and Sciences (KNAW), IOP (even if FOM or STW act
+as administrative secretary), the EU, or the Ministries of
+Economic Affairs and Education, Culture and Science
+themselves;
+
+d.
+fourth flow of funds: from other sources, such as self-
+acquired grants or scholarships, donations, awards, interest,
+profits from projects, etc.
+
+
+##### 2. Structure
+
+The doctoral dissertation is to be structured as follows:
+
+a.
+a title page;
+
+b.
+a table of contents;
+
+C.
+a summary in Dutch and English;
+
+d.
+a foreword (optional);
+
+e.
+an introductory chapter, which explains the substantive coherence
+of the issues addressed in the subsequent chapters;
+
+f.
+chapters containing treatises about the research and/or the design,
+either based on prior publications by the candidate or not;
+
+g.
+a concluding chapter explaining the scientific and technical
+implications for society of the research findings in considerable
+detail;
+
+h.
+an epilogue (optional);
+
+i.
+an acknowledgements section (optional);
+
+j.
+curriculum vitae and a list of the doctoral candidate's publications.
+
+The propositions are to be added to the doctoral dissertation on a
+separate sheet (Executive Decision Part E).
+
+
+#### Re: a. title page
+
+The title page consists of two sides.
+
+The front of the English-language title page bears the following text:
+
+<!-- PageNumber="11" -->
+<!-- PageBreak -->
+
+[ ... Title of dissertation ... ]
+Dissertation
+for the purpose of obtaining the degree of doctor
+at Delft University of Technology
+by the authority of the Rector Magnificus [titles, name];
+
+Chair of the Board for Doctorates
+to be defended publicly on
+[date: weekday (in full) day (number), month (in full) year (number)] at
+[hh:mm] o'clock
+by
+[first names in full and SURNAME in upper case]
+[highest academic title, name university, country]
+born in [town/city, country of birth]
+
+The reverse of the English-language title page bears the following
+
+text: This dissertation has been approved by the promotor[s].
+
+Composition of the doctoral committee:
+
+Rector Magnificus,
+chairperson
+[titles name]
+Delft University of Technology, promotor
+[Dr. titles name]
+[affiliation], copromotor
+
+Independent members:
+
+
+<table>
+<tr>
+<td>Prof. [titles name]</td>
+<td>Delft University of Technology</td>
+</tr>
+<tr>
+<td>[titles name]</td>
+<td>[affiliation]</td>
+</tr>
+<tr>
+<td>[titles name]</td>
+<td>[affiliation]</td>
+</tr>
+<tr>
+<td>[titles name]</td>
+<td>[affiliation]</td>
+</tr>
+</table>
+
+
+The front of the Dutch-language title page bears the following text:
+
+[
+
+.... Title of dissertation ... ]
+
+Proefschrift
+ter verkrijging van de graad van doctor
+aan de Technische Universiteit Delft,
+op gezag van de Rector Magnificus prof. [titels, naam];
+voorzitter van het College voor Promoties,
+in het openbaar te verdedigen op
+[date: weekday (in full) day (number), month (in full) year (number)] at
+[hh:mm] o'clock by
+
+[first names in full and SURNAME in capital letters] [academic title in full,
+name of university, country]
+geboren te [town/city, country of birth]
+
+The reverse of the Dutch-language title page bears the following text:
+
+<!-- PageNumber="12" -->
+<!-- PageBreak -->
+
+Dit proefschrift is goedgekeurd door de promotor[en].
+
+Samenstelling promotiecommissie bestaat uit:
+
+
+<table>
+<tr>
+<th>Rector magnificus,</th>
+<th>voorzitter</th>
+</tr>
+<tr>
+<td>[titels naam]</td>
+<td>TU Delft, promotor</td>
+</tr>
+<tr>
+<td>[titels naam]</td>
+<td>[affiliatie], copromotor</td>
+</tr>
+</table>
+
+
+onafhankelijke leden:
+
+
+<table>
+<tr>
+<td>Prof. [titels naam]</td>
+<td>TU Delft</td>
+</tr>
+<tr>
+<td>[titels naam]</td>
+<td>[affiliatie]</td>
+</tr>
+<tr>
+<td>[titels naam]</td>
+<td>[affiliatie]</td>
+</tr>
+<tr>
+<td>[titels naam]</td>
+<td>[affiliatie]</td>
+</tr>
+</table>
+
+
+To be added to this, where applicable:
+
+a. the second promotor and/or copromotor;
+
+b. other members of the doctoral committee (not being independent
+members); a substitute member;
+
+c. an explanation about any significant contributions to the
+preparation of the dissertation by any member of the
+committee: '[titles name] [affiliation] has, as supervisor,
+contributed significantly to the preparation of this dissertation.
+
+If the doctoral candidate has received substantial assistance or support in
+preparing a doctoral dissertation from a member of TU Delft academic staff
+other than the (co)promotor, or by a member of academic staff from an
+external institute for scientific research, the name of that staff member and
+their contribution can also be mentioned briefly on the title page, provided
+the promotor consents to this.
+
+Organisations or persons who have sponsored or made a financial
+contribution to the realization of the dissertation and/or the related research
+must be mentioned on the reverse side of the title page. See article D.1.6.
+
+In the case of a joint diploma, as referred to in article 3 of the Doctoral
+Regulations, this fact must be mentioned on the reverse side of the title page
+as follows:
+
+'The doctoral research has been carried out in the context of an agreement
+on joint doctoral supervision between [name university, city, country], and
+Delft University of Technology, the Netherlands.'
+
+On the front of the title page, under the name of the candidate, the highest
+obtained academic title as awarded in the country in which the candidate's
+studies were completed is to be stated, followed by the name and country of
+the university.
+
+The title page, front and reverse, will be submitted by the doctoral candidate to
+the Graduate School Office for review and approval on behalf of the Board for
+
+<!-- PageNumber="13" -->
+<!-- PageBreak -->
+
+Doctorates.
+
+
+#### Re: b. table of contents
+
+With the table of contents, it is possible to include a list to explain any abbreviations
+and symbols, figures and tables.
+
+Re: c. summary
+
+The summary must in any case contain the following:
+
+a. the research question;
+
+b. a concise description of the research and/or design
+methods;
+
+c. a concise description of the results obtained;
+
+d. conclusions and possible applications and implications.
+
+The doctoral dissertation must in any case include a summary in Dutch
+and in English.
+
+The doctoral candidate will be offered the opportunity to have a summary of
+the doctoral dissertation published in 'Doctoral dissertation Abstracts
+International - Section C' (European Abstract).
+
+
+#### Re: f. chapters containing treatises about the research and/or the design, either based on prior publications by the candidate or not
+
+If the doctoral dissertation consists wholly or in part of previously published
+papers, the following applies:
+
+a. they must have been published in, or have been accepted
+for publication by - preferably -reputable, international
+scientific journals;
+
+b. they must be consistent with the latest scientific knowledge at
+the time when the doctoral dissertation is submitted, or must
+be made consistent by means of editing or additional
+comments;
+
+c. they must demonstrate substantive coherence in terms of the
+subjects addressed.
+
+If the treatises relate to a doctoral design (article 1.4 of the Doctoral
+Regulations), the chosen design methods, the design choices and the
+(interim) results in the chapters must be described, documented and
+discussed in a scientifically sound manner.
+
+Careful references must be made to the literature consulted, either after each
+individual chapter or after the final chapter for the entire doctoral dissertation.
+
+<!-- PageNumber="14" -->
+<!-- PageBreak -->
+
+
+#### Re: j. curriculum vitae and a list of the doctoral candidate's publications
+
+At the end of the doctoral dissertation, a (concise) curriculum vitae of the
+doctoral candidate must be included, stating:
+
+a. date and place of birth;
+
+b. which pre-university or comparable education the doctoral
+candidate underwent, including relevant dates;
+
+c. the nature of education undergone in preparation for the final
+Master's examination and relevant dates;
+
+d. any qualifications obtained with the diplomas;
+
+e. if applicable, details of any professional practice after completing
+the Master's degree;
+
+f. the name of the institution at which the research was conducted.
+
+
+#### 3. Language
+
+The doctoral dissertation is to be written in Dutch or in English, with English
+being the preferred language. In those exceptional cases in which the
+candidate wishes to use another language, a request must be submitted to
+the Board for Doctorates before the draft doctoral dissertation is submitted to
+the promotor. The request is to be accompanied by the written consent of the
+promotor. The Board for Doctorates will communicate its decision concerning
+this request in writing to the doctoral candidate, and will also send a copy to
+the promotor.
+
+
+#### 4. Design
+
+The doctoral dissertation will be in book form. The doctoral candidate is
+responsible for the further design of the doctoral dissertation, according to
+the conventions prevailing in the Netherlands in the academic field in
+question.
+
+<!-- PageNumber="15" -->
+<!-- PageBreak -->
+
+
+#### 5. Costs and distribution of the doctoral dissertation
+
+a. The cost of printing and distributing the dissertation will in principle
+be borne by the doctoral candidate. The dean of the promotor's
+faculty can provide information about any (partial) reimbursement
+for costs resulting from this. The faculty office must be contacted in
+good time to discuss this.
+
+b.
+The number of copies of the dissertation to be produced for the
+faculty will be determined in consultation with the promotor.
+
+c. The doctoral candidate must bring two copies of the dissertation
+with propositions in book form to the doctoral defence ceremony.
+
+d. The members and chairperson of the doctoral committee must
+have received a dissertation in book form, including propositions,
+from the doctoral candidate no later than two weeks before the
+set doctoral defence date.
+
+e. When it comes to further distribution of copies of the dissertation,
+a digital version may suffice.
+
+f.
+The doctoral candidate is required to make a digital version of the
+dissertation (as a PDF file, or in some other agreed format)
+available to the University Library for inclusion in the Open Access
+TU Delft Repository.
+
+
+#### 6. Communications with the media
+
+It is sometimes appropriate to draw the attention of selected media to the
+content of a doctoral dissertation by means of a press release, or in some
+other way. In some cases, the university's Press and Science Information
+Office will issue a press release, either at the instigation of the promotor or
+the doctoral candidate or not. The promotor and candidate will in any case
+receive a copy of the press release in good time.
+
+For the purpose of this press release, the doctoral candidate will provide the
+university's Science Information Officer with a brief written explanation of the
+key results and the possible applications of the doctoral research. The
+Science Information Officer can provide further information on the structure
+and content of the press release. The promotor may, after consultation with
+and with the consent of the Rector Magnificus, request that until after the
+doctoral defence ceremony has taken place an embargo be enforced on a
+press release or press interviews with the doctoral candidate.
+
+<!-- PageNumber="16" -->
+<!-- PageBreak -->
+
+
+#### E. Requirements for the propositions (Article 9.5 Doctoral Regulations)
+
+1\.
+Propositions are to be added to the doctoral dissertation. As a
+guideline, the total number of propositions should not exceed ten. The
+promotor should approve the propositions on this basis, and the sheet
+on which the propositions are printed should include the following
+text:
+
+'These propositions are regarded as opposable and defendable,
+and have been approved as such by the promotor(s) [name
+(co)promotor(s)].'
+
+2\.
+At least six propositions must not pertain to the subject of the
+dissertation. This distinction must be clearly indicated by stating
+under propositions where this is appropriate: 'This proposition
+pertains to this dissertation.'
+
+3\.
+A maximum of two of the propositions may be somewhat playful in
+nature, provided that they are opposable and defendable.
+
+4\.
+The propositions should demonstrate that the doctoral candidate
+has a broad base of scientific knowledge that is not limited to the
+subject of the doctoral dissertation. Possible subjects could
+include:
+
+a. new perspectives created by the doctoral dissertation;
+
+b. results of incidental interest, which are not included in the
+doctoral dissertation;
+
+c. (critical) comments on the literature relating to technical
+sciences;
+
+d. comments on related disciplines and/or the methods used;
+
+e.
+speculative statements about future developments, which
+cannot yet be definitively verified. The propositions should
+preferably include literature references and/or sources.
+
+5\.
+The propositions are to be submitted together with the draft
+doctoral dissertation.
+
+6\.
+The propositions are to be written in Dutch or in English, with
+English being the preferred language, or where applicable in the
+language in which the doctoral dissertation is written. Appendix I
+contains further considerations relating to the quality of the
+propositions.
+
+<!-- PageNumber="17" -->
+<!-- PageBreak -->
+
+
+## F. Preparation for and procedures during the doctoral defence ceremony and the awarding of the degree of doctor (Articles 15, 16, 17 and 18 Doctoral Regulations)
+
+
+### 1. Doctoral defence ceremony (general)
+
+1.1.
+1\. The doctoral defence ceremony takes place in public before the Board
+for Doctorates or a doctoral committee established by it. The Rector
+Magnificus chairs the doctoral defence ceremony. However, the Rector
+Magnificus is generally represented by a member of the Doctoral
+Examination Working Committee. Members of the Board for Doctorates
+may also take the place of the Rector Magnificus and are in fact part of
+the Working Committee.
+
+1.2.
+Once the date of the doctoral defence ceremony is known, a
+chairperson is to be appointed from among the members of the
+Doctoral Examination Working Committee. Until such time as a
+chairperson is appointed, the Rector Magnificus will act as
+chairperson and deal with any matters that need immediate attention.
+
+1.3.
+In exceptional cases, the Board for Doctorates may permit (a part of)
+the opposition and the defence, to be conducted in a language other
+than Dutch or English. For this purpose, a request must be
+submitted to the chairperson of the doctoral committee by the
+promotor (via the Graduate School Office) no later than two weeks
+before the doctoral defence date. The chairperson of the doctoral
+committee will take a decision on this within one week and will then
+inform the advisors and members of the doctoral committee and all
+others involved.
+
+1.4.
+The doctoral defence ceremony usually takes place in the Senate Hall
+of the university. If there is a joint doctorate, it may be agreed that the
+ceremony will take place at the partner institution according to the rules
+and protocol applicable there, and in accordance with the cooperation
+agreement (see Guidelines on the Graduate School website).
+
+1.5.
+The chairperson may limit access to the hall if there are issues of (fire)
+safety or public order due to the capacity of the location. Children
+under the age of four years and (domestic) animals with the exception
+of assistance dogs are not allowed into the defence ceremony. The
+chairperson may also deny access to the ceremony to any persons
+who cause disruption.
+
+1.6.
+During the defence of the doctoral dissertation and the propositions,
+the doctoral candidate can be assisted by one or two paranymphs
+(supporters). The paranymphs may assist by reading out propositions
+or presenting (parts of) the doctoral dissertation or the doctoral design.
+
+<!-- PageNumber="18" -->
+<!-- PageBreak -->
+
+1.7.
+7. If during the doctoral defence ceremony circumstances arise which, in
+the opinion of the chairperson, impede the normal course of
+proceedings, the chairperson will decide how to proceed further. If the
+chairperson decides to suspend the proceedings prematurely, the
+Rector Magnificus will be notified as soon as possible, after which the
+Rector Magnificus will take appropriate action.
+
+1.8.
+All those in attendance will demonstrate the appropriate respect for the
+academic ceremony that is taking place and for the members of the
+doctoral committee by standing when instructed to do so by the beadle
+\- namely when the chairperson stands or enters the hall.
+
+1.9. The doctoral committee will meet to deliberate 30 minutes before the
+start of the doctoral defence ceremony or, if a ' cum laude' designation
+has been proposed, 45 minutes before. Regarding the attendance of
+the members of the doctoral committee, the following rules will apply:
+a. If the chairperson is unable to attend for any reason, the
+beadle will report this situation immediately to the Vice-Rector,
+or (if the Vice-Rector is absent) to another member of the
+Working Committee for Doctorates, who will take the action
+that said member deems fit.
+
+b. If a member of the committee is unable to attend for any reason, the
+chairperson will be informed of this immediately and will take the
+action that the chairperson deems fit, taking into account the fact
+that the doctoral defence ceremony can only proceed if, in
+accordance with the Doctoral Regulations, the minimum number of
+full professors is in attendance and, in the opinion of the
+chairperson, there are enough independent examiners.
+
+c. The chairperson will determine the order of the examiners, in
+consultation with the other members of the committee.
+
+1.10. If other persons who are not members of the doctoral committee
+wish to examine the candidate, a written request to this effect must
+be submitted in writing at the latest two weeks before the agreed
+defence ceremony date to the Rector Magnificus, who will make a
+decision on whether to honour the request within one week. An
+examiner of this type must hold a doctorate or be authorised to act
+as a promotor.
+
+1.11. It is highly recommended that, prior to the doctoral defence ceremony,
+doctoral candidates prepare an explanation of the essence of their
+doctoral dissertation, the results obtained and the possible applications,
+that is comprehensible to non-experts. This should be arranged with
+the University Graduate School in time. As a rule, the explanation
+begins 30 minutes before the doctoral defence ceremony and is
+completed no later than 10 minutes before the start of the doctoral
+defence ceremony.
+
+<!-- PageNumber="19" -->
+<!-- PageBreak -->
+
+1.12. The permission of the Rector Magnificus is required before making
+any recordings for radio or television during the doctoral defence
+ceremony. This permission must be obtained at least two weeks in
+advance of the doctoral defence ceremony. Making audio and video
+recordings or streaming a live video feed is permitted for personal
+use, e.g. so that family members abroad can also witness the
+proceedings.
+
+
+### 2. Attire
+
+2.1. During the doctoral defence ceremony, the chairperson, the
+promotor, the other members of the committee as well as the
+candidate and any paranymphs, are to dress as follows, as
+prescribed by protocol:
+
+a. Full professors are to wear the ceremonial dress associated with
+the academic traditions relating to doctoral defence ceremonies at
+the institution that they belong to, or wear a gown and
+paraphernalia of TU Delft. Underneath this, a white dress shirt
+with a grey tie or a white blouse or white shirt bib is worn, with
+dark trousers or a dark skirt, and black shoes.
+
+b. Delft full professors are to wear a gown and cap, and a sash over
+their gown, and the chairperson of the doctoral committee is to
+wear the chain of office of the Rector Magnificus.
+
+C.
+Other committee members are to wear a black morning coat with
+white dress shirt, grey waistcoat and grey tie, or a black, dark
+grey or dark blue dress or skirt with a blouse of the same colour
+or a white blouse, and black shoes.
+
+d. The doctoral candidate and paranymphs are to wear a white tie
+ensemble: a black dress suit with white dress shirt and waistcoat,
+white bow tie and black shoes or a black, dark grey or dark blue
+dress or skirt, of knee length as a minimum, with a blouse of the
+same colour or a white blouse, and black shoes.
+
+e. The beadle is to wear a gown with sash and cap, the beadle's
+staff and black shoes, a dark suit, white dress shirt, grey tie or
+other appropriate clothing.
+
+2.2.
+Full professors are to wear their caps while examining and after the
+resumption of the doctoral defence ceremony; the chairperson is to
+wear a cap for the duration of the ceremony.
+
+2.3. The beadle will ensure that the clothing is worn appropriately and in a
+manner that befits the dignity of an academic ceremony.
+
+<!-- PageNumber="20" -->
+<!-- PageBreak -->
+
+2.4. If the doctoral candidate wishes to depart from the ceremonial dress
+described above and wear ceremonial dress associated with an
+academic culture or academic tradition, or otherwise deviate from the
+ceremonial dress described in paragraph 1d, permission must be
+obtained from the Board for Doctorates at least two weeks before the
+doctoral defence ceremony. The Board for Doctorates will grant
+permission if they judge that the attire is in accordance with the value
+which the University attaches to the ceremony.
+
+
+### 3. Doctoral defence ceremony, first part
+
+3.1.
+The doctoral dissertation and the propositions will be defended by
+the doctoral candidate for one hour in the face of the reservations of
+the doctoral committee, as well as those of any other person given
+permission in accordance with the Doctorate Regulations.
+
+3.2.
+The chairperson opens the doctoral defence ceremony and invites
+the candidate to take up a position behind the lectern (and the
+paranymph(s) to be seated in the appropriate places). The
+chairperson introduces the committee members and then gives the
+floor to the first examiner, according to the order agreed beforehand.
+The examiner will express reservations one by one and the
+candidate will be given the opportunity to respond to each. A lively
+debate may arise and the chairperson will ensure that this is
+conducted fairly, and that the candidate has an adequate
+opportunity to defend himself.
+
+3.3.
+Examiners are to remain seated while their reservations are heard.
+With regard to the order in which the examiners speak, the following
+rules apply.
+
+a. If there are reservations from the hall, these will be heard first, with
+a limit of five minutes for the reservations to be expressed and
+answers to be given.
+
+b. Of the members of the doctoral committee, the independent
+members from outside TU Delft will have the first opportunity to
+express their reservations. Generally, the independent members
+together will have at least 45 minutes to examine the candidate.
+The remaining members will subsequently be given the opportunity
+to examine, with the promotor examining last of all. It may occur
+that not all members have the opportunity to examine.
+
+c.
+A copromotor will speak before the promotor.
+
+The committee members will all be given the opportunity to speak
+if possible, although the chairperson will usually refrain from
+examining the candidate.
+
+3.4. The members of the doctoral committee (and any individuals wishing to
+speak from the audience) will address the candidate as 'waarde
+doctoral candidate' or 'waarde promovenda' ('worthy doctoral
+candidate').
+
+<!-- PageNumber="21" -->
+<!-- PageBreak -->
+
+The candidate uses the following forms of address for the members of
+the doctoral committee.
+
+Chairperson: 'mijnheer/mevrouw de rector' ('Mr/Madam Rector').
+
+A promotor who is a full professor: 'hooggeachte promotor' ('esteemed
+promotor').
+
+A promotor who is not a full professor: 'zeer geachte promotor' ('highly
+honourable promotor').
+
+Copromotor: 'zeergeleerde promotor' ('learned promotor'),
+if not a holder of a doctorate: 'geachte promotor' ('honourable
+promotor').
+
+Full professors: 'hooggeleerde opponent' ('most learned opponent');
+Doctorate-holding members: 'zeergeleerde opponent' ('learned
+opponent').
+
+Non-doctorate-holding members: 'geachte opponent' ('honourable
+opponent').
+
+3.5.
+Any opponents from the audience will be addressed by the doctoral
+candidate as 'zeergeleerde opponent', or (if it is a full professor) as
+'hooggeleerde opponent'. These forms of address (as stated in 3.4
+and 3.5) are also to be used even if the ceremony takes place
+wholly or partly in a language other than Dutch.
+
+3.6.
+Unless otherwise decided by the chairperson the ceremony will last for
+sixty minutes before being adjourned. The beadle will announce that
+the academic hour has passed with the words 'hora est'. Thereafter
+the chairperson will ask the doctoral candidate (and the paranymphs)
+to take their seats in the hall and indicate that the doctoral committee
+will retire for further deliberation.
+
+
+### 4. Doctoral defence ceremony, second part
+
+4.1.
+If, following the deliberations of the committee as referred to in article
+17.1 of the Doctorate Regulations, they decide that a doctorate is to be
+awarded, after the public meeting is reconvened, the chairperson will
+invite the doctoral candidate (and any paranymphs) to stand before the
+committee and the chairperson will announce to the candidate in the
+manner prescribed by protocol that the doctoral committee has
+decided to award the doctorate on behalf of the Board for Doctorates.
+
+4.2.
+If, following the deliberations of the committee as referred to in article
+17.1 of the Doctorate Regulations, they decide that a doctorate is not
+to be awarded, the chairperson will invite the doctoral candidate to join
+the meeting of the committee in accordance with article 17.3 of the
+Doctorate Regulations.
+
+4.3.
+If the designation 'cum laude' is also to be attached to the doctorate,
+this will also be announced. At the request of the chairperson the
+promotor will then bestow the degree onto the doctoral candidate
+using the prescribed wording, after which the promotor will present
+
+<!-- PageNumber="22" -->
+<!-- PageBreak -->
+
+the candidate with the signed diploma. The words of the chairperson
+are pronounced in Dutch while all those present stand.
+
+4.4. When granting the doctorate (cum laude), the chairperson will
+use the following wording (in Dutch):
+
+'Het College voor Promoties van de Technische Universiteit Delft;
+vertegenwoordigd door de hier aanwezige commissie; heeft, na
+kennis te hebben genomen van uw proefschrift met stellingen en na
+uw verdediging daarvan te hebben gehoord; met inachtneming van
+het bepaalde in de Wet op het hoger onderwijs en wetenschappelijk
+onderzoek; besloten u de graad te verlenen van doctor (en wel cum
+laude). Ik verzoek de promotor door het College voor Promoties als
+zodanig aangewezen; zich wel van de hem opgedragen taak te
+kwijten'.
+
+The promotor, standing to the right of the chairperson, will say the
+following (in Dutch):
+
+'Uit kracht van de bevoegdheid bij Wet toegekend aan het College
+voor Promoties; verklaar ik namens dat college; hier vertegenwoordigd
+door de Rector Magnificus en de overige leden van de commissie; bij
+deze u [ .... naam .... ] te bevorderen tot doctor (en wel cum laude) en u
+alle rechten te verlenen welke aan de doctorstitel zijn verbonden. Ten
+bewijze hiervan overhandig ik u het diploma dat u het recht geeft de
+titel "doctor" te voeren; ondertekend door de Rector Magnificus en de
+promotor(en) en voorzien van het zegel van de Technische Universiteit
+Delft.'
+
+In the case of joint diplomas, the chairperson will speak the following
+words (in Dutch and English):
+
+'Uw diploma is een tweeledig diploma samen met het volgende
+partnerinstituut voor hoger onderwijs: .... [naam, plaats, land] .... ,
+opgenomen in het diplomasupplement en goedgekeurd door het
+College voor Promoties.'
+
+'Your diploma is a dual diploma awarded together with the following
+partner institute of higher education: ... [name, city, country] ... , stated in
+the Diploma Supplement and approved by the Board for Doctorates.'
+
+4.5.
+After the members of the doctoral committee and the audience are
+seated, the promotor or copromotor of the new Doctor will stand
+and address the new Doctor and finally wish the new Doctor good
+luck. Subsequently, the chairperson will point out the scientific
+integrity that is explicitly required of all holders of the title of Doctor
+and congratulate the new Doctor on behalf of the Board for
+Doctorates by speaking the following text (in English, if this was
+the language used during the defence ceremony):
+
+<!-- PageNumber="23" -->
+<!-- PageBreak -->
+
+'Zeergeleerde dr.[ .... naam .... ],
+
+U hebt vanaf nu het recht de doctorstitel te dragen. Uw doctorstitel
+betekent dat de samenleving op uw oordeel kan vertrouwen, dat u
+transparant handelt en onafhankelijk communiceert over uw resultaten
+en de maatschappelijke relevantie van uw werk; met andere woorden.
+uw doctorstitel impliceert wetenschappelijke integriteit. Ik wens u veel
+wijsheid en voorspoed met uw nieuwe waardigheid.
+
+Namens het College voor Promoties van de Technische Universiteit Delft
+feliciteer ik u (en uw familie) met de behaalde doctorsgraad.'
+
+'Learned Doctor ....... ,
+
+You now have the right to use the title of doctor. Your doctorate
+means that society can rely on your judgement, that you will act
+transparently and communicate independently about your results and
+the social relevance of your work. In other words, your doctorate
+implies that you will uphold scientific integrity. I wish you a great deal
+of wisdom and prosperity with your new status. On behalf of the Board
+for Doctorates of Delft University of Technology I congratulate you
+(*and your family) on earning your doctoral degree.'
+
+4.6.
+The chairperson will then request the new Doctor (and the
+paranymphs) to take their places in the hall and will then close the
+session. After this, all those present will stand and the Committee will
+leave, following the beadle to the Senate Hall.
+
+
+### 5. Diploma
+
+5.1.
+The diploma will be produced in accordance with the model given in
+Appendix II, unless otherwise determined, stating the accompanying
+register number.
+
+5.2.
+The diploma will be in English.
+
+.3. A dual diploma will be in English.
+
+<!-- PageNumber="24" -->
+<!-- PageBreak -->
+
+
+### G. Advisory Committee (Article 19.3 Doctoral Regulations)
+
+
+#### 1. Appointment
+
+The Board for Doctorates will appoint a committee to handle disputes,
+as referred to in article 19 of the Doctoral Regulations; the committee
+will be known as the TU Delft Doctoral Arbitration Committee.
+
+
+#### 2. Composition
+
+2.1.
+The Committee consists of a chairperson and a deputy chairperson,
+who will also be a member, as well as four members.
+
+2.2.
+Advice on a dispute will be issued by three members, including the
+chairperson or the deputy chairperson.
+
+2.3.
+Notwithstanding the provisions of article 7:13, third paragraph of the
+General Administrative Law Act, hearings can be chaired by the
+chairperson, the deputy chairperson or a member who is not part of or
+working for the Board for Doctorates, in the event of the sudden absence
+of the chairperson, the deputy chairperson or one or more members on
+the date of the hearing.
+
+2.4.
+The chairperson, the deputy chairperson and committee members are
+appointed by the Board for Doctorates for a maximum period of three
+years, and they can be reappointed twice.
+
+3\.
+Appointment criteria and requirements for each dispute
+
+3.1.
+The chairperson, the deputy chairperson and the members
+must be full professors.
+
+3.2.
+The chairperson and deputy chairperson must not be part of or
+responsible to the Executive Board.
+
+3.3.
+The members are not directly involved in the dispute or the
+doctoral dissertation and will not receive instructions from the
+Board for Doctorates regarding the dispute.
+
+
+#### 4. Dismissal
+
+4.1.
+After hearing the relevant individual, the chairperson, deputy
+chairperson and committee members may be dismissed by the Board
+for Doctorates if they are shown to be performing inadequately, or if
+there are other substantial reasons for doing so in the opinion of the
+Board for Doctorates.
+
+4.2.
+The chairperson, the deputy chairperson, and the members may
+also resign from the committee at their own request at any time.
+
+5\.
+Secretariat
+
+5.1.
+The Board for Doctorates, in consultation with the Executive Board, will
+appoint a secretary and one or more deputy secretaries, to assist the
+committee.
+
+5.2.
+The secretary and deputy secretary will not be part of the committee.
+
+<!-- PageNumber="25" -->
+<!-- PageBreak -->
+
+
+### H. Continuation of promotorship after the honourable discharge (Article 8.4 Doctoral Regulations)
+
+
+#### 1. Request for continuation of promotorship
+
+If full professors or associate professors who have been appointed
+promotors by the Board for Doctorates are given an honourable
+discharge and wish to make use of their right to act as promotors for
+the doctoral candidates they are supervising for another five years,
+they can submit a written request to this effect to the Board for
+Doctorates, after approval has been given by the dean of the relevant
+faculty.
+
+
+#### 2. Request to dean
+
+Prior to the request to make use of the right to act as a promotor
+after an honourable discharge, full professors or associate
+professors will ask permission from their dean for continuation of the
+supervision of the doctoral candidates which the full professors or
+associate professors are supervising. Explicit attention will be paid to
+the way in which the continuation of the supervision will take place,
+as well as to any transfer of doctoral candidates to other promotors.
+The dean can make proposals to the Board for Doctorates for
+additional or replacement promotorships.
+
+
+### 3. Supervision of doctoral candidate
+
+If no other (co)promotor is appointed alongside a full professor or
+associate professor who is receiving honourable discharge, it will be
+necessary to propose at least one supervisor to the Board for
+Doctorates as (co)promotor with an employment contract with TU Delft
+for a number of hours which means that the supervisor is available to a
+sufficient extent for the performance of the corresponding duties and
+responsibilities. The proposal of a new supervisor must take place
+using Form A.
+
+
+### 4. Submission of request
+
+The request referred to in paragraph 1 of this article must be submitted
+by the full professor or associate professor to the Graduate School
+Office in good time before the end of the employment, and contains:
+
+a. the request of the full professor or associate professor, initialled
+for approval by the dean;
+
+b. an overview of the doctoral candidates allocated to the full
+professor or associate professor by the Board for Doctorates,
+specifying the candidates for whom they wish to continue the
+supervision or not;
+
+c. form A, if a new (co)promotor is proposed.
+
+<!-- PageNumber="26" -->
+<!-- PageBreak -->
+
+
+## Appendix I: FURTHER REMARKS ON THE PROPOSITIONS (in English)
+
+
+### Opposability of propositions
+
+Many candidates find it hard, after completion of a prolonged investigation, to
+go on to formulate propositions that can spark a scientific debate. While their
+doctoral dissertation then demonstrates their ability as a researcher, it gives
+no evidence that they are able to formulate hypotheses that would serve as
+a challenge to further investigation. The hypotheses underlying a doctoral
+study are developed with the necessary guidance, and are no longer explicitly
+discussed during long periods of investigation. It is precisely the ability to
+pose scientific questions oneself that is tested by the formulation of bold
+propositions and their defence in public.
+
+To this end, the propositions appended to a doctoral dissertation must not be
+only positive statements that can be defended within a certain field of science,
+but must also be challenging. For example, the proposition 'the sun will rise
+tomorrow' may be defendable but it is not at all challenging in the current
+intellectual climate and could never trigger a debate of pros and cons capable
+of advancing the boundaries of science. Hence, the propositions appended to
+the doctoral dissertation must be not only scientifically sound and defendable
+but also opposable. Propositions might give offence to many people if they
+are weak and as such they will not contribute to the academic objectives of
+the graduation ceremony or the good name of our University. To ensure the
+quality of the propositions, the supervisor is required to sign a statement
+confirming that the propositions are 'opposable and defendable'.
+
+
+### Decisiveness
+
+The demand that propositions must be opposable as well as defendable adds
+two requirements: decisiveness and boldness. A proposition may be said to
+be 'decisive' if, for example, it is true or false (i.e. not a question, exclamation
+or command) and without tautology or attenuating qualification such as 'often',
+'sometimes' or 'to a considerable extent'. Vague quantors cannot be refuted
+by opponents during the public defence of the doctoral dissertation, and must
+therefore be regarded as 'not opposable'. If necessary, a proposition may
+contain the qualifier 'generally' or 'usually', since this means literally 'in more
+than 50% of the cases', but such probabilistic quantors make both opposition
+and defence impossible when the relevant statistical data are not available
+during the debate. A proposition with existence quantor (there is a case where
+... applies) is only opposable when no example is yet known (e.g. before
+1988: 'a proof of Fermat's last theorem exists'). In fact, such propositions are
+very appropriate for a university of technology, for inventions and designs.
+They have the general form: "There is a possible method (or technique) to ... ".
+
+A generalizing all-quantor (it may be stated in any case that ... ) challenges
+the opposition to present counter-examples. When the proposition does not
+contain an explicit quantor, an implicit all-quantor may be assumed, though
+
+<!-- PageNumber="27" -->
+<!-- PageBreak -->
+
+the opponent would do well to ask the candidate "Does this apply in all
+cases?" before producing a counterexample. Such a debate is scientifically
+productive when it clarifies the assumptions under which the proposition
+applies and those under which it does not. If a counterargument is produced,
+the candidate can reformulate the proposition to "Apart from such and such
+a case, it may be stated that ... " and invite the opponent to find a further
+counter-example. If the revised proposition stands up to attack, it has been
+successfully refined and may be regarded as a 'triumph of science'.
+
+
+### The challenging nature of propositions
+
+To state that a proposition is 'challenging' means that there is some doubt
+about its scientific truth or falsehood, so that arguments pro and contra it can
+be weighed against one another. If there is absolutely no doubt about the
+truth of a proposition, it no longer has any relevance for the advancement
+of science. A proposition assumed by everyone to be true can be defended,
+but there is no point in investigating it any further. Conversely, a proposition
+that is clearly false does not come into consideration for further investigation.
+It only becomes scientifically interesting if some doubt exists as to its truth.
+A scientific hypothesis (literally sup-position) to be tested by investigation
+is thus challenging by definition, since otherwise there would be no point
+in the investigation. The most valuable propositions are those which are
+generally regarded to be untrue (such as the views put forward by Copernicus
+in his time) but which, possibly on the basis of new evidence, turn out to
+be defendable. Such propositions demonstrate the candidate's critical and
+innovative approach and the candidate's ability to advance the boundaries
+of science.
+
+Subsequent propositions may concern matters not dealt with in the thesis,
+and indeed belong to other scientific disciplines. For example, the candidate
+may question the validity of the results of other investigations, possibly in
+fields other than the candidate's own, which may be cited in the proposition.
+A proposition casting new light on our preconceived ideas lends itself very
+well to a humorous formulation. A joke is characterized by a change in
+assumptions during the narrative, and the primary task of science is to
+replace existing assumptions by hypotheses that show empirical reality and
+its technical potential in a new light. The testing or verification of such
+hypotheses is its second task.
+
+
+### Defendability
+
+The 'defendability' of a proposition means that while the truth of the
+proposition is not self-evident (i.e. the proposition is challenging in the sense
+used above), sound scientific arguments can be advanced in its favour. The
+field of science in which these arguments are valid (not necessarily 'reliable')
+and defendable should be mentioned explicitly in the proposition (e.g. 'in
+psychology'). This will serve to limit the number of playful propositions and
+allows the candidate to show that the candidate's insights extend beyond the
+boundaries of the candidate's own domain (universitas). In this context,
+'defendable'also means 'morally acceptable'.
+
+<!-- PageNumber="28" -->
+<!-- PageBreak -->
+
+
+## The Board for Doctorates of Delft University of Technology
+
+declares, under the provisions of art. 7.18 of the Higher Education and Research Act
+(Staatsblad 1997, no. 322) and the Doctoral Regulations, that
+
+XXXX XXXXXX XXXXXXXX
+
+born XX Xxxx XXXX in Xxxxxxxx, XxxxxxxxXX
+
+having presented and successfully defended a dissertation entitled
+
+Xxx XXXXXXX XXXXXXXX XXXXXXX
+XXXXXXXXXXXXXXXXXXXX XXXX
+
+with attached propositions, both supervised by
+Xxxx.xx. X.X.X.X. Xxxxxxxx
+has been awarded the Degree of DOCTOR.
+
+Delft, XX Xxxx XXXX
+
+On behalf of the Board for Doctorates
+
+Promotor(s)
+
+Rector Magnificus
+
+<!-- PageBreak -->
+
+
+## APPENDIX III: Timeline for final phase of Doctoral Programme
+
+
+<figure>
+
+2
+Promotor
+
+2
+Doctoral Candidate
+
+2
+
+Graduate School Office (GSO)
+on behalf of
+Board for Doctorates (Bf
+
+Runs plagiarism scan, approves draft dissertation and
+propositions, signs Form B.
+
+Submits Form B + complete digital draft dissertation +
+title page and propositions toGSO and fixes provisional
+defence date.
+
+at least 13 weeks before defence
+
+Checks completion of DE Programme and plagiarism
+check before fixing defence datewith doctoral candidate.
+
+Submits Form C containing proposal for composition
+Doctoral Committee to BfD via GSO.
+
+at least 12 weeks before defence
+
+Informs committee members of their appointment and
+requests their assessment of draft dissertation.
+
+at least 1 1 weeks before defence
+
+Receives and responds to suggested changes to draft
+dissertation from committee members.
+
+4
+weeks after assessment request
+
+Has received judgements and assessmentsfrom
+committee members.
+
+Processes suggested changes in draft dissertation in
+consultation with Promotor.
+
+Has submitted definitive dissertation to promotor and
+definitive title page to the GSO.
+
+Approves dissertation, submits Form D and, if
+applicable, submits any Cum Laudeproposals to
+BfD via GSO.
+
+6
+weeks after assessment request
+
+Informs all parties of admission to defence ceremony.
+
+Has dissertation and propositions printed.
+
+Has distributed dissertation and propositions to doctoral
+committee, chairman, GSO (2 booklets) and faculty.
+
+at least 2 weeks before defence
+
+Has scheduled and attended meeting withchairman of
+the doctoral committee.
+
+Spends one hour defending the dissertation and
+propositions.
+
+...
+
+Acts as host to the doctoral committee during the
+Doctoral Defence Ceremony.
+
+</figure>
+
+
+<!-- PageFooter="Implementation decree on Doctoral Regulations TU Delft 2023" -->
+<!-- PageNumber="30" -->
+<!-- PageBreak -->
+
+<!-- PageFooter="Implementation decree on Doctoral Regulations TU Delft 2023" -->
+<!-- PageNumber="31" -->
