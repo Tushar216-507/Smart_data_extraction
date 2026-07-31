@@ -1,41 +1,41 @@
-{
-  "schema_version": "1.0",
-  "builder": {
-    "name": "PDFEvidenceBuilder",
-    "built_at": "2026-07-31T06:17:38.832200+00:00",
-    "strategy": "structure_aware_markdown_chunking",
-    "country_specific": false,
-    "llm_used": false
-  },
-  "identity": {
-    "university_name": null,
-    "program_name": "PhD at TU Delft",
-    "program_id": "0001",
-    "page_id": null,
-    "document_id": "source"
-  },
-  "source": {
-    "source_type": "pdf",
-    "provider": "Azure AI Document Intelligence",
-    "filename": "source.pdf",
-    "pdf_path": "data\\netherlands\\tudelft\\programs\\0001\\pages\\0002\\assets\\source.pdf",
-    "source_url": "https://filelist.tudelft.nl/TUDelft/Onderwijs/Opleidingen/PhD/Graduate%20School/Doctoral%20regulations%20and%20implementation%20decree_2023%20EN_approved%20and%20editted_240201.pdf",
-    "document_data_path": "data\\netherlands\\tudelft\\programs\\0001\\pdf\\source\\extracted\\document_data.json",
-    "page_count": 67
-  },
-  "configuration": {
-    "target_chunk_characters": 6500,
-    "max_chunk_characters": 9000,
-    "min_chunk_characters": 250,
-    "overlap_characters": 350,
-    "preserve_tables": true,
-    "remove_repeated_noise": true
-  },
-  "statistics": {
-    "original_character_count": 118181,
-    "cleaned_character_count": 118083,
-    "characters_removed": 98,
-    "sections_detected": 74,
+  {
+    "schema_version": "1.0",
+    "builder": {
+      "name": "PDFEvidenceBuilder",
+      "built_at": "2026-07-31T06:17:38.832200+00:00",
+      "strategy": "structure_aware_markdown_chunking",
+      "country_specific": false,
+      "llm_used": false
+    },
+    "identity": {
+      "university_name": null,
+      "program_name": "PhD at TU Delft",
+      "program_id": "0001",
+      "page_id": null,
+      "document_id": "source"
+    },
+    "source": {
+      "source_type": "pdf",
+      "provider": "Azure AI Document Intelligence",
+      "filename": "source.pdf",
+      "pdf_path": "data\\netherlands\\tudelft\\programs\\0001\\pages\\0002\\assets\\source.pdf",
+      "source_url": "https://filelist.tudelft.nl/TUDelft/Onderwijs/Opleidingen/PhD/Graduate%20School/Doctoral%20regulations%20and%20implementation%20decree_2023%20EN_approved%20and%20editted_240201.pdf",
+      "document_data_path": "data\\netherlands\\tudelft\\programs\\0001\\pdf\\source\\extracted\\document_data.json",
+      "page_count": 67
+    },
+    "configuration": {
+      "target_chunk_characters": 6500,
+      "max_chunk_characters": 9000,
+      "min_chunk_characters": 250,
+      "overlap_characters": 350,
+      "preserve_tables": true,
+      "remove_repeated_noise": true
+    },
+    "statistics": {
+      "original_character_count": 118181,
+      "cleaned_character_count": 118083,
+      "characters_removed": 98,
+      "sections_detected": 74,
     "chunks_created": 63,
     "total_chunk_characters": 117388,
     "total_chunk_words": 17810,
