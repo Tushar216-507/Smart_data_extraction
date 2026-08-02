@@ -52,6 +52,8 @@ from knowledge.pdf.azure_document_extractor import AzureDocumentExtractor
 from knowledge.pdf.pdf_evidence_builder import PDFEvidenceBuilder
 from knowledge.pdf.pdf_fact_extractor import PDFFactExtractor
 
+from knowledge.qs.qs_pipeline import QSPipeline
+
 from knowledge.normalization.normalization_chunker import (
     NormalizationChunker,
 )
@@ -118,6 +120,7 @@ class UniversityPipeline:
 
     STAGES = [
         "Programme Discovery",
+        "University Data Extraction",
         "Evidence Collection",
         "Evidence Pack Building",
         "Fact Extraction",
@@ -141,6 +144,7 @@ class UniversityPipeline:
         workspace_dir: str = "data",
         continue_on_error: bool = False,
         verbose: bool = False,
+        qs_profile_url: Optional[str] = None,
     ) -> dict:
         """
         Execute the complete pipeline for one university.
@@ -237,7 +241,24 @@ class UniversityPipeline:
         print()
 
         # ----------------------------------------------------------
-        # Per-programme pipeline (Stages 2–6)
+        # Stage 2: University Data Extraction (QS, etc.)
+        # ----------------------------------------------------------
+
+        self._print_stage(2, total_stages, self.STAGES[1])
+
+        if qs_profile_url:
+            self._run_qs_pipeline(
+                qs_profile_url=qs_profile_url,
+                workspace=workspace,
+                verbose=verbose,
+            )
+        else:
+            print("  Skipped (no --qs-url provided)")
+
+        print()
+
+        # ----------------------------------------------------------
+        # Per-programme pipeline (Stages 3–7)
         # ----------------------------------------------------------
 
         succeeded = 0
@@ -329,8 +350,8 @@ class UniversityPipeline:
 
         workspace = context.workspace
 
-        # Stage 2: Evidence Collection
-        self._print_stage(2, total_stages, self.STAGES[1])
+        # Stage 3: Evidence Collection
+        self._print_stage(3, total_stages, self.STAGES[2])
 
         workspace.create_program(program_id)
 
@@ -343,8 +364,8 @@ class UniversityPipeline:
 
         print("  ✓ Evidence collected")
 
-        # Stage 3: Evidence Pack Building
-        self._print_stage(3, total_stages, self.STAGES[2])
+        # Stage 4: Evidence Pack Building
+        self._print_stage(4, total_stages, self.STAGES[3])
 
         program_folder = workspace.program_root(program_id)
 
@@ -363,8 +384,8 @@ class UniversityPipeline:
         print(f"  ✓ Evidence pack ready")
         print(f"    {page_count} pages, {pdf_count} PDFs")
 
-        # Stage 4: Fact Extraction
-        self._print_stage(4, total_stages, self.STAGES[3])
+        # Stage 5: Fact Extraction
+        self._print_stage(5, total_stages, self.STAGES[4])
 
         extraction_client = LLMClient(
             provider=context.llm_provider,
@@ -406,8 +427,8 @@ class UniversityPipeline:
 
         raw_facts.facts.extend(pdf_facts)
 
-        # Stage 5: Semantic Normalization
-        self._print_stage(5, total_stages, self.STAGES[4])
+        # Stage 6: Semantic Normalization
+        self._print_stage(6, total_stages, self.STAGES[5])
 
         normalization_client = LLMClient(
             provider=context.llm_provider,
@@ -442,8 +463,8 @@ class UniversityPipeline:
 
         print(f"  ✓ {len(normalized_facts.facts)} normalized facts")
 
-        # Stage 6: Final Output
-        self._print_stage(6, total_stages, self.STAGES[5])
+        # Stage 7: Final Output
+        self._print_stage(7, total_stages, self.STAGES[6])
 
         output_dir = workspace.final_dir(program_id)
 
@@ -506,8 +527,6 @@ class UniversityPipeline:
 
                 document_folder = pdf_root / document_id
 
-                print(">>> Before Azure")
-
                 azure_result = azure_extractor.extract(
                     pdf_path=document_path,
                     output_dir=document_folder,
@@ -515,11 +534,6 @@ class UniversityPipeline:
                     source_url=pdf.metadata.get("url"),
                     source_title=pdf.title,
                 )
-
-                print(">>> After Azure")
-
-                print(f"PDF Path: {document_path}")
-                print(f"Exists: {document_path.exists()}")
 
                 evidence_result = evidence_builder.build(
                     document_data_path=document_folder / "extracted" / "document_data.json",
@@ -531,8 +545,6 @@ class UniversityPipeline:
                     program_name=context.program.display_name,
                 )
 
-                print(">>> After Evidence Builder")
-
                 fact_result = fact_extractor.extract(
                     evidence_path=document_folder / "evidence" / "pdf_evidence_chunks.json",
                     output_dir=document_folder / "facts",
@@ -541,8 +553,6 @@ class UniversityPipeline:
                     university_name=context.workspace.university,
                     program_name=context.program.display_name,
                 )
-
-                print(">>> After Fact Extractor")
 
                 pdf_facts.extend(
                     fact_result.get("facts", [])
@@ -553,6 +563,43 @@ class UniversityPipeline:
                 traceback.print_exc()
                 continue
         return pdf_facts
+
+    # ==============================================================
+    # Stage 2: University Data Extraction (QS)
+    # ==============================================================
+
+    @staticmethod
+    def _run_qs_pipeline(
+        qs_profile_url: str,
+        workspace: WorkspaceManager,
+        verbose: bool = False,
+    ) -> None:
+        """
+        Run QS data extraction for the university.
+
+        This is a university-level stage — it runs once,
+        not per programme. Failures are caught and logged
+        without stopping the pipeline.
+        """
+
+        qs_pipeline = QSPipeline()
+
+        try:
+            result = qs_pipeline.run(
+                qs_profile_url=qs_profile_url,
+                output_directory=workspace.university_final_dir(),
+                verbose=verbose,
+            )
+
+            print(f"  ✓ QS data extracted ({result.get('rankings_count', 0)} rankings)")
+
+        except Exception as error:
+            print(f"  ✗ QS extraction failed: {type(error).__name__}: {error}")
+
+            if verbose:
+                traceback.print_exc()
+
+            print("  Continuing pipeline without QS data.")
 
     # ==============================================================
     # Stage 1: Programme Discovery

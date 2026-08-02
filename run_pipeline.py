@@ -93,6 +93,16 @@ Examples:
         help="Print extra debug information",
     )
 
+    parser.add_argument(
+        "--qs-url",
+        type=str,
+        default=None,
+        help=(
+            "QS TopUniversities profile URL for university-level data extraction. "
+            "Example: https://www.topuniversities.com/universities/eth-zurich"
+        ),
+    )
+
     return parser.parse_args()
 
 
@@ -156,6 +166,7 @@ def main():
             workspace_dir=args.workspace,
             continue_on_error=args.continue_on_error,
             verbose=args.verbose,
+            qs_profile_url=args.qs_url,
         )
 
         if result.get("status") == "error":

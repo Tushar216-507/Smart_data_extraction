@@ -36,6 +36,7 @@ class WorkspaceManager:
         )
 
         self.programs_root = self.university_root / "programs"
+        self.university_final_root = self.university_root / "final"
 
     # ------------------------------------------------------------------
     # Initialization
@@ -45,6 +46,7 @@ class WorkspaceManager:
         """Create university workspace."""
 
         self.programs_root.mkdir(parents=True, exist_ok=True)
+        self.university_final_root.mkdir(parents=True, exist_ok=True)
 
         self._write_metadata()
 
@@ -132,6 +134,10 @@ class WorkspaceManager:
     # ------------------------------------------------------------------
     # Files
     # ------------------------------------------------------------------
+
+    def university_final_dir(self) -> Path:
+        """University-level final output directory."""
+        return self.university_final_root
 
     def final_json(self, program_id: str) -> Path:
         return self.final_dir(program_id) / "program.json"
