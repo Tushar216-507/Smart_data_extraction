@@ -6,7 +6,6 @@ from typing import Any
 
 from knowledge.facts import (
     ExtractedFact,
-    SourceReference,
 )
 
 
@@ -163,34 +162,17 @@ class FactRepository:
         Reconstruct one ExtractedFact from saved JSON.
         """
 
-        source = None
-
-        source_data = data.get(
-            "source"
-        )
-
-        if isinstance(
-            source_data,
-            dict,
-        ):
-            source = SourceReference(
-                source_type=source_data.get(
-                    "source_type",
-                    "",
-                ),
-                source_id=source_data.get(
-                    "source_id",
-                    "",
-                ),
-                title=source_data.get(
-                    "title",
-                    "",
-                ),
-                url=source_data.get(
-                    "url",
-                    "",
-                ),
-            )
+        source_url = data.get("source_url", "")
+        source_type = data.get("source_type", "")
+        programme_association = data.get("programme_association", "")
+        
+        # Backwards compatibility for old JSON
+        source_data = data.get("source")
+        if isinstance(source_data, dict):
+            if not source_url:
+                source_url = source_data.get("url", "")
+            if not source_type:
+                source_type = source_data.get("source_type", "")
 
         metadata = data.get(
             "metadata",
@@ -221,6 +203,8 @@ class FactRepository:
                     1.0,
                 )
             ),
-            source=source,
+            source_url=source_url,
+            source_type=source_type,
+            programme_association=programme_association,
             metadata=metadata,
         )

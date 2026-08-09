@@ -6,6 +6,7 @@ from discovery.strategies.navigation import NavigationStrategy
 from discovery.strategies.catalog import CatalogStrategy
 from discovery.strategies.search import SearchStrategy
 from discovery.strategies.crawler import CrawlerStrategy
+from discovery.url_utils import URLCanonicalizer, ConservativeFilter
 
 
 class DiscoveryEngine:
@@ -74,8 +75,18 @@ class DiscoveryEngine:
             }
 
             for candidate in candidates:
+                
+                # 1. Canonicalize
+                candidate.url = URLCanonicalizer.canonicalize(candidate.url)
+                
+                # 2. Filter
+                if not ConservativeFilter.is_valid(candidate.url):
+                    result.strategy_stats[strategy_name]["filtered"] = result.strategy_stats[strategy_name].get("filtered", 0) + 1
+                    continue
 
+                # 3. Deduplicate
                 if candidate.url in context.candidate_urls:
+                    result.strategy_stats[strategy_name]["duplicates"] = result.strategy_stats[strategy_name].get("duplicates", 0) + 1
                     continue
 
                 context.candidate_urls[candidate.url] = candidate
@@ -100,9 +111,12 @@ class DiscoveryEngine:
         print("-" * 50)
 
         for strategy_name, stats in result.strategy_stats.items():
-            print(f"{strategy_name:<25} {stats['found']:>5}")
+            found = stats.get('found', 0)
+            filtered = stats.get('filtered', 0)
+            dups = stats.get('duplicates', 0)
+            print(f"{strategy_name:<20} Found: {found:>5} | Filtered: {filtered:>5} | Duplicates: {dups:>5}")
 
-        print("-" * 50)
+        print("-" * 70)
         print(f"Total candidates: {len(result.candidates)}\n")
 
         return result

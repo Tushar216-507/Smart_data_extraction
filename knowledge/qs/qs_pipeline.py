@@ -83,6 +83,7 @@ class QSPipeline:
         from knowledge.qs.qs_profile_extractor import QSProfileExtractor
         from knowledge.qs.qs_ranking_extractor import QSRankingExtractor
         from knowledge.qs.qs_output_builder import QSOutputBuilder
+        from knowledge.wikipedia_extractor import WikipediaExtractor
 
         output_directory = Path(output_directory)
         output_directory.mkdir(parents=True, exist_ok=True)

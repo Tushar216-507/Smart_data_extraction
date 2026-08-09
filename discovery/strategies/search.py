@@ -27,6 +27,9 @@ class SearchStrategy(DiscoveryStrategy):
         "degree programs",
     ]
 
+    def __init__(self, search_terms: list[str] = None):
+        self.search_terms = search_terms or self.SEARCH_TERMS
+
     SEARCH_PATHS = [
         "/search",
         "/search/",
@@ -46,7 +49,7 @@ class SearchStrategy(DiscoveryStrategy):
 
         for path in self.SEARCH_PATHS:
 
-            for term in self.SEARCH_TERMS:
+            for term in self.search_terms:
 
                 url = (
                     context.base_url.rstrip("/")

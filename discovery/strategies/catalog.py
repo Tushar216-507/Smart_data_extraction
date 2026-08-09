@@ -1,3 +1,4 @@
+import concurrent.futures
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
@@ -41,12 +42,10 @@ class CatalogStrategy(DiscoveryStrategy):
 
         discovered = []
         seen = set()
-
-        # Inspect URLs discovered by earlier strategies
-        for candidate in context.candidate_urls.values():
-
-            print(f"CatalogStrategy -> {candidate.url}")
-
+        
+        def process_candidate(candidate) -> list[CandidateURL]:
+            local_discovered = []
+            
             SKIP_SECTIONS = (
                 "/news",
                 "/events",
@@ -65,48 +64,57 @@ class CatalogStrategy(DiscoveryStrategy):
             )
 
             if any(section in candidate.url.lower() for section in SKIP_SECTIONS):
-                continue
+                return []
 
+            print(f"CatalogStrategy -> {candidate.url}")
             soup = self._download(context, candidate.url)
 
             if soup is None:
-                continue
+                return []
 
             for a in soup.find_all("a", href=True):
-
                 href = a["href"].strip()
-
                 if not href:
                     continue
-
                 if href.startswith(("mailto:", "tel:", "javascript:")):
                     continue
-
+                
                 anchor_text = a.get_text(" ", strip=True).lower()
-
                 if len(anchor_text) < 3:
                     continue
-
+                
                 url = urljoin(candidate.url, href)
                 url = self._normalize(url)
-
-                if url in seen:
-                    continue
 
                 if not self._looks_like_catalog(url, anchor_text):
                     continue
 
-                seen.add(url)
-
-                discovered.append(
+                local_discovered.append(
                     CandidateURL(
                         url=url,
                         source="catalog",
-                        metadata={
-                            "parent": candidate.url,
-                        },
+                        metadata={"parent": candidate.url},
                     )
                 )
+            
+            return local_discovered
+
+        # Parallelize the downloads with a max of 10 workers
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            futures = [
+                executor.submit(process_candidate, candidate)
+                for candidate in context.candidate_urls.values()
+            ]
+            
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    results = future.result()
+                    for cand in results:
+                        if cand.url not in seen:
+                            seen.add(cand.url)
+                            discovered.append(cand)
+                except Exception as e:
+                    print(f"CatalogStrategy Error processing candidate: {e}")
 
         return discovered
 

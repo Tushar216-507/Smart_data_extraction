@@ -1,4 +1,5 @@
 import json
+import time
 
 from openai import OpenAI
 
@@ -15,13 +16,21 @@ class NvidiaProvider(LLMProvider):
 
     NVIDIA exposes an OpenAI-compatible API, so this
     provider uses the official OpenAI Python client.
+
+    Includes bounded exponential backoff for transient
+    failures (500, 502, 503, 504, 429, connection errors).
     """
+
+    # HTTP status codes that are safe to retry.
+    RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
     def __init__(
         self,
         api_key: str,
         model: str = Config.NVIDIA_MODEL,
         max_tokens: int = 4096,
+        max_retries: int = 3,
+        base_retry_delay: float = 2.0,
     ):
         if not api_key:
             raise ValueError(
@@ -38,6 +47,8 @@ class NvidiaProvider(LLMProvider):
         self.model = model
         self.provider_name = "NVIDIA"
         self.max_tokens = max_tokens
+        self.max_retries = max(1, max_retries)
+        self.base_retry_delay = max(0.5, base_retry_delay)
 
     def extract(
         self,
@@ -49,6 +60,9 @@ class NvidiaProvider(LLMProvider):
         """
         Send an extraction or normalization request
         through the NVIDIA API.
+
+        Retries transient failures with bounded
+        exponential backoff (2s → 4s → 8s).
         """
 
         messages = [
@@ -75,14 +89,54 @@ class NvidiaProvider(LLMProvider):
                 "response_format"
             ] = response_schema
 
-        response = (
-            self.client
-            .chat
-            .completions
-            .create(
-                **request_options
-            )
-        )
+        # -------------------------------------------------
+        # Retry loop with exponential backoff
+        # -------------------------------------------------
+
+        last_error = None
+
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                response = (
+                    self.client
+                    .chat
+                    .completions
+                    .create(
+                        **request_options
+                    )
+                )
+
+                # Successful API call — break out of retry loop
+                return self._parse_response(response)
+
+            except Exception as error:
+                last_error = error
+
+                if self._is_retryable(error) and attempt < self.max_retries:
+                    delay = self.base_retry_delay * (2 ** (attempt - 1))
+                    print(
+                        f"  ⟳ NVIDIA attempt {attempt}/{self.max_retries} failed: "
+                        f"{type(error).__name__}: {error}"
+                    )
+                    print(f"    Retrying in {delay:.0f}s...")
+                    time.sleep(delay)
+                    continue
+
+                # Non-retryable or final attempt
+                raise
+
+        # Should not reach here, but safety net
+        raise last_error
+
+    def _parse_response(self, response) -> LLMResponse:
+        """
+        Parse a successful NVIDIA API response into
+        an LLMResponse object.
+
+        The provider parses JSON but does NOT validate
+        the response schema (e.g. requiring 'facts').
+        That validation belongs to the caller.
+        """
 
         usage = response.usage
 
@@ -130,20 +184,6 @@ class NvidiaProvider(LLMProvider):
                 "a JSON object."
             )
 
-        if "facts" not in data:
-            raise ValueError(
-                "Missing 'facts' in "
-                "NVIDIA response."
-            )
-
-        if not isinstance(
-            data["facts"],
-            list,
-        ):
-            raise ValueError(
-                "'facts' must be a list."
-            )
-
         return LLMResponse(
             result=data,
 
@@ -163,3 +203,37 @@ class NvidiaProvider(LLMProvider):
                 else 0
             ),
         )
+
+    def _is_retryable(self, error: Exception) -> bool:
+        """
+        Determine whether an error is transient and
+        safe to retry.
+        """
+
+        error_str = str(error).lower()
+
+        # Check for retryable HTTP status codes
+        for code in self.RETRYABLE_STATUS_CODES:
+            if str(code) in str(error):
+                return True
+
+        # Check for rate limit indicators
+        if "rate" in error_str and "limit" in error_str:
+            return True
+
+        # Check for connection/timeout errors
+        if any(
+            keyword in error_str
+            for keyword in [
+                "connection",
+                "timeout",
+                "timed out",
+                "temporarily",
+                "unavailable",
+                "reset by peer",
+                "broken pipe",
+            ]
+        ):
+            return True
+
+        return False

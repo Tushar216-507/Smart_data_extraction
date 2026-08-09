@@ -6,7 +6,6 @@ from typing import Any
 from knowledge.facts import (
     ExtractedFact,
     FactCollection,
-    SourceReference,
 )
 
 from knowledge.llm.client import (
@@ -232,155 +231,48 @@ class SemanticNormalizer:
         ExtractedFact.
         """
 
-        if not isinstance(
-            data,
-            dict,
-        ):
-            raise TypeError(
-                "Normalized fact must be "
-                "a JSON object."
-            )
+        if not isinstance(data, dict):
+            raise TypeError("Normalized fact must be a JSON object.")
 
-        category = data.get(
-            "category"
-        )
+        category = data.get("category", "")
+        subcategory = data.get("subcategory", "")
+        field = data.get("field", "")
 
-        field_name = data.get(
-            "field"
-        )
+        if not isinstance(category, str) or not category.strip():
+            raise ValueError("Missing or invalid category.")
 
-        if not isinstance(
-            category,
-            str,
-        ) or not category.strip():
-            raise ValueError(
-                "Missing or invalid category."
-            )
+        if not isinstance(subcategory, str) or not subcategory.strip():
+            raise ValueError("Missing or invalid subcategory.")
 
-        if not isinstance(
-            field_name,
-            str,
-        ) or not field_name.strip():
-            raise ValueError(
-                "Missing or invalid field."
-            )
+        if not isinstance(field, str) or not field.strip():
+            raise ValueError("Missing or invalid field.")
 
         if "value" not in data:
-            raise ValueError(
-                "Missing value."
-            )
+            raise ValueError("Missing value.")
 
-        confidence = data.get(
-            "confidence",
-            1.0,
-        )
-
+        confidence = data.get("confidence", 1.0)
         try:
-            confidence = float(
-                confidence
-            )
+            confidence = float(confidence)
+        except (TypeError, ValueError) as error:
+            raise ValueError("Confidence must be numeric.") from error
+            
+        confidence = max(0.0, min(confidence, 1.0))
 
-        except (
-            TypeError,
-            ValueError,
-        ) as error:
-            raise ValueError(
-                "Confidence must be numeric."
-            ) from error
-
-        confidence = max(
-            0.0,
-            min(
-                confidence,
-                1.0,
-            ),
-        )
-
-        source = (
-            SemanticNormalizer
-            ._dict_to_source(
-                data.get(
-                    "source"
-                )
-            )
-        )
-
-        metadata = data.get(
-            "metadata",
-            {},
-        )
-
+        metadata = data.get("metadata", {})
         if metadata is None:
             metadata = {}
 
-        if not isinstance(
-            metadata,
-            dict,
-        ):
-            raise ValueError(
-                "Metadata must be an object."
-            )
+        if not isinstance(metadata, dict):
+            raise ValueError("Metadata must be an object.")
 
         return ExtractedFact(
-            category=(
-                category
-                .strip()
-                .lower()
-            ),
-            field=(
-                field_name
-                .strip()
-                .lower()
-            ),
+            category=category.strip().lower(),
+            subcategory=subcategory.strip().lower(),
+            field=field.strip().lower(),
             value=data["value"],
             confidence=confidence,
-            source=source,
+            source_url=data.get("source_url", ""),
+            source_type=data.get("source_type", ""),
+            programme_association=data.get("programme_association", ""),
             metadata=metadata,
-        )
-
-    @staticmethod
-    def _dict_to_source(
-        source_data: Any,
-    ) -> SourceReference | None:
-        """
-        Reconstruct SourceReference from normalized JSON.
-        """
-
-        if source_data is None:
-            return None
-
-        if not isinstance(
-            source_data,
-            dict,
-        ):
-            raise ValueError(
-                "Source must be an object "
-                "or null."
-            )
-
-        return SourceReference(
-            source_type=str(
-                source_data.get(
-                    "source_type",
-                    "",
-                )
-            ),
-            source_id=str(
-                source_data.get(
-                    "source_id",
-                    "",
-                )
-            ),
-            title=str(
-                source_data.get(
-                    "title",
-                    "",
-                )
-            ),
-            url=str(
-                source_data.get(
-                    "url",
-                    "",
-                )
-            ),
         )

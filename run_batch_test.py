@@ -131,7 +131,7 @@ def main():
             "success": "✓",
             "partial": "⚠",
             "error": "✗",
-            "crashed": "💥",
+            "crashed": "[CRASH]",
         }.get(r["status"], "?")
 
         print(

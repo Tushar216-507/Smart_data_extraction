@@ -191,7 +191,7 @@ class NormalizationChunker:
 
         for fact in facts:
 
-            category = self._get_category(
+            category = self._get_subcategory(
                 fact
             )
 
@@ -305,7 +305,7 @@ class NormalizationChunker:
             character_count=character_count,
         )
 
-    def _get_category(
+    def _get_subcategory(
         self,
         fact: ExtractedFact,
     ) -> str:
@@ -315,7 +315,7 @@ class NormalizationChunker:
 
         category = getattr(
             fact,
-            "category",
+            "subcategory",
             "",
         )
 

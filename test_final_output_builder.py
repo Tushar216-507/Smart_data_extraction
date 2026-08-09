@@ -57,7 +57,7 @@ def validate_json_files(
             )
 
             print(
-                f"✗ {section:<20} "
+                f"[FAIL] {section:<20} "
                 f"File not found"
             )
 
@@ -73,7 +73,7 @@ def validate_json_files(
                 json.load(file)
 
             print(
-                f"✓ {section:<20} "
+                f"[PASS] {section:<20} "
                 f"Valid JSON"
             )
 
@@ -84,7 +84,7 @@ def validate_json_files(
             )
 
             print(
-                f"✗ {section:<20} "
+                f"[FAIL] {section:<20} "
                 f"Invalid JSON"
             )
 
@@ -271,7 +271,7 @@ def validate_fact_coverage(
 
     print()
     print(
-        "✓ Every unique normalized fact was preserved."
+        "[PASS] Every unique normalized fact was preserved."
     )
 
 
@@ -434,15 +434,15 @@ def main() -> None:
     print_separator()
 
     print(
-        "✓ Final output build completed successfully."
+        "[PASS] Final output build completed successfully."
     )
 
     print(
-        "✓ All generated files contain valid JSON."
+        "[PASS] All generated files contain valid JSON."
     )
 
     print(
-        "✓ No unique normalized facts were dropped."
+        "[PASS] No unique normalized facts were dropped."
     )
 
     print("=" * 80)

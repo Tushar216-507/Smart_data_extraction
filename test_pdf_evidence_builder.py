@@ -88,13 +88,13 @@ OUTPUT_FILE = (
 # Evidence-builder configuration
 # ====================================================================
 
-TARGET_CHUNK_CHARACTERS = 6500
+TARGET_CHUNK_TOKENS = 1600
 
-MAX_CHUNK_CHARACTERS = 9000
+MAX_CHUNK_TOKENS = 2200
 
-MIN_CHUNK_CHARACTERS = 250
+MIN_CHUNK_TOKENS = 60
 
-OVERLAP_CHARACTERS = 350
+OVERLAP_TOKENS = 80
 
 REMOVE_REPEATED_NOISE = True
 
@@ -540,17 +540,17 @@ def create_builder() -> PDFEvidenceBuilder:
     )
 
     builder = PDFEvidenceBuilder(
-        target_chunk_characters=(
-            TARGET_CHUNK_CHARACTERS
+        target_chunk_tokens=(
+            TARGET_CHUNK_TOKENS
         ),
-        max_chunk_characters=(
-            MAX_CHUNK_CHARACTERS
+        max_chunk_tokens=(
+            MAX_CHUNK_TOKENS
         ),
-        min_chunk_characters=(
-            MIN_CHUNK_CHARACTERS
+        min_chunk_tokens=(
+            MIN_CHUNK_TOKENS
         ),
-        overlap_characters=(
-            OVERLAP_CHARACTERS
+        overlap_tokens=(
+            OVERLAP_TOKENS
         ),
         remove_repeated_noise=(
             REMOVE_REPEATED_NOISE
@@ -566,22 +566,22 @@ def create_builder() -> PDFEvidenceBuilder:
 
     print_field(
         "Target chunk characters",
-        TARGET_CHUNK_CHARACTERS,
+        TARGET_CHUNK_TOKENS,
     )
 
     print_field(
         "Maximum chunk characters",
-        MAX_CHUNK_CHARACTERS,
+        MAX_CHUNK_TOKENS,
     )
 
     print_field(
         "Minimum chunk characters",
-        MIN_CHUNK_CHARACTERS,
+        MIN_CHUNK_TOKENS,
     )
 
     print_field(
         "Chunk overlap",
-        OVERLAP_CHARACTERS,
+        OVERLAP_TOKENS,
     )
 
     print_field(
@@ -1366,13 +1366,13 @@ def validate_result(
                 int,
             )
             and character_count
-            > MAX_CHUNK_CHARACTERS
+            > MAX_CHUNK_TOKENS
         ):
             if contains_table:
                 warnings.append(
                     (
                         f"{chunk_id} exceeds "
-                        f"{MAX_CHUNK_CHARACTERS:,} "
+                        f"{MAX_CHUNK_TOKENS:,} "
                         "characters because a complete "
                         "table was preserved."
                     )
@@ -1833,7 +1833,7 @@ def analyze_chunk_sizes(
             "character_count",
             default=0,
         )
-        < MIN_CHUNK_CHARACTERS
+        < MIN_CHUNK_TOKENS
     ]
 
     oversized_chunks = [
@@ -1845,7 +1845,7 @@ def analyze_chunk_sizes(
             "character_count",
             default=0,
         )
-        > MAX_CHUNK_CHARACTERS
+        > MAX_CHUNK_TOKENS
     ]
 
     print_field(

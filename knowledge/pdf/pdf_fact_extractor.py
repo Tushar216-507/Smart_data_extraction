@@ -101,7 +101,7 @@ PDF_PROGRAM_EXTRACTION_PROMPT = """
 You are extracting structured university-program facts from evidence obtained
 from an official university PDF document.
 
-Your goal is MAXIMUM FACTUAL RECALL.
+Your goal is MAXIMUM FACTUAL RECALL with SCOPE CLASSIFICATION.
 
 Extract every useful fact explicitly supported by the supplied evidence.
 Do not summarize the document. Do not omit details merely because they are
@@ -111,6 +111,29 @@ language other than English.
 The extraction must remain country-independent. Do not assume that the program
 uses German, American, British, Canadian, European, or any other country-specific
 academic terminology.
+
+SCOPE CLASSIFICATION
+
+For every extracted fact, determine its scope:
+
+- "programme" — the fact relates to a specific programme, module, or course
+- "university" — the fact relates to the university as an institution
+- "both" — the fact is relevant to both the university and the programme
+
+Include the scope in the output JSON for every fact.
+
+IGNORE DOCUMENT NAVIGATION
+
+Do NOT extract document-navigation information such as:
+- page numbers
+- table of contents entries
+- repeated headers and footers
+- purely structural headings that contain no factual content
+- document metadata (author, creation date, PDF version)
+- watermarks
+- running page headers/footers
+
+These are document structure, not knowledge.
 
 IMPORTANT RULES
 
@@ -519,6 +542,7 @@ Return exactly one JSON object:
   "facts": [
     {
       "category": "module",
+      "scope": "programme",
       "field": "module_name",
       "value": "Religion",
       "original_value": "Religion",
@@ -1423,9 +1447,22 @@ class PDFFactExtractor:
             ),
         }
 
+        # Include document type guidance when available
+        document_type = metadata.get("document_type", "")
+        document_type_note = ""
+        if document_type:
+            from knowledge.pdf.document_classifier import DOCUMENT_EXTRACTION_SCOPE
+            scope_info = DOCUMENT_EXTRACTION_SCOPE.get(document_type, {})
+            if scope_info.get("note"):
+                document_type_note = (
+                    f"\nDOCUMENT TYPE: {document_type}\n"
+                    f"EXTRACTION GUIDANCE: {scope_info['note']}\n"
+                )
+
         return (
             "DOCUMENT CONTEXT\n"
             f"{json.dumps(document_context, ensure_ascii=False, indent=2)}\n\n"
+            f"{document_type_note}"
             "EVIDENCE CHUNK CONTEXT\n"
             f"{json.dumps(chunk_context, ensure_ascii=False, indent=2)}\n\n"
             "EVIDENCE\n"
@@ -1433,7 +1470,10 @@ class PDFFactExtractor:
             f"{content.strip()}\n"
             "----- END PDF EVIDENCE -----\n\n"
             "Extract every directly supported university-program fact from "
-            "this evidence. Preserve module, course, component, credit, "
+            "this evidence. For every fact, classify its scope as "
+            "'programme', 'university', or 'both'. "
+            "Ignore document navigation (page numbers, TOC, repeated "
+            "headers/footers). Preserve module, course, component, credit, "
             "workload, teaching, assessment, semester, requirement, thesis, "
             "and program relationships. Return valid JSON only."
         )
@@ -3156,6 +3196,21 @@ class PDFFactExtractor:
             or "Azure AI Document Intelligence"
         )
 
+        title = (
+            metadata.get("title")
+            or identity.get("title")
+            or evidence_data.get("title")
+        )
+
+        # Classify document type based on available metadata
+        from knowledge.pdf.document_classifier import classify_document
+
+        document_type = classify_document(
+            title=title,
+            filename=source_filename,
+            first_heading=None,  # Not easily available here without parsing chunks
+        )
+
         return {
             "program_id": str(
                 resolved_program_id
@@ -3192,6 +3247,7 @@ class PDFFactExtractor:
                 )
             ),
             "provider": str(provider),
+            "document_type": str(document_type),
         }
 
     @staticmethod

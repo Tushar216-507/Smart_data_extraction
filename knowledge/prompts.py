@@ -79,11 +79,12 @@ JSON format:
 {
   "facts": [
     {
-      "category": "...",
+      "category": "university or programme",
+      "subcategory": "...",
       "field": "...",
       "value": "...",
       "confidence": 1.0,
-      "metadata": {}
+      "programme_association": "..."
     }
   ]
 }

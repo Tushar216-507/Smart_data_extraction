@@ -8,7 +8,6 @@ from knowledge.models import (
 from knowledge.facts import (
     FactCollection,
     ExtractedFact,
-    SourceReference,
 )
 from knowledge.llm.client import LLMClient
 from knowledge.prompts import PROGRAM_EXTRACTION_PROMPT
@@ -217,44 +216,15 @@ IMPORTANT
 
                     collection.add(
                         ExtractedFact(
-                            category=item[
-                                "category"
-                            ],
-                            field=item[
-                                "field"
-                            ],
-                            value=item[
-                                "value"
-                            ],
-                            confidence=item.get(
-                                "confidence",
-                                1.0,
-                            ),
-                            source=(
-                                SourceReference(
-                                    source_type=(
-                                        chunk.source_type
-                                    ),
-                                    source_id=(
-                                        chunk.chunk_id
-                                    ),
-                                    title=(
-                                        pack.program.metadata.get(
-                                            "title",
-                                            "",
-                                        )
-                                    ),
-                                    url=(
-                                        pack.program.metadata.get(
-                                            "url",
-                                            "",
-                                        )
-                                    ),
-                                )
-                            ),
-                            metadata=(
-                                fact_metadata
-                            ),
+                            category=item.get("category", "programme"),
+                            subcategory=item.get("subcategory", item.get("category", "other")),
+                            field=item["field"],
+                            value=item["value"],
+                            confidence=item.get("confidence", 1.0),
+                            source_url=pack.program.metadata.get("url", ""),
+                            source_type=chunk.source_type,
+                            programme_association=item.get("programme_association", ""),
+                            metadata=fact_metadata,
                         )
                     )
 

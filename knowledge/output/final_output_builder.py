@@ -248,9 +248,8 @@ class FinalOutputBuilder:
         handled_fact_count = 0
 
         for fact in unique_facts:
-            category = fact["category"]
-
-            section = self.CATEGORY_TO_SECTION.get(category)
+            subcategory = fact.get("subcategory", "")
+            section = self.CATEGORY_TO_SECTION.get(subcategory)
 
             if section is None:
                 unhandled_facts.append(
@@ -406,69 +405,43 @@ class FinalOutputBuilder:
             )
 
         category = fact.get("category")
+        subcategory = fact.get("subcategory")
+        
+        # Backwards compatibility
+        if category not in ["university", "programme"]:
+            subcategory = subcategory or category
+            category = "programme"
+            
         field = fact.get("field")
 
-        if not isinstance(category, str):
-            raise ValueError(
-                "Every fact must contain a string 'category'."
-            )
+        if not isinstance(category, str) or not category.strip():
+            raise ValueError("Fact category cannot be empty.")
 
-        if not category.strip():
-            raise ValueError(
-                "Fact category cannot be empty."
-            )
-
-        if not isinstance(field, str):
-            raise ValueError(
-                "Every fact must contain a string 'field'."
-            )
-
-        if not field.strip():
-            raise ValueError(
-                "Fact field cannot be empty."
-            )
+        if not isinstance(field, str) or not field.strip():
+            raise ValueError("Fact field cannot be empty.")
 
         if "value" not in fact:
-            raise ValueError(
-                "Every fact must contain a 'value' property."
-            )
+            raise ValueError("Every fact must contain a 'value' property.")
 
-        confidence = fact.get(
-            "confidence",
-            1.0,
-        )
-
-        metadata = fact.get(
-            "metadata",
-            {},
-        )
-
-        if metadata is None:
-            metadata = {}
-
+        metadata = fact.get("metadata", {})
         if not isinstance(metadata, dict):
-            metadata = {
-                "original_metadata": metadata
-            }
+            metadata = {"original_metadata": metadata}
 
         normalized_fact = {
             "category": category.strip().lower(),
+            "subcategory": subcategory.strip().lower() if subcategory else "other",
             "field": field.strip().lower(),
-            "value": deepcopy(
-                fact.get("value")
-            ),
-            "confidence": confidence,
+            "value": deepcopy(fact.get("value")),
+            "confidence": fact.get("confidence", 1.0),
+            "source_url": fact.get("source_url", ""),
+            "source_type": fact.get("source_type", ""),
+            "programme_association": fact.get("programme_association", ""),
             "metadata": deepcopy(metadata),
         }
 
-        # Preserve source information if it still exists.
-        #
-        # The current pipeline may not include source on every fact,
-        # so source remains optional.
+        # Backwards compatibility for 'source' dict
         if fact.get("source") is not None:
-            normalized_fact["source"] = deepcopy(
-                fact["source"]
-            )
+            normalized_fact["source"] = deepcopy(fact["source"])
 
         return normalized_fact
 
@@ -538,8 +511,8 @@ class FinalOutputBuilder:
             for preferred_field in preferred_fields:
                 for fact in facts:
                     if (
-                        fact["category"] == category
-                        and fact["field"] == preferred_field
+                        fact.get("subcategory") == category
+                        and fact.get("field") == preferred_field
                     ):
                         value = fact.get("value")
 
@@ -564,11 +537,15 @@ class FinalOutputBuilder:
         outputs: Dict[str, Dict[str, Any]] = {}
 
         for section, facts in grouped_facts.items():
+            u_facts = [f for f in facts if f.get("category") == "university"]
+            p_facts = [f for f in facts if f.get("category") == "programme"]
+            
             outputs[section] = {
                 "program_id": program_id,
                 "program_name": program_name,
                 "fact_count": len(facts),
-                "facts": facts,
+                "university_facts": u_facts,
+                "programme_facts": p_facts,
             }
 
         return outputs
@@ -587,13 +564,11 @@ class FinalOutputBuilder:
         output_paths: Dict[str, str] = {}
 
         for section, output in section_outputs.items():
-            facts = output.get(
-                "facts",
-                [],
-            )
+            u_facts = output.get("university_facts", [])
+            p_facts = output.get("programme_facts", [])
 
             if (
-                not facts
+                not u_facts and not p_facts
                 and not self.write_empty_files
             ):
                 continue

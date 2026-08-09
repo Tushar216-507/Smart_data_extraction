@@ -1,3 +1,4 @@
+import concurrent.futures
 from collections import deque
 from urllib.parse import urljoin, urlparse
 
@@ -27,66 +28,72 @@ class CrawlerStrategy(DiscoveryStrategy):
         domain = urlparse(context.base_url).netloc
         base_domain = domain[4:] if domain.startswith("www.") else domain
 
-        queue = deque([context.base_url])
-
         candidates = []
-
-        while queue and len(context.visited_urls) < self.max_pages:
-
-            url = queue.popleft()
-
-            url = self._normalize(url)
-
-            if url in context.visited_urls:
-                continue
-
-            context.visited_urls.add(url)
-
-            soup = self._download(
-                context,
-                url,
-            )
-
+        
+        current_level = {self._normalize(context.base_url)}
+        
+        def process_url(url: str):
+            local_candidates = []
+            local_next_urls = []
+            
+            soup = self._download(context, url)
             if soup is None:
-                continue
+                return local_candidates, local_next_urls
 
             for a in soup.find_all("a", href=True):
-
-                link = urljoin(
-                    url,
-                    a["href"],
-                )
-
+                link = urljoin(url, a["href"])
                 link = self._normalize(link)
 
                 if self._should_skip(link):
                     continue
 
-                anchor_text = a.get_text(" ",strip=True)
-
+                anchor_text = a.get_text(" ", strip=True)
                 parsed = urlparse(link)
-
                 if not parsed.netloc.endswith(base_domain):
                     continue
 
-                if link not in context.discovered_urls:
+                if self._looks_like_program_page(link, anchor_text):
+                    local_candidates.append(CandidateURL(url=link, source="crawler"))
 
-                    context.discovered_urls.add(link)
+                if self._should_follow_link(link, anchor_text):
+                    local_next_urls.append(link)
+            
+            return local_candidates, local_next_urls
 
-                    if self._looks_like_program_page(link, anchor_text):
-                        candidates.append(
-                            CandidateURL(
-                                url=link,
-                                source="crawler",
-                            )
-                        )
-
-                if link not in context.visited_urls:
-
-                    if self._should_follow_link(link, anchor_text):
-                        queue.appendleft(link)
-                    else:
-                        queue.append(link)
+        while current_level and len(context.visited_urls) < self.max_pages:
+            next_level = set()
+            
+            urls_to_process = []
+            for url in current_level:
+                if url not in context.visited_urls and len(context.visited_urls) + len(urls_to_process) < self.max_pages:
+                    urls_to_process.append(url)
+            
+            if not urls_to_process:
+                break
+                
+            for url in urls_to_process:
+                context.visited_urls.add(url)
+            
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+                futures = [executor.submit(process_url, url) for url in urls_to_process]
+                
+                for future in concurrent.futures.as_completed(futures):
+                    try:
+                        local_candidates, local_next_urls = future.result()
+                        
+                        for cand in local_candidates:
+                            if cand.url not in context.discovered_urls:
+                                context.discovered_urls.add(cand.url)
+                                candidates.append(cand)
+                                
+                        for link in local_next_urls:
+                            if link not in context.visited_urls:
+                                next_level.add(link)
+                                
+                    except Exception as e:
+                        print(f"CrawlerStrategy Error processing URL: {e}")
+            
+            current_level = next_level
 
         return candidates
 

@@ -57,6 +57,7 @@ import hashlib
 import html
 import json
 import re
+import tiktoken
 
 from collections import Counter
 from dataclasses import dataclass
@@ -488,10 +489,10 @@ class PDFEvidenceBuilder:
     def __init__(
         self,
         *,
-        target_chunk_characters: int = 6500,
-        max_chunk_characters: int = 9000,
-        min_chunk_characters: int = 250,
-        overlap_characters: int = 350,
+        target_chunk_tokens: int = 1600,
+        max_chunk_tokens: int = 2200,
+        min_chunk_tokens: int = 60,
+        overlap_tokens: int = 80,
         remove_repeated_noise: bool = True,
         repeated_line_min_pages: int = 3,
         repeated_line_ratio: float = 0.35,
@@ -503,17 +504,17 @@ class PDFEvidenceBuilder:
         Initialize the evidence builder.
 
         Args:
-            target_chunk_characters:
+            target_chunk_tokens:
                 Preferred maximum size before a section is split.
 
-            max_chunk_characters:
+            max_chunk_tokens:
                 Hard chunk-size target. A single indivisible table may
                 exceed this value because table preservation is preferred.
 
-            min_chunk_characters:
+            min_chunk_tokens:
                 Very small adjacent sections may be merged when safe.
 
-            overlap_characters:
+            overlap_tokens:
                 Context copied between oversized text fragments.
 
             remove_repeated_noise:
@@ -538,31 +539,31 @@ class PDFEvidenceBuilder:
                 Name of the generated evidence JSON file.
         """
 
-        if target_chunk_characters < 500:
+        if target_chunk_tokens < 100:
             raise ValueError(
-                "target_chunk_characters must be at least 500."
+                "target_chunk_tokens must be at least 100."
             )
 
-        if max_chunk_characters < target_chunk_characters:
+        if max_chunk_tokens < target_chunk_tokens:
             raise ValueError(
-                "max_chunk_characters must be greater than or "
-                "equal to target_chunk_characters."
+                "max_chunk_tokens must be greater than or "
+                "equal to target_chunk_tokens."
             )
 
-        if min_chunk_characters < 0:
+        if min_chunk_tokens < 0:
             raise ValueError(
-                "min_chunk_characters cannot be negative."
+                "min_chunk_tokens cannot be negative."
             )
 
-        if overlap_characters < 0:
+        if overlap_tokens < 0:
             raise ValueError(
-                "overlap_characters cannot be negative."
+                "overlap_tokens cannot be negative."
             )
 
-        if overlap_characters >= target_chunk_characters:
+        if overlap_tokens >= target_chunk_tokens:
             raise ValueError(
-                "overlap_characters must be smaller than "
-                "target_chunk_characters."
+                "overlap_tokens must be smaller than "
+                "target_chunk_tokens."
             )
 
         if repeated_line_min_pages < 2:
@@ -575,27 +576,27 @@ class PDFEvidenceBuilder:
                 "repeated_line_ratio must be between 0 and 1."
             )
 
-        self.target_chunk_characters = (
+        self.target_chunk_tokens = (
             int(
-                target_chunk_characters
+                target_chunk_tokens
             )
         )
 
-        self.max_chunk_characters = (
+        self.max_chunk_tokens = (
             int(
-                max_chunk_characters
+                max_chunk_tokens
             )
         )
 
-        self.min_chunk_characters = (
+        self.min_chunk_tokens = (
             int(
-                min_chunk_characters
+                min_chunk_tokens
             )
         )
 
-        self.overlap_characters = (
+        self.overlap_tokens = (
             int(
-                overlap_characters
+                overlap_tokens
             )
         )
 
@@ -635,6 +636,11 @@ class PDFEvidenceBuilder:
             ).strip()
             or self.DEFAULT_OUTPUT_FILENAME
         )
+
+        self.encoder = tiktoken.get_encoding("cl100k_base")
+
+    def _measure_length(self, text: str) -> int:
+        return len(self.encoder.encode(text))
 
     # =================================================================
     # Public API
@@ -2292,12 +2298,12 @@ class PDFEvidenceBuilder:
             ContentBlock
         ] = []
 
-        current_length = len(
-            section_heading
-        )
+        current_length = self._measure_length(
+                section_heading
+            )
 
         for block in prepared_blocks:
-            block_length = len(
+            block_length = self._measure_length(
                 block.content
             )
 
@@ -2318,7 +2324,7 @@ class PDFEvidenceBuilder:
                     current_group
                 )
                 and proposed_length
-                > self.target_chunk_characters
+                > self.target_chunk_tokens
             )
 
             if should_flush:
@@ -2327,9 +2333,9 @@ class PDFEvidenceBuilder:
                 )
 
                 current_group = []
-                current_length = len(
-                    section_heading
-                )
+                current_length = self._measure_length(
+                section_heading
+            )
 
             current_group.append(
                 block
@@ -2413,10 +2419,10 @@ class PDFEvidenceBuilder:
         """
 
         if (
-            len(
+            self._measure_length(
                 block.content
             )
-            <= self.max_chunk_characters
+            <= self.max_chunk_tokens
         ):
             return [
                 block
@@ -2472,10 +2478,10 @@ class PDFEvidenceBuilder:
         content = content.strip()
 
         if (
-            len(
+            self._measure_length(
                 content
             )
-            <= self.max_chunk_characters
+            <= self.max_chunk_tokens
         ):
             return [
                 content
@@ -2523,15 +2529,15 @@ class PDFEvidenceBuilder:
                 proposed_length = (
                     current_length
                     + separator_length
-                    + len(
-                        paragraph_part
-                    )
+                    + self._measure_length(
+                paragraph_part
+            )
                 )
 
                 if (
                     current_parts
                     and proposed_length
-                    > self.target_chunk_characters
+                    > self.target_chunk_tokens
                 ):
                     fragment = "\n\n".join(
                         current_parts
@@ -2554,9 +2560,9 @@ class PDFEvidenceBuilder:
                         else []
                     )
 
-                    current_length = len(
-                        overlap
-                    )
+                    current_length = self._measure_length(
+                overlap
+            )
 
                 current_parts.append(
                     paragraph_part
@@ -2570,9 +2576,9 @@ class PDFEvidenceBuilder:
                         ) > 1
                         else 0
                     )
-                    + len(
-                        paragraph_part
-                    )
+                    + self._measure_length(
+                paragraph_part
+            )
                 )
 
         if current_parts:
@@ -2668,10 +2674,10 @@ class PDFEvidenceBuilder:
         """
 
         if (
-            len(
+            self._measure_length(
                 paragraph
             )
-            <= self.max_chunk_characters
+            <= self.max_chunk_tokens
         ):
             return [
                 paragraph
@@ -2702,10 +2708,10 @@ class PDFEvidenceBuilder:
                 continue
 
             if (
-                len(
-                    sentence
-                )
-                > self.max_chunk_characters
+                self._measure_length(
+                sentence
+            )
+                > self.max_chunk_tokens
             ):
                 if current:
                     parts.append(
@@ -2732,15 +2738,15 @@ class PDFEvidenceBuilder:
                     if current
                     else 0
                 )
-                + len(
-                    sentence
-                )
+                + self._measure_length(
+                sentence
+            )
             )
 
             if (
                 current
                 and proposed_length
-                > self.target_chunk_characters
+                > self.target_chunk_tokens
             ):
                 parts.append(
                     " ".join(
@@ -2763,9 +2769,9 @@ class PDFEvidenceBuilder:
                     ) > 1
                     else 0
                 )
-                + len(
-                    sentence
-                )
+                + self._measure_length(
+                sentence
+            )
             )
 
         if current:
@@ -2786,9 +2792,10 @@ class PDFEvidenceBuilder:
         content: str,
     ) -> List[str]:
         """
-        Last-resort character splitting with word-safe boundaries.
+        Last-resort splitting. Uses an estimated character equivalent of tokens.
         """
-
+        
+        target_chars = self.target_chunk_tokens * 4
         parts: List[str] = []
 
         cursor = 0
@@ -2799,26 +2806,28 @@ class PDFEvidenceBuilder:
         while cursor < content_length:
             end = min(
                 cursor
-                + self.target_chunk_characters,
+                + target_chars,
                 content_length,
             )
 
             if end < content_length:
-                boundary = content.rfind(
+                last_space = content.rfind(
                     " ",
                     cursor,
                     end,
                 )
 
                 if (
-                    boundary
+                    last_space
+                    != -1
+                    and last_space
                     > cursor
                     + (
-                        self.target_chunk_characters
+                        target_chars
                         // 2
                     )
                 ):
-                    end = boundary
+                    end = last_space
 
             part = content[
                 cursor:end
@@ -2829,16 +2838,7 @@ class PDFEvidenceBuilder:
                     part
                 )
 
-            if end >= content_length:
-                break
-
-            next_cursor = max(
-                end
-                - self.overlap_characters,
-                cursor + 1,
-            )
-
-            cursor = next_cursor
+            cursor = end
 
         return parts
 
@@ -2851,13 +2851,13 @@ class PDFEvidenceBuilder:
         """
 
         if (
-            self.overlap_characters <= 0
+            self.overlap_tokens <= 0
             or not content
         ):
             return ""
 
         overlap = content[
-            -self.overlap_characters:
+            -self.overlap_tokens:
         ]
 
         first_space = overlap.find(
@@ -2938,7 +2938,7 @@ class PDFEvidenceBuilder:
             "contains_table": (
                 table_count > 0
             ),
-            "character_count": len(
+            "character_count": self._measure_length(
                 content
             ),
             "word_count": (
@@ -2959,7 +2959,7 @@ class PDFEvidenceBuilder:
         """
 
         if (
-            self.min_chunk_characters <= 0
+            self.min_chunk_tokens <= 0
             or len(
                 chunks
             ) <= 1
@@ -2986,7 +2986,7 @@ class PDFEvidenceBuilder:
                 chunk[
                     "character_count"
                 ]
-                < self.min_chunk_characters
+                < self.min_chunk_tokens
                 and previous[
                     "section_type"
                 ]
@@ -3002,7 +3002,7 @@ class PDFEvidenceBuilder:
                         "character_count"
                     ]
                 )
-                <= self.target_chunk_characters
+                <= self.target_chunk_tokens
                 and not (
                     previous[
                         "contains_table"
@@ -3477,17 +3477,17 @@ class PDFEvidenceBuilder:
                 ),
             },
             "configuration": {
-                "target_chunk_characters": (
-                    self.target_chunk_characters
+                "target_chunk_tokens": (
+                    self.target_chunk_tokens
                 ),
-                "max_chunk_characters": (
-                    self.max_chunk_characters
+                "max_chunk_tokens": (
+                    self.max_chunk_tokens
                 ),
-                "min_chunk_characters": (
-                    self.min_chunk_characters
+                "min_chunk_tokens": (
+                    self.min_chunk_tokens
                 ),
-                "overlap_characters": (
-                    self.overlap_characters
+                "overlap_tokens": (
+                    self.overlap_tokens
                 ),
                 "preserve_tables": (
                     self.preserve_tables
