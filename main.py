@@ -215,7 +215,8 @@ def translate_batch(candidates):
 
     return candidates
 
-def discover_programs(base_url, candidate_limit=500):
+# def discover_programs(base_url, candidate_limit=500)
+def discover_programs(base_url):
     """
     Discover all programme URLs from a university website.
 
@@ -255,9 +256,9 @@ def discover_programs(base_url, candidate_limit=500):
             "program_urls": [],
         }
 
-    if candidate_limit and len(candidates) > candidate_limit:
-        print(f"\nLimiting to top {candidate_limit} candidates to reduce LLM and network overhead.")
-        candidates = candidates[:candidate_limit]
+    # if candidate_limit and len(candidates) > candidate_limit:
+    #     print(f"\nLimiting to top {candidate_limit} candidates to reduce LLM and network overhead.")
+    #     candidates = candidates[:candidate_limit]
 
     # --- Step 4: Verify links are actually working ---
     print(f"\nStep 4: Verifying {len(candidates)} links...")
@@ -378,13 +379,13 @@ def save_discovery(result, output_file="output1.json"):
     print(f"Saved {result['total_working_program_urls']} programs to {output_file}")
 
 
-def run(base_url, candidate_limit=500):
+def run(base_url):
     """
     Run discovery and save to file.
 
     Kept for backward compatibility with standalone usage.
     """
-    result = discover_programs(base_url, candidate_limit=candidate_limit)
+    result = discover_programs(base_url)
     save_discovery(result)
     return result
 

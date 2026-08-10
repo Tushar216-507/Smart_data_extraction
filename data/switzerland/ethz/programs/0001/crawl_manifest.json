@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "created_at": "2026-08-10T11:41:01.545215+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 0,
+        "completed": 4,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "id": null,
+            "url": "https://ethz.ch/login/en.html?resource=%2Fcontent%2Fmain%2Fen%2Fstudium%2Fmaster%2Fbewerbung%2Feth-bachelor.html",
+            "title": "Login",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": true,
+            "page_folder": "0005",
+            "downloaded_at": "2026-08-10T11:41:03.480235+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://mat.ethz.ch",
+            "title": "D-MATL Department of Materials",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": true,
+            "page_folder": "0007",
+            "downloaded_at": "2026-08-10T11:41:13.552263+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.passwort.ethz.ch",
+            "title": "ETH password for web applications (LDAP)",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 2,
+            "expand": true,
+            "status": "completed",
+            "parent": "0005",
+            "children_discovered": false,
+            "page_folder": "0006",
+            "downloaded_at": "2026-08-10T11:41:10.384263+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://mat.ethz.ch/department/respect-code-of-conduct-contacts-at-d-matl.html",
+            "title": "Respect Code of Conduct",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 2,
+            "expand": true,
+            "status": "completed",
+            "parent": "0007",
+            "children_discovered": false,
+            "page_folder": "0008",
+            "downloaded_at": "2026-08-10T11:41:13.794839+05:30"
+        }
+    ]
+}

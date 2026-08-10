@@ -1,0 +1,80 @@
+[
+    {
+        "source": "program_page",
+        "relation": "direct",
+        "type": "page",
+        "title": "ETH password for web applications (LDAP)",
+        "url": "https://www.passwort.ethz.ch",
+        "domain": "www.passwort.ethz.ch",
+        "internal": true,
+        "category": "admission",
+        "purpose": "evidence",
+        "priority": 95,
+        "visited": false
+    },
+    {
+        "source": "program_page",
+        "relation": "direct",
+        "type": "page",
+        "title": "Search",
+        "url": "https://ethz.ch/content/main/de/utils/search.html",
+        "domain": "ethz.ch",
+        "internal": true,
+        "category": "search",
+        "purpose": "discovery",
+        "priority": 30,
+        "visited": false
+    },
+    {
+        "source": "program_page",
+        "relation": "direct",
+        "type": "page",
+        "title": "Eidgenössische\r\n            Technische Hochschule Zürich",
+        "url": "https://ethz.ch",
+        "domain": "ethz.ch",
+        "internal": true,
+        "category": "other",
+        "purpose": "navigation",
+        "priority": 10,
+        "visited": false
+    },
+    {
+        "source": "program_page",
+        "relation": "direct",
+        "type": "page",
+        "title": "ETH ITS Service Desk",
+        "url": "http://www.its.ethz.ch/servicedesk",
+        "domain": "www.its.ethz.ch",
+        "internal": true,
+        "category": "other",
+        "purpose": "navigation",
+        "priority": 10,
+        "visited": false
+    },
+    {
+        "source": "program_page",
+        "relation": "direct",
+        "type": "page",
+        "title": "ETH Zurich",
+        "url": "http://www.ethz.ch",
+        "domain": "www.ethz.ch",
+        "internal": true,
+        "category": "other",
+        "purpose": "navigation",
+        "priority": 10,
+        "visited": false
+    },
+    {
+        "source": "program_page",
+        "relation": "direct",
+        "type": "page",
+        "title": "Homepage",
+        "url": "https://ethz.ch/login/en",
+        "domain": "ethz.ch",
+        "internal": true,
+        "category": "other",
+        "purpose": "navigation",
+        "priority": 10,
+        "visited": false
+    }
+]

@@ -20,24 +20,6 @@
       ]
     },
     {
-      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
-      "status": 200,
-      "title": "Bachelors",
-      "h1": "Bachelors",
-      "title_original": "Bachelors",
-      "h1_original": "Bachelors",
-      "title_en": "Bachelors",
-      "h1_en": "Bachelors",
-      "page_type": "Degree Catalogue",
-      "score": -30,
-      "reasons": [
-        "+ URL matched '\\bbachelors?\\b'",
-        "+ Found by navigation",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
-      ]
-    },
-    {
       "url": "https://www.tudelft.nl/en/education/programmes/masters",
       "status": 200,
       "title": "Master programmes",
@@ -50,6 +32,24 @@
       "score": -30,
       "reasons": [
         "+ URL matched '\\bmasters?\\b'",
+        "+ Found by navigation",
+        "- Classified as Degree Catalogue (Not a leaf node)",
+        "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
+      ]
+    },
+    {
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors",
+      "status": 200,
+      "title": "Bachelors",
+      "h1": "Bachelors",
+      "title_original": "Bachelors",
+      "h1_original": "Bachelors",
+      "title_en": "Bachelors",
+      "h1_en": "Bachelors",
+      "page_type": "Degree Catalogue",
+      "score": -30,
+      "reasons": [
+        "+ URL matched '\\bbachelors?\\b'",
         "+ Found by navigation",
         "- Classified as Degree Catalogue (Not a leaf node)",
         "+ Metadata contains specific degree indicator (e.g., Bachelor/Master)"
@@ -92,6 +92,23 @@
       ]
     },
     {
+      "url": "https://www.tudelft.nl/en/education/programmes",
+      "status": 200,
+      "title": "Programmes",
+      "h1": "Programmes",
+      "title_original": "Programmes",
+      "h1_original": "Programmes",
+      "title_en": "Programmes",
+      "h1_en": "Programmes",
+      "page_type": "Programme Hub",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Programme Hub (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://www.tudelft.nl/en/education/admission-and-application/exchange-students",
       "status": 200,
       "title": "Exchange students",
@@ -105,57 +122,6 @@
       "reasons": [
         "+ Found by navigation",
         "- Classified as Support",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/education",
-      "status": 200,
-      "title": "Students and Education | TU Delft | University of Technology",
-      "h1": "",
-      "title_original": "Students and Education | TU Delft | University of Technology",
-      "h1_original": "",
-      "title_en": "Students and Education | TU Delft | University of Technology",
-      "h1_en": "",
-      "page_type": "Navigation",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Navigation (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/research/faculties-and-institutes",
-      "status": 200,
-      "title": "Faculties and institutes",
-      "h1": "Faculties and institutes",
-      "title_original": "Faculties and institutes",
-      "h1_original": "Faculties and institutes",
-      "title_en": "Faculties and institutes",
-      "h1_en": "Faculties and institutes",
-      "page_type": "Navigation",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Navigation (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/learningforlife",
-      "status": 200,
-      "title": "TU Delft Learning for Life",
-      "h1": "TU Delft Learning for Life",
-      "title_original": "TU Delft Learning for Life",
-      "h1_original": "TU Delft Learning for Life",
-      "title_en": "TU Delft Learning for Life",
-      "h1_en": "TU Delft Learning for Life",
-      "page_type": "Programme Hub",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Programme Hub (Not a leaf node)",
         "- Metadata lacks specific degree indicators"
       ]
     },
@@ -177,6 +143,57 @@
       ]
     },
     {
+      "url": "https://www.tudelft.nl/en/learningforlife",
+      "status": 200,
+      "title": "TU Delft Learning for Life",
+      "h1": "TU Delft Learning for Life",
+      "title_original": "TU Delft Learning for Life",
+      "h1_original": "TU Delft Learning for Life",
+      "title_en": "TU Delft Learning for Life",
+      "h1_en": "TU Delft Learning for Life",
+      "page_type": "Support",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Support",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.tudelft.nl/en/research/faculties-and-institutes",
+      "status": 200,
+      "title": "Faculties and institutes",
+      "h1": "Faculties and institutes",
+      "title_original": "Faculties and institutes",
+      "h1_original": "Faculties and institutes",
+      "title_en": "Faculties and institutes",
+      "h1_en": "Faculties and institutes",
+      "page_type": "Navigation",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Navigation (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
+      "url": "https://www.tudelft.nl/en/education",
+      "status": 200,
+      "title": "Students and Education | TU Delft | University of Technology",
+      "h1": "",
+      "title_original": "Students and Education | TU Delft | University of Technology",
+      "h1_original": "",
+      "title_en": "Students and Education | TU Delft | University of Technology",
+      "h1_en": "",
+      "page_type": "Navigation",
+      "score": -110,
+      "reasons": [
+        "+ Found by navigation",
+        "- Classified as Navigation (Not a leaf node)",
+        "- Metadata lacks specific degree indicators"
+      ]
+    },
+    {
       "url": "https://www.tudelft.nl/en/education/programmes/minors",
       "status": 200,
       "title": "Minors",
@@ -185,23 +202,6 @@
       "h1_original": "Minors",
       "title_en": "Minors",
       "h1_en": "Minors",
-      "page_type": "Degree Catalogue",
-      "score": -110,
-      "reasons": [
-        "+ Found by navigation",
-        "- Classified as Degree Catalogue (Not a leaf node)",
-        "- Metadata lacks specific degree indicators"
-      ]
-    },
-    {
-      "url": "https://www.tudelft.nl/en/education/programmes",
-      "status": 200,
-      "title": "Programmes",
-      "h1": "Programmes",
-      "title_original": "Programmes",
-      "h1_original": "Programmes",
-      "title_en": "Programmes",
-      "h1_en": "Programmes",
       "page_type": "Degree Catalogue",
       "score": -110,
       "reasons": [

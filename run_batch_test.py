@@ -10,24 +10,24 @@ from pipelines.university_pipeline import UniversityPipeline
 
 
 UNIVERSITIES = [
-    {
-        "name": "Imperial College London",
-        "country": "UK",
-        "url": "https://www.imperial.ac.uk/",
-        "qs_url": "https://www.topuniversities.com/universities/imperial-college-london",
-    },
-    {
-        "name": "University of Toronto",
-        "country": "Canada",
-        "url": "https://www.utoronto.ca/",
-        "qs_url": "https://www.topuniversities.com/universities/university-toronto",
-    },
-    {
-        "name": "University of Melbourne",
-        "country": "Australia",
-        "url": "https://www.unimelb.edu.au/",
-        "qs_url": "https://www.topuniversities.com/universities/university-melbourne",
-    },
+    # {
+    #     "name": "Imperial College London",
+    #     "country": "UK",
+    #     "url": "https://www.imperial.ac.uk/",
+    #     "qs_url": "https://www.topuniversities.com/universities/imperial-college-london",
+    # },
+    # {
+    #     "name": "University of Toronto",
+    #     "country": "Canada",
+    #     "url": "https://www.utoronto.ca/",
+    #     "qs_url": "https://www.topuniversities.com/universities/university-toronto",
+    # },
+    # {
+    #     "name": "University of Melbourne",
+    #     "country": "Australia",
+    #     "url": "https://www.unimelb.edu.au/",
+    #     "qs_url": "https://www.topuniversities.com/universities/university-melbourne",
+    # },
     {
         "name": "Sorbonne Universite",
         "country": "France",
