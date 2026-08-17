@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import Any, Dict, List
 
-@dataclass
+@dataclass(kw_only=True)
 class ExtractedFact:
     category: str         # 'university' or 'programme'
-    subcategory: str      # 'admission', 'curriculum', 'fees', etc.
+    subcategory: str = ""      # 'admission', 'curriculum', 'fees', etc.
     field: str            
     value: Any
     confidence: float = 1.0

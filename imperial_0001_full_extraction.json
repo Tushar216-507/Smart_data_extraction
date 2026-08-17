@@ -1,0 +1,1325 @@
+{
+  "admission_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 10,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "entry_requirements_note",
+        "value": "All applicants are considered on an individual basis, welcoming students from all over the world.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "max_applications_per_year",
+        "value": "1 application per year of entry",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "max_courses_per_application",
+        "value": "up to 2 courses",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_fee_master",
+        "value": "\u00a390",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_fee_business_school_msc",
+        "value": "\u00a3125",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_fee_business_school_mba",
+        "value": "\u00a3150",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_fee_waiver_available",
+        "value": "true",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_fee_not_required_for",
+        "value": "Postgraduate Certificates, Postgraduate Diplomas, PhDs, EngDs, MRes, and combined (1+3) courses with the Centre for Doctoral Training",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_fee_applies_per_application_not_per_course",
+        "value": "true",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "admission",
+        "field": "application_process_link",
+        "value": "/study/apply/postgraduate-taught/application-process/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      }
+    ]
+  },
+  "build_summary.json": {
+    "status": "success",
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "source_file": null,
+    "output_directory": "data\\united_kingdom\\imperialac\\programs\\0001\\final",
+    "input_fact_count": 80,
+    "unique_fact_count": 80,
+    "exact_duplicate_count": 0,
+    "handled_fact_count": 80,
+    "unhandled_fact_count": 0,
+    "written_fact_count": 80,
+    "dropped_fact_count": 0,
+    "section_fact_counts": {
+      "program": 10,
+      "admission": 10,
+      "curriculum": 10,
+      "career": 6,
+      "fees": 22,
+      "scholarships": 9,
+      "contacts": 0,
+      "student_life": 0,
+      "research": 4,
+      "housing": 0,
+      "visa": 1,
+      "documents": 0,
+      "statistics": 3,
+      "other": 5
+    },
+    "generated_files": {
+      "program": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\program_data.json",
+      "admission": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\admission_data.json",
+      "curriculum": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\curriculum_data.json",
+      "career": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\career_data.json",
+      "fees": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\fees_data.json",
+      "scholarships": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\scholarships_data.json",
+      "research": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\research_data.json",
+      "visa": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\visa_data.json",
+      "statistics": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\statistics_data.json",
+      "other": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\other_data.json",
+      "summary": "data\\united_kingdom\\imperialac\\programs\\0001\\final\\build_summary.json"
+    }
+  },
+  "career_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 6,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "career",
+        "field": "skills_developed",
+        "value": "Expertise in molecular genetics, the genetics of rare and common disease, and a broad theoretical and applied understanding of human genetics.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "career",
+        "field": "skills_developed",
+        "value": "Practical laboratory and computational science skills in bioinformatics and genomics.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "career",
+        "field": "skills_developed",
+        "value": "Transferable skills relevant to further studies in human molecular genetics or a career in medical genetics",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "career",
+        "field": "skills_developed",
+        "value": "Scientific written and presentational communication skills",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "career",
+        "field": "career_pathways",
+        "value": "Further study in master's programs or doctoral research",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "career",
+        "field": "nhs_hiring",
+        "value": "The NHS typically hires one or two clinical genetics students each year for training positions",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      }
+    ]
+  },
+  "curriculum_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 10,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "curriculum_update_note",
+        "value": "The curriculum information is updated regularly and is subject to change.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "timetabling_note",
+        "value": "Specific combinations of modules may not always be possible due to timetabling conflicts; confirm with the relevant department.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "modules",
+        "field": "core_modules_note",
+        "value": "Students will take all of the core modules.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "core_modules_overview",
+        "value": "Become familiar with key aspects of molecular genetics and reinforce your knowledge of cell biology, gene regulation, mechanisms of disease, and human genetics. Understand how Mendel\u2019s law of inheritance applies to both rare and common disease and contrast the implications of different modes of inheritance. Discover how to pose a testable hypothesis, implement a hypothesis test, and understand simple statistical tests. Learn how to operate safely in a laboratory setting, use laboratory equipment, set up and perform molecular genetics experiments, and interpret results. Build your research skills on a six-month novel project in one of our participating laboratories, with input from two supervisors. You'll implement, critically assimilate and extend all that you have learned during the programme, with work assessed by a thesis and oral examination.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "core_module_topics",
+        "value": "cell biology, gene regulation, mechanisms of disease, human genetics, Mendel\u2019s law of inheritance, rare and common disease, modes of inheritance, hypothesis testing, simple statistical tests, laboratory safety, laboratory equipment, molecular genetics experiments, result interpretation",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "teaching_and_learning_methods",
+        "value": "Lectures; Study groups; Practical laboratory classes; Virtual learning environment; BL-embedded Qualtrics surveys; Attend genetic meetings; Research project; Lecture recordings; Placement; Tutorials; Workshops",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "assessment_methods",
+        "value": "Online exercises; Essays; Journal clubs; Lab performance; Oral examination; Peer formative assessment methods; Presentations; Research dissertation; Study groups; Tutorial discussions; Written examination",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "assessment_balance_note",
+        "value": "Assessments are usually divided based on a typical pathway through the course; the actual breakdown may vary depending on the modules chosen.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "assessment_key_components",
+        "value": "Taught modules; Research project",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "curriculum",
+        "field": "assessment_weighting",
+        "value": "50% Title 1 goes here; 50% Title 2 goes here",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      }
+    ]
+  },
+  "fees_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 22,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "home_fee",
+        "value": "\u00a316,300",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "overseas_fee",
+        "value": "\u00a347,300",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "home_fee_amount",
+        "value": "\u00a316,300",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fees_increase_annually",
+        "value": "Fees are expected to increase each year due to inflation.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_basis",
+        "value": "The fee is based on the year you enter the university, not on your year of study.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "repeat_year_fee_policy",
+        "value": "If you repeat a year or resume your studies after an interruption, fees will only increase by the amount linked to inflation.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "tuition_fees_payment_terms_url",
+        "value": "https://www.imperial.ac.uk/study/fees-and-funding/tuition-fees/payment-terms/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_status_assessment_url",
+        "value": "https://www.imperial.ac.uk/study/fees-and-funding/tuition-fees/fee-status/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "overseas_fee_note",
+        "value": "Overseas fee applies to Human Molecular Genetics + Applied Multiomics for 2026 entry (amount not specified in the provided text).",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "tuition_fee_amount",
+        "value": "\u00a347,300",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_increase_note",
+        "value": "Fees are expected to increase each year.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_basis",
+        "value": "Fee is based on the year you enter the university, not your year of study.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_inflation_policy",
+        "value": "If you repeat a year or resume studies after an interruption, fees will only increase by the amount linked to inflation.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "tuition_fees_payment_terms_url",
+        "value": "/study/fees-and-funding/tuition-fees/payment-terms/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_status_assessment",
+        "value": "Fee status (Home or Overseas) is assessed based on UK Government legislation, considering residence, nationality, or residency status.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "fee_status_information_url",
+        "value": "/study/fees-and-funding/tuition-fees/fee-status/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "postgraduate_masters_loan_information_url",
+        "value": "/study/fees-and-funding/postgraduate-taught/loans/masters-loan/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "postgraduate_masters_loan_maximum",
+        "value": "\u00a313,206",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "postgraduate_masters_loan_eligibility",
+        "value": "Available to UK nationals or EU nationals with settled or pre-settled status, for full Master's courses starting on or after 1 August 2026.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "postgraduate_masters_loan_means_tested",
+        "value": "The loan is not means-tested.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "postgraduate_masters_loan_usage",
+        "value": "Loan can be used towards tuition fees or living costs.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "fees",
+        "field": "postgraduate_masters_loan_restriction",
+        "value": "Loan not available for students starting on a Postgraduate Certificate or Postgraduate Diploma.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      }
+    ]
+  },
+  "other_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 5,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "other",
+        "field": "location",
+        "value": "Hammersmith",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "other",
+        "field": "potential_course_changes_url",
+        "value": "https://www.imperial.ac.uk/study/apply/course-changes/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "other",
+        "field": "key_information_topics",
+        "value": "tuition fees, funding, visas, accommodation, and more",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0008",
+          "chunk_title": "Terms and conditions",
+          "chunk_order": 7
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "other",
+        "field": "programme_specification_contents",
+        "value": "degree classifications, regulations, progression and awards",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0008",
+          "chunk_title": "Terms and conditions",
+          "chunk_order": 7
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "other",
+        "field": "programme_specifications_url",
+        "value": "/staff/tools-and-reference/quality-assurance-enhancement/programme-information/programme-specifications/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0008",
+          "chunk_title": "Terms and conditions",
+          "chunk_order": 7
+        }
+      }
+    ]
+  },
+  "program_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 10,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "identity",
+        "field": "programme_name",
+        "value": "Human Molecular Genetics MSc",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "identity",
+        "field": "degree_type",
+        "value": "MSc",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "identity",
+        "field": "duration",
+        "value": "1 year",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "identity",
+        "field": "start_term",
+        "value": "September 2026",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "identity",
+        "field": "study_mode",
+        "value": "Full-time",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "overview",
+        "field": "description",
+        "value": "Train in the theory and application of human genetics to prepare for a research career.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "overview",
+        "field": "hands_on_experience",
+        "value": "Gain hands-on experience in the field through intensive laboratory work and computational biology practicals.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "overview",
+        "field": "research_project",
+        "value": "Develop your skills on a full-time research project exploring an area of genetics study.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0001",
+          "chunk_title": "Human Molecular Genetics + Course key facts",
+          "chunk_order": 0
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "overview",
+        "field": "description",
+        "value": "Train in the theory and application of human genetics to prepare for a research career on this Master's course.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "overview",
+        "field": "research_project",
+        "value": "A six-month novel research project designed to assess critical understanding of topics covered on the course.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0002",
+          "chunk_title": "Course overview + Structure",
+          "chunk_order": 1
+        }
+      }
+    ]
+  },
+  "research_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 4,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "research",
+        "field": "project_duration",
+        "value": "six months",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "research",
+        "field": "project_supervision",
+        "value": "two supervisors",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "research",
+        "field": "project_selection",
+        "value": "chosen from a pool of proposals provided by research investigators from Imperial College and institutions in the London region",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "research",
+        "field": "project_type",
+        "value": "wet\u2011lab, computational, or a combination of both",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0003",
+          "chunk_title": "Core modules + Testimonials + Teaching and assessment + Teaching and learning methods + Balance of assessment + Key + Assessment methods + Entry requirements + How to apply",
+          "chunk_order": 2
+        }
+      }
+    ]
+  },
+  "scholarships_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 9,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "postgraduate_masters_loan_maximum_amount",
+        "value": "\u00a313,206",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "postgraduate_masters_loan_eligibility_start_date",
+        "value": "Course starts on or after 1 August 2026.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "postgraduate_masters_loan_means_tested",
+        "value": "The loan is not means-tested.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "postgraduate_masters_loan_usage",
+        "value": "The loan can be used towards tuition fees or living costs.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "postgraduate_masters_loan_full_master_course_requirement",
+        "value": "The loan is only available if you are studying a full Master's course from the start; it is not available for Postgraduate Certificate or Postgraduate Diploma routes.",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "postgraduate_masters_loan_information_url",
+        "value": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/loans/masters-loan/",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0005",
+          "chunk_title": "\u00a316,300 + Overseas fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 4
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "award_value",
+        "value": "\u00a310,000 towards tuition fees; one scholarship covering the full Home tuition fee",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "eligibility",
+        "value": "All applicants to a lab-based Master's course in the Faculty of Medicine",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "scholarships",
+        "field": "more_information_url",
+        "value": "/study/fees-and-funding/scholarships-search/faculty-of-medicine-masters-scholarships-20262027.php",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0006",
+          "chunk_title": "\u00a347,300 + Value per award + Who it's for",
+          "chunk_order": 5
+        }
+      }
+    ]
+  },
+  "statistics_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 3,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "statistics",
+        "field": "phd_percentage",
+        "value": "Up to 50% of students go on to do a PhD",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "statistics",
+        "field": "research_assistant_percentage",
+        "value": "25% of graduates become research assistants or associates",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      },
+      {
+        "category": "programme",
+        "subcategory": "statistics",
+        "field": "industry_or_bioinformatics_percentage",
+        "value": "25% of graduates enter industry or pursue further education in bioinformatics and computing",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0007",
+          "chunk_title": "How will studying at Imperial help my career?",
+          "chunk_order": 6
+        }
+      }
+    ]
+  },
+  "visa_data.json": {
+    "program_id": "0001",
+    "program_name": "Human Molecular Genetics",
+    "fact_count": 1,
+    "university_facts": [],
+    "programme_facts": [
+      {
+        "category": "programme",
+        "subcategory": "visa",
+        "field": "atas_certificate_required",
+        "value": "false",
+        "confidence": 1.0,
+        "source_url": "",
+        "source_type": "",
+        "programme_association": "",
+        "metadata": {
+          "chunk_id": "program_0004",
+          "chunk_title": "Apply online + Fees and funding + Home fee (Human Molecular Genetics + Applied Multiomics) + 2026 entry",
+          "chunk_order": 3
+        }
+      }
+    ]
+  }
+}

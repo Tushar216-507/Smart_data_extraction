@@ -1,0 +1,640 @@
+{
+  "schema": {
+    "name": "qs_university_data",
+    "version": "1.0"
+  },
+  "source": {
+    "provider": "QS TopUniversities",
+    "profile_url": "https://www.topuniversities.com/universities/university-amsterdam",
+    "university_slug": "university-amsterdam",
+    "built_at": "2026-08-17T15:34:17.164243+00:00"
+  },
+  "identifiers": {
+    "qs_profile_id": 18,
+    "drupal_node_id": 913584
+  },
+  "university": {
+    "name": "University of Amsterdam",
+    "description": "Learn more about studying at University of Amsterdam including how it performs in QS rankings, the cost of tuition and further course information.",
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/240924020914pm288471UvA-logo-200x200.jpg"
+  },
+  "overview": {
+    "content": "Ranked in the top 20 universities in Europe and the top 60 worldwide, the\nUniversity of Amsterdam (UvA)\nstands for boundless curiosity – learning, research and innovation for a better world. Our 46,000 students from over 100 countries study a vast range of subjects from media, psychology and business to artificial intelligence.\nWe offer one of Europe’s largest selections of English-taught degree programmes, including some that are unique to us. A modern research university with roots going back to 1632, the UvA is set in the heart of a bustling European capital city that you can cycle across in under an hour.\nFind out more\nabout our programmes, campuses, and how to apply:\nBachelor's\nMaster's\nTop 5 reasons to choose the UvA\nRanking and reputation\nStudy at a university that ranks among Europe’s top 20 and the global top 65 in the QS and Times Higher Education World University Rankings 2026. Also ranked best in the world for Communication Science & Media. Accredited by the Dutch government and the NVAO, the UvA is a member of the League of European Research Universities (LERU).\nFreedom of choice\nChoose from one of the largest selections of international degree programmes of any university in Europe, with nearly 200 programmes taught in English – several unique to the UvA.\nCareer impact\nGain knowledge, critical thinking skills and a degree that can support your career. We have a\nStudent Careers Centre\n, a triple-accredited business school and a prime location in a city that’s a global hub. According to the\nQS World Future Skills Index 2024\n, The Netherlands has secured an impressive 6th place globally and ranks as one of the top countries in Europe for future skills readiness.\nEU and global connections\nMake friends across borders – over 16,000 of our 46,000 students are from outside the Netherlands. Benefit from the UvA’s\nmany connections\n, including Universitas 21, a global university network and Epicur, the European University.\nPrime location\nBecome a local in this vibrant capital city with a small-scale feel. Amsterdam ranks 6th worldwide in Mercer's 2024 ‘Quality of Living Survey’, 2nd in Europe and 6th globally in The Economist’s Safe Cities Index 2021. Many students tell us Amsterdam is ‘the place to be’.\nBachelor's programmes\nWe offer over 20\nEnglish-taught Bachelor's programmes\n.\nMaster's programmes\nNearly 200 English-taught\nare available at the UvA faculties:\nFaculty of Economics and Business\nFaculty of Humanities\nFaculty of Law\nFaculty of Medicine\nFaculty of Science\nFaculty of Social and Behavioural Sciences\nFaculty of Dentistry\n(programme in Dutch only)\nQuestions?\nFor questions about practical matters on admissions, housing or visas, you can contact the\nStudent Service Desk\n. If you want to know what it’s like to study at the UvA, feel free to get in touch with one of our\ninternational student ambassadors\nFollow us on social media\nFacebook\nTikTok\nInstagram\nYouTube\nLinkedIn"
+  },
+  "locations": {
+    "campuses": [
+      {
+        "name": "University of Amsterdam",
+        "address": {
+          "street": "Oudemanhuispoort",
+          "city": "Amsterdam",
+          "postal_code": "1012 CN",
+          "country": "Netherlands"
+        }
+      }
+    ]
+  },
+  "statistics": {
+    "total_students": {
+      "display_value": "38,853",
+      "value": 38853,
+      "breakdown": {
+        "undergraduate_percentage": 64.0,
+        "postgraduate_percentage": 36.0
+      }
+    },
+    "international_students": {
+      "display_value": "14,189",
+      "value": 14189,
+      "breakdown": {
+        "undergraduate_percentage": 69.1,
+        "postgraduate_percentage": 30.9
+      }
+    },
+    "total_faculty_staff": {
+      "display_value": "3,714",
+      "value": 3714,
+      "breakdown": {
+        "domestic_percentage": 51.0,
+        "international_percentage": 49.0
+      }
+    }
+  },
+  "cost_of_living": {
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "items": [
+      {
+        "category": "accommodation",
+        "label": "Accommodation",
+        "display_value": "$12,520",
+        "amount": 12520.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "food",
+        "label": "Food",
+        "display_value": "$3,480",
+        "amount": 3480.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "transport",
+        "label": "Transport",
+        "display_value": "$1,130",
+        "amount": 1130.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "utilities",
+        "label": "Utilities",
+        "display_value": "$3,750",
+        "amount": 3750.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "ranking_id": 513,
+      "name": "QS World University Rankings",
+      "current": {
+        "year": 2027,
+        "rank": "#60",
+        "rank_numeric": 60,
+        "is_tied": false,
+        "is_range": false,
+        "score": 80.2
+      },
+      "overall_score": 80.2,
+      "history": [
+        {
+          "year": 2027,
+          "rank": "#60",
+          "rank_numeric": 60,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2026,
+          "rank": "#53",
+          "rank_numeric": 53,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#55",
+          "rank_numeric": 55,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#53",
+          "rank_numeric": 53,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#58",
+          "rank_numeric": 58,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#55",
+          "rank_numeric": 55,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#61",
+          "rank_numeric": 61,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 80.2
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 93
+        },
+        {
+          "name": "Citations per Faculty",
+          "score": 80.9
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 83.3
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 70.5
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 29.5
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 99.7
+        },
+        {
+          "name": "International Research Network",
+          "score": 94.8
+        },
+        {
+          "name": "International Student Ratio",
+          "score": 95.9
+        },
+        {
+          "name": "Sustainability",
+          "score": 68.9
+        }
+      ],
+      "source": {
+        "profile_id": 18,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/513/18/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 516,
+      "name": "QS Ranking 516",
+      "current": {
+        "year": 2026,
+        "rank": "#1",
+        "rank_numeric": 1,
+        "is_tied": false,
+        "is_range": false,
+        "score": 96.8
+      },
+      "overall_score": 96.8,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#1",
+          "rank_numeric": 1,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#1",
+          "rank_numeric": 1,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#1",
+          "rank_numeric": 1,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#1",
+          "rank_numeric": 1,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#1",
+          "rank_numeric": 1,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#1",
+          "rank_numeric": 1,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 96.8
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 100
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 98.5
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 70.8
+        },
+        {
+          "name": "H-index Citations",
+          "score": 100
+        }
+      ],
+      "source": {
+        "profile_id": 18,
+        "offset": 467,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/516/18/467?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4085,
+      "name": "QS Sustainability Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#=418",
+        "rank_numeric": 418,
+        "is_tied": true,
+        "is_range": false,
+        "score": 72
+      },
+      "overall_score": 72,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#=418",
+          "rank_numeric": 418,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=424",
+          "rank_numeric": 424,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=385",
+          "rank_numeric": 385,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#171-180",
+          "rank_min": 171,
+          "rank_max": 180,
+          "is_tied": false,
+          "is_range": true
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 72
+        },
+        {
+          "name": "Impact of Education",
+          "score": 97.8
+        },
+        {
+          "name": "Employability & Opportunities",
+          "score": 98.6
+        },
+        {
+          "name": "Environmental Impact",
+          "score": 63.1
+        },
+        {
+          "name": "Equality",
+          "score": 69.6
+        },
+        {
+          "name": "Governance",
+          "score": 40.2
+        },
+        {
+          "name": "Knowledge Exchange",
+          "score": 89.4
+        },
+        {
+          "name": "Health and Wellbeing",
+          "score": 79.4
+        },
+        {
+          "name": "Social Impact",
+          "score": 86.8
+        },
+        {
+          "name": "Environmental Education",
+          "score": 80.4
+        },
+        {
+          "name": "Environmental Sustainability",
+          "score": 25.1
+        },
+        {
+          "name": "Environmental Research",
+          "score": 83.3
+        }
+      ],
+      "source": {
+        "profile_id": 18,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4085/18/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4093,
+      "name": "QS Europe University Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#9",
+        "rank_numeric": 9,
+        "is_tied": false,
+        "is_range": false,
+        "score": 90.5
+      },
+      "overall_score": 90.5,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#9",
+          "rank_numeric": 9,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#6",
+          "rank_numeric": 6,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=6",
+          "rank_numeric": 6,
+          "is_tied": true,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 90.5
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 99.4
+        },
+        {
+          "name": "International Student Diversity",
+          "score": 69.2
+        },
+        {
+          "name": "Outbound Exchange Students",
+          "score": 11.9
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 98.8
+        },
+        {
+          "name": "Papers per Faculty",
+          "score": 86
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 93.5
+        },
+        {
+          "name": "Sustainability",
+          "score": 84.8
+        },
+        {
+          "name": "International Research Network",
+          "score": 93.8
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 98.7
+        },
+        {
+          "name": "Inbound Exchange Students",
+          "score": 21.7
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 98.2
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 41.3
+        }
+      ],
+      "source": {
+        "profile_id": 18,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4093/18/0?_wrapper_format=drupal_ajax"
+      }
+    }
+  ],
+  "scholarships": {
+    "available": true,
+    "sections": [
+      {
+        "title": "Scholarships",
+        "content": "Scholarships\nSelecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n990.5K\n2237\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n501.8K\n788\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n226.5K\n335"
+      },
+      {
+        "title": "Scholarships",
+        "content": "Selecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n990.5K\n2237\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n501.8K\n788\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n226.5K\n335"
+      },
+      {
+        "title": "How to get a full scholarship",
+        "content": "Looking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n990.5K\n2237"
+      },
+      {
+        "title": "Scholarships to study abroad",
+        "content": "Find scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n501.8K\n788"
+      },
+      {
+        "title": "Scholarship Applications: Frequently Asked Questions",
+        "content": "Get answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n226.5K\n335"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/how-get-full-scholarship"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=913584&redirect_path=/universities/university-amsterdam"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/sabrinacollier"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-abroad"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=118181&redirect_path=/universities/university-amsterdam"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/qs-staff-writer"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarship-applications-frequently-asked-questions"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=268050&redirect_path=/universities/university-amsterdam"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/laurat"
+      }
+    ]
+  },
+  "social_links": [],
+  "media": {
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/240924020914pm288471UvA-logo-200x200.jpg",
+    "image_urls": [
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/atrium-2-1756893391.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/roeterseiland-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/omhp-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/science-park-klein-3.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/studiezaal-4-1756893362.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/roeterseiland-klein2.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/bushuis-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/science-park-klein2.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/ssd-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/collegezaal-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/de-brug-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/abs-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/binnengasthuisterrein-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/science-park-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles-slideshow/297816/roeterseiland-klein-3.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/atrium-2-1756893391.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/roeterseiland-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/omhp-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/science-park-klein-3.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/studiezaal-4-1756893362.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/roeterseiland-klein2.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/bushuis-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/science-park-klein2.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/ssd-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/collegezaal-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/de-brug-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/abs-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/binnengasthuisterrein-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/science-park-klein.jpg",
+      "https://www.topuniversities.com/sites/default/files/styles/large/public/profiles-slideshow/297816/roeterseiland-klein-3.jpg",
+      "https://www.topuniversities.com/sites/default/files/profiles/logos/240924020914pm288471UvA-logo-200x200.jpg"
+    ],
+    "image_count": 31
+  },
+  "supplementary_content": {
+    "additional_sections": [
+      {
+        "title": "Available programmes",
+        "content": "Bachelor\n(24)\nUG\nArts and Humanities\n(5)\nBA Ancient Studies\n::type_cta_button::\nGo to Programme\nBA Archaeology\nBA English Language and Culture\nBA Global Arts, Culture and Politics (Cultural Studies)\nBA Linguistics\nBA Literary and Cultural Analysis (Literary Studies)\nBA Sign Language Linguistics (Linguistics)\nBA/BSc Liberal Arts and Sciences\nView All\nBusiness and Management\nBSc Actuarial Science\nBSc Business Administration\nBSc Business Analytics\nBSc Econometrics and Data Science\nBSc Economics and Business Economics\nEngineering and Technology\nBSc Computational Social Science\nLife Sciences and Medicine\nBA Psychology\nSocial Sciences and Management\nBA Cultural Anthropology and Development Sociology\nBA European Studies\nBA Human Geography and Planning\nBA Media and Culture\nBA Media and Information\nBA Political Science\nBA Sociology\nBSc Global Communication Science (Communication Science)\nBSc Politics, Psychology, Law and Economics\nMaster\n(178)\nPG\n(6)\nMA American Studies (History)\nMA Archaeology\nMA Classics and Ancient Civilizations\nMA Comparative Cultural Analysis (Arts and Culture)\nMA Comparative Literature (Literary Studies)\nMA Curating Art and Cultures (Heritage Studies)\nMA English Literature and Culture (Literary Studies)\nMA General Linguistics (Linguistics)\nMA Heritage and Memory Studies (Heritage Studies)\nMA Holocaust and Genocide Studies (History)\nMA Identity and Integration (European Studies)\nMA International Dramaturgy (Arts and Culture)\nMA Jewish Studies (Middle Eastern Studies)\nMA Language and Society (Linguistics)\nMA Language, Literature and Education (Linguistics)\nMA Literature, Culture and Society (Literary Studies)\nMA Museum Studies (Heritage Studies)\nMA Music Studies (Arts and Culture)\nMA Philosophy\nMA Philosophy of the Humanities and the Social Sciences (Philosophy)\nMA Spirituality and Religion (Theology and Religious Studies)\nMA Theatre Studies (Arts and Culture)\nMSc Conservation and Restoration of Cultural Heritage\nMSc Spatial Sustainability Studies (Urban and Regional Planning)\nMSc Urban Studies (research)\nMSc Urban and Regional Planning\nResearch MA Art and Performance Research Studies (Arts and Culture - research)\nResearch MA Cultural Analysis (Arts and Culture)\nResearch MA Heritage, Memory and Archaeology (Archaeology - research)\nResearch MA Linguistics (Linguistics and Communication)\nResearch MA Literary Studies (research)\nResearch MA Philosophy\nResearch MA Religious Studies (Theology and Religious Studies)\nBusiness Administration (MSc)\nData Science and Business Analytics\nExecutive Programme in Management Studies\nMSc Accountancy (Accountancy and Control)\nMSc Accountancy and Control\nMSc Actuarial Science (Actuarial Science and Mathematical Finance)\nMSc Asset Management (Finance)\nMSc Banking and Regulation (Finance)\nMSc Behavioural Economics and Game Theory (Economics)\nMSc Business Analytics (Data Science and Business Analytics)\nMSc Business Economics\nMSc Business Information Technology Management\nMSc Consumer Marketing (Business Administration)\nMSc Control (Accountancy and Control)\nMSc Corporate Finance (Finance)\nMSc Data Analytics (Econometrics)\nMSc Data Science (Data Science and Business Analytics)\nMSc Development Economics (Economics)\nMSc Digital Marketing (Business Administration)\nMSc Econometrics and Mathematical Economics (Econometrics)\nMSc Econometrics and Policy Analysis (Econometrics)\nMSc Entrepreneurship\nMSc Entrepreneurship and Innovation (Business Administration)\nMSc Entrepreneurship and Management in the Creative Industries (Business Administration)\nMSc Environmental Economics (Economics)\nMSc Finance\nMSc Finance and Real Estate Finance Combination (Finance)\nMSc Financial Econometrics (Econometrics)\nMSc International Business (Business Administration)\nMSc International Finance and Trade (Economics)\nMSc Leadership and Management (Business Administration)\nMSc Management of International Business and Trade (Business Administration)\nMSc Managerial Economics and Strategy (Business Economics)\nMSc Monetary Policy and Banking (Economics)\nMSc Neuroeconomics (Business Economics)\nMSc Public Policy (Economics)\nMSc Quantitative Finance (Finance)\nMSc Quantitative Risk Management (Actuarial Science and Mathematical Finance)\nMSc Real Estate Finance (Finance)\nMSc Strategy (Business Administration)\nMSc Strategy, Disruption and Business Transformation (Business Administration)\nMSc Sustainability (Business Economics)\nTinbergen Institute MPhil in Economics (Research Master)\nMA Cultural Data & AI (Media Studies)\nMSc Artificial Intelligence\nMSc Computational Science\nMSc Computer Science\nMSc Data Science (Information Studies)\nMSc Human-Computer Interaction (Information Studies)\nMSc Logic\nMSc Quantum Computer Science\nMSc Security and Network Engineering\nMSc Software Engineering\nResearch MSc Business Data Science (Tinbergen Institute)\nMSc AI for Health (Medical Informatics)\nMSc Behavioural Data Science (Psychology)\nMSc Bioinformatics and Systems Biology\nMSc Biological Sciences\nMSc Biomedical Sciences\nMSc Brain & Cognition in Society (Psychology)\nMSc Brain and Cognitive Sciences\nMSc Coaching & Vitality in Organisations (Psychology)\nMSc Consultancy & Organisational Development (Psychology)\nMSc Cultural Psychology (Psychology)\nMSc Ecology and Evolution (Biological Sciences)\nMSc Evolution of Behaviour and Mind (Biological Sciences)\nMSc Freshwater & Marine Biology (Biological Sciences)\nMSc General Biology (Biological Sciences)\nMSc Green Life Sciences (Biological Sciences)\nMSc Health Promotion & Behaviour Change (Psychology)\nMSc Human Resource & Career Management (Psychology)\nMSc Medical Biology (Biomedical Sciences)\nMSc Medical Informatics\nMSc Neurobiology (Biomedical Sciences)\nMSc Social Influence (Psychology)\nMSc Sport and Performance Psychology (Psychology)\nMSc Sustainable eHealth Solutions (Medical Informatics)\nResearch MSc Psychology (research)\nNatural Sciences\nMSc Analytical Sciences (Chemistry)\nMSc Astronomy and Astrophysics (Physics and Astronomy)\nMSc Biophysics and Biophotonics (Physics and Astronomy)\nMSc Chemistry\nMSc Chemistry of Life (Chemistry)\nMSc Digital Economic Geography (Human Geography)\nMSc Earth System Science (Earth Sciences)\nMSc Environmental Management (Earth Sciences)\nMSc Forensic Science\nMSc Geo-ecological Dynamics (Earth Sciences)\nMSc Gravitation, Astro-, and Particle Physics (Physics and Astronomy)\nMSc Mathematics\nMSc Molecular Sciences (Chemistry)\nMSc Physics and Astronomy: Advanced Matter and Energy Physics\nMSc Political Geography (Human Geography)\nMSc Science for Energy and Sustainability (Chemistry)\nMSc Science for Energy and Sustainability (Physics and Astronomy)\nMSc Spatial Sustainability Studies (Human Geography)\nMSc Stochastics and Financial Mathematics\nMSc Theoretical Physics (Physics and Astronomy)\nMSc Urban Geography (Human Geography)\nLLM European Competition Law and Regulation (International and European Law)\nLLM European Union Law (International and European Law)\nLLM International Criminal Law - Joint Program with Columbia Law School (International Criminal Law)\nLLM International Tax Law (Advanced LLM)\nLLM International Trade and Investment Law (International and European Law)\nLLM International and Transnational Criminal Law (International Criminal Law)\nLLM Law & Finance\nLLM Public International Law (International and European Law)\nLLM Technology Governance (Advanced LLM)\nLLM Transnational and European Private Law\nMA Archival and Information Studies (Media Studies)\nMA Communication and Information Studies\nMA East European Studies (European Studies)\nMA European Policy (European Studies)\nMA Film Studies (Media Studies)\nMA Global Cross-Media Cultures (Media Studies)\nMA Journalism, Media and Globalisation (Erasmus Mundus Master's - joint degree)\nMA Latin American Studies\nMA New Media and Digital Culture (Media Studies)\nMA Preservation and Presentation of the Moving Image (Media Studies)\nMSc Applied Anthropology (Cultural and Social Anthropology)\nMSc Child Development and Education (Research Master)\nMSc Communication Science\nMSc Comparative Politics (Political Science)\nMSc Complex Systems and Policy\nMSc Conflict Resolution and Governance\nMSc Corporate Communication (Communication Science)\nMSc Cultural and Social Anthropology\nMSc Entertainment Communication (Communication Science)\nMSc European Politics and External Relations (Political Science)\nMSc Gender and Sexuality (Sociology / Political Science)\nMSc International Development Studies\nMSc International Development Studies (research)\nMSc International Relations (Political Science)\nMSc Medical Anthropology and Sociology\nMSc Persuasive Communication (Communication Science)\nMSc Political Communication (Communication Science)\nMSc Political Economy (Political Science)\nMSc Political Theory (Political Science)\nMSc Public Policy and Governance (Political Science)\nMSc Sociology\nMSc Visual Anthropology (Cultural and Social Anthropology)\nMSc Youth at Risk (Pedagogical Sciences)\nResearch MA Media Studies (research)\nResearch MSc Communication Science (research)\nResearch MSc Social Sciences (research)\nMBA (4)\nExecutive MBA\n(3)\nFull-Time MBA\nAmsterdam MBA\nMBA in Finance\nPart-Time MBA\nMBA in AI, Data & Analytics"
+      },
+      {
+        "title": "Tuition fees",
+        "content": "Tuition Fees\nOverall Tuition Fees\nDomestic\nStarts from\n2,695 EUR\nInternational\n15,000 EUR\nFunding\nTuition fees\nThe UvA is a state university which offers both (government) subsidised and non-subsidised programmes. The tuition fee you are required to pay depends on your nationality. If you are from a non-EU/EEA country, the tuition fees are considerably higher because your studies are not subsidised by the Dutch government.\nSee an overview of the tuition fees\nApplication fee\nStudents applying for an English-taught Bachelor’s degree programme are required to pay a non-refundable €100 application fee. For more information and to see whether you qualify for an exemption visit:\nwww.uva.nl/application"
+      },
+      {
+        "title": "Employability",
+        "content": "Career Services\nFor many students* the career impact of an UvA degree is among the top reasons for choosing to study with us. It’s not just your study choice and the final degree certificate that matter. All our Bachelor’s and Master’s programmes combine teaching and research, promoting critical thinking that can give you the edge in professional environments.\nAmsterdam is not only the creative and cultural heart of the Netherlands but also a global business centre. Both during and after your studies, you can benefit from having access to major international firms and Dutch companies located in Amsterdam, such as Philips and Heineken, as well as academic institutions and cultural organisations.\nOur team of career advisors can help you to decide on the next steps to take for your studies or career. We also host various workshops, events and fairs to help students prepare for their future professional life.\nFind out more:\nwww.career.uva.nl\n*Source: International Student Barometer 2024"
+      },
+      {
+        "title": "Videos & media",
+        "content": "+16 more"
+      }
+    ]
+  },
+  "extraction": {
+    "profile": {
+      "json_ld_items_found": 5,
+      "profile_badges_found": 3,
+      "campuses_found": 1,
+      "social_links_found": 0,
+      "website_urls_found": 0,
+      "images_found": 31,
+      "statistics_found": 3,
+      "cost_items_found": 4,
+      "scholarship_sections_found": 5,
+      "university_information_sections_found": 9,
+      "ranking_summaries_found": 1,
+      "ranking_endpoints_found": 4,
+      "additional_sections_found": 4
+    },
+    "rankings": {
+      "endpoints_discovered": 4,
+      "unique_endpoints": 4,
+      "endpoints_processed": 4,
+      "endpoints_failed": 0,
+      "ranking_records_found": 20,
+      "extracted_at": "2026-08-17T15:34:17.164157+00:00"
+    }
+  },
+  "build_summary": {
+    "ranking_count": 4,
+    "ranking_history_records": 20,
+    "ranking_criteria_count": 40,
+    "campus_count": 1,
+    "social_link_count": 0,
+    "image_count": 31,
+    "statistics_sections": 3,
+    "has_cost_of_living": true,
+    "has_programmes": false
+  }
+}

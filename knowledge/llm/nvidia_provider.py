@@ -115,7 +115,7 @@ class NvidiaProvider(LLMProvider):
                 if self._is_retryable(error) and attempt < self.max_retries:
                     delay = self.base_retry_delay * (2 ** (attempt - 1))
                     print(
-                        f"  ⟳ NVIDIA attempt {attempt}/{self.max_retries} failed: "
+                        f"  [RETRY] NVIDIA attempt {attempt}/{self.max_retries} failed: "
                         f"{type(error).__name__}: {error}"
                     )
                     print(f"    Retrying in {delay:.0f}s...")
@@ -216,6 +216,9 @@ class NvidiaProvider(LLMProvider):
         for code in self.RETRYABLE_STATUS_CODES:
             if str(code) in str(error):
                 return True
+
+        if isinstance(error, json.JSONDecodeError):
+            return True
 
         # Check for rate limit indicators
         if "rate" in error_str and "limit" in error_str:

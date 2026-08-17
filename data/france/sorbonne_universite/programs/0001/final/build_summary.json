@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0001",
+  "program_name": "Master's degree in Molecular and Cellular Biology (BMC)",
+  "source_file": null,
+  "output_directory": "data\\france\\sorbonne_universite\\programs\\0001\\final",
+  "input_fact_count": 49,
+  "unique_fact_count": 49,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 49,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 49,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 19,
+    "admission": 3,
+    "curriculum": 8,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 12,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 5,
+    "other": 2
+  },
+  "generated_files": {
+    "program": "data\\france\\sorbonne_universite\\programs\\0001\\final\\program_data.json",
+    "admission": "data\\france\\sorbonne_universite\\programs\\0001\\final\\admission_data.json",
+    "curriculum": "data\\france\\sorbonne_universite\\programs\\0001\\final\\curriculum_data.json",
+    "contacts": "data\\france\\sorbonne_universite\\programs\\0001\\final\\contacts_data.json",
+    "statistics": "data\\france\\sorbonne_universite\\programs\\0001\\final\\statistics_data.json",
+    "other": "data\\france\\sorbonne_universite\\programs\\0001\\final\\other_data.json",
+    "summary": "data\\france\\sorbonne_universite\\programs\\0001\\final\\build_summary.json"
+  }
+}

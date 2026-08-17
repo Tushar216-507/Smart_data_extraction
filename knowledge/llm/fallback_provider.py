@@ -46,7 +46,7 @@ class FallbackProvider(LLMProvider):
             print()
 
             print(
-                "⚠ Primary LLM provider failed."
+                "[WARN] Primary LLM provider failed."
             )
 
             print(
@@ -54,7 +54,7 @@ class FallbackProvider(LLMProvider):
             )
 
             print(
-                "→ Retrying with fallback "
+                "-> Retrying with fallback "
                 "LLM provider..."
             )
 

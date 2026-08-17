@@ -45,7 +45,7 @@ class ProgramExtractor:
 PROGRAM METADATA
 
 {json.dumps(
-    program.metadata,
+    program.__dict__,
     indent=2,
     ensure_ascii=False,
 )}
@@ -142,9 +142,10 @@ IMPORTANT
             chunks,
             start=1,
         ):
+            safe_title = chunk.title.encode("ascii", "replace").decode("ascii")
             print(
                 f"[{index}/{len(chunks)}] "
-                f"{chunk.title}"
+                f"{safe_title}"
             )
 
             try:
@@ -221,7 +222,7 @@ IMPORTANT
                             field=item["field"],
                             value=item["value"],
                             confidence=item.get("confidence", 1.0),
-                            source_url=pack.program.metadata.get("url", ""),
+                            source_url=getattr(pack.program, "url", ""),
                             source_type=chunk.source_type,
                             programme_association=item.get("programme_association", ""),
                             metadata=fact_metadata,

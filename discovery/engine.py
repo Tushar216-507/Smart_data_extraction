@@ -80,7 +80,7 @@ class DiscoveryEngine:
                 candidate.url = URLCanonicalizer.canonicalize(candidate.url)
                 
                 # 2. Filter
-                if not ConservativeFilter.is_valid(candidate.url):
+                if not ConservativeFilter.is_valid(candidate.url, base_url=context.base_url):
                     result.strategy_stats[strategy_name]["filtered"] = result.strategy_stats[strategy_name].get("filtered", 0) + 1
                     continue
 

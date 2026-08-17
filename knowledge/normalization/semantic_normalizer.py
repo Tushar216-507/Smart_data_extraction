@@ -95,7 +95,7 @@ class SemanticNormalizer:
                 )
 
             print(
-                f"✓ Normalized "
+                f"[PASS] Normalized "
                 f"{len(normalized_facts)} facts"
             )
 
@@ -241,8 +241,8 @@ class SemanticNormalizer:
         if not isinstance(category, str) or not category.strip():
             raise ValueError("Missing or invalid category.")
 
-        if not isinstance(subcategory, str) or not subcategory.strip():
-            raise ValueError("Missing or invalid subcategory.")
+        if not isinstance(subcategory, str):
+            subcategory = ""
 
         if not isinstance(field, str) or not field.strip():
             raise ValueError("Missing or invalid field.")

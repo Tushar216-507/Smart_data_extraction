@@ -101,7 +101,7 @@ class QSPipeline:
         # Stage 1: Profile Extraction
         # ----------------------------------------------------------
 
-        print("    ── QS Profile Extraction")
+        print("    -- QS Profile Extraction")
 
         profile_extractor = QSProfileExtractor(
             output_directory=qs_root,
@@ -115,7 +115,7 @@ class QSPipeline:
             "source", {}
         ).get("university_slug", "unknown")
 
-        print(f"    ✓ QS profile extracted: {university_slug}")
+        print(f"    [PASS] QS profile extracted: {university_slug}")
 
         if verbose:
             university_name = profile_result.get(
@@ -127,7 +127,7 @@ class QSPipeline:
         # Stage 2: Ranking Extraction
         # ----------------------------------------------------------
 
-        print("    ── QS Ranking Extraction")
+        print("    -- QS Ranking Extraction")
 
         ranking_extractor = QSRankingExtractor(
             output_directory=qs_root,
@@ -149,13 +149,13 @@ class QSPipeline:
             rankings_result.get("rankings", [])
         )
 
-        print(f"    ✓ {ranking_count} QS rankings extracted")
+        print(f"    [PASS] {ranking_count} QS rankings extracted")
 
         # ----------------------------------------------------------
         # Stage 3: Output Building
         # ----------------------------------------------------------
 
-        print("    ── QS Output Building")
+        print("    -- QS Output Building")
 
         output_builder = QSOutputBuilder(
             qs_directory=qs_root,
@@ -173,7 +173,7 @@ class QSPipeline:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(qs_data, f, indent=2, ensure_ascii=False)
 
-        print(f"    ✓ QS data saved: {output_file.name}")
+        print(f"    [PASS] QS data saved: {output_file.name}")
 
         # ----------------------------------------------------------
         # Clean up working directory if intermediates not needed

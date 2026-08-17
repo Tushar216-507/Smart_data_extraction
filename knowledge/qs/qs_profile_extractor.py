@@ -294,7 +294,7 @@ class QSProfileExtractor:
         if html_content:
 
             print(
-                "✓ Existing raw QS profile HTML loaded."
+                "[PASS] Existing raw QS profile HTML loaded."
             )
 
         else:
@@ -555,11 +555,49 @@ class QSProfileExtractor:
         """
         Download the QS university profile.
 
-        Uses a simple browser-like request. Avoids manually
-        supplied browser client-hint headers because they can
-        conflict with Python requests' network fingerprint.
+        Uses curl_cffi with Chrome TLS fingerprint impersonation
+        to bypass Cloudflare bot protection on topuniversities.com.
+        Falls back to standard requests if curl_cffi is unavailable.
         """
 
+        # ---- Primary: curl_cffi (bypasses Cloudflare) ----
+        try:
+            from curl_cffi import requests as curl_requests
+
+            response = curl_requests.get(
+                profile_url,
+                impersonate="chrome",
+                timeout=self.timeout,
+                allow_redirects=True,
+            )
+
+            if response.status_code == 403:
+                raise RuntimeError(
+                    "QS returned HTTP 403 Forbidden. "
+                    "The profile request was blocked."
+                )
+
+            response.raise_for_status()
+
+            html_content = response.text
+
+            if not html_content.strip():
+                raise RuntimeError(
+                    "QS returned an empty profile page."
+                )
+
+            return html_content
+
+        except ImportError:
+            pass  # curl_cffi not installed, fall back
+
+        except Exception as curl_error:
+            print(
+                f"    [WARN] curl_cffi failed: {curl_error}. "
+                "Falling back to requests..."
+            )
+
+        # ---- Fallback: standard requests ----
         try:
             response = self.session.get(
                 profile_url,

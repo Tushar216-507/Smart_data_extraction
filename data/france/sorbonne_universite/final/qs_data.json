@@ -1,0 +1,593 @@
+{
+  "schema": {
+    "name": "qs_university_data",
+    "version": "1.0"
+  },
+  "source": {
+    "provider": "QS TopUniversities",
+    "profile_url": "https://www.topuniversities.com/universities/sorbonne-university",
+    "university_slug": "sorbonne-university",
+    "built_at": "2026-08-17T14:33:55.415506+00:00"
+  },
+  "identifiers": {
+    "qs_profile_id": 34362,
+    "drupal_node_id": 396462
+  },
+  "university": {
+    "name": "Sorbonne University",
+    "description": "Learn more about studying at Sorbonne University including how it performs in QS rankings, the cost of tuition and further course information.",
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/sorbonne-university_5a6afcfecb4de709397114fe_large.jpg"
+  },
+  "overview": {
+    "content": "This new French university draws on centuries of tradition in research and education. By joining two leading Paris universities*, an exceptional centre of knowledge has been recreated under the world-renowned Sorbonne name.\nSorbonne University is a world-class research university, presenting the comprehensive disciplinary range of arts, humanities, social sciences, natural sciences, engineering and medicine. Sorbonne University’s approach to education and research is designed for the intellectual and scientific challenges of the 21st century.\nThe University offers its 53,400 students the best educational opportunities for the success of each of their personal and professional projects, through monodisciplinary, bi-disciplinary and interdisciplinary programs. 10,200 of its students are international and 4,400 are in doctoral programs. With its three main faculties, it offers varied and original opportunities across disciplines.\nSorbonne University research has more than 3,400 professor-researchers in its laboratories and partners with major French research organisations. The university has exceptional transdisciplinary institutes and is also the headquarters for the European Marine Biological Research Centre.\nSorbonne University is an institution with a global outlook that conducts an ambitious international policy of education and research with a high social impact. Sorbonne University has established a network of strategic partners in an alliance that mobilizes all the university’s technical and professional expertise.\n* Paris-Sorbonne and Pierre & Marie Curie Universities"
+  },
+  "locations": {
+    "campuses": [
+      {
+        "name": "Sorbonne University",
+        "address": {
+          "street": "15-21 Rue de l'École de Médecine",
+          "city": "Paris",
+          "postal_code": "75006",
+          "country": "France"
+        }
+      }
+    ]
+  },
+  "statistics": {
+    "total_students": {
+      "display_value": "38,684",
+      "value": 38684,
+      "breakdown": {
+        "undergraduate_percentage": 52.2,
+        "postgraduate_percentage": 47.8
+      }
+    },
+    "international_students": {
+      "display_value": "8,815",
+      "value": 8815,
+      "breakdown": {
+        "undergraduate_percentage": 44.2,
+        "postgraduate_percentage": 55.8
+      }
+    },
+    "total_faculty_staff": {
+      "display_value": "4,737",
+      "value": 4737,
+      "breakdown": {
+        "domestic_percentage": 85.0,
+        "international_percentage": 15.0
+      }
+    }
+  },
+  "cost_of_living": {
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "items": [
+      {
+        "category": "accommodation",
+        "label": "Accommodation",
+        "display_value": "$8,870",
+        "amount": 8870.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "food",
+        "label": "Food",
+        "display_value": "$4,660",
+        "amount": 4660.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "transport",
+        "label": "Transport",
+        "display_value": "$1,090",
+        "amount": 1090.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "utilities",
+        "label": "Utilities",
+        "display_value": "$3,230",
+        "amount": 3230.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "ranking_id": 513,
+      "name": "QS World University Rankings",
+      "current": {
+        "year": 2027,
+        "rank": "#73",
+        "rank_numeric": 73,
+        "is_tied": false,
+        "is_range": false,
+        "score": 74.8
+      },
+      "overall_score": 74.8,
+      "history": [
+        {
+          "year": 2027,
+          "rank": "#73",
+          "rank_numeric": 73,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2026,
+          "rank": "#=72",
+          "rank_numeric": 72,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=63",
+          "rank_numeric": 63,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#59",
+          "rank_numeric": 59,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#60",
+          "rank_numeric": 60,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#72",
+          "rank_numeric": 72,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#83",
+          "rank_numeric": 83,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 74.8
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 92.6
+        },
+        {
+          "name": "Citations per Faculty",
+          "score": 62.9
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 78
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 65.5
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 60
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 32.4
+        },
+        {
+          "name": "International Research Network",
+          "score": 99.2
+        },
+        {
+          "name": "International Student Ratio",
+          "score": 65
+        },
+        {
+          "name": "Sustainability",
+          "score": 91.8
+        }
+      ],
+      "source": {
+        "profile_id": 34362,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/513/34362/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 516,
+      "name": "QS Ranking 516",
+      "current": {
+        "year": 2026,
+        "rank": "#11",
+        "rank_numeric": 11,
+        "is_tied": false,
+        "is_range": false,
+        "score": 83.9
+      },
+      "overall_score": 83.9,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#11",
+          "rank_numeric": 11,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#18",
+          "rank_numeric": 18,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#12",
+          "rank_numeric": 12,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#10",
+          "rank_numeric": 10,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#18",
+          "rank_numeric": 18,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#29",
+          "rank_numeric": 29,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 83.9
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 85.5
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 82.1
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 76.4
+        },
+        {
+          "name": "H-index Citations",
+          "score": 87.8
+        },
+        {
+          "name": "International Research Network",
+          "score": 89.6
+        }
+      ],
+      "source": {
+        "profile_id": 34362,
+        "offset": 494,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/516/34362/494?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4085,
+      "name": "QS Sustainability Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#=61",
+        "rank_numeric": 61,
+        "is_tied": true,
+        "is_range": false,
+        "score": 92.6
+      },
+      "overall_score": 92.6,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#=61",
+          "rank_numeric": 61,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=68",
+          "rank_numeric": 68,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#111",
+          "rank_numeric": 111,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#=144",
+          "rank_numeric": 144,
+          "is_tied": true,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 92.6
+        },
+        {
+          "name": "Impact of Education",
+          "score": 95.1
+        },
+        {
+          "name": "Employability & Opportunities",
+          "score": 91.1
+        },
+        {
+          "name": "Environmental Impact",
+          "score": 89
+        },
+        {
+          "name": "Equality",
+          "score": 91.6
+        },
+        {
+          "name": "Governance",
+          "score": 91.8
+        },
+        {
+          "name": "Knowledge Exchange",
+          "score": 95.7
+        },
+        {
+          "name": "Health and Wellbeing",
+          "score": 97.2
+        },
+        {
+          "name": "Social Impact",
+          "score": 94.5
+        },
+        {
+          "name": "Environmental Education",
+          "score": 98.3
+        },
+        {
+          "name": "Environmental Sustainability",
+          "score": 70.1
+        },
+        {
+          "name": "Environmental Research",
+          "score": 97.6
+        }
+      ],
+      "source": {
+        "profile_id": 34362,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4085/34362/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4093,
+      "name": "QS Europe University Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#12",
+        "rank_numeric": 12,
+        "is_tied": false,
+        "is_range": false,
+        "score": 87.1
+      },
+      "overall_score": 87.1,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#12",
+          "rank_numeric": 12,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#12",
+          "rank_numeric": 12,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#10",
+          "rank_numeric": 10,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 87.1
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 99.5
+        },
+        {
+          "name": "International Student Diversity",
+          "score": 67.3
+        },
+        {
+          "name": "Outbound Exchange Students",
+          "score": 30
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 70.3
+        },
+        {
+          "name": "Papers per Faculty",
+          "score": 89.1
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 88.2
+        },
+        {
+          "name": "Sustainability",
+          "score": 98.2
+        },
+        {
+          "name": "International Research Network",
+          "score": 99.4
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 97
+        },
+        {
+          "name": "Inbound Exchange Students",
+          "score": 18.1
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 41.9
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 73.5
+        }
+      ],
+      "source": {
+        "profile_id": 34362,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4093/34362/0?_wrapper_format=drupal_ajax"
+      }
+    }
+  ],
+  "scholarships": {
+    "available": true,
+    "sections": [
+      {
+        "title": "Scholarships",
+        "content": "Scholarships\nSelecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n990.5K\n2237\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n501.8K\n788\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n226.5K\n335"
+      },
+      {
+        "title": "Scholarships",
+        "content": "Selecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n990.5K\n2237\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n501.8K\n788\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n226.5K\n335"
+      },
+      {
+        "title": "How to get a full scholarship",
+        "content": "Looking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n990.5K\n2237"
+      },
+      {
+        "title": "Scholarships to study abroad",
+        "content": "Find scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n501.8K\n788"
+      },
+      {
+        "title": "Scholarship Applications: Frequently Asked Questions",
+        "content": "Get answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n226.5K\n335"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/how-get-full-scholarship"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=913584&redirect_path=/universities/sorbonne-university"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/sabrinacollier"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-abroad"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=118181&redirect_path=/universities/sorbonne-university"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/qs-staff-writer"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarship-applications-frequently-asked-questions"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=268050&redirect_path=/universities/sorbonne-university"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/laurat"
+      }
+    ]
+  },
+  "social_links": [],
+  "media": {
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/sorbonne-university_5a6afcfecb4de709397114fe_large.jpg",
+    "image_urls": [
+      "https://www.topuniversities.com/sites/default/files/profiles/logos/sorbonne-university_5a6afcfecb4de709397114fe_large.jpg"
+    ],
+    "image_count": 1
+  },
+  "extraction": {
+    "profile": {
+      "json_ld_items_found": 4,
+      "profile_badges_found": 1,
+      "campuses_found": 1,
+      "social_links_found": 0,
+      "website_urls_found": 0,
+      "images_found": 1,
+      "statistics_found": 3,
+      "cost_items_found": 4,
+      "scholarship_sections_found": 5,
+      "university_information_sections_found": 2,
+      "ranking_summaries_found": 1,
+      "ranking_endpoints_found": 4,
+      "additional_sections_found": 0
+    },
+    "rankings": {
+      "endpoints_discovered": 4,
+      "unique_endpoints": 4,
+      "endpoints_processed": 4,
+      "endpoints_failed": 0,
+      "ranking_records_found": 20,
+      "extracted_at": "2026-08-17T14:33:55.415464+00:00"
+    }
+  },
+  "build_summary": {
+    "ranking_count": 4,
+    "ranking_history_records": 20,
+    "ranking_criteria_count": 41,
+    "campus_count": 1,
+    "social_link_count": 0,
+    "image_count": 1,
+    "statistics_sections": 3,
+    "has_cost_of_living": true,
+    "has_programmes": false
+  }
+}

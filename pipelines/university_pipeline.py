@@ -496,27 +496,122 @@ class UniversityPipeline:
             if coverage["missing_fields"]:
                 print(f"  [WARN] Missing critical fields: {', '.join(coverage['missing_fields'])}")
                 
-                program_title = program.metadata.get("title_en", program.metadata.get("title", ""))
-                search_terms = []
-                for field in coverage["missing_fields"]:
-                    search_terms.append(f"{program_title} {field.replace('_', ' ')}")
-                    
-                print(f"  > Running targeted search for missing fields...")
-                from discovery.context import DiscoveryContext
-                disc_context = DiscoveryContext(base_url=context.university_url)
-                searcher = SearchStrategy(search_terms=search_terms)
-                new_candidates = searcher.discover(disc_context)
+                from discovery.targeted_search import TargetedSearchProvider
+                from extractor.page_pipeline import PagePipeline
+                from urllib.parse import urlparse
+                import hashlib
+                import json
+                from knowledge.models import EvidencePack, EvidencePage
                 
-                if new_candidates:
-                    print(f"  > Found {len(new_candidates)} fallback URLs. Collecting evidence...")
-                    from knowledge.models import EvidencePage
+                search_provider = TargetedSearchProvider(max_results_per_query=5)
+                page_pipeline = PagePipeline()
+                
+                domain = urlparse(context.university_url).netloc
+                if domain.startswith("www."):
+                    domain = domain[4:]
+                
+                program_title = getattr(program, "title_en", None) or getattr(program, "title", "")
+                
+                # Prioritize fields (user requirement)
+                priority = ["curriculum", "semester", "modules", "admission_requirements", "tuition_fee"]
+                fields_to_search = [f for f in priority if f in coverage["missing_fields"]]
+                for f in coverage["missing_fields"]:
+                    if f not in fields_to_search:
+                        fields_to_search.append(f)
+                fields_to_search = fields_to_search[:3] # max 3 fields
+                
+                new_urls = []
+                for field in fields_to_search:
+                    if len(new_urls) >= 10:
+                        break
+                    clean_title = program_title.split("|")[0].strip()
+                    query = f'{clean_title} site:{domain} {field.replace("_", " ")}'
+                    print(f"  > Searching: {query}")
+                    urls = search_provider.search_programme_pages(query)
+                    for u in urls:
+                        if u not in new_urls and len(new_urls) < 10:
+                            new_urls.append(u)
+                
+                if new_urls:
+                    print(f"  > Found {len(new_urls)} fallback URLs. Collecting evidence...")
+                    pages_root = program_folder / "pages"
+                    pages_root.mkdir(parents=True, exist_ok=True)
                     
-                    fallback_pack = self.evidence_pack_builder.build(program_folder)
-                    # We will reuse the extractor on the new pages
-                    # A proper implementation would fetch these URLs, add them to the pack, and re-run extraction.
-                    # For now, we simulate this by logging it.
-                    # Implementing incremental collection mode would save these pages to the program folder and re-run Stage 5.
-                    print("  > Targeted search URLs collected.")
+                    new_pages = []
+                    for url in new_urls:
+                        print(f"    Fetching: {url}")
+                        try:
+                            result = page_pipeline.process(url)
+                            if result.get("status") == 200 and result.get("markdown"):
+                                page_id = hashlib.md5(url.encode()).hexdigest()[:10]
+                                page_dir = pages_root / f"fallback_{page_id}"
+                                page_dir.mkdir(exist_ok=True)
+                                
+                                metadata = {
+                                    "url": url,
+                                    "title": result.get("title", ""),
+                                    "status": result.get("status"),
+                                    "source": "targeted_search"
+                                }
+                                
+                                (page_dir / "metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
+                                (page_dir / "raw.html").write_text(result.get("raw_html", ""), encoding="utf-8")
+                                (page_dir / "clean.html").write_text(result.get("clean_html", ""), encoding="utf-8")
+                                (page_dir / "content.md").write_text(result.get("markdown", ""), encoding="utf-8")
+                                
+                                new_pages.append(EvidencePage(
+                                    id=page_id,
+                                    title=result.get("title", ""),
+                                    category="targeted_search",
+                                    type="page",
+                                    source=url,
+                                    markdown=result.get("markdown", ""),
+                                    metadata=metadata
+                                ))
+                        except Exception as e:
+                            print(f"    [WARN] Failed to process {url}: {e}")
+                    
+                    if new_pages:
+                        print(f"  > Extracted {len(new_pages)} new pages. Re-running extraction...")
+                        mini_pack = EvidencePack(
+                            program=context.evidence_pack.program,
+                            pages=new_pages,
+                            pdfs=[],
+                            crawl_manifest={},
+                            links={}
+                        )
+                        
+                        extraction_client = LLMClient(
+                            provider=context.llm_provider,
+                            usage_tracker=context.usage_tracker,
+                            stage="targeted_extraction",
+                            program_id=program_id,
+                        )
+                        extractor = KnowledgeExtractor(client=extraction_client)
+                        new_raw_facts = extractor.extract(mini_pack)
+                        
+                        if new_raw_facts and new_raw_facts.facts:
+                            print(f"  > Found {len(new_raw_facts.facts)} new facts. Re-normalizing...")
+                            raw_facts.facts.extend(new_raw_facts.facts)
+                            
+                            normalization_client = LLMClient(
+                                provider=context.llm_provider,
+                                usage_tracker=context.usage_tracker,
+                                stage="targeted_normalization",
+                                program_id=program_id,
+                            )
+                            chunker = NormalizationChunker()
+                            chunks = chunker.chunk(raw_facts.facts)
+                            normalizer = SemanticNormalizer(client=normalization_client)
+                            
+                            context.normalized_facts = normalizer.normalize(chunks)
+                            normalized_facts = context.normalized_facts
+                            
+                            self.fact_repository.save(raw_facts.facts, raw_facts_path)
+                            self.fact_repository.save(normalized_facts.facts, normalized_path)
+                            print(f"  [PASS] Updated normalized facts to {len(normalized_facts.facts)}")
+                        else:
+                            print("  > No new facts found from targeted search.")
                 else:
                     print("  > Targeted search found no new pages.")
             else:
@@ -682,10 +777,23 @@ class UniversityPipeline:
         """
 
         import main
+        import json
 
-        result = main.discover_programs(
-            context.university_url.rstrip("/")
+        discovery_path = (
+            context.workspace.university_root
+            / "discovery.json"
         )
+        
+        if discovery_path.exists():
+            print("  [PASS] Found discovery checkpoint. Skipping discovery.")
+            with open(discovery_path, "r", encoding="utf-8") as f:
+                result = json.load(f)
+        else:
+            result = main.discover_programs(
+                context.university_url.rstrip("/")
+            )
+            with open(discovery_path, "w", encoding="utf-8") as f:
+                json.dump(result, f, indent=2, ensure_ascii=False)
 
         raw_programs = result.get("program_urls", [])
 
@@ -693,17 +801,6 @@ class UniversityPipeline:
             ProgramMetadata.from_dict(p)
             for p in raw_programs
         ]
-
-        # Save discovery result to workspace
-        import json
-
-        discovery_path = (
-            context.workspace.university_root
-            / "discovery.json"
-        )
-
-        with open(discovery_path, "w", encoding="utf-8") as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
 
         return programs
 

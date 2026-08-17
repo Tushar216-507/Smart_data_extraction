@@ -188,7 +188,7 @@ class ProgramExtractor:
         self.evidence_expander.expand()
 
         print(
-            f"✓ {metadata['title_en']}"
+            f"[PASS] {metadata['title_en']}"
         )
 
     def run(

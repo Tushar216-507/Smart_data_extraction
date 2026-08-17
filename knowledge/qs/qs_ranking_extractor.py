@@ -218,11 +218,8 @@ class QSRankingExtractor:
             )
 
         if not endpoints:
-
-            raise ValueError(
-                "No QS ranking endpoints were found "
-                "in profile data."
-            )
+            print("  [WARN] No QS ranking endpoints were found in profile data.")
+            return {"rankings": []}
 
         unique_endpoints = (
             self._deduplicate_endpoints(

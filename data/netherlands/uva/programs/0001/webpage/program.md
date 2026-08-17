@@ -1,0 +1,15 @@
+The two-year Research Master's in Religious Studies offers an inspiring research environment in which you develop the research skills to conduct your own research project in the field of religious studies. You will explore key issues, theoretical perspectives and methodological questions in the field of religious studies and engage in ongoing research with faculty members.
+
+The Research Master’s in Religious Studies focuses on the history and presence of religious and spiritual diversity in Europe and in its wider Mediterranean, Eurasian and Transatlantic context. The programme emphasises the processes of religious diversification in different socio-cultural contexts. It trains you in both the historical as well as the empirical study of religious cultures, countercultures and spiritualities, including the interdisciplinary study of ideas, narratives, practices, institutions and their interactions.
+
+Religious Studies provides a stimulating research environment for students to develop their research skills in the field of religious studies. The focus is on exploring religious and spiritual diversity in Europe and its broader context, examining historical and contemporary religious cultures, countercultures, and spiritualities, including the interdisciplinary study of ideas, narratives, practices, and institutions.
+
+Become an specialist
+
+Tailored to your interests
+
+Taught by experts in the field
+
+Ideal study environment
+
+The Research Master's programme Religious Studies is an accredited degree programme. After successful completion of this programme, you will receive a legally accredited Master’s degree in Theology and Religious Studies and the title Master of Arts (MA).

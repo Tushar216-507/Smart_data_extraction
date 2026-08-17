@@ -119,22 +119,10 @@ class FactRepository:
         """
 
         source_data = None
-
-        if fact.source is not None:
-
+        if fact.source_url or fact.source_type:
             source_data = {
-                "source_type": (
-                    fact.source.source_type
-                ),
-                "source_id": (
-                    fact.source.source_id
-                ),
-                "title": (
-                    fact.source.title
-                ),
-                "url": (
-                    fact.source.url
-                ),
+                "source_type": fact.source_type,
+                "url": fact.source_url,
             }
 
         metadata = fact.metadata

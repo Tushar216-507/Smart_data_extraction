@@ -63,13 +63,28 @@ class ConservativeFilter:
     }
     
     @classmethod
-    def is_valid(cls, url: str) -> bool:
+    def is_valid(cls, url: str, base_url: str = None) -> bool:
         if not url:
             return False
             
         try:
             parsed = urlparse(url)
             path = parsed.path.lower()
+            
+            # Domain check if base_url is provided
+            if base_url:
+                base_parsed = urlparse(base_url)
+                base_netloc = base_parsed.netloc.lower()
+                if base_netloc.startswith("www."):
+                    base_netloc = base_netloc[4:]
+                    
+                target_netloc = parsed.netloc.lower()
+                if target_netloc.startswith("www."):
+                    target_netloc = target_netloc[4:]
+                    
+                # Reject if the target is an entirely different domain
+                if base_netloc and not target_netloc.endswith(base_netloc):
+                    return False
             
             # 1. Check extensions
             for ext in cls.BLOCKED_EXTENSIONS:
