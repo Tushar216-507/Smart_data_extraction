@@ -42,6 +42,8 @@ class NvidiaProvider(LLMProvider):
                 "https://integrate.api.nvidia.com/v1"
             ),
             api_key=api_key,
+            timeout=20.0,
+            max_retries=0
         )
 
         self.model = model

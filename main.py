@@ -49,9 +49,13 @@ HEADERS = {
 # false-matched inside ordinary words (e.g. "thema-finden" contains "ma-").
 
 client = OpenAI(
-    api_key=Config.NVIDIA_API_KEY,
-    base_url=Config.NVIDIA_BASE_URL
+    api_key=Config.OPENAI_API_KEY,
+    timeout=30.0,
+    max_retries=3
 )
+
+from groq import Groq
+groq_client = Groq(api_key=Config.GROQ_API_KEY)
 
 def check_link_alive(url):
     """Returns (url, is_alive). Tries HEAD first (cheap), falls back to GET."""
@@ -172,11 +176,12 @@ def translate_batch(candidates):
 """
 
     import time
-    max_retries = 3
+    import time
+    max_retries = 5
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
-                model=Config.NVIDIA_MODEL,
+                model="gpt-4o-mini",
                 temperature=0,
                 response_format={"type": "json_object"},
                 messages=[
@@ -188,10 +193,10 @@ def translate_batch(candidates):
             )
             break
         except Exception as e:
-            if "429" in str(e) or "rate" in str(e).lower():
-                if attempt < max_retries - 1:
-                    time.sleep(10)
-                    continue
+            print(f"[WARN] OpenAI API error: {e}. Retrying {attempt + 1}/{max_retries}...")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+                continue
             raise
 
     translated = json.loads(
@@ -236,64 +241,63 @@ def discover_programs(base_url):
     """
     print(f"\nStarting discovery for: {base_url}\n")
 
-    # --- Step 1: Sitemap ---
-    print("Step 1: Discovering programme URLs...")
+    import os
+    import pickle
+    from urllib.parse import urlparse
 
-    engine = DiscoveryEngine()
+    domain = urlparse(base_url).netloc.replace("www.", "")
+    ckpt_path = f"{domain}_candidates.pkl"
 
-    discovery_result = engine.discover(base_url)
+    program_candidates = None
+    if os.path.exists(ckpt_path):
+        print(f"\n[CACHE] Loading cached candidates from {ckpt_path}...")
+        with open(ckpt_path, "rb") as f:
+            program_candidates = pickle.load(f)
 
-    candidates = discovery_result.candidates
+    if program_candidates is None:
+        # --- Step 1: Sitemap ---
+        print("Step 1: Discovering programme URLs...")
+        engine = DiscoveryEngine()
+        discovery_result = engine.discover(base_url)
+        candidates = discovery_result.candidates
+        print(f"  Found {len(candidates)} candidate URLs")
 
-    print(f"  Found {len(candidates)} candidate URLs")
+        if not candidates:
+            print("\nNo candidate URLs found. Try lowering MIN_SITEMAP_URLS_BEFORE_FALLBACK "
+                  "or check if the site blocks bots.")
+            return {
+                "university_base_url": base_url,
+                "total_working_program_urls": 0,
+                "program_urls": [],
+            }
 
-    if not candidates:
-        print("\nNo candidate URLs found. Try lowering MIN_SITEMAP_URLS_BEFORE_FALLBACK "
-              "or check if the site blocks bots.")
-        return {
-            "university_base_url": base_url,
-            "total_working_program_urls": 0,
-            "program_urls": [],
-        }
+        # --- Step 4: Verify links are actually working ---
+        print(f"\nStep 4: Verifying {len(candidates)} links...")
+        working_candidates = verify_links(candidates)
+        print(f"  {len(working_candidates)}/{len(candidates)} links are working")
 
-    # if candidate_limit and len(candidates) > candidate_limit:
-    #     print(f"\nLimiting to top {candidate_limit} candidates to reduce LLM and network overhead.")
-    #     candidates = candidates[:candidate_limit]
+        print("\nStep 5: Extracting page metadata...")
+        program_candidates = []
+        print("\nFetching metadata...")
+        METADATA_WORKERS = 25
+        with ThreadPoolExecutor(max_workers=METADATA_WORKERS) as executor:
+            futures = {
+                executor.submit(fetch_page_metadata, candidate): candidate
+                for candidate in working_candidates
+            }
+            for index, future in enumerate(as_completed(futures), start=1):
+                updated_candidate = future.result()
+                if updated_candidate:
+                    program_candidates.append(updated_candidate)
+                if index % 25 == 0:
+                    print(f"  fetched {index}/{len(working_candidates)}")
 
-    # --- Step 4: Verify links are actually working ---
-    print(f"\nStep 4: Verifying {len(candidates)} links...")
+        # Restore the original URL ranking because threads finish out of order.
+        program_candidates.sort(key=lambda c: c.score, reverse=True)
 
-    working_candidates = verify_links(candidates)
-
-    print(f"  {len(working_candidates)}/{len(candidates)} links are working")
-
-    print("\nStep 5: Extracting page metadata...")
-
-    program_candidates = []
-
-    print("\nFetching metadata...")
-
-    METADATA_WORKERS = 25
-
-    with ThreadPoolExecutor(max_workers=METADATA_WORKERS) as executor:
-
-        futures = {
-            executor.submit(fetch_page_metadata, candidate): candidate
-            for candidate in working_candidates
-        }
-
-        for index, future in enumerate(as_completed(futures), start=1):
-
-            updated_candidate = future.result()
-
-            if updated_candidate:
-                program_candidates.append(updated_candidate)
-
-            if index % 25 == 0:
-                print(f"  fetched {index}/{len(working_candidates)}")
-
-    # Restore the original URL ranking because threads finish out of order.
-    program_candidates.sort(key=lambda c: c.score, reverse=True)
+        print(f"\n[CACHE] Saving {len(program_candidates)} candidates to {ckpt_path}...")
+        with open(ckpt_path, "wb") as f:
+            pickle.dump(program_candidates, f)
 
     print("\nTranslating metadata & Classifying intents...")
 

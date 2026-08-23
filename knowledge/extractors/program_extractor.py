@@ -45,7 +45,7 @@ class ProgramExtractor:
 PROGRAM METADATA
 
 {json.dumps(
-    program.__dict__,
+    program.metadata,
     indent=2,
     ensure_ascii=False,
 )}

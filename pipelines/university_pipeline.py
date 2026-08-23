@@ -811,15 +811,16 @@ class UniversityPipeline:
     @staticmethod
     def _create_llm_provider() -> LLMProvider:
         """
-        Create the LLM provider using NVIDIA.
+        Create the LLM provider using OpenAI.
         """
         try:
-            return NvidiaProvider(api_key=Config.NVIDIA_API_KEY)
-        except Exception:
-            raise RuntimeError(
-                "NVIDIA API key is not configured. "
-                "Set NVIDIA_API_KEY in your .env file."
+            from knowledge.llm.openai_provider import OpenAIProvider
+            return OpenAIProvider(
+                api_key=Config.OPENAI_API_KEY,
+                model="gpt-4o-mini"
             )
+        except Exception as e:
+            raise RuntimeError(f"Failed to initialize LLM providers: {e}")
 
     # ==============================================================
     # URL Helpers
