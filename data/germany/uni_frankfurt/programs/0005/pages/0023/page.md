@@ -1,0 +1,7 @@
+# Doppelmasterprogramm Paris Dauphine-PSL
+
+[Paris Dauphine-PSL](https://dauphine.psl.eu/en/) ein Doppelabschlussprogramm für Studierende des Studiengangs “Money, Macro and Finance” an. Neben dem Masterabschluss des Fachbereichs Wirtschaftswissenschaften der Goethe-Universität erwerben die Teilnehmerinnen und Teilnehmer den Abschluss des Masterstudiengangs "Economie et Finance" der Universität Paris Dauphine-PSL. Der Doppelabschluss ist eine besondere Qualifikation, die hervorragende Möglichkeiten auf dem internationalen Arbeitsmarkt eröffnet.
+
+“My exchange semester at the PSL-Paris Dauphine University was one of my biggest highlights during my master's studies. Not only did I grow professionally and personally in a competitive university context, but I made memories that I will always recall with fondness.”
+
+"My year in Frankfurt during the Master's program was an unforgettable chapter in my academic journey. Immersed in a large number of diverse experiences, I embraced learning German alongside engaging in enriching finance workshops at prestigious institutions. This program uniquely combined cultural immersion, language acquisition, and professional growth, making it the most beautiful and pivotal year after completing the first part of my studies in France."

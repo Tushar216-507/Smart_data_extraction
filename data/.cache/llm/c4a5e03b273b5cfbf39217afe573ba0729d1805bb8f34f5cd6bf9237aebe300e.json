@@ -1,0 +1,362 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "accepted_transcripts",
+      "value": "military transcripts for Air Force and Space Force members",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Transcripts + ASU accepts the following military transcripts for transfer credit: + Air Force and Space Force members",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_submission",
+      "value": "If you received credit for courses taken through the CCAF while in active service, submit this transcript as part of your application.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_request_link",
+      "value": "https://www.airuniversity.af.edu/Registrar/Transcript-Requests/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "electronic_transcript_delivery",
+      "value": "CCAF now offers electronic transcript delivery through Parchment, a digital credentialing service.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "parchen_account_creation_link",
+      "value": "https://www.parchment.com/u/registration/32882/institution",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "transcript_request_process",
+      "value": "First-time users must create an account by accessing the AU Service Desk. This works better on non-NIPR and Google Chrome. On the homepage under the Quick Links tab, select Official Transcript Request. Complete the required components of the form, add the attachments and submit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "accessibility",
+      "value": "The Service Desk can be accessed by any device that has internet access; it is Common Access Card (CAC) enabled, but this is not required.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "security",
+      "value": "The AU Service Desk is a secure application and certified for submission of Privacy Act information.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_replacement",
+      "value": "The Joint Services Transcript has replaced the Coast Guard Institute Transcript, the Army/American Council on Education Registry Transcript System, and the Sailor/Marine American Council on Education Registry Transcript.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "eligibility",
+      "value": "All enlisted members, officers and warrant officers, both active and veterans from all Army components, Coast Guard, Marine Corps and Navy, are eligible for a JST.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "accessibility",
+      "value": "You do not have to be on active duty to access the JST website and your transcript. Active duty, reserve, veterans or National Guard personnel can use JSTs.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "security_warning",
+      "value": "Some students may have concerns about a security warning when accessing the website. This happens when a user logs in to a Department of Defense network from a non-networked computer without a CAC.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "confirmation",
+      "value": "You can confirm the security exception to proceed to the JST request site. If you do not confirm this exception, you will be unable to place your order.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "registration_link",
+      "value": "https://jst.doded.mil/jst/registration",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_sending",
+      "value": "Direct the DoD to send your transcript to ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "service_description",
+      "value": "John works directly with military-connected students and their families to help them navigate the admissions process at Arizona State University.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "appointment_duration",
+      "value": "30 minutes",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "discussion_topics",
+      "value": [
+        "Applying to ASU",
+        "Military and veteran education benefits",
+        "Financial aid and scholarships",
+        "Military and transfer credit",
+        "Enrollment and next steps",
+        "Veteran student support services and the Pat Tillman Veterans Center"
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "wue_tuition_rate_eligibility",
+      "value": "Students admitted to ASU under the Western Undergraduate Exchange, or WUE, program in spring 2026 or earlier will continue to receive the WUE tuition rate for the duration of their undergraduate program, provided they maintain continuous enrollment and meet renewal criteria.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE update",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "wue_eligibility_link",
+      "value": "https://admission.asu.edu/cost-aid/wue/maintaining-eligibility",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE update",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "description",
+      "value": "A new scholarship designed for nonresident students to make an ASU degree more accessible to students nationwide.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "eligibility",
+      "value": "Open to first-year out-of-state (not Arizona) U.S. citizens, regardless of their state of residency, campus choice, or major.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "renewability",
+      "value": "This is a renewable scholarship.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "campus_availability",
+      "value": "Available to students enrolled in any degree program on the Phoenix-area campuses, as well as the ASU California Center in Los Angeles.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "combination_with_other_scholarships",
+      "value": "Can be combined with the New American University Scholarship.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "non_eligibility_for_transfer_students",
+      "value": "Transfer students are not eligible for the ASU Commitment Scholarship.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "GPA_requirement",
+      "value": "Must have a minimum 3.0 cumulative transfer GPA for scholarship consideration.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introducing the ASU Commitment Scholarship",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    }
+  ]
+}

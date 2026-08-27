@@ -1,0 +1,260 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "career_navigation_courses",
+      "value": [
+        {
+          "course": "WPC 148 First-Year Introduction to Career Development",
+          "credit_hours": 0.25,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "WPC 248 Sophomore Career Narrative Design",
+          "credit_hours": 0.25,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "WPC 347 Intermediate Career Management",
+          "credit_hours": 0.25,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "WPC 348 Junior Networking Foundations",
+          "credit_hours": 0.25,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "WPC 448 Senior Career Transition Management",
+          "credit_hours": 0.25,
+          "minimum_grade": "C"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "business_foundation_courses",
+      "value": [
+        {
+          "course": "ACC 382 Accounting and Financial Analysis",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "AGB 302 International Management and Agribusiness (GCSI)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "MGT 302 Principles of International Business (GCSI)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "FIN 380 Personal Financial Management",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "MGT 380 Management and Strategy",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "MKT 390 Essentials of Marketing",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "SCM 380 Supply Chain Management Foundations",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "applied_business_data_analytics_courses",
+      "value": [
+        {
+          "course": "CIS 308 Advanced Excel in Business",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "CIS 309 Business Process Management",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "CIS 310 Business Data Visualization",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "CIS 405 Business Intelligence",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "specialization_requirements",
+      "value": {
+        "specialization": "choose two",
+        "minimum_credits": 12,
+        "courses_required": [
+          "Communication Specialization",
+          "Digital Business Specialization",
+          "Food and Agribusiness Innovation Specialization",
+          "Food Industry Management Specialization",
+          "Global Management Specialization",
+          "Health Care Innovation Specialization",
+          "Human Resource Management Specialization",
+          "Human Systems Engineering Specialization",
+          "Inclusive Excellence Specialization",
+          "Leadership Development Specialization",
+          "Medical Studies Specialization",
+          "Project Management Specialization",
+          "Sales and Marketing Essentials Specialization",
+          "Supply Chain Management & Sustainability Specialization",
+          "Technical Communication Specialization",
+          "Technical Entrepreneurship and Management Specialization",
+          "Tourism Specialization",
+          "Interdisciplinary Business Studies Specialization"
+        ]
+      },
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "business_capstone",
+      "value": {
+        "course": "WPC 460 Business Capstone",
+        "credit_hours": 1,
+        "minimum_grade": "C",
+        "requirements": "All upper-division Business Foundation courses must be completed before enrolling in WPC 460."
+      },
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "business_skills_courses",
+      "value": [
+        {
+          "course": "CIS 105 Computer Applications and Information Technology (QTRS)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "ECN 211 Macroeconomic Principles (SOBE)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "ECN 212 Microeconomic Principles (SOBE)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "ECN 221 Business Statistics (QTRS)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "course": "MAT 117 College Algebra (MATH)",
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "other_business_courses",
+      "value": [
+        {
+          "course": "COM 259 Communication in Business and the Professions (CIVI)",
+          "credit_hours": 3
+        },
+        {
+          "course": "ENG 302 Business Writing",
+          "credit_hours": 3
+        },
+        {
+          "course": "ASU 101 or College-Specific First-Year Seminar",
+          "requirements": "ASU 101 or college-specific equivalent First-Year Seminar required of all first-year students."
+        },
+        {
+          "course": "WPC 101 Student Success in Business",
+          "credit_hours": 1
+        },
+        {
+          "course": "First-Year Composition",
+          "options": [
+            {
+              "courses": [
+                {
+                  "course": "ENG 101 First-Year Composition"
+                },
+                {
+                  "course": "ENG 102 First-Year Composition"
+                }
+              ]
+            },
+            {
+              "course": "ENG 105 Advanced First-Year Composition"
+            },
+            {
+              "courses": [
+                {
+                  "course": "ENG 107 First-Year Composition"
+                },
+                {
+                  "course": "ENG 108 First-Year Composition"
+                }
+              ]
+            }
+          ],
+          "credit_hours": 6,
+          "minimum_grade": "C"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "gpa_requirements",
+      "value": "Students must earn a 2.00 GPA in all courses offered by the W. P. Carey School of Business.",
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "credit_hour_requirements",
+      "value": "Students must complete a minimum of 22 credit hours of W. P. Carey School of Business courses taken at ASU.",
+      "confidence": 1.0,
+      "programme_association": "Applied Business and Technology Solutions BA"
+    }
+  ]
+}

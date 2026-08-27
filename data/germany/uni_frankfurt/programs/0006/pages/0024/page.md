@@ -1,0 +1,3 @@
+Treffen Sie unser engagiertes Lehrteam: Finden Sie hier Informationen und Fotos unserer Dozent\*innen aus den verschiedenen Sprachprogrammen, die in ihren Muttersprachen unterrichten.
+
+Sprechstunden sind bei allen Dozent\*innen vor und nach der jeweiligen Veranstaltung.

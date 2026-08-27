@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "diploma_supplement",
+      "value": "A Diploma Supplement is issued in accordance with international regulations alongside the certificate and transcript; the text agreed upon by the Conference of University Rectors and the Conference of Ministers of Education is to be used in its currently valid version.",
+      "original_value": "Mit der Urkunde und dem Zeugnis wird ein Diploma Supplement entsprechend den internationalen Vorgaben ausgestellt; dabei ist der zwischen der Hochschulrektorenkonferenz und der Kultusministerkonferenz abgestimmte Text in der jeweils geltenden Fassung zu verwenden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Uni Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "ects_classification",
+      "value": "The Diploma Supplement contains an ECTS classification table showing the overall grades awarded in the respective program within a comparative cohort and detailing both their numerical and percentage distribution according to specific regulations.",
+      "original_value": "Das Diploma Supplement enthält eine ECTS-Einstufungstabelle. Die Gesamtnoten, die im jeweiligen Studiengang in einer Vergleichskohorte vergeben werden, sind zu erfassen und ihre zahlenmäßige und prozentuale Verteilung auf die Notenstufen gemäß § 36 Absatz 8 zu ermitteln.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Uni Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "reference_group",
+      "value": "The reference group consists of the number of graduates of the respective program over a period of three academic years, calculated only if the reference group includes at least 50 graduates.",
+      "original_value": "Die Referenzgruppe ergibt sich aus der Anzahl der Absolventinnen und Absolventen des jeweiligen Studiengangs in einem Zeitraum von drei Studienjahren. Die Berechnung erfolgt nur, wenn die Referenzgruppe aus mindestens 50 Absolventinnen und Absolventen besteht.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Uni Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

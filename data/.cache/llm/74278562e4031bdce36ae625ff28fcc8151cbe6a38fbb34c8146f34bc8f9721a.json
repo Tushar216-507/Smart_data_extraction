@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "credit_requirements",
+      "field": "minimum_credits_per_year",
+      "value": 24,
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "credit_requirements",
+      "field": "credit_exclusions",
+      "value": "Summer sessions, consortium agreement classes, repeated classes, incomplete grades, audited classes, and any credits received by examination (including AP, CLEP, IB and other tests) cannot be used for the minimum 24 credit hours requirement.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "gpa_requirements",
+      "field": "minimum_gpa",
+      "value": 2.0,
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "enrollment_requirements",
+      "field": "continuous_enrollment",
+      "value": "Students must be enrolled in both fall and spring semesters; summer sessions are not included.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    }
+  ]
+}

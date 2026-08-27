@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "cancellation",
+      "field": "cancellation_policy",
+      "value": "By canceling your admission, any housing assignment and financial aid (including scholarships) will also be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibility",
+      "field": "responsibility_for_charges",
+      "value": "You may still be responsible for nonrefundable housing charges and other university charges you may already owe.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "account_management",
+      "field": "account_access",
+      "value": "To check your account or pay any charges, sign in to My ASU.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    }
+  ]
+}

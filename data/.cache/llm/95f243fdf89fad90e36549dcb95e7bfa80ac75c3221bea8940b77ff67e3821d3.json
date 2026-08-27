@@ -1,0 +1,260 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optional module",
+      "original_value": "Optionalmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WPMO",
+        "name": "Optional module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "General Psychology I",
+      "original_value": "Allgemeine Psychologie I",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc4",
+        "name": "General Psychology I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Social Psychology",
+      "original_value": "Sozialpsychologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc5",
+        "name": "Social Psychology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Clinical Psychology: Mental Disorders (Lecture)",
+      "original_value": "Klinische Psychologie: Psychische Störungen (VL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc9",
+        "name": "Clinical Psychology: Mental Disorders (Lecture)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "General Psychology II",
+      "original_value": "Allgemeine Psychologie II",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc11",
+        "name": "General Psychology II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Developmental Psychology",
+      "original_value": "Entwicklungspsychologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc12",
+        "name": "Developmental Psychology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Biological Psychology",
+      "original_value": "Biologische Psychologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc13",
+        "name": "Biological Psychology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Psychology: Specialization",
+      "original_value": "Grundlagen der Psychologie: Vertiefung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc14",
+        "name": "Fundamentals of Psychology: Specialization"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Basic Module Educational Psychology (Lecture)",
+      "original_value": "Basismodul Pädagogische Psychologie (VL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc15",
+        "name": "Basic Module Educational Psychology (Lecture)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Literaturwissenschaft",
+      "original_value": "Grundlagen der Literaturwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BAES 1",
+        "name": "Grundlagen der Literaturwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": "Main subject and minor subject",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BAES 1",
+        "name": "Grundlagen der Literaturwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte",
+      "original_value": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BAES 2.1",
+        "name": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": "Main subject and minor subject",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Written examination",
+      "original_value": "Klausur",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BAES 2.1",
+        "name": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

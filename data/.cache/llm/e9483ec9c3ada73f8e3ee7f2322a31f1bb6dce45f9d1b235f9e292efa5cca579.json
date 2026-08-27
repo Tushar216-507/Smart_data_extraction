@@ -1,0 +1,268 @@
+{
+  "facts": [
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "none",
+      "original_value": "keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "module_association",
+      "value": "Master SEAS / Fachbereich 09",
+      "original_value": "Master SEAS / Fachbereich 09",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "availability",
+      "value": "Offered in winter semester and summer semester",
+      "original_value": "Beginn im Wintersemester und Sommersemester möglich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "module_duration",
+      "value": 2,
+      "original_value": "2 Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "participation_certificates",
+      "value": "Participation certificates for SEAS 8.1 and SEAS 8.2",
+      "original_value": "Teilnahmenachweise für SEAS 8.1 und SEAS 8.2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_and_learning_forms",
+      "value": "Lecture, Seminar",
+      "original_value": "Vorlesung, Seminar",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "English",
+      "original_value": "Englisch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_exam",
+      "value": {
+        "form": "Written examination",
+        "duration": "90 minutes",
+        "type": "cumulative module examinations"
+      },
+      "original_value": "Form / Dauer / ggf. Inhalt kumulative Modulprüfungen: Klausur (90 Min.) oder andere Form nach Modulbeschreibung des MEAS zu 8.1 und zu 8.2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "freedom_of_study",
+      "value": "Students can choose subjects from other disciplines",
+      "original_value": "Im Rahmen des Freien Studiums (Studium Generale) wird Studierenden die Möglichkeit gegeben, sich mit selbstgewählten Themenbereichen in anderen Disziplinen auseinanderzusetzen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_objectives",
+      "value": "Promote reflection, communication, and perception skills on scientific questions",
+      "original_value": "Ziel ist es, einen fachübergreifenden Dialog anzuregen, bei dem die jeweiligen Fachkompetenzen aufeinander bezogen werden können, und die Studierenden für die grenzüberschreitende Verknüpfung von Wissensgebieten zu interessieren.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

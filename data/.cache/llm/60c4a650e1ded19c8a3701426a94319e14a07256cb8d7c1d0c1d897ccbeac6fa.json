@@ -1,0 +1,155 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "academic_structure",
+      "value": "Department of Economics and Business Administration",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": "Department of Economics and Business Administration"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Finance",
+      "original_value": "Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Core Lecture: Institutions and Innovations",
+      "original_value": "Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 7,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Stochastic Calculus in Finance and Economics",
+      "original_value": "Stochastic Calculus in Finance and Economics (SCFC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SCFC",
+        "name": "Stochastic Calculus in Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Microeconomics",
+      "original_value": "Advanced Microeconomics (AMI1) and (AMI2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AMI",
+        "name": "Advanced Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 8,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

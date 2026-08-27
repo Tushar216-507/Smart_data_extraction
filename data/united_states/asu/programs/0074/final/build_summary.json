@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0074",
+  "program_name": "Online Bachelor of Arts in Psychology – Forensic Psychology",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0074\\final",
+  "input_fact_count": 50,
+  "unique_fact_count": 50,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 50,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 50,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 3,
+    "admission": 1,
+    "curriculum": 20,
+    "career": 11,
+    "fees": 3,
+    "scholarships": 0,
+    "contacts": 8,
+    "student_life": 4,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0074\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0074\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0074\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0074\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0074\\final\\fees_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0074\\final\\contacts_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0074\\final\\student_life_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0074\\final\\build_summary.json"
+  }
+}

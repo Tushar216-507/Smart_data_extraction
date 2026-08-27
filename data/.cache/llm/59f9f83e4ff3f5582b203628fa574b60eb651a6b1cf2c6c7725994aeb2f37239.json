@@ -1,0 +1,277 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "field": "resource_type",
+      "value": "Simulation software like Pspice, MATLAB, etc.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "intrinsic_semiconductors",
+      "value": "These are pure semiconductors like Si and Ge.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "7. What are the different types of semiconductors in electronics?",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "extrinsic_semiconductors",
+      "value": "These are impure or doped semiconductors.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "7. What are the different types of semiconductors in electronics?",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "n_type_semiconductors",
+      "value": "Those extrinsic semiconductors having negative majority charges (electrons) are known as n-type semiconductors.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "7. What are the different types of semiconductors in electronics?",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "p_type_semiconductors",
+      "value": "Extrinsic semiconductors having positive majority charges (holes) are known as p-type semiconductors.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "7. What are the different types of semiconductors in electronics?",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_1",
+      "value": "The transistor is properly biased to operate in the active region for amplification of signals. The common-emitter (CE) configuration is used, where the base terminal is the input line, the emitter terminal is the common-ground for input and output, and the collector terminal is the output line.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0010",
+        "chunk_title": "8. How do transistors amplify signals in electronics?",
+        "chunk_order": 9,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_2",
+      "value": "A weak signal that we want to amplify is applied to the base terminal of the transistor amplifier circuit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0010",
+        "chunk_title": "8. How do transistors amplify signals in electronics?",
+        "chunk_order": 9,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_3",
+      "value": "A small current flowing into the base of the transistor can cause a large current to flow out from the collector which is proportional to the base current, but much larger than that.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0010",
+        "chunk_title": "8. How do transistors amplify signals in electronics?",
+        "chunk_order": 9,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_4",
+      "value": "The resulting amplified output signals are received at the collector terminal, which is the amplified version of the input signal.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0010",
+        "chunk_title": "8. How do transistors amplify signals in electronics?",
+        "chunk_order": 9,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "power_conversion",
+      "value": "Power supply takes a high-voltage (220 V or 110 V) AC supply from main circuit and converts it into a low-voltage (5 V, 12 V, 24 V, etc.) DC supply suitable for the electronic circuits.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0011",
+        "chunk_title": "9. What is the role of a power supply in an electronic circuit?",
+        "chunk_order": 10,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "voltage_regulation",
+      "value": "Power supply also regulates the supply voltage to keep it stable.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0011",
+        "chunk_title": "9. What is the role of a power supply in an electronic circuit?",
+        "chunk_order": 10,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "protection",
+      "value": "Power supply provides protection against overvoltage, over current, short-circuit, etc.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0011",
+        "chunk_title": "9. What is the role of a power supply in an electronic circuit?",
+        "chunk_order": 10,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_1",
+      "value": "Visually inspect the electronic circuit and its components for any visible damage, burn out, loose connection, broken soldering, etc.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_2",
+      "value": "Check power supply is properly working or not using a multimeter to measure voltage at various points in the circuit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_3",
+      "value": "Test individual components like diodes, transistors, resistors, capacitors, etc. If any faulty component is found, replace it.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "step_4",
+      "value": "Perform complex tests on the circuit using devices like oscilloscope to analyze the behavior of signals in the circuit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "importance_1",
+      "value": "Defines correct functionality of the circuit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "importance_2",
+      "value": "Provides maximum efficiency and operational performance.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "importance_3",
+      "value": "Avoids circuit failures.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "importance_4",
+      "value": "Improves reliability.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "importance_5",
+      "value": "Optimizes resources to make the circuit cost-effective.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0012",
+        "chunk_title": "10. How do you troubleshoot common electronic circuit problems? + 11. Why is circuit design important in electronics? + 12. How are sensors used in electronic circuits? + 13. What does a microcontroller do in electronics? + 14. How does a breadboard help in building electronic circuits?",
+        "chunk_order": 11,
+        "source_type": "page"
+      }
+    }
+  ]
+}

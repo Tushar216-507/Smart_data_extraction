@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "deferral",
+      "field": "deferral_request_deadline",
+      "value": "two weeks before the first day of classes",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferral",
+      "field": "deferral_request_process",
+      "value": "Withdraw from classes (if registered) and submit your deferral request",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferral",
+      "field": "contact_email_for_deferral",
+      "value": "[email protected]",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferral",
+      "field": "required_information_for_deferral_email",
+      "value": "Your ASU ID, Your reason for requesting a deferment, The term you wish to enroll",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "scholarships",
+      "subcategory": "deferment",
+      "field": "scholarship_deferment_process",
+      "value": "You must return any disbursed funds and contact your scholarship sponsor directly.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "scholarships",
+      "subcategory": "deferment",
+      "field": "scholarship_sponsor_decision",
+      "value": "The sponsor will decide whether to approve the deferment.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    }
+  ]
+}

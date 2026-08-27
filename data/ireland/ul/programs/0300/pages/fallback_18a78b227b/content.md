@@ -1,0 +1,136 @@
+Criminal
+
+Directed by
+
+[Ariel Vromen](https://en.wikipedia.org/wiki/Ariel_Vromen)
+
+Written by
+
+Produced by
+
+Starring
+
+Cinematography
+
+[Dana Gonzales](https://en.wikipedia.org/wiki/Dana_Gonzales)
+
+Edited by
+Danny Rafic
+
+Music by
+
+Production
+
+companies
+
+Distributed by
+
+[Lionsgate](https://en.wikipedia.org/wiki/Lionsgate_Films)
+
+Release date
+
+Running time
+
+109 minutes
+
+Country
+United States
+
+Language
+English
+
+Budget
+$31.5million
+
+Box office
+$38.8million
+
+Criminal is a 2016 American [action](https://en.wikipedia.org/wiki/Action_film) [thriller](https://en.wikipedia.org/wiki/Thriller_(genre)) film directed by [Ariel Vromen](https://en.wikipedia.org/wiki/Ariel_Vromen) and written by [Douglas Cook](https://en.wikipedia.org/wiki/Douglas_S._Cook) and [David Weisberg](https://en.wikipedia.org/wiki/David_Weisberg). The film is about a convict who is implanted with a dead CIA agent's memories to finish an assignment. The film stars [Kevin Costner](https://en.wikipedia.org/wiki/Kevin_Costner), [Gary Oldman](https://en.wikipedia.org/wiki/Gary_Oldman), and [Tommy Lee Jones](https://en.wikipedia.org/wiki/Tommy_Lee_Jones), in the second collaboration among all three following the 1991 film [JFK](https://en.wikipedia.org/wiki/JFK_(film)). The film also features [Gal Gadot](https://en.wikipedia.org/wiki/Gal_Gadot) and [Antje Traue](https://en.wikipedia.org/wiki/Antje_Traue) with the death of [Ryan Reynolds](https://en.wikipedia.org/wiki/Ryan_Reynolds)' character, early in the film, setting the plot in motion.
+
+[Principal photography](https://en.wikipedia.org/wiki/Principal_photography) began on September 4, 2014, in [London](https://en.wikipedia.org/wiki/London). The film was produced by [Campbell-Grobman Films](https://en.wikipedia.org/wiki/Campbell-Grobman_Films) and [Millennium Films](https://en.wikipedia.org/wiki/Millennium_Films) and was released on April 15, 2016. It received generally negative reviews from critics and was a [financial disappointment](https://en.wikipedia.org/wiki/Box-office_flop), grossing $38.8million against its $31.5million budget.
+
+Spanish industrialist-turned-anarchist Xavier Heimdahl arranges for his associate Jan Strook—a [hacker](https://en.wikipedia.org/wiki/Hacker) known as "the Dutchman"—to create a wormhole program that would allow the owner to bypass all computer codes protecting the world's nuclear defense codes. The Dutchman panics and attempts to hand his secret over to [CIA](https://en.wikipedia.org/wiki/CIA) agent Bill Pope. Although Pope gets the Dutchman to a [safe house](https://en.wikipedia.org/wiki/Safe_house) and recovers the money to pay him for his services, he is caught by Heimdahl's men and tortured to death before he can tell anyone where he hid the Dutchman.
+
+Desperate to find the Dutchman, Pope's supervisor Quaker Wells contacts Dr. Micah Franks, who has developed a treatment that could theoretically plant the memory patterns of a dead person onto a living one. Franks requests that they "graft" Pope's knowledge into the brain of convict Jerico Stewart, who received damage in his [frontal lobe](https://en.wikipedia.org/wiki/Frontal_lobe) by being abused as a child and is effectively a [sociopath](https://en.wikipedia.org/wiki/Antisocial_personality_disorder).
+
+After the operation, Jerico escapes custody and fakes his death. He steals a maintenance van and goes to Pope's house, where he holds Pope's widow Jillian hostage while he looks for the money. As time goes on, he experiences memory flashes of Pope's past, but all he can determine is that the bag of money was hidden behind a bookshelf, without identifying where it or the Dutchman is kept.
+
+The CIA learns that the Dutchman is planning to sell the program to the Russians, believing that the CIA has betrayed him. Fortunately, they are able to find Jerico after he contacts Dr. Franks for medication using Pope's CIA codes. Jerico is beginning to develop emotions and draw on Pope's experience. As Jerico attempts to retrace the route Pope took to hide the Dutchman, Heimdahl creates a distraction at the airport that draws Wells' attention, allowing Heimdahl's accomplice and lover Elsa to try and capture Jerico, killing his CIA guards before Jerico escapes by driving a taxi off a bridge.
+
+Jerico retreats to the Popes' house, where he encounters Jillian and explains the situation to her. Although she initially fears him, Jillian comes to accept Jerico as she sees him bonding with her daughter, Emma, allowing Jerico to stay the night. The next morning, Jerico realizes through a conversation with Jillian that the bag is hidden in the rare books collection at the [University of London](https://en.wikipedia.org/wiki/University_of_London) where she works. He attempts to retrieve the bag but is captured by Heimdahl and Elsa once he has found it. Heimdahl threatens to kill Jillian and Emma unless Jerico takes him to the Dutchman.
+
+With the CIA and a Russian strike team now seeking the Dutchman, Jerico, who has now recalled that Pope hid the Dutchman in Jillian's office at the university, escapes Elsa using an improvised [nitro-glycerine](https://en.wikipedia.org/wiki/Nitro-glycerine) bomb, returning to the office to provide a hurried explanation to the Dutchman. Elsa finds them before they can escape, shooting Jerico in the shoulder and killing the Dutchman, but Jerico gets the upper hand and bludgeons her to death with a lamp.
+
+Jerico steals an ambulance and takes the flash drive containing the wormhole program to the airfield where Heimdahl is attempting an escape. Jerico saves Jillian and Emma, even as Heimdahl shoots him. As Heimdahl's plane takes off, Jerico reveals to Wells that he had the Dutchman reprogram the wormhole so that it would target the source of the next transmission. This results in Heimdahl unwittingly destroying his own plane when he tries to fire a missile at the airfield.
+
+A few months later, Jerico is shown on the beach where Pope and Jillian had their honeymoon. He is initially unresponsive to anything but automatic reflexes and responses. With all other options exhausted, Wells and Franks take Jillian and Emma to see him. The sight of Pope's family confirms that some part of Pope exists in Jerico as he responds with a nose-tap. This was Pope and Jillian's way of saying "I love you". Witnessing this, Quaker reflects that he will offer Jerico a job.
+
+- [Kevin Costner](https://en.wikipedia.org/wiki/Kevin_Costner)as Jerico Stewart
+- [Gary Oldman](https://en.wikipedia.org/wiki/Gary_Oldman)as Quaker Wells
+- [Tommy Lee Jones](https://en.wikipedia.org/wiki/Tommy_Lee_Jones)as Dr. Franks
+- [Gal Gadot](https://en.wikipedia.org/wiki/Gal_Gadot)as Jill Pope
+- [Antje Traue](https://en.wikipedia.org/wiki/Antje_Traue)as Elsa Mueller
+- [Alice Eve](https://en.wikipedia.org/wiki/Alice_Eve)as Marta Lynch
+- [Michael Pitt](https://en.wikipedia.org/wiki/Michael_Pitt)as Jan Strook - The Dutchman
+- [Jordi Mollà](https://en.wikipedia.org/wiki/Jordi_Mollà)as Xavier Heimdahl
+- [Scott Adkins](https://en.wikipedia.org/wiki/Scott_Adkins)as Pete Greensleeves
+- [Amaury Nolasco](https://en.wikipedia.org/wiki/Amaury_Nolasco)as Esteban Ruiza
+- [Danny Webb](https://en.wikipedia.org/wiki/Danny_Webb_(British_actor))as Lewis Dean
+- [Colin Salmon](https://en.wikipedia.org/wiki/Colin_Salmon)as the Warden
+
+In addition, [Ryan Reynolds](https://en.wikipedia.org/wiki/Ryan_Reynolds) appears–in the opening minutes of the film–as CIA agent Bill Pope. Lara Decaro appears as Pope's daughter Emma.
+
+On June 20, 2013, it was announced that [Millennium Films](https://en.wikipedia.org/wiki/Millennium_Films) had acquired the script for Criminal, written by [Douglas Cook](https://en.wikipedia.org/wiki/Douglas_S._Cook) and [David Weisberg](https://en.wikipedia.org/wiki/David_Weisberg), an action film in which a dead CIA operative's memories, secrets, and skills are implanted into a dangerous criminal, who is sent on a government mission. [J.C. Spink,](#cite_note-Millennium-2) [Chris Bender](https://en.wikipedia.org/wiki/Chris_Bender_(film_producer)), Matt O'Toole and Mark Gill were initially announced as producers, with [Boaz Davidson](https://en.wikipedia.org/wiki/Boaz_Davidson) later joining the production. [On September 13, Millennium set](#cite_note-varietyreview-4) [Ariel Vromen](https://en.wikipedia.org/wiki/Ariel_Vromen) to direct the film.
+
+On June 17, 2014, [Kevin Costner](https://en.wikipedia.org/wiki/Kevin_Costner) was cast to play a dangerous criminal with a dead CIA operative's skills, secrets, and memories implanted into him to finish a job. [On July 10,](#cite_note-Costner-6) [Gary Oldman](https://en.wikipedia.org/wiki/Gary_Oldman) was in talks to join the film to play the CIA chief. [On July 23,](#cite_note-Oldman-7) [Tommy Lee Jones](https://en.wikipedia.org/wiki/Tommy_Lee_Jones) joined the film to play a neuroscientist who transplants the memories to the criminal, while Oldman's role was also confirmed. [On August 4,](#cite_note-Jones-8) [Ryan Reynolds](https://en.wikipedia.org/wiki/Ryan_Reynolds) was added to the cast. [On August 7,](#cite_note-Reynolds-9) [Alice Eve](https://en.wikipedia.org/wiki/Alice_Eve) joined the cast. [On August 11,](#cite_note-Eve-3) [Jordi Mollà](https://en.wikipedia.org/wiki/Jordi_Mollà) joined the film in the villain role of Hagbardaka Heimdahl, who wants the dead CIA agent's secrets now implanted in the criminal's brain. [On August 12,](#cite_note-Molla-10) [Gal Gadot](https://en.wikipedia.org/wiki/Gal_Gadot) signed on to star in the film as Reynolds' character's wife. [On September 26,](#cite_note-Gadot-11) [Antje Traue](https://en.wikipedia.org/wiki/Antje_Traue) joined the film to play the villain's accomplice.
+
+[Principal photography](https://en.wikipedia.org/wiki/Principal_photography) on the film began on September 4, 2014, in [London](https://en.wikipedia.org/wiki/London). [Some actors and crews were also spotted filming scenes for the film on](#cite_note-13) [King's Road](https://en.wikipedia.org/wiki/King's_Road) in [Kingston](https://en.wikipedia.org/wiki/Kingston_upon_Thames). [From September 22–25, filming was taking place in](#cite_note-14) [Yateley](https://en.wikipedia.org/wiki/Yateley), [Hampshire](https://en.wikipedia.org/wiki/Hampshire), where actors were spotted filming car crashes and helicopter chase scenes at the [Blackbushe Airport](https://en.wikipedia.org/wiki/Blackbushe_Airport). [Filming was also done in](#cite_note-16) [Croydon College](https://en.wikipedia.org/wiki/Croydon_College) in [Croydon](https://en.wikipedia.org/wiki/Croydon), with the college building used as medical research labs and the CIA operations centre. [In October 2014, Connect 2 Cleanrooms installed a cleanroom in Surrey Quays Road, London, for the scene where Tommy Lee Jones' character operates on Kevin Costner's.](#cite_note-17) [On October 23, aerial drone filming was undertaken featuring Costner in a car chase scene on White's Row in East London.](#cite_note-18) [Some filming also took place at the](#cite_note-19) [SOAS - School of Oriental & African Studies University of London library](https://en.wikipedia.org/wiki/SOAS_University_of_London), taking advantage of the brutalist architecture and the amazing visuals of the 6 floors of the academic research library. [Filming also took place at](#cite_note-20) [Pinewood Studios](https://en.wikipedia.org/wiki/Pinewood_Studios).
+
+On December 9, 2014, it was announced that Haim Mazar had signed on to compose the [music of the film](https://en.wikipedia.org/wiki/Film_score). [However, on June 10, 2015, it was announced that](#cite_note-22) [Brian Tyler](https://en.wikipedia.org/wiki/Brian_Tyler_(composer)) and Keith Power had taken over scoring duties on the film, replacing Mazar.
+
+The film was to be released on January 22, 2016, in the United States, [but in August 2015 the release was pushed back to April 15, 2016.](#cite_note-24)
+
+Criminal grossed $14.7million domestically (United States and Canada), and $24.1million in other territories, for a worldwide total of $38.8million, [against a budget of $31.5million.](#cite_note-BOM-26)
+
+In the United States and Canada, the film was released alongside [The Jungle Book](https://en.wikipedia.org/wiki/The_Jungle_Book_(2016_film)) and [Barbershop: The Next Cut](https://en.wikipedia.org/wiki/Barbershop:_The_Next_Cut), and was projected to gross $9–12 million from 2,683 theaters in its opening weekend. [The film ended up grossing just $5.8 million in its opening weekend, below expectations and among the worst wide-release openings of Costner's career, finishing 6th at the box office.](#cite_note-BB-28)
+
+On the [review aggregator](https://en.wikipedia.org/wiki/Review_aggregator) website [Rotten Tomatoes](https://en.wikipedia.org/wiki/Rotten_Tomatoes), 30% of 137 critics' reviews are positive, with an average rating of 4.4/10.The website's consensus reads: "Despite the valiant efforts of a game and talented cast, Criminal has little to offer beyond the bare minimum expected by the most undemanding of genre enthusiasts."[Metacritic](https://en.wikipedia.org/wiki/Metacritic), which uses a [weighted average](https://en.wikipedia.org/wiki/Weighted_arithmetic_mean), assigned the film a score of 36 out of 100, based on 27 critics, indicating "generally unfavorable" reviews. [Audiences polled by](#cite_note-Metacritic-31) [CinemaScore](https://en.wikipedia.org/wiki/CinemaScore) gave the film an average grade of "B−" on an A+ to F scale.
+
+In his review, [Empire](https://en.wikipedia.org/wiki/Empire_(film_magazine)) magazine's John Nugent wrote: "We can but pray that scientists invent a procedure to remove the memory of ever watching this film in the first place", and awarded the film 1 star out of 5. [Writing for](#cite_note-33) [The Daily Telegraph](https://en.wikipedia.org/wiki/The_Daily_Telegraph), Tim Robey called it "wanton, low-down entertainment" and awarded it 2 stars out of 5. [In his review for](#cite_note-34) [BBC](https://en.wikipedia.org/wiki/BBC), [Mark Kermode](https://en.wikipedia.org/wiki/Mark_Kermode) placed it in fifth place in his mid-year list of the Worst Films of 2016.
+
+- ["CRIMINAL (15)"](https://www.bbfc.co.uk/release/criminal-q29sbgvjdglvbjpwwc0zodi4mtk).[British Board of Film Classification](https://en.wikipedia.org/wiki/British_Board_of_Film_Classification). March 1, 2016. Retrieved March 1, 2016.
+- Fleming, Mike Jr. (June 20, 2013). ["Millennium Films Acquires Douglas Cook & David Weisberg Spec 'Criminal'"](https://deadline.com/2013/06/millennium-films-acquires-douglas-cook-david-weisberg-spec-criminal-526053/).[Deadline Hollywood](https://en.wikipedia.org/wiki/Deadline_Hollywood). Los Angeles, California:[Penske Media Corporation](https://en.wikipedia.org/wiki/Penske_Media_Corporation). Retrieved September 28, 2014.
+- Ge, Linda (August 7, 2014). ["Alice Eve Joins Kevin Costner and Ryan Reynolds in 'Criminal'"](https://www.thewrap.com/alice-eve-joins-kevin-costner-and-ryan-reynolds-in-criminal/).[The Wrap](https://en.wikipedia.org/wiki/The_Wrap). Los Angeles, California: The Wrap News Inc. Retrieved September 28, 2014.
+- Barker, Andrew (April 7, 2016). ["Film Review: 'Criminal'"](https://variety.com/2016/film/reviews/criminal-review-kevin-costner-1201748526/).[Variety](https://en.wikipedia.org/wiki/Variety_(magazine)). Retrieved July 12, 2019.
+- McNary, Dave (September 13, 2013). ["'Iceman' Director Ariel Vromen On Board 'Criminal'"](https://variety.com/2013/film/news/iceman-director-ariel-vromen-on-board-criminal-exclusive-1200610628/).[Variety](https://en.wikipedia.org/wiki/Variety_(magazine)). Los Angeles, California:[Penske Media Corporation](https://en.wikipedia.org/wiki/Penske_Media_Corporation). Retrieved September 28, 2014.
+- Ge, Linda (June 17, 2014). ["Kevin Costner in Talks for Ariel Vromen's 'Criminal'"](https://www.thewrap.com/kevin-costner-in-talks-for-ariel-vromans-criminal/).[The Wrap](https://en.wikipedia.org/wiki/The_Wrap). Los Angeles, California: The Wrap News Inc. Retrieved September 28, 2014.
+- Kit, Borys (July 10, 2014). ["Gary Oldman Joins Kevin Costner in 'Criminal'"](https://www.hollywoodreporter.com/heat-vision/gary-oldman-joins-kevin-costner-717851).[The Hollywood Reporter](https://en.wikipedia.org/wiki/The_Hollywood_Reporter). Los Angeles, California:[Eldridge Industries](https://en.wikipedia.org/wiki/Eldridge_Industries). Retrieved September 28, 2014.
+- Kit, Borys (July 23, 2014). ["Tommy Lee Jones Joins Kevin Costner, Gary Oldman in 'Criminal'"](https://www.hollywoodreporter.com/heat-vision/tommy-lee-jones-joins-kevin-720743).[The Hollywood Reporter](https://en.wikipedia.org/wiki/The_Hollywood_Reporter). Los Angeles, California:[Eldridge Industries](https://en.wikipedia.org/wiki/Eldridge_Industries). Retrieved September 28, 2014.
+- McNary, Dave (August 4, 2014). ["Ryan Reynolds Joins Kevin Costner in Thriller 'Criminal'"](https://variety.com/2014/film/news/ryan-reynolds-criminal-kevin-costner-1201275217/).[Variety](https://en.wikipedia.org/wiki/Variety_(magazine)). Los Angeles, California:[Penske Media Corporation](https://en.wikipedia.org/wiki/Penske_Media_Corporation). Retrieved September 28, 2014.
+- Ge, Linda (August 11, 2014). ["Jordi Molla Joins Ryan Reynolds, Gary Oldman in 'Criminal'"](https://www.thewrap.com/jordi-molla-joins-ryan-reynolds-gary-oldman-in-criminal-exclusive/).[The Wrap](https://en.wikipedia.org/wiki/The_Wrap). Los Angeles, California: The Wrap News Inc. Retrieved September 29, 2014.
+- Kit, Borys (August 12, 2014). ["Wonder Woman Actress Gal Gadot Joins Kevin Costner in 'Criminal'"](https://www.hollywoodreporter.com/heat-vision/wonder-woman-actress-gal-gadot-725074).[The Hollywood Reporter](https://en.wikipedia.org/wiki/The_Hollywood_Reporter). Los Angeles, California:[Eldridge Industries](https://en.wikipedia.org/wiki/Eldridge_Industries). Retrieved September 29, 2014.
+- Siegemund-Broka, Austin (September 26, 2014). ["'Man of Steel' Actress Joins Kevin Costner in 'Criminal'"](https://www.hollywoodreporter.com/heat-vision/man-steel-actress-joins-kevin-736023).[The Hollywood Reporter](https://en.wikipedia.org/wiki/The_Hollywood_Reporter). Los Angeles, California:[Eldridge Industries](https://en.wikipedia.org/wiki/Eldridge_Industries). Retrieved September 29, 2014.
+- Wiseman, Andreas (September 4, 2014). ["Ariel Vroman's Criminal underway"](http://www.screendaily.com/news/production/ariel-vromans-criminal-underway/5077071.article).[Screen Daily](https://en.wikipedia.org/wiki/Screen_Daily). London, England: Media Business Insight. Retrieved September 29, 2014.
+- Bryant, Miranda (September 17, 2014). ["Kingston residents welcome the likes of Ryan Reynolds, Kevin Costner and Alice Eve for Hollywood blockbuster Criminal"](https://www.standard.co.uk/news/london/kingston-residents-welcome-the-likes-of-ryan-reynolds-kevin-costner-and-alice-eve-for-hollywood-blockbuster-criminal-9737415.html).[London Evening Standard](https://en.wikipedia.org/wiki/London_Evening_Standard). London, England:[Daily Mail and General Trust](https://en.wikipedia.org/wiki/Daily_Mail_and_General_Trust). Retrieved September 29, 2014.
+- Harper, Paul (September 24, 2014). ["Kevin Costner & Ryan Reynolds movie, Criminal, filmed in Yateley"](https://web.archive.org/web/20140929205849/http://www.gethampshire.co.uk/whats-on/film-news/kevin-costner--ryan-reynolds-7825072).[Hampshire News](https://en.wikipedia.org/wiki/Hampshire_News). Archived from[the original](http://www.gethampshire.co.uk/whats-on/film-news/kevin-costner--ryan-reynolds-7825072)on September 29, 2014. Retrieved September 28, 2014.
+- ["Ryan Reynolds begins filming 'Criminal' in the UK"](https://web.archive.org/web/20160324223729/http://www.onlocationvacations.com/2014/09/23/ryan-reynolds-begins-filming-criminal-in-the-uk/). onlocationvacations.com. September 23, 2014. Archived from[the original](http://www.onlocationvacations.com/2014/09/23/ryan-reynolds-begins-filming-criminal-in-the-uk/)on March 24, 2016. Retrieved September 28, 2014.
+- ["Hollywood A-listers to film new blockbuster at Croydon College"](https://web.archive.org/web/20141023160554/http://www.croydonadvertiser.co.uk/Hollywood-listers-filming-new-blockbuster-Croydon/story-22916551-detail/story.html).[Croydon Advertiser](https://en.wikipedia.org/wiki/Croydon_Advertiser). London, England:[Daily Mail and General Trust](https://en.wikipedia.org/wiki/Daily_Mail_and_General_Trust). September 12, 2014. Archived from[the original](http://www.croydonadvertiser.co.uk/Hollywood-listers-filming-new-blockbuster-Croydon/story-22916551-detail/story.html)on October 23, 2014. Retrieved September 29, 2014.
+- ["Connect 2 Cleanrooms - News Article - Connect 2 Cleanrooms -"](https://web.archive.org/web/20160307065424/http://www.connect2cleanrooms.com/news-article/connect-2-cleanrooms-criminal-film). Archived from[the original](http://www.connect2cleanrooms.com/news-article/connect-2-cleanrooms-criminal-film)on March 7, 2016. Retrieved February 17, 2016.
+- ["Ariel Filming - The Film Office reaching new heights in London - Criminal with Kevin Costner"](https://web.archive.org/web/20150419033046/http://towerhamlets.filmoffice.co.uk/news/tower-hamlets-news/drone-filming-for-criminal-with-kevin-costner-spitalfields,-london.aspx?alttemplate=boroughnewsarticle). Tower Hamlets Film Office. December 16, 2014. Archived from[the original](http://towerhamlets.filmoffice.co.uk/news/tower-hamlets-news/drone-filming-for-criminal-with-kevin-costner-spitalfields,-london.aspx?alttemplate=boroughnewsarticle)on April 19, 2015. Retrieved April 18, 2015.
+- ["Weekend library closure for 'Criminal' filming"](https://soasspirit.co.uk/news/weekend-library-closure-for-criminal-filming/). The SOAS Spirit. London, England: SOAS, University of London. October 10, 2014. Retrieved October 1, 2018.
+- ["Criminal"](https://pinewoodgroup.com/pinewood-today/credits/criminal).[Pinewood Studios](https://en.wikipedia.org/wiki/Pinewood_Studios). Retrieved June 5, 2022.
+- ["Haim Mazar to Score 'Criminal'"](http://filmmusicreporter.com/2014/12/09/haim-mazar-to-score-criminal/). filmmusicreporter.com. December 9, 2014.[Archived](https://web.archive.org/web/20231128124514/http://filmmusicreporter.com/2014/12/09/haim-mazar-to-score-criminal/)from the original on November 28, 2023. Retrieved December 14, 2014.
+- ["Brian Tyler & Keith Power to Score 'Criminal'"](http://filmmusicreporter.com/2015/06/10/brian-tyler-keith-power-to-score-criminal/). June 10, 2015.[Archived](https://web.archive.org/web/20231128124513/http://filmmusicreporter.com/2015/06/10/brian-tyler-keith-power-to-score-criminal/)from the original on November 28, 2023. Retrieved June 10, 2015.
+- ["Lionsgate Dates 'Criminal' For Summer; 'Mechanic' Sequel Set For 2016, Adds Tommy Lee Jones & Jessica Alba"](https://deadline.com/2014/11/criminal-mechanic-resurrection-release-date-kevin-costner-jason-statham-1201277849/).[Deadline Hollywood](https://en.wikipedia.org/wiki/Deadline_Hollywood). Los Angeles, California:[Penske Media Corporation](https://en.wikipedia.org/wiki/Penske_Media_Corporation). November 7, 2014. Retrieved July 25, 2015.
+- Busch, Anita (August 3, 2015). ["'Criminal', 'Dirty Grandpa' & 'Mechanic: Resurrection' Get New Release Dates"](https://deadline.com/2015/08/criminal-dirty-grandpa-mechanic-resurrection-get-new-release-dates-1201490561/).[Deadline Hollywood](https://en.wikipedia.org/wiki/Deadline_Hollywood). Los Angeles, California:[Penske Media Corporation](https://en.wikipedia.org/wiki/Penske_Media_Corporation). Retrieved August 4, 2015.
+- ["Criminal"](https://www.boxofficemojo.com/title/tt3014866/).[Box Office Mojo](https://en.wikipedia.org/wiki/Box_Office_Mojo).[IMDb](https://en.wikipedia.org/wiki/IMDb). Retrieved March 28, 2024.
+- Mendelson, Scott (April 16, 2016). ["Friday Box Office: 'Jungle Book' Earns Huge $32.4M For $90-95M Weekend"](https://www.forbes.com/sites/scottmendelson/2016/04/16/friday-box-office-jungle-book-earns-huge-32-4m-for-85m-90m-weekend/#51cea54540ed).[Forbes](https://en.wikipedia.org/wiki/Forbes). Retrieved April 16, 2016.
+- Busch, Anita; Tartaglione, Nancy (April 12, 2016). ["'The Jungle Book', 'Barbershop: The Next Cut' To Ignite Weekend Box Office – Preview"](https://deadline.com/2016/04/the-jungle-book-barbershop-the-next-cut-criminal-box-office-preview-1201736035/).[Deadline Hollywood](https://en.wikipedia.org/wiki/Deadline_Hollywood). Retrieved April 13, 2016.
+- McClintock, Pamela (April 15, 2016). ["Box Office: Jon Favreau's 'Jungle Book' Swings to Stellar $4.2M Thursday Night"](https://www.hollywoodreporter.com/news/box-office-jon-favreaus-jungle-883622).[The Hollywood Reporter](https://en.wikipedia.org/wiki/The_Hollywood_Reporter). Retrieved April 17, 2016.
+- ["Criminal"](https://www.rottentomatoes.com/m/criminal_2016).[Rotten Tomatoes](https://en.wikipedia.org/wiki/Rotten_Tomatoes).[Fandango Media](https://en.wikipedia.org/wiki/Fandango_Media). Retrieved March 28, 2024.
+- ["Criminal"](https://www.metacritic.com/movie/criminal-2016).[Metacritic](https://en.wikipedia.org/wiki/Metacritic).[Fandom, Inc.](https://en.wikipedia.org/wiki/Fandom_(website)#Fandom,_Inc.)Retrieved March 28, 2024.
+- Busch, Anita (April 18, 2016). ["Jungle Book' Wild With $103.2M; 'Barbershop' Cuts $20.2M; 'Criminal' In Cooler — Box Office Final"](https://deadline.com/2016/04/jungle-book-goes-wild-85m-to-88m-barbershop-snips-about-20m-criminal-box-office-friday-1201738755/).[Deadline Hollywood](https://en.wikipedia.org/wiki/Deadline_Hollywood). Los Angeles, California:[Penske Media Corporation](https://en.wikipedia.org/wiki/Penske_Media_Corporation). Retrieved October 1, 2018.
+  > also stars Ryan Reynolds, received a B- CinemaScore tonight from its core audience. Of those in attendance, just 51% of the audience said they came to see Costner.
+- Nugent, John (April 15, 2016). ["Criminal Review"](https://www.empireonline.com/movies/reviews/criminal-2016-review/).[Empire](https://en.wikipedia.org/wiki/Empire_(magazine)).[Archived](https://web.archive.org/web/20211020152030/https://www.empireonline.com/movies/reviews/criminal-2016-review/)from the original on October 20, 2021. Retrieved March 28, 2024.
+- Robey, Tim (April 15, 2016). ["Kevin Costner proves he's no Jason Statham - Criminal review"](https://www.telegraph.co.uk/films/2016/04/15/kevin-costner-proves-hes-no-jason-statham---criminal-review/).[The Daily Telegraph](https://en.wikipedia.org/wiki/The_Daily_Telegraph).[Archived](https://web.archive.org/web/20160515214219/https://www.telegraph.co.uk/films/2016/04/15/kevin-costner-proves-hes-no-jason-statham---criminal-review/)from the original on May 15, 2016. Retrieved November 30, 2016.
+- [Kermode, Mark](https://en.wikipedia.org/wiki/Mark_Kermode)(August 5, 2016).[The Ten Worst Films Of The Year So Far - Part 2](https://www.bbc.co.uk/webarchive/https%3A%2F%2Fwww.bbc.co.uk%2Fblogs%2Fmarkkermode%2Fentries%2Feb1d6018-dfff-4980-922e-91a6a663267b). Kermode Uncut (video).[BBC](https://en.wikipedia.org/wiki/BBC). Retrieved August 5, 2016.

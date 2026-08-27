@@ -1,0 +1,264 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Classical language - introduction",
+      "original_value": "SEAS 5.1 Classical language - introduction",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5.1",
+        "name": "Classical language - introduction"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 4,
+      "original_value": "4 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5.1",
+        "name": "Classical language - introduction"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Classical language - philology",
+      "original_value": "SEAS 5.2 Classical language - philology",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5.2",
+        "name": "Classical language - philology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 8,
+      "original_value": "8 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5.2",
+        "name": "Classical language - philology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Applied Bahasa Indonesia / Bahasa Malaysia",
+      "original_value": "SEAS 6 Applied Bahasa Indonesia / Bahasa Malaysia",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 6",
+        "name": "Applied Bahasa Indonesia / Bahasa Malaysia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": "only for students of version 1",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12 CP (sum)",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 6",
+        "name": "Applied Bahasa Indonesia / Bahasa Malaysia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": "only for students of version 1",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "English",
+      "original_value": "English",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_examination",
+      "value": "Final module examination",
+      "original_value": "Final module examination",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Written exam",
+      "original_value": "Written exam (90 Min.)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "term paper (15 pages)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "program_id": "0224",
+  "program_name": "Online Master of Arts in World War II Studies",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0224\\final",
+  "input_fact_count": 31,
+  "unique_fact_count": 31,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 31,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 31,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 1,
+    "curriculum": 5,
+    "career": 10,
+    "fees": 1,
+    "scholarships": 0,
+    "contacts": 5,
+    "student_life": 2,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 2,
+    "other": 2
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0224\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0224\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0224\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0224\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0224\\final\\fees_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0224\\final\\contacts_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0224\\final\\student_life_data.json",
+    "research": "data\\united_states\\asu\\programs\\0224\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0224\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0224\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0224\\final\\build_summary.json"
+  }
+}

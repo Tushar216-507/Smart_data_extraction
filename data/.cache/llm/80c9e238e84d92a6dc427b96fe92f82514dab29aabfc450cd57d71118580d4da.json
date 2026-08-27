@@ -1,0 +1,222 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Current issues and research in Southeast Asian Studies",
+      "original_value": "SEAS 3.1 Current issues and research in Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 3.1",
+        "name": "Current issues and research in Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Review of recent publications in Southeast Asian Studies",
+      "original_value": "SEAS 3.2 Review of recent publications in Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 3.2",
+        "name": "Review of recent publications in Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Media, politics and economy in modern Southeast Asia",
+      "original_value": "SEAS 4 Media, politics and economy in modern Southeast Asia",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "contact_study_hours": 90,
+        "self_study_hours": 360,
+        "total_hours": 450
+      },
+      "original_value": "15 CP (insg.) = 450 h",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar",
+      "original_value": "Seminar",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "English",
+      "original_value": "Englisch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "Term paper",
+      "original_value": "Hausarbeit (ca. 15 Seiten) zu einem der Seminare nach Wahl",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Extensive knowledge of important issues regarding politics, economy, and development in Southeast Asian states",
+        "Knowledge and active mastery of linguistic, cultural, and social science analytical methods related to the above political and economic issues"
+      ],
+      "original_value": "Umfangreiche Kenntnisse wichtiger Probleme von Politik, Wirtschaft und Entwicklung in den Staaten Südostasiens\n\n- Kenntnis und aktive Beherrschung sprach-, kultur- und gesellschaftswissenschaftlicher Analysemethoden zu den oben genannten politischen und wirtschaftlichen Fragen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "No requirements",
+      "original_value": "Teilnahmevoraussetzungen für Modul bzw. für einzelne Lehrveranstaltungen des Moduls keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 4",
+        "name": "Media, politics and economy in modern Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

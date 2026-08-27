@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "faculty",
+      "subcategory": "staff_mobility",
+      "field": "mobility_agreement",
+      "value": "The receiving institution must be a university with a signed 'inter-institutional' agreement with the University of Limerick.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "faculty",
+      "subcategory": "staff_mobility",
+      "field": "application_check",
+      "value": "Applicants must check with UL Global to ensure the institution has a valid mobility agreement.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "faculty",
+      "subcategory": "staff_mobility",
+      "field": "funded_duration",
+      "value": "Minimum duration of staff mobility is 2 days (excluding travel) and a maximum of 7 days (including travel).",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "faculty",
+      "subcategory": "staff_mobility",
+      "field": "teaching_hours",
+      "value": "Minimum of 8 teaching hours per week must be fulfilled during mobility.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

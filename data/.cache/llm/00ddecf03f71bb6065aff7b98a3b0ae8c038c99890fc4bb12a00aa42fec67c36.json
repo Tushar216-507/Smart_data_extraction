@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "description",
+      "value": "Hebrew from the Bible to the present, Aramaic, Yiddish / Judeo-Spanish. Literature, culture, history, religion.",
+      "original_value": "Hebräisch von der Bibel bis zur Gegenwart, Aramäisch, Jiddisch / Jüdisch-Spanisch › Literatur, Kultur, Geschichte, Religion",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "exclusions",
+      "value": "Less cultural studies in minor, little linguistics.",
+      "original_value": "Im NF weniger Kulturwissenschaft, Wenig Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "university",
+      "field": "module_name",
+      "value": "Languages and Cultures of Judaism",
+      "original_value": "Sprachen und Kulturen des Judentums",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Languages and Cultures of Judaism"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "uni_name",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

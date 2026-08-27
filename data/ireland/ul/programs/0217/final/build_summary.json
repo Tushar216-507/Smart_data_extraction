@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "program_id": "0217",
+  "program_name": "Masters/PhD in Economics",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0217\\final",
+  "input_fact_count": 347,
+  "unique_fact_count": 347,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 347,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 347,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 87,
+    "admission": 4,
+    "curriculum": 32,
+    "career": 5,
+    "fees": 0,
+    "scholarships": 13,
+    "contacts": 5,
+    "student_life": 2,
+    "research": 40,
+    "housing": 0,
+    "visa": 0,
+    "documents": 7,
+    "statistics": 0,
+    "other": 152
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0217\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0217\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0217\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0217\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0217\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0217\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0217\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0217\\final\\research_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0217\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0217\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0217\\final\\build_summary.json"
+  }
+}

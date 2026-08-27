@@ -1,0 +1,182 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mathematical Methods",
+      "original_value": "Mathematical Methods (MAME)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MAME",
+        "name": "Mathematical Methods"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": "Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 8,
+      "original_value": "8",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "MAME",
+        "name": "Mathematical Methods"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": "Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Econometrics 1",
+      "original_value": "Advanced Econometrics 1 (AEC 1)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AEC 1",
+        "name": "Advanced Econometrics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": "Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 8,
+      "original_value": "8",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "AEC 1",
+        "name": "Advanced Econometrics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": "Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Econometrics 2",
+      "original_value": "Advanced Econometrics 2 (AEC 2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AEC 2",
+        "name": "Advanced Econometrics 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": "Summer semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 8,
+      "original_value": "8",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "AEC 2",
+        "name": "Advanced Econometrics 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": "Summer semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

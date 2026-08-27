@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "both",
+      "field": "qualification",
+      "value": "Bachelor of Arts",
+      "original_value": "Bachelor of Arts",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "standard_duration",
+      "value": 6,
+      "original_value": "sechs Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Oral examination",
+      "original_value": "Mündliche Prüfungsleistungen",
+      "unit": null,
+      "entity": {
+        "type": "programme",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "assessment_details",
+      "value": {
+        "individual_exam": true,
+        "group_exam": {
+          "allowed": true,
+          "maximum_students": 5
+        },
+        "duration_min": 15,
+        "duration_max": 60,
+        "protocol": {
+          "documentation_required": true,
+          "signature": true
+        },
+        "result_notification": {
+          "immediate": true,
+          "justification_required_on_failure": true
+        },
+        "public_examination": {
+          "allowed": true,
+          "student_opposition": true
+        }
+      },
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "programme",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

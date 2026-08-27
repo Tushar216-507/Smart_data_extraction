@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0108",
+  "program_name": "Online Master of Public Health – Public Health Technology",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0108\\final",
+  "input_fact_count": 20,
+  "unique_fact_count": 20,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 20,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 20,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 3,
+    "admission": 3,
+    "curriculum": 5,
+    "career": 3,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0108\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0108\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0108\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0108\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0108\\final\\student_life_data.json",
+    "research": "data\\united_states\\asu\\programs\\0108\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0108\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0108\\final\\build_summary.json"
+  }
+}

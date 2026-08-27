@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-26T08:42:56.247968+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Online Master of Social Work (MSW)",
+    "program_id": "0030",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+    "source_url": "https://socialwork.asu.edu/sites/g/files/litvpz286/files/2023-06/social-services-or-human-services-experience-form-2023.pdf",
+    "document_data_path": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 1
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 1137,
+    "cleaned_character_count": 1133,
+    "characters_removed": 4,
+    "sections_detected": 2,
+    "chunks_created": 2,
+    "total_chunk_characters": 322,
+    "total_chunk_words": 94,
+    "chunks_with_page_references": 2,
+    "chunks_without_page_references": 0,
+    "chunks_containing_tables": 1,
+    "repeated_noise_lines_removed": 0,
+    "section_type_counts": {
+      "admission": 1,
+      "identity_overview": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0030",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Document overview\n\n<!-- PageHeader=\"Arizona State University School of Social Work\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 17,
+        "word_count": 2,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://socialwork.asu.edu/sites/g/files/litvpz286/files/2023-06/social-services-or-human-services-experience-form-2023.pdf",
+        "document_id": "source",
+        "program_id": "0030",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "5c5790d5b48b4eac47e8a6188cdb801c9197eed5f10f86b8b9230dfa3a9fd8a6",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0030",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "MSW Program Application - Social Work or Human Services Experience (240 hours)",
+        "type": "admission",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "# MSW Program Application - Social Work or Human Services Experience (240 hours)\n\nAll MSW Program applicants must have completed a minimum of 240 hours of volunteer and/or work experience in social services in the past five\nyears. The experience must include face-to-face contact with people in need. Please complete the following table with a very specific description of\nyour duties/activities and the hours and dates of your experience.\n\n<table>\n<tr>\n<th>Dates of Volunteer/Work Experience (month/year)</th>\n<th>Total # Hours Completed</th>\n<th>Agency or Company</th>\n<th>Position Title</th>\n<th>Description of Volunteer/Work Duties/Activities</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n<!-- PageFooter=\"5/17/23\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 305,
+        "word_count": 92,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://socialwork.asu.edu/sites/g/files/litvpz286/files/2023-06/social-services-or-human-services-experience-form-2023.pdf",
+        "document_id": "source",
+        "program_id": "0030",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3749e34b14d3761aad89155b1960708cbcd3929f6bbbc99e5848819d474fd962",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "credit_transfer_policy",
+      "value": "Credits for knowledge and skills acquired outside a higher education institution can be credited upon request if they are equivalent in level and learning outcomes to modules of the study program.",
+      "original_value": "Für Kenntnisse und Fähigkeiten, die vor Studienbeginn oder während des Studiums außerhalb einer Hochschule erworben wurden und die in Niveau und Lernergebnis Modulen des Studiums äquivalent sind, können die CP der entsprechenden Module auf Antrag angerechnet werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "credit_limit",
+      "value": "No more than 50% of the required credits for the degree program can be replaced by credited competencies.",
+      "original_value": "Insgesamt dürfen nicht mehr als 50 % der im Studiengang erforderlichen CP durch Anrechnung ersetzt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_policy",
+      "value": "The accreditation of credits occurs without a grade, and this will be indicated in the certificate.",
+      "original_value": "Die Anrechnung der CP erfolgt ohne Note. Dies wird im Zeugnis entsprechend ausgewiesen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

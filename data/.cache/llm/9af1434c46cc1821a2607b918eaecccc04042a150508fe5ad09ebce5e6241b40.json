@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "The Bachelor's program includes an optional module, where students can choose freely from the study offerings of Johann Wolfgang Goethe University.",
+      "original_value": "ein Optionalmodul enthalten, bei dem frei aus den Studienangeboten der Johann Wolfgang Goethe-Universität gewählt werden kann.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "important_information",
+      "value": "According to § 11 Abs. 6 RO and regulations for imparting key competencies (§ 11 Abs. 5 and 6 RO), university political activities can also be considered for the optional modules.",
+      "original_value": "Hinweis zur optionalen Ergänzung: Vgl. hierzu § 11 Abs. 6 RO nebst Regelung zur Vermittlung von Schlüsselkompetenzen (§ 11 Abs. 5 und 6 RO). Bei den Optionalmodulen können auch hochschulpolitische Aktivitäten berücksichtigt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

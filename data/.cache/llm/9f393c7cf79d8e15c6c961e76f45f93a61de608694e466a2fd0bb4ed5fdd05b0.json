@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "description",
+      "value": "This regulation contains the program-specific regulations for the Master's programs of the Department of Language and Cultural Studies.",
+      "original_value": "Diese Ordnung enthält die studiengangspezifischen Regelungen für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwissenschaften.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "description",
+      "value": "The regulation applies in conjunction with the framework regulation for structured and modularized study programs of Johann Wolfgang Goethe University Frankfurt am Main from April 30, 2014.",
+      "original_value": "Sie gilt in Verbindung mit der Rahmenordnung für gestufte und modularisierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main vom 30.April 2014.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

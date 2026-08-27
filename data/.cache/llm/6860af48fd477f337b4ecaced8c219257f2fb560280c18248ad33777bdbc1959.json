@@ -1,0 +1,68 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "programme",
+      "field": "course_resources",
+      "value": {
+        "olatform": "OLAT",
+        "resources": [
+          {
+            "resource_type": "Discord",
+            "description": "Discord server for students"
+          },
+          {
+            "resource_type": "Facebook",
+            "description": "Facebook group for students"
+          },
+          {
+            "resource_type": "WhatsApp",
+            "description": "WhatsApp group for first-year students"
+          }
+        ]
+      },
+      "original_value": "OLAT-Kurs für Erstsemester\nPassword: EmpSprFFM. )\nausserdem:\nDiscordserver für Empis\nFacebook-Gruppe\nWhatsApp-Gruppe für Erstis",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

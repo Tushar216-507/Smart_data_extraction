@@ -1,0 +1,175 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Seminar Finance",
+      "original_value": "Seminar Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": [
+        "Personal Finance",
+        "Financial Instruments",
+        "Asset Pricing and Derivatives",
+        "Asset Management",
+        "Financial Regulation and Systemic Risk",
+        "Insurance Technology"
+      ],
+      "original_value": "Themen im Bereich „,Personal Finance“ ... Versicherungstechnologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Learn to work independently on a scientific topic",
+        "Deepen knowledge and skills related to economic sciences",
+        "Ability to present complex issues clearly and understandably",
+        "Competence to conduct discussions on economic topics in a differentiated manner"
+      ],
+      "original_value": "Die Studierenden ... lernen sich weitgehend selbständig ein wissenschaftliches Thema zu erarbeiten ...",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "requirement",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "None",
+      "original_value": "Keine.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar",
+      "original_value": "Seminar.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_assessment",
+      "value": "Hausarbeit (ca. 20 Seiten) or Präsentation (ca. 30 Minuten) or Portfolio",
+      "original_value": "Hausarbeit (ca. 20 Seiten, ca. 6 Wochen veranstaltungsbegleitende Bearbeitungszeit) ...",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_grade",
+      "value": "100% Hausarbeit or 100% Präsentation or 100% Portfolio",
+      "original_value": "100 % Hausarbeit oder 100 % Präsentation oder 100 % Portfolio",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

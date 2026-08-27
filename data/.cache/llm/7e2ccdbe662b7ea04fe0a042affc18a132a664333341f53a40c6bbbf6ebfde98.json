@@ -1,0 +1,305 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Skandinavistik im philologischen Kontext",
+      "original_value": "Skandinavistik im philologischen Kontext",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "contact_hours",
+      "value": {
+        "hours": {
+          "min": 90,
+          "max": 300
+        },
+        "self_study_hours": {
+          "min": 150,
+          "max": 360
+        }
+      },
+      "original_value": "je nach gewählten Veranstaltungstypen 90-300 Arbeitsstunden (3-10 CP), Selbststudium: je nach gewählten Veranstaltungstypen 150-360 Arbeitsstunden (5-12 CP)",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": "Dieses Modul dient der Vertiefung literatur- und sprachwissenschaftlicher Arbeitsweisen bei einer gleichzeitigen Erweiterung der Perspektive auf die Gegenstände, Methoden und Forschungsfragen anderer Philologien.",
+      "original_value": "Dieses Modul dient der Vertiefung literatur- und sprachwissenschaftlicher Arbeitsweisen bei einer gleichzeitigen Erweiterung der Perspektive auf die Gegenstände, Methoden und Forschungsfragen anderer Philologien.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "competencies",
+      "value": "Mit dem Abschluss des Moduls sind die Studierenden in der Lage, Forschungsfragen der Skandinavistik vor dem Hintergrund verschiedener literatur- und sprachwissenschaftlicher sowie literatur-theoretischer Ansätze zu behandeln.",
+      "original_value": "Mit dem Abschluss des Moduls sind die Studierenden in der Lage, Forschungsfragen der Skandinavistik vor dem Hintergrund verschiedener literatur- und sprachwissenschaftlicher sowie literatur-theoretischer Ansätze zu behandeln.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "schriftlicher Bericht (10-15 Seiten) und darauf bezogene mündliche Prüfung (30 Minuten)",
+      "original_value": "schriftlicher Bericht (10-15 Seiten) und darauf bezogene mündliche Prüfung (30 Minuten)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "requirements",
+      "value": "Es müssen mindestens drei Veranstaltungen besucht werden, das Modul kann sich aber - je nach gewählten Veranstaltungstypen - auch aus mehr Veranstaltungen zusammensetzen.",
+      "original_value": "Es müssen mindestens drei Veranstaltungen besucht werden, das Modul kann sich aber - je nach gewählten Veranstaltungstypen - auch aus mehr Veranstaltungen zusammensetzen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "component_name",
+      "value": "Seminar",
+      "original_value": "Sk.MA.3.1-1: Seminar",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "Sk.MA.3.1-1",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "component_name",
+      "value": "Seminar/Vorlesung",
+      "original_value": "Sk.MA.3.1-2: Seminar/Vorlesung",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "Sk.MA.3.1-2",
+        "name": "Seminar/Vorlesung"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "component_name",
+      "value": "Nach Wahl",
+      "original_value": "Sk.MA.3.1-3: nach Wahl",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "Sk.MA.3.1-3",
+        "name": "Nach Wahl"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "component_name",
+      "value": "schriftlicher Bericht",
+      "original_value": "Sk.MA.3.1-4: schriftlicher Bericht",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "Sk.MA.3.1-4",
+        "name": "schriftlicher Bericht"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "component_name",
+      "value": "mündliche Prüfung",
+      "original_value": "Sk.MA.3.1-5: mündliche Prüfung",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "Sk.MA.3.1-5",
+        "name": "mündliche Prüfung"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "keine",
+      "original_value": "keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 3,
+      "original_value": "drei Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "offering_period",
+      "value": "in jedem Semester",
+      "original_value": "Leistungen im Rahmen dieses Moduls können in jedem Semester erbracht werden.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "credit_system",
+      "value": "European Credit Transfer System (ECTS)",
+      "original_value": "European Credit Transfer Systems (ECTS)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "hours": 30,
+        "description": "One CP corresponds to 30 hours of workload"
+      },
+      "original_value": "Ein CP entspricht einem Arbeitsaufwand von 30 Stunden.",
+      "unit": "hours",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "total_credits",
+      "value": 180,
+      "original_value": "180 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "minimum_credits",
+      "value": 5,
+      "original_value": "mind. 5 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "maximum_credits",
+      "value": 15,
+      "original_value": "höchstens 15 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "credits_awarded",
+      "value": "Credits are awarded only for a fully and successfully completed module.",
+      "original_value": "Die CP werden nur für ein vollständig und erfolgreich absolviertes Modul vergeben.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

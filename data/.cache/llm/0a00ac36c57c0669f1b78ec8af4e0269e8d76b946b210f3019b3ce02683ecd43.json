@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "examination_access",
+      "value": "Students may request to review their examination records after each module examination and after the completion of the entire process.",
+      "original_value": "Nach jeder Modulprüfung und nach Abschluss des gesamten Verfahrens wird der oder dem Studierenden auf Antrag Einsicht in die sie oder ihn betreffenden Prüfungsakten gewährt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "examination_records_management",
+      "value": "Examination records are maintained by the examination offices.",
+      "original_value": "Die Prüfungsakten sind von den Prüfungsämtern zu führen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "examination_records_retention",
+      "value": "The retention periods for examination documents are based on § 20 of the Hessian Enrollment Regulation (HImmaVO).",
+      "original_value": "Maßgeblich für die Aufbewahrungsfristen von Prüfungsunterlagen ist § 20 der Hessischen Immatrikulationsverordnung (HImmaVO).",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

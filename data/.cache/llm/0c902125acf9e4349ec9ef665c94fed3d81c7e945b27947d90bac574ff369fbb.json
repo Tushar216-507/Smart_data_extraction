@@ -1,0 +1,211 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "address",
+      "value": "60629 Frankfurt am Main, Germany",
+      "original_value": "60629 Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "export_modules",
+      "value": [
+        {
+          "module_name": "M.A. Soziologie",
+          "credits": 6
+        },
+        {
+          "module_name": "Optionalmodul",
+          "credits": 6
+        },
+        {
+          "module_name": "M.A. Wirtschaftssoziologie",
+          "credits": 6
+        },
+        {
+          "module_name": "Vertiefung Mikroökonomik",
+          "credits": 6
+        },
+        {
+          "module_name": "Vertiefung Makroökonomik",
+          "credits": 6
+        },
+        {
+          "module_name": "M.A. Politische Theorie",
+          "credits": 6
+        },
+        {
+          "module_name": "Theoriegeschichte",
+          "credits": 6
+        },
+        {
+          "module_name": "Fachbereich 04",
+          "credits": 7
+        },
+        {
+          "module_name": "B.A. Erziehungswissenschaften",
+          "credits": 7
+        },
+        {
+          "module_name": "Optionalmodul",
+          "credits": 7
+        },
+        {
+          "module_name": "Fachbereich 09",
+          "credits": 7
+        },
+        {
+          "module_name": "M.A. Modern East Asian Studies",
+          "credits": 7
+        },
+        {
+          "module_name": "Fachbereich 11",
+          "credits": 8
+        },
+        {
+          "module_name": "B.A. Geographie",
+          "credits": 8
+        },
+        {
+          "module_name": "Nebenfachbereich / Optionalmodul",
+          "credits": 8
+        },
+        {
+          "module_name": "M.A. Geographie der Globalisierung",
+          "credits": 8
+        },
+        {
+          "module_name": "Modul HG 7 / Optionalmodul",
+          "credits": 8
+        },
+        {
+          "module_name": "M.Sc. Physische Geographie",
+          "credits": 8
+        },
+        {
+          "module_name": "Ergänzungsbereich",
+          "credits": 8
+        },
+        {
+          "module_name": "Optionalmodul",
+          "credits": 9
+        },
+        {
+          "module_name": "B.Sc. Meteorologie",
+          "credits": 9
+        },
+        {
+          "module_name": "NF 1 - Ergänzungsmodul VWL",
+          "credits": 9
+        },
+        {
+          "module_name": "NF 1 - Ergänzungsmodul BWL",
+          "credits": 9
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul VWL",
+          "credits": 9
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul BWL",
+          "credits": 9
+        },
+        {
+          "module_name": "M.Sc. Meteorologie",
+          "credits": 10
+        },
+        {
+          "module_name": "NF 1 - Ergänzungsmodul VWL",
+          "credits": 10
+        },
+        {
+          "module_name": "NF 1 - Ergänzungsmodul BWL",
+          "credits": 10
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul VWL",
+          "credits": 10
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul BWL",
+          "credits": 10
+        },
+        {
+          "module_name": "Fachbereich 12",
+          "credits": 11
+        },
+        {
+          "module_name": "B.Sc. Mathematik",
+          "credits": 11
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul VWL",
+          "credits": 11
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul BWL",
+          "credits": 11
+        },
+        {
+          "module_name": "NF Finanzwirtschaft / Finance",
+          "credits": 11
+        }
+      ],
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "learning_objectives",
+      "value": "Students may deepen subject-related competencies through an examination of Southeast Asian topics and prepare for their semester abroad, such as by attending language courses or courses from related subjects.",
+      "original_value": "Neben einer vertieften Auseinandersetzung mit weiteren, südostasienbezogenen Themen zur Vertiefung der fachspezifischen Kompetenzen können die Studierenden der Variante 2 dieses Modul als Vorbereitung auf ihr Auslandssemester (SEAS 11) nutzen - zum Beispiel, indem sie Sprachkurse besuchen oder andere Kurse aus verwandten Fächern besuchen, um sich mit den Fähigkeiten und Kompetenzen anderer Fachdisziplinen vertraut zu machen.",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Semester abroad",
+      "original_value": "SEAS 11",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": "only for students of version 2",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP (sum)",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "contact_time": {
+          "hours": [
+            120,
+            210
+          ],
+          "weekly_hours": "8-14 SWS"
+        },
+        "self_study_time": {
+          "hours": 690
+        }
+      },
+      "original_value": "30 CP (sum) = 900 h",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German and English. Students with no sufficient command of German are only allowed to attend courses offered in English.",
+      "original_value": "Deutsch und Englisch. Studierende ohne ausreichende Deutschkenntnisse dürfen nur die in Englisch angebotenen Veranstaltungen besuchen.",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "duration",
+      "value": "1-2 Semester",
+      "original_value": "1-2 Semester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

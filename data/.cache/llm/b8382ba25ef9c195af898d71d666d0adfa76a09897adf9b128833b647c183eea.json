@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to General Linguistics",
+      "original_value": "Einführung in die Allgemeine Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "K1",
+        "name": "Introduction to General Linguistics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": "Compulsory for major and minor",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Phonetics and Phonology I",
+      "original_value": "Phonetik und Phonologie I",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "K2",
+        "name": "Phonetics and Phonology I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": "Recommended for 1st semester (optional for minor students in the 3rd semester)",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Specific introductory events for specializations are available in the specialization area or the course catalog.",
+      "original_value": "Weitere schwerpunktspezifische Einführungsveranstaltungen\n- Im Schwerpunktbereich bzw. Vorlesungsverzeichnis nachschauen!\n- an den Schwerpunktständen nachfragen!",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

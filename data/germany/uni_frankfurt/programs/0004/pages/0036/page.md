@@ -1,0 +1,7 @@
+Die Hitotsubashi Universität hat ihren Ursprung in der 1875 von dem Gründer des modernen japanischen Bildungssystems Mori „Handels- und Rechtslehranstalt“ gegründeten Privatschule. An der Universität studieren rund 6.200 Studierende, davon sind etwa 900 international.
+
+Die Hitotsubashi Universität verfügt über einen ausgezeichneten Ruf im Bereich der Sozialwissenschaften, insbesondere die Fakultäten für Betriebswirtschaftslehre und Volkswirtschaftslehre gehören zu den renommiertesten in ganz Japan. Sie hat eine Reihe von Absolventen hervorgebracht, die eine bedeutende Rolle in der Finanzwelt und Industrie Japans spielen.
+
+Die Studierenden organisieren regelmäßig ein abwechslungsreiches Programm mit Aufführungen, Essensständen, Livemusik und kulturellen Beiträgen, das allen auf dem Campus offensteht – besonders bei Veranstaltungen wie dem Kodaira-Festival oder dem Ikkyosai.
+
+Darüber hinaus bietet die Universität über 150 Clubs und „Circles“ – darunter Sportvereine, Musik- und Theatergruppen sowie akademische und forschungsbezogene Initiativen. Besonders die Circles zeichnen sich durch ihre Offenheit gegenüber internationalen Studierenden aus und bieten eine tolle Möglichkeit, Kontakte zu knüpfen und aktiv am Campusleben teilzunehmen.

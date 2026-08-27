@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Ergänzungsmodul VWL",
+      "original_value": "NF 1 - Ergänzungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Successful completion of both modules - Registration via QIS",
+      "original_value": "Erfolgreiches Absolvieren beider Module - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

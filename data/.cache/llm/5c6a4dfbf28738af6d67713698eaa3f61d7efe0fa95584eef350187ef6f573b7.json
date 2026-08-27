@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "eligibility",
+      "value": "Applicants deemed suitable through an assessment procedure must be admitted.",
+      "original_value": "Bewerberinnen und Bewerber, die aufgrund eines Eignungsfeststellungsverfahrens als geeignet gelten, sind zwingend zuzulassen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "application_requirements",
+      "value": "The application must include documents related to special admission requirements, such as a statement of purpose or language certificates.",
+      "original_value": "Hier ist zu regeln, welche Unterlagen wegen der besonderen Zugangsvoraussetzungen bereits der Bewerbung in einfacher oder beglaubigter Kopie beigefügt werden müssen, z. B. Motivationsschreiben oder Sprachzeugnisse.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "selection_process",
+      "value": "The deciding committee for the master's program checks the fulfillment of requirements and conducts the further process.",
+      "original_value": "Der Prüfungsausschuss für den Masterstudiengang überprüft das Vorliegen der Voraussetzungen nach Abs. 1 und 2 und führt das weitere Verfahren durch.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "interview_process",
+      "value": "Applicants will be invited to an interview with appropriate notice, and absence will forfeit the right to reschedule.",
+      "original_value": "Zum Auswahlgespräch wird mit angemessener Frist schriftlich eingeladen. Wer nicht erscheint, hat keinen Anspruch auf Anberaumung eines neuen Termins.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

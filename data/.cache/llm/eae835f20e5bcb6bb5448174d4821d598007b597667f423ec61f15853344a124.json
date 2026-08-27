@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "contact",
+      "scope": "programme",
+      "field": "department_contact_email",
+      "value": "seas@dlist.server.uni-frankfurt.de",
+      "original_value": "seas@dlist.server.uni-frankfurt.de",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe University Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": null,
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "department_name",
+      "value": "Department of Southeast Asian Studies",
+      "original_value": "Department of Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "department_address",
+      "value": "Senckenberganlage 31, 60325 Frankfurt a.M., Germany",
+      "original_value": "Senckenberganlage 31, 60325 Frankfurt a.M., Germany",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "official_program_name",
+      "value": "Master of Arts Southeast Asian Studies",
+      "original_value": "Master of Arts Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": null,
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "department_website",
+      "value": "www.soaw.uni-frankfurt.de",
+      "original_value": "www.soaw.uni-frankfurt.de",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

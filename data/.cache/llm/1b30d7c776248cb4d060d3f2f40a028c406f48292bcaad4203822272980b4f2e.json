@@ -1,0 +1,178 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "program",
+      "field": "program_name",
+      "value": "Master in Management Science",
+      "original_value": "Master in Management Science",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Recht für Wirtschaftswissenschaften",
+      "original_value": "Recht für Wirtschaftswissenschaften (OREC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Recht für Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Microeconomics",
+      "original_value": "Fundamentals of Microeconomics (FMIC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Fundamentals of Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Corporate Finance and Valuations",
+      "original_value": "Corporate Finance and Valuations (CFVA)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Corporate Finance and Valuations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Game Theory",
+      "original_value": "Spieltheorie / Game Theory (WPME_SPTH)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Game Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

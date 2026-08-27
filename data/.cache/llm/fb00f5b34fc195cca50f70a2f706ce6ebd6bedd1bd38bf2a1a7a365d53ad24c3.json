@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Written examination",
+      "original_value": "Abschlussklausur (90 min.) zu Kurs 5.2",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "5.2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit (ca. 15 Seiten) zu Kurs 5.2",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "5.2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

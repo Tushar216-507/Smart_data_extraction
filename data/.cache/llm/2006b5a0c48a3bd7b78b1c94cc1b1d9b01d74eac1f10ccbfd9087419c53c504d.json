@@ -1,0 +1,140 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "description",
+      "value": "A Joint Examination Committee is established for Bachelor's and Master's degree programs responsible for the organization of examinations, reporting data to the faculty council, and making recommendations for examination regulations.",
+      "original_value": "Der Fachbereichsrat bildet für die von ihm verantworteten Bachelor- und Masterstudiengänge einen Gemeinsamen Prüfungsausschuss, dem die Organisation der Bachelor- und Masterprüfungen obliegt und der die durch diese Ordnung zugewiesenen Aufgaben erledigt.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "description",
+      "value": "The Joint Examination Committee includes five representatives from the faculty and two students; one student from a Bachelor's program and another from a Master's program.",
+      "original_value": "Dem Gemeinsamen Prüfungsausschuss gehören fünf Vertreterinnen und Vertreter der Professorenschaft sowie zwei Studierende und zwei wissenschaftliche Mitarbeiterinnen oder Mitarbeiter des Fachbereichs Neuere Philologien an.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "description",
+      "value": "The student members of the Joint Examination Committee serve for one year, while other members serve for two years, and re-election is permitted.",
+      "original_value": "Die Amtszeit der Studierenden beträgt ein Jahr, die der anderen Mitglieder zwei Jahre. Wiederwahl ist zulässig.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "description",
+      "value": "The Joint Examination Committee meets at least once per semester, and a meeting can be called upon request of two members.",
+      "original_value": "In der Regel soll in jedem Semester mindestens eine Sitzung des Gemeinsamen Prüfungsausschusses stattfinden. Eine Sitzung ist einzuberufen, wenn dies mindestens zwei Mitglieder des Prüfungsausschusses fordern.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "description",
+      "value": "Decisions by the Joint Examination Committee must be documented, and members have the right to attend oral examinations.",
+      "original_value": "Die Beschlüsse des Prüfungsausschusses sind zu protokollieren. Die Mitglieder des Gemeinsamen Prüfungsausschusses haben das Recht, als Zuhörerinnen und Zuhörer an den mündlichen Prüfungen teilzunehmen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "description",
+      "value": "The Joint Examination Committee may delegate individual tasks to the chairperson, who makes decisions in cooperation with module coordination.",
+      "original_value": "Der Gemeinsame Prüfungsausschuss kann einzelne Aufgaben der oder dem Vorsitzenden zur alleinigen Durchführung und Entscheidung übertragen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

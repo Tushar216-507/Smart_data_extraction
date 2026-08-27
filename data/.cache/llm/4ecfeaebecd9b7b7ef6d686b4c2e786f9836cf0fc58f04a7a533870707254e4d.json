@@ -1,0 +1,238 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "assessment_repeat_conditions",
+      "value": "Passed examinations cannot be repeated.",
+      "original_value": "Bestandene Prüfungen können nicht wiederholt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "mandatory_exam_repeat_conditions",
+      "value": "All failed compulsory module examinations must be repeated. In cumulative module examinations, only the failed module examination needs to be repeated.",
+      "original_value": "Alle nicht bestandenen Pflichtmodulprüfungen müssen wiederholt werden. Bei kumulativen Modulteilprüfungen ist nur die nicht bestandene Modulteilprüfung zu wiederholen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "exam_repeat_limit",
+      "value": "Failed module examinations and module partial examinations can be repeated a maximum of two times.",
+      "original_value": "Nicht bestandene Modulprüfungen und Modulteilprüfungen können höchstens zweimal wiederholt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "master_thesis_repeat_conditions",
+      "value": "A failed master's thesis can be repeated once. A different topic will be assigned. The same topic can only be returned in the context of a repeat examination if the student did not use this option when completing the first master's thesis.",
+      "original_value": "Eine nicht bestandene Masterarbeit, kann einmal wiederholt werden. Es wird ein anderes Thema ausgegeben. Eine Rückgabe des Themas der Masterarbeit ist im Rahmen einer Wiederholungsprüfung nur zulässig, wenn die oder der Studierende bei der Anfertigung der ersten Masterarbeit von dieser Möglichkeit keinen Gebrauch gemacht hat.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "failed_exam_count_recognition",
+      "value": "Attempts of the same or a comparable module examination from another degree program at the University or another German university are to be counted towards the permissible number of repeat examinations.",
+      "original_value": "Fehlversuche derselben oder einer vergleichbaren Modulprüfung eines anderen Studiengangs der Goethe-Universität oder einer anderen deutschen Hochschule sind auf die zulässige Zahl der Wiederholungsprüfungen anzurechnen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "oral_exam_option",
+      "value": "For the repetition of failed written examination performances, the examination committee may set an oral examination.",
+      "original_value": "Für die Wiederholung von nicht bestandenen schriftlichen Prüfungsleistungen, mit Ausnahme der Masterarbeit, kann der Prüfungsausschuss eine mündliche Prüfung ansetzen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "repeat_exam_timing",
+      "value": "The first repeat examination should be offered at the end of the corresponding semester, but at the latest by the beginning of the following semester. The second repeat examination should be offered at the next possible examination date after the failed repeat examination.",
+      "original_value": "Die erste Wiederholungsprüfung soll am Ende des entsprechenden Semesters, spätestens jedoch zu Beginn des folgenden Semesters angeboten werden. Die zweite Wiederholungsprüfung soll zum nächstmöglichen Prüfungstermin jeweils nach der nicht bestandenen Wiederholungsprüfung angeboten werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "recommendation_for_repeat",
+      "value": "It is recommended that students take the repeat examination at the next possible regular date.",
+      "original_value": "Es wird empfohlen, dass die Studierenden zum nächstmöglichen regulären Termin die Wiederholung antreten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "exam_order_conditions",
+      "value": "Repeat examinations must generally be taken according to the regulations under which the first examination was taken.",
+      "original_value": "Wiederholungsprüfungen sind grundsätzlich nach der Ordnung abzulegen, nach der die Erstprüfung abgelegt wurde.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

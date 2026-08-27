@@ -1,0 +1,18 @@
+# Bachelor meets Business
+
+What field should I focus my studies on? Which industries should I consider for traineeship? What are my career perspectives once I have graduated as a Bachelor? Should I decide to enrol in a Master’s program afterwards?
+
+Answers to these and other questions are provided in the "Bachelor meets Business" series, which is organized every winter semester. In these events, students have the opportunity to make contacts with renowned companies. The events start with a short presentation by the company invited, in which its representatives introduce themselves with a description of their own career. Afterwards, the students can ask questions with regard to possible internships and post-studies perspectives. Presentations are mostly held in German language.
+
+Please make a note of the following "Bachelor meets Business" dates:
+
+- 03.11.2026 [EY Deutschland](https://www.ey.com/en_gl/careers)
+- 10.11.2026 [Deloitte](https://www.deloitte.com/global/en.html?icid=site_selector_global)
+- 17.11.2026 [Deutsche Börse AG](https://careers.deutsche-boerse.com/)
+- 01.12.2026 [Commerzbank AG](https://www.commerzbank.de/group/careers/students/)
+
+Registration starts from October [here](https://www.uni-frankfurt.de/94951099/Kursanmeldung).
+
+The events take place every Tuesday from 6:15pm to approx. 8:15pm at Campus Westend Casino 1.801 (Renate von Metzler-Saal) in German. A get-together with snacks and drinks will be provided after presentation. Participation is free of charge.
+
+All students and interested parties are welcome to participate. The event is generally conducted in German. For further information, please send us an [e-mail](mailto:feyerabend@wiwi.uni-frankfurt.de).

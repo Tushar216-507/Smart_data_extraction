@@ -1,0 +1,3 @@
+## International student 2026 – 2027 expenses
+
+As an international student, you'll pay ASU for tuition and fees. Housing and meals, books and supplies, transportation, and personal expenses will vary depending on your spending choices and should be budgeted into your college expenses. To get an estimate of what your costs might look like after financial aid, check out ASU's [Net Price Calculator](https://app.meadowfi.com/asu).

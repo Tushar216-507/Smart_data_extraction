@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "cancellation",
+      "field": "cancellation_impact",
+      "value": "Any housing assignment and financial aid (including scholarships) will also be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibilities",
+      "field": "possible_responsibilities",
+      "value": "Nonrefundable housing charges",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibilities",
+      "field": "possible_responsibilities",
+      "value": "Other university charges you may already owe",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "other",
+      "subcategory": "account_check",
+      "field": "account_access",
+      "value": "To check your account or pay any charges, sign in to My ASU.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "other",
+      "subcategory": "account_access_url",
+      "field": "url",
+      "value": "https://my.asu.edu/",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    }
+  ]
+}

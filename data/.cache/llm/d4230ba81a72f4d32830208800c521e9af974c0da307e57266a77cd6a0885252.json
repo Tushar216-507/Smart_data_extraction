@@ -1,0 +1,140 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Bachelor of Arts in Political Science",
+      "original_value": "B.A. Politikwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "B.A. Politikwissenschaft",
+        "name": "Bachelor of Arts in Political Science"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master of Arts in Political Science",
+      "original_value": "M.A. Politikwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.A. Politikwissenschaft",
+        "name": "Master of Arts in Political Science"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Bachelor of Arts in Sociology",
+      "original_value": "B.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "B.A. Soziologie",
+        "name": "Bachelor of Arts in Sociology"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Economics",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B.A. Politikwissenschaft",
+        "name": "Bachelor of Arts in Political Science"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5,
+        "registration": "Kumulativ möglich - Anmeldung via QIS"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Economics",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.A. Politikwissenschaft",
+        "name": "Master of Arts in Political Science"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5,
+        "registration": "Kumulativ möglich - Anmeldung via QIS"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Economics",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B.A. Soziologie",
+        "name": "Bachelor of Arts in Sociology"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5,
+        "registration": "Kumulativ möglich - Anmeldung via QIS"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

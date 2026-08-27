@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0248",
+  "program_name": "Economics and Policy Analysis - MSc",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0248\\final",
+  "input_fact_count": 26,
+  "unique_fact_count": 26,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 26,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 26,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 17,
+    "admission": 0,
+    "curriculum": 2,
+    "career": 2,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0248\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0248\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0248\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0248\\final\\fees_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0248\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0248\\final\\build_summary.json"
+  }
+}

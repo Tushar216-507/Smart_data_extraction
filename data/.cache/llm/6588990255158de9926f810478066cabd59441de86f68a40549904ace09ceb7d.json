@@ -1,0 +1,152 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "German Courses",
+      "original_value": "German Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "description",
+      "value": "Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch",
+      "original_value": "Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Praxisfelder der Humangeographie",
+      "original_value": "Praxisfelder der Humangeographie (HGeo-NF2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF2",
+        "name": "Praxisfelder der Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 8,
+      "original_value": "8",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF2",
+        "name": "Praxisfelder der Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Kumulativ möglich - Anmeldung via QIS",
+      "original_value": "Kumulativ möglich - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF2",
+        "name": "Praxisfelder der Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

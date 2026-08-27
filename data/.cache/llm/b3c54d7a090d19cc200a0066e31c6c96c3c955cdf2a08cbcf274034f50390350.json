@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "transfer_information",
+      "field": "accreditation_requirements",
+      "value": "ASU only accepts credit from regionally accredited institutions.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "transfer_information",
+      "field": "institution_compatibility",
+      "value": "Build a Transfer Map may not be compatible with institutions that have highly unique or experimental methods of instruction, including great books-, thesis-, or seminar-based curricula.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "transfer_inquiries",
+      "field": "contact_method",
+      "value": "Contact your transfer institution or ASU Admissions Services.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "transfer_inquiries",
+      "field": "contact_email",
+      "value": "transfer@example.com",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "technical_requirements",
+      "field": "recommended_browser",
+      "value": "desktop computer with Firefox or Chrome web browser.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    }
+  ]
+}

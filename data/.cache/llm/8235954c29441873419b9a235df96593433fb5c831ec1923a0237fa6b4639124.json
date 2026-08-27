@@ -1,0 +1,48 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Excellent",
+      "original_value": "mit Auszeichnung bestanden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "description",
+      "value": "The overall assessment 'mit Auszeichnung bestanden' is granted if all exam performances are rated 1.0.",
+      "original_value": "Das Gesamturteil „mit Auszeichnung bestanden“ wird erteilt, wenn sämtliche Prüfungsleistungen mit 1,0 bewertet sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+    "version": 1,
+    "created_at": "2026-08-26T15:00:41.777990+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 0,
+        "completed": 6,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/home/studium/studiengaenge/american-studies-bachelor-hauptfach/bewerbung-zulassung",
+            "title": "Bewerbung und Zulassung arrow right icon",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": true,
+            "page_folder": "0001",
+            "downloaded_at": "2026-08-26T15:00:43.177412+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/home/studium/studiengaenge/american-studies-bachelor-hauptfach/beratung-kontakt",
+            "title": "Beratung und Kontakt arrow right icon",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": false,
+            "page_folder": "0006",
+            "downloaded_at": "2026-08-26T15:00:46.738155+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/studium/bewerbung-einschreibung/weitere-studienmoeglichkeiten/zweitstudium",
+            "title": "Bewerbung für ein Zweitstudium",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 2,
+            "expand": true,
+            "status": "completed",
+            "parent": "0001",
+            "children_discovered": false,
+            "page_folder": "0002",
+            "downloaded_at": "2026-08-26T15:00:43.641236+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.goethe-campus.uni-frankfurt.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces",
+            "title": "Bewerbungsportal für die Online-Bewerbung",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 2,
+            "expand": true,
+            "status": "completed",
+            "parent": "0001",
+            "children_discovered": false,
+            "page_folder": "0003",
+            "downloaded_at": "2026-08-26T15:00:44.964457+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/studium/bewerbung-einschreibung/grundstaendige-studiengaenge/bewerbung-einschreibung",
+            "title": "Informationen zu Bewerbungsverfahren",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 2,
+            "expand": true,
+            "status": "completed",
+            "parent": "0001",
+            "children_discovered": false,
+            "page_folder": "0004",
+            "downloaded_at": "2026-08-26T15:00:45.750006+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/studium/bewerbung-einschreibung/grundstaendige-studiengaenge/termine-fristen",
+            "title": "Termine und Fristen",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 2,
+            "expand": true,
+            "status": "completed",
+            "parent": "0001",
+            "children_discovered": false,
+            "page_folder": "0005",
+            "downloaded_at": "2026-08-26T15:00:46.099704+05:30"
+        }
+    ]
+}

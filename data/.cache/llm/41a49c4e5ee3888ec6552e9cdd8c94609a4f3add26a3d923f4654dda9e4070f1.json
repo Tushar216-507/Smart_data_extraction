@@ -1,0 +1,182 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M.A. Soziologie",
+        "name": "M.A. Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Optional module",
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M.A. Wirtschaftssoziologie",
+        "name": "M.A. Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Optional module",
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Focus on Microeconomics",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Mikroökonomik",
+        "name": "Focus on Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Optional module",
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Focus on Macroeconomics",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Makroökonomik",
+        "name": "Focus on Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Optional module",
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Political Theory",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M.A. Politische Theorie",
+        "name": "M.A. Political Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Optional module",
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "History of Theory",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Theoriegeschichte",
+        "name": "History of Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Optional module",
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

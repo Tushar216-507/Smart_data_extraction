@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0043",
+  "program_name": "Electives LM002 Bachelor of Arts",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0043\\final",
+  "input_fact_count": 36,
+  "unique_fact_count": 36,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 36,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 36,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 3,
+    "admission": 0,
+    "curriculum": 10,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 17,
+    "contacts": 4,
+    "student_life": 0,
+    "research": 0,
+    "housing": 1,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 1
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0043\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0043\\final\\curriculum_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0043\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0043\\final\\contacts_data.json",
+    "housing": "data\\ireland\\ul\\programs\\0043\\final\\housing_data.json",
+    "other": "data\\ireland\\ul\\programs\\0043\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0043\\final\\build_summary.json"
+  }
+}

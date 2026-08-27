@@ -1,0 +1,1 @@
+## Termination of enrolment and fee implications

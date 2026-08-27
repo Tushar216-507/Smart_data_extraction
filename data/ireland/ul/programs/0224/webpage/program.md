@@ -1,0 +1,11 @@
+Product Design & Technology is delivered in a design studio environment, cultivating a culture of creativity, peer learning and transdisciplinary exploration. The core design modules are based on project work, and problem solving that focus on collaboration, human centred design, and sustainable design processes. Complementary modules are taught in parallel, on topics such as human factors, psychology, manufacturing, engineering, project management, and entrepreneurship.
+
+In Year 1, our students are introduced to the methods and principles of design (sketching, prototyping, design communication) through multiple design projects, along with a discourse on the role of design in society.
+
+In Year 2, our students build on their core design skills to further hone their critical design-thinking approach, and develop their design skillset through digital design visualisation, CAD, user-centred design research, and in-context design projects.
+
+In Year 3, our students continue to develop their design fluency and refinement skills while they begin to realise the potential impact their work has on community, industry and the planet. In Semester 2, students can undertake an 8-month industry placement to equip them with real-world design experience, or study abroad at one of our global academic partner institutions.
+
+In Year 4, our students will return from their industry/academic placement and work with external partners through our six-week Real World Studio project, where they will develop impactful, industry-focused solutions for a real client such as a company, community, or NGO partner. Students will then embark on their Final-year Design Project, a self-selected design project focusing on a problem or opportunity that they identify, and deliver an effective, impactful solution through demonstration of their design skills.
+
+Students’ Final-year Design Project will be showcased at Design@UL, our School’s annual public Design exhibition where friends, family, and key people from industry gather to celebrate our students’ work and achievements.

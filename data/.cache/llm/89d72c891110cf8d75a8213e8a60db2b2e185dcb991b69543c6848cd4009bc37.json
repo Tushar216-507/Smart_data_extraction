@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "start_terms",
+      "value": [
+        "Summer semester",
+        "Winter semester"
+      ],
+      "original_value": "SoSe und WiSe",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "study_plan_description",
+      "value": "The study plans attached provide guidance for a targeted design of studies, considering content connections between modules and organizational conditions of the study offerings.",
+      "original_value": "Die als Anlage ... [Angabe] angefügten Studienverlaufspläne stellen auf einen möglichen Studienbeginn im Sommersemester oder im Wintersemester ab und geben den Studierenden Hinweise für eine zielgerichtete Gestaltung ihres Studiums. Die Studienpläne berücksichtigen inhaltliche Bezüge zwischen Modulen und organisatorische Bedingungen des Studienangebots.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

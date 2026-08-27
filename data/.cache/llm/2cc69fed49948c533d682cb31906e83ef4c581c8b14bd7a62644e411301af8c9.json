@@ -1,0 +1,338 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "Successful completion of 4 modules - OFIN + OMAR + OACC/BACC + BMGT, if no minor in BWL has been studied in the Bachelor's degree - Registration via QIS",
+      "original_value": "Erfolgreiches Absolvieren von 4 Modulen - OFIN+OMAR+OACC/BACC+BMGT, sofern noch kein Nebenfach BWL im Bachelor studiert wurde - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC) oder Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftsinformatik 2",
+      "original_value": "Wirtschaftsinformatik 2 (PWIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PWIN",
+        "name": "Wirtschaftsinformatik 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PWIN",
+        "name": "Wirtschaftsinformatik 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

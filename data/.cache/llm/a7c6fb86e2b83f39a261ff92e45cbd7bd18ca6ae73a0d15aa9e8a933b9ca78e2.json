@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "competency requirements",
+      "field": "competency_requirements_us_high_school",
+      "value": {
+        "english": "four years (composition/literature based)",
+        "math": "four years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "laboratory_science": "three years total (one year each from any accepted areas)",
+        "social_science": "two years (including one year American history)",
+        "foreign_language": "two years (same language)",
+        "fine_arts": "one year"
+      },
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "competency requirements",
+      "field": "competency_requirements_international_high_school",
+      "value": {
+        "math": "four years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "laboratory_science": "three years total (one year each from any accepted areas)"
+      },
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    }
+  ]
+}

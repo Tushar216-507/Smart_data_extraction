@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 3",
+      "original_value": "SEAS 3",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 3",
+        "name": "SEAS 3"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

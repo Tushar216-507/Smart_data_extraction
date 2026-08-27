@@ -1,0 +1,114 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "diploma_supplement_intent",
+      "value": "The Diploma Supplement aims to provide sufficient data to enhance the international transparency and appropriate academic and professional recognition of qualifications.",
+      "original_value": "Das Diploma Supplement soll hinreichende Daten zur Verfügung stellen, die die internationale Transparenz und angemessene akademische und berufliche Anerkennung von Qualifikationen (Urkunden, Zeugnisse, Abschlüsse, Zertifikate, etc.) verbessern.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "diploma_supplement_description",
+      "value": "The Diploma Supplement describes the characteristics, level, context, content, and nature of the degree successfully completed by the person named in the original certificate.",
+      "original_value": "Das Diploma Supplement beschreibt Eigenschaften, Stufe, Zusammenhang, Inhalte sowie Art des Abschlusses des Studiums, das von der in der Originalurkunde bezeichneten Person erfolgreich abgeschlossen wurde.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "original_certificate_requirements",
+      "value": "The original certificate must be attached to this Diploma Supplement.",
+      "original_value": "Die Originalurkunde muss diesem Diploma Supplement beigefügt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "diploma_supplement_guidelines",
+      "value": "The Diploma Supplement should be free of any value judgments, equivalence statements, or recommendations for recognition.",
+      "original_value": "Das Diploma Supplement sollte frei sein von jeglichen Werturteilen, Äquivalenzaussagen oder Empfehlungen zur Anerkennung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "diploma_supplement_sections",
+      "value": "It should contain information in all eight sections, and if no information is provided, this should be explained.",
+      "original_value": "Es sollte Angaben in allen acht Abschnitten enthalten. Wenn keine Angaben gemacht werden, sollte dies durch eine Begründung erläutert werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

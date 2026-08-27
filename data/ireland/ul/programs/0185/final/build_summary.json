@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0185",
+  "program_name": "Bachelor of Science in Psychology",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0185\\final",
+  "input_fact_count": 55,
+  "unique_fact_count": 55,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 55,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 55,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 5,
+    "admission": 0,
+    "curriculum": 10,
+    "career": 1,
+    "fees": 1,
+    "scholarships": 1,
+    "contacts": 17,
+    "student_life": 5,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 15
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0185\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0185\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0185\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0185\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0185\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0185\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0185\\final\\student_life_data.json",
+    "other": "data\\ireland\\ul\\programs\\0185\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0185\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_characteristics",
+      "value": "At least include identification as an import module, the offering cycle of the modules (e.g., annually or every semester), differentiated student workload according to attendance and self-study in hours and credits, duration of the modules, recommended prerequisites, and language of instruction.",
+      "original_value": "Kennzeichnung als Importmodul, Angebotszyklus der Module (z.B. jährlich oder jedes Semester), studentischer Arbeitsaufwand differenziert nach Präsenz- beziehungsweise Kontaktzeit und Selbststudium in Stunden und Kreditpunkten (CP), Dauer der Module, empfohlene Voraussetzungen, Unterrichts-/Prüfungssprache.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "workload_description",
+      "value": "The workload in hours is calculated based on the hours of attendance and the number of weeks of instruction, with 15 weeks considered. Additionally, at least 0.5 hours should be allocated for the preparation and follow-up of each lecture. The time spent for assessments and their preparation should be indicated in hours.",
+      "original_value": "Der Workload in Zeitstunden ergibt sich aus den SWS und der Anzahl der Lehrveranstaltungswochen, wobei hierfür 15 anzusetzen sind. Weiterhin sind für die Vor- und Nachbereitung einer Vorlesungsstunde mindestens 0,5 Stunden zuzuweisen. Der Zeitaufwand für die Leistungskontrollen (Studienleistungen, Prüfungen) und für ihre Vorbereitung sollte in Zeitstunden ausgewiesen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

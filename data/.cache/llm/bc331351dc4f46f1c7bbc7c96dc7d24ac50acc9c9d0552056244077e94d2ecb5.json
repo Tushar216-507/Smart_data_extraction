@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Johann Wolfgang Goethe University Frankfurt am Main",
+      "original_value": "Johann Wolfgang Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "document_publication_info",
+      "value": "UniReport Satzungen und Ordnungen appears irregularly and on occasions as a special edition of UniReport.",
+      "original_value": "UniReport Satzungen und Ordnungen erscheint unregelmäßig und anlassbezogen als Sonderausgabe des UniReport.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "document_effective_date",
+      "value": "20 September 2017",
+      "original_value": "20.09.2017",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

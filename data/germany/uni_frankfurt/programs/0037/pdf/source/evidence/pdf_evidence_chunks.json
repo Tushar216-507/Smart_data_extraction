@@ -1,0 +1,2693 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-26T12:27:05.819975+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Southeast Asian Studies",
+    "program_id": "0037",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+    "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+    "document_data_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 36
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 116268,
+    "cleaned_character_count": 116188,
+    "characters_removed": 80,
+    "sections_detected": 66,
+    "chunks_created": 55,
+    "total_chunk_characters": 35242,
+    "total_chunk_words": 14157,
+    "chunks_with_page_references": 54,
+    "chunks_without_page_references": 1,
+    "chunks_containing_tables": 4,
+    "repeated_noise_lines_removed": 0,
+    "section_type_counts": {
+      "admission": 1,
+      "assessment": 27,
+      "curriculum": 14,
+      "identity_overview": 7,
+      "regulations": 5,
+      "student_support": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\germany\\uni_frankfurt\\programs\\0037\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "## Document overview\n\n<!-- PageHeader=\"10. September 2015\" -->\n\nUniReport\n\n<figure>\n</figure>\n\nGoethe-Universität | Frankfurt am Main\n\nSatzungen und Ordnungen\n\nOrdnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwis-\nsenschaften an der Johann Wolfgang Goethe-Universität Frankfurt am Main mit\ndem Abschluss „Master of Arts“ (M.A.) vom 17. Dezember 2014\n\nGenehmigt vom Präsidium in der Sitzung am 07. Juli 2015\n\nAufgrund der §§ 20, 44 Abs. 1 Nr. 1 des Hessischen Hochschulgesetzes in der Fassung vom 14. Dezember 2009,\nzuletzt geändert durch Gesetz vom 27. Mai 2013, hat der Fachbereichsrat des Fachbereichs Sprach- und Kultur-\nwissenschaften der Johann Wolfgang Goethe-Universität Frankfurt am Main am 17. Dezember 2014 die folgende\nOrdnung für die Masterstudiengänge beschlossen. Diese Ordnung hat das Präsidium der Johann Wolfgang Goe-\nthe-Universität gemäß § 37 Abs. 5 Hessisches Hochschulgesetz am 07. Juli 2015 genehmigt. Sie wird hiermit\nbekannt gemacht.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 302,
+        "word_count": 133,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "2cdcae1225b6934ec8f8dfaec00f53d622d4b19f36efc0989e275ccede95a2d4",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Inhaltsverzeichnis:",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1,
+          2
+        ],
+        "page_start": 1,
+        "page_end": 2
+      },
+      "content": "# Inhaltsverzeichnis:\n\nAbschnitt I: Allgemeines\n5\n\n§ 1 Geltungsbereich der Ordnung (RO: § 1)\n\n5\n\n§ 2 Zweck der Masterprüfung (RO: § 2)\n\n5\n\n§ 3 Akademischer Grad (RO: § 3)\n\n5\n\n§ 4 Regelstudienzeit (RO: § 4)\n\n5\n\n§ 5 Auslandsstudium (RO: § 5)\n6\n\nAbschnitt II: Ziele des Studiengangs; Studienbeginn und Zugangsvoraussetzungen\n\nzum Studium\n\n6\n\n§ 6 Ziele des Studiengangs (RO: § 6)\n\n6\n\n§ 7 Studienbeginn (RO: § 7)\n6\n\n§ 8 Voraussetzungen für die Zulassung zum Masterstudiengang (RO: § 9)\n\n6\n\nAbschnitt III: Studienstruktur und -organisation\n\n8\n\n§ 9 Studienaufbau; Modularisierung (RO: § 11)\n8\n\n§ 10 Modulverwendung (RO: § 12)\n\n9\n\n§ 11 Praxismodule (RO: § 13)\n\n9\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"1\" -->\n<!-- PageBreak -->\n\n§ 12 Modulbeschreibungen/Modulhandbuch (RO: § 14)\n\n9\n\n§ 13 Umfang des Studiums und der Module; Kreditpunkte (CP) (RO: § 15)\n\n10\n\n§ 14 Lehr- und Lernformen; Zugang zu Modulen (RO: § 16)\n\n10\n\n§ 15 Studiennachweise (Leistungs- und Teilnahmenachweise) (RO: § 17)\n\n11\n\n§ 16 Studienverlaufsplan; Informationen (RO: § 18)\n\n13\n\n§ 17 Studienberatung; Orientierungsveranstaltung (RO: § 19)\n\n13\n\n§ 18 Akademische Leitung und Modulbeauftragte (RO: § 20)\n\n13\n\nAbschnitt IV: Prüfungsorganisation\n\n14\n\n§ 19 Prüfungsausschuss; Prüfungsamt (RO: § 21)\n\n14\n\n§ 20 Aufgaben des Prüfungsausschusses (RO: § 22)\n\n15\n\n§ 21 Prüferinnen und Prüfer; Beisitzerinnen und Beisitzer (RO: § 23)\n\n16\n\nAbschnitt V: Prüfungsvoraussetzungen und -verfahren\n\n17\n\n§ 22 Erstmeldung und Zulassung zu den Masterprüfungen (RO: § 24)\n\n17\n\n§ 23 Prüfungszeitpunkt und Meldeverfahren (RO: § 25)\n\n18\n\n§ 24 Versäumnis und Rücktritt von Modulprüfungen (RO: § 26)\n\n19\n\n§ 25 Studien- und Prüfungsleistungen bei Krankheit und Behinderung; besondere Lebenslagen\n\n(RO: § 27)\n\n19\n\n§ 26 Verpflichtende Studienfachberatung; zeitliche Vorgaben für die Ablegung der Prüfungen (RO:\n\n§ 28)\n\n20\n\n§ 27 Täuschung und Ordnungsverstoß (RO: § 29)\n\n20\n\n§ 28 Mängel im Prüfungsverfahren (RO: § 30)\n\n21\n\n§ 29 Anerkennung und Anrechnung von Leistungen (RO: § 31)\n\n21\n\n§ 30 Anrechnung von außerhalb einer Hochschule erworbenen Kompetenzen (RO: § 32)\n\n22\n\nAbschnitt VI: Durchführungen der Modulprüfungen\n\n23\n\n§ 31 Modulprüfungen (RO: § 33)\n\n23\n\n§ 32 Mündliche Prüfungsleistungen (RO: § 34)\n\n24\n\n§ 33 Klausurarbeiten und sonstige schriftliche Aufsichtsarbeiten (RO: § 35)\n\n25\n\n§ 34 Hausarbeiten und sonstige schriftliche Ausarbeitungen (RO: § 36)\n\n26\n\n§ 35 Projektarbeiten und andere Prüfungsformen (RO: § 38)\n\n26\n\n§ 36 Masterarbeit (RO: §§ 40, 41)\n\n27\n\nAbschnitt VII: Bewertung der Studien- und Prüfungsleistungen; Bildung der Noten und\n\nder Gesamtnote; Nichtbestehen der Gesamtprüfung\n\n239\n\n§ 37 Bewertung/Benotung der Studien- und Prüfungsleistungen; Bildung der Noten und der\n\nGesamtnote (RO: § 42)\n\n29\n\n§ 38 Bestehen und Nichtbestehen von Prüfungen; Notenbekanntgabe (RO: § 43)\n\n30\n\n§ 39 Zusammenstellung des Prüfungsergebnisses (Transcript of Records) (RO: § 44)\n\n31\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"2\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1161,
+        "word_count": 367,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          1,
+          2
+        ]
+      },
+      "traceability": {
+        "content_sha256": "de8be43f24e1e88a8b6b20408145d418830385dcd3554b143495b725420b9a8b",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 3,
+        "title": "Abschnitt VIII: Wechsel von Wahlpflichtmodulen/ Studienschwerpunkten; Wiederholung von Prüfungen; Verlust des Prüfungsanspruchs und endgültiges",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "# Abschnitt VIII: Wechsel von Wahlpflichtmodulen/ Studienschwerpunkten; Wiederholung von Prüfungen; Verlust des Prüfungsanspruchs und endgültiges\n\n<table>\n<tr>\n<th>Nichtbestehen</th>\n<th>31</th>\n</tr>\n<tr>\n<td>§ 40 Wechsel von Wahlpflichtmodulen/Studienschwerpunkten (RO: § 45)</td>\n<td>31</td>\n</tr>\n<tr>\n<td>§ 41 Wiederholung von Prüfungen; (RO: § 46)</td>\n<td>31</td>\n</tr>\n<tr>\n<td>§ 42 Verlust des Prüfungsanspruchs und endgültiges Nichtbestehen (RO: § 47)</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Abschnitt IX: Prüfungszeugnis; Urkunde und Diploma Supplement.</td>\n<td>32</td>\n</tr>\n<tr>\n<td>§ 43 Prüfungszeugnis (RO: § 48)</td>\n<td>32</td>\n</tr>\n<tr>\n<td>§ 44 Masterurkunde (RO: § 49)</td>\n<td>33</td>\n</tr>\n<tr>\n<td>§ 45 Diploma Supplement (RO: § 50)</td>\n<td>33</td>\n</tr>\n<tr>\n<td>Abschnitt X: Ungültigkeit der Masterprüfung; Prüfungsakten; Einsprüche und Widersprüche; Prüfungsgebühren.</td>\n<td>34</td>\n</tr>\n<tr>\n<td>§ 46 Ungültigkeit von Prüfungen (RO: § 51)</td>\n<td>34</td>\n</tr>\n<tr>\n<td>§ 47 Einsicht in Prüfungsakten; Aufbewahrungsfristen (RO: § 52)</td>\n<td>34</td>\n</tr>\n<tr>\n<td>§ 48 Einsprüche und Widersprüche (RO: § 53)</td>\n<td>34</td>\n</tr>\n<tr>\n<td>§ 49 Prüfungsgebühren (RO: § 54)</td>\n<td>35</td>\n</tr>\n<tr>\n<td>Abschnitt XI: Schlussbestimmungen</td>\n<td>35</td>\n</tr>\n<tr>\n<td>§ 50 In-Kraft-Treten und Übergangsbestimmungen (RO: § 56)</td>\n<td>35</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"3\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 596,
+        "word_count": 116,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "eeb1a1f84ae44949b4e420892ffee92a49eea91474428266fc9453d159b5aed6",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 4,
+        "title": "Abkürzungsverzeichnis:",
+        "type": "regulations",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          4
+        ],
+        "page_start": 4,
+        "page_end": 4
+      },
+      "content": "## Abkürzungsverzeichnis:\n\n<table>\n<tr>\n<th>GVBl.</th>\n<th>Gesetz- und Verordnungsblatt für das Land Hessen</th>\n</tr>\n<tr>\n<td>HHG</td>\n<td>Hessisches Hochschulgesetz vom 14. Dezember 2009 (GVBl. I, S. 666), zuletzt geändert durch Art. 11 des Gesetzes vom 27. Mai 2013 (GVBl. I, S. 218)</td>\n</tr>\n<tr>\n<td>HImmaVO</td>\n<td>Hessische Immatrikulationsverordnung vom 24. Februar 2010 (GVBl. I, S. 94), zuletzt geändert am 23. April 2013 (GVBl. I, S. 192)</td>\n</tr>\n<tr>\n<td>RO</td>\n<td>Rahmenordnung für gestufte und modularisierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main vom 30. April 2014 veröffentlicht im UniReport Satzungen und Ordnungen am 11. Juli 2014.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"4\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 301,
+        "word_count": 85,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ad59e22392e03bdcd1542a1ec5662d678a370cd36affc5161a4425aa95cb01ce",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 6,
+        "title": "§ 1 Geltungsbereich der Ordnung (RO: § 1)",
+        "type": "regulations",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "## § 1 Geltungsbereich der Ordnung (RO: § 1)\n\nDiese Ordnung enthält die studiengangspezifischen Regelungen für die Masterstudiengänge des Fachbereichs\nSprach- und Kulturwissenschaften. Sie gilt in Verbindung mit der Rahmenordnung für gestufte und modulari-\nsierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main vom 30.April 2014, UniReport\nSatzungen und Ordnungen vom 11. Juli 2014 in der jeweils gültigen Fassung, nachfolgend Rahmenordnung\n(RO) genannt, und enthält im Anhang die studiengangspezifischen Regelungen für die in den Geltungsbereich\ndieser Ordnung fallenden Masterstudiengänge des Fachbereichs Sprach- und Kulturwissenschaften.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 205,
+        "word_count": 83,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "57b212cfd8c7b82bb8ead46b4a4630140b4250f17eaeb09fea64f7c4772e142c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "§ 2 Zweck der Masterprüfung (RO: § 2)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "## § 2 Zweck der Masterprüfung (RO: § 2)\n\n(1) Das Masterstudium schließt mit einem weiteren berufsqualifizierenden Abschluss ab. Die Masterprüfung\ndient der Feststellung, ob die Studierenden das Ziel des Masterstudiums erreicht haben. Die Prüfungen erfolgen\nkumulativ, das heißt die Summe der Modulprüfungen im Masterstudiengang einschließlich der Masterarbeit\nbilden zusammen die Masterprüfung.\n\n(2) Durch die kumulative Masterprüfung soll festgestellt werden, ob die oder der Studierende gründliche Fach-\nkenntnisse in den Prüfungsgebieten erworben hat und die Zusammenhänge des Faches überblickt, sowie ob sie\noder er die Fähigkeit besitzt, wissenschaftliche Methoden und Kenntnisse selbständig anzuwenden sowie auf den\nÜbergang in die Berufspraxis vorbereitet ist.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 221,
+        "word_count": 99,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "01f5eac589bc358362160b74833111645b17a54a84566bc1b17b29034e0a222d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 8,
+        "title": "§ 3 Akademischer Grad (RO: § 3)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "## § 3 Akademischer Grad (RO: § 3)\n\nNach erfolgreich absolviertem Studium und bestandener Prüfung verleiht der Fachbereich Sprach- und Kultur-\nwissenschaften den akademischen Grad eines Master of Arts, abgekürzt als M.A.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 66,
+        "word_count": 30,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3e440a0ad8f0ffa8f8ff4ecdf7fc73409f57c6d71c9150b430f2278b986cb1cd",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "chunk_index": 8,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 9,
+        "title": "§ 4 Regelstudienzeit (RO: § 4)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "## § 4 Regelstudienzeit (RO: § 4)\n\n(1) Die Regelstudienzeit für die Masterstudiengänge beträgt einschließlich aller Prüfungen und der Masterarbeit\nje nach Regelstudienzeit des entsprechenden Bachelorstudiengangs an der Johann Wolfgang Goethe-Universität\nentweder zwei oder vier Semester. In der studiengangspezifischen Anhängen ist die Regelstudienzeit für den\nMasterstudiengang festgelegt. Das Masterstudium kann in kürzerer Zeit abgeschlossen werden.\n\n(2) Sind für die Herbeiführung der Gleichwertigkeit eines Abschlusses für den Zugang zum Masterstudiengang\ngemäß § 8 Abs. 3 Auflagen von mehr als 7 Kreditpunkten - nachfolgend CP - bis höchstens 37 CP erteilt worden,\nverlängert sich die Studienzeit um ein Semester, bei Auflagen von mehr als 37 CP bis höchstens 60 CP um zwei\nSemester.\n\n(3) Bei allen in dieser Ordnung geregelten Masterstudiengängen handelt es sich um konsekutive Masterstudien-\ngänge. Bei konsekutiven Studiengängen beträgt die Gesamtregelstudienzeit im Vollzeitstudium fünf Jahre (zehn\nSemester).\n\n(4) In den zweisemestrigen Masterstudiengängen sind mindestens 60 CP, in den viersemestrigen Master-\nstudiengängen mindestens 120 CP gemäß § 13 zu erbringen.\n\n(5) Der Fachbereich Sprach- und Kulturwissenschaft und kooperierende Fachbereiche stellen auf Grundlage der\nstudiengangspezifischen Anhänge ein Lehrangebot bereit und sorgen für die Festsetzung geeigneter Prüfungs-\ntermine, so dass das Studium in der Regelstudienzeit abgeschlossen werden kann.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"5\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 473,
+        "word_count": 190,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "cb67cd416158407d49ecce6926219775c282b48b2172842b8e26f33092ade8e6",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "chunk_index": 9,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 10,
+        "title": "§ 5 Auslandsstudium (RO: § 5)",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "## § 5 Auslandsstudium (RO: § 5)\n\nEs wird empfohlen, im Verlauf des Masterstudiums für mindestens ein Semester an einer Universität im Ausland\nzu studieren bzw. einen entsprechenden Auslandsaufenthalt einzuplanen. Ob und inwiefern in einem der Mas-\nterstudiengänge ein obligatorisches Auslandsstudium vorgesehen ist, regeln die studiengangspezifischen Anhän-\nge. Dafür können die Verbindungen der Johann Wolfgang Goethe-Universität mit ausländischen Universitäten\ngenutzt werden, über die in der Studienfachberatung und im International Office Auskunft erteilt wird (s. auch\n§ 29 Abs. 5).",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 169,
+        "word_count": 76,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "df6985da3885eb458ac7554c27b1894056b34dc2310aed69519067edaed19ec1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "chunk_index": 10,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 12,
+        "title": "§ 6 Ziele des Studiengangs (RO: § 6)",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "## § 6 Ziele des Studiengangs (RO: § 6)\n\n(1) Das Masterstudium zielt auf fachliche und wissenschaftliche Spezialisierung und Vertiefung. Die Masterstudi-\nengänge sind konsekutive, forschungsorientierte Studiengänge, die zu einem für wissenschaftliche Tätigkeiten\nqualifizierenden zweiten akademischen Abschluss führen. Das Masterstudium soll Lern- und Kritikfähigkeit\nfördern und die Kompetenz vermitteln, sprach- und kulturwissenschaftliche Probleme zu erkennen und unter\nAnwendung wissenschaftlicher Methoden zu lösen. Sowohl Einzelleistungen als auch kooperatives Arbeiten\nsollen gefördert werden. Das Studium soll Studierende in die Lage versetzen, sich durch wissenschaftliches Den-\nken und Arbeiten den sich verändernden Fragestellungen und Aufgaben in den sprach- und kultur-\nwissenschaftlichen Fächern erfolgreich zu stellen und auf den Erwerb weiterführender akademischer Grade\nvorzubereiten.\n\n(2) Näheres zu den Zielen der Masterstudiengänge und zu den möglichen Berufsfeldern, für die der jeweilige\nMasterstudiengang qualifizieren soll, findet sich in den studiengangspezifischen Anhängen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 312,
+        "word_count": 132,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "7e68cc0cc1d505f36c70432581c2a6785db0709b94a037e412f5f01fc6f117a1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "chunk_index": 11,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 13,
+        "title": "§ 7 Studienbeginn (RO: § 7)",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "## § 7 Studienbeginn (RO: § 7)\n\nIm jeweiligen studiengangspezifischen Anhang ist geregelt, ob das Studium im Masterstudiengang nur zum Win-\ntersemester oder auch zum Sommersemester begonnen werden kann.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 60,
+        "word_count": 26,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "121c37fbd4e454557c143caab4d944395f52845c93eb338ac807a50a94b2e933",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "chunk_index": 12,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 14,
+        "title": "§ 8 Voraussetzungen für die Zulassung zum Masterstudiengang (RO: § 9)",
+        "type": "admission",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6,
+          7,
+          8
+        ],
+        "page_start": 6,
+        "page_end": 8
+      },
+      "content": "## § 8 Voraussetzungen für die Zulassung zum Masterstudiengang (RO: § 9)\n\n(1) Bewerbungen auf Zulassung zu den Masterstudiengängen sind beim Prüfungsausschuss oder einer von der\nPräsidentin oder dem Präsidenten der Johann Wolfgang Goethe-Universität näher bezeichneten Stelle einzurei-\nchen. Der Prüfungsausschuss regelt die Einzelheiten des Bewerbungsverfahrens und entscheidet über die Zulas-\nsung der Bewerberinnen und Bewerber. Abs. 8 Satz 2 bleibt hiervon unberührt. Sofern für den Masterstudien-\ngang eine Zulassungsbeschränkung besteht, sind die Bestimmungen der Hochschulauswahlsatzung in der aktuell\ngültigen Fassung zu beachten.\n\n(2) Allgemeine Zugangsvoraussetzung für den Masterstudiengang ist\n\na) der Nachweis eines Bachelorabschlusses nach Maßgabe des studiengangsspezifischen Anhangs,\n\nb) der Nachweis eines mindestens gleichwertigen Abschlusses einer deutschen Universität oder einer deut-\nschen Fachhochschule in verwandter Fachrichtung mit einen Regelstudienzeit von mindestens sechs\nSemestern oder\n\nc) der Nachweis eines mindestens gleichwertigen ausländischen Abschlusses in gleicher oder verwandter\nFachrichtung mit einer Regelstudienzeit von mindestens sechs Semestern.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->\n\nBei Zweifeln an der Gleichwertigkeit ausländischer Studienabschlüsse ist das International Office der Goethe-\nUniversität zu befragen.\n\n(3) In den Fällen des Abs. 2 b) und c) kann die Zulassung unter der Auflage der Erbringung zusätzlicher Studien-\nund Modulprüfungen bis zur Gleichwertigkeit mit dem jeweiligen Bachelorstudiengang an der Johann Wolfgang\nGoethe-Universität Frankfurt im Umfang von maximal 60 CP erteilt werden.\n\nDie Auflagen können nach Maßgabe des studiengangspezifischen Anhangs insgesamt oder teilweise Inhalte\nbetreffen, die nicht Teil des Bachelorstudiengangs, sondern dessen Zugangsvoraussetzungen, wie z.B. Fremd-\nsprachenkenntnisse sind.\n\nDie zusätzlichen Leistungen sind nicht Bestandteil der Masterprüfung. Im Falle von Auflagen kann sich das Stu-\ndium entsprechend verlängern. Der Prüfungsausschuss bestimmt im Zulassungsbescheid die Frist, innerhalb\nderer der Nachweis der Auflagenerfüllung erbracht sein muss. Abs. 10 Satz 2 bleibt unberührt. Werden die Auf-\nlagen nicht pflichtgemäß erfüllt, ist die mit ihr verbundene Entscheidung zu widerrufen.\n\n(4) Die besonderen Zugangsvoraussetzungen für den jeweiligen Masterstudiengang sind im studiengang-\nspezifischen Anhang geregelt.\n\n(5) Ausländische Studienbewerberinnen und Studienbewerber müssen entsprechend der „Ordnung der Johann\nWolfgang Goethe-Universität Frankfurt am Main über die Deutsche Sprachprüfung für den Hochschulzugang\n(DSH) für Studienbewerberinnen und Studienbewerber mit ausländischer Hochschulzugangsberechtigung“ in\nder jeweils gültigen Fassung einen Sprachnachweis auf der Niveaustufe B2 (DSH-2) vorlegen, soweit sie nach\nder DSH-Ordnung nicht von der Deutschen Sprachprüfung freigestellt sind.\n\n(6) Weitere Zugangsvoraussetzung ist der Nachweis von Englischkenntnissen i.d.R. auf dem Sprachniveau von\nmindestens B2 des „Gemeinsamen europäischen Referenzrahmens für Sprache des Europarates“ vom September\n2000. Näheres zum Niveau und zur Nachweisform regeln die studiengangspezifischen Anhänge.\n\n(7) Liegt bei der Bewerbung um einen Masterstudienplatz das Abschlusszeugnis für den Bachelorabschluss noch\nnicht vor, kann die Bewerbung stattdessen auf einen Immatrikulationsnachweis und auf eine besondere Be-\nscheinigung gestützt werden. Diese muss auf erbrachten Prüfungsleistungen im Umfang von mindestens 80\nProzent der für den Bachelorabschluss erforderlichen CP beruhen, eine vorläufige Durchschnittsnote enthalten,\ndie anhand dieser Prüfungsleistungen entsprechend der jeweiligen Ordnung errechnet ist, und von der für die\nZeugniserteilung zuständigen Stelle der bisherigen Hochschule ausgestellt worden sein. Dem Zulassungsverfah-\nren wird die vorläufige Durchschnittsnote zugrunde gelegt, solange nicht bis zum Abschluss des Verfahrens die\nendgültige Note nachgewiesen wird. Eine Zulassung auf Grundlage der besonderen Bescheinigung erfolgt unter\ndem Vorbehalt, dass das Bachelorzeugnis bis zum Ende des ersten Semesters vorgelegt wird. Wird dieser Nach-\nweis nicht fristgerecht erbracht, erlischt die Zulassung, und die Immatrikulation ist zurückzunehmen.\n\n(8) Über das Vorliegen der Zugangsvoraussetzungen und ggf. die vorläufige Zulassung nach Abs. 7 entscheidet\nder Prüfungsausschuss. Zur Wahrnehmung dieser Aufgabe kann er auch einen Zulassungsausschuss einsetzen.\nNäheres regelt der studiengangsspezifische Anhang. Abs. 1 Satz 4 bleibt unberührt.\n\n(9) Liegen die Zugangsvoraussetzungen vor, wird die Studienbewerberin oder der Studienbewerber von der\nPräsidentin oder dem Präsidenten der Johann Wolfgang Goethe-Universität zugelassen. Andernfalls erteilt der\nPrüfungs- oder Zulassungsausschuss einen mit Rechtsbehelfsbelehrung versehenen schriftlichen Ablehnungsbe-\nscheid. Etwaige Auflagen nach Abs. 3 können entweder im Zulassungsbescheid oder mit gesondertem Bescheid\ndes Prüfungs- oder Zulassungsausschusses erteilt werden.\n\n(10) Die Voraussetzungen für die Zulassung zur Masterprüfung sind in § 22 geregelt. Danach hat die oder der\nStudierende bei der Zulassung zur Masterprüfung insbesondere eine Erklärung darüber abzugeben, ob sie oder er\nbereits eine Zwischenprüfung, eine Diplom-Vorprüfung, eine Bachelorprüfung, eine Masterprüfung, eine Dip-\nlomprüfung oder eine staatliche Abschlussprüfung im jeweiligen Fach oder in einem vergleichbaren Studiengang\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->\n\n(Studiengang mit einer überwiegend gleichen fachlichen Ausrichtung) an der Hochschule endgültig nicht be-\nstanden hat oder ob sie oder er sich gegenwärtig im jeweiligen Fach oder in einem solchen Studiengang in einem\nnoch nicht abgeschlossenen Prüfungsverfahren an einer Hochschule in Deutschland oder im Ausland befindet.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1795,
+        "word_count": 728,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          6,
+          7,
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "f439c312e24e54428f7c8044fd7a96337692d81a62156c1f2431fb948a8fdafe",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0013",
+      "chunk_index": 13,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 16,
+        "title": "§ 9 Studienaufbau; Modularisierung (RO: § 11)",
+        "type": "curriculum",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "### § 9 Studienaufbau; Modularisierung (RO: § 11)\n\n(1) Bei allen in dieser Ordnung geregelten Masterstudiengängen handelt es sich um „Ein-Fach-Studiengänge“.\nDie Masterstudiengänge sind Vollzeitstudiengänge, die sich nach Maßgabe der jeweiligen studiengang-\nspezifischen Bestimmungen aus Modulen eines einzigen Faches oder aus Modulen mehrerer Fächer zusammen-\nsetzen.\n\n(2) Die Masterstudiengänge sind modular aufgebaut und setzen sich nach Maßgabe des jeweiligen stu-\ndiengangspezifischen Anhangs aus Modulen eines einzigen Faches oder aus Modulen mehrerer Fächer zusam-\nmen. Ein Modul ist eine inhaltlich und zeitlich abgeschlossene Lehr- und Lerneinheit. Es umfasst ein Set von\ninhaltlich aufeinander bezogenen Lehrveranstaltungen einschließlich Praxisphasen, Projektarbeiten sowie\nSelbstlernzeiten und ist einem vorab definierten Lernziel verpflichtet. Module erstrecken sich auf ein bis zwei\nSemester.\n\n(3) Die Gliederung beziehungsweise der Aufbau des Masterstudiengangs ergibt sich aus den studiengang-\nspezifischen Anhängen.\n\n(4) Module können sein: Pflichtmodule, die obligatorisch sind, darunter die Masterarbeit, oder Wahlpflicht-\nmodule, die aus einem vorgegebenen Katalog von Modulen auszuwählen sind.\n\n(5) Die Wählbarkeit von Wahlpflichtmodulen kann bei fehlender Kapazität durch Fachbereichsratsbeschluss\neingeschränkt werden. Die Einschränkung ist den Studierenden unverzüglich durch das Dekanat bekannt zu\ngeben. § 16 Abs. 2 findet Anwendung.\n\nDurch Beschluss des Fachbereichsrates können ohne Änderung dieser Ordnung auch weitere Wahlpflichtmodule\nzugelassen werden, wenn sie von ihrem Umfang und ihren Anforderungen den in dieser Ordnung geregelten\nWahlpflichtmodulen entsprechen. § 12 Abs. 4 findet entsprechende Anwendung. § 16 Abs. 2 ist zu beachten.\n\n(6) Die Lehrveranstaltungen in den Modulen werden hinsichtlich ihrer Verbindlichkeit in Pflicht- und Wahl-\npflichtveranstaltungen unterschieden. Pflichtveranstaltungen sind nach Inhalt und Form der Veranstaltung in\nder Modulbeschreibung eindeutig bestimmt. Wahlpflichtveranstaltungen sind Lehrveranstaltungen, die Studie-\nrende innerhalb eines Moduls aus einem bestimmten Fachgebiet oder zu einem bestimmten Themengebiet aus-\nzuwählen haben.\n\n(7) Sofern einzelne Lehrveranstaltungen auf Englisch oder in einer anderen Fremdsprache angeboten werden,\nist dies im Modulhandbuch geregelt.\n\n(8) Sofern Lehrveranstaltungen eines Moduls aufeinander aufbauen, sind die Studierenden nach Maßgabe der\nModulbeschreibung an die dort angegebene Reihenfolge gebunden.\n\n(9) Die Studierenden haben die Möglichkeit, sich innerhalb der Masterstudiengänge nach Maßgabe freier Plätze\nweiteren als den in dieser Ordnung vorgeschriebenen Modulen einer Prüfung oder einer Leistungskontrolle zu\nunterziehen (Zusatzmodule). Das Ergebnis der Prüfung wird bei der Bildung der Gesamtnote für die Masterprü-\nfung nicht mit einbezogen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"8\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 857,
+        "word_count": 357,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "17277559bcf124057dacd45b13ee547417c1eb48d735c4455fdda8ecaac9d92e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0014",
+      "chunk_index": 14,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 17,
+        "title": "§ 10 Modulverwendung (RO: § 12)",
+        "type": "curriculum",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          9
+        ],
+        "page_start": 9,
+        "page_end": 9
+      },
+      "content": "### § 10 Modulverwendung (RO: § 12)\n\n(1) Sofern Module der Masterstudiengänge aus dem Angebot anderer Studiengänge stammen („Importmodule“),\nunterliegen sie den Prüfungsregelungen des importierenden Fachbereichs (Herkunftsordnung). Sie sind in der\nAnlage der studiengangspezifischen Anhänge aufgeführt. Änderungen werden rechtzeitig durch den Prüfungs-\nausschuss in das Modulhandbuch (vgl. § 12) aufgenommen und auf der studiengangbezogenen Webseite (vgl. §\n16 Abs. 2) hinterlegt. Die Adressen sind in den studiengangspezifischen Anhängen nachzulesen.\n\n(2) Es gelten die Regelungen des § 12 der RO.\n\n### § 11 Praxismodule (RO: § 13)\n\nOb und in wie fern in den Masterstudiengängen interne oder externe Praxismodule vorgesehen sind regeln die\nstudiengangspezifischen Anhänge.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 773,
+        "word_count": 95,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "dbb18fd4724d4a81552209f4ed9288a2da5e844363e4d14ce03e2bce06f8068d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0015",
+      "chunk_index": 15,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "§ 12 Modulbeschreibungen/Modulhandbuch (RO: § 14)",
+        "type": "curriculum",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          9
+        ],
+        "page_start": 9,
+        "page_end": 9
+      },
+      "content": "### § 12 Modulbeschreibungen/Modulhandbuch (RO: § 14)\n\n(1) Zu jedem Pflicht- und Wahlpflichtmodul enthält der studiengangspezifische Anhang eine Modulbeschreibung\nnach Maßgabe von § 14 Abs. 2 RO. Die Modulbeschreibungen sind Bestandteil der studiengangspezifischen\nAnhänge zu dieser Ordnung.\n\n(2) Sofern die studiengangsspezifischen Anhänge dies vorsehen, werden die Modulbeschreibungen ergänzt\ndurch ein regelmäßig aktualisiertes Modulhandbuch. Dieses enthält zusätzlichen Angaben nach Maßgabe von\nAbs. 3 und dient insbesondere der Information der Studierenden.\n\n(3) In das Modulhandbuch werden nach Maßgabe von § 14 Abs. 5 RO mindestens aufgenommen:\n\n\\- (ggf.) Kennzeichnung als Importmodul\n\n\\- Angebotszyklus der Module (z.B. jährlich oder jedes Semester)\n\n\\- studentischer Arbeitsaufwand differenziert nach Präsenz- beziehungsweise Kontaktzeit und Selbststudi-\num in Stunden und Kreditpunkten (CP)\n\n\\- Dauer der Module\n\n\\- empfohlene Voraussetzungen\n\n\\- Unterrichts-/Prüfungssprache\n\n\\- Lehrveranstaltungen mit Lehr- und Lernformen sowie Semesterwochenstunden und Kreditpunkten\n\n\\- Verwendbarkeit der Module\n\n\\- Modulbeauftragte/Modulbeauftragter\n\n\\- (ggf.) zeitliche Einordnung der Module\n\n(4) Änderungen im Modulhandbuch, welche nicht die Inhalte der Modulbeschreibungen nach § 14 Abs. 2 RO\nbetreffen, sind durch Fachbereichsratsbeschluss rechtzeitig vor Beginn der Veranstaltungszeit eines Semesters\nmöglich und bis zu diesem Zeitpunkt auf der studiengangbezogenen Webseite bekanntzugeben. Sie dürfen nicht\nzu wesentlichen Änderungen des Curriculums führen. Das Hochschulrechenzentrum soll rechtzeitig vor Be-\nschlussfassung im Fachbereichsrat zu den Änderungen angehört werden.\n\n(5) Änderungen bei den Importmodulen können durch den anbietenden Fachbereich vorgenommen werden,\nohne dass eine Änderung dieser Ordnung notwendig ist. Sie werden vom Prüfungsausschuss rechtzeitig in das\nModulhandbuch aufgenommen und auf der studiengangsbezogenen Webseite bekannt gegeben.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"9\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 633,
+        "word_count": 230,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "6699f72487de723c06fa277ef298c395afa937ed72e080341388fbdd014cacea",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0016",
+      "chunk_index": 16,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 20,
+        "title": "§ 13 Umfang des Studiums und der Module; Kreditpunkte (CP) (RO: § 15)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "## § 13 Umfang des Studiums und der Module; Kreditpunkte (CP) (RO: § 15)\n\n(1) Jedem Modul werden in der Modulbeschreibung Kreditpunkte (CP) auf der Basis des European Credit Trans-\nfer Systems (ECTS) unter Berücksichtigung der Beschlüsse und Empfehlungen der Kulturministerkonferenz und\nHochschulrektorenkonferenz zugeordnet. Die CP ermöglichen die Übertragung erbrachter Leistungen auf andere\nStudiengänge der Johann Wolfgang Goethe-Universität oder einer anderen Hochschule beziehungsweise umge-\nkehrt.\n\n(2) CP sind ein quantitatives Maß für den Arbeitsaufwand (Workload), den durchschnittlich begabte Studierende\nfür den erfolgreichen Abschluss des entsprechenden Moduls für das Präsenzstudium, die Teilnahme an außer-\nuniversitären Praktika oder an Exkursionen, die Vor- und Nachbereitung des Lehrstoffs, die Vorbereitung und\nAusarbeitung eigener Beiträge und Prüfungsleistungen aufwenden müssen. Ein CP entspricht einem Arbeitsauf-\nwand von 30 Stunden. Als regelmäßige Arbeitsbelastung werden höchstens 1800 Arbeitsstunden je Studienjahr\nangesetzt. 30 CP entsprechen der durchschnittlichen Arbeitsbelastung eines Semesters.\n\n(3) Für den Masterabschluss werden - unter Einbeziehung des vorangehenden Studiums bis zum ersten berufs-\nqualifizierenden Abschluss - 300 CP benötigt.\n\n(4) Die CP werden nur für vollständig und erfolgreich absolvierte Module vergeben.\n\n(5) Für jede Studierende und jeden Studierenden des Studiengangs wird beim Prüfungsamt ein Kreditpunkte-\nkonto eingerichtet. Im Rahmen der organisatorischen Möglichkeiten kann die oder der Studierende jederzeit in\nden Stand des Kontos Einblick nehmen.\n\n(6) Der Arbeitsumfang (Workload) wird im Rahmen der Evaluierung nach § 12 Abs. 1 und Abs. 2 HHG sowie\nzur Reakkreditierung des Studiengangs überprüft und an die durch die Evaluierung ermittelte Arbeitsbelastung\nangepasst.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 523,
+        "word_count": 236,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "45ddb3df0d430ac7492cd73fd670bf2abf424ee57ee2e0125606e1bdbaad8f4b",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0017",
+      "chunk_index": 17,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 21,
+        "title": "§ 14 Lehr- und Lernformen; Zugang zu Modulen (RO: § 16)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "content": "## § 14 Lehr- und Lernformen; Zugang zu Modulen (RO: § 16)\n\n(1) Die Lehrveranstaltungen in den Masterstudiengängen werden in den folgenden Formen durchgeführt:\n\na) Vorlesung: Zusammenhängende Darstellung und Vermittlung von Grund- und Spezialwissen sowie me-\nthodische Kenntnisse durch Vortrag gegebenenfalls in Verbindung mit Demonstrationen oder Experi-\nmenten. Die Lehrenden entwickeln und vermitteln Lehrinhalte unter Einbeziehung der Studierenden;\n\nb)\nÜbung: Durcharbeitung und Vertiefung von Lehrstoffen sowie Schulung in der Fachmethodik und\nVermittlung spezieller Fertigkeiten durch Bearbeitung und Besprechung exemplarischer Aufgaben;\n\nc)\nProseminar/Seminar/Hauptseminar: Erarbeitung wissenschaftlicher Erkenntnisse oder Bearbeitung ak-\ntueller Problemstellungen mit wissenschaftlichen Methoden durch, in der Regel von Studierenden vor-\nbereitete, Beiträge, Erlernen und Einüben beziehungsweise Vertiefen von Präsentations- und Diskussi-\nonstechniken;\n\nd) Praktikum: Angeleitete Durchführung praktischer Aufgaben im experimentellen und apparativen Be-\nreich und/oder Computersimulationen; Schulung in der Anwendung wissenschaftlicher Unter-\nsuchungs- und Lösungsmethoden; Vermittlung von fachtechnischen Fertigkeiten und Einsichten in\nFunktionsabläufe;\n\ne) Projekt (Freies Studienprojekt): Erarbeitung von Konzepten sowie Realisierung von Lösungen komple-\nxer, praxisnaher Aufgabenstellungen; Vermittlung sozialer Kompetenz durch weitgehend selbstständige\nBearbeitung der Aufgabe bei gleichzeitiger fachlicher und arbeitsmethodischer Anleitung;\n\nf)\nExkursion: Vorbereitete Veranstaltung außerhalb der Hochschule;\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->\n\ng)\nBerufspraktikum: Erfahrung berufspraktischen Arbeitens durch aktive Teilnahme, in der Regel außer-\nhalb der Hochschule (Praxisstelle) unter Anleitung vor Ort und in der Regel mit fachlicher und metho-\ndischer Begleitung durch eine Lehrperson;\n\nh)\nKolloquium\n\ni)\nTutoring/Mentoring: Eine auf die Durchführung von Tutorien gemäß § 75 Abs. 1 HHG vorbereitende\nLehrveranstaltung sowie die Durchführung eines Tutoriums; Schulung in der Vermittlung fachlicher\nund didaktischer Kompetenzen sowie Erlernen von Präsentations- und Diskussionstechniken. Die Ver-\nanstaltung wird fachlich und methodisch durch Lehrpersonen angeleitet; fest.\n\nj)\nSelbststudium: Ob und welche Anforderungen an das Selbststudium gestellt werden, legen die studien-\ngangspezifischen Anhänge\n\nDie studiengangspezifischen Anhänge können hiervon abweichende Formen vorsehen.\n\n(2) Ist nach Maßgabe der Modulbeschreibung der Zugang zu den Lehrveranstaltungen eines Moduls vom erfolg-\nreichen Abschluss anderer Module oder vom Besuch der Studienfachberatung abhängig oder wird in der Modul-\nbeschreibung die Teilnahme an einer einzelnen Lehrveranstaltung von einem Teilnahme- oder Leistungsnach-\nweis für eine andere Lehrveranstaltung vorausgesetzt, wird die Teilnahmeberechtigung durch die Modulbeauf-\ntragte/den Modulbeauftragten oder nach Maßgabe des studiengangspezifischen Anhangs die Lehr-\nveranstaltungsleitung überprüft.\n\n(3) Die Modulbeschreibung kann vorsehen, dass zur Teilnahme am Modul oder an bestimmten Veranstaltungen\ndes Moduls eine verbindliche Anmeldung vorausgesetzt werden kann. Auf der studiengangspezifischen Webseite\nwird rechtzeitig bekannt gegeben, ob und in welchem Verfahren eine verbindliche Anmeldung erfolgen muss.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 964,
+        "word_count": 392,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          10,
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e36e9c329e860e49d465121dd8cda62d48602d8340fd4cc80ed7088f9f969e9e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0018",
+      "chunk_index": 18,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 22,
+        "title": "§ 15 Studiennachweise (Leistungs- und Teilnahmenachweise) (RO: § 17)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11,
+          12
+        ],
+        "page_start": 11,
+        "page_end": 12
+      },
+      "content": "## § 15 Studiennachweise (Leistungs- und Teilnahmenachweise) (RO: § 17)\n\n(1) Während des Studiums sind Studiennachweise (Leistungs- und Teilnahmenachweise) als Nachweis des ord-\nnungsgemäßen Studiums (Prüfungsvorleistungen) beziehungsweise, zusammen mit den CP für die bestandene\nModulprüfung, als Voraussetzung für die Vergabe der für das Modul zu erbringenden CP vorgesehen. Es gelten\ndie Regelungen der studiengangspezifischen Anhänge.\n\n(2) Sofern in der Modulbeschreibung die Verpflichtung zur regelmäßigen Teilnahme für Veranstaltungen geregelt\nist, wird diese durch Teilnahmenachweise oder durch Anwesenheitslisten dokumentiert. Über die Form der Do-\nkumentation entscheidet die Veranstaltungsleitung. Die Bescheinigung der regelmäßigen Teilnahme gilt nicht als\nStudienleistung im Sinne des Abs. 7.\n\n(3) Die regelmäßige Teilnahme an einer Lehrveranstaltung ist gegeben, wenn die oder der Studierende in allen\nvon der Veranstaltungsleitung im Verlauf eines Semesters angesetzten Einzelveranstaltungen anwesend war. Sie\nist noch zu bestätigen, wenn die oder der Studierende bis zu drei Einzelveranstaltungen bei 15 Terminen oder\n20% der Veranstaltungszeit bei weniger Terminen versäumt hat. Bei Überschreitung der zulässigen Fehlzeit aus\nGründen, die die oder der Studierende nicht zu vertreten hat, wie z.B. Krankheit, notwendige Betreuung eines\nim selben Haushalt lebenden Kindes oder Pflege eines nahen Angehörigen (Kinder, Eltern, Großeltern, Ehepart-\nnerin/Ehepartner, Partnerin/ Partner in einer nicht ehelichen Lebensgemeinschaft) oder Mitwirkung als ernann-\nte oder gewählte Vertreterin oder Vertreter in der akademischen oder studentischen Selbstverwaltung, entschei-\ndet die oder der Modulbeauftragte, ob und in welcher Art und Weise eine Äquivalenzleistung erforderlich und\nangemessen ist. Die Regelungen zum Nachteilsausgleich in § 25 sind zu beachten.\n\n(4) Abweichend von Abs. 3 kann in der Modulbeschreibung für die Ausstellung eines Teilnahmenachweises\nauch festgelegt sein, dass die oder der Studierende nicht nur regelmäßig im Sinne von Abs. 3, sondern zudem\nauch aktiv an der Lehrveranstaltung teilgenommen hat. Sie kann aber auch lediglich die aktive Teilnahme vo-\nraussetzen. Eine aktive Teilnahme beinhaltet je nach Festlegung durch die Veranstaltungsleitung die Erbringung\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"11\" -->\n<!-- PageBreak -->\n\nkleinerer Arbeiten, wie Protokolle, mündliche Kurzreferate und Gruppenarbeiten. Diese Arbeiten werden weder\nbenotet noch mit bestanden/nicht bestanden bewertet.\n\n(5) Die Teilnahme an einem Berufspraktikum ist von der Ausbildungsstelle zu bescheinigen. Die Bescheinigung\nmuss folgende Angaben enthalten: Bezeichnung der Einrichtung, Vorname, Nachname, Geburtsdatum, Matri-\nkelnummer der Praktikantin oder des Praktikanten sowie die Art und Dauer der Tätigkeit. Über das Praktikum\nist von der Praktikantin oder dem Praktikanten ein Praktikumsbericht zu erstellen, der mit bestanden/ nicht\nbestanden bewertet wird.\n\n(6) Ein nach der Modulbeschreibung zu einer Lehrveranstaltung geforderter Leistungsnachweis dokumentiert\ndie erfolgreiche Erbringung einer Studienleistung. Die Studienleistung ist erfolgreich erbracht, wenn sie durch\ndie Lehrende oder den Lehrenden nach Maßgabe der Modulbeschreibung mit „bestanden“ oder unter Anwen-\ndung des § 39 Abs. 3 mittels Note positiv bewertet wurde. Bei Gruppenarbeiten muss die individuelle Leistung\ndeutlich abgrenzbar und bewertbar sein. Die Noten der Studienleistungen gehen nicht in die Modulnote ein.\n\nSofern dies die oder der Lehrende voraussetzt, ist für einen Leistungsnachweis auch die regelmäßige Teilnahme\nan der Lehrveranstaltung im Sinne von Abs. 3 erforderlich.\n\n(7) Studienleistungen können insbesondere sein\n\n\\- Klausuren\n\n\\- schriftliche Ausarbeitungen beziehungsweise Hausarbeiten\n\n\\- Referate (mit oder ohne Ausarbeitung)\n\n\\- Fachgespräche\n\n\\- Arbeitsberichte, Protokolle\n\n\\- Bearbeitung von Übungsaufgaben\n\n\\- Durchführung von Versuchen\n\n\\- Tests\n\n\\- Literaturberichte oder Dokumentationen\n\n\\- Exkursionen\n\nDie Form und die Frist, in der die Studienleistung zu erbringen ist, gibt die oder der Lehrende den Studierenden\nzu Beginn der Lehrveranstaltung bekannt. Die Vergabekriterien für den Leistungsnachweis dürfen während des\nlaufenden Semesters nicht zum Nachteil der Studierenden geändert werden. Die oder der Lehrende kann den\nStudierenden die Nachbesserung einer schriftlichen Leistung unter Setzung einer Frist ermöglichen.\n\n(8) Nicht unter Aufsicht zu erbringende schriftliche Arbeiten sind von der oder dem Studierenden nach den\nRegeln guter wissenschaftlicher Praxis anzufertigen. Die oder der Studierende hat bei der Abgabe der Arbeit\nschriftlich zu versichern, dass sie oder er diese selbstständig verfasst und alle von ihr oder ihm benutzten Quellen\nund Hilfsmittel in der Arbeit angegeben hat. Ferner ist zu erklären, dass die Arbeit noch nicht - auch nicht aus-\nzugsweise - in einem anderen Studiengang als Studien- oder Prüfungsleistung verwendet wurde. § 27 gilt ent-\nsprechend. Um die Einhaltung der Regeln guter wissenschaftlicher Praxis überprüfen zu können, sind die Leh-\nrenden berechtigt, von den Studierenden die Vorlage nicht unter Aufsicht erbrachter schriftlicher Arbeiten auch\nin geeigneter elektronischer Form zu verlangen. Der Prüfungsausschuss trifft hierzu nähere Regelungen.\n\n(9) Bestandene Studienleistungen können nicht wiederholt werden. Nicht bestandene Studienleistungen sind\nunbeschränkt wiederholbar.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1598,
+        "word_count": 695,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          11,
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e751e24ab472e54052f9d77a20bcc70699a0fbf63626e96ce224e435a62526df",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0019",
+      "chunk_index": 19,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 23,
+        "title": "§ 16 Studienverlaufsplan; Informationen (RO: § 18)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13
+        ],
+        "page_start": 13,
+        "page_end": 13
+      },
+      "content": "## § 16 Studienverlaufsplan; Informationen (RO: § 18)\n\n(1) Die jeweils den studiengangspezifischen Anhängen angefügten Studienverlaufspläne stellen auf einen mögli-\nchen Studienbeginn im Winter- und/oder im Sommersemester ab und geben den Studierenden Hinweise für\neine zielgerichtete Gestaltung ihres Studiums. Die Studienpläne berücksichtigen inhaltliche Bezüge zwischen\nModulen und organisatorische Bedingungen des Studienangebots.\n\n(2) Der Fachbereich richtet für die in dieser Ordnung geregelten Masterstudiengänge jeweils eine Webseite ein,\nauf der allgemeine Informationen und Regelungen zum Studiengang in der jeweils aktuellen Form hinterlegt\nsind. Dort sind auch das Modulhandbuch, der Studienverlaufsplan und, soweit Module im- und/oder exportiert\nwerden, die Liste des aktuellen Im- und Exportangebots des Studiengangs veröffentlicht.\n\n(3) Der Fachbereich erstellt für die Masterstudiengänge auf der Basis der Modulbeschreibungen und der Studi-\nenverlaufspläne ein kommentiertes Veranstaltungsverzeichnis mit einer inhaltlichen und organisatorischen Be-\nschreibung des Lehrangebots. Dieses ist für jedes Semester zu aktualisieren und soll in der letzten Vorlesungswo-\nche des vorangegangenen Semesters erscheinen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 338,
+        "word_count": 150,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "b4bb209d5e14663637b34c3f68f3c8c567b256a0cafd1910814a5b9bc99d5851",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0020",
+      "chunk_index": 20,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 24,
+        "title": "§ 17 Studienberatung; Orientierungsveranstaltung (RO: § 19)",
+        "type": "student_support",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13
+        ],
+        "page_start": 13,
+        "page_end": 13
+      },
+      "content": "## § 17 Studienberatung; Orientierungsveranstaltung (RO: § 19)\n\n(1) Die Studierenden haben die Möglichkeit, während des gesamten Studienverlaufs die Studienfachberatung\nder an der Lehre im jeweiligen Masterstudiengang beteiligten Institute des Fachbereichs Sprach- und Kultur-\nwissenschaften aufzusuchen. Im Rahmen der Studienfachberatung erhalten die Studierenden Unterstützung ins-\nbesondere in Fragen der Studiengestaltung, der Studientechnik und der Wahl der Lehrveranstaltungen. Die\nStudienfachberatung sollte insbesondere in Anspruch genommen werden:\n\n\\- zu Beginn des ersten Semesters;\n\n\\- bei Nichtbestehen von Prüfungen und bei gescheiterten Versuchen, erforderliche Leistungsnachweise zu\nerwerben;\n\n\\- bei Schwierigkeiten in einzelnen Lehrveranstaltungen;\n\n\\- bei Studiengangs- beziehungsweise Hochschulwechsel.\n\n(2) Neben der Studienfachberatung steht den Studierenden die Zentrale Studienberatung der Johann Wolfgang\nGoethe-Universität zur Verfügung. Sie unterrichtet als allgemeine Studienberatung über Studiermöglichkeiten,\nInhalte, Aufbau und Anforderungen eines Studiums und berät bei studienbezogenen persönlichen Schwierig-\nkeiten.\n\n(3) Vor Beginn der Vorlesungszeit eines jeden Semesters, in dem Studierende ihr Studium aufnehmen können,\nkann eine Orientierungsveranstaltung stattfinden, zu der die Studienanfängerinnen und Studienanfänger durch\nAushang oder anderweitig eingeladen werden. In dieser wird über die Struktur und den Gesamtaufbau des Stu-\ndiengangs und über semesterspezifische Besonderheiten informiert. Den Studierenden wird Gelegenheit gege-\nben, insbesondere die Studienorganisation betreffende Fragen zu klären.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 459,
+        "word_count": 186,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "a448ed801e75cf47b602873bb6a17d2cc4efa834a29f3ac874a64801d330adca",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0021",
+      "chunk_index": 21,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 25,
+        "title": "§ 18 Akademische Leitung und Modulbeauftragte (RO: § 20)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13,
+          14
+        ],
+        "page_start": 13,
+        "page_end": 14
+      },
+      "content": "## § 18 Akademische Leitung und Modulbeauftragte (RO: § 20)\n\n(1) Die Aufgabe der akademischen Leitung der Studiengänge nimmt die Studiendekanin oder der Studiendekan\ndes Fachbereichs Sprach- und Kulturwissenschaften wahr, sofern sie nicht auf ihren oder seinen Vorschlag vom\nFachbereichsrat auf ein im Masterstudiengang prüfungsberechtigtes Mitglied der Professorengruppe für die Dau-\ner von 5 Jahren übertragen wird. Die akademische Leiterin oder der akademische Leiter ist beratendes Mitglied\nin der Studienkommission und hat insbesondere folgende Aufgaben:\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"13\" -->\n<!-- PageBreak -->\n\n\\- Koordination des Lehr- und Prüfungsangebots des Studiengangs im Zusammenwirken mit den Modul-\nbeauftragten, gegebenenfalls auch aus anderen Fachbereichen;\n\n\\- Erstellung und Aktualisierung von Prüferlisten;\n\n\\- Evaluation des Studiengangs und Umsetzung der gegebenenfalls daraus entwickelten qualitäts-\nsichernden Maßnahmen in Zusammenarbeit mit der Studienkommission (vgl. hierzu § 6 Evaluations-\nsatzung für Lehre und Studium);\n\n\\- ggf. Bestellung der Modulbeauftragten (Abs. 2 bleibt unberührt).\n\n(2) Für jedes Modul ernennt die akademische Leitung des Studiengangs aus dem Kreis der Lehrenden des Mo-\nduls eine Modulbeauftragte oder einen Modulbeauftragten. Für fachbereichsübergreifende Module wird die oder\nder Modulbeauftragte im Zusammenwirken mit der Studiendekanin oder dem Studiendekan der betroffenen\nFachbereiche ernannt. Die oder der Modulbeauftragte soll Professorin oder Professor oder ein auf Dauer beschäf-\ntigtes wissenschaftliches Mitglied der Lehreinheit sein. Sie oder er ist für alle, das Modul betreffenden, inhaltli-\nchen Abstimmungen und die ihr oder ihm durch diese Ordnung zugewiesenen organisatorischen Aufgaben,\ninsbesondere für die Mitwirkung bei der Organisation der Modulprüfung, zuständig. Die oder der Modulbeauf-\ntragte wird durch die akademische Leitung des Studiengangs vertreten.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 587,
+        "word_count": 237,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          13,
+          14
+        ]
+      },
+      "traceability": {
+        "content_sha256": "4352d116a3c42bc188aca41296670c7c9739b9504a48c5407588191f65ca7a32",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0022",
+      "chunk_index": 22,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 27,
+        "title": "§ 19 Prüfungsausschuss; Prüfungsamt (RO: § 21)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          14,
+          15
+        ],
+        "page_start": 14,
+        "page_end": 15
+      },
+      "content": "### § 19 Prüfungsausschuss; Prüfungsamt (RO: § 21)\n\n(1) Der Fachbereichsrat des Fachbereichs Sprach- und Kulturwissenschaften bildet für seine Bachelor- und Mas-\nterstudiengänge des Fachbereichs einen gemeinsamen Prüfungsausschuss, dessen Vorsitz der Studiendekan oder\ndie Studiendekanin innehat.\n\n(2) Dem Prüfungsausschuss gehören neben dem Studiendekan oder der Studiendekanin 10 Mitglieder an, darunter 5\nAngehörige der Gruppe der Professorinnen und Professoren des Fachbereichs, die verschiedene Fächer vertreten\nsollen, 2 Angehörige der Gruppe der wissenschaftlichen Mitarbeiterinnen und Mitarbeiter des Fachbereichs und\n3 Studierende, von denen mindestens einer oder eine in einem Bachelorstudiengang des Fachbereichs und min-\ndestens einer oder eine in einem Masterstudiengang des Fachbereichs immatrikuliert ist.\n\n(3) Die Mitglieder des Prüfungsausschusses werden nebst einer Stellvertreterin oder einem Stellvertreter auf\nVorschlag der jeweiligen Gruppen vom Fachbereichsrat gewählt. Die Amtszeit der Studierenden beträgt ein Jahr,\ndie der anderen Mitglieder zwei Jahre. Wiederwahl ist zulässig.\n\n(4) Bei Angelegenheiten, die ein Mitglied des Prüfungsausschusses betreffen, ruht dessen Mitgliedschaft in Bezug\nauf diese Angelegenheit und wird durch die Stellvertreterin oder den Stellvertreter wahrgenommen. Dies gilt\nnicht bei rein organisatorischen Sachverhalten.\n\n(5) Die Studiendekanin oder der Studiendekan hat den Vorsitz des Prüfungsausschusses inne.\n\n(6) Die stellvertretende Vorsitzende oder der stellvertretende Vorsitzende wird aus der Mitte der dem Prüfungs-\nausschuss angehörenden Professorinnen und Professoren oder ihrer Stellvertreterinnen und Stellvertreter ge-\nwählt. Die beziehungsweise der Vorsitzende führt die Geschäfte des Prüfungsausschusses. Sie oder er lädt zu den\nSitzungen des Prüfungsausschusses ein und führt bei allen Beratungen und Beschlussfassungen den Vorsitz. In\nder Regel soll in jedem Semester mindestens eine Sitzung des Prüfungsausschusses stattfinden. Eine Sitzung ist\neinzuberufen, wenn dies mindestens zwei Mitglieder des Prüfungsausschusses fordern.\n\n(7) Der Prüfungsausschuss tagt nicht öffentlich. Er ist beschlussfähig, wenn mindestens die Hälfte der Mitglieder,\ndarunter die oder der Vorsitzende oder die oder der stellvertretende Vorsitzende, anwesend sind und die Stim-\nmenmehrheit der Professorinnen und Professoren gewährleistet ist. Für Beschlüsse ist die Zustimmung der\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"14\" -->\n<!-- PageBreak -->\n\nMehrheit der Anwesenden erforderlich. Bei Stimmengleichheit entscheidet die Stimme der oder des Vorsitzen-\nden. Die Beschlüsse des Prüfungsausschusses sind zu protokollieren. Im Übrigen richtet sich das Verfahren nach\nder Geschäftsordnung für die Gremien der Johann Wolfgang Goethe-Universität.\n\n(8) Der Prüfungsausschuss kann einzelne Aufgaben seiner oder seinem Vorsitzenden zur alleinigen Durchfüh-\nrung und Entscheidung übertragen. Gegen deren oder dessen Entscheidungen haben die Mitglieder des Prü-\nfungsausschusses und der betroffene Prüfling ein Einspruchsrecht. Die oder der Vorsitzende des Prüfungs-\nausschusses kann die Durchführung von Aufgaben an das Prüfungsamt oder an die akademische Leitung des\nBachelor- oder Masterstudiengangs (§ 18) delegieren. Das Prüfungsamt ist Geschäftsstelle des Prüfungsaus-\nschusses. Es führt die laufenden Geschäfte nach Weisung des Prüfungsausschusses und deren beziehungsweise\ndessen Vorsitzenden.\n\n(9) Die Mitglieder des Prüfungsausschusses und deren Stellvertreterinnen und Stellvertreter unterliegen der\nAmtsverschwiegenheit. Sofern sie nicht im öffentlichen Dienst stehen, sind sie durch die Vorsitzende oder den\nVorsitzenden zur Verschwiegenheit zu verpflichten; sie bestätigen diese Verpflichtung durch ihre Unterschrift, die\nzu den Akten genommen wird.\n\n(10) Die Mitglieder des Prüfungsausschusses haben das Recht, an den mündlichen Prüfungen als Zuhörerinnen\nund Zuhörer teilzunehmen.\n\n(11) Der Prüfungsausschuss kann Anordnungen, Festsetzungen von Terminen und andere Entscheidungen un-\nter Beachtung datenschutzrechtlicher Bestimmungen mit rechtlich verbindlicher Wirkung durch Aushang am\nPrüfungsamt oder andere nach § 41 Hessisches Verwaltungsverfahrensgesetz geeignete Maßnahmen bekannt\nmachen.\n\n(12) Belastende Entscheidungen des Prüfungsausschusses oder der oder des Vorsitzenden des Prüfungsausschus-\nses sind der oder dem Studierenden unverzüglich schriftlich mitzuteilen, zu begründen und mit einer Rechtsbe-\nhelfsbelehrung zu versehen. Der oder dem Studierenden ist vor der Entscheidung Gelegenheit zur Stellungnah-\nme zu geben.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1384,
+        "word_count": 564,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          14,
+          15
+        ]
+      },
+      "traceability": {
+        "content_sha256": "5be25cad53414303a278b37aae9d3e375c30e124b6125d1c856fedde43f1f188",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0023",
+      "chunk_index": 23,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 28,
+        "title": "§ 20 Aufgaben des Prüfungsausschusses (RO: § 22)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          15,
+          16
+        ],
+        "page_start": 15,
+        "page_end": 16
+      },
+      "content": "### § 20 Aufgaben des Prüfungsausschusses (RO: § 22)\n\n(1) Der Prüfungsausschuss und das für die in dieser Ordnung geregelten Masterstudiengänge zuständige Prü-\nfungsamt sind für die Organisation und die ordnungsgemäße Durchführung der Prüfungen in diesen Studien-\ngängen verantwortlich. Der Prüfungsausschuss achtet darauf, dass die Bestimmungen dieser Ordnung einge-\nhalten werden und entscheidet bei Zweifeln zu Auslegungsfragen dieser Ordnung. Er entscheidet in allen Prü-\nfungsangelegenheiten, die nicht durch Ordnung oder Satzung einem anderen Organ oder Gremium oder der\noder dem Vorsitzenden des Prüfungsausschusses übertragen sind.\n\n(2) Dem Prüfungsausschuss obliegen in der Regel insbesondere folgende Aufgaben:\n\n\\- Entscheidung über die Erfüllung der Voraussetzungen für den Zugang zum Masterstudiengang ein-\nschließlich der Erteilung von Auflagen zur Nachholung von Studien- und Prüfungsleistungen aus dem\nBachelorstudiengang und der Entscheidung über die vorläufige Zulassung;\n\n\\- Festlegung der Prüfungstermine, -zeiträume und Melde- und Rücktrittsfristen für die Prüfungen und\nderen Bekanntgabe;\n\n\\- Bestellung der Prüferinnen und Prüfer;\n\n\\- Entscheidungen zur Prüfungszulassung;\n\n\\- die Entscheidung über die Anrechnungen gemäß §§ 29, 30 sowie die Erteilung von Auflagen zu nach-\nzuholenden Studien- und Prüfungsleistungen im Rahmen von Anrechnungen;\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"15\" -->\n<!-- PageBreak -->\n\n\\- die Berechnung und Bekanntgabe der Noten von Prüfungen sowie der Gesamtnote für den Masterab-\nschluss;\n\n\\- die Entscheidungen zur Masterarbeit;\n\n\\- die Entscheidungen zum Bestehen und Nichtbestehen;\n\n\\- die Entscheidungen über einen Nachteilsausgleich und der Verlängerung von Prüfungs- beziehungswei-\nse Bearbeitungsfristen;\n\n\\- die Entscheidungen über Verstöße gegen Prüfungsvorschriften;\n\n\\- die Entscheidungen zur Ungültigkeit des Masterabschlusses;\n\n\\- Entscheidungen über Einsprüche sowie über Widersprüche der Studierenden zu in Prüfungsverfahren\ngetroffenen Entscheidungen, soweit diesen stattgegeben werden soll;\n\n\\- eine regelmäßige Berichterstattung in der Studienkommission über die Entwicklung der Prüfungs- und\nStudienzeiten einschließlich der Bearbeitungszeiten für die Masterarbeit sowie über die Nachfrage der\nStudierenden nach den verschiedenen Wahlpflichtmodulen;\n\n\\- das Offenlegen der Verteilung der Fach- und Gesamtnoten;\n\n\\- Anregungen zur Reform dieser Ordnung.\n\n(3) Zum Zwecke der Überprüfung der Einhaltung guter wissenschaftlicher Praxis ist der Prüfungsausschuss be-\nrechtigt, wissenschaftliche Arbeiten auch mit Hilfe geeigneter elektronischer Mittel auf Täuschungen und Täu-\nschungsversuche zu überprüfen. Hierzu kann er verlangen, dass ihm innerhalb einer angemessenen Frist die\nPrüfungsarbeiten in elektronischer Fassung vorgelegt werden. Kommt die Verfasserin oder der Verfasser dieser\nAufforderung nicht nach, kann die Arbeit als nicht bestanden gewertet werden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 857,
+        "word_count": 345,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          15,
+          16
+        ]
+      },
+      "traceability": {
+        "content_sha256": "113bbd6c73a2621ba01571bbda51383abdc8cc61e926674d4deb1bccb91dd129",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0024",
+      "chunk_index": 24,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 29,
+        "title": "§ 21 Prüferinnen und Prüfer; Beisitzerinnen und Beisitzer (RO: § 23)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          16,
+          17
+        ],
+        "page_start": 16,
+        "page_end": 17
+      },
+      "content": "### § 21 Prüferinnen und Prüfer; Beisitzerinnen und Beisitzer (RO: § 23)\n\n(1) Zur Abnahme von Hochschulprüfungen sind Mitglieder der Professorengruppe, wissenschaftliche Mitar-\nbeiterinnen und Mitarbeiter, die mit der selbstständigen Wahrnehmung von Lehraufgaben beauftragt worden\nsind, sowie Lehrbeauftragte und Lehrkräfte für besondere Aufgaben befugt (§ 18 Abs. 2 HHG). Privatdozentin-\nnen und Privatdozenten, außerplanmäßige Professorinnen und außerplanmäßige Professoren, Honorar-\nprofessorinnen und Honorarprofessoren, die jeweils in den Prüfungsfächern eine Lehrtätigkeit ausüben, sowie\nentpflichtete und in den Ruhestand getretene Professorinnen und Professoren, können durch den Prüfungsaus-\nschuss mit ihrer Einwilligung als Prüferinnen oder Prüfer bestellt werden.\n\nDer Prüfungsausschuss kann im Einzelfall eine nicht der Johann Wolfgang Goethe-Universität angehörende,\naber nach Satz 1 prüfungsberechtigte Person als Zweitgutachterin oder Zweitgutachter für die Masterarbeit be-\nstellen. Prüfungsleistungen dürfen nur von Personen bewertet werden, die selbst mindestens die durch die Prü-\nfung festzustellende oder eine gleichwertige Qualifikation besitzen.\n\n(2) In der Regel wird die zu einem Modul gehörende Prüfung von den in dem Modul Lehrenden ohne besonde-\nre Bestellung durch den Prüfungsausschuss abgenommen. Sollte eine Lehrende oder ein Lehrender aus zwin-\ngenden Gründen Prüfungen nicht abnehmen können, kann der Prüfungsausschuss eine andere Prüferin oder\neinen anderen Prüfer benennen.\n\n(3) Schriftliche Prüfungsleistungen, die nicht mehr wiederholt werden können, sind von zwei Prüfenden zu\nbewerten. § 36 Abs. 17 bleibt unberührt. Mündliche Prüfungen sind von mehreren Prüfenden oder von einer\noder einem Prüfenden in Gegenwart einer oder eines Beisitzenden abzunehmen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"16\" -->\n<!-- PageBreak -->\n\n(4) Zur Beisitzerin oder zum Beisitzer bei mündlichen Prüfungen darf nur ein Mitglied oder eine Angehörige\noder ein Angehöriger der Johann Wolfgang Goethe-Universität bestellt werden, das oder die oder der mindestens\nden Masterabschluss oder eine vergleichbare Prüfung abgelegt hat. Die Bestellung der Beisitzerin oder des Beisit-\nzers erfolgt durch die Vorsitzende oder den Vorsitzenden des Prüfungsausschusses. Sie oder er kann die Bestel-\nlung an die Prüferin oder den Prüfer delegieren.\n\n(5) Prüferinnen, Prüfer, Beisitzerinnen und Beisitzer unterliegen der Amtsverschwiegenheit.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 739,
+        "word_count": 308,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          16,
+          17
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ace81eeb5ddde746554eb9d1f1fb7decf768ee4e100ae15ba65c20a860e6e747",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0025",
+      "chunk_index": 25,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 31,
+        "title": "§ 22 Erstmeldung und Zulassung zu den Masterprüfungen (RO: § 24)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          17,
+          18
+        ],
+        "page_start": 17,
+        "page_end": 18
+      },
+      "content": "### § 22 Erstmeldung und Zulassung zu den Masterprüfungen (RO: § 24)\n\n(1) Spätestens mit der Meldung zur ersten Modulprüfung im Masterstudiengang hat die oder der Studierende\nein vollständig ausgefülltes Anmeldeformular für die Zulassung zur Masterprüfung im entsprechenden Master-\nstudiengang beim Prüfungsamt für den Masterstudiengang einzureichen. Sofern nicht bereits mit dem Zulas-\nsungsantrag zum Studium erfolgt, sind der Meldung zur Prüfung insbesondere beizufügen:\n\na) eine Erklärung darüber, ob die Studierende oder der Studierende bereits eine Bachelorprüfung, eine\nMasterprüfung, eine Magisterprüfung, eine Diplomprüfung oder eine staatliche Abschlussprüfung im\njeweiligen Fach oder in einem vergleichbaren Studiengang (Studiengang mit einer überwiegend glei-\nchen fachlichen Ausrichtung) an einer Hochschule endgültig nicht bestanden hat oder ob sie oder er\nsich gegenwärtig in dem jeweiligen Fach oder einem vergleichbaren Studiengang in einem nicht abge-\nschlossenen Prüfungsverfahren an einer Hochschule in Deutschland oder im Ausland befindet;\n\nb) eine Erklärung darüber, ob und gegebenenfalls wie oft die oder der Studierende bereits Modulprüfun-\ngen in dem Masterstudiengang oder in denselben Modulen eines anderen Studiengangs an einer Hoch-\nschule in Deutschland oder im Ausland nicht bestanden hat;\n\nc) gegebenenfalls Nachweise über bereits erbrachte Studien- oder Prüfungsleistungen, die in den Studien-\ngang eingebracht werden sollen;\n\nd) gegebenenfalls Nachweise über Fremdsprachenkenntnisse oder andere fachspezifische Zulassungs-\nvoraussetzungen. Näheres regeln die studiengangspezifischen Anhänge.\n\ne) gegebenenfalls Nachweis über die Zahlung der nach § 49 zu entrichtenden Prüfungsgebühr.\n\n(2) Der Prüfungsausschuss kann in Ausnahmefällen, insbesondere in Fällen des Studienortwechsels, des Fach-\nrichtungswechsels oder der Wiederaufnahme des Studiums auf Antrag von der Immatrikulationspflicht bei der\nMeldung zu einzelnen Modulprüfungen befreien.\n\n(3) Über die Zulassung entscheidet die oder der Vorsitzende des Prüfungsausschusses, in Zweifelsfällen der Prü-\nfungsausschuss, gegebenenfalls nach Anhörung einer Fachvertreterin oder eines Fachvertreters. Die Zulassung\nwird abgelehnt, wenn\n\na) die Unterlagen unvollständig sind oder\n\nb) die in Abs. 1 d) genannten Zulassungsvoraussetzungen nicht erfüllt sind oder\n\nc) die oder der Studierende den Prüfungsanspruch für ein Modul nach Abs. 1 b) oder für den jeweiligen\nStudiengang endgültig verloren hat oder eine der in Abs. 1 a) genannten Prüfungen endgültig nicht be-\nstanden hat.\n\n(4) Über Ausnahmen von Abs. 1 und Abs. 3 in besonderen Fällen entscheidet auf Antrag der oder des Studie-\nrenden der Prüfungsausschuss.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"17\" -->\n<!-- PageBreak -->\n\n(5) Eine Ablehnung der Zulassung wird dem oder der Studierenden von der oder dem Vorsitzenden des Prü-\nfungsausschusses schriftlich mitgeteilt. Sie ist mit einer Begründung und einer Rechtsbehelfsbelehrung zu verse-\nhen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 921,
+        "word_count": 385,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          17,
+          18
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ad67973f2165c015bb3943c7a0f3cd0361ede2ffada10332e66a87430e953f22",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0026",
+      "chunk_index": 26,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 32,
+        "title": "§ 23 Prüfungszeitpunkt und Meldeverfahren (RO: § 25)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          18
+        ],
+        "page_start": 18,
+        "page_end": 18
+      },
+      "content": "### § 23 Prüfungszeitpunkt und Meldeverfahren (RO: § 25)\n\n(1) Modulprüfungen werden im zeitlichen und sachlichen Zusammenhang mit den entsprechenden Modulen\nabgelegt. Modulprüfungen für Pflichtmodule und jährlich angesetzte Wahlpflichtmodule sind in der Regel min-\ndestens zweimal pro Jahr anzubieten.\n\n(2) Die modulabschließenden mündlichen Prüfungen und Klausurarbeiten sollen innerhalb von durch den Prü-\nfungsausschuss festzulegenden Prüfungszeiträumen durchgeführt werden. Die Prüfungszeiträume sind in der\nRegel die ersten beiden und die letzten beiden Wochen der vorlesungsfreien Zeit.\n\n(3) Die exakten Prüfungstermine für die Modulprüfungen werden durch den Prüfungsausschuss im Einverneh-\nmen mit den Prüfenden festgelegt. Das Prüfungsamt gibt den Studierenden in einem Prüfungsplan möglichst\nfrühzeitig, spätestens aber vier Wochen vor den Prüfungsterminen, Zeit und Ort der Prüfungen sowie die Namen\nder beteiligten Prüferinnen und Prüfer durch Aushang oder andere geeignete Maßnahmen bekannt. Muss aus\nzwingenden Gründen von diesem Prüfungsplan abgewichen werden, so ist die Neufestsetzung des Termins nur\nmit Genehmigung der oder des Vorsitzenden des Prüfungsausschusses möglich.\n\nTermine für die mündlichen Modulabschlussprüfungen oder für Prüfungen, die im zeitlichen Zusammenhang\nmit einzelnen Lehrveranstaltungen oder im Verlauf von Lehrveranstaltungen abgenommen werden (Modulteil-\nprüfungen), werden von der oder dem Prüfenden gegebenenfalls nach Absprache mit den Studierenden festge-\nlegt.\n\n(4) Zu jeder Modulprüfung hat sich die oder der Studierende innerhalb der Meldefrist schriftlich oder nach Fest-\nlegung durch das Prüfungsamt elektronisch anzumelden. Die Meldung zu den Modulprüfungen erfolgt beim\nPrüfungsamt. Über eine Nachfrist für die Meldung zu einer Modulprüfung in begründeten Ausnahmefällen ent-\nscheidet die oder der Vorsitzende des Prüfungsausschusses auf Antrag der oder des Studierenden. § 24 Abs. 2\nSatz 3 gilt entsprechend.\n\n(5) Die oder der Studierende kann die Modulprüfung oder Modulteilprüfung nur ablegen, sofern sie oder er an\nder Johann Wolfgang Goethe-Universität immatrikuliert ist. § 22 Abs. 2 bleibt unberührt. Für die Anmeldung\n[bzw. Ablegung] der betreffenden Modulprüfung bzw. Modulteilprüfung muss die oder der Studierende zur\nMasterprüfung zugelassen sein und sie oder er darf die entsprechende Modulprüfung oder Modulteilprüfung\nnoch nicht endgültig nicht bestanden haben. Weiterhin muss sie oder er die nach Maßgabe der Modulbe-\nschreibung für das Modul erforderlichen Leistungs- und Teilnahmenachweise erbracht haben. Hängt die Zulas-\nsung zu einer Modulprüfung oder Modulteilprüfung vom Vorliegen von Studienleistungen ab und sind diese\nnoch nicht vollständig erbracht worden, ist eine Zulassung zu einer Modulprüfung oder Modulteilprüfung unter\nVorbehalt möglich. Das Modul ist erst dann bestanden, wenn sämtliche Studienleistungen sowie Modulprüfun-\ngen oder alle Modulteilprüfungen des Moduls bestanden sind. Über Ausnahmen entscheidet der Prüfungsaus-\nschuss. Beurlaubte Studierende können keine Prüfungen ablegen oder Leistungsnachweise erwerben. Zulässig ist\naber die Wiederholung nicht bestandener Prüfungen während der Beurlaubung. Studierende sind auch berech-\ntigt, Studien- und Prüfungsleistungen während einer Beurlaubung zu erbringen, wenn die Beurlaubung wegen\nMutterschutz oder wegen der Inanspruchnahme von Elternzeit oder wegen der Pflege von nach ärztlichem\nZeugnis pflegebedürftigen Angehörigen oder wegen der Erfüllung einer Dienstpflicht nach Art. 12 a des Grund-\ngesetzes oder wegen der Mitwirkung als ernannte oder gewählte Vertreterin oder ernannter oder gewählter\nVertreter in der akademischen Selbstverwaltung erfolgt ist.\n\n(6) Die oder der Studierende kann bis eine Woche vor dem Prüfungstermin die Prüfungsanmeldung ohne Anga-\nbe von Gründen zurückziehen. Bei einem späteren Rücktritt gilt § 24 Abs. 1.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"18\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1170,
+        "word_count": 510,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          18
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d9f2ee78dadb6db540f88bed96bbd7a8a99b8921228b776117a0721d1ee638e9",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0027",
+      "chunk_index": 27,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 33,
+        "title": "§ 24 Versäumnis und Rücktritt von Modulprüfungen (RO: § 26)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          19
+        ],
+        "page_start": 19,
+        "page_end": 19
+      },
+      "content": "## § 24 Versäumnis und Rücktritt von Modulprüfungen (RO: § 26)\n\n(1) Eine Modulprüfungsleistung gilt als „nicht ausreichend“ (5,0) gemäß § 37 Abs. 3, wenn die oder der Studie-\nrende einen für sie oder ihn verbindlichen Prüfungstermin ohne wichtigen Grund versäumt oder vor Beendi-\ngung der Prüfung die Teilnahme abgebrochen hat. Dasselbe gilt, wenn sie oder er eine schriftliche Modulprü-\nfungsleistung nicht innerhalb der vorgegebenen Bearbeitungszeit erbracht oder als Modulprüfungsleistung in\neiner schriftlichen Aufsichtsarbeit ein leeres Blatt abgegeben oder in einer mündlichen Prüfung geschwiegen hat.\n\n(2) Der für das Versäumnis oder den Abbruch der Prüfung geltend gemachte Grund muss der Vorsitzenden oder\ndem Vorsitzenden des Prüfungsausschusses unverzüglich nach Bekanntwerden des Grundes schriftlich angezeigt\nund glaubhaft gemacht werden. Eine während der Erbringung einer Prüfungsleistung eintretende Prüfungsun-\nfähigkeit muss unverzüglich bei der Prüferin oder dem Prüfer oder der Prüfungsaufsicht geltend gemacht wer-\nden. Die Verpflichtung zur unverzüglichen Anzeige und Glaubhaftmachung der Gründe gegenüber dem Prü-\nfungsausschuss bleibt hiervon unberührt. Im Krankheitsfall ist unverzüglich, jedenfalls innerhalb von drei Werk-\ntagen, ein ärztliches Attest und eine Bescheinigung über die Prüfungsunfähigkeit durch den Haus-/Facharzt\nvorzulegen, aus der hervorgeht, für welche Art von Prüfung (schriftliche Prüfung, mündliche Prüfung, länger\nandauernde Prüfungen, andere Prüfungsformen) aus medizinischer Sicht die Prüfungsunfähigkeit für den betref-\nfenden Prüfungstermin besteht. Der oder die Vorsitzende des Prüfungsausschusses entscheidet auf der Grundlage\ndes in Anlage 11 der Rahmenordnung beigefügten Formulars über die Prüfungsunfähigkeit. Bei begründeten\nZweifeln ist zusätzlich ein amtsärztliches Attest vorzulegen.\n\n(3) Die Krankheit eines von der oder dem Studierenden zu versorgenden Kindes, das das 14. Lebensjahr noch\nnicht vollendet hat, oder eines pflegebedürftigen nahen Angehörigen (Kinder, Eltern, Großeltern, Ehe- oder\nLebenspartner) steht eigener Krankheit gleich. Als wichtiger Grund gilt auch die Inanspruchnahme von Mutter-\nschutz.\n\n(4) Über die Anerkennung des Säumnis- oder Rücktrittsgrundes entscheidet die oder der Vorsitzende des Prü-\nfungsausschusses. Bei Anerkennung des Grundes wird unverzüglich ein neuer Termin bestimmt.\n\n(5) Bei anerkanntem Rücktritt oder Versäumnis bleiben die Prüfungsergebnisse in bereits abgelegten Teilen des\nModuls bestehen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 779,
+        "word_count": 323,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          19
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d0fc1cb8dc8fe5cf9373846684549d5d8f6973bb342a0eff838987a192c61350",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0028",
+      "chunk_index": 28,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 34,
+        "title": "§ 25 Studien- und Prüfungsleistungen bei Krankheit und Behinderung; besondere Lebenslagen (RO: § 27)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          19,
+          20
+        ],
+        "page_start": 19,
+        "page_end": 20
+      },
+      "content": "## § 25 Studien- und Prüfungsleistungen bei Krankheit und Behinderung; besondere Lebenslagen (RO: § 27)\n\n(1) In Veranstaltungen und Prüfungen ist Rücksicht zu nehmen auf Art und Schwere einer Behinderung oder\neiner chronischen Erkrankung der oder des Studierenden, oder auf Belastungen durch Schwangerschaft oder die\nErziehung von Kindern oder die Betreuung von pflegebedürftigen nahen Angehörigen.\n\n(2) Die Art und Schwere der Belastung ist durch die oder den Studierenden rechtzeitig gegenüber der oder dem\nVorsitzenden des Prüfungsausschusses durch Vorlage geeigneter Unterlagen, bei Krankheit durch Vorlage eines\närztlichen Attestes, nachzuweisen. In Zweifelsfällen kann auch ein amtsärztliches Attest verlangt werden.\n\n(3) Macht die oder der Studierende glaubhaft, dass sie oder er wegen einer Behinderung, einer chronischen Er-\nkrankung, der Betreuung einer oder eines pflegebedürftigen nahen Angehörigen, einer Schwangerschaft oder\nder Erziehung eines Kindes, welches das 14. Lebensjahr noch nicht vollendet hat, nicht in der Lage ist, die Prü-\nfungs- oder Studienleistung ganz oder teilweise in der vorgesehenen Form abzulegen, so ist dieser Nachteil durch\nentsprechende Maßnahmen, wie zum Beispiel eine Verlängerung der Bearbeitungszeit oder eine andere Gestal-\ntung des Prüfungsverfahrens auszugleichen. Die Inanspruchnahme der gesetzlichen Mutterschutzfristen und der\nFristen der Elternzeit ist bei entsprechendem Nachweis zu ermöglichen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"19\" -->\n<!-- PageBreak -->\n\n(4) Entscheidungen über den Nachteilsausgleich bei der Erbringung von Prüfungsleistungen trifft die oder der\nVorsitzende des Prüfungsausschusses, bei Studienleistungen die oder der Vorsitzende des Prüfungsausschusses im\nEinvernehmen mit der oder dem Veranstaltungsverantwortlichen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 525,
+        "word_count": 223,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          19,
+          20
+        ]
+      },
+      "traceability": {
+        "content_sha256": "55cc18e7c2e37bf6eb1d3632c1b92b4cad18ee849493f5d6088d8d60f4c3adff",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0029",
+      "chunk_index": 29,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 35,
+        "title": "§ 26 Verpflichtende Studienfachberatung; zeitliche Vorgaben für die Ablegung der Prüfungen (RO: § 28)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          20
+        ],
+        "page_start": 20,
+        "page_end": 20
+      },
+      "content": "## § 26 Verpflichtende Studienfachberatung; zeitliche Vorgaben für die Ablegung der Prüfungen (RO: § 28)\n\nDie studiengangspezifischen Anhänge regeln, ob eine verpflichtende Studienfachberatung oder zeitliche Vorga-\nben für die Ablegung der Prüfungen gemäß § 28 RO vorgesehen sind.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 95,
+        "word_count": 34,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          20
+        ]
+      },
+      "traceability": {
+        "content_sha256": "685200be6fb13ce85259b1ef2501d8e0acdd80fab3d65379fafb3d1fa90c0985",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0030",
+      "chunk_index": 30,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 36,
+        "title": "§ 27 Täuschung und Ordnungsverstoß (RO: § 29)",
+        "type": "regulations",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          20,
+          21
+        ],
+        "page_start": 20,
+        "page_end": 21
+      },
+      "content": "## § 27 Täuschung und Ordnungsverstoß (RO: § 29)\n\n(1) Versucht die oder der Studierende das Ergebnis ihrer oder seiner Prüfungs- oder Studienleistung durch Täu-\nschung oder durch Benutzung nicht zugelassener Hilfsmittel zu beeinflussen, gilt die Prüfungs- oder Studien-\nleistung mit „nicht ausreichend“ (5,0) gewertet. Der Versuch einer Täuschung liegt insbesondere auch dann vor,\nwenn die oder der Studierende nicht zugelassene Hilfsmittel in den Prüfungsraum mitführt oder eine falsche\nErklärung nach §§ 15 Abs. 8, 31 Abs. 8, 34 Abs. 5, 36 Abs. 16 abgegeben hat oder wenn sie oder er ein und\ndieselbe Arbeit (oder Teile davon) mehr als einmal als Prüfungs- oder Studienleistung eingereicht hat.\n\n(2) Eine Studierende oder ein Studierender, die oder der aktiv an einem Täuschungsversuch mitwirkt, kann von\nder jeweiligen Prüferin oder dem jeweiligen Prüfer beziehungsweise von der Aufsichtsführenden oder dem Auf-\nsichtsführenden von der Fortsetzung der jeweiligen Prüfung ausgeschlossen werden; in diesem Fall gilt die be-\ntreffende Prüfungs- oder Studienleistung als mit „nicht ausreichend“ (5,0) gewertet.\n\n(3) Beim Vorliegen einer besonders schweren Täuschung, insbesondere bei wiederholter Täuschung oder einer\nTäuschung unter Beifügung einer schriftlichen Erklärung der oder des Studierenden über die selbstständige An-\nfertigung der Arbeit ohne unerlaubte Hilfsmittel, kann der Prüfungsausschuss den Ausschluss von der Wieder-\nholung der Prüfung und der Erbringung weiterer Studienleistungen beschließen, so dass der Prüfungsanspruch\nim jeweiligen Masterstudiengang erlischt. Die Schwere der Täuschung ist anhand der von der oder dem Studie-\nrenden aufgewandten Täuschungsenergie (z.B .: durch organisiertes Zusammenwirken oder Verwendung tech-\nnischer Hilfsmittel wie Funkgeräte und Mobiltelefone) und der durch die Täuschung verursachten Beeinträchti-\ngung der Chancengleichheit zu werten.\n\n(4) Eine Studierende oder ein Studierender, die oder der den ordnungsgemäßen Ablauf der Prüfung stört, kann\nvon der jeweiligen Prüferin oder dem jeweiligen Prüfer oder von der oder dem Aufsichtsführenden in der Regel\nnach einer Abmahnung von der Fortsetzung der Prüfungsleistung ausgeschlossen werden; in diesem Fall gilt die\nbetreffende Prüfungsleistung als mit „nicht ausreichend“ (5,0) gewertet. Abs. 3 Satz 1 findet entsprechende An-\nwendung.\n\n(5) Hat eine Studierende oder ein Studierender durch schuldhaftes Verhalten die Teilnahme an einer Prüfung zu\nUnrecht herbeigeführt, kann der Prüfungsausschuss entscheiden, dass die betreffende Prüfungsleistung als nicht\nbestanden („nicht ausreichend“ (5,0)) gilt.\n\n(6) Die oder der Studierende kann innerhalb einer Frist von vier Wochen schriftlich verlangen, dass Entschei-\ndungen nach Absätzen 1 bis 5 vom Prüfungsausschuss überprüft werden.\n\n(7) Belastende Entscheidungen des Prüfungsausschusses sind der oder dem Studierenden unverzüglich schrift-\nlich mitzuteilen, zu begründen und mit einer Rechtsbehelfsbelehrung zu versehen.\n\n(8) Für Hausarbeiten, schriftliche Referate und die Masterarbeit gelten die studiengangspezifisch festgelegten\nZitierregeln für das Anfertigen wissenschaftlicher Arbeiten. Bei Nichtbeachtung ist ein Täuschungsversuch zu\nprüfen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"20\" -->\n<!-- PageBreak -->\n\n(9) Um einen Verdacht wissenschaftlichen Fehlverhaltens überprüfen zu können, kann der Prüfungsausschuss\nbeschließen, dass nicht unter Aufsicht zu erbringende schriftliche Prüfungs- und/oder Studienleistungen auch in\nelektronischer Form eingereicht werden müssen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1100,
+        "word_count": 462,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          20,
+          21
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3c9988347101bcd69e0b7fe4fcb4e13e5b08721265ada1154b7b8d8f9b17747a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0031",
+      "chunk_index": 31,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 37,
+        "title": "§ 28 Mängel im Prüfungsverfahren (RO: § 30)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          21
+        ],
+        "page_start": 21,
+        "page_end": 21
+      },
+      "content": "## § 28 Mängel im Prüfungsverfahren (RO: § 30)\n\n(1) Erweist sich, dass das Verfahren einer mündlichen oder einer schriftlichen Prüfungsleistung mit Mängeln\nbehaftet war, die das Prüfungsergebnis beeinflusst haben, wird auf Antrag einer oder eines Studierenden oder\nvon Amts wegen durch den Prüfungsausschuss angeordnet, dass von einer oder einem bestimmten Studierenden\ndie Prüfungsleistung wiederholt wird. Die Mängel müssen bei einer schriftlichen Prüfungsleistung noch während\nder Prüfungssituation gegenüber der Aufsicht und bei mündlichen Prüfungen unverzüglich nach der Prüfung bei\nder beziehungsweise dem Vorsitzenden des Prüfungsausschusses beziehungsweise bei der Prüferin beziehungs-\nweise dem Prüfer gerügt werden. Hält die oder der Studierende bei einer schriftlichen Prüfungsleistung die von\nder Aufsicht getroffenen Abhilfemaßnahmen nicht für ausreichend, muss sie oder er die Rüge unverzüglich nach\nder Prüfung bei der beziehungsweise dem Vorsitzenden des Prüfungsausschusses geltend machen.\n\n(2) Sechs Monate nach Abschluss der Prüfungsleistung dürfen von Amts wegen Anordnungen nach Abs. 1 nicht\nmehr getroffen werden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 351,
+        "word_count": 148,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          21
+        ]
+      },
+      "traceability": {
+        "content_sha256": "bc2483fe4b94a94ddba4e91dcdb93a8dcaf3fa9834fe6a04edabdf9c6b816671",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0032",
+      "chunk_index": 32,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 38,
+        "title": "§ 29 Anerkennung und Anrechnung von Leistungen (RO: § 31)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          21,
+          22
+        ],
+        "page_start": 21,
+        "page_end": 22
+      },
+      "content": "## § 29 Anerkennung und Anrechnung von Leistungen (RO: § 31)\n\n(1) Studienzeiten, Studienleistungen und Prüfungsleistungen werden ohne Gleichwertigkeitsprüfung ange-\nrechnet, wenn sie an einer Hochschule in Deutschland in dem gleichen Studiengang erbracht wurden, der Stu-\ndiengang akkreditiert ist und bei den Modulen hinsichtlich der erreichten Qualifikationsziele keine wesentlichen\nUnterschiede bestehen. Kann der Prüfungsausschuss einen wesentlichen Unterschied nicht nachweisen, sind die\nStudienzeiten, Studienleistungen und Prüfungsleistungen anzurechnen.\n\n(2) Studienzeiten, Studienleistungen und Prüfungsleistungen aus anderen Studiengängen werden angerechnet,\nsofern keine wesentlichen Unterschiede hinsichtlich der erworbenen Kompetenzen bestehen. Bei dieser An-\nrechnung ist kein schematischer Vergleich, sondern eine Gesamtbetrachtung und Gesamtbewertung von Inhalt,\nUmfang und Anforderungen der Studien- und Prüfungsleistungen unter besonderer Berücksichtigung der er-\nreichten Qualifikationsziele vorzunehmen. Die Beweislast für die fehlende Gleichwertigkeit trägt der Prüfungs-\nausschuss. Abs. 1 Satz 2 gilt entsprechend.\n\n(3) Abs. 2 findet entsprechende Anwendung für die Anerkennung von Studienzeiten, Studienleistungen und\nPrüfungsleistungen in staatlich anerkannten Fernstudien, an anderen Bildungseinrichtungen, insbesondere an\nstaatlichen oder staatlich anerkannten Berufsakademien, für multimedial gestützte Studien- und Prüfungsleis-\ntungen sowie für von Schülerinnen und Schülern auf der Grundlage von § 54 Abs. 5 HHG erbrachte Studien-\nund Prüfungsleistungen.\n\n(4) Für die Anrechnung von Leistungen, die an ausländischen Hochschulen erbracht wurden, gilt Abs. 2 eben-\nfalls entsprechend. Bei der Anrechnung sind die von der Kultusministerkonferenz und der Hochschulrektoren-\nkonferenz gebilligten Äquivalenzvereinbarungen sowie Absprachen im Rahmen von Hochschulpartnerschafts-\nverträgen zu beachten. Soweit Äquivalenzvereinbarungen nicht vorliegen, entscheidet der Prüfungsausschuss.\nBei Zweifeln an der Gleichwertigkeit ist die Zentralstelle für ausländisches Bildungswesen zu hören.\n\n(5) Bei obligatorischem oder empfohlenem Auslandsstudium soll die oder der Studierende vor Beginn des Aus-\nlandsstudiums mit der oder dem Vorsitzenden des Prüfungsausschusses oder einer oder einem hierzu Beauftrag-\nten ein Gespräch über die Anerkennungsfähigkeit von Studien- und Prüfungsleistungen führen.\n\n(6) Ob einschlägige berufspraktische Tätigkeiten für Praktikumsmodule anerkannt werden können, regeln die\nModulbeschreibungen in den studiengangspezifischen Anhängen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"21\" -->\n<!-- PageBreak -->\n\n(7) Abschlussarbeiten (z.B. Masterarbeiten, Diplomarbeiten, Staatsexamensarbeiten), welche Studierende außer-\nhalb des jeweiligen Masterstudiengangs der Johann Wolfgang Goethe-Universität bereits erfolgreich erbracht\nhaben, werden nicht angerechnet. Weiterhin ist eine mehrfache Anrechnung ein- und derselben Leistung im\nselben Masterstudiengang nicht möglich.\n\n(8) Studien- und Prüfungsleistungen aus einem Bachelorstudiengang können in der Regel nicht für den Master-\nstudiengang angerechnet werden.\n\n(9) Werden Prüfungsleistungen angerechnet, sind die Noten - soweit die Notensysteme vergleichbar sind - zu\nübernehmen und in die Berechnung der Gesamtnote einzubeziehen. Bei unvergleichbaren Notensystemen wird\nder Vermerk „bestanden“ aufgenommen. Angerechnete Leistungen werden in der Regel mit Angabe der Hoch-\nschule, in der sie erworben wurden, im Abschlussdokument gekennzeichnet.\n\n(10) Die Antragstellerin oder der Antragsteller legt dem Prüfungsausschuss alle die für die Anrechnung be-\nziehungsweise Anerkennung erforderlichen Unterlagen vor, aus denen die Bewertung, die Kreditpunkte (CP)\nund die Zeitpunkte sämtlicher Prüfungsleistungen hervorgehen, denen sie oder er sich in einem anderen Studi-\nengang oder an anderen Hochschulen bisher unterzogen hat. Aus den Unterlagen muss sich auch ergeben, wel-\nche Prüfungen und Studienleistungen nicht bestanden oder wiederholt wurden. Der Prüfungsausschuss kann die\nVorlage weiterer Unterlagen, wie die rechtlich verbindlichen Modulbeschreibungen der anzuerkennenden Mo-\ndule, verlangen.\n\n(11) Fehlversuche in anderen Studiengängen oder in Studiengängen an anderen Hochschulen werden ange-\nrechnet, sofern sie im Falle ihres Bestehens angerechnet worden wären.\n\n(12) Die Anrechnung und Anerkennung von Prüfungsleistungen, die vor mehr als fünf Jahren erbracht wurden,\nkann in Einzelfällen abgelehnt werden; die Entscheidung kann mit der Erteilung von Auflagen verbunden wer-\nden. Bei Vorliegen der Voraussetzungen der Absätze 1 bis 4 i.V. mit Abs. 9 besteht ein Rechtsanspruch auf An-\nrechnung. Satz 1 und Absätze 7 und 11 bleiben unberührt.\n\n(13) Entscheidungen mit Allgemeingültigkeit zu Fragen der Anrechnung trifft der Prüfungsausschuss; die An-\nrechnung im Einzelfall erfolgt durch dessen Vorsitzende oder dessen Vorsitzenden, falls erforderlich unter Heran-\nziehung einer Fachprüferin oder eines Fachprüfers. Unter Berücksichtigung der Anrechnung setzt sie oder er ein\nFachsemester fest.\n\n(14) Soweit Anrechnungen von Studien- oder Prüfungsleistungen erfolgen, die nicht mit Kreditpunkten (CP)\nversehen sind, sind entsprechende Äquivalente zu errechnen und auf dem Studienkonto entsprechend zu ver-\nmerken.\n\n(15) Sofern Anrechnungen vorgenommen werden, können diese mit Auflagen zu nachzuholenden Studien-\noder Prüfungsleistungen verbunden werden. Auflagen und eventuelle Fristen zur Auflagenerfüllung sind der\nAntragstellerin oder dem Antragsteller schriftlich mitzuteilen. Die Mitteilung ist mit einer Rechtsbehelfs-\nbelehrung zu versehen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1710,
+        "word_count": 683,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          21,
+          22
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3984c6336e5035e1b257a0aad42c9176aac7de88d118915d6f6e6cf9ed7640b0",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0033",
+      "chunk_index": 33,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 39,
+        "title": "§ 30 Anrechnung von außerhalb einer Hochschule erworbenen Kompetenzen (RO: § 32)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          22
+        ],
+        "page_start": 22,
+        "page_end": 22
+      },
+      "content": "## § 30 Anrechnung von außerhalb einer Hochschule erworbenen Kompetenzen (RO: § 32)\n\nFür Kenntnisse und Fähigkeiten, die vor Studienbeginn oder während des Studiums außerhalb einer Hochschule\nerworben wurden und die in Niveau und Lernergebnis Modulen des Studiums äquivalent sind, können die CP\nder entsprechenden Module auf Antrag angerechnet werden. Näheres regeln die studiengangspezifischen An-\nhänge. Die Anrechnung erfolgt individuell durch den Prüfungsausschuss auf Vorschlag der oder des Modul-\nbeauftragten. Voraussetzung sind schriftliche Nachweise (z.B. Zeugnisse, Zertifikate) über den Umfang, Inhalt\nund die erbrachten Leistungen. Insgesamt dürfen nicht mehr als 50% der im Studiengang erforderlichen CP\ndurch Anrechnung ersetzt werden. Die Anrechnung der CP erfolgt ohne Note. Dies wird im Zeugnis entspre-\nchend ausgewiesen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"22\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 294,
+        "word_count": 112,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          22
+        ]
+      },
+      "traceability": {
+        "content_sha256": "4c968c3d51b90d9fc9d9b4eff6dc5de87bc45b5cfa96fb0870d28859ad0f7f05",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0034",
+      "chunk_index": 34,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 41,
+        "title": "§ 31 Modulprüfungen (RO: § 33)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          23,
+          24
+        ],
+        "page_start": 23,
+        "page_end": 24
+      },
+      "content": "## § 31 Modulprüfungen (RO: § 33)\n\n(1) Modulprüfungen werden studienbegleitend erbracht. Mit ihnen wird das jeweilige Modul abgeschlossen. Sie\nsind Prüfungsereignisse, welche begrenzt wiederholbar sind und mit Noten bewertet werden.\n\n(2) Module schließen in der Regel mit einer einzigen Modulprüfung ab, welche auch im zeitlichen Zusammen-\nhang zu einer der Lehrveranstaltungen des Moduls durchgeführt werden kann (veranstaltungsbezogene Modul-\nprüfung). In welchen Modulen ggf. kumulative Modulprüfungen (Modulteilprüfungen) vorgesehen sind, regeln\ndie studiengangspezifischen Anhänge.\n\n(3) Durch die Modulprüfung soll die oder der Studierende nachweisen, dass sie oder er die Inhalte und Metho-\nden des Moduls in den wesentlichen Zusammenhängen beherrscht und die erworbenen Kenntnisse und Fähig-\nkeiten anwenden kann. Gegenstand der Modulprüfungen sind grundsätzlich die in den Modulbeschreibungen\nfestgelegten Inhalte der Lehrveranstaltungen des jeweiligen Moduls. Bei veranstaltungsbezogenen Modulprü-\nfungen werden die übergeordneten Qualifikationsziele des Moduls mitgeprüft.\n\n(4) Die Modulbeschreibung des studiengangsspezifischen Anhangs regelt, ob und welche nicht bestandenen\nModulteilprüfungen durch das Bestehen eines anderen Modulteils ausgeglichen werden können, damit das Mo-\ndul insgesamt bestanden ist. In diesem Fall ist die Wiederholung der nicht bestandenen, aber zum Ausgleich\ngebrachten, Modulteilprüfungen unzulässig. Unzulässig ist auch der Ausgleich von nach §§ 24 oder 27 mit\n„nicht ausreichend“ (5,0) gewerteten Modulteilprüfungen.\n\n(5) Die jeweilige Prüfungsform für die Modulprüfung oder Modulteilprüfung ergibt sich aus der Modulbe-\nschreibung des studiengangspezifischen Anhangs. Schriftliche Prüfungen erfolgen in der Form von:\n\n\\- Klausuren;\n\n\\- Hausarbeiten;\n\n\\- schriftlichen Ausarbeitungen (z.B. Essays, schriftliche Referate);\n\n\\- Protokollen;\n\n\\- Thesenpapieren;\n\n\\- Berichten;\n\n\\- Portfolios;\n\n\\- Projektarbeiten;\n\n\\- Zeichnungen;\n\n\\- Beschreibungen.\n\nMündliche Prüfungen erfolgen in der Form von:\n\n\\- Einzelprüfungen;\n\n\\- Gruppenprüfungen;\n\n\\- Fachgesprächen;\n\n\\- Kolloquien.\n\nWeitere Prüfungsformen sind:\n\n\\- Seminarvorträge;\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"23\" -->\n<!-- PageBreak -->\n\n\\- Referate;\n\n\\- Präsentationen;\n\n\\- fachpraktische Prüfungen.\n\n(6) Die Form und Dauer der Modulprüfungen und gegebenenfalls der Modulteilprüfungen sind in den Modul-\nbeschreibungen des studiengangsspezifischen Anhangs geregelt. Sind in der Modulbeschreibung mehrere Varian-\nten von Prüfungsformen vorgesehen, wird die Prüfungsform des jeweiligen Prüfungstermins von der oder dem\nPrüfenden festgelegt und den Studierenden zu Beginn der Lehrveranstaltungen des Moduls, spätestens aber bei\nder Bekanntgabe des Prüfungstermins, mitgeteilt.\n\n(7) Prüfungssprache ist Deutsch.\n\nEinzelne schriftliche oder mündliche Prüfungen können im gegenseitigen Einvernehmen aller an der Prüfung\nBeteiligten in einer Fremdsprache abgenommen werden. Näheres regelt die Modulbeschreibung.\n\n(8) Ohne Aufsicht angefertigte schriftliche Arbeiten (beispielsweise Hausarbeiten) sind von der oder dem Studie-\nrenden nach den Regeln guter wissenschaftlicher Praxis anzufertigen. Die oder der Studierende hat bei der Ab-\ngabe der Arbeit schriftlich zu versichern, dass sie oder er diese selbstständig verfasst und alle von ihr oder ihm\nbenutzten Quellen und Hilfsmittel in der Arbeit angegeben hat. Ferner ist zu erklären, dass die Arbeit noch nicht\n\\- auch nicht auszugsweise - in einem anderen Studiengang als Studien- oder Prüfungsleistung verwendet wur-\nde.\n\n(9) Teilnehmerinnen und Teilnehmer an Modulprüfungen müssen sich durch Vorlage eines amtlichen Lichtbild-\nausweises ausweisen können.\n\n(10) Die Prüferin oder der Prüfer entscheidet darüber, ob und welche Hilfsmittel bei einer Modulprüfung benutzt\nwerden dürfen. Die zugelassenen Hilfsmittel sind rechtzeitig vor der Prüfung bekannt zu geben.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1174,
+        "word_count": 465,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          23,
+          24
+        ]
+      },
+      "traceability": {
+        "content_sha256": "5547ed09741116cd0ce2511356bf8c999a9b76902ef95c140263045ff537cf0d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0035",
+      "chunk_index": 35,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 42,
+        "title": "§ 32 Mündliche Prüfungsleistungen (RO: § 34)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          24
+        ],
+        "page_start": 24,
+        "page_end": 24
+      },
+      "content": "## § 32 Mündliche Prüfungsleistungen (RO: § 34)\n\n(1) Mündliche Prüfungen werden von der oder dem Prüfenden in Gegenwart einer oder eines Beisitzenden als\nEinzelprüfung abgehalten. Gruppenprüfungen mit bis zu fünf Studierenden sind möglich.\n\n(2) Die Dauer der mündlichen Prüfungen liegt zwischen mindestens 15 Minuten und höchstens 60 Minuten pro\nzu prüfender Studierender oder zu prüfendem Studierenden. Die Dauer der jeweiligen Modulprüfung ergibt sich\naus der Modulbeschreibung.\n\n(3) Die wesentlichen Gegenstände und Ergebnisse der mündlichen Prüfung sind von der oder dem Beisitzenden\nin einem Protokoll festzuhalten. Das Prüfungsprotokoll ist von der Prüferin oder dem Prüfer und der oder dem\nBeisitzenden zu unterzeichnen. Vor der Festsetzung der Note ist die oder der Beisitzende unter Ausschluss des\nPrüflings sowie der Öffentlichkeit zu hören. Das Protokoll ist dem Prüfungsamt unverzüglich zuzuleiten.\n\n(4) Das Ergebnis der mündlichen Prüfung ist der oder dem Studierenden im Anschluss an die mündliche Prü-\nfung bekannt zu geben und bei Nichtbestehen oder auf unverzüglich geäußerten Wunsch näher zu begründen;\ndie gegebene Begründung ist in das Protokoll aufzunehmen.\n\n(5) Mündliche Prüfungen sind für Studierende, die die gleiche Prüfung ablegen sollen, hochschulöffentlich. Die\noder der zu prüfende Studierende kann der Zulassung der Öffentlichkeit widersprechen. Die Zulassung der Öf-\nfentlichkeit erstreckt sich nicht auf die Beratung und Bekanntgabe des Prüfungsergebnisses an die oder den zu\nprüfenden Studierenden. Sie kann darüber hinaus aus Kapazitätsgründen begrenzt werden. Zur Überprüfung\nder in Satz 1 genannten Gründe kann die oder der Vorsitzende des Prüfungsausschusses entsprechende Nach-\nweise verlangen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"24\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 564,
+        "word_count": 239,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          24
+        ]
+      },
+      "traceability": {
+        "content_sha256": "12a1ad10415f8f9fcc5172109d53e0135b668587ebbe9a1d76df5a00799e2c5a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0036",
+      "chunk_index": 36,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 43,
+        "title": "§ 33 Klausurarbeiten und sonstige schriftliche Aufsichtsarbeiten (RO: § 35)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          25,
+          26
+        ],
+        "page_start": 25,
+        "page_end": 26
+      },
+      "content": "## § 33 Klausurarbeiten und sonstige schriftliche Aufsichtsarbeiten (RO: § 35)\n\n(1) Klausurarbeiten beinhalten die Beantwortung einer Aufgabenstellung oder mehrerer Aufgabenstellungen\noder Fragen. In einer Klausurarbeit oder sonstigen schriftlichen Aufsichtsarbeit soll die oder der Studierende\nnachweisen, dass sie oder er eigenständig in begrenzter Zeit und unter Aufsicht mit begrenzten Hilfsmitteln Auf-\ngaben lösen und auf Basis des notwendigen Grundlagenwissens beziehungsweise unter Anwendung der geläufi-\ngen Methoden des Faches ein Problem erkennen und Wege zu einer Lösung finden kann.\n\n(2) „Multiple-Choice“-Fragen dürfen bei Klausuren bis zu 25% der zu erreichenden Gesamtpunktzahl aus-\nmachen.\n\n(3) Für Klausuren, bei denen mehr als 25% der zu erreichenden Gesamtpunkte durch „Multiple-Choice“-Fragen\nzu erlangen sind, sind bei der Erstellung des Fragenkatalogs und der Bewertung der Klausuren folgende Rege-\nlungen zu beachten:\n\n\\- Die Prüfungsfragen müssen zuverlässige Prüfungsergebnisse ermöglichen. Die Prüfungsfragen müssen\nzweifelsfrei verstehbar, eindeutig beantwortbar und dazu geeignet sein, den zu überprüfenden Kennt-\nnis- und Wissensstand der Studierenden eindeutig festzustellen. Insbesondere darf neben derjenigen\nLösung, die in der Bewertung als richtig vorgegeben worden ist, nicht auch eine andere Lösung vertret-\nbar sein. Der Prüfungsausschuss hat dies durch ein geeignetes Verfahren sicherzustellen.\n\n\\- Erweisen sich die Aufgaben in diesem Sinne als ungeeignet, müssen sie von der Bewertung ausge-\nnommen werden. Entsprechen Antworten nicht dem vorgegebenen Lösungsmuster, sind aber dennoch\nvertretbar, werden sie zu Gunsten der oder des Studierenden anerkannt. Maluspunkte für falsche Ant-\nworten sind unzulässig.\n\n\\- Der Fragen- und Antwortkatalog ist von mindestens zwei Prüfungsberechtigten zu entwerfen, wobei\neine oder einer der Gruppe der Professorinnen und Professoren angehören muss.\n\n\\- Den Studierenden sind die Bestehensvoraussetzungen und das Bewertungsschema für die Klausur spä-\ntestens mit der Aufgabenstellung bekannt zu geben.\n\nEine Klausur, die mehr als 25% „Multiple-Choice“-Fragen enthält, ist bestanden, wenn die oder der Studierende\nmindestens 50% (Bestehensgrenze) der gestellten Prüfungsfragen zutreffend beantwortet hat oder wenn die\nZahl der von der Studierenden oder dem Studierenden zutreffend beantworteten Fragen die durchschnittliche\nPrüfungsleistung aller Prüfungsteilnehmerinnen und Prüfungsteilnehmer, die erstmals an der Prüfung teilge-\nnommen haben, um nicht mehr als 22% unterschreitet.\n\n(4) Erscheint die oder der Studierende verspätet zur Klausur, so kann sie oder er die versäumte Zeit nicht nach-\nholen. Der Prüfungsraum kann nur mit Erlaubnis der aufsichtführenden Person verlassen werden.\n\n(5) Die eine Klausur beaufsichtigende Person hat über jede Klausur ein Kurzprotokoll zu fertigen. In diesem sind\nalle Vorkommnisse einzutragen, welche für die Feststellung des Prüfungsergebnisses von Belang sind, insbeson-\ndere Vorkommnisse nach §§ 24 und 27.\n\n(6) Die Bearbeitungszeit für die Klausurarbeiten und für die sonstigen schriftlichen Aufsichtsarbeiten soll sich am\nUmfang des zu prüfenden Moduls beziehungsweise im Fall von Modulteilprüfungen am Umfang des zu prüfen-\nden Modulteils orientieren. Sie beträgt für Klausurarbeiten mindestens 90 Minuten und höchstens 180 Minuten,\nsoweit in den jeweiligen studiengangspezifischen Anhängen keine hiervon abweichende Regelung getroffen ist.\n\n(7) Die Klausurarbeiten und sonstigen schriftlichen Aufsichtsarbeiten werden in der Regel von einer oder einem\nPrüfenden bewertet. Sie sind im Falle des Nichtbestehens ihrer letztmaligen Wiederholung von einer zweiten\nPrüferin oder einem zweiten Prüfer zu bewerten. Die Bewertung ist schriftlich zu begründen. Bei Abweichung\nder Noten errechnet sich die Note der Klausurarbeit oder der sonstigen schriftlichen Aufsichtsarbeit aus dem\nDurchschnitt der beiden Noten. Das Bewertungsverfahren der Klausuren soll vier Wochen nicht überschreiten.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"25\" -->\n<!-- PageBreak -->\n\n(8) Multimedial gestützte Prüfungsklausuren („e-Klausuren“) sind zulässig, sofern sie dazu geeignet sind, den\nPrüfungszweck zu erfüllen. Sie dürfen ausschließlich unter Einsatz von in der Verwaltung der Universität ste-\nhender oder vom Prüfungsamt im Einvernehmen mit dem HRZ für diesen Zweck freigegebener DV-Systeme\nerbracht werden. Dabei ist die eindeutige Identifizierbarkeit der elektronischen Daten zu gewährleisten. Die\nDaten müssen unverwechselbar und dauerhaft den Prüflingen zugeordnet werden können. Die Prüfung ist in\nAnwesenheit einer fachlich sachkundigen Protokollführerin oder eines fachlich sachkundigen Protokollführers\ndurchzuführen. Über den Prüfungsverlauf ist eine Niederschrift anzufertigen, in die mindestens die Namen der\nProtokollführerin oder des Protokollführers sowie der zu Prüfenden, Beginn und Ende der Prüfung sowie even-\ntuelle besondere Vorkommnisse aufzunehmen sind. Für die Einsichtnahme in die multimedial gestützte Prüfung\nsowie in die Prüfungsergebnisse gilt § 47. Die Aufgabenstellung einschließlich einer Musterlösung, das Bewer-\ntungsschema, die einzelnen Prüfungsergebnisse sowie die Niederschrift sind gemäß den gesetzlichen Bestim-\nmungen zu archivieren.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1545,
+        "word_count": 677,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          25,
+          26
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d057780b133beea596383ef1151719c88a8a24c04064a826ffd570c022881dd1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0037",
+      "chunk_index": 37,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 44,
+        "title": "§ 34 Hausarbeiten und sonstige schriftliche Ausarbeitungen (RO: § 36)",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          26
+        ],
+        "page_start": 26,
+        "page_end": 26
+      },
+      "content": "## § 34 Hausarbeiten und sonstige schriftliche Ausarbeitungen (RO: § 36)\n\n(1) Mit einer schriftlichen Hausarbeit soll die oder der Studierende zeigen, dass sie oder er in der Lage ist, ein\nProblem aus einem Fachgebiet selbstständig mit wissenschaftlichen Methoden zu bearbeiten. Die Hausarbeit\nmuss Bestandteil eines Moduls sein.\n\n(2) Eine Hausarbeit kann als Gruppenarbeit zugelassen werden, wenn der als Prüfungsleistung zu bewertende\nBeitrag der Einzelnen aufgrund objektiver Kriterien erkennbar ist.\n\n(3) Der oder dem Studierenden kann Gelegenheit gegeben werden, ein Thema vorzuschlagen. Die Ausgabe des\nThemas erfolgt durch die oder den Prüfenden, die oder der die Bearbeitungsdauer der Hausarbeit dokumentiert.\n\n(4) Hausarbeiten sollen mindestens zwei und längstens vier Wochen Bearbeitungszeit (Vollzeit, d.h. 2 bis 5 CP\nWorkload) umfassen. Die jeweilige Bearbeitungsdauer und hiervon abweichende Regelungen sind in der Modul-\nbeschreibung festgelegt. Die Abgabefristen für die Hausarbeiten werden von den Prüfenden festgelegt und do-\nkumentiert.\n\n(5) Die Hausarbeit ist innerhalb der festgelegten Bearbeitungsfrist in einfacher Ausfertigung mit einer Erklärung\ngemäß § 31 Abs. 8 versehen, bei der Prüferin oder dem Prüfer einzureichen; im Falle des Postwegs ist der Post-\nstempel entscheidend. Die Abgabe der Hausarbeit ist durch die oder den Prüfenden aktenkundig zu machen.\n\n(6) Die Bewertung der Hausarbeit durch die Prüferin oder den Prüfer soll binnen sechs Wochen nach Einrei-\nchung erfolgt sein; die Beurteilung ist schriftlich zu begründen. Im Übrigen findet § 33 Abs. 7 entsprechende\nAnwendung.\n\n(7) Eine Studierende oder ein Studierender, deren oder dessen Hausarbeit mit „nicht ausreichend“ (5,0) bewer-\ntet worden ist, kann bei der oder dem Prüfenden die Nachbesserung der Hausarbeit beantragen. Dies gilt nicht,\nwenn die Bewertung mit „nicht ausreichend“ (5,0) auf § 24 oder auf § 27 beruht. Die oder der Prüfer setzt eine\nFrist für die Nachbesserung der Hausarbeit. Bei der Entscheidung über die nachgebesserte Hausarbeit wird ledig-\nlich darüber entschieden, ob die Hausarbeit mit der Note 4,0 oder schlechter bewertet wird. Wird die Frist für die\nAbgabe der nachgebesserten Hausarbeit nicht eingehalten, wird die Hausarbeit endgültig mit der Note „nicht\nausreichend“ (5,0) bewertet.\n\n(8) Für die sonstigen schriftlichen Ausarbeitungen gelten die Absätze 1 bis 6 entsprechend.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 699,
+        "word_count": 343,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          26
+        ]
+      },
+      "traceability": {
+        "content_sha256": "adfbdfc37a13cd179262aed6778533aa230453dab06cc7098a692dcd8fd2c93a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0038",
+      "chunk_index": 38,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 45,
+        "title": "§ 35 Projektarbeiten und andere Prüfungsformen (RO: § 38)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          26,
+          27
+        ],
+        "page_start": 26,
+        "page_end": 27
+      },
+      "content": "## § 35 Projektarbeiten und andere Prüfungsformen (RO: § 38)\n\n(1) Durch Projektarbeiten soll die Fähigkeit zur Entwicklung, Durchsetzung und Präsentation von Konzepten\nnachgewiesen werden. Hierbei sollen die Studierenden nachweisen, dass sie an einer größeren Aufgabe Ziele\ndefinieren sowie Lösungsansätze und Konzepte erarbeiten können.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"26\" -->\n<!-- PageBreak -->\n\n(2) Die Dauer der Projektarbeiten ist in der Modulbeschreibung geregelt.\n\n(3) Bei einer in Form einer Teamarbeit erbrachten Projektarbeit muss der Beitrag der oder des einzelnen Studie-\nrenden deutlich erkennbar und bewertbar sein und die Anforderungen nach Abs. 1 erfüllen.\n\n(4) Inhalt und Form anderer Prüfungsformen gemäß § 33 Abs. 5 c) RO sind in den studiengangspezifischen\nAnhängen zu regeln.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 249,
+        "word_count": 100,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          26,
+          27
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8bc264e080ae97b0dda4724a28b97691f9b1a002a7dd0fb105b8eb973e09607a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0039",
+      "chunk_index": 39,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 46,
+        "title": "§ 36 Masterarbeit (RO: §§ 40, 41)",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 2
+      },
+      "location": {
+        "page_numbers": [
+          27,
+          28,
+          29
+        ],
+        "page_start": 27,
+        "page_end": 29
+      },
+      "content": "## § 36 Masterarbeit (RO: §§ 40, 41)\n\n(1) Die Masterarbeit ist obligatorischer Bestandteil der Masterstudiengänge. Sie bildet ein eigenständiges Ab-\nschluss-Modul und kann zusammen mit einer mündlichen Abschlussprüfung oder einem Kolloquium abge-\nschlossen werden. Näheres regeln die studiengangspezifischen Anhänge.\n\n(2) Die Masterarbeit soll zeigen, dass die oder der Studierende in der Lage ist, innerhalb einer vorgegebenen Frist\nentsprechend den Zielen gemäß §§ 2, 6 und gemäß den in den studiengangspezifischen Anhängen für den Mas-\nterstudiengang geregelten Zielen ein Thema umfassend und vertieft zu bearbeiten. Das Thema muss so beschaf-\nfen sein, dass es innerhalb der vorgesehenen Frist bearbeitet werden kann.\n\n(3) Den Bearbeitungsumfang der Masterarbeit, sowie die Bearbeitungszeit regeln die studiengangspezifischen\nAnhänge. Die Bearbeitungszeit darf 15 CP nicht unter- und 30 CP nicht überschreiten.\n\n(4) Die studiengangspezifischen Anhänge regeln, in welchem Umfang die Studierenden CP aus den Master-\nstudiengängen nachweisen müssen, um die Zulassung zur Masterarbeit zu beantragen.\n\n(5) Die Betreuung der Masterarbeit wird von einer Person aus dem Kreis der Prüfungsberechtigten gemäß § 21\nübernommen. Diese hat die Pflicht, die Studierende oder den Studierenden bei der Anfertigung der Masterarbeit\nanzuleiten und sich regelmäßig über den Fortgang der Arbeit zu informieren. Die Betreuerin oder der Betreuer\nhat sicherzustellen, dass gegebenenfalls die für die Durchführung der Masterarbeit erforderliche apparative Aus-\nstattung zur Verfügung steht. Die Betreuerin oder der Betreuer ist in der Regel Erstgutachterin oder Erstgut-\nachter der Masterarbeit.\n\n(6) Mit Zustimmung der oder des Vorsitzenden des Prüfungsausschusses kann die Masterarbeit auch in einer\nEinrichtung außerhalb der Johann Wolfgang Goethe-Universität angefertigt werden. In diesem Fall muss das\nThema in Absprache mit einem Mitglied der Professorengruppe des Fachbereichs Sprach- und Kultur-\nwissenschaften gestellt werden. Die Arbeit wird dann von diesem Mitglied zusammen mit dem externen Betreu-\ner oder der externen Betreuerin bewertet.\n\n(7) Das Thema der Masterarbeit ist mit der Betreuerin oder dem Betreuer zu vereinbaren und bei der Anmel-\ndung der Masterarbeit der oder dem Vorsitzenden des Prüfungsausschusses mitzuteilen. Findet die Studierende\noder der Studierende keine Betreuerin und keinen Betreuer, so sorgt die oder der Vorsitzende des Prüfungsaus-\nschusses auf Antrag der oder des Studierenden dafür, dass diese oder dieser rechtzeitig ein Thema für die Master-\narbeit und die erforderliche Betreuung erhält.\n\n(8) Die oder der Vorsitzende des Prüfungsausschusses entscheidet über die Zulassung zur Masterarbeit.\n\n(9) Die Ausgabe des Themas erfolgt durch die Vorsitzende oder den Vorsitzenden des Prüfungsausschusses. Das\nThema muss so beschaffen sein, dass es innerhalb der vorgesehenen Frist bearbeitet werden kann. Der Zeitpunkt\nder Ausgabe und das Thema sind beim Prüfungsamt aktenkundig zu machen. Die Masterarbeit darf vor der ak-\ntenkundigen Ausgabe des Themas nicht bearbeitet werden.\n\n(10) Die Masterarbeit kann auch in Form einer Gruppenarbeit zugelassen werden, wenn der als Prüfungsleistung\nzu bewertende Beitrag der oder des einzelnen Studierenden aufgrund der Angabe von Abschnitten, Seitenzahlen\nund anderen objektiven Kriterien, die eine deutliche Abgrenzung ermöglichen, deutlich unterscheidbar und\nbewertbar ist und die Anforderungen nach Abs. 2 erfüllt sind.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"27\" -->\n<!-- PageBreak -->\n\n(11) Die Masterarbeit ist in deutscher Sprache abzufassen, sofern die studiengangspezifischen Anhänge nichts\nanderes vorsehen. Mit Zustimmung der oder des Vorsitzenden des Prüfungsausschusses kann sie in einer Fremd-\nsprache angefertigt werden. Die Anfertigung der Masterarbeit in einer Fremdsprache ist spätestens mit der An-\nmeldung der Masterarbeit beim Prüfungsausschuss zu beantragen. Die Zustimmung zur Anfertigung in der ge-\nwählten Fremdsprache wird im Rahmen der Themenvergabe erteilt, sofern mit der Anmeldung der Masterarbeit\ndie schriftliche Einverständniserklärung der Betreuerin oder des Betreuers vorliegt und die Möglichkeit zur Be-\nstellung einer Zweitgutachterin oder eines Zweitgutachters mit hinreichender sprachlicher Qualifikation in der\ngewählten Fremdsprache besteht. Für den Fall, dass die Masterarbeit mit Zustimmung der oder des Vorsitzenden\ndes Prüfungsausschusses in einer Fremdsprache verfasst wird, ist ihr eine Zusammenfassung in deutscher Spra-\nche beizufügen.\n\n(12) Das gestellte Thema kann nur einmal und nur innerhalb des ersten Drittels der Bearbeitungszeit zurückge-\ngeben werden. Das neu gestellte Thema muss sich inhaltlich von dem zurückgegebenen Thema unterscheiden.\nWird infolge des Rücktritts gemäß Abs. 13 Satz 3 ein neues Thema für die Masterarbeit ausgegeben, so ist die\nRückgabe dieses Themas ausgeschlossen.\n\n(13) Kann der Abgabetermin aus von der oder dem Studierenden nicht zu vertretenden Gründen (z.B. Erkran-\nkung der oder des Studierenden beziehungsweise eines von ihr oder ihm zu versorgenden Kindes) nicht einge-\nhalten werden, so verlängert die oder der Vorsitzende des Prüfungsausschusses die Bearbeitungszeit, wenn die\noder der Studierende dies vor dem Ablieferungstermin beantragt. Maximal kann eine Verlängerung um 50% der\nBearbeitungszeit eingeräumt werden. Dauert die Verhinderung länger, so kann die oder der Studierende von der\nPrüfungsleistung zurücktreten.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1562,
+        "word_count": 738,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          27,
+          28,
+          29
+        ]
+      },
+      "traceability": {
+        "content_sha256": "be39e43bd51f560b9d4133ed130866851bb2511d7dce7c722a3a29ac1f4ac1d3",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0040",
+      "chunk_index": 40,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 46,
+        "title": "§ 36 Masterarbeit (RO: §§ 40, 41)",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 2,
+        "part_count": 2
+      },
+      "location": {
+        "page_numbers": [
+          27,
+          28,
+          29
+        ],
+        "page_start": 27,
+        "page_end": 29
+      },
+      "content": "## § 36 Masterarbeit (RO: §§ 40, 41)\n\nlänger, so kann die oder der Studierende von der\nPrüfungsleistung zurücktreten.\n\n(14) Die Masterarbeit ist fristgemäß im Prüfungsamt einzureichen. Der Zeitpunkt des Eingangs ist aktenkundig\nzu machen. Im Falle des Postwegs ist der Poststempel entscheidend. Wird die Masterarbeit nicht fristgemäß abge-\nliefert, gilt sie als mit „nicht ausreichend“ (5,0) gewertet.\n\n(15) Die Masterarbeit ist in 3 schriftlichen (gebundenen) Exemplaren und in elektronischer Form als PDF einzu-\nreichen. Wird die Masterarbeit innerhalb der Abgabefrist nicht in der vorgeschriebenen Form abgegeben, gilt sie\nals mit „nicht ausreichend“ (5,0) gewertet.\n\n(16) Die Masterarbeit ist nach den Regeln der guten wissenschaftlichen Praxis zu verfassen. Insbesondere sind\nalle Stellen, Bilder und Zeichnungen, die wörtlich oder sinngemäß aus Veröffentlichungen oder aus anderen\nfremden Texten entnommen wurden, als solche kenntlich zu machen. Die Masterarbeit ist mit einer Erklärung\nder oder des Studierenden zu versehen, dass sie oder er die Arbeit - bei einer Gruppenarbeit sie ihre oder er\nseinen entsprechend gekennzeichneten Anteil der Arbeit - selbstständig und ohne Benutzung anderer als der\nangegebenen Quellen und Hilfsmittel verfasst hat. Ferner ist zu erklären, dass die Masterarbeit nicht, auch nicht\nauszugsweise, für eine andere Prüfung oder Studienleistung verwendet worden ist.\n\n(17) Der Prüfungsausschuss leitet die Masterarbeit der Betreuerin oder dem Betreuer als Erstgutachterin oder\nErstgutachter zur Bewertung gemäß § 39 Abs. 3 zu. Gleichzeitig bestellt es eine weitere Prüferin oder einen\nweiteren Prüfer aus dem Kreis der Prüfungsberechtigten gemäß § 21 zur Zweitbewertung und leitet ihr oder ihm\ndie Arbeit ebenfalls zur Bewertung zu. Mindestens eine oder einer der Prüfenden soll der Gruppe der Pro-\nfessorinnen und Professoren des Fachbereichs Sprach- und Kulturwissenschaften angehören. Die Zweitgut-\nachterin oder der Zweitgutachter kann sich bei Übereinstimmung der Bewertung auf eine Mitzeichnung des\nGutachtens der Erstgutachterin oder des Erstgutachters beschränken. Die Bewertung soll von den Prüfenden\nunverzüglich erfolgen; sie soll spätestens sechs Wochen nach Einreichung der Arbeit vorliegen. Bei unterschied-\nlicher Bewertung der Masterarbeit durch die beiden Prüfenden wird die Note für die Masterarbeit entsprechend\n§ 37 Abs. 5 festgesetzt.\n\nDie studiengangspezifischen Bestimmungen können auch vorsehen, dass die Bewertung der Masterarbeit nur\nauf Antrag der oder des Studierenden durch eine zweite oder einen zweiten (ggf. auch auswärtige/n) Prüfungs-\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"28\" -->\n<!-- PageBreak -->\n\nberechtigte/n erfolgt. Dies gilt nicht, wenn die Masterarbeit in einer Einrichtung außerhalb der Johann Wolfgang\nGoethe-Universität angefertigt wurde.\n\n(18) Die Masterarbeit wird binnen weiterer vier Wochen von einer oder einem weiteren nach § 21 Prüfungsbe-\nrechtigten bewertet, wenn die Beurteilungen der beiden Prüfenden um mehr als 2,0 voneinander abweichen\noder eine oder einer der beiden Prüfenden die Masterarbeit als „nicht ausreichend“ (5,0) beurteilt hat. Die Note\nwird in diesem Fall aus den Noten der Erstprüferin oder des Erstprüfers, der Zweitprüferin oder des Zweitprüfers\nund der dritten Prüferin oder des dritten Prüfers gemäß § 37 Abs. 5 gebildet. Bei Vorliegen der Voraussetzungen\ndes § 24 oder § 27 findet Satz 1 keine Anwendung.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1020,
+        "word_count": 471,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          27,
+          28,
+          29
+        ]
+      },
+      "traceability": {
+        "content_sha256": "be989c23bb6a4b5f33afea4b674ad8babcd4acbb2a56dd8fa02a950171cffd28",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0041",
+      "chunk_index": 41,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 48,
+        "title": "§ 37 Bewertung/Benotung der Studien- und Prüfungsleistungen; Bildung der Noten und der Gesamtnote (RO: § 42)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          29,
+          30
+        ],
+        "page_start": 29,
+        "page_end": 30
+      },
+      "content": "### § 37 Bewertung/Benotung der Studien- und Prüfungsleistungen; Bildung der Noten und der Gesamtnote (RO: § 42)\n\n(1) Studienleistungen werden in der Regel nach Maßgabe der Modulbeschreibung und von Abs. 3 benotet, die\nNoten gehen aber nicht in die Gesamtnote der Masterprüfung ein. Ausnahmsweise kann die Modulbeschreibung\nauch vorsehen, dass die Studienleistungen mit „bestanden“ oder „nicht bestanden“ bewertet werden.\n\n(2) Prüfungsleistungen werden in der Regel benotet Die Benotung beziehungsweise Bewertung der Prüfungs-\nleistungen wird von den jeweiligen Prüferinnen und Prüfern vorgenommen. Dabei ist stets die individuelle Leis-\ntung der oder des Studierenden zugrunde zu legen.\n\n(3) Für die Benotung der einzelnen Prüfungsleistungen sind folgende Noten zu verwenden:\n\n<table>\n<tr>\n<th>1</th>\n<th>sehr gut</th>\n<th>eine hervorragende Leistung;</th>\n</tr>\n<tr>\n<td>2</td>\n<td>gut</td>\n<td>eine Leistung, die erheblich über den durchschnittlichen Anforderungen liegt;</td>\n</tr>\n<tr>\n<td>3</td>\n<td>befriedigend</td>\n<td>eine Leistung, die durchschnittlichen Anforderungen entspricht;</td>\n</tr>\n<tr>\n<td>4</td>\n<td>ausreichend</td>\n<td>eine Leistung, die trotz ihrer Mängel noch den Anforderungen genügt;</td>\n</tr>\n<tr>\n<td>5</td>\n<td>nicht ausrei- chend</td>\n<td>eine Leistung, die wegen erheblicher Mängel den Anforderungen nicht mehr genügt.</td>\n</tr>\n</table>\n\nZur differenzierten Bewertung der Prüfungsleistungen können die Noten um 0,3 auf Zwischenwerte angehoben\noder abgesenkt werden; zulässig sind die Noten 1,0; 1,3; 1,7; 2,0; 2,3; 2,7; 3,0; 3,3; 3,7; 4,0 und 5,0.\n\n(4) Besteht die Modulprüfung aus mehreren Teilprüfungen, errechnet sich die Note für das Modul aus dem\narithmetischen Mittel der Noten für die einzelnen Prüfungsleistungen (Modulteilprüfungen). Dabei wird nur die\nerste Dezimalstelle hinter dem Komma berücksichtigt.\n\n(5) Wird die Modulprüfung von zwei oder mehreren Prüfenden unterschiedlich bewertet, errechnet sich die\nModulnote aus dem arithmetischen Mittel der Noten der Prüferbewertungen. Bei der Bildung der Modulnote\nwird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"29\" -->\n<!-- PageBreak -->\n\n(6) Für die Masterprüfung wird eine Gesamtnote gebildet. Der studiengangspezifische Anhang regelt, welche\nModulergebnisse neben der Note für die Masterarbeit in die Gesamtnote eingehen. Für die Bildung der Gesamt-\nnote gilt Abs.6 entsprechend; die Note der Masterarbeit wird bei der Bildung der Gesamtnote zweifach gewichtet.\n\n(7) Werden in einem Wahlpflichtbereich mehr CP erworben, als vorgesehen sind, so werden diejenigen Module\nfür die Ermittlung der Gesamtnote herangezogen, die zuerst abgeschlossen wurden. Sofern mehrere Module im\nselben Semester absolviert worden sind, zählen die notenbesseren.\n\n(8) Die Gesamtnote einer bestanden Masterprüfung ergibt sich durch die folgende Aufstellung, wobei nur die\nerste Dezimalstelle hinter dem Komma berücksichtigt wird; alle weiteren Stellen werden ohne Rundung gestri-\nchen:\n\n<table>\n<tr>\n<td>1,0 bis einschließlich 1,5</td>\n<td>sehr gut</td>\n</tr>\n<tr>\n<td>1,6 bis einschließlich 2,5</td>\n<td>gut</td>\n</tr>\n<tr>\n<td>2,6 bis einschließlich 3,5</td>\n<td>befriedigend</td>\n</tr>\n<tr>\n<td>3,6 bis einschließlich 4,0</td>\n<td>ausreichend</td>\n</tr>\n<tr>\n<td>über 4,0</td>\n<td>nicht ausreichend</td>\n</tr>\n</table>\n\n(9) Wird eine englischsprachige Übersetzung des Zeugnisses ausgefertigt, werden die Noten für die einzelnen\nPrüfungsleistungen sowie die Gesamtnote entsprechend folgender Notenskala abgebildet:\n\n<table>\n<tr>\n<td>1,0 bis einschließlich 1,5</td>\n<td>very good</td>\n</tr>\n<tr>\n<td>1,6 bis einschließlich 2,5</td>\n<td>good</td>\n</tr>\n<tr>\n<td>2,6 bis einschließlich 3,5</td>\n<td>satisfactory</td>\n</tr>\n<tr>\n<td>3,6 bis einschließlich 4,0</td>\n<td>sufficient</td>\n</tr>\n<tr>\n<td>über 4,0</td>\n<td>fail</td>\n</tr>\n</table>\n\n(10) Bei einer Gesamtnote bis höchstens einschließlich 1,3 und einer mit der Note 1,0 bewerteten Masterarbeit\nlautet das Gesamturteil „mit Auszeichnung bestanden“. Die studiengangspezifischen Anhänge können eine hier-\nvon abweichende Regelung treffen. Die englischsprachige Übersetzung von „mit Auszeichnung bestanden“ lau-\ntet: „excellent“.\n\n(11) Zur Transparenz der Gesamtnote wird in das Diploma Supplement eine ECTS-Einstufungstabelle gemäß\n§ 45 aufgenommen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1471,
+        "word_count": 535,
+        "contains_table": true,
+        "table_count": 3
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          29,
+          30
+        ]
+      },
+      "traceability": {
+        "content_sha256": "fde10a3274bff9581e3549edb4266b23bcc34d53b213f749565c9d794124bfec",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0042",
+      "chunk_index": 42,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 49,
+        "title": "§ 38 Bestehen und Nichtbestehen von Prüfungen; Notenbekanntgabe (RO: § 43)",
+        "type": "assessment",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          30,
+          31
+        ],
+        "page_start": 30,
+        "page_end": 31
+      },
+      "content": "#### § 38 Bestehen und Nichtbestehen von Prüfungen; Notenbekanntgabe (RO: § 43)\n\n(1) Eine aus einer einzigen Prüfungsleistung bestehende Modulprüfung ist bestanden, wenn sie mit der Note\n\"ausreichend“ (4,0) oder besser bewertet worden ist. Andernfalls ist sie nicht bestanden.\n\n(2) Eine aus mehreren Modulteilprüfungen bestehende Modulprüfung (kumulative Modulprüfung) ist nur dann\nbestanden ist, wenn sämtliche Modulteilprüfungen mit mindestens mit „ausreichend“ (4,0) bewertet worden\nsind.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"30\" -->\n<!-- PageBreak -->\n\n(3) Die Masterprüfung ist bestanden, wenn sämtliche in den studiengangspezifischen Anhängen vorgeschriebe-\nnen Module erfolgreich erbracht wurden, das heißt die geforderten Studiennachweise vorliegen und die vorge-\nschriebenen Modulprüfungen einschließlich der Masterarbeit mit mindestens „ausreichend“ (4,0) bewertet wor-\nden sind.\n\n(4) Die Ergebnisse sämtlicher Prüfungen werden unverzüglich bekannt gegeben. Der Prüfungsausschuss ent-\nscheidet darüber, ob die Noten anonymisiert hochschulöffentlich durch Aushang und/oder durch das elektro-\nnische Prüfungsverwaltungssystem erfolgt, wobei die schutzwürdigen Interessen der Betroffenen zu wahren\nsind. Wurde eine Modulprüfung endgültig mit „nicht ausreichend“ bewertet oder wurde die Masterarbeit\nschlechter als „ausreichend“ (4,0) bewertet, erhält die oder der Studierende durch die Vorsitzende oder den Vor-\nsitzenden des Prüfungsausschusses einen schriftlichen, mit einer Rechtsbehelfsbelehrung versehenen, Bescheid,\nder eine Belehrung darüber enthalten soll, ob und ggf. in welchem Umfang und in welcher Frist die Modulprü-\nfung beziehungsweise die Masterarbeit wiederholt werden kann.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 535,
+        "word_count": 205,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          30,
+          31
+        ]
+      },
+      "traceability": {
+        "content_sha256": "da288b046317f6664223b573db64bb5d6f344bf5fe7990c52f5773be3d432df0",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0043",
+      "chunk_index": 43,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 50,
+        "title": "§ 39 Zusammenstellung des Prüfungsergebnisses (Transcript of Records) (RO: § 44)",
+        "type": "assessment",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          31
+        ],
+        "page_start": 31,
+        "page_end": 31
+      },
+      "content": "#### § 39 Zusammenstellung des Prüfungsergebnisses (Transcript of Records) (RO: § 44)\n\nDen Studierenden wird auf Antrag eine Bescheinigung über bestandene Prüfungen in Form einer Datenabschrift\n(Transcript of Records) in deutscher und englischer Sprache ausgestellt, die mindestens die Modultitel, das Da-\ntum der einzelnen Prüfungen und die Noten enthält.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 101,
+        "word_count": 46,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          31
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e8463dd28e4171f85ea7b000f90a125ebdc531941c389287fc22cd39267a0b88",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0044",
+      "chunk_index": 44,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 52,
+        "title": "§ 40 Wechsel von Wahlpflichtmodulen/Studienschwerpunkten (RO: § 45)",
+        "type": "curriculum",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          31
+        ],
+        "page_start": 31,
+        "page_end": 31
+      },
+      "content": "### § 40 Wechsel von Wahlpflichtmodulen/Studienschwerpunkten (RO: § 45)\n\n(1)Wird ein Wahlpflichtmodul endgültig nicht bestanden, kann in ein neues Wahlpflichtmodul gewechselt wer-\nden.\n\n(2) Der Wechsel eines Studienschwerpunktes ist möglich, wenn im ursprünglich gewählten Studienschwerpunkt\ndie Prüfung noch nicht endgültig nicht bestanden wurde.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 112,
+        "word_count": 42,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          31
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8864416c322f6e8bb9ef2af7e99e2f5d4223b08123025c212aa3dbc22ac6b7b3",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0045",
+      "chunk_index": 45,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 53,
+        "title": "§ 41 Wiederholung von Prüfungen; (RO: § 46)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          31,
+          32
+        ],
+        "page_start": 31,
+        "page_end": 32
+      },
+      "content": "### § 41 Wiederholung von Prüfungen; (RO: § 46)\n\n(1) Bestandene Prüfungen können nicht wiederholt werden.\n\n(2) Alle nicht bestandenen Pflichtmodulprüfungen und Pflichtmodulteilprüfungen müssen wiederholt werden.\n\n(3) Nicht bestandene Modulprüfungen und Modulteilprüfungen können höchstens zweimal wiederholt werden.\n\n(4) Eine nicht bestandene Masterarbeit (gegebenenfalls einschließlich einer mündlichen Prüfung oder eines\nKolloquiums) kann einmal wiederholt werden. Es wird ein anderes Thema ausgegeben. Eine Rückgabe des The-\nmas der Masterarbeit ist im Rahmen einer Wiederholungsprüfung nur zulässig, wenn die oder der Studierende\nbei der Anfertigung der ersten Masterarbeit von dieser Möglichkeit keinen Gebrauch gemacht hat. Eine wieder-\nholte Rückgabe des Themas ist nicht zulässig.\n\n(5) Fehlversuche derselben oder einer vergleichbaren Modulprüfung eines anderen Studiengangs der Johann\nWolfgang Goethe-Universität oder einer anderen deutschen Hochschule sind auf die zulässige Zahl der Wieder-\nholungsprüfungen anzurechnen. Der Prüfungsausschuss kann in besonderen Fällen, insbesondere bei einem\nStudiengangswechsel, von einer Anrechnung absehen.\n\n(6) Für die Wiederholung von nicht bestandenen schriftlichen Prüfungsleistungen, mit Ausnahme der Masterar-\nbeit, kann der Prüfungsausschuss eine mündliche Prüfung ansetzen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"31\" -->\n<!-- PageBreak -->\n\n(7) Der Prüfungsausschuss kann der oder dem Studierenden vor der Wiederholung einer Modulprüfung Auf-\nlagen erteilen.\n\n(8) Wiederholungsprüfungen sollen kurz vor oder zu Beginn des auf den erfolglosen Prüfungsversuch folgenden\nSemesters stattfinden. Der Prüfungsausschuss bestimmt die genauen Termine für die Wiederholung und gibt\ndiese rechtzeitig bekannt. In besonders begründeten Ausnahmefällen kann der oder die Vorsitzende des Prü-\nfungsausschusses auf unverzüglich nach Bekanntgabe des Prüfungsergebnisses gestellten Antrag des oder der\nStudierenden eine spätere Wiederholung der Modulprüfung gestatten und hierfur einen Termin setzen. Bei der\nBekanntgabe der Noten fur die Modulprüfungen sind die Wiederholungstermine ebenfalls bekannt zu geben.\nDer Prüfungsanspruch erlischt bei Versäumnis der Wiederholungsfrist, es sei denn, die oder der Studierende hat\ndas Versäumnis nicht zu vertreten. Bei nicht zu vertretendem Versäumen des Wiederholungstermins setzt der\noder die Vorsitzende des Prüfungsausschusses nach Wegfall der Gründe für das Säumnis den Termin für die Wie-\nderholung der Prüfung fest. Eine zwischenzeitliche Exmatrikulation verlängert die Wiederholungsfrist nicht.\n\n(9) Wiederholungsprüfungen sind grundsätzlich nach der Ordnung abzulegen, nach der die Erstprüfung abgelegt\nwurde.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 803,
+        "word_count": 329,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          31,
+          32
+        ]
+      },
+      "traceability": {
+        "content_sha256": "afc6fde43526a839c59ec5e34a5700b4dd8d79320731aa49cf5c63011a634f84",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0046",
+      "chunk_index": 46,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 54,
+        "title": "§ 42 Verlust des Prüfungsanspruchs und endgültiges Nichtbestehen (RO: § 47)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          32
+        ],
+        "page_start": 32,
+        "page_end": 32
+      },
+      "content": "### § 42 Verlust des Prüfungsanspruchs und endgültiges Nichtbestehen (RO: § 47)\n\n(1) Die Masterprüfung ist endgültig nicht bestanden und der Prüfungsanspruch geht endgültig verloren, wenn\n\n1\\. eine Modulprüfung nach Ausschöpfen aller Wiederholungsversuche nicht bestanden ist,\n\n2\\. eine Frist für die Wiederholung einer Modulprüfung gemäß § 42 überschritten wurde,\n\n3\\. ein schwerwiegender Täuschungsfall oder ein schwerwiegender Ordnungsverstoß gemäß § 27 vorliegt.\n\n(2) Über das endgültige Nichtbestehen der Masterprüfung und dem damit verbundenen Verlust des Prüfungsan-\nspruchs wird ein Bescheid erteilt, der mit einer Rechtsbehelfsbelehrung versehen ist.\n\n(3) Hat die oder der Studierende die Masterprüfung im Studiengang endgültig nicht bestanden und damit den\nPrüfungsanspruch endgültig verloren, ist sie oder er zu exmatrikulieren. Auf Antrag erhält die oder der Studie-\nrende gegen Vorlage der Exmatrikulationsbescheinigung eine Bescheinigung des Prüfungsamtes, in welcher die\nbestandenen Modulprüfungen, deren Noten und die erworbenen Kreditpunkte aufgeführt sind und die erken-\nnen lässt, dass die Masterprüfung endgültig nicht bestanden ist.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 349,
+        "word_count": 147,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          32
+        ]
+      },
+      "traceability": {
+        "content_sha256": "b8bd4aa94d3d9ad9cc66fb2ea51e595e594a522c6bd8705e200db537d604e7d7",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0047",
+      "chunk_index": 47,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 56,
+        "title": "§ 43 Prüfungszeugnis (RO: § 48)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          32
+        ],
+        "page_start": 32,
+        "page_end": 32
+      },
+      "content": "### § 43 Prüfungszeugnis (RO: § 48)\n\n(1) Über die bestandene Masterprüfung ist möglichst innerhalb von vier Wochen nach Eingang der Bewertung\nder letzten Prüfungsleistung ein Zeugnis in deutscher Sprache, auf Antrag der oder des Studierenden mit einer\nÜbertragung in englischer Sprache, jeweils nach den Vorgaben der Rahmenordnung auszustellen. Das Zeugnis\nenthält die Angabe der Module mit den Modulnoten (dabei werden diejenigen Module gekennzeichnet, welche\nnicht in die Gesamtnote für die Masterprüfung eingegangen sind), das Thema und die Note der Masterarbeit, die\nRegelstudienzeit und die Gesamtnote.\n\nDas Zeugnis ist von der oder dem Vorsitzenden des Prüfungsausschusses zu unterzeichnen und mit dem Siegel\nder Johann Wolfgang Goethe-Universität zu versehen. Das Zeugnis trägt das Datum des Tages, an dem die letzte\nPrüfungsleistung bewertet worden ist.\n\n(2) Der Prüfungsausschuss stellt auf Antrag eine Bescheinigung darüber aus, dass der erworbene Masterab-\nschluss inhaltlich dem Diplomabschluss beziehungsweise dem Magisterabschluss entspricht.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"32\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 338,
+        "word_count": 143,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          32
+        ]
+      },
+      "traceability": {
+        "content_sha256": "04fedb40c117cbb95c933d03df9026beb7031b76ab8caf13b3260c8d0a7124f4",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0048",
+      "chunk_index": 48,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 57,
+        "title": "§ 44 Masterurkunde (RO: § 49)",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          33
+        ],
+        "page_start": 33,
+        "page_end": 33
+      },
+      "content": "### § 44 Masterurkunde (RO: § 49)\n\n(1) Gleichzeitig mit dem Zeugnis der Masterprüfung erhält die oder der Studierende eine Masterurkunde mit\ndem Datum des Zeugnisses nach den Vorgaben der Muster der Rahmenordnung. Darin wird die Verleihung des\nakademischen Grades beurkundet. Auf Antrag kann die Urkunde zusätzlich in Englisch ausgestellt werden.\n\n(2) Die Urkunde wird von der Studiendekanin oder dem Studiendekan des Fachbereichs Sprach- und Kultur-\nwissenschaften sowie der oder dem Vorsitzenden des Prüfungsausschusses unterzeichnet und mit dem Siegel der\nJohann Wolfgang Goethe-Universität versehen.\n\n(3) Der akademische Grad darf erst nach Aushändigung der Urkunde geführt werden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 202,
+        "word_count": 94,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          33
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2a5c872159f4a1b27577bece270816c67682fb4b97a405a66104a1bec045022d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0049",
+      "chunk_index": 49,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 58,
+        "title": "§ 45 Diploma Supplement (RO: § 50)",
+        "type": "identity_overview",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          33
+        ],
+        "page_start": 33,
+        "page_end": 33
+      },
+      "content": "### § 45 Diploma Supplement (RO: § 50)\n\n(1) Mit der Urkunde und dem Zeugnis wird ein Diploma Supplement entsprechend den internationalen Vorga-\nben ausgestellt; dabei ist der zwischen der Hochschulrektorenkonferenz und der Kultusministerkonferenz abge-\nstimmte Text in der jeweils geltenden Fassung zu verwenden (Muster Anlage 10 RO).\n\n(2) Das Diploma Supplement enthält eine ECTS-Einstufungstabelle. Die Gesamtnoten, die im jewieligen Studi-\nengang in einer Vergleichskohorte vergeben werden, sind zu erfassen und ihre zahlenmäßige und prozentuale\nVerteilung auf die Notenstufen gemäß § 37 Abs. 8 zu ermitteln und in einer Tabelle wie folgt darzustellen:\n\n<table>\n<tr>\n<th>Gesamtnoten</th>\n<th>Gesamtzahl innerhalb der Referenzgruppe</th>\n<th>Prozentzahl der Absolventinnen/ Absolventen innerhalb der Referenzgruppe</th>\n</tr>\n<tr>\n<td>bis 1,5 (sehr gut)</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>von 1,6 bis 2,5 (gut)</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>von 2,6 bis 3,5 (befriedigend)</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>von 3,6 bis 4,0 (ausreichend)</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\nDie Referenzgruppe ergibt sich aus der Anzahl der Absolventinnen und Absolventen des jeweiligen Studiengangs\nin einem Zeitraum von drei Studienjahren. Die Berechnung erfolgt nur, wenn die Referenzgruppe aus mindes-\ntens 50 Absolventinnen und Absolventen besteht. Haben weniger als 50 Studierende innerhalb der Vergleichs-\nkohorte den Studiengang abgeschlossen, so sind nach Beschluss des Prüfungsausschusses weitere Jahrgänge in\ndie Berechnung einzubeziehen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"33\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 541,
+        "word_count": 187,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          33
+        ]
+      },
+      "traceability": {
+        "content_sha256": "c3298608b8ed4ff0a21a515da69efa60832ce762ab9638eb5d7cf3d95a863101",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0050",
+      "chunk_index": 50,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 60,
+        "title": "§ 46 Ungültigkeit von Prüfungen (RO: § 51)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          34
+        ],
+        "page_start": 34,
+        "page_end": 34
+      },
+      "content": "## § 46 Ungültigkeit von Prüfungen (RO: § 51)\n\n(1) Hat die oder der Studierende bei einer Studien- oder Prüfungsleistung getäuscht und wird diese Tatsache erst\nnach Aushändigung des Zeugnisses bekannt, so kann der Prüfungsausschuss nachträglich die Noten für diejeni-\ngen Studien- und Prüfungsleistungen, bei deren Erbringung die oder der Studierende getäuscht hat, entspre-\nchend berichtigen und die Prüfung oder die Studienleistung ganz oder teilweise für nicht bestanden erklären.\nDie Prüferinnen oder Prüfer sind vorher zu hören. Der oder dem Studierenden ist vor einer Entscheidung Gele-\ngenheit zur Äußerung zu geben.\n\n(2) Waren die Voraussetzungen für die Zulassung zu einer Prüfung nicht erfüllt, ohne dass die oder der Studie-\nrende hierüber täuschen wollte, und wird diese Tatsache erst nach Aushändigung des Zeugnisses bekannt, so\nwird dieser Mangel durch das Bestehen der Prüfung geheilt. Hat die oder der Studierende die Zulassung zur\nPrüfung vorsätzlich zu Unrecht erwirkt, so entscheidet der Prüfungsausschuss unter Beachtung des Hessischen\nLandesverwaltungsverfahrensgesetzes in der jeweils geltenden Fassung über die Rechtsfolgen. Abs. 1 Satz 3 gilt\nentsprechend.\n\n(3) Das unrichtige Zeugnis ist einzuziehen und gegebenenfalls ein neues zu erteilen. Mit dem unrichtigen Zeug-\nnis sind auch das Diploma Supplement und gegebenenfalls der entsprechende Studiennachweis einzuziehen und\ngegebenenfalls neu zu erteilen. Mit diesen Dokumenten ist auch die Masterurkunde einzuziehen, wenn die\nPrüfung aufgrund einer Täuschungshandlung für „nicht bestanden“ erklärt wurde. Eine Entscheidung nach Abs.\n1 und Abs. 2 Satz 2 ist nach einer Frist von fünf Jahren ab dem Datum des Prüfungszeugnisses ausgeschlossen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 519,
+        "word_count": 241,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          34
+        ]
+      },
+      "traceability": {
+        "content_sha256": "95520c3263a76234eddfbd1318fa5ce6dd0652e22b5edb3158da90deb8c1ab2b",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0051",
+      "chunk_index": 51,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 61,
+        "title": "§ 47 Einsicht in Prüfungsakten; Aufbewahrungsfristen (RO: § 52)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          34
+        ],
+        "page_start": 34,
+        "page_end": 34
+      },
+      "content": "## § 47 Einsicht in Prüfungsakten; Aufbewahrungsfristen (RO: § 52)\n\n(1) Der oder dem Studierenden wird auf Antrag zeitnah nach der Bekanntgabe von Prüfungsergebnissen Ein-\nsicht in ihre bzw. seine schriftlichen Prüfungsarbeiten, die darauf bezogenen Gutachten und in die Prüfungspro-\ntokolle gewährt.\n\n(2) Die Prüfungsakten sind von den Prüfungsämtern zu führen. Maßgeblich für die Aufbewahrungsfristen von\nPrüfungsunterlagen ist § 20 der Hessischen Immatrikulationsverordnung (HImmaVO) in der jeweils gültigen\nFassung.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 171,
+        "word_count": 65,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          34
+        ]
+      },
+      "traceability": {
+        "content_sha256": "a51c11e9398647dafac00d2f88dcd11f5db3894a4687d99cb034b34d17ce4632",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0052",
+      "chunk_index": 52,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 62,
+        "title": "§ 48 Einsprüche und Widersprüche (RO: § 53)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          34
+        ],
+        "page_start": 34,
+        "page_end": 34
+      },
+      "content": "## § 48 Einsprüche und Widersprüche (RO: § 53)\n\n(1) Gegen Entscheidungen der oder des Vorsitzenden des Prüfungsausschusses ist Einspruch möglich. Er ist bin-\nnen eines Monats nach Bekanntgabe der Entscheidung bei der oder dem Vorsitzenden des Prüfungsausschusses\neinzulegen. Über den Einspruch entscheidet der Prüfungsausschuss. Hilft er dem Einspruch nicht ab, erlässt die\noder der Vorsitzende des Prüfungsausschusses einen begründeten Ablehnungsbescheid, der mit einer Rechts-\nbehelfsbelehrung zu versehen ist.\n\n(2) Gegen belastende Entscheidungen des Prüfungsausschusses und gegen Prüferbewertungen kann die oder der\nBetroffene, sofern eine Rechtsbehelfsbelehrung erteilt wurde, innerhalb eines Monats, sonst innerhalb eines\nJahres nach Bekanntgabe, bei der oder dem Vorsitzenden des Prüfungsausschusses (Prüfungsamt) schriftlich\nWiderspruch erheben. Hilft der Prüfungsausschuss, gegebenenfalls nach Stellungnahme beteiligter Prüferinnen\nund Prüfer, dem Widerspruch nicht ab, erteilt die Präsidentin oder der Präsident den Widerspruchsbescheid. Der\nWiderspruchsbescheid ist zu begründen und mit einer Rechtsbehelfsbelehrung zu versehen.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"34\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 393,
+        "word_count": 138,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          34
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2f17c9cd3f097092e0969df1a7ab4635874c95dbf87c0b6d02131cf951f1e555",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0053",
+      "chunk_index": 53,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 63,
+        "title": "§ 49 Prüfungsgebühren (RO: § 54)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          35
+        ],
+        "page_start": 35,
+        "page_end": 35
+      },
+      "content": "## § 49 Prüfungsgebühren (RO: § 54)\n\n(1) Sofern das Präsidium der Johann Wolfgang Goethe-Universität die Erhebung von Prüfungsgebühren aussetzt,\nfinden die Absätze 2 und 3 keine Anwendung.\n\n(2) Die Prüfungsgebühren sind ausschließlich für den Verwaltungsaufwand der Prüfungsämter zu erheben. Sie\nbetragen für die Masterprüfung einschließlich der Masterarbeit insgesamt in viersemestrigen Masterstudiengän-\ngen 100,- Euro, in zweisemestrigen Masterstudiengängen 50,- Euro.\n\n(3) Die Prüfungsgebühren werden in zwei hälftigen Raten fällig, und zwar die erste Rate bei der Beantragung der\nZulassung zur Masterprüfung, die zweite Rate bei der Zulassung zur Masterarbeit. Die Entrichtung der Prüfungs-\ngebühren ist beim Prüfungsamt nachzuweisen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 237,
+        "word_count": 96,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          35
+        ]
+      },
+      "traceability": {
+        "content_sha256": "87e5d4f167a3c19c5947cbb7fe63c176d65339e2f95f6787105d630471d56f35",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0054",
+      "chunk_index": 54,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 65,
+        "title": "§ 50 In-Kraft-Treten und Übergangsbestimmungen (RO: § 56)",
+        "type": "regulations",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          35
+        ],
+        "page_start": 35,
+        "page_end": 35
+      },
+      "content": "### § 50 In-Kraft-Treten und Übergangsbestimmungen (RO: § 56)\n\n(1) Diese Ordnung tritt am Tage nach ihrer Veröffentlichung im UniReport/Satzungen und Ordnungen der Jo-\nhann Wolfgang Goethe-Universität Frankfurt am Main in Kraft.\n\n(2) Diese Ordnung gilt für alle Studierende, die ihr Studium ab dem Wintersemester 2015/2016 in einem dem\nGeltungsbereich dieser Ordnung unterfallenden Masterstudiengang aufnehmen.\n\nMögliche Übergangsregelungen aus bereits bestehenden Masterstudiengängen regeln die studiengangspezifi-\nschen Anhänge.\n\nFrankfurt, den 24.08.2015\n\nProf. Dr. Jost Gippert\n\nDekan des Fachbereichs Sprach- und Kulturwissenschaften\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"35\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 231,
+        "word_count": 83,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          35
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3e890a3e677dd8939c14ae452d71e7c7f2bb8927a7a5e8de5f637bea0078e49d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0055",
+      "chunk_index": 55,
+      "total_chunks": 55,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0037",
+      "page_id": null,
+      "section": {
+        "index": 66,
+        "title": "Impressum",
+        "type": "regulations",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          36
+        ],
+        "page_start": 36,
+        "page_end": 36
+      },
+      "content": "## Impressum\n\nUniReport Satzungen und Ordnungen erscheint\nunregelmäßig und anlassbezogen als Sonderausgabe\ndes UniReport. Die Auflage wird für jede Ausgabe\nseparat festgesetzt.\n\nHerausgeber ist die Präsidentin der Johann Wolfgang\nGoethe-Universität Frankfurt am Main.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 10.09.2015\" -->\n<!-- PageNumber=\"36\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 108,
+        "word_count": 33,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0037\\pages\\0008\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/58087221/Master-Ordnung-FB09_zur-Veroeffentlichung-mit-Datum.pdf",
+        "document_id": "source",
+        "program_id": "0037",
+        "page_id": null,
+        "page_numbers": [
+          36
+        ]
+      },
+      "traceability": {
+        "content_sha256": "91011b937cb9e3b15db6f0fa374824884e0bb25a1e63501de4127b8637a9e719",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

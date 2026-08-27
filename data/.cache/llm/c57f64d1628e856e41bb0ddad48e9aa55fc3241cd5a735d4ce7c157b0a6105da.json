@@ -1,0 +1,43 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "non_eu_studen_policy",
+      "value": "This programme is not open to non-EU students due to Visa/Immigration requirements.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_closing_date",
+      "value": "5 January 2027",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + Explore our step-by-step guide to applying for a Postgraduate Programme at UL + How to apply for + Closing dates for applications + EU applicants",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "early_application_advice",
+      "value": "Early application is advisable as many programmes will close in advance of this date or when all available places have been filled.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + Explore our step-by-step guide to applying for a Postgraduate Programme at UL + How to apply for + Closing dates for applications + EU applicants",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

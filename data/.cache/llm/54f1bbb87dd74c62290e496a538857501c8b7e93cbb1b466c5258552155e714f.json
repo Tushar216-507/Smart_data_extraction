@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Oral examination",
+      "original_value": "Mündliche Prüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "duration",
+      "value": {
+        "min": 15,
+        "max": 60
+      },
+      "original_value": "zwischen mindestens 15 Minuten und höchstens 60 Minuten",
+      "unit": "minutes",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_protocol",
+      "value": "A protocol must be recorded for the essential subjects and results of the oral examination.",
+      "original_value": "Die wesentlichen Gegenstände und Ergebnisse der mündlichen Prüfung sind von der oder dem Beisitzenden in einem Protokoll festzuhalten.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "notification_of_results",
+      "value": "The result of the oral examination is to be communicated to the student immediately after the examination.",
+      "original_value": "Das Ergebnis der mündlichen Prüfung ist der oder dem Studierenden im Anschluss an die mündliche Prüfung bekannt zu geben.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

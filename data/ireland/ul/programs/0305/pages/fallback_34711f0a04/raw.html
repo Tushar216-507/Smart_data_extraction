@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="Cache-Control" content="public, max-age=604800, immutable">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="https://digitalseva.csc.gov.in/assets1/webpimage/favicon.webp" type="image/webp">
+   <meta name="description" content="">
+   <meta name="author" content="Digital Seva Portal">
+   <title>Digital Seva Portal</title>
+    
+    <link rel="preload" as="style" href="https://digitalseva.csc.gov.in/assets1/css/bootstrap.min.css" onload="this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="https://digitalseva.csc.gov.in/assets1/css/bootstrap.min.css"></noscript>
+   <link rel="preload" as="style" href="https://digitalseva.csc.gov.in/assets1/css/all.min.css" onload="this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="https://digitalseva.csc.gov.in/assets1/css/all.min.css"></noscript>
+   <link rel="preload" as="style" href="https://digitalseva.csc.gov.in/assets1/css/csc-lp.css" onload="this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="https://digitalseva.csc.gov.in/assets1/css/csc-lp.css"></noscript> 
+   
+   
+    <style>
+      .bhashini-dropdown-btn {
+         width: auto !important;
+         padding: 4px !important;
+         font-size: 14px !important;
+         background-color: transparent !important;
+         border: 2px solid #eeecec !important;
+      }
+
+      .bhashini-dropdown-btn-text {
+         display: none;
+      }
+
+      .bhashini-dropdown {
+         z-index: 9999 !important;
+      }
+   </style>
+</head>
+
+<body id="increase-decreas-fn-size">
+   <!-- Navbar Start Here... -->
+   <nav class="navbar navbar-expand-lg sticky-top py-0 flex-wrap">
+      <div class="top-header">
+         <div class="container-fluid">
+            <div class="d-flex align-items-center justify-content-between py-1">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse nav-padding" id="navbarScroll">
+                  <div class="header-right d-flex align-items-center ms-auto justify-content-between mt-3 mt-md-0">
+                     <div class="d-flex align-items-center">
+                        <div class="social-icon d-flex align-items-center p-0 m-0 ms-md-3">
+                           <div class="mx-3 mb-2 mb-md-0">
+                              <div class="plus-minus">
+                                 <div class="d-flex">
+                                    <a href="#!"
+                                       class="text-decoration-none text-center d-flex align-items-center justify-content-center"
+                                       id="Bigger">A
+                                       +</a>
+                                    <a href="#!"
+                                       class="text-decoration-none text-center d-flex align-items-center justify-content-center"
+                                       id="Reset">A</a>
+                                    <a href="#!"
+                                       class="text-decoration-none text-center d-flex align-items-center justify-content-center me-0"
+                                       id="Smaller">A
+                                       -</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Social Media Share Start Here... -->
+
+                        <div class="share-wrapper position-relative d-inline-block">
+                           <!-- Just text -->
+                           <span class="share-text fw-semibold" onclick="toggleShare()">Follow Us <i class="fa-solid fa-angle-down"></i></span>
+
+                           <!-- Hidden social icons -->
+                           <div class="share-icons justify-content-center">
+                              <div class="icon-btn youtube d-flex justify-content-center align-items-center"
+                                 onclick="shareYoutube()">
+                                 <i class="fa-brands fa-youtube"></i>
+                              </div>
+                              <div class="icon-btn instagram d-flex justify-content-center align-items-center"
+                                 onclick="shareInstagram()">
+                                 <i class="fa-brands fa-instagram"></i>
+                              </div>
+                              <div class="icon-btn facebook d-flex justify-content-center align-items-center"
+                                 onclick="shareFacebook()">
+                                 <i class="fab fa-facebook-f"></i>
+                              </div>
+                              <div class="icon-btn linkedin d-flex justify-content-center align-items-center"
+                                 onclick="shareLinkedIn()">
+                                 <i class="fab fa-linkedin-in"></i>
+                              </div>
+                              <div class="icon-btn twitter d-flex justify-content-center align-items-center"
+                                 onclick="shareTwitter()">
+                                 <!-- Twitter X webp -->
+                                 <webp xmlns="http://www.w3.org/2000/webp" viewBox="0 0 1200 1227" width="10" height="16"
+                                    fill="white">
+                                    <path
+                                       d="M714.163 519.284L1160.89 0H1053.57L668.364 450.887L357.341 0H0L468.148 681.821L0 1226.68H107.324L515.417 750.218L842.659 1226.68H1200L714.137 519.284H714.163ZM562.541 687.828L521.324 628.64L146.194 79.694H306.851L604.181 505.828L645.398 565.016L1047.28 1150.31H886.623L562.541 687.854V687.828Z" />
+                                 </webp>
+                              </div>
+
+                              <div class="icon-btn whatsapp d-flex justify-content-center align-items-center"
+                                 onclick="shareWhatsApp()">
+                                 <i class="fab fa-whatsapp"></i>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Social Media Share End Here... -->
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Bottom Navbar Start Here... -->
+      <header class="py-2 w-100">
+         <div class="container-fluid d-flex justify-content-between align-items-center header-padding">
+            <!-- Left Logo -->
+            <div class="col-lg-3 col-xl-4 col-xxl-3">
+               <a class=" navbar-brand m-0 me-2 me-md-3" href="https://digitalseva.csc.gov.in/">
+                  <img loading="lazy" class="csc-logo" src="https://digitalseva.csc.gov.in/assets1/images/csc-logo.svg" height="50" alt="CSC Logo">
+               </a>
+               <a href="https://www.digitalindia.gov.in/" target='_blank'>
+                  <img loading="lazy" src="https://digitalseva.csc.gov.in/assets1/webpimage/digital-india.webp" alt="Digital India Logo" height="50">
+               </a>
+            </div>
+
+            <div class="col-lg-9 col-xl-8 col-xxl-9">
+               <div class="d-flex align-items-center float-end">
+                  <!-- Nav -->
+                  <nav class="navbar navbar-expand-lg p-0 me-3 shadow-none border-0 mt-0 top-0 hide-toggle">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="mainNavbar">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                           <li class="nav-item">
+                              <a class="nav-link" href="https://locator.csccloud.in/" target="_blank">
+                                 <i class="fa-regular fa-map me-1"></i> CSC Locator
+                              </a>
+                           </li>
+
+                           <li class="nav-item">
+                              <a class="nav-link" href="https://jaankari.csccloud.in/" target="_blank">
+                                 <i class="fa-regular fa-circle-exclamation me-1"></i> Jaankari Suvidha
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+
+                  <!-- Buttons -->
+                  <div class="d-flex align-items-center">
+                                       <a href="https://cscregister.csccloud.in/" target="_blank"
+                        class="btn custom-btn-secondary login-btn me-3">
+                        <i class="fa-solid fa-user-plus me-2"></i> Join Us as a VLE
+                     </a>
+
+                     <a href="https://digitalseva.csc.gov.in/auth/user/login" class="btn custom-btn-primary login-btn">
+                        <i class="fa-solid fa-right-to-bracket me-2"></i> Login
+                     </a>
+                                       </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- Bottom Navbar End Here... -->
+   </nav>
+   <!-- Navbar End Here... -->
+<section class="g2c-hero-banner"
+   style="background-image: url('https://digitalseva.csc.gov.in/assets1/images/g2c-banner.svg');
+          background-size: cover; background-position: center;">
+   <div class="container">
+      <div class="row">
+         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
+            <h2>CSC Related Sites</h2>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Hero Banner End Here... -->
+
+<!-- Important Links Start Here... -->
+<section class="our-services important-links-csc pt-5 pb-4">
+   <div class="container">
+      <div class="row justify-content-center">
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://csc.gov.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/digital-india.png" alt="CSC GOV">
+                  <p class="mb-0">CSC GOV</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscspv.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/csc-logo.svg" alt="CSC SPV">
+                  <p class="mb-0">CSC SPV</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://digitalseva.csc.gov.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/digital-sewa.png" alt="Digital Seva Portal">
+                  <p class="mb-0">Digital Seva Portal</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscregister.csccloud.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/csc-logo.svg" alt="CSC VLE Registration">
+                  <p class="mb-0">CSC VLE Registration</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://digipay.csccloud.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/digi.png" alt="DigiPay">
+                  <p class="mb-0">DigiPay</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscregister.csccloud.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/csc-logo.svg" alt="CSC VLE Registration">
+                  <p class="mb-0">CSC VLE Registration</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://www.diginame.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/diginame.png" alt="Diginame">
+                  <p class="mb-0">Diginame</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="http://cschealth.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/health.png" alt="CSC Health">
+                  <p class="mb-0">CSC Health</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscestore.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/grameen-e-store-1.png" alt="Grameen E-Store">
+                  <p class="mb-0">Grameen E-Store</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://www.tele-law.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/tele-law.png" alt="Tele-Law">
+                  <p class="mb-0">Tele-Law</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://www.cscagri.in/fpo/index" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/agriculture.png" alt="CSC Agriculture">
+                  <p class="mb-0">CSC Agriculture</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://eseva.csccloud.in/evehicle/Default.aspx" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/e-mobility.png" alt="Rural e-Mobility">
+                  <p class="mb-0">Rural e-Mobility</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://www.cscacademy.org/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/csc-academy.png" alt="CSC Academy">
+                  <p class="mb-0">CSC Academy</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://www.csctinytech.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/balvidyalaya.png" alt="CSC Bal Vidyalaya">
+                  <p class="mb-0">CSC Bal Vidyalaya</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://digipaathshala.cscacademy.org/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/csc-digipathshala.png" alt="CSC DigiPaathshala">
+                  <p class="mb-0">CSC DigiPaathshala</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://skill.csc-services.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/skill.jpg" alt="CSC Skill">
+                  <p class="mb-0">CSC Skill</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscsafar.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/CSC-Safar.jpeg" alt="CSC Safar">
+                  <p class="mb-0">CSC Safar</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscolympiad.com/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/olympiad.png" alt="CSC Olympiad">
+                  <p class="mb-0">CSC Olympiad</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscudaanacademy.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/udaan.png" alt="CSC Udaan Academy">
+                  <p class="mb-0">CSC Udaan Academy</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="http://www.cscentrepreneur.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/tec.png" alt="Telecentre Entrepreneur Course">
+                  <p class="mb-0">Telecentre Entrepreneur Course</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://insurance.csccloud.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/insurance.png" alt="Insurance">
+                  <p class="mb-0">Insurance</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://cscgraminnaukri.in/gn/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/gramin-naukri.png" alt="CSC Gramin Naukri">
+                  <p class="mb-0">CSC Gramin Naukri</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://www.cscdigisign.in/" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/esign.png" alt="CSC DigiSign">
+                  <p class="mb-0">CSC DigiSign</p>
+               </a>
+            </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="services-box text-center mb-3 mb-lg-4">
+               <a href="https://services.csccloud.in/ecourt/Default.aspx#" class="d-block" target="_blank">
+                  <img class="mb-2" src="https://digitalseva.csc.gov.in/assets1/images/important-link-logo/ecourt.jpg" alt="E-Courts">
+                  <p class="mb-0">E-Courts</p>
+               </a>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+<!-- Important Links End Here... -->
+<footer>
+      <div class="container pb-2 pb-xl-5">
+         <div class="row">
+            <div class="col-xl-3 col-lg-6">
+               <h3 class="mb-3">Information</h3>
+               <ul class="p-0">
+                  <li class="mb-2">
+                     <a href="https://digitalseva.csc.gov.in/web/about" class="text-decoration-none">About Us</a>
+                  </li>
+
+                  <li class="mb-2">
+                     <a href="https://digitalseva.csc.gov.in/web/services" class="text-decoration-none">CSC Related Sites</a>
+                  </li>
+
+                  <li class="mb-2">
+                     <a href="https://digitalseva.csc.gov.in/web/home/policy" class="text-decoration-none">Privacy Policy</a>
+                  </li>
+
+                  <li class="mb-2">
+                     <a href="https://digitalseva.csc.gov.in/web/home/terms" class="text-decoration-none">Terms & Condition</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="col-xl-2 col-lg-6">
+               <h3 class="mb-3">Connect</h3>
+               <ul class="p-0">
+                  <li class="mb-2">
+                     <a href="https://cscregister.csccloud.in/" class="text-decoration-none" target="_blank">Registration</a>
+                  </li>
+                  <li class="mb-2">
+                     <a href="https://digipay.csccloud.in/" class="text-decoration-none" target="_blank">DigiPay</a>
+                  </li>
+                  
+                  <li class="mb-2">
+                     <a href="https://www.csc.gov.in/" class="text-decoration-none" target="_blank">CSC Gov</a>
+                  </li>
+                  <li class="mb-2">
+                     <a href="https://cscspv.in/" class="text-decoration-none" target="_blank">CSCSPV</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="col-xl-4 col-lg-6">
+               <h3 class="mb-3">Help</h3>
+               <ul class="p-0">
+                  <li class="mb-2">
+                     <a href="https://digitalseva.csc.gov.in/web/home/requirement" class="text-decoration-none">System Requirement</a>
+                  </li>
+                  <li class="mb-2">
+                     <a href="https://jaankari.csccloud.in/" target="_blank" class="text-decoration-none">Jaakari
+                        Suvidha Portal</a>
+                  </li>
+
+                  <li class="mb-2">
+                     <a href="https://jaankari.csccloud.in/common-branding.html" target="_blank"
+                        class="text-decoration-none">Download Common Branding Design</a>
+                  </li>
+                  <li class="mb-2">
+                     <a href="https://digitalseva.csc.gov.in/web/home/faq" class="text-decoration-none">FAQS</a>
+                  </li>
+
+               </ul>
+            </div>
+
+            <div class="col-xl-3 col-lg-6">
+               <h3 class="mb-3">Quick Connect</h3>
+               <ul class="p-0">
+                  <li class="mb-2">
+                     Helpdesk 14599 (Citizen and VLE)
+                  </li>
+                  
+
+                  <li class="mb-2">
+                     <a href="https://cscprod.my.site.com/citizenlogin" class="text-decoration-none" target="_blank">Log/Track Your
+                        Issue Grievance Redressal
+                        Portal</a>
+                  </li>
+
+                  <li class="d-flex flex-column flex-xxl-row mb-2">
+                     <div class="mb-2 mb-xxl-0"> Follow US :</div>
+                     <ul class="d-flex align-items-center p-0 m-0 ms-0 ms-xxl-3">
+                        <li class="me-2 mx-xxl-2">
+                           <a href="https://www.youtube.com/user/CSCSCHEME" class="text-decoration-none"><i
+                                 class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li class="mx-2">
+                           <a href="https://www.instagram.com/commonservicescenters/" class="text-decoration-none"><i
+                                 class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="mx-2">
+                           <a href="https://www.facebook.com/cscscheme" class="text-decoration-none"><i
+                                 class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="mx-2">
+                           <a href="https://www.linkedin.com/company/common-services-centers-official/posts/?feedView=all"
+                              class="text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li class="mx-2">
+                           <a href="https://x.com/intent/post?url=https%3A%2F%2Fx.com%2FCSCegov_&text=CSCeGOV"
+                              class="text-decoration-none">
+                              <div style="display: flex; align-items: center; justify-content: center; height: 16px;">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16" height="16">
+                                    <path
+                                       d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H484c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"
+                                       fill="#fff" />
+                                 </svg>
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="mx-2">
+                           <a href="https://www.whatsapp.com/channel/0029Va5pY1EJpe8avzCDsy2f"
+                              class="text-decoration-none"><i class="fa-brands fa-whatsapp-square"></i></a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <div class="bottom-footer">
+         <div class="container py-3">
+            <ul class="p-0 m-0 d-flex align-items-center flex-wrap justify-content-between">
+               <li>
+                  Copyright &copy 2026 CSC
+                  <span class="mx-2 mx-xxl-4">|</span>
+               </li>
+                <li>Last Updates : 16 DEC 2025 <span class="mx-2 mx-xxl-4">|</span></li>
+            <li>Version : 2.1 <span class="mx-2 mx-xxl-4">|</span></li>
+            <li>ISO 27001 : 2022 ISO 9001 : 2015 <span class="mx-2 mx-xxl-4">|</span></li>
+            <li>Designed & Developed by <b><a href="https://csc.gov.in/" class="text-decoration-none" target="_blank">CSC</a></b> </li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+
+   <!-- Footer End Here... -->
+
+   <script defer src="https://digitalseva.csc.gov.in/assets1/js/jquery.min.js"></script>
+   <script defer src="https://digitalseva.csc.gov.in/assets1/js/bootstrap.bundle.min.js"></script>
+   <script defer src="https://digitalseva.csc.gov.in/assets1/js/custom.js"></script>
+   <script defer src="https://translation-plugin.bhashini.co.in/v2/website_translation_utility.js" data-pos-x="90"
+      data-pos-y="103"></script>
+      <script>
+if ('loading' in HTMLImageElement.prototype) {
+    document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+        img.src = img.dataset.src || img.src;
+    });
+}
+
+</script>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DdN00000MdGBW',
+				'CSC',
+				'https://cscprod.my.site.com/ESWCSC1753703059716',
+				{
+					scrt2URL: 'https://cscprod.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://cscprod.my.site.com/ESWCSC1753703059716/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</body>
+
+</html>

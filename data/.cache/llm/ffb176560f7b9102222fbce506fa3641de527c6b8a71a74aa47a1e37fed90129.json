@@ -1,0 +1,151 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "American History and Society - Ideological History",
+      "original_value": "Amerikanische Geschichte und Gesellschaft - Ideengeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2670 / 2671",
+        "name": "American History and Society - Ideological History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Take Home or Term Paper",
+      "original_value": "Take Home (MP 2670) oder Hausarbeit (2671)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2670 / 2671",
+        "name": "American History and Society - Ideological History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "registration_period",
+      "value": {
+        "registration_for_term_paper": {
+          "start": "29.06.2026",
+          "end": "21.09.2026"
+        },
+        "registration_for_take_home": {
+          "start": "08.06.2026",
+          "end": "03.08.2026"
+        }
+      },
+      "original_value": "Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026, Anmeldung zum Take Home: 08.06. - 03.08.2026",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2670 / 2671",
+        "name": "American History and Society - Ideological History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "submission_deadlines",
+      "value": {
+        "term_paper_submission": "28.09.2026",
+        "repeat_submission": "21.12.2026",
+        "take_home_submission": "10.08.2026"
+      },
+      "original_value": "Abgabe der Hausarbeit: 28.09.2026, Abgabe der Wiederholung: 21.12.2026, Abgabe: 10.08.2026",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2670 / 2671",
+        "name": "American History and Society - Ideological History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "faculty",
+      "scope": "programme",
+      "field": "instructors",
+      "value": [
+        "Venus Bender - Black Power in American History",
+        "Dr. Gregory Jones-Katz - American Pragmatism",
+        "Prof. Dr. Simon Wendt - The American Civil War"
+      ],
+      "original_value": "Venus Bender - Black Power in American History (Mo 14-16), Dr. Gregory Jones-Katz - American Pragmatism (BLOCK), Prof. Dr. Simon Wendt - The American Civil War (Di 16-18)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2670 / 2671",
+        "name": "American History and Society - Ideological History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

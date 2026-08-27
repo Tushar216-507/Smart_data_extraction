@@ -1,0 +1,1 @@
+The University of Limerick (UL) BSc Paramedic Studies (Practitioner) course is open to registered paramedics/advanced paramedics who can demonstrate current paramedic practice.

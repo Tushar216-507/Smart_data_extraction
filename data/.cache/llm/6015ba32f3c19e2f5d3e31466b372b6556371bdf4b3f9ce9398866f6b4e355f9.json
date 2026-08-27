@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "regulation",
+      "value": "This regulation governs the study and module examinations in the minor subject in the multi-subject Bachelor's program.",
+      "original_value": "Diese Ordnung regelt das Studium und die Modulprüfungen im Nebenfach ... im Mehr-Fächer-Bachelorstudiengang.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "main_subject_requirement",
+      "value": "The study and module examinations in the main subject must be completed according to the regulations applicable for the main subject.",
+      "original_value": "Das Studium und die Modulprüfungen im Hauptfach sind nach den Bestimmungen der für das Hauptfach maßgeblichen Ordnung zu absolvieren.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "credit_requirement",
+      "value": {
+        "six_semesters": {
+          "main_subject_credits": 120
+        },
+        "eight_semesters": {
+          "main_subject_credits": 120,
+          "two_minor_subjects_credits": 60
+        }
+      },
+      "original_value": "Ein Bachelor-Hauptfach im Umfang von 120 CP, bei achtsemestrigen Studiengängen ein Bachelor-Hauptfach im Umfang von 120 CP (mit zwei Nebenfächern mit jeweils 60 CP)",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

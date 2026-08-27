@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "In most computers, individual instructions are stored as machine code with each instruction being given a unique number (its operation code or opcode for short). The command to add two numbers together would have one opcode; the command to multiply them would have a different opcode.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "The simplest computers are able to perform any of a handful of different instructions; the more complex computers have several hundred to choose from, each with a unique numerical code.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "Since the computer's memory is able to store numbers, it can also store the instruction codes.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "Entire programs can be represented as lists of numbers and can themselves be manipulated inside the computer in the same way as numeric data.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "The fundamental concept of storing programs in the computer's memory alongside the data they operate on is the crux of the von Neumann, or stored program, architecture.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "In some cases, a computer might store some or all of its program in memory that is kept separate from the data it operates on, which is called the Harvard architecture.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "Modern von Neumann computers display some traits of the Harvard architecture in their designs, such as in CPU caches.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "While it is possible to write computer programs as long lists of numbers (machine language), it is extremely tedious and potentially error-prone to do so in practice, especially for complicated programs.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "Instead, each basic instruction can be given a short name that is indicative of its function and easy to remember, such as ADD, SUB, MULT or JUMP.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "These mnemonics are collectively known as a computer's assembly language.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "machine_code_concept",
+      "field": "description",
+      "value": "Converting programs written in assembly language into something the computer can actually understand (machine language) is usually done by a computer program called an assembler.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    }
+  ]
+}

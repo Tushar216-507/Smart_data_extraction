@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Supplementary Courses",
+      "original_value": "Supplementary Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Kumulativ möglich - Anmeldung via QIS",
+      "original_value": "Kumulativ möglich - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Democrat Aisha Wahab will win Swalwell’s House seat, CNN projects, overcoming millions in AIPAC spending

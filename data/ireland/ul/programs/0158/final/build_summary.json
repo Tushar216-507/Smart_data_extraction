@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0158",
+  "program_name": "Bachelor of Science in Music, Media and Performance Technology",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0158\\final",
+  "input_fact_count": 52,
+  "unique_fact_count": 52,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 52,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 52,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 11,
+    "admission": 19,
+    "curriculum": 12,
+    "career": 9,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0158\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0158\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0158\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0158\\final\\career_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0158\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0158\\final\\build_summary.json"
+  }
+}

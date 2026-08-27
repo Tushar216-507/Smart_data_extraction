@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "subcategory": "programme_name",
+      "field": "title",
+      "value": "English Studies Bachelor",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "identity",
+      "subcategory": "university_name",
+      "field": "name",
+      "value": "Goethe University Frankfurt",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "faculty",
+      "subcategory": "department_name",
+      "field": "name",
+      "value": "Institute for English and American Studies",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor | Goethe University Frankfurt"
+    }
+  ]
+}

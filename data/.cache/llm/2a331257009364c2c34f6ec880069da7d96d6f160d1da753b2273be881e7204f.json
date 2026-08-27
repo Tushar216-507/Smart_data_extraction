@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Johann Wolfgang Goethe University Frankfurt am Main",
+      "original_value": "Johann Wolfgang Goethe Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Southeast Asian Studies",
+      "original_value": "<Name Studiengang>",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

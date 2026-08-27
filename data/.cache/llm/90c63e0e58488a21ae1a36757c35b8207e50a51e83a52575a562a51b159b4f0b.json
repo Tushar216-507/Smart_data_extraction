@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "competency_requirements",
+      "field": "minimum_gpa",
+      "value": "2.00",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "competency_requirements",
+      "field": "deficiency_limit",
+      "value": "one deficiency in no more than two competency areas",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "competency_requirements",
+      "field": "unacceptable_deficiencies",
+      "value": "deficiencies in both math and laboratory science are not acceptable",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "english_competency_requirement",
+      "field": "high_school_english",
+      "value": "Four years of high school English (composition- or literature-based)",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "english_competency_requirement",
+      "field": "act_score",
+      "value": "minimum test score of 21 on ACT English",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "english_competency_requirement",
+      "field": "sat_score",
+      "value": "minimum test score of 580 on SAT evidence-based reading and writing",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "english_competency_requirement",
+      "field": "college_course",
+      "value": "One transferable 3-credit college English composition course",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "general_regulations_reference",
+      "value": "Master's programmes regulations at the Faculty of Linguistics and Cultural Studies",
+      "original_value": "allgemeinen Regelungen für Masterstudiengänge im Fachbereich Sprach- und Kulturwissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "Johann Wolfgang Goethe University",
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "general_regulations_reference",
+      "value": "consecutive and modulised programmes regulations at Goethe University Frankfurt",
+      "original_value": "allgemeinen Regelungen für konsekutive und modulare Studiengänge an der Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "Goethe University Frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

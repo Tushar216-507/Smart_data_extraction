@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Ungraded",
+      "original_value": "unbenotet",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Graded",
+      "original_value": "benotet",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "grades": [
+          {
+            "grade_numeric": 1,
+            "grade_description": "very good"
+          },
+          {
+            "grade_numeric": 2,
+            "grade_description": "good"
+          },
+          {
+            "grade_numeric": 3,
+            "grade_description": "satisfactory"
+          },
+          {
+            "grade_numeric": 4,
+            "grade_description": "adequate"
+          },
+          {
+            "grade_numeric": 5,
+            "grade_description": "not sufficient"
+          }
+        ]
+      },
+      "original_value": "1: sehr gut, 2: gut, 3: befriedigend, 4: ausreichend, 5: nicht ausreichend",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language",
+      "value": "English proficiency at B2 level",
+      "original_value": "Englischkenntnissen auf dem Sprachniveau B2",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_proof_methods",
+      "value": [
+        "Abiturzeugnis",
+        "Oberstufenzeugnisse",
+        "Five years of school instruction in English",
+        "UNIcert Level 2",
+        "TOEFL test (minimum score of 87)",
+        "Other equivalent proof recognized by the examination committee"
+      ],
+      "original_value": "Abiturzeugnis oder Oberstufenzeugnisse oder den Nachweis über fünfjährigen Schulunterricht in Englisch oder einen UNIcert-Abschluss der Stufe 2 oder einen TOEFL-Test (Internet-basierter Score mindestens 87) oder einen anderen vom Prüfungsausschuss als gleichwertig anerkannten Nachweis.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language",
+      "value": "Proficiency in Indonesian or Malaysian",
+      "original_value": "ausreichende Sprachkenntnisse des Indonesischen (Bahasa Indonesia) oder Malaysischen (Bahasa Malaysia)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_proof_methods_indonesian_malaysian",
+      "value": [
+        "Assessment by experts or language tests acquired through study abroad, university language courses, or self-study",
+        "Written examination in parallel to the module final examination",
+        "Certificates of other equivalent proof recognized by the examination committee"
+      ],
+      "original_value": "Fachgutachten bzw. Lektorenprüfungen über Sprachkenntnisse, die durch Auslandsaufenthalte, Universitätssprachkurse oder im Selbststudium erworben wurden; oder Ablegen einer schriftlichen Prüfung parallel zur o.g. Modulabschlussprüfung des Bachelor-Studiengangs; oder Zertifikate über einen anderen vom Prüfungsausschuss als gleichwertig anerkannten Nachweis.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

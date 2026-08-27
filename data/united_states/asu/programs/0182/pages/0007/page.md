@@ -1,0 +1,3 @@
+## An inclusive academic powerhouse
+
+What happens when a university has a global reputation for academic excellence yet remains open to any student eager to learn? This combination creates an incredible, worldwide demand for an ASU degree. ASU is a supportive and welcoming academic community, and is constantly innovating with new degree programs, cutting-edge learning methods and welcoming spaces to foster growth and discovery.

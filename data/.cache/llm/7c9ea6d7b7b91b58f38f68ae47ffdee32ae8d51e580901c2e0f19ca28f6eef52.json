@@ -1,0 +1,468 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Supplementary Module BWL (NF 1)",
+      "original_value": "NF 1 - Ergänzungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Supplementary Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Supplementary Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Successful completion of both modules is required, unless there was no minor in BWL completed during the Bachelor's degree - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren beider Module, sofern noch kein Nebenfach BWL im Bachelor studiert wurde - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Supplementary Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Application Module VWL (NF 2)",
+      "original_value": "NF 2 - Anwendungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 20,
+      "original_value": "20/ 22",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Successful completion of 3 modules is required - OVWL+OPPE+OMIK/BMAK, unless there was no minor in VWL completed during the Bachelor's degree - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren von 3 Modulen - OVWL+OPPE+OMIK/BMAK, sofern noch kein Nebenfach VWL im Bachelor studiert wurde - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Introduction to Economics (OVWL)",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Philosophy, Politics, and Economics (OPPE)",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics, and Economics"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics, and Economics"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Microeconomics 1 (OMIK)",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Microeconomics 1"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Microeconomics 1"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Macroeconomics 1 (BMAK)",
+      "original_value": "Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module VWL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Application Module BWL (NF 2)",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 21,
+      "original_value": "21/ 22",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Successful completion of 4 modules is required - OFIN+OMAR+OACC/BACC+BMGT, unless there was no minor in BWL completed during the Bachelor's degree - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren von 4 Modulen - OFIN+OMAR+OACC/BACC+BMGT, sofern noch kein Nebenfach BWL im Bachelor studiert wurde - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Application Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

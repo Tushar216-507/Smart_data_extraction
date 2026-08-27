@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Bachelor thesis: (possibly final module)",
+      "original_value": "Bachelorarbeit: (ggf. Abschlussmodul)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PF",
+        "name": "Bachelor thesis: (possibly final module)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 180,
+      "original_value": "180",
+      "unit": "credits",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The eligibility of elective compulsory modules may be restricted due to lack of capacity by a decision of the department council. The restriction must be communicated to the students immediately by the dean’s office. § 16 Abs. 2 applies.",
+      "original_value": "Die Wählbarkeit von Wahlpflichtmodulen kann bei fehlender Kapazität durch Fachbereichsratsbeschluss eingeschränkt werden. Die Einschränkung ist den Studierenden unverzüglich durch das Dekanat bekannt zu geben. § 16 Abs. 2 findet Anwendung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Paragraph 5 is void if no elective compulsory modules are provided.",
+      "original_value": "Hinweis zu Abs. 5: Abs. 5 entfällt, wenn keine Wahlpflichtmodule vorgesehen sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

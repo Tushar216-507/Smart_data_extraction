@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "requirements_for_phd_admission",
+      "value": "A qualified master's degree, a Magister degree, a diploma, a state examination, or an equivalent foreign degree is required for admission to a Ph.D. program.",
+      "original_value": "Formale Voraussetzung für die Zulassung zur Promotion ist ein qualifizierter Masterabschluss (Fachhochschulen und Universitäten), ein Magisterabschluss, ein Diplom, eine Staatsprüfung oder ein äquivalenter ausländischer Abschluss.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "additional_requirements_for_phd_admission",
+      "value": "Particularly qualified holders of a bachelor's degree or a diploma (FH) may be admitted to a Ph.D. program without further academic qualifications through an aptitude assessment procedure.",
+      "original_value": "Besonders qualifizierte Inhaber eines Bachelorgrades oder eines Diplom (FH) können ohne einen weiteren Studienabschluss im Wege eines Eignungsfeststellungsverfahrens zur Promotion zugelassen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "university",
+      "field": "phd_supervision_requirement",
+      "value": "The Ph.D. project must be accepted by a university lecturer as a supervisor for admission.",
+      "original_value": "Voraussetzung für die Zulassung ist außerdem, dass das Promotionsprojekt von einem Hochschullehrer als Betreuer angenommen wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

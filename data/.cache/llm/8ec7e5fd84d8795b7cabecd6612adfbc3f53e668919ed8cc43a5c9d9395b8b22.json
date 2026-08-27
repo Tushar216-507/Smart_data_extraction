@@ -1,0 +1,151 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "program",
+      "field": "program_name",
+      "value": "Master in International Economics and Economic Policy",
+      "original_value": "Master in International Economics and Economic Policy",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Praxisfelder der Humangeographie",
+      "original_value": "Praxisfelder der Humangeographie (HGeo-NF2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF2",
+        "name": "Praxisfelder der Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "module_credits": 8,
+        "module_duration": "Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Programmierung von Datenbanken",
+      "original_value": "Programmierung von Datenbanken (B-PDB)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "B-PDB",
+        "name": "Programmierung von Datenbanken"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "module_duration": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Einführung in die Methoden der Künstlichen Intelligenz",
+      "original_value": "Einführung in die Methoden der Künstlichen Intelligenz (B-KI)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "B-KI",
+        "name": "Einführung in die Methoden der Künstlichen Intelligenz"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "module_duration": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "NLP-gestützte Data Science",
+      "original_value": "NLP-gestützte Data Science (B-NLP-DS)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "B-NLP-DS",
+        "name": "NLP-gestützte Data Science"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "module_duration": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Texttechnologische Datenanalyse",
+      "original_value": "Texttechnologische Datenanalyse (B-TTDA)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "B-TTDA",
+        "name": "Texttechnologische Datenanalyse"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0004",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "module_duration": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

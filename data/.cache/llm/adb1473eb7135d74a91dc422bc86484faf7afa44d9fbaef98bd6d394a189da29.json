@@ -1,0 +1,247 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "department",
+      "value": "Department of Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": "Department of Economics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "requirement_type": "Successful completion of both modules, if no BWL minor was studied in the Bachelor's degree - Registration via QIS"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 10,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Makroökonomik 1",
+      "original_value": "Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 12,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting 1",
+      "original_value": "Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BACC",
+        "name": "Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

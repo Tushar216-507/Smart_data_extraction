@@ -1,0 +1,388 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "field": "faculty",
+      "value": "Faculty of Science & Engineering",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "career",
+      "field": "employment_opportunities",
+      "value": {
+        "job_title": "Junior Network Programmer",
+        "employer": "Ubisoft",
+        "location": "Montpellier, France"
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "subjects_covered",
+      "value": "software engineering, games development, computer graphics, AI, Object Oriented Development, Software Architectures",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "internship",
+      "value": {
+        "type": "Co-Op program",
+        "company": {
+          "name": "DemonWare",
+          "specialization": "online software services for game developer studios"
+        },
+        "tasks": "developing features for the upcoming Call of Duty title, bug-fixing issues in existing titles",
+        "skills_developed": "hands-on experience, knowledge of Python, C++, Git",
+        "credited_games": "Call of Duty: Ghosts, Diablo 3, Skylanders: Swap Force"
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "competitions",
+      "value": {
+        "competition_name": "Gamesfleadh",
+        "competition_type": "programming-related competitions",
+        "specific_competition": "Robocode",
+        "competition_description": "develop an AI system for a virtual battle bot using the Java programming language"
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "definition",
+      "value": "The term hardware covers all tangible physical parts of a computer.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Hardware + History of computing hardware",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0016",
+        "chunk_title": "Hardware + History of computing hardware",
+        "chunk_order": 15
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "examples",
+      "value": "Circuits, computer chips, graphics cards, sound cards, memory (RAM), motherboards, displays, power supplies, cables, keyboards, printers, and computer mice.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Hardware + History of computing hardware",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0016",
+        "chunk_title": "Hardware + History of computing hardware",
+        "chunk_order": 15
+      }
+    },
+    {
+      "category": "other",
+      "field": "input_devices",
+      "value": [
+        "Mouse",
+        "keyboard",
+        "joystick",
+        "image scanner",
+        "webcam",
+        "graphics tablet",
+        "microphone"
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Other hardware topics + Input devices + Output devices",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0017",
+        "chunk_title": "Other hardware topics + Input devices + Output devices",
+        "chunk_order": 16
+      }
+    },
+    {
+      "category": "other",
+      "field": "output_devices",
+      "value": [
+        "Monitor",
+        "printer",
+        "loudspeaker"
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Other hardware topics + Input devices + Output devices",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0017",
+        "chunk_title": "Other hardware topics + Input devices + Output devices",
+        "chunk_order": 16
+      }
+    },
+    {
+      "category": "other",
+      "field": "both_input_output_devices",
+      "value": [
+        "Floppy disk drive",
+        "hard disk drive",
+        "optical disc drive",
+        "teleprinter"
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Other hardware topics + Input devices + Output devices",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0017",
+        "chunk_title": "Other hardware topics + Input devices + Output devices",
+        "chunk_order": 16
+      }
+    },
+    {
+      "category": "other",
+      "field": "short_range_buses",
+      "value": [
+        "RS-232",
+        "SCSI",
+        "PCI",
+        "USB"
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Other hardware topics + Input devices + Output devices",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0017",
+        "chunk_title": "Other hardware topics + Input devices + Output devices",
+        "chunk_order": 16
+      }
+    },
+    {
+      "category": "other",
+      "field": "long_range_buses",
+      "value": [
+        "Ethernet",
+        "ATM",
+        "FDDI"
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Other hardware topics + Input devices + Output devices",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0017",
+        "chunk_title": "Other hardware topics + Input devices + Output devices",
+        "chunk_order": 16
+      }
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "I/O is the means by which a computer exchanges information with the outside world.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "peripherals_definition",
+      "value": "Devices that provide input or output to the computer are called peripherals.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "input_devices",
+      "value": "Input devices include the keyboard and mouse.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "output_devices",
+      "value": "Output devices include the display and printer.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "input_output_devices",
+      "value": "Hard disk drives, floppy disk drives, and optical disc drives serve as both input and output devices.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "networking_definition",
+      "value": "Computer networking is another form of I/O.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "complexity_of_io_devices",
+      "value": "I/O devices are often complex computers in their own right, with their own CPU and memory.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    },
+    {
+      "category": "other",
+      "field": "graphics_processing_unit",
+      "value": "A graphics processing unit might contain fifty or more tiny computers that perform the calculations necessary to display 3D graphics.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Input/output (I/O)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20
+      }
+    }
+  ]
+}

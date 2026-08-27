@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0013",
+  "program_name": "Master of Landscape Architecture - MLA",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0013\\final",
+  "input_fact_count": 44,
+  "unique_fact_count": 44,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 44,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 44,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 21,
+    "admission": 4,
+    "curriculum": 9,
+    "career": 1,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 2,
+    "documents": 2,
+    "statistics": 0,
+    "other": 1
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0013\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0013\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0013\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0013\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0013\\final\\fees_data.json",
+    "visa": "data\\ireland\\ul\\programs\\0013\\final\\visa_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0013\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0013\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0013\\final\\build_summary.json"
+  }
+}

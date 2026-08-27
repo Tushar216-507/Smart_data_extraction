@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master in Management Science",
+      "original_value": "Master in Management Science",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "content",
+      "value": "Electives in various fields including Quantitative Accounting, Quantitative Economics, Quantitative Finance, and Quantitative Marketing.",
+      "original_value": "FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 0.95
+    }
+  ]
+}

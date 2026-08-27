@@ -1,0 +1,9 @@
+Bioinformatics is a young, rapidly evolving field of science at the intersection of mathematics, computer science, biology, medicine, biochemistry, and biophysics. It develops computer-based methods to address current research tasks in biology and medicine. This includes analyzing DNA, RNA, and protein sequences, studying protein structures and their complexes, and understanding the interplay of individual components in complex systems (systems biology). Bioinformatics has become indispensable in modern drug development (drug design) and the advancement of new therapies.
+
+Bioinformatics is an independent scientific discipline. Synergies no longer simply arise from biologists using modern data processing methods or computer scientists finding interesting applications for their work in biology. Instead, entirely new interdisciplinary areas have emerged that belong to neither discipline exclusively.
+
+The consecutive 3-year bachelor's degree in bioinformatics, followed by the 2-year master’s degree in bioinformatics, provides excellent qualifications for careers as bioinformaticians in research and industry.
+
+Graduates of the bioinformatics program possess solid foundational knowledge in both biology and computer science and are skilled at integrating these fields. In their profession, bioinformatics graduates are equipped to tackle challenges across the diverse application areas of bioinformatics, develop appropriate software systems, and lead projects.
+
+At Frankfurt, biology and computer science are given equal emphasis during the course of study before bioinformatics is introduced. The program focuses on sequence analysis and theoretical systems biology. Students benefit from the broad expertise in biology and the outstanding computer science resources at Goethe University, as well as the many research institutes and industrial hubs in Frankfurt and the surrounding area.

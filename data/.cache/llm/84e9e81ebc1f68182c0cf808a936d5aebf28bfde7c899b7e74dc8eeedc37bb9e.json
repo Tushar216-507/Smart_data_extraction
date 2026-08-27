@@ -1,0 +1,273 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "field": "analytic_geometry",
+      "value": "Analytic geometry allows the study of curves unrelated to circles and lines, defined as the graph of functions or implicit equations, leading to differential geometry.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Geometry",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "non_euclidean_geometries",
+      "value": "In the 19th century, mathematicians discovered non-Euclidean geometries, which do not adhere to the parallel postulate.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Geometry",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "today's_subareas",
+      "value": "Today's subareas of geometry include projective geometry, affine geometry, differential geometry, manifold theory, Riemannian geometry, algebraic geometry, topology, algebraic topology, discrete geometry, convex geometry, and complex geometry.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Geometry",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Discrete mathematics, broadly speaking, is the study of individual, countable mathematical objects.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Discrete mathematics",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "role_of_calculus",
+      "value": "Because the objects of study here are discrete, the methods of calculus and mathematical analysis do not directly apply.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Discrete mathematics",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "importance_of_algorithms",
+      "value": "Algorithms, especially their implementation and computational complexity, play a major role in discrete mathematics.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Discrete mathematics",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "major_problems_solved",
+      "value": "The four color theorem and optimal sphere packing were two major problems of discrete mathematics solved in the second half of the 20th century.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Discrete mathematics",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "open_problem",
+      "value": "The P versus NP problem, which remains open to this day, is also important for discrete mathematics, since its solution would potentially impact a large number of computationally difficult problems.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Discrete mathematics",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "includes",
+      "value": [
+        "Combinatorics, the art of enumerating mathematical objects that satisfy some given constraints.",
+        "Graph theory and hypergraphs.",
+        "Coding theory, including error correcting codes and a part of cryptography.",
+        "Matroid theory.",
+        "Discrete geometry.",
+        "Discrete probability distributions.",
+        "Game theory, including both discrete and continuous games.",
+        "Discrete optimization, including combinatorial optimization, integer programming, and constraint programming."
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Discrete mathematics",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "title",
+      "value": "Mathematical Logic and Set Theory",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Mathematical logic and set theory",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "description",
+      "value": "The two subjects of mathematical logic and set theory have belonged to mathematics since the end of the 19th century. Before this period, sets were not considered to be mathematical objects, and logic, although used for mathematical proofs, belonged to philosophy and was not specifically studied by mathematicians. Before Cantor's study of infinite sets, mathematicians were reluctant to consider actually infinite collections, and considered infinity to be the result of endless enumeration. Cantor's work offended many mathematicians not only by considering actually infinite sets but by showing that this implies different sizes of infinity, per Cantor's diagonal argument. This led to the controversy over Cantor's set theory. In the same period, various areas of mathematics concluded the former intuitive definitions of the basic mathematical objects were insufficient for ensuring mathematical rigor.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Mathematical logic and set theory",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "description",
+      "value": "This became the foundational crisis of mathematics. It was eventually solved in mainstream mathematics by systematizing the axiomatic method inside a formalized set theory. Roughly speaking, each mathematical object is defined by the set of all similar objects and the properties that these objects must have. For example, in Peano arithmetic, the natural numbers are defined by 'zero is a number', 'each number has a unique successor', 'each number but zero has a unique predecessor', and some rules of reasoning.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Mathematical logic and set theory",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "description",
+      "value": "This mathematical abstraction from reality is embodied in the modern philosophy of formalism, as founded by David Hilbert around 1910. The 'nature' of the objects defined this way is a philosophical problem that mathematicians leave to philosophers, even if many mathematicians have opinions on this nature, and use their opinion—sometimes called 'intuition'—to guide their study and proofs. The approach allows considering 'logics' (that is, sets of allowed deducing rules), theorems, proofs, etc. as mathematical objects, and to prove theorems about them.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Mathematical logic and set theory",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "description",
+      "value": "For example, Gödel's incompleteness theorems assert, roughly speaking that, in every consistent formal system that contains the natural numbers, there are theorems that are true (that is provable in a stronger system), but not provable inside the system. This approach to the foundations of mathematics was challenged during the first half of the 20th century by mathematicians led by Brouwer, who promoted intuitionistic logic (which explicitly lacks the law of excluded middle).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Mathematical logic and set theory",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "description",
+      "value": "These problems and debates led to a wide expansion of mathematical logic, with subareas such as model theory, proof theory, type theory, computability theory and computational complexity theory. Although these aspects of mathematical logic were introduced before the rise of computers, their use in compiler design, formal verification, program analysis, proof assistants and other aspects of computer science, contributed in turn to the expansion of these logical theories.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Mathematical logic and set theory",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "overview",
+      "field": "description",
+      "value": "Computational mathematics is the study of mathematical problems that are typically too large for human computing capacity.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Computational mathematics + History",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Numerical analysis is devoted to computation with approximations of real numbers (floating-point arithmetic) and provides methods for problems in analysis using functional analysis and approximation theory.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Computational mathematics + History",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "focus_areas",
+      "value": "Numerical analysis broadly includes the study of approximation and discretization, with special focus on rounding errors.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Computational mathematics + History",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Numerical analysis and, more broadly, scientific computing study non-analytic topics of mathematical science, especially algorithmic, matrix, and graph theory.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Computational mathematics + History",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Computer algebra consists mainly of the manipulation of mathematical formulas on a computer.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Computational mathematics + History",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    }
+  ]
+}

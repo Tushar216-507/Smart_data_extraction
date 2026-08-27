@@ -1,0 +1,137 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodul",
+      "original_value": "Wahlpflichtmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9153",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "compulsory elective",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9153",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Submission of the term paper from 29.06 to 21.09.2026 through QIS. Withdrawal at the latest by 21.09.2026. Submission of the term paper is due on 28.09.2026 as a PDF to the instructor.",
+      "original_value": "Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS Rücktritt spätestens bis 21.09.2026 Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9153",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Re-submission due date is 21.12.2026 as a PDF to the instructor.",
+      "original_value": "Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9153",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "instructors",
+      "value": [
+        "Dr. Cameron Seglias - James Baldwin and His World (Wed 10-12)",
+        "Prof. Dr. Simon Wendt - The African American Freedom Struggle (Wed 12-14)"
+      ],
+      "original_value": "Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12) Prof. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9153",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

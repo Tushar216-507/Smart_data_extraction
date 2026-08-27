@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "start_term",
+      "value": "Winter semester",
+      "original_value": "Wintersemester",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "admission_condition",
+      "value": "The Master's program in Scandinavian Studies can only be commenced in the Winter semester.",
+      "original_value": "Der Masterstudiengang Skandinavistik kann nur zum Wintersemester aufgenommen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

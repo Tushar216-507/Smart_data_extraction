@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "program_id": "0321",
+  "program_name": "Bachelor/Master of Science in Immersive Software Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0321\\final",
+  "input_fact_count": 89,
+  "unique_fact_count": 89,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 89,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 89,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 9,
+    "admission": 4,
+    "curriculum": 3,
+    "career": 3,
+    "fees": 1,
+    "scholarships": 3,
+    "contacts": 8,
+    "student_life": 48,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 10
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0321\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0321\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0321\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0321\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0321\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0321\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0321\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0321\\final\\student_life_data.json",
+    "other": "data\\ireland\\ul\\programs\\0321\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0321\\final\\build_summary.json"
+  }
+}

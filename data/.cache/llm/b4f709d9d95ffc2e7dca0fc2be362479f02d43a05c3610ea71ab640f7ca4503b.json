@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "start_term",
+      "value": "Winter semester",
+      "original_value": "Wintersemester",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "admission_conditions",
+      "value": "The program Master in Southeast Asian Studies can only be started in the Winter semester.",
+      "original_value": "Der Studiengang Master in Southeast Asian Studies kann nur zum Wintersemester aufgenommen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

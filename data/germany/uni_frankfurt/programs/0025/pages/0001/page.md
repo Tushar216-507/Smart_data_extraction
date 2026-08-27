@@ -1,0 +1,3 @@
+Dieser Studiengang ist nicht zulassungsbeschränkt.
+
+Sie können sich innerhalb der Bewerbungsfrist direkt über die Online-Bewerbung in den Studiengang einschreiben, sofern Sie die Zugangsvoraussetzungen erfüllen. Falls noch weitere Unterlagen benötigt werden, erfahren Sie dies am Ende des Online-Bewerbungsprozesses.

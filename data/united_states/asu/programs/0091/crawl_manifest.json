@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "created_at": "2026-08-24T19:57:22.931732+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 0,
+        "completed": 4,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "id": null,
+            "url": "https://apply.apps.asu.edu",
+            "title": "Start Undergraduate Application",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": true,
+            "page_folder": "0001",
+            "downloaded_at": "2026-08-24T19:57:23.387039+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://asuonline.asu.edu/what-it-costs",
+            "title": "Tuition and Time Estimator",
+            "category": "fees",
+            "type": "page",
+            "priority": 90,
+            "depth": 1,
+            "expand": false,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": false,
+            "page_folder": "0002",
+            "downloaded_at": "2026-08-24T19:57:24.597062+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://careercatalyst.asu.edu",
+            "title": "CareerCatalyst",
+            "category": "career",
+            "type": "page",
+            "priority": 70,
+            "depth": 1,
+            "expand": false,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": false,
+            "page_folder": "0003",
+            "downloaded_at": "2026-08-24T19:57:27.035831+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.asu.edu/about/contact",
+            "title": "Contact ASU",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": false,
+            "page_folder": "0004",
+            "downloaded_at": "2026-08-24T19:57:27.954206+05:30"
+        }
+    ]
+}

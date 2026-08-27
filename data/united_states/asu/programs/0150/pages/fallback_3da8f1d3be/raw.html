@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- CSRF Token -->
+<meta name="csrf-token" content="qmQzZQveHRq7a5Gm1xkPpvejYYdUxgD9RUTh8jsL">
+<title>EVM Management System</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="https://ems.eci.gov.in/css/main.css" type="text/css" rel="stylesheet" />
+<link href="https://ems.eci.gov.in/css/responsive.css" type="text/css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- Bootstrap-v-3.3 CSS -->
+<link rel="stylesheet" href="https://ems.eci.gov.in/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+<div class="note-board">
+  <span><i class="glyphicon glyphicon-paperclip"></i></span>
+  <div class="note-msg">
+	<ul>
+		<li>At a time only one user can be logged in system with same credential</li>
+		<li>Do not attempt another login by same credential at the time of randomization</li>
+	</ul>	
+  </div>	
+</div>	
+<main>  
+  <div class="container">
+   <div class="wrap">
+     <div class="logn-form">
+       <figure class="evm-logo"><img src="https://ems.eci.gov.in/images/evm-logo.png" alt=""></figure>
+	   <form id= "loginform" class="log-frm-area" method="POST" action="https://ems.eci.gov.in/login" autocomplete="off">
+	   <input type="hidden" name="_token" value="qmQzZQveHRq7a5Gm1xkPpvejYYdUxgD9RUTh8jsL">
+               <div class="form-group">
+          <input type="email" id="email" class="form-control dis-copy" name="email" value="" placeholder="User ID" required autofocus >
+            
+
+  
+
+
+		</div>
+        <div class="form-group">
+          <input type="password" class="form-control dis-copy" id="password" placeholder="Password" name="password" required>
+        </div>
+        <div class="flex-box captch-wrap"> 
+            <label class="control-label">Captcha</label>
+         
+            <div class="load_captcha">   <span><img src="https://ems.eci.gov.in/captcha/default?TioQpaKp" ></span></div>
+              <div>
+                <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                              </div>
+              <button type="button" class="btn btn-success btn-refresh"><i class="glyphicon glyphicon-refresh"></i></button>
+        </div><!-- End OF flex-box Div -->
+        <div class="actn-btn"> 
+         <input type="button" class="btn" value="Login" id="login">
+        </div><!-- End Of actn-btn Div -->
+        <div class="frgt-pass"><a href="https://ems.eci.gov.in/forgotpass">Forgot Password?</a></div>
+      </form>
+     </div><!-- End Of logn-form div -->
+   </div><!-- End Of wrap div -->   
+  </div><!-- End Of container div -->
+</main>
+<footer class="foter-fixed">
+ <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3 col-md-3">
+      <figure class="foot-lft"><img src="https://ems.eci.gov.in/images/foot-logo-eci.png"></figure>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <div class="foot-mid">
+        <ul>
+		  <li><a href="http://support.ecitech.in" target="_blank">Tech Support</a></li>
+          <li><a href="https://eci.gov.in" target="_blank">About ECI</a></li>
+          <li><a href="https://eci.gov.in/divisions-of-eci/ict-apps/">Made in ECI</a></li>
+        </ul>
+          <div>Copyright @2018  Election Commission of India. All rights reserved.</div>
+      </div><!-- End Of foot-mid Div -->
+    </div>
+    <div class="col-lg-3 col-md-3"></div>
+  </div>
+ </div> 
+</footer><!-- End Of foter-fixed footer -->
+<!--<input type="hidden" value="">-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ems.eci.gov.in/js/jquery-login.min.js" type="text/JavaScript"></script>
+<script src="https://ems.eci.gov.in/js/jquery.evm.js" type="text/JavaScript"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ems.eci.gov.in/js/bootstrap.min.js" type="text/JavaScript"></script>
+<script src="https://ems.eci.gov.in/js/crypto-js.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+  
+
+$(document).ready(function(){
+  $('.dis-copy').on("copy", function(e) {
+   
+                e.preventDefault();
+            });  
+            $('.dis-copy').on("paste", function(e) {
+   
+                e.preventDefault();
+            });     
+	$("#login").click(function(){
+var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9+/=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/rn/g,"n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}}
+//var email = Base64.encode($( "#email" ).val());
+	 var myArray = [
+  "2",
+  "3",
+  "4",
+  "5" 
+];
+
+
+var req_randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+var randomItem=(req_randomItem*2)+1;	
+var email_val=$( "#email" ).val();
+	 var pass=$( "#password" ).val();
+   
+   $("#email").val(encryptyData(email_val));
+   $("#password").val(encryptyData(pass));
+	 $( "#loginform" ).submit();
+
+ 
+	});
+});
+
+//Refresh
+$(".btn-refresh").click(function(){
+  $.ajax({
+     type:'GET',
+     url: "https://ems.eci.gov.in/refresh_captcha",   
+     success:function(data){
+        $(".load_captcha span").html(data.captcha);
+     }
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "chunk_id": "pdf_source_0537",
+  "model": "openai/gpt-oss-120b",
+  "response": "{\"facts\": [{\"category\": \"admission\", \"scope\": \"programme\", \"field\": \"language\", \"value\": \"German\", \"original_value\": \"Niveaustufe B2 (DSH-2)\", \"unit\": null, \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"uni_frankfurt\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}, {\"category\": \"admission\", \"scope\": \"programme\", \"field\": \"language\", \"value\": \"English\", \"original_value\": \"Sprachniveau C 1\", \"unit\": null, \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"uni_frankfurt\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}]}"
+}

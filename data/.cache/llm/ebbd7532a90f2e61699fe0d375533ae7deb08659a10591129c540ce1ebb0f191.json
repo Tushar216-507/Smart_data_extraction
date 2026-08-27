@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language",
+      "value": "German B2 (DSH-2)",
+      "original_value": "Niveaustufe B 2 (DSH-2)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "evidence_of_prior_education",
+      "value": "Proof of transferrable achievements",
+      "original_value": "Anrechnungsbescheinigung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "admission_notes",
+      "value": "For Bachelor programs, a minimum level of German B2 (DSH-2) generally applies.",
+      "original_value": "An der Johann Wolfgang Goethe-Universität gilt für Bachelor-studiengänge generell die Niveaustufe B 2 (DSH-2).",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

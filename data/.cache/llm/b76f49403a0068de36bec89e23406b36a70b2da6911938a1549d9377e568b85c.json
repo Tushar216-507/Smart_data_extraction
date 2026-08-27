@@ -1,0 +1,543 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "BIO 181",
+        "name": "General Biology I",
+        "credits": 4,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "BIO 182",
+        "name": "General Biology II",
+        "credits": 4,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "BIO 201",
+        "name": "Human Anatomy and Physiology I",
+        "credits": 4,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "BIO 202",
+        "name": "Human Anatomy and Physiology II",
+        "credits": 4,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHM 113",
+        "name": "General Chemistry I",
+        "credits": 4,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHM 116",
+        "name": "General Chemistry II",
+        "credits": 4,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHM 233",
+        "name": "General Organic Chemistry I",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHM 234",
+        "name": "General Organic Chemistry II",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHM 237",
+        "name": "General Organic Chemistry Laboratory I",
+        "credits": 1,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHM 238",
+        "name": "General Organic Chemistry Laboratory II",
+        "credits": 1,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "HCD 300",
+        "name": "Biostatistics",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "HCD 303",
+        "name": "Global Health Care Systems",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "HCD 330",
+        "name": "Health Care Systems in the U.S.",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "HSC 210",
+        "name": "Cultural Aspects of Health",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "HSC 310",
+        "name": "Health Communication",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "MED 300",
+        "name": "Historical and Contemporary Issues in Health",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "MED 320",
+        "name": "Applied Medical/Health Care Ethics",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "MED 450",
+        "name": "Leadership and Professionalism",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHS 484",
+        "name": "Topical Courses / Internships",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "description": "Minimum preprofessional coursework required",
+        "credits": 11,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHS 100",
+        "name": "Optimizing Your Health and Performance",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CHS 300",
+        "name": "An Exploration of Well-Being",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "CDE 232",
+        "name": "Human Development",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "COM 100",
+        "name": "Introduction to Human Communication",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "ECN 211",
+        "name": "Macroeconomic Principles",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "SOC 101",
+        "name": "Introductory Sociology",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "MAT 170",
+        "name": "Precalculus",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "PSY 101",
+        "name": "Introduction to Psychology",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "ENG 101",
+        "name": "First-Year Composition",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module",
+      "value": {
+        "code": "ENG 102",
+        "name": "First-Year Composition",
+        "credits": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

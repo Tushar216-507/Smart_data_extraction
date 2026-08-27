@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-26T08:42:50.881087+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Online Master of Arts in Special Education – Applied Behavior Analysis",
+    "program_id": "0029",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+    "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+    "document_data_path": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 6
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 10798,
+    "cleaned_character_count": 10778,
+    "characters_removed": 20,
+    "sections_detected": 7,
+    "chunks_created": 7,
+    "total_chunk_characters": 3920,
+    "total_chunk_words": 1223,
+    "chunks_with_page_references": 6,
+    "chunks_without_page_references": 1,
+    "chunks_containing_tables": 2,
+    "repeated_noise_lines_removed": 1,
+    "section_type_counts": {
+      "curriculum": 1,
+      "general": 5,
+      "identity_overview": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "## Document overview\n\n<figure>\n\nBEHAVIOR ANALYST\n\nBACB\n®\nCERTIFICATION BOARD\n®\n\n</figure>\n\nUS Employment Demand\nfor Behavior Analysts:\n\n2010-2025\n\n<figure>\n\nLightcast\n\n</figure>\n\nCopyright @ 2026 Behavior Analyst Certification Board®, BACB®. All rights reserved.\nBoard Certified Behavior Analyst®, BCBA®, Board Certified Behavior Analyst-Doctoral®, BCBA-D®, Board Certified Assistant\nBehavior Analyst®, and BCaBAR are owned by the Behavior Analyst Certification Board.\n\nElectronic and/or paper copies of part or all of this work may be made for personal, educational, or policymaking purposes,\nprovided such copies are not made or distributed for profit or commercial advantage. All copies, regardless of medium,\nmust include this notice on the first page. Abstracting with proper credit is permitted.\n\nThis document should be referenced as:\nBehavior Analyst Certification Board. (2026). US employment demand for behavior analysts: 2010-2025.\nhttps://www.bacb.com/wp-content/us_employmentdemand_ba/\n\n<!-- PageBreak -->\n\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->\n<!-- PageHeader=\"2010-2025\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 253,
+        "word_count": 132,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "85103b18c3d9a0c4b21354727bba9ccdd13ed5d45699d78c06ad1d9f68e7ace7",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Summary",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          2
+        ],
+        "page_start": 2,
+        "page_end": 2
+      },
+      "content": "# Summary\n\nLightcast® is a software company that collects and analyzes labor market data in the United States.\nThese data are aggregated in the Developer™ database, which includes online job postings\ncollected from over 65,000 sources. This database allows advanced searches of over 70 data\nfields that are extracted from each posting, including job title, occupation, employer, industry,\nrequired skills, credentials, and salary. Duplicate job postings are excluded from Developer\nsearch results.\n\nThe Developer database was used to assess the national employment demand for behavior\nanalysts from the past 16 years (2010-2025) and the demand by state from the past 12 months.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 137,
+        "word_count": 103,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      "traceability": {
+        "content_sha256": "403e95cce112169dae5a9694e3a3a3aa4c98e3ff77076c2a33997674441ecef1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 3,
+        "title": "Key Findings",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          2,
+          3
+        ],
+        "page_start": 2,
+        "page_end": 3
+      },
+      "content": "# Key Findings\n\n· Demand for behavior analysts continues to grow. Annual nationwide demand for individuals\nholding BCBA or BCBA-D certification has increased each year since 2010, with a 28% increase\nfrom 2024 to 2025. Demand was highest in five states in 2025 (ordered from most to least):\nCalifornia, New Jersey, Texas, Massachusetts, and North Carolina. These five states account for\n38% of the recent demand for behavior analysts, with California alone accounting for 15% of the\n2025 demand.\n\n· The demand for assistant behavior analysts decreased in 2025. After a significant 131%\nincrease in demand from 2023 to 2024, the demand for BCaBA certification decreased\nbetween 2024 and 2025; however, there is still an overall increasing trend for BCaBA\ncertification demand since 2010. Demand was highest in five states in 2025 (ordered from\nmost to least): California, Florida, Michigan, Texas, and Pennsylvania. These five states account\nfor 43% of the recent demand for assistant behavior analysts, with California alone accounting\nfor 15% of the 2025 demand.\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 1 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"2010-2025\" -->\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 321,
+        "word_count": 165,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": [
+          2,
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "460532536e840c96b85c8cc5a153738a917456993a939e4eadaf1c837e2acaa9",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 4,
+        "title": "Annual Demand for BCBA/BCBA-D Certification",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "# Annual Demand for BCBA/BCBA-D Certification\n\nThe following graph depicts the annual number of job postings nationwide over the past 16 years\n(2010-2025) that either required or preferred BCBA/BCBA-D certification.\n\n<figure>\n\n150,000\n\n132,307\n\n120,000\n\n\\# of Job Postings\n\n103,150\n\n90,000\n\n60,000\n\n57,569\n\n65,366\n\n46,960\n\n33,996\n\n30,000\n\n28,967\n\n16,109\n\n789\n\n1,144\n\n1,342\n\n2,638 2,903\n\n3,901 6,203\n\n7,091\n\n0\n\nT\n\nT\n\n2010\n\n2011\n\n2012\n\n2013\n\n2014\n\n2015\n\n2016\n\n2017\n\n2018\n\n2019\n\n2020\n\n2021\n\n022 2023\n\n2024\n\n2025\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 198,
+        "word_count": 97,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2299a263e8d8439ca28baaaa0ea801797de6e6d89e57bdadb36387b968d7ddcc",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 5,
+        "title": "Demand for BCBA/BCBA-D Certification by State",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3,
+          4,
+          5
+        ],
+        "page_start": 3,
+        "page_end": 5
+      },
+      "content": "# Demand for BCBA/BCBA-D Certification by State\n\nThe following heat map depicts the number of job postings per state in 2025. Data from the top 30\nstates and their respective changes from 2024 to 2025 are depicted in the table on page 3.\n\n<figure>\n\nWA\n2,250\n\nMT\n199\n\nND\n112\n\nMN\n1,485\n\nNH, 1,319\n\nVT, 492\n\nID\n398\n\nSD\n238\n\nWI\n781\n\nME\n330\n\nOR\n1,254\n\nWY\n111\n\nNY\n4,902\n\nNE\n962\n\nIA\n877\n\nMI\n4,160\n\nCA\n20,258\n\nIL\n\nNV\n753\n\nUT\n1,578\n\nCO\n3,510\n\n4,835\n\nIN\n2,954\n\nOH\n\nPA\n5,012\n\n1,912\n\nMA, 7,315\n\nKS\n1,215\n\nMO\n2,565\n\nRI, 621\n\nKY\n563\n\nWV\n178\n\nVA\n4,343\n\nCT, 2,358\n\nAZ\n2,841\n\nNM\n807\n\nOK\n895\n\nAR\n680\n\nTN\n2,691\n\nNC\n6,874\n\nNJ, 8,139\n\nSC\n\nDE, 784\n\nTX\n7,792\n\nLA\n667\n\nMS\n257\n\nAL\n1,063\n\nGA\n6,471\n\n1,425\n\nDC, 183\n\nMD, 4,751\n\nAK\n138\n\nFL\n\n5,537\n\nHI\n472\n\n</figure>\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 2 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"2010-2025\" -->\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->\n\n<table>\n<tr>\n<th>BCBA/BCBA-D By State</th>\n<th>2024 Postings</th>\n<th>2025 Postings</th>\n<th>% Change</th>\n</tr>\n<tr>\n<td>California</td>\n<td>19,578</td>\n<td>20,258</td>\n<td>3%</td>\n</tr>\n<tr>\n<td>New Jersey</td>\n<td>5,154</td>\n<td>8,139</td>\n<td>58%</td>\n</tr>\n<tr>\n<td>Texas</td>\n<td>5,889</td>\n<td>7,792</td>\n<td>32%</td>\n</tr>\n<tr>\n<td>Massachusetts</td>\n<td>6,132</td>\n<td>7,315</td>\n<td>19%</td>\n</tr>\n<tr>\n<td>North Carolina</td>\n<td>4,228</td>\n<td>6,874</td>\n<td>63%</td>\n</tr>\n<tr>\n<td>Georgia</td>\n<td>4,315</td>\n<td>6,471</td>\n<td>50%</td>\n</tr>\n<tr>\n<td>Florida</td>\n<td>4,709</td>\n<td>5,537</td>\n<td>18%</td>\n</tr>\n<tr>\n<td>Pennsylvania</td>\n<td>3,828</td>\n<td>5,012</td>\n<td>31%</td>\n</tr>\n<tr>\n<td>New York</td>\n<td>3,026</td>\n<td>4,902</td>\n<td>62%</td>\n</tr>\n<tr>\n<td>Illinois</td>\n<td>4,680</td>\n<td>4,835</td>\n<td>3%</td>\n</tr>\n<tr>\n<td>Maryland</td>\n<td>3,023</td>\n<td>4,751</td>\n<td>57%</td>\n</tr>\n<tr>\n<td>Virginia</td>\n<td>3,425</td>\n<td>4,343</td>\n<td>27%</td>\n</tr>\n<tr>\n<td>Michigan</td>\n<td>3,424</td>\n<td>4,160</td>\n<td>21%</td>\n</tr>\n<tr>\n<td>Colorado</td>\n<td>2,611</td>\n<td>3,510</td>\n<td>34%</td>\n</tr>\n<tr>\n<td>Indiana</td>\n<td>2,341</td>\n<td>2,954</td>\n<td>26%</td>\n</tr>\n<tr>\n<td>Arizona</td>\n<td>3,025</td>\n<td>2,841</td>\n<td>-6%</td>\n</tr>\n<tr>\n<td>Tennessee</td>\n<td>1,933</td>\n<td>2,691</td>\n<td>39%</td>\n</tr>\n<tr>\n<td>Missouri</td>\n<td>1,454</td>\n<td>2,565</td>\n<td>76%</td>\n</tr>\n<tr>\n<td>Connecticut</td>\n<td>1,793</td>\n<td>2,358</td>\n<td>32%</td>\n</tr>\n<tr>\n<td>Washington</td>\n<td>2,487</td>\n<td>2,250</td>\n<td>-10%</td>\n</tr>\n<tr>\n<td>Ohio</td>\n<td>1,791</td>\n<td>1,912</td>\n<td>7%</td>\n</tr>\n<tr>\n<td>Utah</td>\n<td>814</td>\n<td>1,578</td>\n<td>94%</td>\n</tr>\n<tr>\n<td>Minnesota</td>\n<td>916</td>\n<td>1,485</td>\n<td>62%</td>\n</tr>\n<tr>\n<td>South Carolina</td>\n<td>706</td>\n<td>1,425</td>\n<td>102%</td>\n</tr>\n<tr>\n<td>New Hampshire</td>\n<td>810</td>\n<td>1,319</td>\n<td>63%</td>\n</tr>\n<tr>\n<td>Oregon</td>\n<td>1,399</td>\n<td>1,254</td>\n<td>-10%</td>\n</tr>\n<tr>\n<td>Kansas</td>\n<td>1,087</td>\n<td>1,215</td>\n<td>12%</td>\n</tr>\n<tr>\n<td>Alabama</td>\n<td>687</td>\n<td>1,063</td>\n<td>55%</td>\n</tr>\n<tr>\n<td>Nebraska</td>\n<td>532</td>\n<td>962</td>\n<td>81%</td>\n</tr>\n<tr>\n<td>Oklahoma</td>\n<td>815</td>\n<td>895</td>\n<td>10%</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 3 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"2010-2025\" -->\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1513,
+        "word_count": 360,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": [
+          3,
+          4,
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "01a680279a527897bc72f7bea462d6c927e1c88da355e136efa11579e739e9e0",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 6,
+        "title": "Annual Demand for BCaBA Certification",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "# Annual Demand for BCaBA Certification\n\nThe following graph depicts the annual number of job postings over the past 16 years (2010-2025)\nthat either required or preferred BCaBA certification.\n\n<figure>\n\n15,000\n\n14,479\n\n12,000\n\n\\# of Job Postings\n\n10,717\n\n9,000\n\n6,653\n\n7,093\n\n6,000\n\n5,675\n\n6,438\n\n6,268\n\n3,000\n\n2,204\n\n11\n\n21\n\n54\n\n78\n\n95\n\n375\n\n777\n\n1,040\n\n0\n\n2010\n\n2011\n\n2012\n\n2013\n\n2014\n\n2015\n\n2016\n\n2017\n\n2018\n\n2019\n\n2020\n\n2021\n\n2022\n22\n\n2023\n\n2024\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 174,
+        "word_count": 84,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "fabc7290447f32bae88ed03a040089e29cd5ce634c98fab47b188e6d8867d7f3",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 7,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0029",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "Demand for BCaBA Certification by State",
+        "type": "general",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5,
+          6
+        ],
+        "page_start": 5,
+        "page_end": 6
+      },
+      "content": "## Demand for BCaBA Certification by State\n\nThe following heat map depicts the number of job postings per state in 2025. Data from the top 30\nstates and their respective changes from 2024 to 2025 are depicted in the table on page 5.\n\n<figure>\n\nWA\n272\n\nMT\n20\n\nND\n15\n\nMN\n149\n\nNH, 71\n\nVT, 70\n\nID\n7\n\nWI\n44\n\nME\n7\n\nOR\n203\n\nSD\n3\n\nWY\n8\n\nIA\n52\n\nMI\n788\n\nNY\n106\n\nNE\n48\n\nIL\n\nIN\n\nOH\n\nCA\n1,612\n\nPA\n560\n\nNV\n79\n\n165\n\nMA, 266\n\nUT\n46\n\nco\n198\n\n230\n\n261\n\nKS\n107\n\nMO\n305\n\nWV\n10\n\nRI, 39\n\nKY\n\nVA\n\n28\n\n470\n\nCT, 64\n\nAZ\n137\n\nNM\n55\n\nOK\n82\n\nAR\n9\n\nTN\n346\n\nNC\n307\n\nNJ, 402\n\nSC\n\nDE, 25\n\nTX\n669\n\nLA\n110\n\nMS\n14\n\nAL\n190\n\nGA\n554\n\n278\n\nDC, 6\n\nMD, 133\n\nAK\n27\n\nFL\n\n978\n\nHI\n92\n\n</figure>\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 4 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"2010-2025\" -->\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->\n\n<table>\n<tr>\n<th>BCaBA by State</th>\n<th>2024 Postings</th>\n<th>2025 Postings</th>\n<th>% Change</th>\n</tr>\n<tr>\n<td>California</td>\n<td>2,610</td>\n<td>1,612</td>\n<td>-38%</td>\n</tr>\n<tr>\n<td>Florida</td>\n<td>1,408</td>\n<td>978</td>\n<td>-31%</td>\n</tr>\n<tr>\n<td>Michigan</td>\n<td>734</td>\n<td>788</td>\n<td>7%</td>\n</tr>\n<tr>\n<td>Texas</td>\n<td>1,341</td>\n<td>669</td>\n<td>-50%</td>\n</tr>\n<tr>\n<td>Pennsylvania</td>\n<td>705</td>\n<td>560</td>\n<td>-21%</td>\n</tr>\n<tr>\n<td>Georgia</td>\n<td>590</td>\n<td>554</td>\n<td>-6%</td>\n</tr>\n<tr>\n<td>Virginia</td>\n<td>920</td>\n<td>470</td>\n<td>-49%</td>\n</tr>\n<tr>\n<td>New Jersey</td>\n<td>393</td>\n<td>402</td>\n<td>2%</td>\n</tr>\n<tr>\n<td>Tennessee</td>\n<td>405</td>\n<td>346</td>\n<td>-15%</td>\n</tr>\n<tr>\n<td>North Carolina</td>\n<td>423</td>\n<td>307</td>\n<td>-27%</td>\n</tr>\n<tr>\n<td>Missouri</td>\n<td>253</td>\n<td>305</td>\n<td>21%</td>\n</tr>\n<tr>\n<td>South Carolina</td>\n<td>248</td>\n<td>278</td>\n<td>12%</td>\n</tr>\n<tr>\n<td>Washington</td>\n<td>324</td>\n<td>272</td>\n<td>-16%</td>\n</tr>\n<tr>\n<td>Massachusetts</td>\n<td>374</td>\n<td>266</td>\n<td>-29%</td>\n</tr>\n<tr>\n<td>Indiana</td>\n<td>226</td>\n<td>261</td>\n<td>15%</td>\n</tr>\n<tr>\n<td>Illinois</td>\n<td>517</td>\n<td>230</td>\n<td>-56%</td>\n</tr>\n<tr>\n<td>Oregon</td>\n<td>214</td>\n<td>203</td>\n<td>-5%</td>\n</tr>\n<tr>\n<td>Colorado</td>\n<td>254</td>\n<td>198</td>\n<td>-22%</td>\n</tr>\n<tr>\n<td>Alabama</td>\n<td>256</td>\n<td>190</td>\n<td>-26%</td>\n</tr>\n<tr>\n<td>Ohio</td>\n<td>221</td>\n<td>165</td>\n<td>-25%</td>\n</tr>\n<tr>\n<td>Minnesota</td>\n<td>202</td>\n<td>149</td>\n<td>-26%</td>\n</tr>\n<tr>\n<td>Arizona</td>\n<td>212</td>\n<td>137</td>\n<td>-35%</td>\n</tr>\n<tr>\n<td>Maryland</td>\n<td>120</td>\n<td>133</td>\n<td>11%</td>\n</tr>\n<tr>\n<td>Louisiana</td>\n<td>194</td>\n<td>110</td>\n<td>-43%</td>\n</tr>\n<tr>\n<td>Kansas</td>\n<td>267</td>\n<td>107</td>\n<td>-60%</td>\n</tr>\n<tr>\n<td>New York</td>\n<td>86</td>\n<td>106</td>\n<td>23%</td>\n</tr>\n<tr>\n<td>Hawaii</td>\n<td>83</td>\n<td>92</td>\n<td>11%</td>\n</tr>\n<tr>\n<td>Oklahoma</td>\n<td>201</td>\n<td>82</td>\n<td>-59%</td>\n</tr>\n<tr>\n<td>Nevada</td>\n<td>175</td>\n<td>79</td>\n<td>-55%</td>\n</tr>\n<tr>\n<td>New Hampshire</td>\n<td>18</td>\n<td>71</td>\n<td>294%</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 5 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1324,
+        "word_count": 282,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.bacb.com/wp-content/uploads/2025/02/Lightcast2026_260127-2-a.pdf",
+        "document_id": "source",
+        "program_id": "0029",
+        "page_id": null,
+        "page_numbers": [
+          5,
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "17a91fb0cfb95b00ff7dbf17de4e46d84c0dd2f66aeea26d7c50dd5b899f4e08",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

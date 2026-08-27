@@ -1,0 +1,602 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Modern languages and cultures of SEA",
+      "original_value": "Moderne Sprachen und Kulturen Südostasiens",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "1.1",
+        "name": "Modern languages and cultures of SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "1.1",
+        "name": "Modern languages and cultures of SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theories and methods",
+      "original_value": "Theorien und Methoden",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "2.1",
+        "name": "Theories and methods"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 7,
+      "original_value": "7 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "2.1",
+        "name": "Theories and methods"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Colloquium",
+      "original_value": "Kolleg",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "2.2",
+        "name": "Colloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 2,
+      "original_value": "2 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "2.2",
+        "name": "Colloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Scientific Practice and Softskills",
+      "original_value": "Wissenschaftliche Praxis und Softskills",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "2.3",
+        "name": "Scientific Practice and Softskills"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 3,
+      "original_value": "3 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "2.3",
+        "name": "Scientific Practice and Softskills"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Current research and developments",
+      "original_value": "Aktuelle Forschung und Entwicklungen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "3.1",
+        "name": "Current research and developments"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "3.1",
+        "name": "Current research and developments"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Media, politics and economy in modern SEA",
+      "original_value": "Medien, Politik und Wirtschaft im modernen Südostasien",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "4.1",
+        "name": "Media, politics and economy in modern SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "4.1",
+        "name": "Media, politics and economy in modern SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Politics and identity / politics of identity",
+      "original_value": "Politik und Identität / Politik der Identität",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "4.2",
+        "name": "Politics and identity / politics of identity"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "4.2",
+        "name": "Politics and identity / politics of identity"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Economic and social change",
+      "original_value": "Wirtschaftlicher und sozialer Wandel",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "4.3",
+        "name": "Economic and social change"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "4.3",
+        "name": "Economic and social change"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Additional Studies",
+      "original_value": "Zusatzstudien",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "10.1",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 3,
+      "original_value": "3 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "10.1",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Semester abroad",
+      "original_value": "Auslandssemester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "11",
+        "name": "Semester abroad"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "11",
+        "name": "Semester abroad"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Masterarbeit",
+      "original_value": "Master's thesis",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "final_project",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "final_project",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 120,
+      "original_value": "120 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

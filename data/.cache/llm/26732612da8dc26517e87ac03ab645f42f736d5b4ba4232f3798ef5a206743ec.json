@@ -1,0 +1,170 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "requirement_for_participation",
+      "value": "None, but see 'Language of instruction'",
+      "original_value": "☐ None, but see 'Language of instruction'",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German",
+      "original_value": "German",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_examination_type_and_scope_content",
+      "value": "Final module examination consists of: Written exam (90 Min.) for SEAS 7.2",
+      "original_value": "Final module examination consists of: Written exam (90 Min.) for SEAS 7.2",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Language course 1",
+      "original_value": "SEAS 7.1 Language course 1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 7.1",
+        "name": "Language course 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Language course 2",
+      "original_value": "SEAS 7.2 Language course 2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 7.2",
+        "name": "Language course 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Diversity and regional integration in SEA",
+      "original_value": "SEAS 7.3 Diversity and regional integration in SEA",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 7.3",
+        "name": "Diversity and regional integration in SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Seminar",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

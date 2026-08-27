@@ -1,0 +1,189 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university",
+      "value": "Goethe-Universität Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_code",
+      "value": null,
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "requirement_type": "mandatory",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "requirement_type": "mandatory",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "requirement_type": "mandatory",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "requirement_type": "mandatory",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1 oder Makroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK) oder Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "OMIK/BMAK",
+        "name": "Mikroökonomik 1 oder Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "requirement_type": "mandatory",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": {
+        "min": 10,
+        "max": 12
+      },
+      "original_value": "10/ 12",
+      "unit": null,
+      "entity": {
+        "type": "course",
+        "id": "OMIK/BMAK",
+        "name": "Mikroökonomik 1 oder Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "requirement_type": "mandatory",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

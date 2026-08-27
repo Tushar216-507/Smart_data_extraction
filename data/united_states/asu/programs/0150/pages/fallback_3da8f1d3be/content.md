@@ -1,0 +1,2 @@
+- At a time only one user can be logged in system with same credential
+- Do not attempt another login by same credential at the time of randomization

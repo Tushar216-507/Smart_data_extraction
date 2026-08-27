@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Graded",
+      "original_value": "benotet",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Examination",
+      "original_value": "Prüfungsleistungen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "1": {
+          "grade": "very good",
+          "original_grade": "sehr gut",
+          "description": "eine hervorragende Leistung;"
+        },
+        "2": {
+          "grade": "good",
+          "original_grade": "gut",
+          "description": "eine Leistung, die erheblich über den durchschnittlichen Anforderungen liegt;"
+        },
+        "3": {
+          "grade": "satisfactory",
+          "original_grade": "befriedigend",
+          "description": "eine Leistung, die durchschnittlichen Anforderungen entspricht;"
+        },
+        "4": {
+          "grade": "sufficient",
+          "original_grade": "ausreichend",
+          "description": "eine Leistung, die trotz ihrer Mängel noch den Anforderungen genügt;"
+        },
+        "5": {
+          "grade": "fail",
+          "original_grade": "nicht ausreichend",
+          "description": "eine Leistung, die wegen erheblicher Mängel den Anforderungen nicht mehr genügt."
+        }
+      },
+      "original_value": "Noten zu verwenden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "final_grade_conditions",
+      "value": "The overall grade for a passed Master's examination is determined based on specified criteria, including the final thesis, using a specified grading scale.",
+      "original_value": "Die Gesamtnote einer bestanden Masterprüfung ergibt sich durch die folgende Aufstellung...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "special_conditional_grading",
+      "value": "If the total grade is at most 1.3 and the thesis is graded 1.0, the overall evaluation is 'passed with distinction'.",
+      "original_value": "wurde eine Gesamtnote bis höchstens einschließlich 1,3...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

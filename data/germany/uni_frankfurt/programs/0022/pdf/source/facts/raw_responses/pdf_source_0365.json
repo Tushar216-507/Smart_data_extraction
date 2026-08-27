@@ -1,0 +1,5 @@
+{
+  "chunk_id": "pdf_source_0365",
+  "model": "openai/gpt-oss-120b",
+  "response": "{\"facts\": [{\"category\": \"fees\", \"scope\": \"programme\", \"field\": \"examination_fee\", \"value\": 150, \"original_value\": \"150,- Euro\", \"unit\": \"Euro\", \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"uni_frankfurt\"}, \"qualifiers\": {\"status\": \"applicable for six-semester bachelor's programs\", \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}, {\"category\": \"fees\", \"scope\": \"programme\", \"field\": \"examination_fee\", \"value\": 200, \"original_value\": \"200,- Euro\", \"unit\": \"Euro\", \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"uni_frankfurt\"}, \"qualifiers\": {\"status\": \"applicable for eight-semester bachelor's programs\", \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}]}"
+}

@@ -1,0 +1,112 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Language and Seminar Module",
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Language and Seminar Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "The module consists of two language courses and one seminar. In the seminar, the students of the various language courses discuss regional similarities and differences within the ASEAN.",
+      "original_value": "Das Modul besteht aus zwei Sprachkursen und einem Seminar. Im Seminar diskutieren die Studierenden der verschiedenen Sprachkurse regionale Gemeinsamkeiten und Unterschiede innerhalb der ASEAN.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Language and Seminar Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "languages_offered",
+      "value": [
+        "Thai",
+        "Vietnamese",
+        "Dutch"
+      ],
+      "original_value": "Thai, Vietnam, Niederländisch (für bibliographische Forschung)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Language and Seminar Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "elective_options",
+      "value": "Depending on the list of offered languages, other language courses, advanced courses in Thai or Vietnam, or an independent module related to regional expertise can be elected.",
+      "original_value": "Je nach Liste der angebotenen Sprachen können andere Sprachkurse, Fortgeschrittenenkurse in Thai oder Vietnam oder ein unabhängiges Modul zur regionalen Expertise gewählt werden.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Language and Seminar Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

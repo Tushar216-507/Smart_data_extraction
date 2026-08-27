@@ -1,0 +1,7 @@
+A flexible degree in mathematics and statistics that provides broad training, develops strong analytical skills and prepares you for many career paths.
+
+If you like mathematics and statistics but you aren’t totally certain what career you want to pursue, this might be a good course choice for you. Mathematical and statistical skills are highly valued by employers and are easily transferable. Mathematical Sciences, with its three options, is the perfect way to study something you like, while having a chance to think about your eventual career choice.
+
+Why Study Mathematical Sciences at UL?
+
+The programme is suited to students with an aptitude for mathematics and statistics who are interested in applying their skills to problem solving in the real world. It is designed to provide a broad training that will allow you to work in any environment that requires strong analytical and problem solving skills. The programme involves an introductory two years, common to all students, when the fundamental mathematical and statistical tools are introduced. After two years, you will have the option of specialising in mathematics or statistical data science. The programme also provides a theoretical grounding for students who wish to pursue postgraduate studies.

@@ -1,0 +1,58 @@
+{
+  "facts": [
+    {
+      "category": "scholarships",
+      "subcategory": "travel grant",
+      "field": "travel_distance_grants",
+      "value": [
+        {
+          "distance_km": "100-499",
+          "grant_amount_eur": 211
+        },
+        {
+          "distance_km": "500-1999",
+          "grant_amount_eur": 309
+        },
+        {
+          "distance_km": "2000-2999",
+          "grant_amount_eur": 395
+        },
+        {
+          "distance_km": "3000-3999",
+          "grant_amount_eur": 580
+        },
+        {
+          "distance_km": "4000-7999",
+          "grant_amount_eur": 1188
+        },
+        {
+          "distance_km": "8000+",
+          "grant_amount_eur": 1735
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Public Administration - Graduate Diploma or MA"
+    },
+    {
+      "category": "scholarships",
+      "subcategory": "subsistence grant",
+      "field": "subsistence_grant_amounts",
+      "value": [
+        {
+          "receiving_country": "Austria, Belgium, Denmark, Finland, France, Germany, Iceland, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Norway, Sweden",
+          "grant_amount_per_day_eur": "180-190"
+        },
+        {
+          "receiving_country": "Cyprus, Czechia, Estonia, Greece, Latvia, Malta, Portugal, Slovakia, Slovenia, Spain",
+          "grant_amount_per_day_eur": "160-170"
+        },
+        {
+          "receiving_country": "Bulgaria, Croatia, Hungary, Lithuania, North Macedonia, Poland, Romania, Serbia, Türkiye",
+          "grant_amount_per_day_eur": "140-148"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Public Administration - Graduate Diploma or MA"
+    }
+  ]
+}

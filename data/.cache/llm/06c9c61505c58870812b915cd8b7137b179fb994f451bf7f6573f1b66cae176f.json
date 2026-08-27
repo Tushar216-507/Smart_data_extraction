@@ -1,0 +1,142 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Applied Bahasa Indonesia / Bahasa Malaysia",
+      "original_value": "Applied Bahasa Indonesia / Bahasa Malaysia",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 6",
+        "name": "Applied Bahasa Indonesia / Bahasa Malaysia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "duration",
+      "value": 2,
+      "original_value": "2 Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "English",
+      "original_value": "Englisch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": {
+        "form": "Written examination or term paper",
+        "duration": "90 minutes or 15 pages",
+        "module": "SEAS 5.2"
+      },
+      "original_value": "Klausur (90 Min.) oder Hausarbeit (15 S.) zu SEAS 5.2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Improvement of oral and written expression skills and knowledge of formal conventions",
+        "Improvement of oral expression and listening comprehension and confidence to use the language appropriately in social and professional life",
+        "Ability to understand complex texts and grasp implicit meanings, as well as the competence to analyze and evaluate these texts linguistically"
+      ],
+      "original_value": "- Verbesserung der mündlichen und schriftlichen Ausdrucksfähigkeiten und der Kenntnisse von Formkonventionen;\n\n- Verbesserung der mündlichen Ausdrucksfähigkeit und des Hörverstehens und Sicherheit, die Sprache im gesellschaftlichen und beruflichen Leben angemessen und flexibel zu gebrauchen;\n\n- Fähigkeit anspruchsvolle Texte zu verstehen und auch implizite Bedeutungen zu erfassen sowie die Kompetenz, diese Texte auch in sprachlicher Hinsichtlich analysieren und beurteilen zu können",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

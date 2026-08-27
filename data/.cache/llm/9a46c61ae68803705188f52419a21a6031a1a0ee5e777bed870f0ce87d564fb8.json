@@ -1,0 +1,290 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Seminar",
+      "original_value": "Sk.MA.2-1: Seminar",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Seminar",
+      "original_value": "Sk.MA.2-2: Seminar",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Projektarbeit",
+      "original_value": "Sk.MA.2-3: Projektarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-3",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar",
+      "original_value": "S",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar",
+      "original_value": "S",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Project work",
+      "original_value": "Projektarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-3",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_total_hours",
+      "value": 5,
+      "original_value": null,
+      "unit": "ECTS",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_total_hours",
+      "value": 5,
+      "original_value": null,
+      "unit": "ECTS",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_total_hours",
+      "value": 5,
+      "original_value": null,
+      "unit": "ECTS",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-3",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "weekly_contact_hours",
+      "value": 2,
+      "original_value": "2",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "weekly_contact_hours",
+      "value": 2,
+      "original_value": "2",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": "Seminar"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

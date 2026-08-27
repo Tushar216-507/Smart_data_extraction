@@ -1,0 +1,268 @@
+{
+  "facts": [
+    {
+      "category": "requirements",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "None. The eligibility of workshops within 2.3 is restricted for students without DSH.",
+      "original_value": "Keine. Die Wählbarkeit von Workshops im Rahmen von 2.3 ist für Studierende ohne DSH allerdings eingeschränkt.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 2.1 Theories and methods of SEA studies",
+      "original_value": "SEAS 2.1 Theories and methods of SEA studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 2.1",
+        "name": "SEAS 2.1 Theories and methods of SEA studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 2.2 Colloquium",
+      "original_value": "SEAS 2.2 Colloquium",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 2.2",
+        "name": "SEAS 2.2 Colloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 2.3 Scientific practice and softskills",
+      "original_value": "SEAS 2.3 Scientific practice and softskills",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 2.3",
+        "name": "SEAS 2.3 Scientific practice and softskills"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 15,
+      "original_value": "15",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 2",
+        "name": "SEAS 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "duration",
+      "value": "2-3 semesters",
+      "original_value": "2-3 Semester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "English and German",
+      "original_value": "Englisch und Deutsch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper (10-15 pages) for SEAS 2.1",
+      "original_value": "Hausarbeit (10-15 Seiten) zu SEAS 2.1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 2.1",
+        "name": "SEAS 2.1 Theories and methods of SEA studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "module_description",
+      "value": "The module familiarizes students with the latest research and current debates in the field and provides opportunities to stay informed about current events in Southeast Asia and the academic discussion about them.",
+      "original_value": "Das Modul macht die Studierenden einerseits mit den neuesten wissenschaftlichen Arbeiten und den gegenwärtigen Debatten im Fach bekannt und bietet andererseits auch Gelegenheit, sich über aktuelle Ereignissen in Südostasien und die wissenschaftliche Diskussion über sie auf dem Laufenden zu halten.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 3",
+        "name": "Current issues and research"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Detailed knowledge and critical engagement with current theoretical and thematic trends in the field and ongoing debates.",
+        "Continuous processing and discussion of current events in Southeast Asia.",
+        "Familiarity with a broad range of thematic and methodological approaches in preparation for the master thesis."
+      ],
+      "original_value": "detaillierte Kenntnisse und kritische Auseinandersetzung mit aktuellen theoretischen und thematischen Strömungen des Fachs und mit laufenden Debatten; kontinuierliche Bearbeitung und Diskussion von aktuellen Ereignissen in Südostasien; Kennenlernen eines breiten Spektrums an thematischen und methodischen Ansätzen zur Vorbereitung auf die eigene Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 3",
+        "name": "Current issues and research"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

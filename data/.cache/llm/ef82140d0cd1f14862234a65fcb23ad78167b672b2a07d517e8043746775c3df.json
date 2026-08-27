@@ -1,0 +1,374 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 120,
+      "original_value": "120 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 1-4",
+      "original_value": "SEAS 1-4",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 1-4",
+        "name": "SEAS 1-4"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 54,
+      "original_value": "54 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 1-4",
+        "name": "SEAS 1-4"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodule SEAS 5-9",
+      "original_value": "Wahlpflichtmodule SEAS 5-9",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5-9",
+        "name": "Wahlpflichtmodule SEAS 5-9"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5-9",
+        "name": "Wahlpflichtmodule SEAS 5-9"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 10",
+      "original_value": "SEAS 10",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "SEAS 10"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "SEAS 10"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "SEAS 11",
+      "original_value": "SEAS 11",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "SEAS 11"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "SEAS 11"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Masterarbeit",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Masterarbeit",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Masterarbeit",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Elective modules may be restricted due to capacity limitations.",
+      "original_value": "Die Wählbarkeit von Wahlpflichtmodulen kann bei fehlender Kapazität durch Beschluss des Fachbereichs-rats eingeschränkt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Changing elective modules is only possible if the student has not failed the originally chosen module.",
+      "original_value": "Ein Wechsel des Wahlpflichtmoduls ist nur möglich, wenn die oder der Studierende noch keine Prüfungsleistung im zunächst gewählten Wahlpflichtmodul endgültig nicht bestanden hat.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "If a module is only offered in German, students without DSH cannot choose it.",
+      "original_value": "Sofern die Lehrveranstaltungen eines Wahlpflichtmoduls nur in deutscher Sprache angeboten werden, bedeutet das für Studierende ohne DSH, dass ihnen diese Wahlmöglichkeit nicht offensteht.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Students without DSH can only select courses that are offered in English.",
+      "original_value": "Bestimmt eine Auswahl zwischen englischsprachigen und deutsch-sprachigen Lehrveranstaltungen ist für o.g. Studierendengruppe die Auswahlmöglichkeit auf die englisch-sprachigen Lehrveranstaltungen beschränkt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

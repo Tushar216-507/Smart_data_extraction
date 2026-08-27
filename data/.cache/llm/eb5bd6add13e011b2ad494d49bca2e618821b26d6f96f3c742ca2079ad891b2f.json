@@ -1,0 +1,138 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_system",
+      "value": {
+        "grade_thresholds": [
+          {
+            "range": "1.0 - 1.4",
+            "points": 10
+          },
+          {
+            "range": "1.5 - 1.7",
+            "points": 9
+          },
+          {
+            "range": "1.8 - 1.9",
+            "points": 8
+          },
+          {
+            "range": "2.0 - 2.1",
+            "points": 7
+          },
+          {
+            "range": "2.2 - 2.3",
+            "points": 6
+          },
+          {
+            "range": "2.4 - 2.5",
+            "points": 5
+          },
+          {
+            "range": "2.6 - 2.7",
+            "points": 4
+          },
+          {
+            "range": "2.8 - 2.9",
+            "points": 3
+          },
+          {
+            "range": "3.0 - 3.1",
+            "points": 2
+          },
+          {
+            "range": "≥ 3.2",
+            "points": 1
+          }
+        ]
+      },
+      "original_value": "Durchschnittsnote in quantitativen Methodenmodulen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "quantitative_reasoning_evaluation",
+      "value": {
+        "percentile_thresholds": [
+          {
+            "percentile": "91-100 %",
+            "points": 10
+          },
+          {
+            "percentile": "86-90 %",
+            "points": 9
+          },
+          {
+            "percentile": "81-85 %",
+            "points": 8
+          },
+          {
+            "percentile": "76-80 %",
+            "points": 7
+          },
+          {
+            "percentile": "71-75 %",
+            "points": 6
+          },
+          {
+            "percentile": "66-70 %",
+            "points": 5
+          },
+          {
+            "percentile": "61-65 %",
+            "points": 4
+          },
+          {
+            "percentile": "56-60 %",
+            "points": 3
+          },
+          {
+            "percentile": "51-55 %",
+            "points": 2
+          },
+          {
+            "percentile": "46-50 %",
+            "points": 1
+          },
+          {
+            "percentile": "45 % oder weniger",
+            "points": 0
+          }
+        ]
+      },
+      "original_value": "Nachweis guter mathematischer/quantitativer Kenntnisse auf dem Quantitative Reasoning Score des GRE General Test oder dem Quantitative Score des GMAT",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

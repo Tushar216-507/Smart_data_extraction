@@ -1,0 +1,727 @@
+<html>
+  <body>
+    <row>
+<cell valign="top" width="165">
+
+
+<br/><br/>
+
+
+</cell>
+<cell width="89%">
+<table border="0" cellpadding="0" cellspacing="0" style="BACKGROUND-REPEAT: no-repeat;" width="1004">
+<row>
+<cell width="42"/>
+<cell align="left" width="3237">
+<div align="left">
+<table border="0" cellpadding="0" cellspacing="0" width="947">
+<row>
+<cell> </cell>
+</row>
+<row>
+<cell width="99%"><h1>
+
+        C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ    </h1></cell>
+</row>
+<row>
+<cell> </cell>
+</row>
+</table>
+
+<div align="left" style="padding-left:10px">
+
+<table border="0" cellpadding="0" cellspacing="0" height="92" id="Table_01" width="947">
+<row>
+<cell width="33">
+</cell>
+<cell background="/images/resource/viewboard_02.gif?v=1001" width="139"/>
+<cell background="/images/resource/viewboard_02.gif?v=1001" valign="top" width="746"> </cell>
+<cell width="29">
+</cell>
+</row>
+<row>
+<cell background="/images/resource/viewboard_04.gif?v=1001">
+</cell>
+<cell valign="top"> <div align="center">
+<table border="0" cellpadding="0" cellspacing="0" height="54" id="Table_01" width="169">
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockprofile_02.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+<row>
+<cell background="/images/resource/blockprofile_04.gif?v=1001"> </cell>
+<cell background="/images/resource/blockprofile_05.gif?v=1001" valign="top"> 
+<table border="0" width="100%">
+<row>
+<cell/>
+</row>
+<row>
+<cell/>
+</row>
+<row>
+<cell> <div align="center">
+ 
+
+โพสกระทู้ (
+                         8        )
+บทความ (
+                         0        )
+
+
+
+
+</div></cell>
+</row>
+<row>
+<cell/>
+</row>
+</table>
+</cell>
+<cell background="/images/resource/blockprofile_06.gif?v=1001"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockprofile_08.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table>
+
+</div> </cell>
+<cell valign="top"> <table border="0" cellpadding="2" cellspacing="5" width="100%">
+<row>
+<cell height="235" valign="top">
+
+คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ ซึ่งหลักการเหมือนกับเครื่องคิดเลขทั่วไปๆ ซึ่งสามารถกดบวกเลขไปได้เรื่อยๆ ซึ่งข้อแตกต่างคือต้องเป็นการรับตัวเลขนั้นๆ มาจาก textbox อันเดียวครับ (โจทย์กำหนดมา) ผมทำได้แค่ให้มันรับมาแค่สองตัว ไม่ทราบจะมีวิธีไหนที่ให้มันรับตัวเลขได้ตลอดจนกว่าจะกดเคลียร์ครับ<br/>
+<br/>
+นี่เป็นภาพโปรแกรมนะครับ<br/>
+<br/>
+<br/>
+ส่วนนี่เป็นโค้ดของโปรแกรมตัวนี้ครับ<br/>
+Code (C#)<br/>
+<pre>using System;&#13;
+using System.Collections.Generic;&#13;
+using System.ComponentModel;&#13;
+using System.Data;&#13;
+using System.Drawing;&#13;
+using System.Linq;&#13;
+using System.Text;&#13;
+using System.Windows.Forms;&#13;
+&#13;
+namespace test&#13;
+{&#13;
+    public partial class Form1 : Form&#13;
+    {&#13;
+        public static int x, y, z;&#13;
+        public Form1()&#13;
+        {&#13;
+            InitializeComponent();&#13;
+        }&#13;
+&#13;
+        private void button1_Click(object sender, EventArgs e)&#13;
+        {&#13;
+            x = Convert.ToInt32(textBox1.Text);&#13;
+            textBox1.Clear();&#13;
+            label1.Text = Convert.ToString(x);&#13;
+        }&#13;
+&#13;
+        private void button2_Click(object sender, EventArgs e)&#13;
+        {&#13;
+            y = Convert.ToInt32(textBox1.Text);&#13;
+            z=x + y;&#13;
+            label1.Text =Convert.ToString(x)  + " + " + Convert.ToString(y) + " = " + Convert.ToString(z);&#13;
+            //textBox1.Text=Convert.ToString(x);&#13;
+        }&#13;
+&#13;
+        private void button3_Click(object sender, EventArgs e)&#13;
+        {&#13;
+            textBox1.Clear();&#13;
+            label1.Text = "";&#13;
+        }&#13;
+    }&#13;
+}&#13;</pre><br/><br/><br/><br/>Tag : - - - -              
+<br/> </cell>
+</row>
+<row>
+<cell height="20" valign="top">
+ </cell>
+</row>
+<row>
+<cell height="20" valign="top"><table border="0" cellpadding="0" cellspacing="0" height="34" id="Table_01" width="709">
+<row>
+<cell width="13"> </cell>
+<cell background="/images/resource/blockviewtopic_02.gif?v=1001" width="670"> </cell>
+<cell width="10"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_05.gif?v=1001"><table border="0" class="topicSubject" width="100%">
+<row>
+<cell width="34%">Date :
+                          2009-11-14 23:01:44</cell>
+<cell width="36%">By :
+                          princecoffee</cell>
+<cell width="16%">View :
+                          18014</cell>
+<cell width="14%">Reply :
+                          4</cell>
+</row>
+</table></cell>
+<cell> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_08.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table></cell>
+</row>
+<row>
+<cell height="20" valign="top">
+</cell>
+</row>
+</table>
+</cell>
+<cell background="/images/resource/viewboard_06.gif?v=1001">
+</cell>
+</row>
+<row>
+<cell>
+</cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001">
+</cell>
+<cell>
+</cell>
+</row>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="947">
+<row>
+<cell valign="top" width="1201"> 
+<br/>
+<table border="0" cellpadding="0" cellspacing="0" height="92" id="Table_01" width="955">
+<row>
+<cell width="33"> </cell>
+<cell background="/images/resource/viewboard_02.jpg?v=1001" width="169"> </cell>
+<cell background="/images/resource/viewboard_02.jpg?v=1001" width="731"> </cell>
+<cell width="29"> </cell>
+</row>
+<row>
+<cell background="/images/resource/viewboard_04.gif?v=1001"> </cell>
+<cell valign="top"> </cell>
+<cell valign="top"><table border="0" cellpadding="5" cellspacing="5" width="99%">
+<row>
+<cell height="250" valign="top"> 
+                 พอดี เขียน WinApp ไม่เป็นเลนเขียน C# WebApp มาให้นะครับ ลองประยุกดูและกัน เพราะ WebApp ผมจะใช้ Session ด้วย ไม่รู้ WinApp ใช้อะไร ^^<br/>
+<br/>&#13;
+หน้า aspx<br/>
+Code (C#)<br/>
+<pre>&lt;body&gt;&#13;
+    &lt;form id="form1" runat="server"&gt;&#13;
+    &lt;div&gt;&#13;
+        &amp;nbsp;&lt;asp:Label ID="Label2" runat="server"&gt;&lt;/asp:Label&gt;&#13;
+    &lt;asp:Label ID="Label1" runat="server"&gt;&lt;/asp:Label&gt;&lt;br /&gt;&#13;
+        &lt;asp:TextBox ID="TextBox1" runat="server"&gt;&lt;/asp:TextBox&gt;&#13;
+        &lt;asp:Button ID="btn_up" runat="server" Text="Insert" OnClick="btn_up_Click" /&gt;&#13;
+        &lt;asp:Button ID="btn_Add" runat="server" Text="+" OnClick="btn_Add_Click" /&gt;&#13;
+        &lt;asp:Button ID="btn_result" runat="server" Text="=" OnClick="btn_result_Click" /&gt;&#13;
+        &lt;/div&gt;&#13;
+    &lt;/form&gt;&#13;
+&lt;/body&gt;&#13;</pre><br/>
+<br/>&#13;
+Code Behind<br/>
+Code (C#)<br/>
+<pre>using System.Collections.Generic;&#13;
+public partial class Calculate : System.Web.UI.Page&#13;
+{   &#13;
+    public ArrayList inputData = new ArrayList();&#13;
+    int result = 0;&#13;
+    protected void Page_Load(object sender, EventArgs e)&#13;
+    {&#13;
+        &#13;
+        if (Session["data"] != null)&#13;
+        {&#13;
+            inputData = (ArrayList)Session["data"];&#13;
+&#13;
+        }&#13;
+        if (Session["result"] != null)&#13;
+        {&#13;
+            result = (int)Session["result"];&#13;
+        }&#13;
+       &#13;
+       &#13;
+    }&#13;
+    &#13;
+    protected void btn_up_Click(object sender, EventArgs e)&#13;
+    {&#13;
+        inputData.Add(TextBox1.Text);&#13;
+        int index = inputData.Count;&#13;
+        if (index &gt;= 3)&#13;
+        {&#13;
+            if (result == 0)&#13;
+            {&#13;
+                if (inputData[index - 2].ToString() == "+")&#13;
+                {&#13;
+                    result += System.Convert.ToInt32(inputData[index - 3].ToString()) + System.Convert.ToInt32(inputData[index - 1].ToString());&#13;
+                    Session["result"] = result;&#13;
+&#13;
+                }&#13;
+            }&#13;
+            else&#13;
+            {&#13;
+                result += System.Convert.ToInt32(inputData[index - 1].ToString());&#13;
+                Session["result"] = result;&#13;
+            }&#13;
+        }&#13;
+        &#13;
+        Session["data"] = inputData;&#13;
+        TextBox1.Text = "";&#13;
+        Label2.Text = "";&#13;
+        foreach (string a in inputData)&#13;
+        {&#13;
+            //Label1.Text +=""+ a;&#13;
+            Label2.Text += "" + a;&#13;
+&#13;
+        }&#13;
+&#13;
+    }&#13;
+    protected void btn_Add_Click(object sender, EventArgs e)&#13;
+    {&#13;
+        inputData.Add("+");&#13;
+        Session["data"] = inputData;&#13;
+        TextBox1.Text = "";&#13;
+        Label2.Text = "";&#13;
+        foreach (string a in inputData)&#13;
+        {&#13;
+            //Label1.Text +=""+ a;&#13;
+            Label2.Text += "" + a;&#13;
+&#13;
+        }&#13;
+    }&#13;
+    protected void btn_result_Click(object sender, EventArgs e)&#13;
+    {&#13;
+        inputData = (ArrayList)Session["data"];&#13;
+        foreach(string a in inputData)&#13;
+        {&#13;
+            //Label1.Text +=""+ a;&#13;
+            Label1.Text = "=" + result;&#13;
+&#13;
+        }&#13;
+    }&#13;
+}&#13;</pre><br/> 
+</cell>
+</row>
+<row>
+<cell valign="top">
+<table border="0" cellpadding="0" cellspacing="0" height="34" id="Table_01" width="708">
+<row>
+<cell width="13"> </cell>
+<cell background="/images/resource/blockviewtopic_02.gif?v=1001" width="670"> </cell>
+<cell width="10"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_05.gif?v=1001"><table border="0" class="topicSubject" width="100%">
+<row>
+<cell width="55%">Date :
+                            2009-11-19 13:48:04</cell>
+<cell width="45%">By :
+                            ksillapapan</cell>
+</row>
+</table></cell>
+<cell> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_08.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table></cell>
+</row>
+</table>
+</cell>
+<cell background="/images/resource/viewboard_06.gif?v=1001"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table>
+ </cell></row></table></div>
+
+<table border="0" cellpadding="0" cellspacing="0" height="92" id="Table_01" width="955">
+<row>
+<cell width="33"> </cell>
+<cell background="/images/resource/viewboard_02.jpg?v=1001" width="169"> </cell>
+<cell background="/images/resource/viewboard_02.jpg?v=1001" width="731"> </cell>
+<cell width="29"> </cell>
+</row>
+<row>
+<cell background="/images/resource/viewboard_04.gif?v=1001"> </cell>
+<cell valign="top"> </cell>
+<cell valign="top"><table border="0" cellpadding="5" cellspacing="5" width="99%">
+<row>
+<cell height="250" valign="top"> 
+Code (C#)<br/>
+<pre>        private string number(string N)&#13;
+        {&#13;
+            if (textBox1.Text == "0")&#13;
+                return N;&#13;
+            else if (btnResult.Enabled == true)&#13;
+                return textBox1.Text + N;&#13;
+            else&#13;
+            {&#13;
+                btnResult.Enabled = true;&#13;
+                listBox1.Items.Clear();&#13;
+                return N;&#13;
+            }&#13;
+&#13;</pre><br/> 
+</cell>
+</row>
+<row>
+<cell valign="top">
+<table border="0" cellpadding="0" cellspacing="0" height="34" id="Table_01" width="708">
+<row>
+<cell width="13"> </cell>
+<cell background="/images/resource/blockviewtopic_02.gif?v=1001" width="670"> </cell>
+<cell width="10"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_05.gif?v=1001"><table border="0" class="topicSubject" width="100%">
+<row>
+<cell width="55%">Date :
+                            2011-12-16 14:55:07</cell>
+<cell width="45%">By :
+                            kkkkk</cell>
+</row>
+</table></cell>
+<cell> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_08.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table></cell>
+</row>
+</table>
+</cell>
+<cell background="/images/resource/viewboard_06.gif?v=1001"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table>
+ </div>
+<br/>
+<table border="0" cellpadding="0" cellspacing="0" height="92" id="Table_01" width="955">
+<row>
+<cell width="33"> </cell>
+<cell background="/images/resource/viewboard_02.jpg?v=1001" width="169"> </cell>
+<cell background="/images/resource/viewboard_02.jpg?v=1001" width="731"> </cell>
+<cell width="29"> </cell>
+</row>
+<row>
+<cell background="/images/resource/viewboard_04.gif?v=1001"> </cell>
+<cell valign="top"> </cell>
+<cell valign="top"><table border="0" cellpadding="5" cellspacing="5" width="99%">
+<row>
+<cell height="250" valign="top"> 
+<br/>
+<br/>&#13;
+using System.Collections.Generic;<br/>&#13;
+using System.ComponentModel;<br/>&#13;
+using System.Data;<br/>&#13;
+using System.Drawing;<br/>&#13;
+using System.Linq;<br/>&#13;
+using System.Text;<br/>&#13;
+using System.Windows.Forms;<br/>
+<br/>&#13;
+namespace WindowsFormsApplication1<br/>&#13;
+{<br/>&#13;
+    public partial class Form1 : Form<br/>&#13;
+    {<br/>&#13;
+        //int a;<br/>&#13;
+        bool plus = false;<br/>&#13;
+        bool minus = false;<br/>&#13;
+        bool multiply = false;<br/>&#13;
+        bool divide = false;<br/>&#13;
+        bool power = false;<br/>&#13;
+        public Form1()<br/>&#13;
+        {<br/>&#13;
+            InitializeComponent();<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_0_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "0";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_1_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "1";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_2_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "2";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_3_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "3";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_4_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "4";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_5_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "5";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_6_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "6";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_7_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "7";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_8_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "8";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void num_9_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = textBox1.Text + "9";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnBackspace_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            int a = textBox1.Text.Length;<br/>&#13;
+            if (textBox1.Text == "")<br/>&#13;
+            {<br/>&#13;
+                textBox1.Text = "";<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                textBox1.Text = textBox1.Text.Remove(a - 1);<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button1_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (plus)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                decimal dec = Convert.ToDecimal(textBox1.Tag) + Convert.ToDecimal(textBox1.Text);<br/>
+<br/>&#13;
+                textBox1.Text = dec.ToString();<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else if (minus)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                decimal dec = Convert.ToDecimal(textBox1.Tag) - Convert.ToDecimal(textBox1.Text);<br/>
+<br/>&#13;
+                textBox1.Text = dec.ToString();<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else if (multiply)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                decimal dec = Convert.ToDecimal(textBox1.Tag) * Convert.ToDecimal(textBox1.Text);<br/>
+<br/>&#13;
+                textBox1.Text = dec.ToString();<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else if (divide)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                if (textBox1.Text == "0")<br/>&#13;
+                {<br/>
+<br/>&#13;
+                    textBox1.Text = "0";<br/>
+<br/>&#13;
+                }<br/>
+<br/>&#13;
+                else if (textBox1.Text != "0")<br/>&#13;
+                {<br/>
+<br/>&#13;
+                    decimal dec = Convert.ToDecimal(textBox1.Tag) / Convert.ToDecimal(textBox1.Text);<br/>
+<br/>&#13;
+                    textBox1.Text = dec.ToString();<br/>
+<br/>&#13;
+                }<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else if (power)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                decimal dec = Convert.ToDecimal(textBox1.Tag) * Convert.ToDecimal(textBox1.Tag);<br/>
+<br/>&#13;
+                textBox1.Text = dec.ToString();<br/>&#13;
+            }<br/>
+<br/>
+<br/>
+<br/>
+<br/>&#13;
+            return;<br/>
+<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnKoon_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (textBox1.Text == "")<br/>&#13;
+            {<br/>
+<br/>&#13;
+                return;<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else<br/>&#13;
+            {<br/>
+<br/>&#13;
+                multiply = true;<br/>
+<br/>&#13;
+                textBox1.Tag = textBox1.Text;<br/>
+<br/>&#13;
+                textBox1.Text = "";<br/>
+<br/>
+<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnLopp_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (textBox1.Text == "")<br/>&#13;
+            {<br/>
+<br/>&#13;
+                return;<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else<br/>&#13;
+            {<br/>
+<br/>&#13;
+                minus = true;<br/>
+<br/>&#13;
+                textBox1.Tag = textBox1.Text;<br/>
+<br/>&#13;
+                textBox1.Text = "";<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnBuak_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (textBox1.Text == "")<br/>&#13;
+            {<br/>
+<br/>&#13;
+                return;<br/>
+<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else<br/>&#13;
+            {<br/>
+<br/>&#13;
+                plus = true;<br/>
+<br/>&#13;
+                textBox1.Tag = textBox1.Text;<br/>
+<br/>&#13;
+                textBox1.Text = "";<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnHan_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (textBox1.Text == "")<br/>&#13;
+            {<br/>&#13;
+                return;<br/>&#13;
+            }<br/>
+<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                divide = true;<br/>&#13;
+                textBox1.Tag = textBox1.Text;<br/>&#13;
+                textBox1.Text = "";<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnClear_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            textBox1.Text = "";<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnJud_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (textBox1.Text.Contains("."))<br/>&#13;
+            {<br/>&#13;
+                return;<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                textBox1.Text = textBox1.Text + ".";<br/>&#13;
+            }<br/>&#13;
+        }<br/>&#13;
+    }<br/>&#13;
+เอามาให้ดูครับ ใช่ได้เลย เห็นว่า ปีหนึ่งต้องใช่มัน ผมไม่เก่งหรอกแต่ อัลลกอล์ ผมแน่น เลยทำได้ ลองให้เพื่อนฝึกอัลกอล์ดูนะครับ<br/> 
+</cell>
+</row>
+<row>
+<cell valign="top">
+<table border="0" cellpadding="0" cellspacing="0" height="34" id="Table_01" width="708">
+<row>
+<cell width="13"> </cell>
+<cell background="/images/resource/blockviewtopic_02.gif?v=1001" width="670"> </cell>
+<cell width="10"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_05.gif?v=1001"><table border="0" class="topicSubject" width="100%">
+<row>
+<cell width="55%">Date :
+                            2012-09-14 15:28:36</cell>
+<cell width="45%">By :
+                            narutoyah</cell>
+</row>
+</table></cell>
+<cell> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_08.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table></cell>
+</row>
+</table>
+</cell>
+<cell background="/images/resource/viewboard_06.gif?v=1001"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell background="/images/resource/viewboard_08.jpg?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table>
+ </cell></row></table></cell></row>
+  </body>
+</html>

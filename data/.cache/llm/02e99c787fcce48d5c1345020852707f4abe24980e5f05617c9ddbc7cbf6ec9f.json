@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Literaturwissenschaft",
+      "original_value": "Grundlagen der Literaturwissenschaft (MP 2602)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2602",
+        "name": "Grundlagen der Literaturwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0015",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": "Main subject and minor subject",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2602",
+        "name": "Grundlagen der Literaturwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0015",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte",
+      "original_value": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte (MP 2605)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2605",
+        "name": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0015",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": "Main subject and minor subject",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Written examination",
+      "original_value": "Klausur",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2605",
+        "name": "Grundlagen der Kultur-, Ideen- und Sozialgeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0015",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

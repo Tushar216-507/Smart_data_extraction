@@ -1,0 +1,144 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_requirements",
+      "value": "Proof of an adequate command of English, comparable to level B2 of the Common European Framework of Reference for Languages (CEFR).",
+      "original_value": "Proof of an adequate command of English, comparable to level B 2 of the \"Common European Framework of Reference for Languages\" (CEFR) (dating September 2000).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "additional_prerequisite",
+        "requirement_type": "language",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "accepted_language_proofs",
+      "value": [
+        "Abitur",
+        "Upper school certificate or proof of at least five years of English language learning at school",
+        "UNIcert degree, level 2",
+        "TOEFL test (internet based, score of 87 points or more)",
+        "Certificates accepted as equivalent by the Examinations Committee"
+      ],
+      "original_value": "a) Abitur\n\nb) Upper school certificate or proof of at least five years of English language learning at school or\n\nc) UNIcert degree, level 2\n\nd) TOEFL test (internet based, score of 87 points or more), or\n\ne) certificates regarding another proof accepted as equivalent by the Examinations Committee",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "additional_prerequisite",
+        "requirement_type": "language",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "indonesian_or_malay_language_requirements",
+      "value": "Proof of adequate command of Bahasa Indonesia or Bahasa Malaysia is required, equivalent to level attained in the Bachelor's programme 'Southeast Asian Languages and Cultures' after successful completion of introductory course modules SKS 1 and SKS 2, or at least 200 hours' language study.",
+      "original_value": "In addition, proofs for adequate command of Bahasa Indonesia or Bahasa Malaysia must be provided. Students with a Bachelor's degree involving little or no knowledge of Indonesian or Malay must provide proof that their language skills are at least equivalent to the level attained in the Bachelor's programme \"Southeast Asian Languages and Cultures\" (Sprachen und Kulturen Südostasiens) following successful completion of Bahasa Indonesia introductory course modules SKS 1 and SKS 2, or, alternatively, to at least 200 hours' language study at a university level.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "additional_prerequisite",
+        "requirement_type": "language",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "conditional_enrollment_terms",
+      "value": "Enrollment is conditional until proof of language skills is submitted, which must be provided with the application for admission to the Master's examination.",
+      "original_value": "Until then the enrolment is conditional only, according to § 54 (4) of the Higher Education Act of the State of Hessen (Hessisches Hochschulgesetz).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "conditional_enrollment",
+        "requirement_type": "language",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "alternative_proof_of_language_skills",
+      "value": [
+        "Expert report or test of language skills acquired through time abroad, university language courses, or private study",
+        "Completion of a written examination parallel to the abovementioned module examination for the Bachelor's programme",
+        "Other certificates accepted as equivalent by the Examinations Committee"
+      ],
+      "original_value": "Proof may be effected by the following means:\n\na) expert report or test of language skills acquired in the course of time spent abroad, university language courses, or private study; or\n\nb) ... completion of a written examination parallel to the abovementioned module examination for the Bachelor's programme; or\n\nc) ... other certificates accepted as equivalent by the Examinations Committee.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "acceptable_language_proofs",
+        "requirement_type": "language",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

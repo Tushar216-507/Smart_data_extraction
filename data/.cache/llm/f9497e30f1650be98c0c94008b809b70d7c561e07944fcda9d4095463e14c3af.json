@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "visa",
+      "field": "visa_requirements_link",
+      "value": "https://www.irishimmigration.ie/visa-non-visa-required-nationalities/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Non-EU applicants",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "visa",
+      "field": "non_visa_applicants_link",
+      "value": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Non-EU applicants",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    }
+  ]
+}

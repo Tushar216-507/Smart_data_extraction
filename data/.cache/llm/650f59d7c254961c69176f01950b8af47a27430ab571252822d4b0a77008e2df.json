@@ -1,0 +1,355 @@
+{
+  "facts": [
+    {
+      "category": "student_life",
+      "field": "campus_technology_services_access",
+      "value": "Students can connect to campus technology and services through My ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Activate your ASURITE User ID + Request your I-20 and apply for your visa + Give your parents or family access to your records and account + Pay your enrollment deposit (on-campus students only) + Complete the math placement test",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "math_placement_test",
+      "value": "All first-year students are required to take the math placement test at least seven calendar days before their Academic Orientation Session.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Activate your ASURITE User ID + Request your I-20 and apply for your visa + Give your parents or family access to your records and account + Pay your enrollment deposit (on-campus students only) + Complete the math placement test",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "deposit_payment",
+      "value": "On-campus students must pay an enrollment deposit to confirm attendance.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Activate your ASURITE User ID + Request your I-20 and apply for your visa + Give your parents or family access to your records and account + Pay your enrollment deposit (on-campus students only) + Complete the math placement test",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "parent_guest_access",
+      "value": "Students can give their parents or guardians access to their academic records and the ability to pay tuition and bills through My ASU Parent Guest Access.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Activate your ASURITE User ID + Request your I-20 and apply for your visa + Give your parents or family access to your records and account + Pay your enrollment deposit (on-campus students only) + Complete the math placement test",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "mmr_immunization_requirement",
+      "value": "All students born after Jan. 1, 1957, are required to meet the MMR immunization requirement before classes begin.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Submit your measles, mumps and rubella immunization record (on-campus students only)",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "documentation_upload",
+      "value": "You can upload required documentation in your ASU My Health Portal.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Submit your measles, mumps and rubella immunization record (on-campus students only)",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "mmr_vaccine_availability",
+      "value": "The MMR vaccine is available for a fee at any of ASU's Health Services locations.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Submit your measles, mumps and rubella immunization record (on-campus students only)",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "health_services_contact",
+      "value": "https://eoss.asu.edu/health/contact",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Submit your measles, mumps and rubella immunization record (on-campus students only)",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "my_health_portal",
+      "value": "https://asuportal.pointnclick.com/login_dualauthentication.aspx",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Submit your measles, mumps and rubella immunization record (on-campus students only)",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "first_year_student_housing",
+      "value": "All ASU first-year students live in the residential college of their academic major.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "specific_community_housing",
+      "value": "Barrett students live in the Barrett residential community for their first two years.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "housing_portal_opening",
+      "value": "The housing portal for fall 2026 admits opened in early January 2026.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "housing_selection_process",
+      "value": "Once the housing portal opens and you've paid your enrollment deposit, you can select your housing and dining preferences.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "priority_housing_deadline",
+      "value": "The priority housing deadline is May 15.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "housing_preference_guarantee",
+      "value": "We cannot guarantee your housing preference if you apply after the priority deadline.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "nonresident_registration_requirement",
+      "value": "If you are a nonresident or international student, your housing plans must be confirmed before you can register for an Academic Orientation Session.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "housing_portal_url",
+      "value": "https://asu.starrezhousing.com/StarRezPortalX/EF39AF6A/14/25/Home-Home?UrlToken=0888FD2E",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "select_housing_url",
+      "value": "https://housing.asu.edu/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "housing",
+      "field": "learn_about_housing_options_url",
+      "value": "/campus-life/housing-dining",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Confirm housing and dining options",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "orientation_access",
+      "value": "online in My ASU",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "orientation_steps",
+      "value": "complete essential next steps for enrollment",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "orientation_login",
+      "value": "Log in to My ASU to view details.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "orientation_requirement",
+      "value": "All students must complete the New Student Orientation Experience in order to enroll in classes.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "orientation_session",
+      "value": "Register and complete an Academic Orientation Session, where you’ll meet with your academic college and finalize your class schedule.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "health_insurance_requirement",
+      "value": "Health insurance is mandatory for all registered international students and a condition of enrollment.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "insurance_coverage",
+      "value": "International students must have adequate medical and accident insurance coverage.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "insurance_charge",
+      "value": "Mandatory student health insurance is automatically charged for all international students.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "ASU’s New Student Orientation Experience + Health insurance",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    }
+  ]
+}

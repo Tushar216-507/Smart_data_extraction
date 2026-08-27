@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Empirical Linguistics",
+      "original_value": "Empirical Linguistics",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": [
+        "Altorientalische Sprachen",
+        "Digital Humanities",
+        "Englische Sprachwissenschaft",
+        "Klassische Sprach- und Kulturwissenschaft",
+        "Semitische Sprachen"
+      ],
+      "original_value": [
+        "Altorientalische Sprachen",
+        "Digital Humanities",
+        "Englische Sprachwissenschaft",
+        "Klassische Sprach- und Kulturwissenschaft",
+        "Semitische Sprachen"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

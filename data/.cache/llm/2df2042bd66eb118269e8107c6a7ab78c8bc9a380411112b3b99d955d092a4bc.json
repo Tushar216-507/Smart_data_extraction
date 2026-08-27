@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "faculty",
+      "value": "Department 09: Language and Cultural Studies",
+      "original_value": "FACHBEREICH 09: SPRACH- UND KULTURWISSENSCHAFTEN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

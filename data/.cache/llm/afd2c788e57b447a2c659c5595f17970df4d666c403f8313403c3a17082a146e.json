@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "tuition",
+      "field": "base_tuition",
+      "value": "tuition and fees paid to ASU as a graduate student",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tuition",
+      "field": "differential_tuition",
+      "value": "some programs charge differential or program-specific tuition",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "costs",
+      "field": "additional_expenses",
+      "value": "housing and meals, books and supplies, transportation, and personal expenses will vary depending on spending choices",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tuition_estimator",
+      "field": "tuition_estimator_url",
+      "value": "https://tuition.asu.edu/cost-calculator/tuition",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    }
+  ]
+}

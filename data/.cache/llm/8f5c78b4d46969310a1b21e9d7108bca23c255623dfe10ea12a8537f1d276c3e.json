@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "qualifications",
+      "value": "The bachelor's program provides subject-specific foundations and methodological competence, as well as field-related qualifications.",
+      "original_value": "Nach § 6 Abs. 1 RO vermittelt ein Bachelorstudiengang fachwissenschaftliche Grundlagen und Methodenkompetenz, gleichzeitig impliziert er auch berufsfeldbezogene Qualifikationen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "competencies",
+      "value": "The program aims to develop interdisciplinary connections and the acquisition of key qualifications such as language competencies, social skills, methodological skills, gender competencies, and media competencies.",
+      "original_value": "bei dem es um die Herstellung fachübergreifender Bezüge und die Aneignung von Schlüsselqualifikationen wie Sprachkompetenzen, Sozialkompetenzen, Methodenkompetenzen, Genderkompetenzen, Medienkompetenzen etc. geht.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "career_fields",
+      "value": "The program qualifies for specific occupations and fields of work, avoiding general phrases.",
+      "original_value": "Bitte erläutern Sie, für welche Berufsfelder der Studiengang qualifizieren soll. Benennen Sie mögliche Berufe oder Berufsfelder, wobei allgemeine Phrasen i.S. von Tätigkeit im Öffentlichen Dienst oder in den Medien etc. vermieden werden sollen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

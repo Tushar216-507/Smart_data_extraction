@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "immunization_requirement",
+      "field": "mmr_immunization_verification",
+      "value": "All students born after Jan. 1, 1957, are required to meet the MMR immunization requirement before classes begin.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "immunization_requirement",
+      "field": "mmr_documentation_upload",
+      "value": "You can upload the required documentation in the My Health Portal.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "immunization_requirement",
+      "field": "mmr_vaccine_availability",
+      "value": "The MMR vaccine is available for a fee at any of ASU's Health Services locations.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "enrollment",
+      "field": "enrollment_deposit_submission",
+      "value": "Confirm your place in ASU by submitting your enrollment deposit via My ASU.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "enrollment",
+      "field": "priority_tasks_check",
+      "value": "Be sure to check My ASU often for any Priority Tasks needed to complete your steps to enroll.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    }
+  ]
+}

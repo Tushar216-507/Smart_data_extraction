@@ -1,0 +1,42 @@
+{
+    "version": 1,
+    "created_at": "2026-08-26T15:36:56.026088+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 1,
+        "completed": 1,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/home/studium/studiengaenge/stadtforschung-urban-studies-master/bewerbung-zulassung",
+            "title": "Bewerbung und Zulassungsvoraussetzungen arrow right icon",
+            "category": "admission",
+            "type": "page",
+            "priority": 95,
+            "depth": 1,
+            "expand": true,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": true,
+            "page_folder": "0001",
+            "downloaded_at": "2026-08-26T15:36:57.259637+05:30"
+        },
+        {
+            "id": null,
+            "url": "https://www.uni-frankfurt.de/de/studium/studiengaenge/studienfachberatung@humangeographie.de",
+            "title": "studienfachberatung@humangeographie.de",
+            "category": "contact",
+            "type": "page",
+            "priority": 60,
+            "depth": 1,
+            "expand": false,
+            "status": "pending",
+            "parent": "program",
+            "children_discovered": false,
+            "page_folder": null,
+            "downloaded_at": null
+        }
+    ]
+}

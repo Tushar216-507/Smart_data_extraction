@@ -1,0 +1,142 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "decision_body",
+      "value": "Vorsitzende des Prüfungsausschusses",
+      "original_value": "Vorsitzende des Prüfungsausschusses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "decision_body",
+      "value": "Prüfungsausschuss",
+      "original_value": "Prüfungsausschuss",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "criteria_for_rejection",
+      "value": [
+        "Incomplete documents",
+        "Not fulfilling the admission requirements",
+        "Losing the examination claim for a module or not passing an examination permanently"
+      ],
+      "original_value": [
+        "die Unterlagen unvollständig sind",
+        "die in Abs. 1 d) genannten Zulassungsvoraussetzungen nicht erfüllt sind",
+        "die oder der Studierende den Prüfungsanspruch für ein Modul nach Abs. 1 b) oder für den jeweiligen Studiengang endgültig verloren hat oder eine der in Abs. 1 a) genannten Prüfungen endgültig nicht bestanden hat"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "exceptions_handling",
+      "value": "Prüfungsausschuss decides in special cases upon request",
+      "original_value": "der Prüfungsausschuss entscheidet auf Antrag der oder des Studierenden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "notification_of_rejection",
+      "value": "Written notification with justification and legal remedy instruction",
+      "original_value": "wird dem oder der Studierenden von der oder dem Vorsitzenden des Prüfungsausschusses schriftlich mitgeteilt. Sie ist mit einer Begründung und einer Rechtsbehelfsbelehrung zu versehen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

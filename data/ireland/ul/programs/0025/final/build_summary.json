@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0025",
+  "program_name": "European Studies (Double Degree) - MA",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0025\\final",
+  "input_fact_count": 25,
+  "unique_fact_count": 25,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 25,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 25,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 8,
+    "admission": 10,
+    "curriculum": 1,
+    "career": 0,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 2,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0025\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0025\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0025\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0025\\final\\fees_data.json",
+    "visa": "data\\ireland\\ul\\programs\\0025\\final\\visa_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0025\\final\\build_summary.json"
+  }
+}

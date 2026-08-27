@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_description",
+      "value": "In cumulative module examinations, the module grade is calculated as a weighted average of the grades for the individual sub-examinations weighted by credit points (CP). The module examination grade is determined by multiplying the grades of the individual module sub-examinations by their assigned CP and dividing by the total number of CP included. Only the first decimal place after the comma is considered in forming the module grade.",
+      "original_value": "Bei kumulativen Modulprüfungen errechnet sich die Modulnote als ein nach CP gewichtetes Mittel der Noten für die einzelnen Teilprüfungen. Zur Ermittlung der Note der Modulprüfung werden die Noten der einzelnen Modulteilprüfungen mit den ihnen zugeordneten CP multipliziert und durch die Gesamtzahl der einbezogenen CP dividiert. Bei der Bildung der Modulnote wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_description",
+      "value": "If the module examination is graded differently by two or more examiners, the module grade is calculated from the arithmetic mean of the grades given by the examiners. Only the first decimal place after the comma is considered in forming the module grade.",
+      "original_value": "Wird die Modulprüfung von zwei oder mehreren Prüfenden unterschiedlich bewertet, errechnet sich die Modulnote aus dem arithmetischen Mittel der Noten der Prüferbewertungen. Bei der Bildung der Modulnote wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The regulation regarding cumulative module examinations is to be removed if cumulative module examinations are not planned in the bachelor's program. The subsequent paragraph designations will then change accordingly.",
+      "original_value": "Die Regelung ist zu streichen, wenn im Bachelorstudiengang keine kumulativen Modulprüfungen vorgesehen sind. Die nachfolgenden Absatzbezeichnungen ändern sich dann entsprechend.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

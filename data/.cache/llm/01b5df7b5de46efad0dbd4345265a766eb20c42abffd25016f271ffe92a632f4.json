@@ -1,0 +1,100 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "Students enrolled in programs from other departments can complete certain modules at the Department of Economics, termed as Export modules. This is only possible based on existing cooperation agreements between departments.",
+      "original_value": "Im Rahmen Ihres Studienganges an einem anderen Fachbereich können Sie bestimmte Module an unserem Fachbereich Wirtschaftswissenschaften absolvieren, sog. Exportmodule des Fachbereichs Wirtschaftswissenschaften. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Export modules from other programs are subject to the examination regulations of the exporting department. The module descriptions and the conditions for earning credit points (CP) must be in accordance with the valid exam regulations of the respective home program at the Department of Economics.",
+      "original_value": "Exportmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung). Es gelten damit die Modulbeschreibungen und die Bedingungen zum Erwerb von CP gemäß der gültigen Fassung der Prüfungsordnung des jeweiligen Herkunftsstudienganges am Fachbereich Wirtschaftswissenschaften.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0003",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "university",
+      "field": "assessment",
+      "value": "Each module at the Department of Economics concludes with a module examination. There are no attendance certificates at the Department of Economics.",
+      "original_value": "Jedes Modul des Fachbereichs Wirtschaftswissenschaften wird mit einer Modulprüfung abgeschlossen. Es gibt am Fachbereich Wirtschaftswissenschaften keine „Sitzscheine“.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "university",
+      "field": "important_information",
+      "value": "Examinations at the Department of Economics are centrally managed by the examination office. For inquiries and problems, students should contact the examination office by email, not the examiners.",
+      "original_value": "Prüfungen des Fachbereichs Wirtschaftswissenschaften werden zentral vom Prüfungsamt verwaltet. Bei Rückfragen und Problemen kontaktieren Sie bitte vor Ablauf der geltenden Frist das Prüfungsamt (nicht die Prüfenden) per E-Mail.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

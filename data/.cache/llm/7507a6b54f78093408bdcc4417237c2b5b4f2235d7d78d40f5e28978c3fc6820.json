@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "organization_of_study_programmes",
+      "value": "The organization of the study programmes makes use of modular components and of the European Credit Transfer and Accumulation System (ECTS) with 30 credits corresponding to one semester.",
+      "original_value": "Die Organisation der Studienprogramme nutzt modulare Komponenten und das European Credit Transfer and Accumulation System (ECTS) mit 30 Credits, die einem Semester entsprechen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "study_course_structure",
+      "value": "Bachelor's and Master's study courses may be studied consecutively, at various higher education institutions, at different types of higher education institutions and with phases of professional work between the first and the second qualification.",
+      "original_value": "Bachelor- und Masterstudiengänge können konsekutiv an verschiedenen Hochschulen, an verschiedenen Arten von Hochschulen und mit Phasen der Berufstätigkeit zwischen dem ersten und dem zweiten Abschluss studiert werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

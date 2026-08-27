@@ -1,0 +1,11 @@
+At the Kemmy Business School (KBS) you’ll find a vibrant research environment with faculty who are leaders in their field, and where there is a strong focus on students engaging in translational research – research that has impact and consequences for organisational change and public policy. Students work on their research projects with their supervisor(s)/supervisory team. Research students develop advanced skills in designing and conducting research; skills applicable to a variety of careers in academia, business, government and non-profit organisations.
+
+The Graduate Research Centre of the Kemmy Business School (KBS), which is home to our full-time PhD and Masters degree students, is situated in the Foundation Building at the University of Limerick (which also houses a large part of the University’s research activity across all faculties). The Centre was established in 1993 with the purpose of ensuring that students engaged in postgraduate research have a “home” and an identity, and to provide the services and infrastructure necessary for their studies. The Centre hosts more than 100 postgraduate students pursuing Masters and PhD degrees across a range of business disciplines. It also embraces a number of research centres which facilitate the grouping of faculty, research fellows, postgraduate students and post-doctorate students who share common research interests.
+
+All research students are key members of our four cutting-edge research themes under the umbrella theme of “Organisation Science and Public Policy”. Additional information on our thematic approach to research is available here.
+
+KBS offers research degrees at both Masters and PhD levels: students can apply and register at any stage of the academic year for a research degree, both part-time and full-time, as applications are considered monthly during the academic year.
+
+Upon graduation many KBS graduates take up senior academic posts, or secure positions with government or private sector organisations.
+
+Whatever your future plans, a research degree from the KBS will give you an opportunity to make an impact.

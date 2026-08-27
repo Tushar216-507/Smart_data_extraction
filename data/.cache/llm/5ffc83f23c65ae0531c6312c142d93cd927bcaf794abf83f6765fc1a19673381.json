@@ -1,0 +1,119 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "teaching_methods",
+      "value": [
+        {
+          "method": "Lecture",
+          "description": "Integration of fundamental and specialized knowledge and methodological skills through presentations, possibly in connection with demonstrations or experiments."
+        },
+        {
+          "method": "Exercise",
+          "description": "In-depth processing of teaching materials and training in specialized methodology and specific skills through the processing and discussion of exemplary tasks."
+        },
+        {
+          "method": "Proseminar/Seminar",
+          "description": "Development of scientific knowledge or addressing current issues using scientific methods, typically with contributions prepared by students, learning and practicing presentation and discussion techniques."
+        },
+        {
+          "method": "Internship",
+          "description": "Guided execution of practical tasks in experimental and apparatus fields and/or computer simulations, training in the application of scientific investigative and solution methods."
+        },
+        {
+          "method": "Project",
+          "description": "Development of concepts and realization of solutions to complex, practical problems, promoting social competence through largely independent task handling with simultaneous professional and methodological guidance."
+        },
+        {
+          "method": "Excursion",
+          "description": "Prepared event outside of the university."
+        },
+        {
+          "method": "Career Internship",
+          "description": "Experience of professional work through active participation, usually outside of the university under guidance on site with professional and methodological support from a teacher."
+        },
+        {
+          "method": "Tutoring/Mentoring",
+          "description": "An event preparing for tutoring and conducting a tutoring session; training in conveying subject-matter and didactic competencies as well as learning presentation and discussion techniques."
+        },
+        {
+          "method": "Self-Study",
+          "description": "Study tasks as outlined in the departmental-specific regulations."
+        }
+      ],
+      "original_value": "Lehr- und Lernformen...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "access_to_modules",
+      "value": "Participation in modules might depend on successful completion of other modules or requires participation in study program counseling as specified in the module description.",
+      "original_value": "Der Zugang zu den Lehrveranstaltungen eines Moduls ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "registration_requirements",
+      "value": "The module description may require binding registration for participation in the module or certain events of the module.",
+      "original_value": "Die Modulbeschreibung kann vorsehen, dass zur Teilnahme ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

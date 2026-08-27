@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe-Universität Frankfurt am Main",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": null,
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "program_name",
+      "value": "Master Thesis and Thesis Seminar",
+      "original_value": "Master Thesis and Thesis Seminar",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": null,
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

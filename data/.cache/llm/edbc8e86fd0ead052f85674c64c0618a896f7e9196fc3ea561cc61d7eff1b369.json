@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "student_requests",
+      "field": "urgent_query_phone",
+      "value": "061 233 755",
+      "confidence": 1.0,
+      "programme_association": "Global Politics - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "staff_queries",
+      "field": "staff_contact_url",
+      "value": "https://ul.topdesk.net/",
+      "confidence": 1.0,
+      "programme_association": "Global Politics - BA"
+    },
+    {
+      "category": "documents",
+      "subcategory": "readmission_requests",
+      "field": "readmission_information_url",
+      "value": "https://www.ul.ie/academic-registry/readmission",
+      "confidence": 1.0,
+      "programme_association": "Global Politics - BA"
+    },
+    {
+      "category": "documents",
+      "subcategory": "certified_transcript",
+      "field": "request_access_url",
+      "value": "/academic-registry/access-digitary-alumni",
+      "confidence": 1.0,
+      "programme_association": "Global Politics - BA"
+    },
+    {
+      "category": "documents",
+      "subcategory": "issues_with_parchment",
+      "field": "report_issue_url",
+      "value": "/academic-registry/report-issue-my-parchment",
+      "confidence": 1.0,
+      "programme_association": "Global Politics - BA"
+    },
+    {
+      "category": "documents",
+      "subcategory": "update_personal_details",
+      "field": "update_details_url",
+      "value": "/academic-registry/update-personal-details",
+      "confidence": 1.0,
+      "programme_association": "Global Politics - BA"
+    }
+  ]
+}

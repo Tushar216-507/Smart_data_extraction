@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "general_prerequisites",
+      "value": "A Bachelor's degree in Southeast Asian Studies or comparable disciplines at Goethe University with a standard programme duration of at least 6 semesters, or a degree of at least equivalent value from a German university or German institute of higher education in a similar or related discipline with a standard programme duration of at least 6 semesters, or a degree of at least equivalent value from a foreign university in a similar or related discipline with a standard programme duration of at least 6 semesters, or a Bachelor's degree in another discipline in the humanities or social sciences with a standard programme duration of at least 6 semesters.",
+      "original_value": "a) Ein Bachelorabschluss in Südostasienwissenschaften oder vergleichbaren Disziplinen an der Goethe-Universität mit einer Regelstudienzeit von mindestens 6 Semestern, oder b) ein Abschluss von mindestens gleichwertigem Wert von einer deutschen Universität oder deutschen Hochschule in einer ähnlichen oder verwandten Disziplin mit einer Regelstudienzeit von mindestens 6 Semestern (siehe 2), oder c) ein Abschluss von mindestens gleichwertigem Wert von einer ausländischen Universität in einer ähnlichen oder verwandten Disziplin mit einer Regelstudienzeit von mindestens 6 Semestern (siehe 2), oder d) ein Bachelorabschluss in einem anderen Fach der Geistes- oder Sozialwissenschaften mit einer Regelstudienzeit von mindestens 6 Semestern (siehe 2).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "admission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "additional_requirements",
+      "value": "A detailed CV providing information about the applicant's interest in the Southeast Asian Studies programme must be handed in with the application.",
+      "original_value": "E) Darüber hinaus muss ein ausführlicher Lebenslauf, der Informationen über das Interesse des Bewerbers am Studiengang Südostasienwissenschaften enthält, mit der Bewerbung eingereicht werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "admission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "examination_committee_conditional_admission",
+      "value": "Admission to the programme can be allowed by the Examination Committee for applicants with degrees from foreign disciplines, provided they have an adequate command of Bahasa Indonesia (or Bahasa Malaysia) and a general familiarity with the Southeast Asian region.",
+      "original_value": "B) In Fällen b), c) und d) kann die Aufnahme in den Studiengang durch den Prüfungsausschuss zugelassen werden - vorausgesetzt, der Bewerber hat ausreichende Kenntnisse der indonesischen Sprache (oder der malaysischen Sprache) und eine allgemeine Vertrautheit mit der Region Südostasien.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "admission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "The language of instruction for the Master's programme is English.",
+      "original_value": "Die Unterrichtsprache für den Masterstudiengang ist Englisch.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "german_language_recommendation",
+      "value": "It is preferable to have a basic knowledge of German language, since in- and outside the university much relevant information is available in German only.",
+      "original_value": "Die Bewerber für das Programm sollten darauf hingewiesen werden, dass es dennoch vorzuziehen ist, über Grundkenntnisse der deutschen Sprache zu verfügen, da in- und außerhalb der Universität viele relevante Informationen nur auf Deutsch verfügbar sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

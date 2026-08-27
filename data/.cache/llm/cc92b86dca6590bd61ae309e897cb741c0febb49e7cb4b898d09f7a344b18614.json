@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "description",
+      "value": "In the context of your studies in our Department of Economics, you can complete certain modules in other departments, known as import modules. This is only possible based on existing cooperation agreements between departments.",
+      "original_value": "Im Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie bestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "important_information",
+      "value": "The import modules from other programs are subject to the examination regulations of the exporting department, and the module descriptions and conditions for acquiring credit points apply according to the examination regulations of the respective origin program.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung). Es gelten die Modulbeschreibungen und die Bedingungen zum Erwerb von CP gemäß der gültigen Fassung der Prüfungsordnung des jeweiligen Herkunftsstudienganges.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

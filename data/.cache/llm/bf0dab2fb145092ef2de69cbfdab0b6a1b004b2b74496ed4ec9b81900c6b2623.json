@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "contact_information",
+      "value": "The admission application asks for your contact information.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "major_selection",
+      "value": "The admission application asks what major you would like to attend.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "campus_selection",
+      "value": "The admission application asks what campus you would like to attend.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "self_report_grades",
+      "field": "self_reporting_recommendation",
+      "value": "Self-reporting your high school grades is recommended to speed up the admission decision.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "self_report_grades",
+      "field": "alternative_transcript_submission",
+      "value": "If you choose not to self-report your grades, you can have your school submit your official transcripts to ASU.",
+      "confidence": 1.0,
+      "programme_association": "Latin American Studies - BA"
+    }
+  ]
+}

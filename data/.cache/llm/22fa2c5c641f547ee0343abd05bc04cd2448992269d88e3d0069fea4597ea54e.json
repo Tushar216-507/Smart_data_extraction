@@ -1,0 +1,79 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "scale": [
+          {
+            "range": "1.0 bis einschließlich 1.5",
+            "description": "very good"
+          },
+          {
+            "range": "1.6 bis einschließlich 2.5",
+            "description": "good"
+          },
+          {
+            "range": "2.6 bis einschließlich 3.5",
+            "description": "satisfactory"
+          },
+          {
+            "range": "3.6 bis einschließlich 4.0",
+            "description": "sufficient"
+          },
+          {
+            "range": "über 4.0",
+            "description": "not sufficient"
+          }
+        ]
+      },
+      "original_value": "(11) Die Gesamtnote einer bestanden Masterprüfung ergibt sich durch die folgende Abbildung, wobei nur die erste Dezimalstelle hinter dem Komma berücksichtigt wird; alle weiteren Stellen werden ohne Rundung gestrichen:\n\n<table>\n<tr>\n<td>1,0 bis einschließlich 1,5</td>\n<td>sehr gut</td>\n</tr>\n<tr>\n<td>1,6 bis einschließlich 2,5</td>\n<td>gut</td>\n</tr>\n<tr>\n<td>2,6 bis einschließlich 3,5</td>\n<td>befriedigend</td>\n</tr>\n<tr>\n<td>3,6 bis einschließlich 4,0</td>\n<td>ausreichend</td>\n</tr>\n<tr>\n<td>über 4,0</td>\n<td>nicht ausreichend</td>\n</tr>\n</table>",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "final_eval_translation",
+      "value": "excellent",
+      "original_value": "mit Auszeichnung bestanden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

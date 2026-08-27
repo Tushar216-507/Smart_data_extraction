@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university",
+      "value": "Johann Wolfgang Goethe-Universität",
+      "original_value": "Johann Wolfgang Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "framework_order",
+      "value": "The framework order for structured and modularized study programs defines the regulations that apply to study structures in these programs.",
+      "original_value": "Die Rahmenordnung für gestufte und modularisierte Studiengänge legt fest, welche Regelungen nach den „Ländergemeinsamen Strukturvorgaben“ der Kultusministerkonferenz für die Studienstruktur in diesen Studiengängen gelten.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "module_use_regulations",
+      "value": "Regulations regarding the use of modules across different study programs are defined in § 12.",
+      "original_value": "Bestimmungen zum Geltungsbereich von Ordnungen bei studiengangsübergreifender Modulverwendung enthält § 12.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "approval_process",
+      "value": "Program-specific regulations require the approval of the Senate and the Presidium of Johann Wolfgang Goethe-Universität.",
+      "original_value": "Die studiengangsspezifischen Ordnungen bedürfen nach § 36 Abs. 2 Nr. 5 HHG der Zustimmung des Senats der Johann Wolfgang Goethe-Universität und nach § 37 Abs. 5 Satz 1 HHG der Genehmigung durch das Präsidium der Johann Wolfgang Goethe-Universität.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

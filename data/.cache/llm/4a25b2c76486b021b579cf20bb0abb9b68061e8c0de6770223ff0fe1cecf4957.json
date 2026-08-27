@@ -1,0 +1,158 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "degree_duration",
+      "value": "3 years for bachelor's degree, followed by 2 years for master’s degree",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "qualifications",
+      "value": "Graduates possess solid foundational knowledge in both biology and computer science and are skilled at integrating these fields.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "career_preparation",
+      "value": "Bioinformatics graduates are equipped to tackle challenges across the diverse application areas of bioinformatics, develop appropriate software systems, and lead projects.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_structure",
+      "value": "Biology and computer science are given equal emphasis during the course of study before bioinformatics is introduced.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "focus_areas",
+      "value": "The program focuses on sequence analysis and theoretical systems biology.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "software_platforms",
+      "value": "Software platforms designed to teach bioinformatics concepts and methods include Rosalind and online courses offered through the Swiss Institute of Bioinformatics Training Portal.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Programme Information - Part 5",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "training_workshops",
+      "value": "The Canadian Bioinformatics Workshops provides videos and slides from training workshops on their website under a Creative Commons license.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Programme Information - Part 5",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "educational_materials",
+      "value": "The 4273π project offers open source educational materials for free, and it has been used to teach adults and school pupils using low-cost Raspberry Pi computers.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Programme Information - Part 5",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "online_certifications",
+      "value": "MOOC platforms provide online certifications in bioinformatics and related disciplines, including Coursera's Bioinformatics Specialization at the University of California, San Diego, Genomic Data Science Specialization at Johns Hopkins University, and EdX's Data Analysis for Life Sciences XSeries at Harvard University.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Programme Information - Part 5",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "learning_outcomes",
+      "value": [
+        "Define and explain bioinformatics",
+        "Explain some of the applications of bioinformatics",
+        "List some tools used in bioinformatics"
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Introduction",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": [
+        "Proteomics is the large-scale study of the proteome, the entire set of proteins expressed by a genome. It allows researchers to study the structure and function of proteins, along with their interactions that are central to nearly all biological processes.",
+        "Unlike the static nature of the genome, the proteome is dynamic and changes in response to different conditions. Bioinformatics is a key tool used in analyzing the proteome.",
+        "Techniques like mass spectrometry generate vast amounts of protein data, which bioinformatics interprets.",
+        "Through its study of protein interactions, pathways, and functions, bioinformatics allows us to better study disease mechanisms and identify potential targets for new or existing drugs.",
+        "Through its analysis of 3D structure, bioinformatics, combined with computational docking simulations, allows for the design of small molecules that can better interact with specific protein targets, leading to the development of more efficacious drugs.",
+        "Bioinformatics also aids in virtual screening, where large chemical libraries are computationally tested to identify compounds that are likely to bind to a target protein."
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Proteomics and Drug Discovery",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    }
+  ]
+}

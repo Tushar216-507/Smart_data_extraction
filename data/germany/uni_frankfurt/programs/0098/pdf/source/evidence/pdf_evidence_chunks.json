@@ -1,0 +1,1454 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-25T15:21:03.849582+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Goethe University — Master's",
+    "program_id": "0098",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+    "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+    "document_data_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 20
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 37038,
+    "cleaned_character_count": 37002,
+    "characters_removed": 36,
+    "sections_detected": 30,
+    "chunks_created": 29,
+    "total_chunk_characters": 10038,
+    "total_chunk_words": 3966,
+    "chunks_with_page_references": 28,
+    "chunks_without_page_references": 1,
+    "chunks_containing_tables": 1,
+    "repeated_noise_lines_removed": 0,
+    "section_type_counts": {
+      "admission": 1,
+      "assessment": 1,
+      "curriculum": 1,
+      "general": 7,
+      "identity_overview": 3,
+      "research": 15,
+      "student_support": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\germany\\uni_frankfurt\\programs\\0098\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Document overview\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\nGoethe-Universität Frankfurt",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 27,
+        "word_count": 10,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8e8dacb4cd5c67addcabb109b24b390ddd7763e912f7dac0546f2121672768d7",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Internationalisierung",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "# Internationalisierung\n\nStrategie und Umsetzung\nan der Goethe-Universität\n\n1\n<!-- PageBreak -->\n\n<!-- PageBreak -->\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nGoethe-Universität Frankfurt\nInternationalisierung\nStrategie und Umsetzung\nan der Goethe-Universität\n\n<!-- PageBreak -->\n\nIMPRESSUM\n\nHerausgeber\nDer Präsident der\nGoethe-Universität\nFrankfurt am Main\n\nVeröffentlichung\n29. April 2025\n\nBildnachweis\nTitel VoodooDot/Shutterstock\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 141,
+        "word_count": 43,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "9d812b328bcde4cab67110463a3a6de46344286ae4788b598febd0bfeb1f59fe",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 3,
+        "title": "Inhalt",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5,
+          6
+        ],
+        "page_start": 5,
+        "page_end": 6
+      },
+      "content": "## Inhalt\n\n<table>\n<tr>\n<td>Präambel</td>\n<td>4</td>\n</tr>\n<tr>\n<td>Internationalisierung - Unsere Definition</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Grundgedanken</td>\n<td>6</td>\n</tr>\n<tr>\n<td>1. Institutionalisierung und Transnationalität</td>\n<td>6</td>\n</tr>\n<tr>\n<td>2. Diversifizierung und Digitalisierung</td>\n<td>6</td>\n</tr>\n<tr>\n<td>3. Internationale Wissenschaftskultur</td>\n<td>6</td>\n</tr>\n<tr>\n<td>4. Interessengeleitete und wertebasierte internationale Beziehungen</td>\n<td>6</td>\n</tr>\n<tr>\n<td>Strategische Ziele</td>\n<td>7</td>\n</tr>\n<tr>\n<td>Strategische Handlungsfelder und Maßnahmen</td>\n<td>8</td>\n</tr>\n<tr>\n<td>1. Internationaler Campus</td>\n<td>8</td>\n</tr>\n<tr>\n<td>3. Studium und Studierende</td>\n<td>10</td>\n</tr>\n<tr>\n<td>4. Lehre und Lehrende</td>\n<td>12</td>\n</tr>\n<tr>\n<td>5. Transfer</td>\n<td>13</td>\n</tr>\n<tr>\n<td>6. Struktur und Governance</td>\n<td>13</td>\n</tr>\n<tr>\n<td>7. Verwaltung und Verwaltende</td>\n<td>14</td>\n</tr>\n<tr>\n<td>8. Öffentlichkeitsarbeit und internationale Sichtbarkeit</td>\n<td>15</td>\n</tr>\n<tr>\n<td>9. International Compliance und Forschungssicherheit</td>\n<td>16</td>\n</tr>\n</table>\n\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 453,
+        "word_count": 77,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          5,
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "dea4fb09a97b81cf1bcecc1ff5faba04d3d5e10c594ba4211f84d701b8adcf64",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 4,
+        "title": "Präambel",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6,
+          7
+        ],
+        "page_start": 6,
+        "page_end": 7
+      },
+      "content": "## Präambel\n\nAuf Initiative einer weltoffenen und diversen Bürgerschaft wurde die\nGoethe-Universität im Jahr 1914 als die erste rein aus privaten Mitteln\nfinanzierte Stiftungsuniversität Deutschlands gegründet. Sie entstand\naus der Überzeugung heraus, dass an einer Hochschule Lösungen für\nProbleme der Gegenwart gefunden werden - ein Profil, das unser Han-\ndeln bis heute prägt. Verankert in der Handels- und Finanzstadt Frank-\nfurt am Main und der internationalen Metropolregion Frankfurt/Rhein-\nMain sind wir heute eine global vernetzte forschungsstarke Universität\nim Herzen Europas. Gemeinsam mit unseren Partnern tragen wir durch\nForschung, Lehre und Transfer zum wissenschaftlichen und gesell-\nschaftlichen Fortschritt bei und schaffen Wissen für Entwicklung, Nach-\nhaltigkeit und Gerechtigkeit im 21. Jahrhundert.\n\nInternationalisierung ist in einer globalisierten Welt sowohl ein Wett-\nbewerbsvorteil als auch eine Notwendigkeit, um als eine der forschungs-\nstarken Universitäten Deutschlands unserem institutionellen Auftrag\ngerecht zu werden. Globaler Wissenstransfer und grenzüberschreitende\nKooperationen ermöglichen den Wissenschaftler\\*innen der Goethe-\nUniversität wissenschaftliche Fragestellungen adäquat zu bearbeiten\nund zu Lösungen für die globalen Herausforderungen unserer Zeit bei-\nzutragen. Inter- und transkulturelle Studienerfahrungen sind weiterhin\nwichtige Bestandteile einer in humanistischer Tradition stehenden aka-\ndemischen Bildung. Internationale und transkulturelle Kompetenzen\nerhöhen den Erfolg unserer Absolvent\\*innen auf dem globalen Arbeits-\nmarkt und tragen dazu bei, unsere Studierenden zu den Verantwor-\ntungsträger*innen von morgen auszubilden, wie wir dies in unserem\nLeitbild Lehre und Studium verankert haben.\n\nMit dieser Internationalisierungsstrategie geben wir uns einen Orien-\ntierungs- und Handlungsrahmen für unsere internationalen Aktivitäten\nauf Basis unseres Leitbilds Internationalisierung. Wir legen unsere\nGrundgedanken offen, definieren unsere Ziele und nehmen uns Maß-\nnahmen in zentralen Handlungsfeldern vor.\n\nWir stärken unsere globalen Kooperationen und Netzwerke, um\ngemeinsam mit unseren Partnern im Verbund der Rhein-Main-Univer-\nsitäten (RMU) und der Frankfurt Alliance (FA) einen international\n\n<!-- PageNumber=\"4\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\nsichtbaren Wissenschaftsraum in der Metropolregion Frankfurt/Rhein-\nMain zu gestalten. Dazu integrieren wir Internationalität gezielt in\nunsere universitären Strategien und Prozesse. Dabei können wir an\nlangjährige praktische Erfahrungen mit internationalem Austausch und\nan etablierte Kooperationen anschließen.\n\nUnsere Internationalisierungsstrategie passt sich kontinuierlich an\ngeopolitische Herausforderungen an, die die akademische Zusammen-\narbeit beeinflussen. Globale Krisen und Konflikte gefährden den offenen\nAustausch - und machen ihn zugleich unverzichtbar. Deshalb setzen\nwir auf einen verantwortungsvollen, weltoffenen Wissenschaftsdialog,\nder unsere demokratischen Werte, insbesondere akademische Freiheit\nund Verantwortung, wahrt.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 844,
+        "word_count": 368,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          6,
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3b5dc0fcb1baacccad4c8eb3293adc5e15defb3b4eaa711e09eeb38b63b8962b",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 5,
+        "title": "Internationalisierung - Unsere Definition",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          7,
+          8
+        ],
+        "page_start": 7,
+        "page_end": 8
+      },
+      "content": "## Internationalisierung - Unsere Definition\n\nInternationalität ist für die Goethe-Universität ein wesentlicher Bestand-\nteil in Forschung, Lehre, Transfer und gesellschaftlichem Austausch.\nWir verstehen „Internationalisierung“ als einen kontinuierlichen Prozess\nder systematischen Integration internationaler Perspektiven in alle uni-\nversitären Strukturen und Prozesse.\n\nInternationalisierung ist für die Goethe-Universität daher eine ge-\nmeinsame Aufgabe aller Universitätsmitglieder und spiegelt sich sowohl\nin institutionellen Strukturen als auch in unserer Wissenschaftskultur\nwider. Als interner Prozess zielt sie darauf ab, Internationalität nach-\nhaltig zu verankern.\n\n<!-- PageNumber=\"5\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 201,
+        "word_count": 77,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          7,
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3c5f354ed3691694a03708f12db71fce8e9c448d050c72317bac5a46c9bc5f0d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "1. Institutionalisierung und Transnationalität",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "### 1. Institutionalisierung und Transnationalität\n\nLangfristige vertrauensvolle partnerschaftliche Kooperationen sind ein\nKernanliegen der Internationalisierung, das besonders gut durch insti-\ntutionalisierte Strukturen gelingt. Bei allen Formen internationaler\nZusammenarbeit wird daher die institutionelle Verankerung bis hin zur\ntransnationalen Kooperation als besonders enge Form der internationalen\nZusammenarbeit angestrebt und ausgestaltet.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 109,
+        "word_count": 46,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8757058cf1747f170ea49fe12c888a50ce15f1810859d7fdc6fbf939a50044df",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 8,
+        "title": "2. Diversifizierung und Digitalisierung",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "### 2. Diversifizierung und Digitalisierung\n\nInternationalisierung ist vielgestaltig. Es bedarf vielfältiger Angebote, um\nmöglichst alle Angehörigen der Universität zu erreichen und der Diversi-\ntät der akademischen Gemeinschaft gerecht zu werden. Das Austausch-\nsemester ist zwar weiterhin die intensivste, aber nicht mehr die aus-\nschließliche Form der Auslandserfahrung für Studierende und Lehrende.\nKurzzeitangebote aller Art, internationale Angebote „@home“ sowie\ninternationalisierte digitale Kurselemente können den Studienalltag aller\nDisziplinen bereichern und Studierenden sowie Lehrenden internatio-\nnale Studienerfahrungen an der Goethe-Universität ermöglichen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 179,
+        "word_count": 78,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "f96006c8e79dcf0e71a431f2951098159a49b82fd002f131af1e653d4a1c3f51",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "chunk_index": 8,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 9,
+        "title": "3. Internationale Wissenschaftskultur",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "### 3. Internationale Wissenschaftskultur\n\nWir verfolgen an der Goethe-Universität einen ganzheitlichen Ansatz der\nInternationalisierung. Neben der Ausgestaltung der Austausch- und Koope-\nrationsformen und ihrer Bedingungen beziehen wir auch die akademischen\nInhalte in unsere Internationalisierung ein. Internationalität ist bereits\nheute ein Aspekt der Studien-, Lehr- und Forschungsansätze in allen\nFächern, insofern Multiperspektivität, Methodenvielfalt und komparative\nFragestellungen in besonderer Weise berücksichtigt werden. Auch die\nReflexion postkolonialer Themen, der globalen Auswirkungen von For-\nschungsinhalten und -ergebnissen sowie der globalen Verantwortung der\nForschung sind Teil unserer international ausgerichteten Wissenschaft.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 200,
+        "word_count": 85,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "9fdc5adfb84770d916278e12e7de71c3b43ca6a5a174ac15bcbf9aeee1e1f266",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "chunk_index": 9,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 10,
+        "title": "4. Interessengeleitete und wertebasierte internationale Beziehungen",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8,
+          9
+        ],
+        "page_start": 8,
+        "page_end": 9
+      },
+      "content": "### 4. Interessengeleitete und wertebasierte internationale Beziehungen\n\nWissenschaft erfordert internationale Zusammenarbeit und weltweite\nPartner. Wir gestalten unsere Kooperationen interessengeleitet und\nverantwortungsorientiert und begegnen unseren Partnern mit Offen-\nheit und unter kontinuierlicher kritischer Selbstreflexion. Bei der Wahl\nder Partner folgen wir vor allem den sich aus der Forschung und Lehre\nergebenden Interessen und Bedarfen - auf individueller Ebene der\nWissenschaftler*innen, auf Ebene der Fach- und Profilbereiche sowie\nauf gesamtuniversitärer Ebene. Entscheidungen für internationale\nKooperationen müssen wissenschafts- und evidenzbasiert und so offen\n\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\nwie möglich gestaltet sein. Als Institution sind wir der Wissenschafts-\nfreiheit verpflichtet - ihre Gewährleistung bildet für uns die unverhandel-\nbare grundlegende Prämisse in internationalen Kooperationen. Ein ver-\nantwortungsorientiertes Handeln bedeutet aber auch, die eigenen\nfreiheitlich-demokratischen Werte zu vertreten. Für die Entwicklung\nvon (strategischen) Partnerschaften bevorzugt die Goethe-Universität\ndaher Hochschulen und/oder Forschungseinrichtungen solcher Länder,\ndie diese Überzeugungen teilen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 350,
+        "word_count": 139,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          8,
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2736c88d2b15ddc8358c2e9d0567ff31bad70632f1bc943fe6ef3a1cf95f1751",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "chunk_index": 10,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 11,
+        "title": "Strategische Ziele",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          9,
+          10
+        ],
+        "page_start": 9,
+        "page_end": 10
+      },
+      "content": "## Strategische Ziele\n\nMit dem Prozess der Internationalisierung setzen wir uns drei strategische\nZiele. Diese mittel- bis langfristigen Ziele sind an der Vision und Mission der\nGoethe-Universität sowie an ihrem Leitbild Internationalisierung aus-\ngerichtet und wurden in Übereinstimmung mit der übergreifenden Hoch-\nschulentwicklungsplanung formuliert. Auf ihrer Grundlage bestimmen\nwir nachfolgend die konkreten Handlungsfelder und Kernmaßnahmen.\n\nWir schaffen eine lebendige Willkommenskultur auf unserem\nInternationalen Campus, die die individuellen Studien-, Forschungs-\nund Arbeitserfahrungen erweitert und die akademische Kultur sowie den\nStudien- und Lebensalltag auf dem Campus bereichert. Wir entwickeln\ndaher eine transkulturelle Campuskultur in der Goethe-Universität, die\nkonsequente Mehrsprachigkeit in Forschung, Lehre und Verwaltung\nsowie interkulturelle Sensibilität fördert und umfassende Unterstüt-\nzung für internationale Universitätsangehörige bietet. Durch vielfältige\nAngebote und Veranstaltungen stärken wir Diversität und interkultu-\nrellen Austausch im akademischen Alltag.\n\nWir entwickeln Internationalität als prägendes Merkmal unseres\nProfils in Forschung, Lehre, Transfer und Verwaltung. Sie ist ein\nprofilbildendes Wesensmerkmal der Goethe-Universität. Internationalität\nschlägt sich deshalb nicht nur in kooperativen oder internationalisier-\nten Forschungs- und Studienbedingungen nieder, sondern auch in den\nLehr- und Forschungsinhalten, in einer international und transnational\ngeprägten Forschungs- und Lehrkultur, weltweiten Transferaktivitäten\nsowie in einer interkulturell sensiblen Verwaltung. Mit einem unver-\nwechselbaren internationalen Profil steigern wir auch die globale Sicht-\nbarkeit der Goethe-Universität als leistungsstarke und verantwortungs-\nvolle Akteurin im internationalen Raum.\n\nWir gestalten optimale institutionelle Rahmenbedingungen\nfür Internationalität, indem wir Internationalität in allen relevanten\nProzessen angemessen berücksichtigen. Dazu sind institutionelle Anpas-\nsungen erforderlich. Die Goethe-Universität folgt dabei dem Prinzip des\ninternationalen Mainstreaming (i-Mainstreaming), demzufolge in allen\nBereichen Maßnahmen zur institutionellen Umsetzung von Internatio-\nnalität ergriffen werden. Auf diese Weise kann Internationalisierung als\ngesamtuniversitäre Aufgabe verwirklicht werden.\n\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 665,
+        "word_count": 273,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          9,
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1bab236b21d2bd688de64818cde333e072ba7bb51a6bd2a6e8ac1ac2de09c0e0",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "chunk_index": 11,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 12,
+        "title": "Strategische Handlungsfelder und Maßnahmen",
+        "type": "general",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "## Strategische Handlungsfelder und Maßnahmen\n\nDie Goethe-Universität fokussiert sich auf neun Handlungsfelder, um ihre\nstrategischen Internationalisierungsziele zu erreichen. Für jedes Hand-\nlungsfeld werden Handlungsoptionen und Kernmaßnahmen definiert,\ndie im Rahmen eines universitätsweiten Prozesses gemeinsam mit\nunseren Fachbereichen, zentralen Einrichtungen und der Verwaltung\nkonkretisiert und umgesetzt werden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 117,
+        "word_count": 46,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2d68107241ef21191a5ebd25cc30e58c921e61b4e4ecf2beb2d1a7654799e6ee",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "chunk_index": 12,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 13,
+        "title": "1. Internationaler Campus",
+        "type": "admission",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "content": "### 1. Internationaler Campus\n\nDie internationale Ausrichtung der Universität erweitert individuelle\nStudien-, Forschungs- und Arbeitserfahrungen und bereichert die aka-\ndemische Kultur sowie den Studien- und Lebensalltag auf dem Campus.\nDaher möchten wir unsere Campuskultur an der Goethe-Universität\nauf räumlicher Ebene auf ein transkulturelles Miteinander ausrichten.\nDie Bedarfe internationaler Universitätsangehöriger möchten wir auf\nadministrativer Ebene in den Services und Supportangeboten besser\nberücksichtigen. Wir etablieren eine lebendige Willkommenskultur auf\nAugenhöhe und stärken transkulturelle Begegnungen als festen\nBestandteil unseres universitären Miteinanders. Voraussetzung für\nunseren „Internationalen Campus“ ist eine gelebte Mehrsprachigkeit,\ndie wir uns als langfristiges Ziel setzen. In unserem zu erarbeitenden\nSprachenkonzept wird sie reflektiert.\n\nUnsere Campus-Standorte Westend, Riedberg, Niederrad und Ginn-\nheim statten wir im Sinne internationaler Zugänglichkeit und Barriere-\nfreiheit mit mehrsprachiger Besucher*innenführung und Beschilderung\naus. Zusätzlich zur Einrichtung internationaler Begegnungsräume spiegeln\nVeranstaltungen der studentischen Vereinigungen (AStA, Fachschaften\netc.), Fachbereiche und Institute sowie Angebot und Ausstattung der\nMensen, Bistros und Cafés des Studierendenwerks und anderer Anbie-\nter unser Verständnis einer heterogenen Universitätsgemeinschaft\nwider. Spezifische mehrsprachige Servicepunkte für internationale Uni-\nversitätsangehörige befinden sich auf allen Campus-Standorten. Ein\nerweitertes Sprachkursangebot bietet allen Universitätsangehörigen die\nMöglichkeit zum Fremdspracherwerb in ausgewählten Sprachen und\neinen leichten Zugang zur deutschen Sprache.\n\nDie Goethe-Universität ist eine rassismus- und antisemitismuskritische\nUniversität und fördert aktiv ein diverses und chancengerechtes Umfeld\nmit Hilfe von Beratungsangeboten und Sensibilisierungsworkshops\nsowie durch campusweite Antidiskriminierungsstrukturen. Wir wert-\nschätzen die Vielfalt auf allen Ebenen. Wir bekennen uns zur Solidarität\nmit Studierenden und Wissenschaftler\\*innen, die Opfer von politischer\nVerfolgung oder anderen Menschenrechtsverletzungen sind. Das Ein-\ntreten für akademische Freiheit schlägt sich in aktiver Hilfe und Unter-\nstützung für verfolgte Akademiker\\*innen nieder, denen wir an unserer\n\n<!-- PageNumber=\"8\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\nUniversität im Rahmen unserer Möglichkeiten Schutz und Aufnahme\ngewähren und mit denen wir zu beiderseitigem Vorteil gemeinsam for-\nschen und lernen wollen.\n\nEin limitierender Faktor des internationalen Austauschs ist der Mangel\nan bezahlbarem Wohnraum in Frankfurt und Umgebung. Wir sondieren\ngemeinsam mit Stakeholdern und potenziellen Geldgebern Lösungen\nnach dem Vorbild unseres „International House“ auf dem Campus Ried-\nberg, um (internationalen) Studierenden und Gastwissenschaftler*in-\nnen mit ihren Familien eine angemessene Unterkunft zu bieten.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 842,
+        "word_count": 347,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          10,
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3f0c17e0c5de5a748adafbf7c41e11c8dd569605c605f465a76250198d2f81b5",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0013",
+      "chunk_index": 13,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 14,
+        "title": "Kernmaßnahmen",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Entwicklung eines Konzepts zur Rolle von Fremdsprachen, Herkunfts-\nsprachen und Fachsprachen.\n\n2\\. Unterstützung einer transkulturellen Campuskultur durch geeignete\nVeranstaltungen, internationale Begegnungsräume und mehrsprachige\nBesucherführung an der Goethe-Universität.\n\n3\\. Ausbau spezifischer Dienstleistungen und internationale Ausrichtung\nbestehender Campusangebote an den Standorten der Goethe-\nUniversität. Ausbau des Sprachkursangebots für alle Universitäts-\nangehörigen.\n\n4\\. Die Goethe-Universität setzt sich für einen Ausbau des Angebots\ngeeigneter Unterkünfte v. a. für internationale Studierende, Promo-\nvierende und Wissenschaftler*innen ein.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 192,
+        "word_count": 76,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "39d49cce8848b7544c82a0570c35b6d1c5cb7b75603197e4006212332c2af920",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0014",
+      "chunk_index": 14,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 15,
+        "title": "2. Forschung und Forschende",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11,
+          12
+        ],
+        "page_start": 11,
+        "page_end": 12
+      },
+      "content": "### 2. Forschung und Forschende\n\nInternationalisierung ist ein Querschnittsthema und ein profilbildendes\nWesensmerkmal der Goethe-Universität, das sich in kooperativen oder\ninternationalisierten Forschungsbedingungen und -inhalten sowie einer\ninternational und transnational geprägten Forschungskultur nieder-\nschlägt und somit unsere globale Sichtbarkeit als leistungsstarke und\nverantwortungsvolle Akteurin im internationalen Raum steigert. Wir\nwerden besonders langfristige internationale Forschungspartnerschaften\nund -kooperationen stärken, um vertrauensvolle Beziehungen in gemein-\nsamen Strukturen auszugestalten. Bei der Nutzung der sich anbietenden\nFörderprogramme im regionalen, nationalen, europäischen und inter-\nnationalen Forschungsraum unterstützen wir unsere Wissenschaft-\nler*innen proaktiv.\n\nDarüber hinaus fördern wir Initiativen zur Institutionalisierung von\nweltweiter Kooperation in der Forschung und Lehre, z. B. die Lab-Visits\nforschungsorientierter Studierender, die gemeinsame Betreuung von\nDoktorand*innen (z.B. Cotutelle-Verfahren), den Forschendenaus-\ntausch, gemeinsame Postdoc-Stellen oder gar gemeinsame Berufungen.\nIn besonders intensiven Forschungspartnerschaften wird die Einrich-\n\n<!-- PageNumber=\"9\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\ntung von gemeinsamen - bilateralen oder multilateralen - transnationa-\nlen Forschungszentren unterstützt, für die es in Frankfurt bereits gelun-\ngene Beispiele gibt (z. B. das „Frankfurt-Tel Aviv Center for the Study of\nReligious and Interreligious Dynamics“, das „Center for Childhood and\nChild Welfare in Context“ oder das „Institut franco-allemand de sciences\nhistoriques et sociales“). Erfolgversprechende innovative Formate der\ninternationalen Zusammenarbeit und langfristiger partnerschaftlicher\nBindungen möchten wir fördern und erfolgreiche Beispiele prämieren.\n\nUm den Anteil internationaler Wissenschaftler\\*innen zu erhöhen,\nsprechen wir gezielt exzellente Nachwuchswissenschaftler\\*innen aus\naller Welt an und berufen internationale High Potentials. Hierzu ent-\nwickeln wir im Rahmen der Allianz der Rhein-Main-Universitäten ein\nsystematisches Rekrutierungs- und Berufungskonzept.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 607,
+        "word_count": 246,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          11,
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "94c6fd2001e3f324be5acf7f9cc48a4d1cab957e539f6db15cb0821adfb190df",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0015",
+      "chunk_index": 15,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 16,
+        "title": "Kernmaßnahmen",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          12
+        ],
+        "page_start": 12,
+        "page_end": 12
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Systematische Nutzung der Förderprogramme im regionalen,\nnationalen, europäischen und globalen Forschungsraum; Ausbau\nvon proaktiven Antragsberatungs- und Supportstrukturen.\n\n2\\. Pflege und Stärkung vorhandener verlässlicher Partnerschaften\nund Kooperationen.\n\n3\\. Unterstützung bei der Einrichtung von längerfristigen internatio-\nnalen Kooperationsstrukturen, insbesondere von transnationalen\nProjekten, sowie Beratung zur International Compliance (s. u.).\n\n4\\. Unterstützung und Anreize für eine engere Verflechtung von inter-\nnationaler Forschung und Lehrkooperationen.\n\n5\\. Ausweitung der internationalen Rekrutierungsanstrengungen von\nWissenschaftler*innen auf Basis eines fachspezifischen Konzepts.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 200,
+        "word_count": 76,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "7d0d3eac4ce6852f022616ae81fbdd6d0e0f9eb78b62dc36e6965a1a4450aafb",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0016",
+      "chunk_index": 16,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 17,
+        "title": "3. Studium und Studierende",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          12,
+          13
+        ],
+        "page_start": 12,
+        "page_end": 13
+      },
+      "content": "## 3. Studium und Studierende\n\nProfilbildende Internationalität muss sich über alle Fachbereiche und\nStudiengänge hinweg in intensiven internationalen Studienerfahrungen\nniederschlagen. Durch den konsequenten Ausbau unserer weltweiten\nPartnerschaften ermöglichen wir mit einer Vielzahl von ganzsemestrigen\nAustauschplätzen ein curricular abgestimmtes, studiengangintegriertes\nAuslandsstudium. Erasmus+ und dessen flexibler, konstruktiver Einsatz\nist und bleibt in Europa das wichtigste Instrument, um die Austausch-\nmöglichkeiten curricular abgestimmt auszubauen. Parallel entwickeln\nwir die spezifischen Auslandsangebote für Lehramtsstudierende weiter.\nErgänzend erweitern wir das Angebot an analogen, digitalen, hybriden,\n„blended“ und kurzzeitigen Programmen im Ausland oder mit inter-\nnationalen Partnern in Frankfurt.\n\nUnsere Internationalisierung bedient sich gleichermaßen analoger\nund digitaler Methoden. Digitale Formate bieten eine nachhaltige Alter-\n\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\nnative zu Kurzzeit-Auslandsaufenthalten und ermöglichen internatio-\nnalen Austausch auch für Studierende, Lehrende und Forschende, die\naus persönlichen, gesundheitlichen, familiären oder finanziellen Grün-\nden nicht reisen können. Durch die Integration von internationalen\nElementen wie Gastvorträgen, digitalen Zuschaltungen und hybriden\nInteraktionen, auch in Form von bi- oder multinationalen Lehr-\nkooperationen eröffnen wir vielfältige Möglichkeiten für internationale\nStudienerfahrungen vor Ort (internationalization@home). Um solche\ninternationalen Studienangebote in allen Studiengängen einzurichten\nund allen Studierenden zu ermöglichen, werden wir die Rahmen-\nordnung anpassen und zusätzlich das fremdsprachliche Studienangebot\nausbauen.\n\nWir unterstützen mit unseren Maßnahmen das Ziel, mehr internatio-\nnale Studierende mit Abschlussabsicht für die Goethe-Universität zu\ngewinnen. Dazu werden wir unsere Supportstrukturen für ausländi-\nsche Studierende ausbauen und die Maßnahmen zu ihrer Integration\nund zur Sicherung des Studienerfolgs gemeinsam mit der Verwaltung,\nden Fachbereichen und der akademischen Gemeinschaft kontinuierlich\noptimieren. Zusätzlich werden wir ein Konzept entwickeln, um gezielt\nqualifizierte Studieninteressierte anzusprechen, um die wir in der inter-\nnationalen Wissenschaftsöffentlichkeit werben. Damit wir die besten\nStudierenden für unsere Studiengänge gewinnen, treten wir zudem bei\nder internationalen Rekrutierung für Flexibilität und Pragmatismus bei\nder Anerkennung von akademischen Abschlüssen aus aller Welt ein.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 705,
+        "word_count": 293,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          12,
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "546d7bf2f901ec1b77f93259930e4f620f48a590d640f6fa85acfa541971605e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0017",
+      "chunk_index": 17,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 18,
+        "title": "Kernmaßnahmen",
+        "type": "identity_overview",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13,
+          14
+        ],
+        "page_start": 13,
+        "page_end": 14
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Ausweitung der Anstrengungen um internationale Rekrutierung von\nexzellenten internationalen Studierenden zur Qualifikation zukünftiger\nWissenschaftler*innen und Fachkräfte für die Rhein-Main-Region\nauf Basis eines differenzierten Konzepts.\n\n2\\. Systematischer Ausbau von studiengangintegriertem Studierenden-\naustausch (auch im Lehramt), u. a. durch systematische Nutzung\nvon Erasmus+, bessere Anerkennungspraktiken, Modulabgleich,\ncurriculare Absprachen, gemeinsame Studiengangplanung oder\nEinrichtung von Doppelstudiengängen.\n\n3\\. Angemessene Berücksichtigung internationaler Studienelemente\nin den geltenden Rahmenregelungen und Anpassung der Rahmen-\nordnungen, um internationale Studienerfahrungen in allen Studien-\ngängen zu verankern. Ausbau des fremdsprachlichen Studienan-\ngebots zur Steigerung der Attraktivität des Austauschstudiums für\nStudierende von Partneruniversitäten.\n\n4\\. Ausbau der Supportstrukturen für ausländische Studierende, Double-\nDegree-Studierende und internationale Promovierende, einschließ-\nlich geeigneter Maßnahmen zu deren Integration, zur Sicherung des\nStudienerfolgs und zum Berufseinstieg in Deutschland.\n\n<!-- PageNumber=\"11\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 373,
+        "word_count": 124,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          13,
+          14
+        ]
+      },
+      "traceability": {
+        "content_sha256": "aec5d5e2bdfc68fbb8a9c5330945a374bbe88e0642cf732167229770cfc43744",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0018",
+      "chunk_index": 18,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "4. Lehre und Lehrende",
+        "type": "general",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          14
+        ],
+        "page_start": 14,
+        "page_end": 14
+      },
+      "content": "## 4. Lehre und Lehrende\n\nAls profilbildendes Wesensmerkmal der Goethe-Universität schlägt sich\nInternationalität in den Lehrinhalten sowie in einer international und\ntransnational geprägten Lehrkultur nieder. Abhängig von den jeweiligen\nfachlichen Kontexten ist gegenwärtig die Einbindung differenzierter\nanalytischer Perspektiven, methodischer Diversität sowie der Anschluss\nan internationale wissenschaftliche Diskurse etabliert. Hinzu treten - in\nunterschiedlicher Ausprägung - Aspekte zur globalen Verantwortung\nder jeweiligen Fachdisziplin. Zur Förderung von internationalisierten\nLehrkonzepten wie Joint-/Twin-Teaching, Virtual Exchange und COIL\n(Collaborative Online International Learning) Formaten sowie der Ver-\nbesserung unserer Sichtbarkeit und der Gewinnung internationaler\nWissenschaftler*innen für die Lehre, richten wir Fortbildungsangebote\nund Foren des Peer-to-Peer-Mentoring ein.\n\nGemeinsam mit internationalen Partnern entwickelte und betriebene\nStudienformate und im Idealfall internationale Studiengänge eignen\nsich zur Verknüpfung aller internationalen Elemente von Studium und\nLehre. Deswegen unterstützen wir deren Einrichtung - wobei der\ninhaltliche Mehrwert der bi- oder multinationalen Kooperation, nicht\nder eventuelle Rekrutierungsvorteil, im Mittelpunkt stehen soll. Wir\nermutigen insbesondere zur Nutzung der Möglichkeiten des Erasmus-\nProgramms zu systematischen Kooperationen in der Lehre - durch cur-\nriculare Absprachen, Dozent*innenaustausch und Einbindung von\nBlended Intenstive Programs (BiPs). Darüber hinaus ist fremdsprachliche\nLehre selbstverständlicher Teil unseres internationalen Lehrangebots,\nbei dessen Ausbau und Gestaltung die Lehrenden der Fachbereiche durch\nhochschuldidaktische Angebote Unterstützung bekommen. Mittelfristig\nplanen wir die Entwicklung eines umfassenden Fremdsprachenkon-\nzeptes für die gesamte Universität, das die Rolle von Sprache und Fremd-\nsprachen in der Lehre und im Campusalltag definiert.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 539,
+        "word_count": 231,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          14
+        ]
+      },
+      "traceability": {
+        "content_sha256": "b01d5e1a03847967b8447218ca228a2b0cab706d02ee06ac4cdb26f245222023",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0019",
+      "chunk_index": 19,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 20,
+        "title": "Kernmaßnahmen",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          14,
+          15
+        ],
+        "page_start": 14,
+        "page_end": 15
+      },
+      "content": "## Kernmaßnahmen\n\n1\\. Anreize und Unterstützung für Lehrende bei der Umsetzung inter-\nnational ausgerichteter Lehrveranstaltungen sowie Ausbau der\nerforderlichen technischen Infrastruktur für digitale Formate.\nAusbau hochschuldidaktischer Angebote für Lehrende zu inter-\nnationalisierten Lehrformaten in Form von Fortbildungen und\nPeer-to-Peer-Mentoring.\n\n2\\. Entwicklung von bi- oder multinationalen Studiengängen, möglichst\nauf Basis bestehender Kooperations- oder Austauschbeziehungen.\nStärkung der Beratungs- und Supportstrukturen sowie Bereit-\nstellung von Leitfäden und erprobten Kooperationsmodellen.\n\n3\\. Ausbau des fremdsprachlichen Lehrangebots.\n\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 212,
+        "word_count": 73,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          14,
+          15
+        ]
+      },
+      "traceability": {
+        "content_sha256": "10492360cae6b8fce828d56301470c20ab56187f4fe1b272bd366a49313086d1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0020",
+      "chunk_index": 20,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 21,
+        "title": "5. Transfer",
+        "type": "student_support",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          15
+        ],
+        "page_start": 15,
+        "page_end": 15
+      },
+      "content": "## 5. Transfer\n\nEine Kernaufgabe der Goethe-Universität ist der Wissens- und Techno-\nlogietransfer, mit dem wir die Zukunftsfähigkeit von Gesellschaft, Kultur,\nPolitik und Wirtschaft unterstützen. Derzeit ist die Zusammenführung\nvon Transfer und Internationalisierung noch nicht selbstverständlich,\nauch wenn wir bereits Partnerschaften und Netzwerke mit Unterneh-\nmen und Stakeholdern aus Gesellschaft, Kultur, Politik und Wirtschaft\nauch auf internationaler Ebene unterhalten. Viele unserer Forschenden\nsind Mitglieder in internationalen Beratungs- und Expert\\*innengremien.\nSeit 2016 organisiert das Mercator Science-Policy Fellowship-Programm\nder RMU den Austausch zwischen Wissenschaft und Fach- und Füh-\nrungskräften aus der Praxis wie Ministerien und internationalen Orga-\nnisationen. Zudem ist unsere Transfergesellschaft INNOVECTIS, aktiv in\ninternationalen Netzwerken wie der Association of European Science\nand Technology Transfer Professionals (ASTP) und der AUTM (früher:\nAssociation of University Technology Managers) engagiert und bietet\ninternationale Austauschprogramme für Gründer\\*innen an.\n\nWir werden zukünftig unsere Transferaktivitäten an der Goethe-Uni-\nversität weiter ausbauen. Zur Unterstützung analysieren wir systematisch\nSynergien zwischen den Internationalisierungs- und Transferaktivitäten.\nZur Realisierung einer gezielten und effektiven Integration von inter-\nnationalen Perspektiven in den Transferbereich wollen wir insbesondere\ndie Metropolregion Frankfurt/Rhein-Main als internationale Innovations-\nregion für wichtige Zukunftsfelder weiterentwickeln. Die Europäische\nUnion, ihre Institutionen und Fördersysteme erachten wir als zentralen\nBezugsraum für unsere internationalen Transferaktivitäten.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 429,
+        "word_count": 206,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          15
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1ed2474de58dbeb1d57d82fae3846cdf8ce2577957fe9bd8ee6e8a267aa12b72",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0021",
+      "chunk_index": 21,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 22,
+        "title": "Kernmaßnahmen",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          15
+        ],
+        "page_start": 15,
+        "page_end": 15
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Entwicklung eines Konzepts zur synergetischen, effektiven Verbindung\nvon Transfer- und Internationalisierungsaktivitäten.\n\n2\\. Gestaltung eines geeigneten Umfelds, um internationale Forschungs-\nkooperationen und Auftragsforschung, insbesondere im Hinblick auf\nTransferaspekte, effizient zu unterstützen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 88,
+        "word_count": 32,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          15
+        ]
+      },
+      "traceability": {
+        "content_sha256": "0185fac22be0b3cdf3f2a0bb33c795588aa7e0facd185a350ce410f2ddaad991",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0022",
+      "chunk_index": 22,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 23,
+        "title": "6. Struktur und Governance",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          15,
+          16
+        ],
+        "page_start": 15,
+        "page_end": 16
+      },
+      "content": "## 6. Struktur und Governance\n\nInternationalität bereichert die Qualität von Studium, Lehre, Forschung\nund Transfer und trägt u.a. auch zur angemessenen Bearbeitung welt-\ngesellschaftlich relevanter Forschungsfragen bei. Deshalb werden wir\nInternationalität in allen Prozessen an der Goethe-Universität angemes-\nsen berücksichtigen und so die Rahmenbedingungen für internationale\nForschungs, Studien- und Lehrinhalte verbessern. Bei den notwendi-\ngen Anpassungen folgen wir der Idee des i-Mainstreaming. Ein zentral\norganisiertes Global Office unterstützt diesen Prozess unter strategischer\nLeitung des Präsidiums. Es bündelt die universitätsweiten Aktivitäten\n\n<!-- PageNumber=\"13\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\nim Mobilitäts- und Partnerschaftsmanagement und pflegt den Austausch\nmit internationalen Partnern und Wissenschaftseinrichtungen.\n\nIn den Verwaltungs- und Fachbereichen wird Internationalität durch\ndie Bildung von Teams oder die Benennung von Zuständigkeiten mit\ninternationalem Arbeitsschwerpunkt (International Teams bzw. Inter-\nnational Hubs) berücksichtigt, die bereichs- und funktionsübergreifend\nzur Umsetzung der Internationalisierungsziele kommunizieren, koope-\nrieren und beitragen. Hierdurch verbessern wir die Abstimmungen und\nProzesse internationaler Arbeitsinhalte und sorgen für bedarfsgerechten\nund serviceorientierten Support für unsere internationalen Universitäts-\nmitglieder. Ebenso sind alle Fachbereiche der Goethe-Universität dazu\naufgefordert, die Austauschaktivitäten und Partnerschaftspflege in den\nFachbereichen (oder in geeigneten Fachbereichsgruppen) professionell\nund nachhaltig zu begleiten.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 458,
+        "word_count": 181,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          15,
+          16
+        ]
+      },
+      "traceability": {
+        "content_sha256": "92947e8f17cdbd6e464dc605359d1c2a1b77678d2f86b74ad4ac8de74d5bf64d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0023",
+      "chunk_index": 23,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 24,
+        "title": "Kernmaßnahmen",
+        "type": "general",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      "content": "## Kernmaßnahmen\n\n1\\. Einrichtung von Teams mit Zuständigkeit für Internationalisierung in\nallen Verwaltungsbereichen zur Wahrnehmung von Internationalisie-\nrungsaufgaben und Einführung einer funktionsübergreifenden dyna-\nmischen Struktur der gesamtuniversitären Internationalisierung.\n\n2\\. Einrichtung von International Hubs in allen Fachbereichen und\nwissenschaftlichen Einrichtungen zur fachspezifischen operativen\nAusgestaltung der Internationalisierung (v. a. Betreuung internatio-\nnaler Studierender, Partnerschaftspflege, Rekrutierung).\n\n3\\. Das Global Office wird als zentrale Steuerungseinheit für die Koordi-\nnation des i-Mainstreaming-Prozesses ausgebaut.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 181,
+        "word_count": 69,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          16
+        ]
+      },
+      "traceability": {
+        "content_sha256": "b1b1de4b0f64d418da6266cfde6130e05b87ca5a5e51b2ed6b66b09dfdce1993",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0024",
+      "chunk_index": 24,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 25,
+        "title": "7. Verwaltung und Verwaltende",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          16,
+          17
+        ],
+        "page_start": 16,
+        "page_end": 17
+      },
+      "content": "## 7. Verwaltung und Verwaltende\n\nDie Kernprozesse Forschung, Lehre und Transfer werden maßgeblich\ndurch eine interkulturell sensible Verwaltung unterstützt. Zur Umset-\nzung der organisatorischen Schritte im Handlungsfeld „Struktur und\nGovernance“ werden bereichsübergreifende Prozesse für internationale\nThemen weiter vereinheitlicht (z. B. Forschungsprojekt-Management,\nAusschreibungen, Stellenbesetzungen, Ausländer*innenstudium).\nZudem wird die Mehrsprachigkeit in relevanten Services (insbesondere\nfür „English Tracks“) sowie die digitale Dokumentation in allen Prozessen,\nauch durch den Einsatz von KI, vorangetrieben. Um den internationalen\nAustausch zu fördern, werden Staff Exchange, internationale Benchmar-\nking-Tage und Job Shadowing Visits als regelmäßige Fortbildungs-\nformate etabliert. Hierdurch stärken wir die internationale Handlungs-\nkompetenz unserer Mitarbeitenden (International Enablement).\n\n<!-- PageNumber=\"14\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->\n\nWir schätzen die Vielfalt unserer Verwaltungsbelegschaft und fördern\ndie Einbindung ihrer interkulturellen Kompetenzen und Wünsche in\nden Arbeitsalltag sowie in die Gestaltung internationaler Aktivitäten.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 340,
+        "word_count": 127,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          16,
+          17
+        ]
+      },
+      "traceability": {
+        "content_sha256": "9ee11ca6f3e6851253ee4f0fc676914c73f9119eb8af741dea08e1645b52846e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0025",
+      "chunk_index": 25,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 26,
+        "title": "Kernmaßnahmen",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          17
+        ],
+        "page_start": 17,
+        "page_end": 17
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Bereichsübergreifende Abstimmung und Standardisierung der\nVerwaltungsvorgänge mit internationalem Bezug in Forschung,\nStudium und Lehre sowie Mobilität in allen zentralen und\ndezentralen Verwaltungseinheiten.\n\n2\\. Zielgerichtete Stärkung der Internationalisierungsfähigkeit der\nVerwaltung durch intensivere internationale Interaktion, wie\nz. B. Staff Exchange, Benchmarking, internationale Vernetzung\nauf Arbeitsebene und freiwillige Sprachkurse.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 133,
+        "word_count": 48,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          17
+        ]
+      },
+      "traceability": {
+        "content_sha256": "5465c52aef2f64889281f4f30118e33593eaaebab96062e1fdde03fa8496a306",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0026",
+      "chunk_index": 26,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 27,
+        "title": "8. Öffentlichkeitsarbeit und internationale Sichtbarkeit",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          17,
+          18
+        ],
+        "page_start": 17,
+        "page_end": 18
+      },
+      "content": "## 8. Öffentlichkeitsarbeit und internationale Sichtbarkeit\n\nZu optimalen institutionellen Rahmenbedingungen für Internationalität\ngehört eine hohe internationale Sichtbarkeit, die uns dabei unterstützt,\ninternationale Spitzenforscher*innen und Studierende anzuziehen.\nDurch eine auf die hochgradig diversen Zielgruppen in Frankfurt, dem\nRhein-Main-Gebiet, Deutschland und der Welt abgestimmte Öffentlich-\nkeitsarbeit richten wir unsere Außendarstellung kommunikativ inter-\nnational aus.\n\nUnsere Forschung wird gesehen, ist respektiert und gefragt - unter\nunseren Partnerinstitutionen, wissenschaftlichen und öffentlichen Ein-\nrichtungen, Alumni und potentiellen Förderern. Zur Ermittlung\ngemeinsamer und bestimmter Bedarfe, Zielgruppen, Formate und\nKanäle und zur Umsetzung entsprechender Kommunikationsmaßnah-\nmen ist ein enger Austausch und eine direkte Kommunikation zwi-\nschen den International Teams und International Hubs notwendig,\ndie wir besonders fördern. Im Zuge unserer internationalen Berichter-\nstattung und einer systematischen Publikation entsprechender Ange-\nbote und Dienstleistungen bereiten wir neu aufgelegte Internationali-\nsierungskonzepte (Rekrutierung, neue Kurs-/Austauschangebote, etc.)\nkommunikativ so auf und stimmen sie so ab, dass sie sowohl den unmit-\ntelbaren Zielen gerecht werden (z. B. eine Rekrutierungskampagne\neines Fachbereichs für Early Career Researchers (ECRs)) als auch eine\nkontinuierliche Präsenz der Goethe-Universität in den Medien garan-\ntieren (z.B. eine Vorstellung der durch die Kampagne akquirierten\nECRs und deren Forschungsschwerpunkte).\n\n<!-- PageNumber=\"15\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"Internationalisierung: Strategie und Umsetzung an der Goethe-Universität\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 469,
+        "word_count": 191,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          17,
+          18
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1e29b51ed9ae4362863dd414a80d1ad88df56fc82c26281a60d2571249849e0d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0027",
+      "chunk_index": 27,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 28,
+        "title": "Kernmaßnahmen",
+        "type": "research",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          18
+        ],
+        "page_start": 18,
+        "page_end": 18
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Stärkung der internationalen Öffentlichkeitsarbeit durch Berück-\nsichtigung der (begleitenden) Kommunikation in den Diskussionen\nund Entwicklungen, die sich aus dem Netzwerk der International\nTeams und International Hubs ergeben.\n\n2\\. Entwicklung eines internationalen Kommunikationskonzepts, das\ndie Bedarfe der unterschiedlichen Stakeholder berücksichtigt\nund gleichzeitig Synergien in der Themenfindung und zielgruppen-\ngerechten Aufarbeitung hebt.\n\n3\\. Berücksichtigung der zu entwickelnden Rekrutierungskonzepte für\nForschung und Lehre in internationalen Kommunikationsmaßnahmen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 163,
+        "word_count": 65,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          18
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e33e51de537824e2d614f6258daaf78c8941bc8acf569992b0e23ac94bea9485",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0028",
+      "chunk_index": 28,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 29,
+        "title": "9. International Compliance und Forschungssicherheit",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          18,
+          19
+        ],
+        "page_start": 18,
+        "page_end": 19
+      },
+      "content": "## 9. International Compliance und Forschungssicherheit\n\nVerantwortungsvolle institutionelle Rahmenbedingungen für interna-\ntional vernetzte Forschungsaktivitäten beinhalten die Gewährleistung\nvon Forschungsfreiheit, -integrität und -sicherheit wie auch von Gesetz-\nund Regelkonformität (International Compliance). Um internationale\nKooperationen so offen wie möglich gestalten zu können, bedarf es\nzugleich eines bewussten Umgangs mit Sicherheitsrisiken auf individueller\nund institutioneller Ebene. Dazu gehört auch die Bereitstellung einer\nsicheren IT-Infrastruktur und reisesicherer IT-Ausstattung.\n\nFür eine anpassungsfähige und risikoreflexive Ausgestaltung unserer\ninternationalen Kooperationen orientieren wir uns an Empfehlungen\nu.a. der DFG, des DAAD und der HRK und entwickeln eigene Richt-\nlinien und Unterstützungsangebote für unsere Wissenschaftler\\*innen.\nUm den eigenverantwortlichen Umgang unserer Wissenschaftler\\*innen\nmit Risiken in internationalen Kooperationen insbesondere mit Part-\nnern aus „herausfordernden Ländern“1 zu stärken, stellen wir wichtige\nInformationen zu dem Themenkomplex kontinuierlich aufbereitet zur\nVerfügung. Zuständige Einheiten der Zentralverwaltung (Global Office,\nResearch Support, Risk and Compliance, Personalservices) unterstützen\nkoordiniert und passgenau bei der Anbahnung und Durchführung der\nKooperationen. Auch Fragen der digitalen Sicherheit in internationalen\nKooperationen werden wir hierbei berücksichtigen.\n\nZur Herstellung von Rechtssicherheit hinsichtlich der Regelungen des\nAußenwirtschaftsrechts und des Exportkontrollrechts, der EU-Dual-\nUse-Verordnung und der internationalen Sanktionsregimes richten wir\neine mit entsprechenden Vollmachten ausgestattete Dienststelle mit\nberatenden und kontrollierenden Aufgaben ein.\n\n1 Unter „herausfordernden Ländern“ verstehen wir Länder, die von unserer rechtsstaatlichen, freiheitlich-\ndemokratischen Grundordnung abweichen oder unsere damit verbundenen Grundwerte und Grundrechte nicht\noder unvollständig teilen. Aus universitärer Sicht gehört die akademische Freiheit zu diesen unverhandelbaren\nWerten. Weitere Herausforderungen können in erheblichen politischen, inner- oder zwischenstaatlichen\nKonflikten bestehen, die nach internationalem Recht fragwürdig sind.\n\n<!-- PageNumber=\"16\" -->\n<!-- PageBreak -->\n\nDie Goethe-Universität verfolgt geopolitische Entwicklungen und Dis-\nkussionen aufmerksam. Sie bildet sich auch weiterhin auf Basis der\nEmpfehlungen der großen Wissenschaftsorganisationen, beraten durch\ndie eigenen Fachwissenschaftler\\*innen und regionalen Expert\\*innen,\nein reflektiertes und unabhängiges Urteil.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 706,
+        "word_count": 293,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          18,
+          19
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d689010073fcdc7461ee582f23c3e8304379e5bb4949ddbda2a3e9151552f31a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0029",
+      "chunk_index": 29,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0098",
+      "page_id": null,
+      "section": {
+        "index": 30,
+        "title": "Kernmaßnahmen",
+        "type": "assessment",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          19
+        ],
+        "page_start": 19,
+        "page_end": 19
+      },
+      "content": "### Kernmaßnahmen\n\n1\\. Einrichtung einer Exportkontrollrechtsstelle zur Beratung und\nPrüfung außenwirtschaftsrechtlich relevanter Vorgänge.\n\n2\\. Aufbau und Pflege einer Website zum Umgang mit Risiken in\ninternationalen Kooperationen.\n\n3\\. Professionelle Unterstützung bei der Anbahnung und Einrichtung\nvon Partnerschaften und Kooperationen auch unter Berücksichti-\ngung von Sicherheits- und Compliance-Fragen.\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 115,
+        "word_count": 46,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0098\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://assets.uni-frankfurt.de/dam/central-webpages/pdf/strategy-papers/2025-Internationalisierungsstrategie-de.pdf",
+        "document_id": "source",
+        "program_id": "0098",
+        "page_id": null,
+        "page_numbers": [
+          19
+        ]
+      },
+      "traceability": {
+        "content_sha256": "22cd690a2d7f39c909ebfbd38eb8094752dbf8576fe73f026ed72299b4414a6c",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "admission_contact",
+      "field": "name",
+      "value": "John McGuire",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "admission_contact",
+      "field": "title",
+      "value": "Coordinator Senior, Military and Veteran Recruitment Admission Services",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "admission_contact",
+      "field": "role",
+      "value": "works directly with military-connected students and their families to help them navigate the admissions process at Arizona State University",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "appointment_details",
+      "field": "appointment_duration",
+      "value": "30 minutes",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "appointment_topics",
+      "field": "discussion_topics",
+      "value": [
+        "Applying to ASU",
+        "Military and veteran education benefits",
+        "Financial aid and scholarships",
+        "Military and transfer credit",
+        "Enrollment and next steps",
+        "Veteran student support services and the Pat Tillman Veterans Center"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    }
+  ]
+}

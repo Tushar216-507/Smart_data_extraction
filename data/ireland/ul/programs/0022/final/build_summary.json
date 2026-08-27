@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0022",
+  "program_name": "Masters/PhD in Geography",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0022\\final",
+  "input_fact_count": 15,
+  "unique_fact_count": 15,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 15,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 15,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 9,
+    "admission": 1,
+    "curriculum": 1,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 1,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0022\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0022\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0022\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0022\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0022\\final\\scholarships_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0022\\final\\student_life_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0022\\final\\build_summary.json"
+  }
+}

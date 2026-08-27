@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "application_start",
+      "value": "only in Winter semester",
+      "original_value": "kann nur zum Wintersemester aufgenommen werden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

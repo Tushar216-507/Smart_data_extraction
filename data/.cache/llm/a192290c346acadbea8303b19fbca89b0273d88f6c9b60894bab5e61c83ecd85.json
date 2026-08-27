@@ -1,0 +1,394 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "electronic_transcript_delivery",
+      "value": "CCAF now offers electronic transcript delivery through Parchment, a digital credentialing service.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "parchment_account_creation",
+      "value": "Students can create an account on Parchment to send transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transcript_management",
+      "value": "Officer transcripts are maintained by Air University.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "first_time_user_instructions",
+      "value": "First-time users must create an account by accessing the AU Service Desk.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "service_desk_url",
+      "value": "https://auservicedesk.af.edu/education",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "browser_recommendation",
+      "value": "This works better on non-NIPR and Google Chrome.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "official_transcript_request_instructions",
+      "value": "On the homepage under the Quick Links tab, select Official Transcript Request. Complete the required components of the form, add the attachments and submit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "accessibility_device_requirement",
+      "value": "The Service Desk can be accessed by any device that has internet access; it is Common Access Card (CAC) enabled, but this is not required.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "application_security",
+      "value": "The AU Service Desk is a secure application and certified for submission of Privacy Act information.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transcript_system",
+      "value": "The Joint Services Transcript has replaced the Coast Guard Institute Transcript, the Army/American Council on Education Registry Transcript System, and the Sailor/Marine American Council on Education Registry Transcript.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "eligible_members",
+      "value": "All enlisted members, officers and warrant officers, both active and veterans from all Army components, Coast Guard, Marine Corps and Navy, are eligible for a JST.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "access_requirements",
+      "value": "You do not have to be on active duty to access the JST website and your transcript. Active duty, reserve, veterans or National Guard personnel can use JSTs.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "security_warning_info",
+      "value": "Some students may have concerns about a security warning when accessing the website. This happens when a user logs in to a Department of Defense network from a non-networked computer without a CAC. You can confirm the security exception to proceed to the JST request site.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "order_restriction_info",
+      "value": "If you do not confirm this exception, you will be unable to place your order.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "registration_link",
+      "value": "https://jst.doded.mil/jst/registration",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "services_provided",
+      "value": "Help military-connected students and their families navigate the admissions process.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "appointment_duration",
+      "value": "30 minutes",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "applying_to_ASU",
+      "value": "Applying to ASU",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "military_and_veteran_education_benefits",
+      "value": "Military and veteran education benefits",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "financial_aid_and_scholarships",
+      "value": "Financial aid and scholarships",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "military_and_transfer_credit",
+      "value": "Military and transfer credit",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_and_next_steps",
+      "value": "Enrollment and next steps",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "veteran_student_support_services",
+      "value": "Veteran student support services and the Pat Tillman Veterans Center",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "class_schedule_details",
+      "value": "Courses are offered in a full semester format in the evenings at Arizona Western College’s Downtown Center. Classes will be held Monday through Thursday from 6:30 to 8:30 p.m.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Sample class schedule and course descriptions",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_title",
+      "value": "Introduction to Africana Studies",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "credit_hours",
+      "value": "3",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "minimum_grade",
+      "value": "C",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_title",
+      "value": "Precolonial Africa",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_title",
+      "value": "The Global History of the Trans-Atlantic Slave Trade",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_title",
+      "value": "Critical Race Theory",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

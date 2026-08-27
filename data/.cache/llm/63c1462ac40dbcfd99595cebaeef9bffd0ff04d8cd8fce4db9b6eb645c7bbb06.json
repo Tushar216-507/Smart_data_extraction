@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_requirements",
+      "value": "For a master's program with German and English as the language of instruction, fluency in German and English is usually required at a C1 level according to the Common European Framework of Reference for Languages.",
+      "original_value": "Studienbewerberinnen und Studienbewerber für einen Masterstudiengang mit Deutsch und Englisch als Unterrichtssprache müssen Deutschkenntnisse [...] in der Regel auf dem Sprachniveau C 1 des „Gemeinsamen europäischen Referenzrahmens für Sprachen des Europarats“ nachweisen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "conditional_admission",
+      "value": "Applicants who have not yet received their bachelor's degree can apply with a certificate stating at least 80% of the required credits, along with a provisional average grade.",
+      "original_value": "Liegt bei der Bewerbung um einen Studienplatz eines konsekutiven Masterstudiengangs das Abschlusszeugnis für den Bachelorabschluss noch nicht vor, kann die Bewerbung stattdessen auf einen Immatrikulationsnachweis und auf eine besondere Bescheinigung gestützt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": "conditional",
+        "requirement_type": "bachelor_degree",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "master_exam_requirements",
+      "value": "For admission to the master's exam, students must provide a declaration regarding any non-passing exams in relevant fields.",
+      "original_value": "Danach hat die oder der Studierende bei der Zulassung zur Masterprüfung insbesondere eine Erklärung darüber abzugeben, ob sie oder er bereits eine Zwischenprüfung, eine Diplom-Vorprüfung [...] im jeweiligen Fach oder in einem vergleichbaren Studiengang endgültig nicht bestanden hat.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "master_exam",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "acceptance_decision",
+      "value": "The decision on the fulfillment of admission requirements and possibly provisional admission is made by the examination board.",
+      "original_value": "Über das Vorliegen der Zugangsvoraussetzungen und ggf. die vorläufige Zulassung entscheidet der Prüfungsausschuss.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": "decision",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

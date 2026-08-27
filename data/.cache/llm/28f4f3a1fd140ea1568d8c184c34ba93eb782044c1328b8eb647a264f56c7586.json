@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "mailing_addresses",
+      "field": "student_deliveries",
+      "value": "Use campus-specific addresses for student deliveries.",
+      "confidence": 1.0,
+      "programme_association": "Online Master of Science in Technical Communication"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "mailing_addresses",
+      "field": "department_mail",
+      "value": "Use campus-specific addresses for department mail.",
+      "confidence": 1.0,
+      "programme_association": "Online Master of Science in Technical Communication"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "mailing_addresses",
+      "field": "admissions_documents",
+      "value": "Use campus-specific addresses for admissions-related documents.",
+      "confidence": 1.0,
+      "programme_association": "Online Master of Science in Technical Communication"
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Microeconomics",
+      "original_value": "Fundamentals of Microeconomics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "1",
+        "name": "Fundamentals of Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Macroeconomics",
+      "original_value": "Fundamentals of Macroeconomics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "2",
+        "name": "Fundamentals of Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "3",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Capital Markets and Asset Pricing",
+      "original_value": "Capital Markets and Asset Pricing",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "4",
+        "name": "Capital Markets and Asset Pricing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance",
+      "original_value": "Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "5",
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "1-5",
+        "name": "Total for Semester 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance",
+      "original_value": "Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Monetary Economics and Macroeconomics",
+      "original_value": "Monetary Economics and Macroeconomics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7",
+        "name": "Monetary Economics and Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Supplementary",
+      "original_value": "Supplementary",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "8",
+        "name": "Supplementary"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "6-8",
+        "name": "Total for Semester 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Seminar Monetary Economics and Macroeconomics",
+      "original_value": "Seminar Monetary Economics and Macroeconomics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "9",
+        "name": "Seminar Monetary Economics and Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Seminar Finance",
+      "original_value": "Seminar Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "10",
+        "name": "Seminar Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Elective",
+      "original_value": "Elective*",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "11",
+        "name": "Elective"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "9-11",
+        "name": "Total for Semester 3"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Research",
+      "original_value": "Research",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "12",
+        "name": "Research"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "12",
+        "name": "Total for Semester 4"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 120,
+      "original_value": "120 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "1-12",
+        "name": "Total for Semesters 1-4"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

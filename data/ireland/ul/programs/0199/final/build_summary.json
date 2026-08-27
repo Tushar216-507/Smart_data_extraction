@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0199",
+  "program_name": "Bachelor of Arts in Voice",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0199\\final",
+  "input_fact_count": 57,
+  "unique_fact_count": 52,
+  "exact_duplicate_count": 5,
+  "handled_fact_count": 52,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 52,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 8,
+    "admission": 20,
+    "curriculum": 6,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 1,
+    "visa": 0,
+    "documents": 1,
+    "statistics": 4,
+    "other": 11
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0199\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0199\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0199\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0199\\final\\career_data.json",
+    "housing": "data\\ireland\\ul\\programs\\0199\\final\\housing_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0199\\final\\documents_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0199\\final\\statistics_data.json",
+    "other": "data\\ireland\\ul\\programs\\0199\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0199\\final\\build_summary.json"
+  }
+}

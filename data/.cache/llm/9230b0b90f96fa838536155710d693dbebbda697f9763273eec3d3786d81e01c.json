@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "additional_requirements",
+      "value": "Admission may be granted with the condition of completing additional study and module examinations up to equivalence with the bachelor's program.",
+      "original_value": "In den Fällen des Abs. 2 b) und c) kann die Zulassung unter der Auflage der Erbringung zusätzlicher Studien- und Modulprüfungen bis zur Gleichwertigkeit mit dem Bachelorstudiengang ... [Bezeichnung] an der Johann Wolfgang Goethe-Universität Frankfurt im Umfang von maximal 60 CP erteilt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "maximum_additional_credits",
+      "value": 60,
+      "original_value": "60 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

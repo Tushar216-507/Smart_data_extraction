@@ -1,0 +1,43 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "field": "tuition_amount",
+      "value": "$42,720",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information - Part 1",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "additional_fees",
+      "value": "$65,040",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information - Part 1",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "financial_aid_availability",
+      "value": "Available through FAFSA and scholarships",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information - Part 1",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

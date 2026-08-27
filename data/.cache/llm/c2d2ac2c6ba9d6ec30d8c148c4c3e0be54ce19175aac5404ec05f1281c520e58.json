@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "undergraduate_transcripts",
+      "field": "address",
+      "value": "Admission Services, Arizona State University, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies (Organizational Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "graduate_transcripts",
+      "field": "address",
+      "value": "Graduate Admission Services, Arizona State University, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies (Organizational Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "military_transcripts",
+      "field": "military_branch",
+      "value": "Air Force and Space Force members",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies (Organizational Studies) - BA"
+    }
+  ]
+}

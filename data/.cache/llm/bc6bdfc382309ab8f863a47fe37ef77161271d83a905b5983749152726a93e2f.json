@@ -1,0 +1,95 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "related_area_credit_hours",
+      "value": "9",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "first_year_seminar",
+      "value": {
+        "seminar_title": "The ASU Experience",
+        "seminar_code": "ASU 101-LA",
+        "credit_hours": "1",
+        "note": "ASU Online students enroll in ASU 101-LA."
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "first_year_composition",
+      "value": {
+        "course_options": [
+          {
+            "course_title": "First-Year Composition",
+            "course_code": "ENG 101",
+            "credit_hours": "3",
+            "minimum_grade": "C"
+          },
+          {
+            "course_title": "First-Year Composition",
+            "course_code": "ENG 102",
+            "credit_hours": "3",
+            "minimum_grade": "C"
+          },
+          {
+            "course_title": "Advanced First-Year Composition",
+            "course_code": "ENG 105",
+            "credit_hours": "3",
+            "minimum_grade": "C"
+          },
+          {
+            "course_title": "First-Year Composition",
+            "course_code": "ENG 107",
+            "credit_hours": "3",
+            "minimum_grade": "C"
+          },
+          {
+            "course_title": "First-Year Composition",
+            "course_code": "ENG 108",
+            "credit_hours": "3",
+            "minimum_grade": "C"
+          }
+        ],
+        "total_credit_hours": "6"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "internship_recommendation",
+      "value": "An internship is recommended but not required.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0309",
+  "program_name": "Bachelor/Master of Engineering in Mechanical Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0309\\final",
+  "input_fact_count": 72,
+  "unique_fact_count": 72,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 72,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 72,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 31,
+    "admission": 2,
+    "curriculum": 18,
+    "career": 8,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 4,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 8
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0309\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0309\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0309\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0309\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0309\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0309\\final\\research_data.json",
+    "other": "data\\ireland\\ul\\programs\\0309\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0309\\final\\build_summary.json"
+  }
+}

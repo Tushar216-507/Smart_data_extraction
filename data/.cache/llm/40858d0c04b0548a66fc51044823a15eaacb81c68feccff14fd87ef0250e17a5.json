@@ -1,0 +1,200 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "department",
+      "value": "Department of Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": "Department of Economics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M.A. Soziologie",
+        "name": "M.A. Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "M.A. Soziologie",
+        "name": "M.A. Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M.A. Wirtschaftssoziologie",
+        "name": "M.A. Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "M.A. Wirtschaftssoziologie",
+        "name": "M.A. Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Microeconomic Deepening",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Mikroökonomik",
+        "name": "Microeconomic Deepening"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Mikroökonomik",
+        "name": "Microeconomic Deepening"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Macroeconomic Deepening",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Makroökonomik",
+        "name": "Macroeconomic Deepening"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Makroökonomik",
+        "name": "Macroeconomic Deepening"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

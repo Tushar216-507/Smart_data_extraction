@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "German Courses",
+      "original_value": "German Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Please refer to your study plan and § 9 of the regulations for exact specifications.",
+      "original_value": "Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 0.95
+    }
+  ]
+}

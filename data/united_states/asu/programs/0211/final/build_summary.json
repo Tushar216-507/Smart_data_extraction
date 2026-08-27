@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0211",
+  "program_name": "Transborder Chicana/o and Latina/o Studies, BA",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0211\\final",
+  "input_fact_count": 30,
+  "unique_fact_count": 30,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 30,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 30,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 5,
+    "admission": 18,
+    "curriculum": 4,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0211\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0211\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0211\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0211\\final\\career_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0211\\final\\contacts_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0211\\final\\build_summary.json"
+  }
+}

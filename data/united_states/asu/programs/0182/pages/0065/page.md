@@ -1,0 +1,47 @@
+# Transfer Guide FAQs
+
+## Build a Transfer Map Tool
+
+The Build a Map tool gives transfer course recommendations for a selected transfer institution with a specific undergraduate degree program at ASU. You can outline a transfer map by selecting almost any regionally accredited domestic institution and almost any ASU major.
+
+Yes, you can favorite multiple transfer maps by selecting the heart within the transfer map search. This allows you to explore how transfer coursework could apply to various ASU majors.
+
+Building and saving a transfer map allows you to track your progress by adding details about where and when you plan to complete degree requirements. By periodically reviewing the saved transfer map and updating your selections, you can determine when to transfer to ASU.
+
+Build a Transfer Map is your tool for exploring how prior courses could apply to an ASU degree, and for planning which courses it would be most beneficial to complete prior to transferring.
+
+Once you have been admitted to ASU, you will work with an Academic Advisor in your college to review the official major map for your catalog year. The transfer map is a proactive planning tool; once you have started your academic career at ASU, the transfer map is replaced by the official degree audit (DARS).
+
+## Using Build a Transfer Map
+
+There are several reasons you may not be able to locate your school in the Institution search:
+
+- At this time, Build a Transfer Map is only available for transfer institutions within the United States and for military Joint Service Transcripts; you can review course equivalencies for international colleges and universities in the Course Search, but at this time you cannot build a transfer map for international coursework.
+- Since ASU only accepts credit from regionally accredited institutions, it is possible that your previous college or university is not regionally accredited. Accreditation questions can be referred to your transfer institution or to [ASU Admissions Services](https://admission.asu.edu/contact).
+- Please note that Build a Transfer Map may not be compatible with institutions that have highly unique or experimental methods of instruction, including great books-, thesis-, or seminar-based curricula. Some such schools are therefore not available from the selection menu. Students from institutions that fall into this scenario are encouraged to work with an Academic Advisor or [transfer specialist](https://admission.asu.edu/contact/transfer). If you are still unable to locate your institution, please contact[[email protected]](/cdn-cgi/l/email-protection)and we would be happy to assist.
+
+The transfer map displays course recommendations from one institution (referred to as your “Primary Institution”) at a time. You may search and favorite multiple combinations of transfer institutions and ASU majors.
+
+Once you save a transfer map and begin tracking your progress, you can indicate which courses you plan to complete elsewhere. While the specific transfer courses from secondary institutions will not be displayed, you can still use the Track My Progress page to see the full picture of how all your transfer coursework might apply to a degree program.
+
+It is possible that we have not yet reviewed your course, or that the content of the course was determined to be insufficient or incompatible with the ASU requirement.
+
+You can use additional helpful Transfer Guide tools such as Course Search and Submit Course for Evaluation to investigate specific transfer course equivalencies.
+
+ASU does allow some courses to fulfill more than one requirement. For example, a transfer course could satisfy both Humanities (HU) General Studies and the Historical Awareness (H) Awareness Area.
+
+If a transfer course has been evaluated, for example, as earning Humanities or Literacy General Studies, the course will appear in the Course to Transfer list on your transfer map in both the Humanities and Literacy requirement categories. However, ASU General Studies policy specifies that a single course may be used to satisfy only one core area. Therefore, when planning courses using your transfer map, in this example you would decide whether to use the course to fulfill either the Humanities or the Literacy requirement.
+
+## My Transfer Guide: Transfer Map
+
+When you use Build a Transfer Map to search for a major, you can “favorite” that major by clicking on the heart icon. Keeping track of majors you might be interested in is helpful when you are first exploring degree options. You can compare how your transfer courses fulfill recommendations in various majors, and “favorite” those transfer maps for future reference.
+
+Once you have a better idea of which majors most interest you, you can begin tracking your progress in a more formal way to determine when the best time to transfer to ASU is. The transfer maps for which you are actively tracking progress are located under the My Saved Transfer Maps heading.
+
+## Troubleshooting Build a Transfer Map
+
+We recommend using a desktop computer with Firefox or Chrome web browser.
+
+Only users who have previously created an account or have an ASURITE UserID are able to log into the system.
+
+You can click on Create an Account by using personal, non-ASU email address, please be sure to keep track of your login and password information.

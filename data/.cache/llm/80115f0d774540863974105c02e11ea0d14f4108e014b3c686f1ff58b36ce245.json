@@ -1,0 +1,371 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Ergänzungsmodul BWL",
+      "original_value": "NF 1 - Ergänzungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "requirements",
+      "value": "Successful completion of both modules, if no minor subject BWL was studied in the bachelor's program - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren beider Module, sofern noch kein Nebenfach BWL im Bachelor studiert wurde - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul VWL",
+      "original_value": "NF 2 - Anwendungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": {
+        "min": 20,
+        "max": 22
+      },
+      "original_value": "20/ 22",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "requirements",
+      "value": "Successful completion of 3 modules - OVWL + OPPE + OMIK/BMAK, if no minor subject VWL was studied in the bachelor's program - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren von 3 Modulen - OVWL+OPPE+OMIK/BMAK, sofern noch kein Nebenfach VWL im Bachelor studiert wurde - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Makroökonomik 1",
+      "original_value": "Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

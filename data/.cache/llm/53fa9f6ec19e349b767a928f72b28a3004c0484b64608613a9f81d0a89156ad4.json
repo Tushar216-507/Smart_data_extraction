@@ -1,0 +1,68 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "official_program_name",
+      "value": "Master of Southeast Asian Studies",
+      "original_value": "Masterstudiengang Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "relevant_regulations",
+      "value": [
+        {
+          "title": "Order for Master's Programmes of the Department of Language and Cultural Studies",
+          "date": "December 17, 2014",
+          "abbreviation": "MA09"
+        },
+        {
+          "title": "Framework Regulation for Structured and Modularized Study Programs",
+          "date": "April 30, 2014",
+          "institution": "Johann Wolfgang Goethe-University Frankfurt am Main",
+          "abbreviation": "RO"
+        }
+      ],
+      "original_value": "Ordnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwissenschaften vom 17. Dezember 2014 (MA09) und der Rahmenordnung für gestufte und modularisierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main vom 30. April 2014 (RO)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

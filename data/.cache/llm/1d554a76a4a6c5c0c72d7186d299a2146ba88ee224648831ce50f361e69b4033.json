@@ -1,0 +1,66 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Oral examination",
+      "original_value": "Mündliche Prüfungen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_details",
+      "value": {
+        "exam_format": "Individual examination with the presence of an observer",
+        "group_exam_possible": "Yes, up to five students",
+        "duration": {
+          "min": 15,
+          "max": 60
+        },
+        "assessment_recording": "The essential subjects and results must be recorded by the observer in a protocol.",
+        "result_notification": "Results must be communicated to the student immediately following the examination.",
+        "public_access": "Students from the same program are permitted to attend the examinations."
+      },
+      "original_value": "Mündliche Prüfungen werden von der oder dem Prüfenden in Gegenwart einer oder eines Beisitzenden als Einzelprüfung abgehalten. Gruppenprüfungen mit bis zu fünf Studierenden sind möglich...  Die oder der zu prüfende Studierende kann der Zulassung der Öffentlichkeit widersprechen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

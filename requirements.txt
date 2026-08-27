@@ -1,11 +1,26 @@
-requests
-beautifulsoup4
-lxml
-python-dotenv
-groq
-trafilatura
-markdownify
-openai
-curl-cffi
-tiktoken
-duckduckgo-search
+# Core
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+python-dotenv>=1.0.0
+
+# Web crawling & scraping
+curl-cffi>=0.7.0
+trafilatura>=1.8.0
+markdownify>=0.13.0
+
+# LLM providers
+openai>=1.30.0
+groq>=0.9.0
+
+# Token counting
+tiktoken>=0.7.0
+
+# Search fallback
+duckduckgo-search>=6.0.0
+
+# Date parsing (used in evidence extraction)
+dateparser>=1.2.0
+
+# PDF processing (Azure Document Intelligence)
+# azure-ai-formrecognizer>=3.3.0  # Optional: uncomment if using Azure PDF extraction

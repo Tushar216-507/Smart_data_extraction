@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "created_at": "2026-08-26T15:24:20.400592+05:30",
+    "max_depth": 2,
+    "statistics": {
+        "pending": 0,
+        "completed": 1,
+        "failed": 0
+    },
+    "queue": [
+        {
+            "id": null,
+            "url": "https://american-studies-frankfurt.de",
+            "title": "Information from the department",
+            "category": "department",
+            "type": "page",
+            "priority": 80,
+            "depth": 1,
+            "expand": true,
+            "status": "completed",
+            "parent": "program",
+            "children_discovered": true,
+            "page_folder": "0001",
+            "downloaded_at": "2026-08-26T15:24:22.972833+05:30"
+        }
+    ]
+}

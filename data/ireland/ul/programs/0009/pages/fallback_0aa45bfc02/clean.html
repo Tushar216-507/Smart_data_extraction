@@ -1,0 +1,545 @@
+<html>
+  <body><row>
+<cell background="/images/resource/viewboard_04.gif?v=1001"> </cell>
+<cell valign="top"> </cell>
+<cell valign="top"><table border="0" cellpadding="5" cellspacing="5" width="99%">
+<row>
+<cell height="250" valign="top"> 
+                 using System;<br/>&#13;
+using System.Collections.Generic;<br/>&#13;
+using System.ComponentModel;<br/>&#13;
+using System.Data;<br/>&#13;
+using System.Drawing;<br/>&#13;
+using System.Linq;<br/>&#13;
+using System.Text;<br/>&#13;
+using System.Windows.Forms;<br/>
+<br/>&#13;
+namespace WindowsFormsApplication1<br/>&#13;
+{<br/>&#13;
+    public partial class Form1 : Form<br/>&#13;
+    {<br/>&#13;
+        float num1, num2, ans;<br/>&#13;
+        string strnum1="",strnum2="";<br/>&#13;
+        int even=0;<br/>&#13;
+        int count = 0;<br/>&#13;
+        bool status = false;<br/>&#13;
+        public Form1()<br/>&#13;
+        {<br/>&#13;
+            InitializeComponent();<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button11_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                strnum1 = strnum1 + ".";<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                strnum2 = strnum2 + ".";<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button12_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            num1 = float.Parse(strnum1);<br/>&#13;
+            num2 = float.Parse(strnum2);<br/>&#13;
+            switch(even)<br/>&#13;
+            {<br/>&#13;
+                case 1:<br/>&#13;
+                    ans = num1 / num2;<br/>&#13;
+                    break;<br/>&#13;
+                case 2:<br/>&#13;
+                    ans = num1 * num2;<br/>&#13;
+                    break;<br/>&#13;
+                case 3:<br/>&#13;
+                    ans = num1 - num2;<br/>&#13;
+                    break;<br/>&#13;
+                case 4:<br/>&#13;
+                    ans = num1 + num2;<br/>&#13;
+                    break;<br/>&#13;
+                default:<br/>&#13;
+                    MessageBox.Show("Error นะจ๊ะ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);<br/>&#13;
+                    break;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            txtAns.Text = ans.ToString() ;<br/>&#13;
+            status = false;<br/>&#13;
+            btnsub.Enabled = true ;<br/>&#13;
+            btnshare.Enabled = true ;<br/>&#13;
+            btnmul.Enabled = true ;<br/>&#13;
+            btnadd.Enabled = true ;<br/>&#13;
+            count = 2;<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button2_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 8;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 8;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void Form1_Load(object sender, EventArgs e)<br/>&#13;
+        {<br/>
+<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button7_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 1;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 1;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button9_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 3;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 3;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button13_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 2)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                txtNum1.Text = txtAns.Text;<br/>&#13;
+                strnum1 = txtAns.Text;<br/>&#13;
+                strnum2 = "";<br/>&#13;
+                txtAns.Text = "";<br/>&#13;
+                txtNum2.Text = "";<br/>
+<br/>&#13;
+            }<br/>&#13;
+            even = 1;<br/>&#13;
+            txtEven.Text = "/";<br/>&#13;
+            btnmul.Enabled = false;<br/>&#13;
+            btnadd.Enabled = false;<br/>&#13;
+            btnsub.Enabled = false;<br/>&#13;
+            status = true;<br/>&#13;
+            if (count == 2)<br/>&#13;
+            {<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                count = 1;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btn7_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                    strnum1 = strnum1 + 7;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2+7;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btn9_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 9;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 9;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btn4_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 4;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 4;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btn5_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 5;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 5;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btn6_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 6;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 6;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btn2_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                if (strnum1 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum1 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum1 = strnum1 + 2;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if (strnum2 == "0")<br/>&#13;
+                {<br/>&#13;
+                    strnum2 = "";<br/>&#13;
+                }<br/>&#13;
+                strnum2 = strnum2 + 2;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void button0_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 0 )<br/>&#13;
+            {<br/>&#13;
+                strnum1 = strnum1 + 0;<br/>&#13;
+                txtNum1.Text = strnum1;<br/>
+<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                strnum2 = strnum2 + 0;<br/>&#13;
+                txtNum2.Text = strnum2;<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void textBox1_TextChanged(object sender, EventArgs e)<br/>&#13;
+        {<br/>
+<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnC_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            even = 0;<br/>&#13;
+            count = 0 ;<br/>&#13;
+            btnsub.Enabled = true;<br/>&#13;
+            btnshare.Enabled = true;<br/>&#13;
+            btnmul.Enabled = true;<br/>&#13;
+            btnadd.Enabled = true;<br/>&#13;
+            txtNum1.Text = "";<br/>&#13;
+            txtNum2.Text = "";<br/>&#13;
+            txtEven.Text = "";<br/>&#13;
+            txtAns.Text = "";<br/>&#13;
+            strnum1 = "";<br/>&#13;
+            strnum2 = "";<br/>&#13;
+            num1 = 0;<br/>&#13;
+            num2 = 0;<br/>&#13;
+            ans = 0;<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnmul_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count ==2 )<br/>&#13;
+            {<br/>
+<br/>&#13;
+                txtNum1.Text = txtAns.Text;<br/>&#13;
+                strnum1 = txtAns.Text;<br/>&#13;
+                strnum2 = "";<br/>&#13;
+                txtAns.Text = "";<br/>&#13;
+                txtNum2.Text = "";<br/>&#13;
+            }<br/>&#13;
+            even = 2;<br/>&#13;
+            txtEven.Text = "*";<br/>&#13;
+            btnshare.Enabled = false;<br/>&#13;
+            btnadd.Enabled = false;<br/>&#13;
+            btnsub.Enabled = false;<br/>&#13;
+            status = true;<br/>&#13;
+            if (count == 2)<br/>&#13;
+            {<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                count = 1;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnsub_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count == 2)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                txtNum1.Text = txtAns.Text;<br/>&#13;
+                strnum1 = txtAns.Text;<br/>&#13;
+                strnum2 = "";<br/>&#13;
+                txtAns.Text = "";<br/>&#13;
+                txtNum2.Text = "";<br/>&#13;
+            }<br/>&#13;
+            even = 3;<br/>&#13;
+            txtEven.Text = "-";<br/>&#13;
+            btnshare.Enabled = false;<br/>&#13;
+            btnmul.Enabled = false;<br/>&#13;
+            btnadd.Enabled = false;<br/>&#13;
+            status = true;<br/>&#13;
+            if (count == 2)<br/>&#13;
+            {<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                count = 1;<br/>&#13;
+            }<br/>
+<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnadd_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            if (count ==2)<br/>&#13;
+            {<br/>
+<br/>&#13;
+                txtNum1.Text = txtAns.Text;<br/>&#13;
+                strnum1 = txtAns.Text;<br/>&#13;
+                strnum2 = "";<br/>&#13;
+                txtAns.Text = "";<br/>&#13;
+                txtNum2.Text = "";<br/>&#13;
+            }<br/>&#13;
+            even = 4;<br/>&#13;
+            txtEven.Text = "+";<br/>&#13;
+            btnsub.Enabled = false;<br/>&#13;
+            btnshare.Enabled = false;<br/>&#13;
+            btnmul.Enabled = false;<br/>&#13;
+            status = true;<br/>&#13;
+            if (count == 2)<br/>&#13;
+            {<br/>&#13;
+                count = 2;<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                count = 1;<br/>&#13;
+            }<br/>&#13;
+        }<br/>
+<br/>&#13;
+        private void btnbs_Click(object sender, EventArgs e)<br/>&#13;
+        {<br/>&#13;
+            int lengthstr,lengthsub;<br/>&#13;
+            if (status == true)<br/>&#13;
+            {<br/>&#13;
+                if (count == 2)<br/>&#13;
+                {<br/>&#13;
+                    if (txtNum2.Text == "")<br/>&#13;
+                    {<br/>&#13;
+                        count = 1;<br/>&#13;
+                    }<br/>&#13;
+                    else<br/>&#13;
+                    {<br/>&#13;
+                        lengthstr = strnum2.Length;<br/>&#13;
+                        lengthsub = lengthstr - 1;<br/>&#13;
+                        strnum2 = strnum2.Remove(lengthsub, 1);<br/>&#13;
+                        txtNum2.Text = strnum2;<br/>&#13;
+                    }<br/>&#13;
+                }<br/>
+<br/>&#13;
+                else<br/>&#13;
+                {<br/>&#13;
+                    txtEven.Text = "";<br/>&#13;
+                    btnsub.Enabled = true;<br/>&#13;
+                    btnshare.Enabled = true;<br/>&#13;
+                    btnmul.Enabled = true;<br/>&#13;
+                    btnadd.Enabled = true;<br/>&#13;
+                    status = false;<br/>&#13;
+                }<br/>&#13;
+            }<br/>&#13;
+            else<br/>&#13;
+            {<br/>&#13;
+                if ((count == 0)||(count==1))<br/>&#13;
+                {<br/>&#13;
+                    if (txtNum1.Text == "")<br/>&#13;
+                    {<br/>&#13;
+                        MessageBox.Show("โปรดระบุเลขในช่อง Num1", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);<br/>&#13;
+                    }<br/>&#13;
+                    else<br/>&#13;
+                    {<br/>&#13;
+                        lengthstr = strnum1.Length;<br/>&#13;
+                        lengthsub = lengthstr - 1;<br/>&#13;
+                        strnum1 = strnum1.Remove(lengthsub, 1);<br/>&#13;
+                        txtNum1.Text = strnum1;<br/>&#13;
+                    }<br/>
+<br/>&#13;
+                }<br/>
+<br/>&#13;
+                else<br/>&#13;
+                if(count ==2)<br/>&#13;
+                {<br/>&#13;
+                    lengthstr = strnum2.Length;<br/>&#13;
+                    lengthsub = lengthstr - 1;<br/>&#13;
+                    strnum2 = strnum2.Remove(lengthsub, 1);<br/>&#13;
+                    txtNum2.Text = strnum2;<br/>&#13;
+                }<br/>&#13;
+            }<br/>
+<br/>&#13;
+        }<br/>&#13;
+    }<br/>&#13;
+}<br/> 
+</cell>
+</row>
+<row>
+<cell valign="top">
+<table border="0" cellpadding="0" cellspacing="0" height="34" id="Table_01" width="708">
+<row>
+<cell width="13"> </cell>
+<cell background="/images/resource/blockviewtopic_02.gif?v=1001" width="670"> </cell>
+<cell width="10"> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_05.gif?v=1001"><table border="0" class="topicSubject" width="100%">
+<row>
+<cell width="55%">Date :
+                            2011-11-11 16:21:45</cell>
+<cell width="45%">By :
+                            pridsada001</cell>
+</row>
+</table></cell>
+<cell> </cell>
+</row>
+<row>
+<cell> </cell>
+<cell background="/images/resource/blockviewtopic_08.gif?v=1001"> </cell>
+<cell> </cell>
+</row>
+</table></cell>
+</row>
+</table>
+</cell>
+<cell background="/images/resource/viewboard_06.gif?v=1001"> </cell>
+</row>
+</body>
+</html>

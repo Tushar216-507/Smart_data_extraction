@@ -1,0 +1,81 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_modules",
+      "value": [
+        "B.Sc. Wirtschaftspädagogik",
+        "B.A. NF Soziologie",
+        "B.A. NF Politikwissenschaft",
+        "B.Sc. Psychologie",
+        "B.A. Sinologie",
+        "B.A. NF Geographie",
+        "B.Sc. Informatik",
+        "M.Sc. Betriebswirtschaftslehre",
+        "M.Sc. International Economics and Economic Policy",
+        "M.Sc. Management Science"
+      ],
+      "original_value": "B.Sc. Wirtschaftspädagogik, B.A. NF Soziologie, B.A. NF Politikwissenschaft, B.Sc. Psychologie, B.A. Sinologie, B.A. NF Geographie, B.Sc. Informatik, M.Sc. Betriebswirtschaftslehre, M.Sc. International Economics and Economic Policy, M.Sc. Management Science",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_module_conditions",
+      "value": "Import modules from other programs are subject to the examination regulations of the exporting department.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

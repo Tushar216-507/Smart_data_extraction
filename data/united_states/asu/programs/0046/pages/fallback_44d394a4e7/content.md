@@ -1,0 +1,1 @@
+[Stock Market Close: Sensex sheds 172 pts; Nifty settles at 24,219; Nifty PSU Bank tumbles 1%](https://www.business-standard.com/markets/news/stock-market-live-august-24-nse-bse-sensex-today-nifty50-gift-nifty-hy-tech-engineers-ipo-gmp-today-126082400062_1.html)

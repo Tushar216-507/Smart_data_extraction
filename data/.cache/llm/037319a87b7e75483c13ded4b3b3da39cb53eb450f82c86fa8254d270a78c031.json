@@ -1,0 +1,442 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Concentration Microeconomics",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Concentration Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Concentration Macroeconomics",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Concentration Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Political Theory",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Political Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "History of Theory",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "History of Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optional Module",
+      "original_value": "Optionalmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Optional Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.A. Educational Science",
+      "original_value": "B.A. Erziehungswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.A. Educational Science"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 7,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Modern East Asian Studies",
+      "original_value": "M.A. Modern East Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Modern East Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 7,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.A. Geography",
+      "original_value": "B.A. Geographie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.A. Geography"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 8,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Geography of Globalization",
+      "original_value": "M.A. Geographie der Globalisierung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Geography of Globalization"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 8,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.Sc. Physical Geography",
+      "original_value": "M.Sc. Physische Geographie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.Sc. Physical Geography"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 8,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.Sc. Meteorology",
+      "original_value": "B.Sc. Meteorologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.Sc. Meteorology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 9,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optional Module",
+      "original_value": "Optionalmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Optional Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 9,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.Sc. Meteorology",
+      "original_value": "M.Sc. Meteorologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.Sc. Meteorology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 10,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.Sc. Mathematics",
+      "original_value": "B.Sc. Mathematik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.Sc. Mathematics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 11,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

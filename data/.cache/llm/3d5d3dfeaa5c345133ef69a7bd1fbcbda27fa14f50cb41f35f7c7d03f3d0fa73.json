@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "evaluation_method",
+      "value": "Graded assessments and occasionally pass/fail grading based on module descriptions.",
+      "original_value": "Prüfungsleistungen werden [in der Regel] benotet und ausnahmsweise nach Maßgabe der Modulbeschreibung mit „bestanden“ oder „nicht bestanden“ bewertet“.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scheme",
+      "value": [
+        {
+          "grade": 1,
+          "description": "very good",
+          "meaning": "an excellent performance"
+        },
+        {
+          "grade": 2,
+          "description": "good",
+          "meaning": "a performance that significantly exceeds average requirements"
+        },
+        {
+          "grade": 3,
+          "description": "satisfactory",
+          "meaning": "a performance that meets average requirements"
+        },
+        {
+          "grade": 4,
+          "description": "sufficient",
+          "meaning": "a performance that still meets requirements despite deficiencies"
+        },
+        {
+          "grade": 5,
+          "description": "fail",
+          "meaning": "a performance that does not meet requirements due to significant deficiencies"
+        }
+      ],
+      "original_value": "<table>...</table>",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": "Grades can be adjusted in increments of 0.3; allowed grades are 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, and 5.0.",
+      "original_value": "Zur differenzierten Bewertung der Prüfungsleistungen können die Noten um 0,3 auf Zwischenwerte angehoben oder abgesenkt werden; zulässig sind die Noten 1,0; 1,3; 1,7; 2,0; 2,3; 2,7; 3,0; 3,3; 3,7; 4,0 und 5,0.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

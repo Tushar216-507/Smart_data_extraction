@@ -1,0 +1,68 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "tracking_instructions",
+      "value": "Enter your EMS tracking number in the Track EMS form on this page.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "required_information",
+      "value": "Your 13-digit EMS tracking number from your booking receipt.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "displayed_information",
+      "value": "Current location, delivery status, expected delivery date, and complete movement history.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "status_update_frequency",
+      "value": "EMS tracking is updated in real-time as your package moves through the postal network.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "in_transit_meaning",
+      "value": "Your EMS package is on its way to the destination and moving through the postal network.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "delivery_check_instructions",
+      "value": "Status will show 'delivered' with delivery date, time, and recipient signature details.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "multiple_shipments_tracking",
+      "value": "Yes, enter each EMS tracking number separately to track multiple shipments.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    },
+    {
+      "category": "other",
+      "subcategory": "ems_tracking",
+      "field": "service_difference",
+      "value": "EMS is a premium express service with faster delivery, better tracking, and international delivery options.",
+      "confidence": 1.0,
+      "programme_association": "EMS Tracking"
+    }
+  ]
+}

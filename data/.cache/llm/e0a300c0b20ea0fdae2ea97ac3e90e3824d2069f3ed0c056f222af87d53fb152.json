@@ -1,0 +1,201 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "learning_objectives",
+      "value": "The free studies serve to generate abilities in reflection, communication, and perception about scientific questions, producing interdisciplinary thinking and working.",
+      "original_value": "Die freien Studien dienen der Generierung von Fähigkeiten in Reflexion, Kommunikation und Wahrnehmung wissenschaftlicher Fragestellungen und fördern interdisziplinäres Denken und Arbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "learning_objectives",
+      "value": "The objective is to encourage an interdisciplinary dialogue where the competencies of the disciplines can interact and where the students are interested in the connection of bodies of knowledge and thus crossing the disciplinary boundaries.",
+      "original_value": "Das Ziel ist es, einen interdisziplinären Dialog zu fördern, in dem die Kompetenzen der Disziplinen miteinander interagieren können und in dem die Studierenden an der Verbindung von Wissensbereichen interessiert sind und somit disziplinäre Grenzen überschreiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German and English. Students with no sufficient command of the German language are only allowed to attend courses that are offered in English.",
+      "original_value": "Deutsch und Englisch. Studierende ohne ausreichende Deutschkenntnisse dürfen nur an Kursen teilnehmen, die in Englisch angeboten werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "duration",
+      "value": "1-3 Semesters",
+      "original_value": "1-3 Semester",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Additional Studies",
+      "original_value": "Additional Studies (only for students of version 2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": "only for students of version 2",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6 CP (sum)",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": "only for students of version 2",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "contact_time": {
+          "value": "30-60",
+          "original_value": "30-60 h",
+          "unit": "hours"
+        },
+        "self_study_time": {
+          "value": "120-150",
+          "original_value": "120-150 h",
+          "unit": "hours"
+        },
+        "total_workload": {
+          "value": 180,
+          "original_value": "180 h",
+          "unit": "hours"
+        }
+      },
+      "original_value": "6 CP (sum) = 180 h",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": "only for students of version 2",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

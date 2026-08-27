@@ -1,0 +1,61 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "master_exam_structure",
+      "value": {
+        "version_1": {
+          "compulsory_modules": {
+            "count": 4,
+            "modules": [
+              "SEAS 1",
+              "SEAS 2",
+              "SEAS 3",
+              "SEAS 4"
+            ]
+          },
+          "elective_modules": {
+            "count": 3,
+            "selection_range": "5-9"
+          },
+          "thesis": true
+        },
+        "version_2": {
+          "compulsory_modules": {
+            "count": 6,
+            "modules": [
+              "SEAS 1",
+              "SEAS 2",
+              "SEAS 3",
+              "SEAS 4",
+              "SEAS 10",
+              "SEAS 11"
+            ]
+          },
+          "thesis": true
+        }
+      },
+      "original_value": "(1) For students of version 1 the Master's examination consists of four compulsory modules (SEAS 1-4), three elective modules (to be chosen out of 5-9) and the Master's thesis.\n\n(2) For students of version 2 the Master's examination consists of six compulsory modules (SEAS 1-4 and SEAS 10-11) and the Master's thesis.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

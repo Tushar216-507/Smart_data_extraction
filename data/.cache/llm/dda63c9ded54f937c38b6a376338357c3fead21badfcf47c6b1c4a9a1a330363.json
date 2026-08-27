@@ -1,0 +1,131 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Southeast Asian Studies",
+      "original_value": "Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "structure",
+      "value": {
+        "phases": [
+          {
+            "phase_name": "Basisphase",
+            "modules": [
+              {
+                "module_name": "Modul 1",
+                "module_type": "Pflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 2",
+                "module_type": "Pflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 3",
+                "module_type": "Pflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 4",
+                "module_type": "Wahlpflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 5",
+                "module_type": "Wahlpflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 6",
+                "module_type": "Wahlpflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 7",
+                "module_type": "Wahlpflicht",
+                "module_credits": 12
+              },
+              {
+                "module_name": "Modul 8",
+                "module_type": "Pflicht",
+                "module_credits": 12
+              }
+            ],
+            "total_credits": 72
+          },
+          {
+            "phase_name": "Aufbauphase",
+            "modules": [
+              {
+                "module_name": "Aufbauphase: (ggf. Schwerpunkt A) Modul 1",
+                "module_type": "Wahlpflicht",
+                "module_credits": 64,
+                "module_explanation": "A oder B"
+              },
+              {
+                "module_name": "Aufbauphase: (ggf. Schwerpunkt B) Modul 1",
+                "module_type": "Wahlpflicht",
+                "module_credits": 64
+              }
+            ]
+          },
+          {
+            "phase_name": "Optionalbereich",
+            "modules": [
+              {
+                "module_name": "Optionalbereich",
+                "module_type": "Pflicht",
+                "module_credits": 32
+              }
+            ]
+          }
+        ]
+      },
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

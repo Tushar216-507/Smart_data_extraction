@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0052",
+  "program_name": "Nursing - MSc Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0052\\final",
+  "input_fact_count": 51,
+  "unique_fact_count": 51,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 51,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 51,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 0,
+    "curriculum": 10,
+    "career": 2,
+    "fees": 1,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 31,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0052\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0052\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0052\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0052\\final\\fees_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0052\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0052\\final\\research_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0052\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0052\\final\\build_summary.json"
+  }
+}

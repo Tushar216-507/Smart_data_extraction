@@ -1,0 +1,874 @@
+IEAS Prüfungstermine Sommersemester 2026
+
+BA English Studies
+
+BAES 1 - Grundlagen der Literaturwissenschaft (MP 2602)
+
+Pflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Susanne Bayerlipp - Women in Power (Do 12-14)
+
+Gianluca Calio - The Postmodern Condition (Mo 12-14)
+
+Grace Evans - Invisible Women* (Mi 14-16)
+
+Nina Heise - Contemporary Shrews (Di 12-14)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+BAES 2.1 - Grundlagen der Kultur-, Ideen- und Sozialgeschichte (MP 2605)
+Wahlpflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüferin & Veranstaltung:
+
+Prof. Dr. Susanne Scholz - Einführung KIS Cultural Theory (Mo 12-14)
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+
+Klausurtermin: 13.07.2026
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+
+# BAES 2.2 - Grundlagen der neuen Englischsprachigen Literaturen und Kulturen (MP 2630)
+
+Wahlpflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Danyal Büyükasik - Translation as a Mode of Writing (Di 10-12)
+
+Danyal Büyükasik - Ecological Narrations of Work (Di 12-14)
+
+Dr. Michelle Stork - Energy in Tanscultural Anglophone Texts (Di 16-18)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+# BAES 2.3 - Grundlagen der Englischen Sprachwissenschaft (MP 2631)
+
+Wahlpflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüfer & Veranstaltung:
+
+Dr. Sascha Bargmann - Introduction to Linguistics 2 (Mo 14-16)
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+
+Klausurtermin: 13.07.2026
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+<!-- PageBreak -->
+
+BAES 3.1 - Englische Literatur und Literaturwissenschaft (MP 2616)
+Wahlpflichtmodul Hauptfach und Nebenfach
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Martina Allen - Genre in Contemporary British Fiction (Do 10-12)
+Dr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)
+
+Dr. Daniel Dornhofer - Renaissance Love Poetry (Di 16-18)
+Prof. Dr. Susanne Scholz - Narratives of Evolution (Mo 14-16)
+Prof. Dr. Susanne Scholz - Restoration Comedy (Do 12-14)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+BAES 3.2 - Britische Kultur-, Ideen- und Sozialgeschichte (KIS) (MP 2619)
+
+Wahlpflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Martina Allen - Genre in Contemporary British Fiction (Do 10-12)
+
+Dr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)
+
+Dr. Daniel Dornhofer - Renaissance Love Poetry (Di 16-18)
+Prof. Dr. Susanne Scholz - Narratives of Evolution (Mo 14-16)
+Prof. Dr. Susanne Scholz - Restoration Comedy (Do 12-14)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+BAES 3.3 - Neue Englischsprachige Literaturen und Kulturen (MP 2622)
+
+Wahlpflichtmodul Hauptfach und Nebenfach
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)
+
+Prof. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)
+
+Dr. Michelle Stork - African Travel Writing (Di 14-16)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+BAES 3.4 - Vertiefungsmodul Englische Sprachwissenschaft (MP 2625)
+
+Wahlpflichtmodul Hauptfach und Nebenfach
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+Dr. Sascha Bargmann - (In)Definites (Mo 12-14)
+
+Dr. Janina Radó - Psycholinguistics (Mi 10-12)
+
+Apl. Prof. Dr. Frank Richter - Constraint-Based Semantics (Mo 14-16)
+
+Apl. Prof. Dr. Frank Richter - Meaning in Language (Do 16-18)
+
+Prof. Dr. Gert Webelhuth - Syntax 2 (Mo 14-16)
+
+Prof. Dr. Gert Webelhuth - Contrastive Grammar (Mi 16-18)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+<!-- PageBreak -->
+
+Rücktritt spätestens bis 21.09.2026
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## BAS 1 - Fremdsprachliche Kommunikation I (MP 2613) Pflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Patricia Benstein - ILS II (BLOCK)
+
+Dr. Patricia Benstein - ILS II (BLOCK)
+Maren Michel - ILS II (Do 10-12) - 16.07.2026
+
+Maren Michel - ILS II (Do 12-14) - 16.07.2026
+
+Olivia Smith - ILS II (Mo 12-14) - 13.07.2026
+Olivia Smith - ILS II (Do 16-18) - 16.07.2026
+Laura Sprague - ILS II (Fr 10-12) - 17.07.2026
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+Klausurtermin: s.o. (KW 29)
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+
+## BAS 2 - Fremdsprachliche Kommunikation II (MP 2627)
+
+Pflichtmodul Hauptfach (NF 2688)
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüfer*innen & Veranstaltungen:
+Olivia Smith - Writing II (Mo 14-16) - 13.07.2026
+
+Olivia Smith - ILS II (Mo 16-18) - 13.07.2026
+James Fisk - Writing II (Do 16-18) - 16.07.2026
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+
+Klausurtermin: s.o. (KW 29)
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+<!-- PageBreak -->
+
+
+# BA American Studies
+
+
+## BAAS 1 - Grundlagen der amerikanischen Literatur und Literaturwissenschaft (MP 2651)
+
+Pflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: kleine Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Martina Allen - Einführung in die Literaturwissenschaft (Do 12-14) - 16.07.
+
+Dr. Susanne Bayerlipp - Einführung in die Literaturwissenschaft (Do 14-16) - 16.07.
+
+Dr. Magdalena Majewska - Einführung in die Literaturwissenschaft (Mo 14-16) - 13.07.
+
+Dr. Magdalena Majewska - Einführung in die Literaturwissenschaft (Do 10-12) - 16.07.
+
+Dr. Cameron Seglias - Einführung in die Literaturwissenschaft (Di 16-18) - 14.07.
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+
+Klausurtermin: s.o. (KW 29)
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+
+## BAAS 2 - Grundlagen der amerikanischen Kultur und Kulturwissenschaft (MP 2653)
+
+Pflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Yusuf Buhurcu - Einführung in die amerikanische Kultur und Kulturwissenschaft
+(Mo 10-12)
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+
+Klausurtermin: 13.07.2026
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+Dr. Marlon Lieber - Einführung in die amerikanische Kultur und Kulturwissenschaft
+(Fr 10-14)
+
+Anmeldung zur Klausur: 08.05 .- 05.06.2026 über QIS
+
+Rücktritt: spätestens bis 05.06.2026
+
+Klausurtermin: 12.06.2026
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+BAAS 3 - Grundlagen der amerikanischen Geschichte und Gesellschaft (MP 2685)
+
+Pflichtmodul Hauptfach und Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüfer*innen & Veranstaltungen:
+
+Prof. Dr. Simon Wendt - Geschichte und Gesellschaft II (Di 14-16)
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+
+Klausurtermin: 14.07.2026
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+BAAS 4.1.1 Amerikanische Literatur und Literaturwissenschaft - Textanalyse
+(MP 2658 / 2659)
+
+Pflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Take Home (MP 2658) oder Hausarbeit (2659)
+
+Prüfer*innen & Veranstaltungen:
+
+Max José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (Block)
+
+<!-- PageBreak -->
+
+PD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)
+
+Dr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## BAAS 4.1.2 Amerikanische Literatur und Literaturwissenschaft - Literaturgeschichte (MP 2661 / 2662)
+
+Pflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Take Home (MP 2661) oder Hausarbeit (2662)
+
+Prüfer*innen & Veranstaltungen:
+
+Max José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (Block)
+
+PD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)
+
+Dr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## BAAS 4.2.1 Amerikanische Kultur und Kulturwissenschaft - Kulturanalyse (MP 2664 / 2665)
+
+Pflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Take Home (MP 2664) oder Hausarbeit (2665)
+
+Prüfer*innen & Veranstaltungen:
+
+Venus Bender - Black Power in American History (Mo 14-16)
+
+Max José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (Block)
+
+Dr. Gregory Jones-Katz - American Pragmatism (BLOCK)
+
+PD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)
+
+Dr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)
+Miloš Rouzek - Exploring Corporeality (Do 14-16)
+
+Prof. Dr. Simon Wendt - The American Civil War (Di 16-18)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+<!-- PageFooter="BAAS 4.2.2 Amerikanische Kultur und Kulturwissenschaft - Kulturgeschichte (MP 2667 / 2668)" -->
+<!-- PageBreak -->
+
+Pflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Take Home (MP 2667) oder Hausarbeit (2668)
+
+Prüfer*innen & Veranstaltungen:
+
+Venus Bender - Black Power in American History (Mo 14-16)
+
+Max José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (Block)
+Dr. Gregory Jones-Katz - American Pragmatism (BLOCK)
+
+PD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)
+Dr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)
+Miloš Rouzek - Exploring Corporeality (Do 14-16)
+
+Prof. Dr. Simon Wendt - The American Civil War (Di 16-18)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## BAAS 4.3.1 Amerikanische Geschichte und Gesellschaft - Ideengeschichte (MP 2670 / 2671)
+
+Pflichtmodul Hauptfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Take Home (MP 2670) oder Hausarbeit (2671)
+
+Prüfer*innen & Veranstaltungen:
+
+Venus Bender - Black Power in American History (Mo 14-16)
+
+Dr. Gregory Jones-Katz - American Pragmatism (BLOCK)
+
+Prof. Dr. Simon Wendt - The American Civil War (Di 16-18)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+BAAS 4.3.2 Amerikanische Geschichte und Gesellschaft - Sozialgeschichte
+(MP 2673 / 2674)
+
+Pflichtmodul Hauptfach
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Take Home (MP 2673) oder Hausarbeit (2674)
+Venus Bender - Black Power in American History (Mo 14-16)
+
+Dr. Gregory Jones-Katz - American Pragmatism (BLOCK)
+
+Prof. Dr. Simon Wendt - The American Civil War (Di 16-18)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+<!-- PageBreak -->
+
+
+## BAS 2 - Fremdsprachliche Kommunikation II (MP 2678)
+
+Pflichtmodul Hauptfach und Nebenfach
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Klausur
+
+Prüfer*innen & Veranstaltungen:
+Dr. Patricia Benstein - ILS II (BLOCK)
+Dr. Patricia Benstein - ILS II (BLOCK)
+Maren Michel - ILS II (Do 10-12) - 16.07.2026
+Maren Michel - ILS II (Do 12-14) - 16.07.2026
+Olivia Smith - ILS II (Mo 12-14) - 13.07.2026
+Olivia Smith - ILS II (Do 16-18) - 16.07.2026
+Laura Sprague - ILS II (Fr 10-12) - 17.07.2026
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+Rücktritt: spätestens bis 06.07.2026
+Klausurtermin: s.o. (KW 29)
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)
+
+<!-- PageBreak -->
+
+
+# MA ALCM
+
+
+## MAALCM 2 - Literature and Media Culture I (PO 25: MP 9406 / PO 17: MP 9003) Wahlpflichtmodul
+
+Prüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung
+
+Prüfer*innen & Veranstaltungen :
+
+Dr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)
+
+Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)
+
+Prof. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## MAALCM 3 (PO 25: MP 9409) / 5 (PO 17: MP 9007) - Literature and Media Culture II Wahlpflichtmodul
+
+Prüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung
+
+Prüfer*innen & Veranstaltungen :
+
+Dr. Daniel Dornhofer - Actualising Euripides' Medea (Mo 16-18)
+
+Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)
+
+Prof. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## MAALCM 4 (PO 25: 9412) / 3 (PO 17: MP 9005) - Literature and Cultural History I Wahlpflichtmodul
+
+Prüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung
+
+Prüfer*innen & Veranstaltungen :
+
+Dr. Daniel Dornhofer - Actualising Euripides' Medea (Mo 16-18)
+
+Dr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)
+
+Prof. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)
+
+Prof. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)
+
+Prof. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+MAALCM 5 (PO 25: MP 9415) / 6 (PO 17: 9009) - Literature and Cultural History II
+Wahlpflichtmodul
+
+Prüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung
+
+Prüfer*innen &Veranstaltungen:
+
+Dr. Daniel Dornhofer - Actualising Euripides' Medea (Mo 16-18)
+
+Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)
+
+Prof. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)
+
+Prof. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)
+
+Prof. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+<!-- PageBreak -->
+
+
+## MAALCM 6 (PO 25: MP 9418) / 4 (PO17: MP 9011) - Transcultural Anglophone Studies I Wahlpflichtmodul
+
+Prüfungsform: Hausarbeit / einzelne veranstaltungsbezogene Prüfung
+
+Prüfer*innen & Veranstaltungen :
+
+Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)
+
+Prof. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)
+
+Prof. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## MAALCM 7 - Transcultural Anglophone Studies II (PO 25: 9421 / PO 17: MP 9013) Wahlpflichtmodul
+
+Prüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung
+
+Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)
+
+Prof. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)
+
+Prof. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+<!-- PageBreak -->
+
+
+# MA American Studies
+
+MAAS OMAL (MP 9143)
+
+Wahlpflichtmodul
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)
+
+Dr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)
+
+Martin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)
+Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)
+
+PD Dr. Eva Zehelein - Narratives of Home (BLOCK)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## MAAS OMAC (MP 9145)
+
+Wahlpflichtmodul
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)
+
+Prof. Dr. Bernd Herzogenrath - Writing Film (Mo 16-18)
+
+Dr. Andrey Logutov - Aesthetics of Repetition in Mass Culture (Do 14-16)
+
+Dr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)
+Martin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)
+
+Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)
+Prof. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)
+
+PD Dr. Eva Zehelein - Narratives of Home (BLOCK)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+MAAS OMAH (MP 9147)
+
+Wahlpflichtmodul
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer & Veranstaltungen:
+
+Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)
+
+Prof. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+MAAS PMAL (MP 9149)
+Wahlpflichtmodul
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)
+
+Prof. Dr. Bernd Herzogenrath - Writing Film (Mo 16-18)
+
+Dr. Andrey Logutov - Aesthetics of Repetition in Mass Culture (Do 14-16)
+
+<!-- PageBreak -->
+
+Dr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)
+Martin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)
+Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)
+PD Dr. Eva Zehelein - Narratives of Home (BLOCK)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## MAAS PMMS (MP 9151)
+
+Wahlpflichtmodul
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Prof. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)
+
+Prof. Dr. Bernd Herzogenrath - Writing Film (Mo 16-18)
+
+Dr. Andrey Logutov - Aesthetics of Repetition in Mass Culture (Do 14-16)
+
+Dr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)
+Martin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)
+Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)
+PD Dr. Eva Zehelein - Narratives of Home (BLOCK)
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+
+## MAAS PMASH (MP 9153)
+
+Wahlpflichtmodul
+
+einzelne veranstaltungsbezogene Prüfung
+
+Prüfungsform: Hausarbeit
+
+Prüfer*innen & Veranstaltungen:
+
+Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)
+
+Prof. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+<!-- PageBreak -->
+
+
+# IEAS Prüfungstermine Sommersemester 2026
+
+Hausarbeit
+
+Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS
+
+Rücktritt spätestens bis 21.09.2026
+
+Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Take Home bzw. Kleine Hausarbeit
+
+Anmeldung zum Take Home: 08.06. - 03.08.2026 über QIS
+
+Rücktrittstermin: spätestens bis 03.08.2026
+
+Abgabe: 10.08.2026 als pdf an den/die Lehrende/n
+
+Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n
+
+Klausur
+
+Anmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS
+
+Rücktritt: spätestens bis 06.07.2026
+Klausurtermin: letzte Sitzung (KW 29)
+
+Wiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)

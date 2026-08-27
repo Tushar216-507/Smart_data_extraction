@@ -1,0 +1,238 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master's",
+      "original_value": "Masterstudiengänge",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "structure",
+      "value": "The Master's programs are full-time programs composed of modules from a single subject or from modules of multiple subjects.",
+      "original_value": "Die Masterstudiengänge sind Vollzeitstudiengänge, die sich nach Maßgabe des jeweiligen studiengangsspezifischen Anhangs aus Modulen eines einzigen Faches oder aus Modulen mehrerer Fächer zusammensetzen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_structure",
+      "value": "The Master's programs are modular in structure, consisting of compulsory modules and, depending on the specific program appendices, compulsory elective modules.",
+      "original_value": "Die Masterstudiengänge sind modular aufgebaut. Das Studium gliedert sich in Pflichtmodule und zusätzlich, nach Maßgabe der studiengangsspezifischen Anhänge, in Wahlpflichtmodule.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "compulsory_modules",
+      "value": "The compulsory modules include the Master's thesis.",
+      "original_value": "Zu den Pflichtmodulen gehört die Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_description",
+      "value": "A module is a content and time-bound teaching and learning unit with defined objectives, contents, and teaching and learning forms.",
+      "original_value": "Ein Modul ist eine inhaltlich und zeitlich abgeschlossene Lehr- und Lerneinheit mit definierten Zielen, Inhalten sowie Lehr- und Lernformen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_duration",
+      "value": "Modules typically last for a semester or an academic year.",
+      "original_value": "Die Module erstrecken sich in der Regel über ein Semester oder ein Studienjahr.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_examination",
+      "value": "Modules are typically concluded with a single examination.",
+      "original_value": "Die Module werden in der Regel mit einer einzigen Prüfung abgeschlossen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "credit_assignment",
+      "value": "Each module is assigned credit points (CP) based on the European Credit Transfer System (ECTS).",
+      "original_value": "Jedem Modul werden in der Modulbeschreibung Kreditpunkte (CP) auf der Basis des European Credit Transfer Systems (ECTS) zugeordnet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 120,
+      "original_value": "120 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

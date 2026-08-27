@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "program_id": "0051",
+  "program_name": "Online Bachelor of Arts in Business – Sustainability",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0051\\final",
+  "input_fact_count": 23,
+  "unique_fact_count": 23,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 23,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 23,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 0,
+    "curriculum": 15,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0051\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0051\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0051\\final\\career_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0051\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0051\\final\\build_summary.json"
+  }
+}

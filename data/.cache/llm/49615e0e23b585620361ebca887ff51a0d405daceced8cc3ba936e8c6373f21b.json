@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit (ca. 15 Seiten) zu Seminar 1.1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "1.1",
+        "name": "Seminar 1.1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit (ca. 15 Seiten) zu Seminar 1.2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "1.2",
+        "name": "Seminar 1.2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "program_id": "0047",
+  "program_name": "Online Bachelor of Science in Sustainability",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0047\\final",
+  "input_fact_count": 69,
+  "unique_fact_count": 69,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 69,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 69,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 0,
+    "curriculum": 57,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0047\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0047\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0047\\final\\career_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0047\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0047\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "missing_document_action",
+      "value": "If documents are missing, submit transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + Apply to attend ASU + Why apply to ASU + Undergraduate admission + Barrett, The Honors College at ASU + Graduate and professional admission (master’s, PhD, etc.) + Already Applied? Check Your Application Status + What you can check + If documents are missing",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "document_requirements",
+      "value": "All documents must be an original or an attested copy with an original institutional seal and/or signature.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "What you need to apply to graduate school",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "document_restrictions",
+      "value": "Photocopies, notarized copies, faxes or scans are not considered original documents.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "What you need to apply to graduate school",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "translation_requirement",
+      "value": "All documents must be translated into English if not done so already.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "What you need to apply to graduate school",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "notary_restriction",
+      "value": "Documents certified by a notary public are not accepted.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "What you need to apply to graduate school",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "official_transcripts_info",
+      "value": "Official transcripts are certified copies of official documents from each secondary school, college, university or technical school attended.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "What you need to apply to graduate school",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "original_credentials_info",
+      "value": "Original academic credentials are issued by the registrar of the institution attended, bearing the original raised or colored seal of the institution and the signature of the institution’s registrar, academic official or recognized international organization.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "What you need to apply to graduate school",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "mypath2asu_description",
+      "value": "MyPath2ASU® is your suite of customized self-service transfer tools.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "MyPath2ASU®",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "academic_advisor_recommendation",
+      "value": "Plan to meet with an academic advisor to ensure your courses will meet degree requirements.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "MyPath2ASU®",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "sign_up_policy",
+      "value": "There is no need to sign up again unless it has been more than four years since you signed up, or if you are changing your major or moving to a newer catalog year.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "MyPath2ASU®",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "mapp_change_policy",
+      "value": "As always, students who signed up for a MAPP and want to change to a different major will need to sign up for the new major through https://redirect.maricopa.edu/student-center. Consult your community college academic advisor first to understand potential consequences of making a program plan change.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "MyPath2ASU®",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "live_hosted_sessions_info",
+      "value": "Live-hosted sessions with ASU enrollment and academic team members and current students who can answer your questions.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "MyPath2ASU®",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "virtual_visit_options",
+      "value": "Explore each of our campuses through live-hosted virtual visit experiences, walking tours and on-demand virtual tours.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "MyPath2ASU®",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "transfer_coordinator_contact",
+      "value": "Contact your transfer coordinator for questions about the transfer admission process, requirements or transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "What are my next steps to applying to ASU? + Associate of Applied Science to Bachelor of Applied Science + AAS to BAS for AccountingASU degrees you may be interested in. + AAS to BAS for Accounting + Frequently asked questions about transfer pathway programs + How hard is it to transfer to Arizona State University (ASU)? + Is ASU transfer friendly? + Can I get into ASU with a 2.5 GPA?",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "faculty",
+      "field": "faculty_member_expertise",
+      "value": "highly ranked faculty members conducting groundbreaking research",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Why transfer to Arizona State University?",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "resources_available",
+      "value": "MyPath2ASU® to support you throughout your transfer journey",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Why transfer to Arizona State University?",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

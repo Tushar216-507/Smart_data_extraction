@@ -1,0 +1,7 @@
+## ASU has a rich and vibrant education environment due in large part to our diverse international student community.
+
+The application process for international students is the same as for domestic students, with the exception of submitting proof of English proficiency. After admission, international students are also required to obtain a U.S. visa, which includes submitting a graduate financial guarantee.
+
+All international transcripts must be submitted in their original language accompanied by an official English translation. Translations must be literal, complete versions of the originals and must be translated by a university or government official or an official translation service. You may not complete your own translation.
+
+While not required for admission, submitting required visa forms when you apply expedites the process of obtaining a visa if admission is granted.

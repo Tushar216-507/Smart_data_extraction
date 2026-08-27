@@ -1,0 +1,215 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "department",
+      "value": "Department of Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Economics (OVWL)",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophy, Politics and Economics (OPPE)",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Microeconomics 1 (OMIK) or Macroeconomics 1 (BMAK)",
+      "original_value": "Mikroökonomik 1 (OMIK) oder Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK/BMAK",
+        "name": "Microeconomics 1 or Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": {
+        "min": 10,
+        "max": 12
+      },
+      "original_value": "10/ 12",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "OMIK/BMAK",
+        "name": "Microeconomics 1 or Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Online Master of Arts in Sociology
+
+Gain the practical and research skills necessary to support individual and community well-being with a Master of Arts in sociology from Arizona State University online. In this program, you’ll learn how patterns of social relationships and interactions impact individuals, family members and employees. As a graduate, you’ll be prepared to make a positive impact in public, private and nonprofit sector organizations.
+
+[Learn more](#program-detail)
+
+Quick facts
+
+Next start date: 01/11/2027
+
+Total classes: 10
+
+Weeks per class: 7.5
+
+Total credit hours: 30
+
+## Elevate your career with a master’s in sociology
+
+## Online master’s in sociology courses
+
+This program is designed to provide application-based knowledge and skills. Topics you’ll explore include sociological theory, social justice, marriage and family relationships, social change and more. As a culminating experience, you’ll complete a capstone course series to focus your training in an area of sociological interest. This in-depth investigation will take place over nine credit hours, or three courses, and provide you with an understanding of social needs, issues and behaviors.
+
+## The jobs a master’s in sociology prepares you for
+
+Upon graduating, you’ll be equipped for a wide array of positions in social services, crisis intervention, human resources, education and government. You can use your skills to translate research into best practices to help individuals and families succeed in their relationships and community interactions. Potential roles include, but aren’t limited to:
+
+## How to apply
+
+Applicants to the master’s in sociology program must fulfill the requirements of both the Graduate College and The College of Liberal Arts and Sciences.
+
+## The largest and most diverse college at ASU
+
+### 31,572
+
+students enrolled as of fall 2024
+
+### $161 million
+
+in research expenditures in FY23
+
+### 21
+
+interdisciplinary schools and departments
+
+### 100+
+
+undergraduate degrees

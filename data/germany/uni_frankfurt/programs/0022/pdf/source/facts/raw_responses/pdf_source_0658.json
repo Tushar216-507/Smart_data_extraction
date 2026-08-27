@@ -1,0 +1,5 @@
+{
+  "chunk_id": "pdf_source_0658",
+  "model": "openai/gpt-oss-120b",
+  "response": "{\"facts\": [{\"category\": \"identity\", \"scope\": \"university\", \"field\": \"university_name\", \"value\": \"Goethe University Frankfurt\", \"original_value\": \"GOETHE UNIVERSITÄT FRANKFURT AM MAIN\", \"unit\": null, \"entity\": {\"type\": \"university\", \"id\": null, \"name\": \"Goethe University Frankfurt\"}, \"parent_entity\": null, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}, {\"category\": \"identity\", \"scope\": \"programme\", \"field\": \"program_name\", \"value\": \"Southeast Asian Studies\", \"original_value\": \"Southeast Asian Studies\", \"unit\": null, \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"Goethe University Frankfurt\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}]}"
+}

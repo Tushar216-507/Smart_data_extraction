@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "undergraduate_admissions",
+      "field": "contact_info",
+      "value": "Please select your query type and a member of our Undergraduate Admissions team will be in contact.",
+      "confidence": 1.0,
+      "programme_association": "European Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "postgraduate_admissions",
+      "field": "contact_info",
+      "value": "Please contact Graduate & Professional Studies.",
+      "confidence": 1.0,
+      "programme_association": "European Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "international_students",
+      "field": "contact_info",
+      "value": "Please contact UL Global.",
+      "confidence": 1.0,
+      "programme_association": "European Studies - BA"
+    },
+    {
+      "category": "other",
+      "subcategory": "query_instructions",
+      "field": "instruction",
+      "value": "Please only submit one request per query. Submitting multiple requests will result in a slower response time.",
+      "confidence": 1.0,
+      "programme_association": "European Studies - BA"
+    }
+  ]
+}

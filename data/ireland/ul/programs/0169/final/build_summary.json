@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0169",
+  "program_name": "Bachelor of Science in Financial Mathematics",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0169\\final",
+  "input_fact_count": 32,
+  "unique_fact_count": 32,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 32,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 32,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 10,
+    "admission": 2,
+    "curriculum": 4,
+    "career": 6,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 8,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 2,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0169\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0169\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0169\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0169\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0169\\final\\student_life_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0169\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0169\\final\\build_summary.json"
+  }
+}

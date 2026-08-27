@@ -1,0 +1,151 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master in International Economics and Economic Policy",
+      "original_value": "Master in International Economics and Economic Policy",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_modules",
+      "value": [
+        {
+          "module_name": "Politische Theorie",
+          "module_credits": 10,
+          "assessment": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "module_name": "Vergleichende Politikwissenschaft",
+          "module_credits": 10,
+          "assessment": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "module_name": "Internationale Beziehungen",
+          "module_credits": 10,
+          "assessment": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "module_name": "Allgemeine Psychologie I",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Sozialpsychologie",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Differentielle Psychologie",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Klinische Psychologie: Psychische Störungen (VL)",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Allgemeine Psychologie II",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Entwicklungspsychologie",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Biologische Psychologie",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Grundlagen der Psychologie: Vertiefung",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Basismodul Pädagogische Psychologie (VL)",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Basismodul Arbeits- und Organisationpsychologie (VL)",
+          "module_credits": 4,
+          "assessment": "Modulzettel wird in der Beratung ausgegeben"
+        },
+        {
+          "module_name": "Einführung in die Sinologie",
+          "module_credits": 6,
+          "assessment": "WiSe: 2 Teilmodule G1-PS (3CP) und G1-V/Ü (3CP) - erfolgreiches Bestehen des Gesamtmoduls obligatorisch"
+        },
+        {
+          "module_name": "Fachliche und formale Grundkenntnisse der Sinologie",
+          "module_credits": 9,
+          "assessment": "SoSe: 2 Teilmodule G2-PS (5CP) und G2-Ü (4CP) mit Voraussetzung G1-PS - erfolgreiches Bestehen des Gesamtmoduls obligatorisch"
+        },
+        {
+          "module_name": "Grundlagen der Humangeographie",
+          "module_credits": 8,
+          "assessment": "Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch"
+        }
+      ],
+      "original_value": "Importmodule: Module an anderen Fachbereichen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.9
+    }
+  ]
+}

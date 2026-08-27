@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0106",
+  "program_name": "Online Master of Healthcare Innovation",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0106\\final",
+  "input_fact_count": 13,
+  "unique_fact_count": 13,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 13,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 13,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 1,
+    "curriculum": 3,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 1
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0106\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0106\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0106\\final\\curriculum_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0106\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0106\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0106\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,1 @@
+Make DuckDuckGo your default search engine.

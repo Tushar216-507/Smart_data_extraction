@@ -1,0 +1,9 @@
+Jack Corrigan
+
+I am a full-time teacher of science, biology and maths. My work-load varies from day-to-day depending on my timetable. In general, I start with some prep work followed by classes. Corrections, administration work, preparing experiments and marking exams are all part of the job. Teaching also involves liaising with parents, other teachers, guidance counsellors and other professionals. In my non-contact hours, I am involved in pastoral care, coaching, Young Scientist and various extracurricular activities with the students. There are also parent-teacher meetings, exam supervision and many other tasks associated with the teaching life. Though sometimes demanding and challenging, teaching can be very rewarding.
+
+My course at UL prepared me superbly for my career as a teacher - it allowed me to study both Education and Science concurrently so that on graduating, I was fully qualified and ready for the workplace without the need to do a postgraduate course.
+
+Jack’s tip:
+
+If you want to be a Science Teacher, put your best foot forward particularly on your teaching practise, because this is the place where you learn your trade, network and make connections that can be hugely beneficial to you in your later career. Enjoy your student years - take all UL has to offer you. It’s an opportunity to explore who you are, to get to know yourself and make new friends.

@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "overall_grade_calculation",
+      "value": "The overall grade for the Bachelor examination is determined by the grades of the modules, weighted according to specified criteria.",
+      "original_value": "Die Gesamtnote einer bestanden Bachelorprüfung ergibt sich durch die folgende Abbildung, wobei nur die erste Dezimalstelle hinter dem Komma berücksichtigt wird; alle weiteren Stellen werden ohne Rundung gestrichen:",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "grading",
+      "scope": "programme",
+      "field": "grade_scale",
+      "value": "1.0 to 1.5: very good, 1.6 to 2.5: good, 2.6 to 3.5: satisfactory, 3.6 to 4.0: sufficient, above 4.0: fail.",
+      "original_value": "1,0 bis einschließlich 1,5 sehr gut; 1,6 bis einschließlich 2,5 gut; 2,6 bis einschließlich 3,5 befriedigend; 3,6 bis einschließlich 4,0 ausreichend; über 4,0 nicht ausreichend.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "grading",
+      "scope": "programme",
+      "field": "final_grade_statement",
+      "value": "A final grade up to 4.0 results in the overall statement 'passed with distinction'. The English translation of 'passed with distinction' is 'excellent'.",
+      "original_value": "Das Gesamturteil „mit Auszeichnung bestanden“ lautet: „excellent“.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

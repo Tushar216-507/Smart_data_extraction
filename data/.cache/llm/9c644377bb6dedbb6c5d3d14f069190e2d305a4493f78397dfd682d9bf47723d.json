@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "module_importation",
+      "value": "A module can be used in multiple study programs.",
+      "original_value": "Ein Modul kann in mehreren Studiengängen Verwendung finden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "module_importation_without_change",
+      "value": "If modules from another study program are imported without change, the regulations of the offering department apply.",
+      "original_value": "Werden für einen Studiengang Module aus einem anderen Studiengang ohne Änderung importiert, gelten für die Absolvierung des Moduls die Regelungen der Ordnung des das Modul anbietenden Fachbereichs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "modified_module_regulations",
+      "value": "If only part of a module is imported from another study program, the regulations of the importing study program apply.",
+      "original_value": "Ist nur ein Teil eines Moduls aus einem anderen Studiengang importiert („modifiziertes Modul“), finden für die Absolvierung dieses Moduls die Regelungen des importierenden Studiengangs Anwendung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "combined_module_regulations",
+      "value": "If a module consists of courses imported from multiple study programs, the regulations of the importing study program apply.",
+      "original_value": "Setzt sich ein Modul aus Lehrveranstaltungen zusammen, die aus mehreren Studiengängen importiert werden, finden für die Absolvierung dieses Moduls ebenfalls die Regelungen des importierenden Studiengangs Anwendung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "exclusive_module_offer",
+      "value": "If a module is offered exclusively for the importing study program, the regulations of that program apply.",
+      "original_value": "Wird ein Modul ausschließlich für den importierenden Studiengang angeboten, gelten für die Absolvierung des Moduls die Regelungen des importierenden Studiengangs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "teaching_import_export_regulation",
+      "value": "Teaching imports and exports between departments must be regulated based on agreements to ensure course offerings and studyability.",
+      "original_value": "Zur Sicherstellung des Lehrangebots und zur Sicherung der Studierbarkeit der Studiengänge sind die Lehrimporte und Lehrexporte zwischen den Fachbereichen auf der Grundlage von Vereinbarungen zu regeln.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

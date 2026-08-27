@@ -1,0 +1,212 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Fundamental Courses",
+      "original_value": "Fundamental Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 10
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Orientierungsphase",
+      "original_value": "Orientierungsphase",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Orientierungsphase",
+        "name": "Orientierungsphase"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 10
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Spieltheorie / Game Theory",
+      "original_value": "Spieltheorie / Game Theory (WPME_SPTH)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WPME_SPTH",
+        "name": "Spieltheorie / Game Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "module_credits": 6
+      },
+      "confidence": 1.0
+    }
+  ]
+}

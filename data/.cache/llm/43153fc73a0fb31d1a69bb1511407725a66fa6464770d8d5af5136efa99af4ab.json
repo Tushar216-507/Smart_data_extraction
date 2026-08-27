@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "overall_grade_formation",
+      "value": "An overall grade is formed for the bachelor's examination in the minor subject, which includes all results of the module examinations of the bachelor's minor.",
+      "original_value": "Für die Bachelorprüfung im Nebenfach wird eine Gesamtnote gebildet, in welche alle Ergebnisse der Modulprüfungen des Bachelor-Nebenfaches eingehen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "module_grading_inclusion",
+      "value": "Not all module grades need to be included in the overall grade for the bachelor's degree; however, modules worth at least 60% of the credits must be included.",
+      "original_value": "Nach § 42 Abs. 8 RO müssen nicht alle Modulnoten in die Gesamtnote für den Bachelorabschluss eingehen. Allerdings ist zu beachten, dass Module im Umfang von mindestens 60 % der CP für den Gesamtstudiengang in die Gesamtnote eingehen müssen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "student_choice_in_grade_inclusion",
+      "value": "The regulations may allow students to decide which module grades are included in the overall grade.",
+      "original_value": "In diesem Rahmen kann die Ordnung den Studierenden auch die Möglichkeit einräumen, zu entscheiden, welche Modulnoten in die Gesamtnote eingehen sollen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

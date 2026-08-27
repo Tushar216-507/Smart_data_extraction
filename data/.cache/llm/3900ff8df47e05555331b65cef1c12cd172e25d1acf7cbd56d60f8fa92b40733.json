@@ -1,0 +1,80 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "program_name",
+      "value": "Fundamental Courses",
+      "original_value": "Fundamental Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftswissenschaften",
+      "original_value": "Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Doctoral Program in Law, Finance and Economics",
+      "original_value": "Doctoral Program in Law, Finance and Economics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Doctoral Program in Law, Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

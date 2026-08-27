@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "examination_fees_regulation",
+      "value": "The examination fees are exclusively for the administrative costs of the examination offices.",
+      "original_value": "Die Prüfungsgebühren sind ausschließlich für den Verwaltungsaufwand der Prüfungsämter zu erheben.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "unknown",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "fees",
+      "scope": "programme",
+      "field": "examination_fee_master_program",
+      "value": "100 Euro for master's programs with a standard duration of four semesters; reduced by 25 Euro for each semester of deviation.",
+      "original_value": "nach § 54 Abs.3 RO betragen die Prüfungsgebühren bei Masterstudiengängen mit einer Regelstudienzeit von vier Semestern 100 Euro; bei hiervon abweichenden Regelstudienzeiten verringert sich der Betrag um 25 Euro pro Semester Regelstudienzeit.",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "examination_fee_payment_terms",
+      "value": "The examination fees are due in two installments: the first upon application for the master's examination and the second upon approval for the master's thesis.",
+      "original_value": "Die Prüfungsgebühren werden in zwei hälftigen Raten fällig, und zwar die erste Rate bei der Beantragung der Zulassung zur Masterprüfung, die zweite Rate bei der Zulassung zur Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

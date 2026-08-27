@@ -1,0 +1,174 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Modern languages and cultures of SEA",
+      "original_value": "Moderne Sprachen und Kulturen der SEA",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "1.1",
+        "name": "Modern languages and cultures of SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theories and methods",
+      "original_value": "Theorien und Methoden",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "2.1",
+        "name": "Theories and methods"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Current research and developments",
+      "original_value": "Aktuelle Forschung und Entwicklungen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "3.1",
+        "name": "Current research and developments"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Media, politics and economy in mod. SEA",
+      "original_value": "Medien, Politik und Ökonomie in mod. SEA",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "4.1",
+        "name": "Media, politics and economy in mod. SEA"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Elective modules",
+      "original_value": "Wahlpflichtmodule",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "elective",
+        "name": "Elective modules"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Master's thesis",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "thesis",
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 120,
+      "original_value": "120 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

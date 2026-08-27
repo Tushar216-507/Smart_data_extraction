@@ -1,0 +1,1 @@
+[India negotiating FTAs with 8-9 blocs, aims to cover 75% of global trade: Piyush Goyal](https://www.business-standard.com/economy/news/india-negotiating-ftas-with-8-9-blocs-aims-to-cover-75-of-trade-goyal-126082400170_1.html)

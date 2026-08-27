@@ -1,0 +1,122 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "registration_process",
+      "value": "Students must register for module examinations in writing or electronically within the registration period at the examination office.",
+      "original_value": "Die oder der Studierende hat sich innerhalb der Meldefrist schriftlich oder, nach Festlegung durch den Prüfungsausschuss, elektronisch anzumelden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "examination_admission_conditions",
+      "value": "Students may only register for a module examination if they are admitted to the bachelor's examination and have not definitively failed the corresponding module examination.",
+      "original_value": "Für die Anmeldung [bzw. Ablegung] der betreffenden Modulprüfung muss die oder der Studierende zur Bachelorprüfung zugelassen sein und sie oder er darf die entsprechende Modulprüfung [oder Modulteilprüfung] noch nicht endgültig nicht bestanden haben.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "module_pass_requirements",
+      "value": "A module is only passed when all assessments and examinations for the module have been passed.",
+      "original_value": "Das Modul ist erst dann bestanden, wenn sämtliche [Studienleistungen sowie] Modulprüfungen [oder alle Modulteilprüfungen des Moduls] bestanden sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "leave_of_absence_conditions",
+      "value": "Students on leave are not allowed to take examinations or acquire credit; however, they can repeat failed examinations during their leave.",
+      "original_value": "Beurlaubte Studierende können keine Prüfungen ablegen oder Leistungsnachweise erwerben. Zulässig ist aber die Wiederholung nicht bestandener Prüfungen während der Beurlaubung.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "withdrawal_conditions",
+      "value": "Students may withdraw from their examination registration up to one week before the examination date without giving reasons.",
+      "original_value": "Die oder der Studierende kann bis eine Woche vor dem Prüfungstermin die Prüfungsanmeldung ohne Angabe von Gründen zurückziehen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

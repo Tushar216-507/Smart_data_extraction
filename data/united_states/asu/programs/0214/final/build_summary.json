@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0214",
+  "program_name": "Gender Studies, PhD",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0214\\final",
+  "input_fact_count": 14,
+  "unique_fact_count": 14,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 14,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 14,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 1,
+    "admission": 6,
+    "curriculum": 5,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0214\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0214\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0214\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0214\\final\\career_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0214\\final\\contacts_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0214\\final\\build_summary.json"
+  }
+}

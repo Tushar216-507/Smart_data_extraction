@@ -1,0 +1,156 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Core Lecture: Institutions and Innovations",
+      "original_value": "Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2 / ININ",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.Sc. Betriebswirtschaftslehre",
+        "name": "M.Sc. Business Administration"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": "Summer semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftsinformatik",
+      "original_value": "Wirtschaftsinformatik (WINFO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WINFO",
+        "name": "Wirtschaftsinformatik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.Sc. Informatik",
+        "name": "M.Sc. Computer Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Cloud Computing",
+      "original_value": "Cloud Computing (CLC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "CLC",
+        "name": "Cloud Computing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.Sc. Informatik",
+        "name": "M.Sc. Computer Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "Summer semester or Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.Sc. International Economics and Economic Policy",
+        "name": "M.Sc. International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "Winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Stochastic Calculus in Finance and Economics",
+      "original_value": "Stochastic Calculus in Finance and Economics (SCFC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SCFC",
+        "name": "Stochastic Calculus in Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“",
+        "name": "M.Sc. in Quantitative Accounting, Quantitative Economics, Quantitative Finance, and Quantitative Marketing"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "Summer semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

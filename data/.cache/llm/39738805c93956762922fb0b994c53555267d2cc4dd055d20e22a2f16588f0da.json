@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "uni_frankfurt",
+      "original_value": "uni_frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Southeast Asian Studies",
+      "original_value": "Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "institution_types",
+      "value": [
+        "Universities",
+        "Universities of Applied Sciences",
+        "Universities of Art/Music"
+      ],
+      "original_value": "Universitäten, Fachhochschulen, Kunst- und Musikhochschulen",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "institution_status",
+      "value": "state or state-recognized institutions",
+      "original_value": "staatliche oder staatlich anerkannte Hochschulen",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

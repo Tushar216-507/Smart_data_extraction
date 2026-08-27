@@ -1,0 +1,18 @@
+# Masters Dual Degree
+
+The KBS currently has seven dual degree partners available to students on the following MSc programmes:
+
+\* the MSc. in Economics & Policy Analysis has one dedicated dual degree partner – HEC Liège - available only to students on this programme
+
+Each of our Masters dual degree agreements work on the basis of a 1+1 structure, whereby students spend their first two semesters studying their normal programme at KBS. They then do not complete the summer semester (generally a dissertation) and instead transfer to one of our dual degree partners for a 2nd year of study. At all of our French dual degree partners, our students can choose from a range of different MSc programmes available at each partner. At the end of their two years, students graduate with their degree from UL, as well as a degree from the partner School. There are no extra academic fee implications for students as no academic fees are paid to the partner institution in the 2nd year and students just pay their normal fee to UL in their 1st year.
+
+We also have a one-year dual degree version of our MSc. in HRM programme that students apply to directly, where students spend their Autumn semester studying in UL, their Spring semester studying at Universidad Carlos III de Madrid (UC3M) in Spain, and then complete their dissertation back in UL over the summer. At the end of their studies, students will receive MSc. in HRM degrees from both UL and UC3M. Further details on this programme can be found [here](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ul.ie%2Fgps%2Fcourses%2Fhuman-resource-management-international-msc&data=05%7C02%7CSimon.Fingleton%40ul.ie%7C73866286661043af665408dd5b0eed29%7C0084b9243ab4411692519939f695e54c%7C0%7C0%7C638766841859371280%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=d1HjWME80aFYrYtUFvEYQPbBTLWjj0mKP3o8wuVMb2o%3D&reserved=0).
+
+Details on each of our 1+1 Masters dual degree partners can be found below:
+
+[Audencia Business School](https://www.audencia.com/en ) (Nantes, France)[Excelia Business School](https://www.excelia-group.com/about-excelia/our-schools/excelia-business-school ) (La Rochelle, France)[Grenoble Ecole de Management](https://www.grenoble-em.com/en ) (Grenoble, France)[Neoma Business School](https://neoma-bs.com/ ) (Reims & Rouen, France)[Nagoya University of Commerce & Business](https://www.rennes-sb.com/ ) (Nagoya, Japan)
+
+[Pforzheim University Business School](https://www.tbs-education.com) (Pforzheim, Germany)[HEC Liège](https://www.hec.uliege.be/cms/c_7098604/en/hec ) (Liège, Belgium) \* [TBS Education](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.tbs-education.com%2F&data=05%7C02%7CKeith.Kerley%40ul.ie%7Cdfd7be16c7144e6d828808de3bf50e0d%7C0084b9243ab4411692519939f695e54c%7C0%7C0%7C639014120840182718%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=il%2B5nO4NjcIhUSQkjpRjsfjC3Tok0bISFOlZfco6qw4%3D&reserved=0) (Toulouse, France)
+
+[Rennes School of Business | School of Management](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.rennes-sb.com%2F&data=05%7C02%7CKeith.Kerley%40ul.ie%7Cdfd7be16c7144e6d828808de3bf50e0d%7C0084b9243ab4411692519939f695e54c%7C0%7C0%7C639014120840204196%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=SwKF9aGKlhZSjQVQl%2BYAkjbPAYZxFebp%2BR1QUm%2Bv2bE%3D&reserved=0) (Rennes, France)
+\* Available to MSc. in Economics & Policy Analysis students only

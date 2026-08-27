@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "undergraduate_admissions",
+      "field": "query_type_selection",
+      "value": "Please select your query type and a member of our Undergraduate Admissions team will be in contact.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Applied Languages"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "undergraduate_admissions",
+      "field": "contact_info",
+      "value": "Please contact the relevant Admissions office for Undergraduate Students (EU Residents only). Non EU residents please see International Students below.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Applied Languages"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "postgraduate_admissions",
+      "field": "contact_info",
+      "value": "Please contact Graduate & Professional Studies.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Applied Languages"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "international_students",
+      "field": "contact_info",
+      "value": "Please contact UL Global for International Mobility Students (Mobility Students: Erasmus, Study Abroad and Exchange).",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Applied Languages"
+    }
+  ]
+}

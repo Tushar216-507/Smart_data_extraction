@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "college_information",
+      "field": "college_names",
+      "value": [
+        "GNITC Ibrahimpatnam",
+        "ASTRA Hyderabad",
+        "IARE Dundigal",
+        "MRCET Maisammaguda",
+        "CMRIT Medchal",
+        "KL University",
+        "GITAM Rudraram"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Engineering Colleges in Telangana"
+    },
+    {
+      "category": "fees",
+      "field": "course_fees",
+      "value": {
+        "GNITC Ibrahimpatnam": "INR 5.14 lakh",
+        "ASTRA Hyderabad": "INR 3.38 lakh",
+        "IARE Dundigal": "INR 3.9 lakh",
+        "MRCET Maisammaguda": "INR 1.6 lakh - INR 4.46 lakh",
+        "CMRIT Medchal": "INR 4.2 lakh",
+        "KL University": "INR 10.96 lakh - INR 12.16 lakh",
+        "GITAM Rudraram": "INR 7.92 lakh"
+      },
+      "confidence": 1.0,
+      "programme_association": "Engineering Colleges in Telangana"
+    },
+    {
+      "category": "career",
+      "field": "average_package",
+      "value": {
+        "GNITC Ibrahimpatnam": "INR 4.72 LPA",
+        "ASTRA Hyderabad": "INR 1.55 LPA",
+        "IARE Dundigal": "INR 10 LPA",
+        "MRCET Maisammaguda": "INR 4.5 LPA",
+        "CMRIT Medchal": "INR 6 LPA",
+        "KL University": "INR 8 LPA",
+        "GITAM Rudraram": "INR 6.86 LPA"
+      },
+      "confidence": 1.0,
+      "programme_association": "Engineering Colleges in Telangana"
+    },
+    {
+      "category": "statistics",
+      "field": "engineering_colleges_count",
+      "value": {
+        "Hyderabad": {
+          "total_colleges": 159,
+          "btech_colleges": 135,
+          "mtech_colleges": 104
+        },
+        "Warangal": {
+          "total_colleges": 21,
+          "btech_colleges": 19,
+          "mtech_colleges": 15
+        },
+        "Karimnagar": {
+          "total_colleges": 14,
+          "btech_colleges": 11,
+          "mtech_colleges": 8
+        },
+        "Khammam": {
+          "total_colleges": 11,
+          "btech_colleges": 10,
+          "mtech_colleges": 7
+        },
+        "Secunderabad": {
+          "total_colleges": 7,
+          "btech_colleges": 7,
+          "mtech_colleges": 5
+        }
+      },
+      "confidence": 1.0,
+      "programme_association": "Engineering Colleges in Telangana"
+    }
+  ]
+}

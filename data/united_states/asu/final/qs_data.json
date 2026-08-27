@@ -1,0 +1,399 @@
+{
+  "schema": {
+    "name": "qs_university_data",
+    "version": "1.0"
+  },
+  "source": {
+    "provider": "QS TopUniversities",
+    "profile_url": "https://www.topuniversities.com/universities/arizona-state-university",
+    "university_slug": "arizona-state-university",
+    "built_at": "2026-08-26T08:42:39.777169+00:00"
+  },
+  "identifiers": {
+    "qs_profile_id": 25,
+    "drupal_node_id": 294631
+  },
+  "university": {
+    "name": "Arizona State University",
+    "description": "Learn more about studying at Arizona State University including how it performs in QS rankings, the cost of tuition and further course information.",
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/arizona-state-university_592560cf2aeae70239af4a9c_large.jpg"
+  },
+  "overview": {
+    "content": "Arizona State\nUniversity, ranked repeatedly No. 1 “Most Innovative School” in the United\nStates by U.S. News & World Report, has forged the model for a New American\nUniversity. ASU is a comprehensive public research institution, measured not by\nwhom it excludes, but by whom it includes and how they succeed; advancing\nresearch and discovery of public value; and assuming fundamental responsibility\nfor the economic, social, cultural, and overall health of the communities it\nserves. ASU operates on the principle that learning is a personal journey for\neach student; that they thrive on experience, and discovery cannot be bound by\ntraditional academic disciplines. Through innovation and a commitment to\naccessibility, ASU has drawn pioneering researchers to its faculty while\nexpanding opportunities for qualified students, attracting top achievers from\nall 50 states and over 158 countries. Building on a legacy of excellence, ASU\nhas rapidly enriched its research enterprise. In just 10 years, the university\nhas doubled its research funding. By redefining the 21st-century university as\na knowledge enterprise, ASU has inspired its faculty and students to lead\ndiscovery, notably in space exploration, health, sustainability, energy, water,\nand more. Our interdisciplinary, solutions-focused approach to research,\nentrepreneurship, and economic development centers on discovery that translates\ninto impact and fuses intellectual disciplines to solve complex problems. ASU\nis top-ranked by Times Higher Education for advancing the United Nations'\nSustainable Development Goals, including global impact on poverty and hunger,\nclean water and energy solutions, and promoting gender equality."
+  },
+  "locations": {
+    "campuses": [
+      {
+        "name": "Arizona State University",
+        "address": {
+          "street": "411 North Central Avenue",
+          "city": "Phoenix",
+          "region": "Arizona",
+          "postal_code": "85004",
+          "country": "United States"
+        }
+      }
+    ]
+  },
+  "statistics": {
+    "total_students": {
+      "display_value": "52,242",
+      "value": 52242,
+      "breakdown": {
+        "undergraduate_percentage": 83.0,
+        "postgraduate_percentage": 17.0
+      }
+    },
+    "international_students": {
+      "display_value": "10,275",
+      "value": 10275,
+      "breakdown": {
+        "undergraduate_percentage": 52.1,
+        "postgraduate_percentage": 47.9
+      }
+    },
+    "total_faculty_staff": {
+      "display_value": "3,200",
+      "value": 3200,
+      "breakdown": {
+        "domestic_percentage": 71.0,
+        "international_percentage": 29.0
+      }
+    }
+  },
+  "cost_of_living": {
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "items": [
+      {
+        "category": "accommodation",
+        "label": "Accommodation",
+        "display_value": "$10,910",
+        "amount": 10910.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "food",
+        "label": "Food",
+        "display_value": "$3,760",
+        "amount": 3760.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "transport",
+        "label": "Transport",
+        "display_value": "$770",
+        "amount": 770.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      },
+      {
+        "category": "utilities",
+        "label": "Utilities",
+        "display_value": "$4,530",
+        "amount": 4530.0,
+        "currency_symbol": "$",
+        "note": "(Approx. amount)"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "ranking_id": 516,
+      "name": "QS Ranking 516",
+      "current": {
+        "year": 2026,
+        "rank": "#=10",
+        "rank_numeric": 10,
+        "is_tied": true,
+        "is_range": false,
+        "score": 84.2
+      },
+      "overall_score": 84.2,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#=10",
+          "rank_numeric": 10,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#16",
+          "rank_numeric": 16,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=15",
+          "rank_numeric": 15,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#22",
+          "rank_numeric": 22,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2022,
+          "rank": "#=19",
+          "rank_numeric": 19,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2021,
+          "rank": "#11",
+          "rank_numeric": 11,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 84.2
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 85.8
+        },
+        {
+          "name": "Citations per Paper",
+          "score": 86.5
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 70.4
+        },
+        {
+          "name": "H-index Citations",
+          "score": 84.6
+        }
+      ],
+      "source": {
+        "profile_id": 25,
+        "offset": 485,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/516/25/485?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4085,
+      "name": "QS Sustainability Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#=110",
+        "rank_numeric": 110,
+        "is_tied": true,
+        "is_range": false,
+        "score": 89.1
+      },
+      "overall_score": 89.1,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#=110",
+          "rank_numeric": 110,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=102",
+          "rank_numeric": 102,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=41",
+          "rank_numeric": 41,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#24",
+          "rank_numeric": 24,
+          "is_tied": false,
+          "is_range": false
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 89.1
+        },
+        {
+          "name": "Impact of Education",
+          "score": 79.5
+        },
+        {
+          "name": "Employability & Opportunities",
+          "score": 97.3
+        },
+        {
+          "name": "Environmental Impact",
+          "score": 80.1
+        },
+        {
+          "name": "Equality",
+          "score": 97.8
+        },
+        {
+          "name": "Governance",
+          "score": 93.7
+        },
+        {
+          "name": "Knowledge Exchange",
+          "score": 98
+        },
+        {
+          "name": "Health and Wellbeing",
+          "score": 96.2
+        },
+        {
+          "name": "Social Impact",
+          "score": 95.4
+        },
+        {
+          "name": "Environmental Education",
+          "score": 76.7
+        },
+        {
+          "name": "Environmental Sustainability",
+          "score": 67.5
+        },
+        {
+          "name": "Environmental Research",
+          "score": 98.2
+        }
+      ],
+      "source": {
+        "profile_id": 25,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4085/25/0?_wrapper_format=drupal_ajax"
+      }
+    }
+  ],
+  "scholarships": {
+    "available": true,
+    "sections": [
+      {
+        "title": "Scholarships",
+        "content": "Scholarships\nSelecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n995.8K\n2242\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n504.0K\n789\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n227.0K\n335"
+      },
+      {
+        "title": "Scholarships",
+        "content": "Selecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n995.8K\n2242\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n504.0K\n789\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n227.0K\n335"
+      },
+      {
+        "title": "How to get a full scholarship",
+        "content": "Looking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n995.8K\n2242"
+      },
+      {
+        "title": "Scholarships to study abroad",
+        "content": "Find scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n504.0K\n789"
+      },
+      {
+        "title": "Scholarship Applications: Frequently Asked Questions",
+        "content": "Get answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n227.0K\n335"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/how-get-full-scholarship"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=913584&redirect_path=/universities/arizona-state-university"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/sabrinacollier"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-abroad"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=118181&redirect_path=/universities/arizona-state-university"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/qs-staff-writer"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarship-applications-frequently-asked-questions"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=268050&redirect_path=/universities/arizona-state-university"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/laurat"
+      }
+    ]
+  },
+  "social_links": [],
+  "media": {
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/arizona-state-university_592560cf2aeae70239af4a9c_large.jpg",
+    "image_urls": [
+      "https://www.topuniversities.com/sites/default/files/profiles/logos/arizona-state-university_592560cf2aeae70239af4a9c_large.jpg"
+    ],
+    "image_count": 1
+  },
+  "supplementary_content": {
+    "additional_sections": [
+      {
+        "title": "Available programmes",
+        "content": "Bachelor\n(117)\nUG\nArts and Humanities\n(6)\nBachelor of Arts in Art (Museum Studies)\n::type_cta_button::\nGo to Programme\nBachelor of Arts in Art History\nBachelor of Arts in English\nBachelor of Arts in History\nBachelor of Arts in Interdisciplinary Arts and Performance\nBachelor of Arts in Interdisciplinary Studies\nBachelor of Arts in Philosophy\nBachelor of Arts in Philosophy (Morality, Politics and Law)\nBachelor of Arts in Religious Studies (Religion, Culture and Public Life)\nBachelor of Arts in Religious Studies (Religion, Politics and Global Affairs)\nBachelor of Arts in Spanish\nBachelor of Fine Arts in Art (Digital Photography)\nBachelor of Science in Design in Graphic Design\nBachelor of Science in Urban Planning\nView All\nBusiness and Management\nBachelor of Applied Science in Applied Leadership\nBachelor of Applied Science in Food and Nutrition Entrepreneurship\nBachelor of Applied Science in Health Entrepreneurship and Innovation\nBachelor of Applied Science in Operations Management\nBachelor of Applied Science in Project Management\nBachelor of Arts in Business (Business Administration)\nBachelor of Arts in Business (Corporate Accounting)\nBachelor of Arts in Business (Financial Planning)\nBachelor of Arts in Business (Food Industry Management)\nBachelor of Arts in Business (Global Leadership Degree)\nBachelor of Arts in Business (Sports Business)\nBachelor of Arts in Interdisciplinary Studies (Organizational Studies)\nBachelor of Arts in Organizational Leadership\nBachelor of Arts in Organizational Leadership (Project Management)\nBachelor of Global Management\nBachelor of Science in Accountancy\nBachelor of Science in Economics (Business)\nBachelor of Science in Economics (Liberal Arts)\nBachelor of Science in Food and Nutrition Entrepreneurship\nBachelor of Science in Health Entrepreneurship and Innovation\nBachelor of Science in International Trade\nBachelor of Science in Management\nBachelor of Science in Marketing\nBachelor of Science in Technological Entrepreneurship & Management\nBachelor of Science in Technological Leadership\nEngineering and Technology\nBachelor of Applied Science in Graphic Information Technology\nBachelor of Applied Science in Internet & Web Development\nBachelor of Arts in Business (Information Security)\nBachelor of Science in Business Data Analytics\nBachelor of Science in Computer Information Systems\nBachelor of Science in Electrical Engineering (Electric Power and Energy Systems)\nBachelor of Science in Engineering in Electrical Engineering\nBachelor of Science in Engineering in Engineering Management\nBachelor of Science in Engineering in Mechanical Engineering\nBachelor of Science in Geographic Information Science\nBachelor of Science in Graphic Information Technology\nBachelor of Science in Information Technology Degree\nBachelor of Science in Software Engineering\nLife Sciences and Medicine\nBachelor of Applied Science in Health Sciences\nBachelor of Arts in Biochemistry\nBachelor of Arts in Global Health\nBachelor of Arts in Psychology\nBachelor of Arts in Psychology (Forensic Psychology)\nBachelor of International Public Health\nBachelor of Science in Biochemistry\nBachelor of Science in Biochemistry (Medicinal Chemistry)\nBachelor of Science in Biological Sciences\nBachelor of Science in Biological Sciences (Biology and Society)\nBachelor of Science in Biological Sciences (Biomedical Sciences)\nBachelor of Science in Biological Sciences (Conservation Biology and Ecology)\nBachelor of Science in Community Health\nBachelor of Science in Health Care Coordination\nBachelor of Science in Health Education & Health Promotion\nBachelor of Science in Health Sciences\nBachelor of Science in Health Sciences (Healthy Lifestyles Coaching)\nBachelor of Science in Integrative Health\nBachelor of Science in Nursing\nBachelor of Science in Nursing - Concurrent Enrollment Program\nBachelor of Science in Psychology\nBachelor of Science in Psychology (Forensic Psychology)\nBachelor of Science in Speech and Hearing Science\nNatural Sciences\nBachelor of Arts in Business (Sustainability)\nBachelor of Arts in Chemistry\nBachelor of Arts in Geography\nBachelor of Arts in Physics\nBachelor of Arts in Sustainability\nBachelor of Science in Astronomical and Planetary Sciences\nBachelor of Science in Geography\nBachelor of Science in Sustainability\nBachelor of Science in Sustainable Food Systems\nSocial Sciences and Management\nBachelor of Applied Science in Early Childhood Studies\nBachelor of Arts in African and African American Studies\nBachelor of Arts in Anthropology\nBachelor of Arts in Business (Communication)\nBachelor of Arts in Business (Global Logistics Management)\nBachelor of Arts in Business (Law)\nBachelor of Arts in Business (Retail Management)\nBachelor of Arts in Business (Tourism)\nBachelor of Arts in Community Advocacy & Social Policy\nBachelor of Arts in Education in Educational Studies\nBachelor of Arts in Education in Educational Studies (Early Childhood Education)\nBachelor of Arts in Film and Media Studies\nBachelor of Arts in Global Studies\nBachelor of Arts in Justice Studies\nBachelor of Arts in Liberal Studies\nBachelor of Arts in Mass Communication & Media Studies\nBachelor of Arts in Political Science\nBachelor of Arts in Women & Gender Studies\nBachelor of Science in Anthropology\nBachelor of Science in Communication\nBachelor of Science in Criminology & Criminal Justice\nBachelor of Science in Digital Audiences\nBachelor of Science in Family & Human Development\nBachelor of Science in Health Care Compliance and Regulations\nBachelor of Science in Justice Studies\nBachelor of Science in Political Science\nBachelor of Science in Public Service & Public Policy\nBachelor of Science in Public Service & Public Policy (Emergency Management & Homeland Security)\nBachelor of Science in Sociology\nBachelor of Science in Supply Chain Management\nBachelor of Science in Technical Communication\nBachelor of Science in Technical Communication - User Experience\nBachelor of Science in Tourism and Recreation Management\nMaster\n(98)\nPG\nMaster of Arts in English\nMaster of Arts in History\nMaster of Nonprofit Leadership and Management\nMaster of Science in Construction Management and Technology\nMaster of Science in Organizational Leadership\nMaster of Arts in Social Technologies\nMaster of Computer Science\nMaster of Computer Science (Big Data Systems)\nMaster of Computer Science (Cybersecurity)\nMaster of Engineering in Engineering Management\nMaster of Engineering in Quality, Reliability, & Statistical Engineering\nMaster of Engineering in Systems Engineering\nMaster of Science In Business Analytics\nMaster of Science in Digital Audience Strategy\nMaster of Science in Engineering in Electrical Engineering\nMaster of Science in Engineering in Software Engineering\nMaster of Science in Engineering in Sustainable Engineering\nMaster of Science in Industrial Engineering\nMaster of Science in Information Systems Management\nMaster of Science in Information Technology\nMaster of Science in Materials Science and Engineering\nMaster of Science in Program Evaluation and Data Analytics\nMaster of Science in Public Interest Technology\nMaster of Advanced Study in Health Informatics\nMaster of Applied Leadership and Management\nMaster of Healthcare Innovation\nMaster of International Health Management\nMaster of Science in Aging\nMaster of Science in Biomedical Diagnostics\nMaster of Science in Biomimicry\nMaster of Science in Clinical Research Management\nMaster of Science in Clinical Research Management (Regulatory Science)\nMaster of Science in Forensic Psychology\nMaster of Science in Medical Nutrition\nMaster of Science in Nursing\nMaster of Science in Nursing (Nursing Education)\nMaster of Science in Nutritional Science (Dietetics)\nMaster of Science in Psychology\nMaster of Science in Regulatory Science\nMaster of Science in Regulatory Science (Food Safety)\nMaster of Science in Science of Health Care Delivery\nMaster of Science in Sustainable Food Systems\nProfessional Science Master’s in Forensic Science\nExecutive Master of Sustainability Leadership\nMaster of Sustainability Leadership\nMaster of Sustainable Tourism\nExecutive Master of Public Administration\nMaster of Advanced Study in Film and Media Studies\nMaster of Art in Special Education (Autism Spectrum Disorders)\nMaster of Arts in Communication\nMaster of Arts in Criminal Justice\nMaster of Arts in Education\nMaster of Arts in Education (Educating Multilingual Learners)\nMaster of Arts in Education (Literacy Education)\nMaster of Arts in Emergency Management & Homeland Security\nMaster of Arts in Emergency Management and Homeland Security (Biosecurity and Threat Management)\nMaster of Arts in Emergency Management and Homeland Security (Community Resilience)\nMaster of Arts in Emergency Management and Homeland Security (Cybersecurity Policy and Management)\nMaster of Arts in Emergency Management and Homeland Security (Emergency Management)\nMaster of Arts in Emergency Management and Homeland Security (Homeland Security)\nMaster of Arts in Global Security\nMaster of Arts in Global Security (Cybersecurity)\nMaster of Arts in Indigenous Education\nMaster of Arts in Political Psychology\nMaster of Arts in Social Justice and Human Rights\nMaster of Arts in Sociology\nMaster of Arts in Special Education (Applied Behavior Analysis)\nMaster of Arts in World War II Studies\nMaster of Education In Curriculum and Instruction (Early Childhood Education)\nMaster of Education in Curriculum & Instruction (Gifted Education)\nMaster of Education in Educational Leadership (Principalship)\nMaster of Education in Global Education\nMaster of Education in Learning Design and Technologies\nMaster of Legal Studies\nMaster of Legal Studies (Indian Gaming)\nMaster of Legal Studies (Tribal Self-Governance)\nMaster of Legal Studies in Conflict Resolution\nMaster of Legal Studies in Construction Law\nMaster of Legal Studies in Contract Management\nMaster of Legal Studies in Corporate and Health Care Compliance\nMaster of Legal Studies in Criminal Law\nMaster of Legal Studies in HR and Employment Law\nMaster of Legal Studies in Intellectual Property Law\nMaster of Legal Studies in Law and Sustainability\nMaster of Legal Studies in Sports Law and Business\nMaster of Liberal Studies\nMaster of Public Safety Leadership and Administration\nMaster of Public Safety Leadership and Administration (Emergency Medical Services – Mobile Integrated Healthcare)\nMaster of Public Safety Leadership and Administration (Executive Fire Administration)\nMaster of Public Safety Leadership and Administration (Executive Police Administration)\nMaster of Science in Family & Human Development\nMaster of Science in Global Technology & Development (Applied International Development)\nMaster of Science in Global Technology and Development\nMaster of Science in Graphic Information Technology\nMaster of Science in Supply Chain Management\nMaster of Science in Technical Communication\nMaster of Social Work\nMaster of Teaching English to Speakers of Other Languages\nMBA (4)\nOnline/Distance MBA\n(2)\nMaster of Business Administration\nMaster of Business Administration in Electrical Engineering\nMaster of Business Administration in Industrial Engineering\nOthers\nExecutive MBA"
+      }
+    ]
+  },
+  "extraction": {
+    "profile": {
+      "json_ld_items_found": 5,
+      "profile_badges_found": 2,
+      "campuses_found": 1,
+      "social_links_found": 0,
+      "website_urls_found": 0,
+      "images_found": 1,
+      "statistics_found": 3,
+      "cost_items_found": 4,
+      "scholarship_sections_found": 5,
+      "university_information_sections_found": 5,
+      "ranking_summaries_found": 1,
+      "ranking_endpoints_found": 3,
+      "additional_sections_found": 1
+    },
+    "rankings": {
+      "endpoints_discovered": 3,
+      "unique_endpoints": 3,
+      "endpoints_processed": 2,
+      "endpoints_failed": 1,
+      "ranking_records_found": 10,
+      "failed_endpoints": [
+        {
+          "ranking_id": 513,
+          "url": "https://www.topuniversities.com/qs-profiles/rank-data/513/25/0?_wrapper_format=drupal_ajax",
+          "error": "RuntimeError: \nQS ranking request failed.\nURL: https://www.topuniversities.com/qs-profiles/rank-data/513/25/0?_wrapper_format=drupal_ajax\nHTTP status: 403\nResponse preview: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-8qRHL4stk43SyumzPOb5IE&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+        }
+      ],
+      "extracted_at": "2026-08-26T08:42:39.777114+00:00"
+    }
+  },
+  "build_summary": {
+    "ranking_count": 2,
+    "ranking_history_records": 10,
+    "ranking_criteria_count": 17,
+    "campus_count": 1,
+    "social_link_count": 0,
+    "image_count": 1,
+    "statistics_sections": 3,
+    "has_cost_of_living": true,
+    "has_programmes": false
+  }
+}

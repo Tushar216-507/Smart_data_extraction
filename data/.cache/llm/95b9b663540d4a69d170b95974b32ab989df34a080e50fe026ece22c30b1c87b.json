@@ -1,0 +1,174 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_address",
+      "value": "60629 Frankfurt am Main, Germany",
+      "original_value": "60629 Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "module_status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "module_status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Deepening Microeconomics",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Deepening Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "module_status": null,
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Deepening Macroeconomics",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Deepening Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "module_status": null,
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Political Theory",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Political Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "module_status": null,
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "History of Theory",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "History of Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "module_status": null,
+        "credits": 6
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0212",
+  "program_name": "Online Master of Arts in Global Security – Intelligence Studies",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0212\\final",
+  "input_fact_count": 30,
+  "unique_fact_count": 30,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 30,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 30,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 1,
+    "curriculum": 3,
+    "career": 11,
+    "fees": 1,
+    "scholarships": 0,
+    "contacts": 5,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 5,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0212\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0212\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0212\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0212\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0212\\final\\fees_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0212\\final\\contacts_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0212\\final\\student_life_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0212\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0212\\final\\build_summary.json"
+  }
+}

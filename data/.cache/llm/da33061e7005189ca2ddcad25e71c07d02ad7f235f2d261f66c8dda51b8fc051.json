@@ -1,0 +1,216 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "program",
+      "field": "program_name",
+      "value": "Bachelor of Science in Business Administration",
+      "original_value": "B. Sc. Wirtschaftswissenschaften PO 2022",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Economic Science",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economic Science"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophy, Politics, and Economics",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics, and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Microeconomics 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Microeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Macroeconomics 1",
+      "original_value": "Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finance 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "Bachelor of Science in Business Administration"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0289",
+  "program_name": "Bachelor of Science in Bioscience",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0289\\final",
+  "input_fact_count": 35,
+  "unique_fact_count": 35,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 35,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 35,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 17,
+    "admission": 2,
+    "curriculum": 9,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 5,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0289\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0289\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0289\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0289\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0289\\final\\student_life_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0289\\final\\build_summary.json"
+  }
+}

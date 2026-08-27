@@ -1,0 +1,286 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Klinische Psychologie: Psychische Störungen",
+      "original_value": "Klinische Psychologie: Psychische Störungen (VL) (PsyBsc 9 - Vorlesung/Prüfung)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc 9",
+        "name": "Klinische Psychologie: Psychische Störungen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Allgemeine Psychologie II",
+      "original_value": "Allgemeine Psychologie II (PsyBsc11)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc11",
+        "name": "Allgemeine Psychologie II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Entwicklungspsychologie",
+      "original_value": "Entwicklungspsychologie (PsyBsc12)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc12",
+        "name": "Entwicklungspsychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Biologische Psychologie",
+      "original_value": "Biologische Psychologie (PsyBsc13)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc13",
+        "name": "Biologische Psychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Psychologie: Vertiefung",
+      "original_value": "Grundlagen der Psychologie: Vertiefung (PsyBsc14)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc14",
+        "name": "Grundlagen der Psychologie: Vertiefung"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Basismodul Pädagogische Psychologie",
+      "original_value": "Basismodul Pädagogische Psychologie (VL) (PsyBsc 15 - Vorlesung/Prüfung)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc15",
+        "name": "Basismodul Pädagogische Psychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Basismodul Arbeits- und Organisationpsychologie",
+      "original_value": "Basismodul Arbeits- und Organisationpsychologie (VL) (PsyBsc 16 - Vorlesung/Prüfung)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc16",
+        "name": "Basismodul Arbeits- und Organisationpsychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Humangeographie",
+      "original_value": "Grundlagen der Humangeographie (HGeo-NF1)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF1",
+        "name": "Grundlagen der Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Praxisfelder der Humangeographie",
+      "original_value": "Praxisfelder der Humangeographie (HGeo-NF2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF2",
+        "name": "Praxisfelder der Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Frankfurter Kolloqium zur Humangeographie",
+      "original_value": "Frankfurter Kolloqium zur Humangeographie (HGeo-NF5, LVI+II))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HGeo-NF5",
+        "name": "Frankfurter Kolloqium zur Humangeographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

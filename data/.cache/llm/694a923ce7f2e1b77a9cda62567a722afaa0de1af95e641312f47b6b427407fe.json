@@ -1,0 +1,75 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application process",
+      "field": "application_fee",
+      "value": "50 euro",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application process",
+      "field": "interview_type",
+      "value": "online or in-person",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application process",
+      "field": "application_tracking",
+      "value": "You can track its status through the online application system.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "acceptance",
+      "field": "acceptance_notification",
+      "value": "You'll receive an email from the university to acknowledge your application has been successful.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "administrative tasks",
+      "field": "administrative_tasks",
+      "value": [
+        "Activating your student account",
+        "Completing financial tasks",
+        "Enrolling for your programme"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "student fees classification",
+      "field": "fees_classification",
+      "value": [
+        "EU",
+        "Non-EU"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "annual fees",
+      "field": "annual_fee_information",
+      "value": "Each programme will detail the annual fees and are subject to change each year.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "funding and scholarships",
+      "field": "funding_information",
+      "value": "You can find information on whether you're eligible for student funding and scholarships.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

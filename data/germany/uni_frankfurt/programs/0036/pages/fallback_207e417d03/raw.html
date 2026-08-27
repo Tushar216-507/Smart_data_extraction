@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMPE Data and Software Centre</title>
+    <link href="/Content/css?v=Vu1__NHnGW_N3jtf-cMRvYPMn-OBgkIgIwYsH4W0OSc1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=w9fZKPSiHtN4N4FRqV7jn-3kGoQY5hHpkwFv5TfMrus1"></script>
+
+    <!--This bundle was moved by the Telerik VS Extensions for compatibility reasons-->
+    <script src="/bundles/jquery?v=Um_imZQ9howccvR1wL5nuPHh80wCoA_onIEWsLTwCi41"></script>
+
+    <link href="/Content/kendo/2019.3.1023/kendo.common.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/kendo/2019.3.1023/kendo.mobile.all.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/kendo/2019.3.1023/kendo.dataviz.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/kendo/2019.3.1023/kendo.uniform.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/kendo/2019.3.1023/kendo.dataviz.default.min.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/kendo/2019.3.1023/jquery.min.js"></script>
+    <script src="/Scripts/kendo/2019.3.1023/jszip.min.js"></script>
+    <script src="/Scripts/kendo/2019.3.1023/kendo.all.min.js"></script>
+    <script src="/Scripts/kendo/2019.3.1023/kendo.aspnetmvc.min.js"></script>
+    <script src="/Scripts/kendo/2019.3.1023/cultures/kendo.culture.en-AU.min.js"></script>
+    <script src="/Scripts/kendo.modernizr.custom.js"></script>
+
+    <script src="/Scripts/App.js"></script>
+    <script src="/Scripts/lodash.min.js"></script>
+    <script src="/Scripts/DASC/DataTreeViewController.js"></script>
+    <script src="/Scripts/DASC/AdminDataTreeViewController.js"></script>
+    <script src="/Scripts/kendoExtensions/KendoGridExtension.js"></script>
+    <link href="/Content/dasc.css" rel="stylesheet" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="/Content/dmp-structure.css">
+    <link rel="stylesheet" href="/Content/dmp-theme.css">
+    <link rel="stylesheet" href="/Content/application-theme.css">
+
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+        // Wait cursor on ajax callbacks
+        $(document).ajaxStart(function () {
+            $('body').css('cursor', 'wait');
+        });
+
+        $(document).ajaxStop(function () {
+            $('body').css('cursor', 'auto');
+        });
+
+    });
+</script>
+    <script src="/Scripts/App.js"></script>
+
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top application-colour">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="application-logo">
+                <a href="https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration"><img src="/Content/images/DMPE_Logo_White_96dpi.png" alt="Department of Mines, Petroleum and Exploration"></a>
+            </div>
+            <div class="application-name hidden-xs">
+                <!-- hidden-sm -->
+                <h1>
+                    <a href="/"></a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container body-content">
+    
+<script src="/Scripts/DASC/DataTreeViewController.js"></script>
+<script src="/Scripts/DASC/SearchDataTreeViewController.js"></script>
+
+<style>
+    .k-in {
+        cursor: pointer !important;
+    }
+</style>
+
+<div class="page-header">
+    <h1>
+        Welcome to DMPE Data and Software Centre
+
+    </h1>
+    
+    <p><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">&nbsp;</span></p><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">The Data and Software Centre lets you&nbsp;download&nbsp;state-wide spatial datasets, geology series map&nbsp;data,&nbsp;resources such as&nbsp;Department of Mines, Petroleum and Exploration (DMPE) software&nbsp;(including&nbsp;user guides and&nbsp;videos where available), and documentation on map services provided by DMPE.</span></p><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">Each dataset compressed&nbsp;file contains the following:</span><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">&nbsp;</span></p><ul style="margin-top:0cm;" type="disc"><li data-list="1" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">Metadata statement</span></li><li data-list="1" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">The dataset (unprojected, geographical coordinates based on the 1994      Geocentric Datum of Australia [GDA1994] AND 2020 Geocentric&nbsp;Datum of      Australia [GDA2020]).</span></li><li data-list="1" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">Licence agreements</span>&nbsp;</li></ul><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">To view the metadata statement, select the&nbsp;</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAUCAYAAAERuZaYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFxEAABcRAcom8z8AAASSSURBVDhPnVVZT1xlGD6/yHhj4pXxB9jL3umlTdP0wkqpRoKWtC6t1BZMKGkrTGlZXGKNiluJDZvADIvsO8KwzD5nznxn3x6f9yDRC+XCj3zDnMP7vcuzfGi+X0UIH/BtaJblIFsLMLR6CM1xHMhyXBdaFJuouSZg16Bl5pZx/t1PeSZgmO0mYXEcQzN5WNVDjKdXMLdh4OXLXbBj8HwUY2puCUcMLjO6HEhJU/5gwPEMdhAgjDxA6UCgoJWLDtIzqxhJz+PMhRtYKEYMYSpletjI5sFm0D2UQbEur31otbrCajaHDRXgZv8g4pA1YP09CRuB6/mIoih51hBHqJSLyYMXRvD5XqaxuUPu5JickkSsrikjgq0iTE9vY32nBFZK+jAY9GpzF547dxtbPKV4WhJo1WoZylYYGhnDgW5CZ+DFa23oHZnHj9PzqPuMDlnTrbESx7atgIgDlbqFxpY7aGlPobm9Fw2tKXT+MIGsGxx3E8rUbMm2bZy2Pc9LBhZ+ZGlBoPNlFVFswyTyAX/cOIThW4kK4CqiZhCFqrSjEBLHiKd9cugRIZtbAGRYAo70E/shNN+NoOseDg8VMrNLGJ1aRnppB509Q3ip4QGaHqahExaGkRQrhsHg7p5B+EwjWBdYfWwxh+fPt+FKahJlBsuwHNKDafl49Pl3MNjDPjX223oOZy+24IgBT2e2iAizREQk4odhWbjX0weT7ya3j3DmXCMWyzZWcwUyzVp2nQfq0OrKSoboSPWjQv5zLLlOWof/qCCTPYTlU5OCis9g0wxg8fmr74dx9fZneK/9EZq4L93sxT7L5x2KOIFEjEHVyfbpkn8u4aGuTMIqCmHLJOdUFiVJEAQJg0mwiDQKbb40+cKBS+b8wCZJdHKcOAkev5skzuV07Jjf6Uw6WYiLSSQCVhehsQAcYZ46jngHOGYotoDvMQmZCoII9ExyUJYkSwTIJYMVaYeNbAETm7sY3i/i2V4Ji0UqnaQyRaJTz2VOuR88AdKJUa9FcJ0Q5ZKNb74dx9X3O9F8rRMftHbh+sf30dDcjta7T7CSVVje93Hl7i948c1uvPDGAzT2zGKNzfKegOIgit2IgDRDdzlJxIqszNLpmTXc636Crf180u1hLcZmPkSJHeU5xuhyBe/c6sXZy7fwdv8wXrsxgI8GxrFLcYmBResJmfzUPE/YtGlmjsCV+X0BHd2PsbKXQ5UwCfV5tpHe2MOlDzvwyutvIfXTJAqMLRFCnbowqK+I1wxM5lA0fEjc6ULqii6jaquGDkVSJmZn8fDLr7GZq+KAfBzwDp3N6vikbxB3vniKQ3Y3vptHU0cKmZ1tFFQVymJCYUeShsTHJUByowjOes2Cyy49djGWXkLb/T5MrWYTC5f+2tKpYCp+GpjYw/XHP2O2opAjBrpAStUEogSfqonlmvTkP4YLy3Rhcitaw+U9cFTQMTm9iNH0AsYyvAYyyxjJrOHZ1Cp+nVpBenkP26U67caJvQAmk5+o6xhxeeJ9YtsW5fkfmwY/bQukx+7zE6eJcWSfuE4TPf6ffZJEfv/7Av4ELX2ssLFbpdYAAAAASUVORK5CYII=" alt="" /><span style="font-size:9pt;font-family:Verdana, sans-serif;">icon next to the dataset name.</span><span style="font-size:9pt;font-family:Verdana, sans-serif;">&nbsp;</span></p><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">To facilitate&nbsp;automated downloading of dynamic datasets, the following documents contain&nbsp;URLs to assist in this process.</span><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">&nbsp;</span></p><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:#333333;"><a href="https://dasc.dmirs.wa.gov.au/Download/File/3599" target="_blank" title="Download URL listing for datasets projected in GDA2020"><span style="color:#337AB7;">URL document - GDA2020</span></a></span><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;"></span><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;"></span></p><p style="line-height:normal;"><br /></p><ul style="margin-top:0cm;" type="disc"><li data-list="0" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">Click&nbsp;the&nbsp;"What's new"&nbsp;tab to see new and previous releases.</span></li><li data-list="0" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">Click&nbsp;the&nbsp;"Datasets [GDA2020]"&nbsp;tab to view&nbsp;datasets available in GDA2020      coordinates.</span></li><li data-list="0" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">Click the&nbsp;"Datasets [GDA94]"&nbsp;tab to view&nbsp;datasets      available in GDA94 coordinates.&nbsp;</span></li><li data-list="0" data-level="1" style="color:black;line-height:normal;tab-stops:list 36.0pt;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;">Click the&nbsp;"Map services and resources"&nbsp;tab      to&nbsp;access&nbsp;a range of available&nbsp;software, map services, and      training material.</span>&nbsp;</li></ul><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">Type a keyword in the search tool on the&nbsp;right to search for specific datasets in a specific coordinate system.</span><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">&nbsp;</span></p><p style="line-height:normal;"><span style="font-size:9.0pt;font-family:'Verdana',sans-serif;color:black;">Nightly process to update&nbsp;dynamic datasets is scheduled to be&nbsp;completed by approximately&nbsp;<strong>3am</strong>&nbsp;following each business day.</span></p><p style="margin-bottom:12pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;"></span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">After&nbsp;</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">31st March 2026,&nbsp;</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">we will only create GDA2020 outputs.</span></strong></p><p style="margin-bottom:0.0001pt;line-height:normal;background:white;"><strong></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Most GDA94 downloads are now unavailable since&nbsp;</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">31st March 2026.</span></strong></p><p style="margin-bottom:0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">&nbsp;</span></strong></p><p style="margin-bottom:0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">ESRI will retire ArcMap 10.8.2 on the 1st March 2026.</span></strong></p><p style="margin-bottom:0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">We will keep creating ESRI layerfiles (lyr) up to&nbsp;</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">31st March 2026</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">, after this date we will only create ArcGIS Pro layer files (lyrx) for new or updated layers.</span></strong><br /></p>
+</div>
+
+<ul id="tabsList" class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#whatIsNew"><span class="glyphicon glyphicon-home"></span> What's new</a></li>
+    <li id="dataTab"><a id="dataXTab" data-toggle="tab" href="#dataX"><span class="glyphicon glyphicon-search"></span> Y</a></li>
+</ul>
+
+<div id="tabsContent" class="tab-content">
+    <div id="whatIsNew" class="tab-pane fade in active vertical-padding-10 horizontal-padding-15">
+        <div><p style="margin:0px 0px 12pt;line-height:normal;background:white;"><strong>&nbsp;</strong></p><p style="margin:0px 0px 12pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#333333;">What&rsquo;s changing?<br />&nbsp;<br />On 17th June 2022, the Data and Software Centre is moving to the Cloud which will mean a smoother, faster, productive and more secure service. The URL for DASC will change to </span></strong><span style="font-size:9pt;font-family:Verdana, sans-serif;"><a href="https://dasc.dmirs.wa.gov.au/"><strong>https://dasc.dmirs.wa.gov.au</strong></a></span><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#333333;">&nbsp;&nbsp;<br />We recommend you read and follow the below bullet points to ensure the transition is as smooth as possible.&nbsp;<br />&nbsp;</span></strong></p><ul type="disc"><li data-list="0" data-level="1" style="color:#333333;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;">Any scripts or processes that have been created to access DASC files via DASC or Geoview will need to be updated with the new URLs.</span></strong></li><li data-list="0" data-level="1" style="color:#333333;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;">If you have saved a DASC file (even if it is via Geoview) or the DASC homepage as a favourite or shortcut, please resave these links and bookmarks with the new URL so you can always find the pages.</span></strong></li><li data-list="0" data-level="1" style="color:#333333;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;">Based on your browser setting you may experience DASC files being saved in the <em>Downloads folder </em>on your computer, please make sure you check the <em>Downloads folder</em> if you do not see the file open in a new window or appear as a pop-up download.</span></strong></li></ul><p style="line-height:normal;"><span style="font-size:9pt;font-family:Verdana, sans-serif;">To watch a small video on the new DASC link <a href="https://vimeo.com/689172713">Click here</a></span></p><p style="line-height:normal;"><span style="font-size:9pt;font-family:Verdana, sans-serif;">&nbsp;</span><span style="font-size:9pt;font-family:Verdana, sans-serif;">FAQs for DASC migration 2022 <a href="https://dascsit.dmirs.wa.gov.au/download/file/4041"><span style="color:black;">Click here</span></a></span></p><p style="margin:0px 0px 7.5pt;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">These map services (WMS &amp; REST) have been retired.&nbsp; They were deprecated on <span style="text-decoration-line:underline;">1<sup>st</sup> November 2023</span>.</span></strong></p><ul><li><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Administration_External</span></strong></li><li><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Airborne_Geophysics_External</span></strong></li><li><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Geoscience_External</span></strong></li><li><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Imagery_External</span></strong></li><li><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Mineral_External</span></strong></li><li><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Petroleum_External</span></strong></li></ul><p style="margin:0px 0px 7.5pt;background:white;"><strong></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Please use the replacement map services on DataWA/SLIP listed <span style="text-decoration-line:underline;"><a href="https://dascsit.dmirs.wa.gov.au/download/file/5028">here</a></span>.</span></strong><strong></strong></p><p style="margin:0px 0px 7.5pt;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Updated some dynamic zip files to a consistent folder schema and zip file names on 18/11/2025</span></strong><strong></strong></p><p style="margin:0px 0px 7.5pt;background:white;"><strong></strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#333333;">Below is a list of updates made to the DMPE Data and Software Centre including the date these updates were </span><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#333333;">released.</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">25 August 2026</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Mineral System Atlas: </span>Magmatic nickel prospectivity</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">14 August 2026</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Data Package: </span>Machine-assisted granite mapping in the Archean Yilgarn Craton, 2026</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">23 July 2026</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">WA Array data: </span>Heavy minerals of Western Australia, 2026</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">WA Array &ndash; soils ultrafine multi-element geochemistry</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">WA Array &ndash; LAB depth &ndash; Phase 1&ndash;2</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">WA Array &ndash; Moho &ndash; Phase 1&ndash;2</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">WAMT &ndash; 30 km conductivity depth slice &ndash; 2026</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;"></span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">30 June 2026</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Updated: </span><span class="fontstyle0">1:100 000 State interpreted bedrock geology of Western Australia</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date</span></span><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">: 25 June 2026</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Data Package: </span>Report 267: A multi-scale approach to mineralisation in the Fraser Zone, Western Australia</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date</span></span><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">: 24 June 2026</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Data Package: </span>Report 268: Machine-assisted granite mapping in the Archean Yilgarn Craton, 2026</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date</span></span><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">: 9 June 2026</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Natural hydrogen prospectivity</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date</span></span><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">: 3 May 2026</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Interim data</span><span style="color:#337ab7;font-family:Verdana, sans-serif;">: </span>Heavy minerals of Western Australia, 2026</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">WA Array soils ultrafine multi-element geochemistry</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="font-family:Verdana, Geneva, sans-serif;font-size:12px;"></span><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date</span></span><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">: 28 April 2026</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Mineral industry geochemistry data compilation &ndash; pilot project</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">17 March 2026</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">WA mining residue layer</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">M</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">ade available</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">: 26 November 2025</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">GDA2020 Graticular blocks for mining tenements and petroleum tenements</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease of old Data Packages on DASC under 25gb</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">GDA1994 Data Packages: Various Data Package</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">18 November 2025</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Updated some dynamic zip files to a consistent folder schema and zip file names</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">13 November 2025</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">GDA2020 Data Packages: Geological Exploration Package</span><span style="color:#337ab7;font-family:Verdana, sans-serif;">: </span>Aileron<span style="color:#676767;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;text-wrap-mode:nowrap;">&ndash;</span>Warumpi<span style="color:#676767;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;text-wrap-mode:nowrap;">&ndash;</span>Murraba<span style="color:#676767;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;text-wrap-mode:nowrap;">&ndash;</span>Canning,<span style="color:#676767;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;text-wrap-mode:nowrap;">&nbsp;</span>2025</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">22 October 2025; expires 22 October 2026</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Interim data</span><span style="color:#337ab7;font-family:Verdana, sans-serif;">: </span>Officer Basin copper</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release </span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">15 October 2025; expires 15 October 2026</span></span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"></span><span style="color:#337ab7;font-family:Verdana, sans-serif;">Interim data</span><span style="color:#337ab7;font-family:Verdana, sans-serif;">: </span>Western Australian open pit lakes</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">15 August 2025</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">JA Hallberg: </span>1:25,000 geological mapping - GIS datasets</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">13 May 2025</span></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Mineral System Atlas: </span>Komatiite-hosted nickel system; one additional layer</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">Gole&ndash;Barnes East Yilgarn komatiite facies map</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Mineral System Atlas: </span>Primary data layers; one additional layer</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">CSIRO mafic&ndash;ultramafic geochemistry collection</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">R</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">elease date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">13 May 2025</span></span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;color:#337ab7;font-family:Verdana, sans-serif;">Drillholes: </span>Co-funded Drillholes</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Updated:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">11 May 2025</span></span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;color:#337ab7;font-family:Verdana, sans-serif;">WAMEX: </span><span style="box-sizing:border-box;font-family:Verdana, sans-serif;">Company drillhole and surface geochemistry database</span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">4 December 2024</span></span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;color:#337ab7;font-family:Verdana, sans-serif;">Minerals: </span><span style="font-family:Verdana, sans-serif;">Historic Collieries Locations</span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">29 November 2024</span></span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;color:#337ab7;font-family:Verdana, sans-serif;">WAMEX: </span><span style="box-sizing:border-box;font-family:Verdana, sans-serif;">Company drillhole and surface geochemistry database</span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date:</span></span><span style="box-sizing:border-box;font-weight:700;"><span style="box-sizing:border-box;font-size:9pt;font-family:Verdana, sans-serif;color:red;">11 September 2024</span></span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="box-sizing:border-box;color:#337ab7;font-family:Verdana, sans-serif;">Index: </span><span style="box-sizing:border-box;font-family:Verdana, sans-serif;">JA Hallberg geological map sheet indexes</span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Geological series maps: </span><span style="font-family:Verdana, sans-serif;">JA Hallberg geological series maps</span></p><p style="margin:0px 0px 0.0001pt;box-sizing:border-box;color:#333333;font-family:Arimo, Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date:</span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">24 July 2024</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">WAPIMS: </span><span style="font-family:Verdana, sans-serif;">Petroleum related thin section scans and seismic data linked to records in WAPIMS</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Made available: 12 February 2024</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Mineral System Atlas: </span><span style="font-family:Verdana, sans-serif;">Mafic-ultramafic intrusion hosted Ni-Cu-PGE mineral system</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Made available: 12 February 2024</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">WA Geothermal Applications &amp; Titles</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 31 January 2024</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">GeoMap 1.9.15 </span>for 64Bit operating system</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 26 October 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Geochemistry &amp; Mineralogy: </span>GSWA gold mineralogy 2022</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 8 August 2023</span></strong></p><p style="margin:0cm;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Updated </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">static zip files to a consistent folder schema and zip file names<o:p></o:p></span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 12 July 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><strong></strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Energy Systems Atlas: </span>SEEBASE 2022</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 29 June 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Mineral information: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">MINEDEX Resource Estimates by Project &ndash; </span>Alumina (Al₂O₃) by Bayer Process</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Mineral information: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">MINEDEX Resource Estimates by Project &ndash; Copper</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Mineral information: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">MINEDEX Resource Estimates by Project &ndash; Lithium</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Mineral information: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">MINEDEX Resource Estimates by Project &ndash; Nickel</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Mineral information: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">MINEDEX Resource Estimates by Project &ndash; Silver</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 29 June 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Updated Geochronology &amp; Isotope Geology: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">Samarium&ndash;neodymium isotope map of Western Australia</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 13 June 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span lang="EN-US" style="font-size:9pt;font-family:Verdana, sans-serif;color:#0070c0;">Updated Geology: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">Compilation of metamorphic history information</span><span style="color:#337ab7;font-family:Verdana, sans-serif;">.</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="color:red;">Release date: 20 April 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Updated Geology: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">WAROX Lithology</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Updated Geology: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">WAROX Notes</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Geology: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">WAROX Structures</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="font-size:9pt;font-family:Verdana, sans-serif;color:#337ab7;">Geology: </span><span style="font-size:9pt;font-family:Verdana, sans-serif;">WAROX Samples</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong>&nbsp;</strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Release date: 30 January 2023</span></strong></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;"><span style="color:#337ab7;font-family:Verdana, sans-serif;">Updated GSWA Code Builder software (version 1.3.0) includes revised stratigraphic codes.</span></p><p style="margin:0px 0px 0.0001pt;line-height:normal;background:white;">&nbsp;</p><p style="margin:0cm 0cm 12pt;"><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;color:red;">Previous what&rsquo;s new releases </span></strong><strong><span style="font-size:9pt;font-family:Verdana, sans-serif;"><a href="https://dascsit.dmirs.wa.gov.au/Download/File/5098" target="_blank">Click here</a>&nbsp;</span></strong></p></div>
+    </div>
+    <div id="data" class="tab-pane fade vertical-padding-10 horizontal-padding-15">
+        <div class="row">
+            <div class="col-md-3 col-md-push-9">
+                <div class="input-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search-box" id="search-box-X">
+                        <div class="input-group-btn">
+                            <button id="btnClearSearchX" class="btn btn-default" type="button"><i class="glyphicon glyphicon-remove"></i></button>
+                            <button id="btnSearchX" class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-md-pull-3">
+                <div style="padding: 5px; overflow: hidden; min-height: 100px">
+                    <div id="treeview-wrapper-X">
+                        <div id="treeviewX"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><p>&nbsp;</p><p>The Government of Western Australia supports and encourages the dissemination, exchange and reuse of public sector information. All data and other material produced by Department of Mines, Petroleum and Exploration constitute Crown copyright.</p><p>Unless otherwise noted, and with the exception of the Western Australian Government logo, images, and other material or devices protected by a trademark, all copyright content of the <strong>Data</strong> is licensed under a Creative Commons Attribution 4.0 International licence.</p><p><img alt="" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></p><p>To view the terms of this licence visit:<strong> &nbsp;</strong><a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank"><span style="color:#0066cc;">https://creativecommons.org/licenses/by/4.0/legalcode</span></a></p><p>Please give attribution to: &copy; State of Western Australia (Department of Mines, Petroleum and Exploration) 2026</p><span style="font-family:Times New Roman;font-size:medium;"></span><p style="margin:0cm 0cm 12pt;line-height:normal;"><span style="font-family:'Verdana','sans-serif';font-size:9pt;mso-bidi-font-family:'Times New Roman';mso-fareast-language:EN-AU;">We also request that you observe
+and retain any copyright or related notices that may accompany this material as
+part of the attribution.&nbsp;This is also a requirement of the Creative
+Commons Licences.</span></p><p style="margin:0cm 0cm 12pt;line-height:normal;">Under this licence you are free to use this information in accordance with the licence terms without having to seek permission from Department of Mines, Petroleum and Exploration material.</p><p>If you have modified or transformed the <strong>Data</strong>, or derived new material from those of Department of Mines, Petroleum and Exploration in any way, the following attribution must be used: Attribution: Based on Department of  Mines, Petroleum and Exploration material.</p><p>&nbsp;</p><p>&nbsp;</p></div>
+    </div>
+</div>
+
+<script>
+    var processedTabs; // For (currently) processed tabs
+    var hasDataTabs;   // For tabs that have data (tree-view)
+    var determined;    // For if a Tab is already been determined to show
+    var totalTabs;     // For the total number of dynamic tabs
+
+    $(document)
+        .ready(function () {
+            var tabs = [{"Name":"Datasets [GDA2020]","Alias":null,"ParentFolderId":null,"DisplayOrder":null,"IsVisible":false,"FolderTypeId":null,"LinkActionId":null,"TitleXmlRelationshipId":null,"MapSheetNumber":null,"MapSheetName":null,"RegularlyRefreshed":false,"FolderType":null,"LinkAction":null,"ParentFolder":null,"TitleXmlRelationship":null,"Folders":null,"Files":null,"Hyperlinks":null,"Id":729},{"Name":"Datasets [GDA1994]","Alias":null,"ParentFolderId":null,"DisplayOrder":null,"IsVisible":false,"FolderTypeId":null,"LinkActionId":null,"TitleXmlRelationshipId":null,"MapSheetNumber":null,"MapSheetName":null,"RegularlyRefreshed":false,"FolderType":null,"LinkAction":null,"ParentFolder":null,"TitleXmlRelationship":null,"Folders":null,"Files":null,"Hyperlinks":null,"Id":730},{"Name":"Map services and resources","Alias":null,"ParentFolderId":null,"DisplayOrder":null,"IsVisible":false,"FolderTypeId":null,"LinkActionId":null,"TitleXmlRelationshipId":null,"MapSheetNumber":null,"MapSheetName":null,"RegularlyRefreshed":false,"FolderType":null,"LinkAction":null,"ParentFolder":null,"TitleXmlRelationship":null,"Folders":null,"Files":null,"Hyperlinks":null,"Id":731}];
+            processedTabs = [];
+            hasDataTabs = [];
+            determined = false;
+            totalTabs = tabs.length;
+            for (var i = 0; i < tabs.length; i++) {
+                $("#dataTab")
+                    .clone()
+                    .appendTo("#tabsList")
+                    .html($("#dataTab")
+                        .html()
+                        .replace(/X/g, i)
+                        .replace(/Y/g, tabs[i].Name))
+                    .removeAttr("id");
+
+                $("#data")
+                    .clone()
+                    .appendTo("#tabsContent")
+                    .html($("#data")
+                        .html()
+                        .replace(/X/g, i))
+                    .attr("id", "data" + i);
+
+                var mapsheetNumber = App.GetUrlParameter("mapsheetNumber");
+                var productAlias = App.GetUrlParameter("productAlias");
+
+                if (mapsheetNumber == null)
+                    mapsheetNumber = "";
+                if (productAlias == null)
+                    productAlias = "";
+
+                var options = {
+                    dataSourceUrl: "/Home/GetHierarchy" + "?mapsheetNumber=" + mapsheetNumber + "&productAlias=" + productAlias + "&parentFolderId=" + tabs[i].Id,
+                    searchInputId: "search-box-" + i,
+                    searchButtonId: "btnSearch" + i,
+                    clearSearchButtonId: "btnClearSearch" + i,
+                    rootMetadataUrl: "/Download/Metadata?fileName=Metadata_Statements/XML/",
+                    loadOnDemand: (mapsheetNumber != null && mapsheetNumber !== "") || (productAlias != null && productAlias !== ""),
+                    onLoaded: function (event) {
+                        var sender = event.sender;
+                        var treeId = sender.element.context.id;
+                        if ((mapsheetNumber != null && mapsheetNumber !== "") || (productAlias != null && productAlias !== "")) {
+                            expandTree(treeId);
+                        }
+
+                        showTab(treeId.slice(-1), sender.dataSource._data.length > 0);
+                    }
+                };
+
+                new SearchDataTreeViewController("treeview" + i, options);
+            }
+
+            $("#dataTab").remove();
+            $("#data").remove();
+    });
+
+    function expandTree(treeId) {
+        setTimeout("expandNodes('" + treeId + "')");
+    }
+
+    function expandNodes(treeId) {
+        $("#" + treeId).data("kendoTreeView").expand(".k-item");
+    }
+
+    // Function to determine which Tab to show
+    function showTab(currentTabId, tabHasData) {
+        // If already determined the Tab, then skip the rest
+        if (determined) {
+            return;
+        }
+
+        // Fill up the global arrays
+        if (processedTabs.indexOf(currentTabId) < 0) {
+            processedTabs.push(currentTabId);
+
+            if (tabHasData) {
+                hasDataTabs.push(currentTabId);
+            }
+        }
+
+        // If processed tabs has matched total number of tabs, then determine which tab to show
+        if (processedTabs.length == totalTabs) {
+            var defaultTab = "0";
+
+            if (hasDataTabs.length == 0 || hasDataTabs.indexOf(defaultTab) >= 0) {
+                $("#data" + defaultTab + "Tab").tab('show');
+            } else {
+                hasDataTabs.sort();
+                $("#data" + hasDataTabs[0] + "Tab").tab('show');
+            }
+
+            determined = true;
+        }
+    }
+</script>
+</div>
+
+<div class="container footer">
+    <hr/>
+
+    <footer>
+        <div style="float: left;">
+            <a href="https://www.wa.gov.au/accessibility" target="_blank" title="Accessibility">Accessibility</a>
+            •
+            <a href="https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/dmpe-terms-and-conditions-of-use" target="_blank" title="Disclaimer">Disclaimer</a>
+            •
+            <a href="mailto:gsd.dda@dmpe.wa.gov.au?Subject=Data%20Centre%20Support" target="_top" title="Feedback">Feedback</a>
+        </div>
+        <div style="float: right;">
+            &copy; 2026 - Government of Western Australia Department of Mines, Petroleum and Exploration
+            <div class="version-labelling">DASC v2.0.374.25288</div>
+        </div>
+    </footer>
+</div>
+
+<script src="/Scripts/bootstrap.js"></script>
+
+</body>
+</html>
+
+<script>
+    kendo.culture("en-AU");
+</script>
+
+<script id="errorTemplate" type="text/x-kendo-template">
+    <div class="error-notification">
+        <div class="k-block k-error-colored" style="margin: 5px;">
+            <div class="k-header"><i class="fa fa-exclamation-triangle"></i> #= title #</div>
+            <p style="padding: 8px;">
+                #=  message #
+                
+            </p>
+        </div>
+    </div>
+</script>
+
+<script>
+    // Kendo Notification positioning
+    function onShow(e) {
+        if (!$("." + e.sender._guid)[1]) {
+            var element = e.element.parent(),
+                eWidth = element.width(),
+                eHeight = element.height(),
+                wWidth = $(window).width(),
+                wHeight = $(window).height(),
+                newTop, newLeft;
+
+            newLeft = Math.floor(wWidth / 2 - eWidth / 2);
+            newTop = Math.floor(wHeight / 2 - eHeight / 2);
+
+            e.element.parent().css({ top: newTop, left: newLeft });
+        }
+    }
+</script>
+
+<!-- Error handling and notifications -->
+<script id="infoTemplate" type="text/x-kendo-template">
+    <div class="notification info-notification">
+        <table>
+            <tr>
+                <td>
+                    <img src="/Content/images/info-icon.png" />
+                </td>
+
+                <td>
+                    <h4>#= title #</h4>
+                    <p>#=  message #</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Close" class="k-button" style="margin-left: 90px;" />
+                </td>
+            </tr>
+
+            <tr><td colspan="2"><br /></td></tr>
+        </table>
+    </div>
+</script>
+
+<script id="errorTemplate" type="text/x-kendo-template">
+    <div class="notification error-notification">
+        <table style="width: auto;">
+            <tr>
+                <td>
+                    <img src="/Content/images/error-icon.png" />
+                </td>
+
+                <td style="padding-right: 10px;">
+                    <h4>#= title #</h4>
+                    <p>#=  message #</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Close" class="k-button" style="margin-left: 80px;" />
+                </td>
+            </tr>
+
+            <tr><td colspan="2"><br /></td></tr>
+        </table>
+    </div>
+</script>
+
+<script id="successTemplate" type="text/x-kendo-template">
+    <div class="notification success-notification">
+        <table style="width: auto;">
+            <tr>
+                <td><img src="/Content/images/success-icon.png" /></td>
+                <td style="vertical-align: middle;"><h4>#= message #</h4></td>
+            </tr>
+        </table>
+    </div>
+</script>
+
+<script id="warningTemplate" type="text/x-kendo-template">
+    <div class="notification warning-notification">
+        <table style="width: auto;">
+            <tr>
+                <td><i class="fa fa-exclamation-triangle fa-3x"></i></td>
+                <td style="vertical-align: middle;"><h4>#= message #</h4></td>
+            </tr>
+        </table>
+    </div>
+</script>
+
+<span id="notification"></span><script>
+	kendo.syncReady(function(){jQuery("#notification").kendoNotification({"show":onShow,"stacking":"down","autoHideAfter":10000,"templates":[{"type":"info-notification","templateId":"infoTemplate"},{"type":"error-notification","templateId":"errorTemplate"},{"type":"success-notification","templateId":"successTemplate"},{"type":"warning-notification","templateId":"warningTemplate"}]});});
+</script>

@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "consultation",
+      "field": "mandatory_consultation",
+      "value": "Participation in subject-specific consultation is mandatory.",
+      "confidence": 1.0,
+      "programme_association": "Master's"
+    },
+    {
+      "category": "admission",
+      "subcategory": "consultation",
+      "field": "consultation_requirement",
+      "value": "Proof of participation is a prerequisite for Skand1 (Bachelor) or Sk.MA.1 (Master).",
+      "confidence": 1.0,
+      "programme_association": "Master's"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "consultation_contacts",
+      "field": "consultation_email",
+      "value": "You can also contact us directly via email to arrange a consultation appointment.",
+      "confidence": 1.0,
+      "programme_association": "Master's"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "service_points",
+      "field": "registration_service_point",
+      "value": "For questions about enrollment, re-registration deadlines, study credits, and exam registrations, please contact the Studies Service Point.",
+      "confidence": 1.0,
+      "programme_association": "Master's"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "service_points",
+      "field": "examination_office",
+      "value": "For questions about enrollment, re-registration deadlines, study credits, and exam registrations, please contact the Examination Office.",
+      "confidence": 1.0,
+      "programme_association": "Master's"
+    }
+  ]
+}

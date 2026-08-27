@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0079",
+  "program_name": "Online Bachelor of Science in Health Care Coordination",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0079\\final",
+  "input_fact_count": 61,
+  "unique_fact_count": 61,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 61,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 61,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 1,
+    "curriculum": 44,
+    "career": 6,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0079\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0079\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0079\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0079\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0079\\final\\fees_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0079\\final\\student_life_data.json",
+    "research": "data\\united_states\\asu\\programs\\0079\\final\\research_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0079\\final\\build_summary.json"
+  }
+}

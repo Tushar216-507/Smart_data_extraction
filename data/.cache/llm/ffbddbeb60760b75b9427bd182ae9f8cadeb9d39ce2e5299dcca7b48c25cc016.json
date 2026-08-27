@@ -1,0 +1,251 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "duration",
+      "value": "eight months",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "You will undertake a substantial individual project in your final year, which integrates and applies your previous learning and deepens your knowledge of some particular application or research area relevant to the course.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "modules",
+      "field": "module_code",
+      "value": "CS4106",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Module Code - Title: + Year Last Offered: + Hours Per Week: + Grading Type: + Prerequisite Modules: + Rationale and Purpose of the Module:",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "modules",
+      "field": "module_title",
+      "value": "Machine Learning: Methods and Applications",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Module Code - Title: + Year Last Offered: + Hours Per Week: + Grading Type: + Prerequisite Modules: + Rationale and Purpose of the Module:",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "modules",
+      "field": "year_last_offered",
+      "value": "2025/6",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Module Code - Title: + Year Last Offered: + Hours Per Week: + Grading Type: + Prerequisite Modules: + Rationale and Purpose of the Module:",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "modules",
+      "field": "prerequisite_modules",
+      "value": "CS4006",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Module Code - Title: + Year Last Offered: + Hours Per Week: + Grading Type: + Prerequisite Modules: + Rationale and Purpose of the Module:",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "modules",
+      "field": "rationale_and_purpose",
+      "value": "The purpose of this module is to familiarise students with a targeted subset of the principles and methods involved in machine learning, focusing mainly on the field of evolutionary computation and associated paradigms.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Module Code - Title: + Year Last Offered: + Hours Per Week: + Grading Type: + Prerequisite Modules: + Rationale and Purpose of the Module:",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "overview",
+      "value": "Following an overview of general machine learning methods and applications, the goal is to provide students with an understanding of the basic principles, methods and application domains for evolutionary computation.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "techniques",
+      "value": "Students will be introduced to a broad range of evolutionary computation techniques including genetic algorithms, genetic programming, and grammatical evolution.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "representational_mechanisms",
+      "value": "Different representational mechanisms including binary, Gray, real-valued and e-code will be discussed.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "mutation_recombination_operators",
+      "value": "Different approaches to the mutation and recombination operators will be presented.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "fitness_function_types",
+      "value": "Fitness function types and interactive evolutionary computation will be introduced.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "application_emphasis",
+      "value": "Depending on the particular expertise of the lecture involved in delivery of the module particular emphasis may be placed on application to areas such as neuroevolution, evolutionary robotics (including evolutionary humanoid robotics), automatic program synthesis, the parallelisation of sequential programs, and financial modelling and prediction.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "societal_ethics_implications",
+      "value": "Potential societal, ethical and philosophical implications of advanced AI/ML technologies will be outlined.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Syllabus: + Learning Outcomes:",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "cognitive_skills",
+      "value": "Be aware of the main approaches taken in the machine learning field.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Cognitive (Knowledge, Understanding, Application, Analysis, Evaluation, Synthesis) + Affective (Attitudes and Values) + Psychomotor (Physical Skills) + How the Module will be Taught and what will be the Learning Experiences of the Students: + Prime Texts: + Other Relevant Texts: + Programme(s) in which this Module is Offered: + Semester(s) Module is Offered: + Module Leader:",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "cognitive_skills",
+      "value": "Describe the main paradigms involved in evolutionary computing, including genetic algorithms, genetic programming, grammatical evolution, and evolutionary strategies.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Cognitive (Knowledge, Understanding, Application, Analysis, Evaluation, Synthesis) + Affective (Attitudes and Values) + Psychomotor (Physical Skills) + How the Module will be Taught and what will be the Learning Experiences of the Students: + Prime Texts: + Other Relevant Texts: + Programme(s) in which this Module is Offered: + Semester(s) Module is Offered: + Module Leader:",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "cognitive_skills",
+      "value": "Explain and describe the principles involved in the training of artificial evolutionary systems.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Cognitive (Knowledge, Understanding, Application, Analysis, Evaluation, Synthesis) + Affective (Attitudes and Values) + Psychomotor (Physical Skills) + How the Module will be Taught and what will be the Learning Experiences of the Students: + Prime Texts: + Other Relevant Texts: + Programme(s) in which this Module is Offered: + Semester(s) Module is Offered: + Module Leader:",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "cognitive_skills",
+      "value": "Understand how to implement basic variants of some evolutionary algorithms.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Cognitive (Knowledge, Understanding, Application, Analysis, Evaluation, Synthesis) + Affective (Attitudes and Values) + Psychomotor (Physical Skills) + How the Module will be Taught and what will be the Learning Experiences of the Students: + Prime Texts: + Other Relevant Texts: + Programme(s) in which this Module is Offered: + Semester(s) Module is Offered: + Module Leader:",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "cognitive_skills",
+      "value": "Understand how evolutionary computation relates to other approaches to machine learning, including the relative advantages and disadvantages of the evolutionary computation approach.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Cognitive (Knowledge, Understanding, Application, Analysis, Evaluation, Synthesis) + Affective (Attitudes and Values) + Psychomotor (Physical Skills) + How the Module will be Taught and what will be the Learning Experiences of the Students: + Prime Texts: + Other Relevant Texts: + Programme(s) in which this Module is Offered: + Semester(s) Module is Offered: + Module Leader:",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    }
+  ]
+}

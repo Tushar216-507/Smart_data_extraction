@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "accreditation_information",
+      "value": "The organization of studies and general degree requirements have to conform to principles and regulations established by the Standing Conference of the Ministers of Education and Cultural Affairs of the Länder in the Federal Republic of Germany (KMK).",
+      "original_value": "Die Organisation von Studien und allgemeinen Studienanforderungen muss den von der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland (KMK) festgelegten Grundsätzen und Regelungen entsprechen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "accreditation_system",
+      "value": "A system of accreditation for programmes of study has become operational under the control of an Accreditation Council at national level since 1999.",
+      "original_value": "Seit 1999 ist ein Akkreditierungssystem für Studiengänge unter der Kontrolle eines Akkreditierungsrates auf nationaler Ebene in Betrieb.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "accreditation_condition",
+      "value": "All new programmes have to be accredited under this scheme; after successful accreditation they receive the quality-label of the Accreditation Council.",
+      "original_value": "Alle neuen Programme müssen nach diesem Schema akkreditiert werden; nach erfolgreicher Akkreditierung erhalten sie das Qualitätssiegel des Akkreditierungsrates.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

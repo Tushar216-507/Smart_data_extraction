@@ -1,0 +1,99 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Practical Module",
+      "original_value": "Praxismodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M 3",
+        "name": "Practical Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "internship_expectation",
+      "value": "Students are expected to find their own internship positions.",
+      "original_value": "Es wird erwartet, dass sich die Studierenden selbst um eine Praktikumsstelle bemühen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "internship_registration_deadline",
+      "value": {
+        "spring_deadline": "January 15",
+        "autumn_deadline": "June 15"
+      },
+      "original_value": "Anmeldung des Praktikums erfolgt bis zum 15. Januar (Praktikumszeit im Frühjahr) bzw. bis zum 15. Juni (Praktikumszeit im Herbst).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "internship_supervision",
+      "value": "The internship is supervised by the internship coordinator.",
+      "original_value": "Die Begleitung des Praktikums erfolgt durch den\textaster*in im Rahmen einer Übung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

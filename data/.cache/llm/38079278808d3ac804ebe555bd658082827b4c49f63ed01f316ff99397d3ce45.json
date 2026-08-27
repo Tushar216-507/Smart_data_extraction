@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "student_parent_requests",
+      "field": "query_submission_instructions",
+      "value": "Please refer them to this page so they can contact us through the appropriate channel. Do not forward their query to us as our system will log a call for you rather than for the individual.",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "phone",
+      "field": "urgent_query_phone",
+      "value": "061 233 755",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    },
+    {
+      "category": "documents",
+      "subcategory": "certified_transcripts",
+      "field": "request_access_link",
+      "value": "/academic-registry/access-digitary-alumni",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    },
+    {
+      "category": "documents",
+      "subcategory": "parchments",
+      "field": "note",
+      "value": "Physical parchments are not available for pre-2003 graduates. Instead, we can offer a report an issue with my parchment.",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    },
+    {
+      "category": "documents",
+      "subcategory": "issues_with_parchments",
+      "field": "report_link",
+      "value": "/academic-registry/report-issue-my-parchment",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    },
+    {
+      "category": "documents",
+      "subcategory": "update_personal_details",
+      "field": "update_link",
+      "value": "/academic-registry/update-personal-details",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "UL_staff",
+      "field": "contact_method",
+      "value": "UL Staff can contact us via Topdesk.",
+      "confidence": 1.0,
+      "programme_association": "Immersive Software Engineering - BSc or MSc | University of Limerick"
+    }
+  ]
+}

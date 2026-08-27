@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "subcategory": "programme",
+      "field": "title",
+      "value": "English Studies Bachelor",
+      "confidence": 1.0,
+      "programme_association": "Goethe University Frankfurt"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department",
+      "field": "department_name",
+      "value": "Institute for English and American Studies",
+      "confidence": 1.0,
+      "programme_association": "Goethe University Frankfurt"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department",
+      "field": "department_url",
+      "value": "https://qis.server.uni-frankfurt.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoEinrichtung&publishSubDir=einrichtung&keep=y&einrichtung.eid=100700",
+      "confidence": 1.0,
+      "programme_association": "Goethe University Frankfurt"
+    },
+    {
+      "category": "faculty",
+      "subcategory": "staff",
+      "field": "staff_role",
+      "value": "Administrative and Technical Staff",
+      "confidence": 1.0,
+      "programme_association": "Goethe University Frankfurt"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department",
+      "field": "administrative_staff_position",
+      "value": "Secretary of American Studies",
+      "confidence": 1.0,
+      "programme_association": "Goethe University Frankfurt"
+    }
+  ]
+}

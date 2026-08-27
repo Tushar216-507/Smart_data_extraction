@@ -1,0 +1,388 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "field": "desktop_computers",
+      "value": "Modern desktop computers contain many smaller computers that assist the main CPU in performing I/O.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "flat_screen_display",
+      "value": "A 2016-era flat screen display contains its own computer circuitry.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0021",
+        "chunk_title": "Input/output (I/O)",
+        "chunk_order": 20,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "Some computers are designed to distribute their work across several CPUs in a multiprocessing configuration.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "historical_use",
+      "value": "A technique once employed in only large and powerful machines such as supercomputers, mainframe computers, and servers.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "current_market",
+      "value": "Multiprocessor and multi-core personal and laptop computers are now widely available and are being increasingly used in lower-end markets.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "supercomputers_characteristics",
+      "value": "Supercomputers often have highly unique architectures that differ significantly from the basic stored-program architecture and from general-purpose computers.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "supercomputers_resources",
+      "value": "They often feature thousands of CPUs, customized high-speed interconnects, and specialized computing hardware.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "supercomputers_usage",
+      "value": "Such designs tend to be useful for only specialized tasks due to the large scale of program organization required to use most of the available resources at once.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "supercomputers_applications",
+      "value": "Supercomputers usually see usage in large-scale simulation, graphics rendering, and cryptography applications, as well as with other so-called 'embarrassingly parallel' tasks.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "Software consists of the encoded information that determines a computer's operation, such as data or instructions on how to process the data.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "contrast_with_hardware",
+      "value": "In contrast to the physical hardware from which the system is built, software is immaterial.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "components",
+      "value": "Software includes computer programs, libraries and related non-executable data, such as online documentation or digital media.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "types",
+      "value": "Software is often divided into system software and application software.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "importance",
+      "value": "Both software and hardware are key parts of a modern computer.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "firmware_definition",
+      "value": "Firmware is a subset of software that is used to control physical hardware.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "firmware_example",
+      "value": "An example of firmware is BIOS ROM in an IBM PC compatible computer.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0024",
+        "chunk_title": "Software",
+        "chunk_order": 23,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "program_design_description",
+      "value": "Program design of small programs is relatively simple and involves the analysis of the problem, collection of inputs, using the programming constructs within languages, devising or using established procedures and algorithms, providing data for output devices and solutions to the problem as applicable.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0029",
+        "chunk_title": "Program design",
+        "chunk_order": 28,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "program_complexity_description",
+      "value": "As problems become larger and more complex, features such as subprograms, modules, formal documentation, and new paradigms such as object-oriented programming are encountered.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0029",
+        "chunk_title": "Program design",
+        "chunk_order": 28,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "large_program_description",
+      "value": "Large programs involving thousands of lines of code require formal software methodologies.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0029",
+        "chunk_title": "Program design",
+        "chunk_order": 28,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "software_systems_challenge_description",
+      "value": "The task of developing large software systems presents a significant intellectual challenge.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0029",
+        "chunk_title": "Program design",
+        "chunk_order": 28,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "software_reliability_challenge_description",
+      "value": "Producing software with an acceptably high reliability within a predictable schedule and budget has historically been difficult.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0029",
+        "chunk_title": "Program design",
+        "chunk_order": 28,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "software_engineering_focus",
+      "value": "The academic and professional discipline of software engineering concentrates specifically on the challenge of producing reliable software.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0029",
+        "chunk_title": "Program design",
+        "chunk_order": 28,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "Errors in computer programs are called 'bugs'.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0030",
+        "chunk_title": "Bugs",
+        "chunk_order": 29,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "effects",
+      "value": "Bugs may be benign and not affect the usefulness of the program, or have only subtle effects.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0030",
+        "chunk_title": "Bugs",
+        "chunk_order": 29,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "serious_cases",
+      "value": "In some cases, bugs may cause the program or the entire system to hang, becoming unresponsive to input such as mouse clicks or keystrokes, to completely fail, or to crash.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0030",
+        "chunk_title": "Bugs",
+        "chunk_order": 29,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "malicious_use",
+      "value": "Otherwise benign bugs may sometimes be harnessed for malicious intent by an unscrupulous user writing an exploit, code designed to take advantage of a bug and disrupt a computer's proper execution.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0030",
+        "chunk_title": "Bugs",
+        "chunk_order": 29,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "cause",
+      "value": "Bugs are usually not the fault of the computer; they are nearly always the result of programmer error or an oversight made in the program's design.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0030",
+        "chunk_title": "Bugs",
+        "chunk_order": 29,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "origin_of_term",
+      "value": "Admiral Grace Hopper, an American computer scientist and developer of the first compiler, is credited for having first used the term 'bugs' in computing after a dead moth was found shorting a relay in the Harvard Mark II computer in September 1947.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0030",
+        "chunk_title": "Bugs",
+        "chunk_order": 29,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "hardware_related_professions",
+      "value": [
+        "Electrical engineering",
+        "Electronic engineering",
+        "Computer engineering",
+        "Telecommunications engineering",
+        "Optical engineering",
+        "Nanoengineering"
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0033",
+        "chunk_title": "Professions and organizations",
+        "chunk_order": 32,
+        "source_type": "page"
+      }
+    }
+  ]
+}

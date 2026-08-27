@@ -1,0 +1,117 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "university",
+      "field": "credit_system",
+      "value": "European Credit Transfer System (ECTS)",
+      "original_value": "European Credit Transfer Systems (ECTS)",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 180,
+      "original_value": "180 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "hours": 30,
+        "annual_hours": 1800
+      },
+      "original_value": "Ein CP entspricht einem Arbeitsaufwand von 30 Stunden. 1800 Arbeitsstunden je Studienjahr",
+      "unit": "hours",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "CP are awarded only for a fully and successfully completed module.",
+      "original_value": "Die CP werden nur für ein vollständig und erfolgreich absolviertes Modul vergeben.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "university",
+      "field": "important_information",
+      "value": "Workload may deviate by up to 6 CP per semester if justified, as long as 60 CP per academic year are not exceeded.",
+      "original_value": "In begründeten Ausnahmefällen sind beim Workload (Abs. 2) Abweichungen von bis zu 6 CP pro Semester zulässig, sofern 60 CP pro Studienjahr nicht über- oder unterschritten werden.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

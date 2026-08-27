@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "contact_information",
+      "value": "The application will ask for your contact information.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "desired_major_and_campus",
+      "value": "The application will ask for the major and campus you would like to attend.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "self_reporting_grades",
+      "value": "The application will ask if you will self-report your high school grades.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "self_reporting_recommendation",
+      "value": "Self-reporting grades is recommended as it will speed up admission decision time.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_questions",
+      "field": "official_transcript_submission",
+      "value": "If you choose not to self-report your grades, you can have your school submit your official transcripts to ASU.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    }
+  ]
+}

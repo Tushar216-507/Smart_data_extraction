@@ -1,0 +1,1707 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-US" xml:lang="en-US" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<title>C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ</title>
+<link rel="icon" href="/upload/tutorial/tc.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/style/StyleNull.css?v=1003" rel="stylesheet" type="text/css">
+<link href="/style/Style.css?v=1011" rel="stylesheet" type="text/css">
+<link href="/style/dhtmlXTabbar.css?v=1001" rel="stylesheet" type="text/css">
+<link href="/syntaxhighlight/styles/shCore.css?v=1001" type="text/css" rel="stylesheet" />
+<link href="/syntaxhighlight/styles/shThemeDefault.css?v=1001" type="text/css" rel="stylesheet" />
+
+<link href="/style/opineo.css?v=1001" rel="stylesheet" type="text/css" />
+
+<!--
+<link rel="image_src" type="image/jpeg" href="http://resource.thaicreate.com/upload/tutorial/thaicreate-logo.jpg" />
+<meta property="og:image" content="http://resource.thaicreate.com/upload/tutorial/thaicreate-logo.jpg" />
+<meta property="og:image:secure_url" content="http://resource.thaicreate.com/upload/tutorial/thaicreate-logo.jpg" />
+<meta property="og:url"  content="https://www.thaicreate.com/dotnet/forum/034407.html " />
+-->
+<meta property="og:url" content="http://www.thaicreate.com/dotnet/forum/034407.html" />
+<link rel="canonical" href="https://www.thaicreate.com/dotnet/forum/034407.html" />
+
+<meta name="description" content="คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ ซึ่งหลักการเหมือนกับเครื่องคิดเลขทั่วไปๆ ซึ่งสามารถกดบวกเลขไปได้เรื่อยๆ ซึ่งข้อแตกต่างคือต้องเป็นการรับตัวเลขนั้นๆ มาจาก textbox อันเดียวครับ (โจทย์กำหนดมา)">
+<meta name="verify-v1" content="HajSqMDuE7DEq16BQJOfEC+8lE7A2T+YY4/VqvimHwI=" />
+<meta name="msvalidate.01" content="8382BF464564287D955ECA86D88B23B6" />
+<meta name="stats-in-th" content="9d21" />
+<script  type="text/javascript" src="/js/dhtmlXCommon.js?v=1001"></script> 
+<script  type="text/javascript" src="/js/dhtmlXTabbar.js?v=1001"></script> 
+<script  type="text/javascript" src="/js/dhtmlXTabbarStart.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxLoadContent.js?v=100"></script>
+<script  type="text/javascript" src="/js/jsValidate.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxLoad.js?v=1002"></script>
+<script  type="text/javascript" src="/js/ajaxUserOnline.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxScore.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxDownload.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxSearch.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxCmd.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ajaxSendPM.js?v=1001"></script>
+<script  type="text/javascript" src="/js/ZeroClipboard.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shCore.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushPhp.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushVb.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushJScript.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushSql.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushCSharp.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushJava.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushXml.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushObjC.js?v=1001" type="text/javascript"></script>
+<script  type="text/javascript" src="/syntaxhighlight/scripts/shBrushCoding.js?v=1001" type="text/javascript"></script>
+
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js?v=1001"></script>
+<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js?v=1001"></script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js?v=1001"></script>
+<link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css?v=1001" media="screen" />
+
+<script type="text/javascript" src="/js/opineo.js?v=1001"></script>
+
+<script type="text/javascript">
+    SyntaxHighlighter.config.clipboardSwf = '/syntaxhighlight/scripts/clipboard.swf';
+    SyntaxHighlighter.all();
+</script>
+
+<script src="https://platform.twitter.com/widgets.js?v=1001" type="text/javascript"></script>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js?v=1001"></script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0639452308651048"
+     crossorigin="anonymous"></script>
+
+
+			
+<script type="text/javascript">
+		$(document).ready(function() {
+						
+			
+					
+	
+		}); 
+		
+		
+</script>
+
+<script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	/*
+	$("#back-top").hide();
+
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+	*/
+
+});
+</script>
+
+
+
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0"  >
+
+<div id="centered">
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<table width="1250" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1250" height="26" colspan="3" background="/images/resource/bgheader.png?v=1001"><div align="right">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="40%" valign="top" style="padding-left:10px"><span class="headertitle">
+                            <img src="/images/resource/latest.gif?v=1001" width="18" height="9" alt="Register"> <a href="/c.php?option=register" class="headertitle">Register</a> <img src="/images/resource/latest.gif?v=1001" width="18" height="9" alt="Member Login"> <a href="/c.php?option=login" class="headertitle">Member Login</a> <img src="/images/resource/latest.gif?v=1001" width="18" height="9" alt="Member Login"> <a href="/c.php?option=forget" class="headertitle">Forgot Password ??</a>
+                          </td>
+            <td width="60%"><div align="right"><span class="white"> <strong>PHP </strong>, <strong>ASP </strong> , <strong>ASP.NET, VB.NET, C#, Java </strong> ,<strong> jQuery , Android , iOS , Windows Phone</strong></span></div></td>
+          </tr>
+        </table>
+    </div></td>
+  </tr>
+  <tr>
+    <td height="137" colspan="3" valign="top" background="/images/tcba_banner_01.jpg?v=1001" style="BACKGROUND-REPEAT: no-repeat;"><div align="right">
+	
+
+		<table width="100%" height="50" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="18%"><table width="100%" height="117"  border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="4%">&nbsp;</td>
+                  <td width="96%"><br>                    <h2 style="padding-left:10px"><font color="ff6600">Registered :
+				  					   <a href="/member-list/level/all/page-0001.html"><font color="ff6600">109,038</font></a>
+					   
+                  </h2> </td>
+                </tr>
+                <tr>
+                  <td>
+							  
+				  </td>
+                  <td>
+              
+				  <div align="center"><a href="/c.php?option=login"><img src="/images/fb-login2.jpg" width="156" height="35" border="0"> </a></div>
+
+				  				  
+				  </td>
+                </tr>
+            </table></td>
+            <td valign="top">			  <div align="center" style="padding-top:10px;padding-left:0px">
+              <!--<a href="https://www.itgenius.co.th/courses/all" target="_blank"><img src="/images/itgenius_banner2.gif"  border="0"></a>-->
+			  <a href="#"><img src="/images/itgenius_banner2.gif"  border="0"></a>
+			  </div></td>
+          </tr>
+        </table>
+
+		
+		
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="padding-left: 200px;padding-top: 5px;">                <span class="linkheader">
+                <a href="/" title="HOME">HOME</a> > <a href="/dotnet.html" title=".NET Framework">.NET Framework</a> > <a href="/dotnet/forum.html" title=".NET Forum">Forum</a> > <strong>C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ</strong>                </span>
+                            </td>
+          </tr>
+        </table>
+		
+		
+    </div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="165" valign="top">
+	<center>
+<iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThaiCreateCom%2F259814520715086&amp;width=185&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;height=150" scrolling="no" frameborder="0" style="border:none; background: transparent!important; overflow:hidden; width:160px; height:150px;" allowTransparency="true"></iframe>		
+					<br><br>
+
+
+				
+
+<!--
+
+	<div id="positionAdd"></div>
+	<div id="adsBanner" style="width: 160px; height: 700px;"> 
+	<center><img src="/images/adv.jpg"><br>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+	<ins class="adsbygoogle"
+	style="display:inline-block;width:160px;height:600px"
+	data-ad-client="ca-pub-0639452308651048"
+	data-ad-slot="6379198572"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</center>
+	</div>
+	</div>
+	-->
+
+
+			</center>
+
+
+	</td>
+    <td width="89%">
+	<table width="1004" border="0" cellspacing="0" cellpadding="0" style="BACKGROUND-REPEAT: no-repeat;">
+            <tr>
+              <td width="42"><img src="/images/resource/spacer.gif" width="44" height="50"></td>
+              <td width="3237" align="left">
+	              <div align="left">
+	                <table width="947" border="0" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="99%"><h1>
+        <script language="javascript">
+	document.write("<font color=996600>[.NET]</font>");
+	</script>
+        C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ    </h1></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+ 
+
+
+<style type="text/css">
+<!--
+.style1x {font-weight: bold}
+-->
+</style>
+
+<div align="left" style="padding-left:10px">
+
+
+
+
+
+ <a name="question"></a>
+<table id="Table_01" width="947" height="92" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="33">
+			<img src="/images/resource/viewboard_01.gif?v=1001" width="33" height="27" alt=""></td>
+	  <td width="139" background="/images/resource/viewboard_02.gif?v=1001"><div align="center"><img src="/upload/forum/034407.png?v=1001" alt="Topic : 034407"  title="Topic : 034407" width="160" height="22"></div></td>
+	  <td width="746" valign="top" background="/images/resource/viewboard_02.gif?v=1001"> <div align="right" ><span class="topicSubject"><img src="/images/resource/icon_write.gif?v=1001" width="23" height="18" align="absbottom"><a href="/topic/new.html" alt="เริ่มหัวข้อใหม่" title="เริ่มหัวข้อใหม่"><font style="BACKGROUND-COLOR: #FFFFFF">เริ่มหัวข้อใหม่</font></a></span></div></td>
+		<td width="29">
+			<img src="/images/resource/viewboard_03.gif?v=1001" width="29" height="27" alt=""></td>
+	</tr>
+	<tr>
+		<td background="/images/resource/viewboard_04.gif?v=1001">
+			<img src="/images/resource/viewboard_04.gif?v=1001" width="33" height="30" alt=""></td>
+		<td valign="top"> <div align="center">
+		  <table id="Table_01" width="169" height="54" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td> <img src="/images/resource/blockprofile_01.gif?v=1001" width="10" height="9" alt=""></td>
+                <td background="/images/resource/blockprofile_02.gif?v=1001"> <img src="/images/resource/blockprofile_02.gif?v=1001" width="148" height="9" alt=""></td>
+                <td> <img src="/images/resource/blockprofile_03.gif?v=1001" width="11" height="9" alt=""></td>
+              </tr>
+              <tr>
+                <td background="/images/resource/blockprofile_04.gif?v=1001"> <img src="/images/resource/blockprofile_04.gif?v=1001" width="10" height="35" alt=""></td>
+                <td valign="top" background="/images/resource/blockprofile_05.gif?v=1001">				<div align="center">
+				<h2>
+                  </h2>
+				  </div>
+                  <table width="100%"  border="0">
+                                      <tr>
+                     <td><div align="center">
+                                                  <img src="/upload/member/20120905103000.jpg?v=1001" width="120" height="120">
+                                              </div></td>
+                   </tr>
+                   <tr>
+                     <td><div align="center"><strong>
+                         <a href="/member-profile/uid-058294.html" title="View profile." alt="View profile." target="_blank" rel="nofollow">
+JACK</a></strong></div></td>
+                   </tr>
+                   <tr>
+                     <td>                       <div align="center">
+                         <a href="/member-profile/uid-058294.html"  alt="Point : 0 - Click view profile." title="Point : 0 - Click view profile." style="cursor:hand"><img src="/images/resource/star3.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star3.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star3.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star3.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star3.gif?v=1001" width="10" height="16" align="absmiddle" border="0"></a>                         <br>
+                         <br>
+                         <b>โพสกระทู้ (
+                         8        )</b><br>
+		                        <b>บทความ (
+                         0        )</b><br>
+         <br>
+        		        				<br>
+        <br>        
+        <img src="/images/resource/offline_now.gif" alt="สถานะออฟไลน์" title="สถานะออฟไลน์"" width="120" height="8">  
+        </div></td>
+                   </tr>
+                                      <tr>
+                     <td><div align="center"><img src="/images/resource/spacer.gif?v=1001" width="77" height="11"></div></td>
+                   </tr>
+                 </table>
+                  <div align="center">
+					  	<a href="https://twitter.com/PrinceDemon04" target="_blank" border="0" ref="nofollow"><img src="/images/resource/twitter.png" border="0"  width="24" height="24" title="Twitter" alt="Twitter"></a> <a href="https://www.facebook.com/princedemon" target="_blank" border="0" ref="nofollow"><img src="/images/resource/facebook_24.png" border="0"  width="24" height="24" title="Facebook" alt="Facebook"></a> 				  <br>
+                    <br> 
+                </div></td>
+                <td background="/images/resource/blockprofile_06.gif?v=1001"> <img src="/images/resource/blockprofile_06.gif?v=1001" width="11" height="35" alt=""></td>
+              </tr>
+              <tr>
+                <td> <img src="/images/resource/blockprofile_07.gif?v=1001" width="10" height="10" alt=""></td>
+                <td background="/images/resource/blockprofile_08.gif?v=1001"> <img src="/images/resource/blockprofile_08.gif?v=1001" width="148" height="10" alt=""></td>
+                <td> <img src="/images/resource/blockprofile_09.gif?v=1001" width="11" height="10" alt=""></td>
+              </tr>
+          </table>
+		  <br>
+	                                <a href="JavaScript:if(confirm('Do you want to delete ?')==true){window.location='/command.php?&Forum=DQID&QID=034407&Mode=No';};">
+            
+
+
+        </div>		  </td>
+	  <td valign="top">	    <table width="100%"  border="0" cellpadding="2" cellspacing="5">
+          <tr>
+            <td height="235" valign="top">
+			
+	
+			
+			 <font class="detailDesc">
+                <span style="color: blue">คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ ซึ่งหลักการเหมือนกับเครื่องคิดเลขทั่วไปๆ ซึ่งสามารถกดบวกเลขไปได้เรื่อยๆ ซึ่งข้อแตกต่างคือต้องเป็นการรับตัวเลขนั้นๆ มาจาก textbox อันเดียวครับ (โจทย์กำหนดมา) ผมทำได้แค่ให้มันรับมาแค่สองตัว ไม่ทราบจะมีวิธีไหนที่ให้มันรับตัวเลขได้ตลอดจนกว่าจะกดเคลียร์ครับ</span><br />
+<br />
+<span style="color: red">นี่เป็นภาพโปรแกรมนะครับ</span><br />
+<img src="https://www.thaicreate.com/upload/stock/20091114225615.jpg?v=1001" alt="calculator" title="calculator" border="0" style="border:4px solid #f8f8f8;"><br />
+<br />
+<span style="color: red">ส่วนนี่เป็นโค้ดของโปรแกรมตัวนี้ครับ</span><br />
+<strong>Code (C#)</strong><br />
+<span class="notranslate"><font class=css_code><pre class="brush:cs">using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace test
+{
+    public partial class Form1 : Form
+    {
+        public static int x, y, z;
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            x = Convert.ToInt32(textBox1.Text);
+            textBox1.Clear();
+            label1.Text = Convert.ToString(x);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            y = Convert.ToInt32(textBox1.Text);
+            z=x + y;
+            label1.Text =Convert.ToString(x)  + &quot; + &quot; + Convert.ToString(y) + &quot; = &quot; + Convert.ToString(z);
+            //textBox1.Text=Convert.ToString(x);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            label1.Text = &quot;&quot;;
+        }
+    }
+}</pre></font></span><br><br><br><br><u><strong>Tag</strong></u> : - - - -              </font>
+               <br>       </td>
+          </tr>
+          <tr>
+            <td height="20" valign="top">
+			
+              <div align="left"></div>              <table width="710" border="0" align="left">
+                <tr>
+                  <td width="272"><a href="JavaScript:void(0);" onClick="JavaScript:if(confirm('เก็บเข้าคลังกระทู้เป็นกระทู้ที่มีประโยชน์ หากแน่ใจแล้วให้คลิกที่ [OK]')==true){AjaxCmd('STOCK','034407',null,null);}"><img src="/images/resource/stock.png?v=1001" alt="Move To Hilight (Stock)" width="200" height="31" border="0" title="Move To Hilight (Stock)"></a>&nbsp;</td>
+                  <td width="427"><div align="right" ><a href="JavaScript:void(0);" onClick="JavaScript:SendToFriend('C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ','/dotnet/forum/034407.html');"><img src="/images/resource/sendtofriend.png?v=1001" alt="Send To Friend." width="130" height="31" border="0" title="Send To Friend."></a><a href="JavaScript:void(0)" onClick="JavaScript:AjaxCmd('BOOKMARK','C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ','/dotnet/forum/034407.html',null)"><img src="/images/resource/bookmark.png?v=1001" alt="Bookmark." width="130" height="31" border="0" title="Bookmark."></a>
+                    <input name="copyclipboard" id="copyclipboard" type="image" src="/images/resource/clipboard.png?v=1001" width="130" height="31" border="0">
+
+                  </div></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="20" valign="top"><table id="Table_01" width="709" height="34" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="13"> <img src="/images/resource/blockviewtopic_01.gif?v=1001" width="13" height="6" alt=""></td>
+                <td width="670" background="/images/resource/blockviewtopic_02.gif?v=1001"> <img src="/images/resource/blockviewtopic_02.gif?v=1001" width="243" height="6" alt=""></td>
+                <td width="10"> <img src="/images/resource/blockviewtopic_03.gif?v=1001" width="10" height="6" alt=""></td>
+              </tr>
+              <tr>
+                <td> <img src="/images/resource/blockviewtopic_04.gif?v=1001" width="13" height="23" alt=""></td>
+                <td background="/images/resource/blockviewtopic_05.gif?v=1001"><table width="100%"  border="0" class="topicSubject">
+                    <tr>
+                      <td width="34%"><strong>Date</strong> :
+                          2009-11-14 23:01:44</td>
+                      <td width="36%"><strong>By</strong> :
+                          princecoffee</td>
+                      <td width="16%"><strong>View</strong> :
+                          18014</td>
+                      <td width="14%"><strong>Reply</strong> :
+                          4</td>
+                    </tr>
+                </table></td>
+                <td> <img src="/images/resource/blockviewtopic_06.gif?v=1001" width="10" height="23" alt=""></td>
+              </tr>
+              <tr>
+                <td> <img src="/images/resource/blockviewtopic_07.gif?v=1001" width="13" height="5" alt=""></td>
+                <td background="/images/resource/blockviewtopic_08.gif?v=1001"> <img src="/images/resource/blockviewtopic_08.gif?v=1001" width="243" height="5" alt=""></td>
+                <td> <img src="/images/resource/blockviewtopic_09.gif?v=1001" width="10" height="5" alt=""></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="20" valign="top">
+			<div align="right">
+			  
+<table width="317" height="21" border="0" cellpadding="1" cellspacing="1">
+              <tr>
+                <td width="110">
+							
+							
+<div  style="width:95px">  <a href="#" class="twitter-share-button" data-text="C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ" data-via="ThaiCreate" rel="nofollow"></a>
+</div>
+				</td>
+                <td width="112">
+				
+	
+			<g:plusone size="standard" expr:href="data:post.url"/>
+
+			
+				</td>
+                <td width="108">
+					  <div class="fb-share-button" 
+						data-href="https://www.thaicreate.com/dotnet/forum/034407.html" 
+						data-layout="button_count">
+					  </div>
+				</td>
+              </tr>
+</table>
+			</div></td>
+          </tr>
+        </table>
+	    <div align="center">
+		           </div></td>
+		<td background="/images/resource/viewboard_06.gif?v=1001">
+			<img src="/images/resource/viewboard_06.gif?v=1001" width="29" height="30" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="/images/resource/viewboard_07.gif?v=1001" width="33" height="35" alt=""></td>
+		<td background="/images/resource/viewboard_08.jpg?v=1001">&nbsp;</td>
+		<td background="/images/resource/viewboard_08.jpg?v=1001">
+			<img src="/images/resource/viewboard_08.jpg?v=1001" width="541" height="35" alt=""></td>
+		<td>
+			<img src="/images/resource/viewboard_09.gif?v=1001" width="29" height="35" alt=""></td>
+	</tr>
+</table>
+              
+<table width="947" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1201" valign="top">      <div align="center">
+       
+                <a name="0"></a><a name="00096894"></a> </div>
+		
+    <br>
+		
+	  <table id="Table_01" width="955" height="92" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="33"> <img src="/images/resource/viewboard_01.gif?v=1001" width="33" height="27" alt=""></td>
+          <td width="169" background="/images/resource/viewboard_02.jpg?v=1001">&nbsp;</td>
+          <td width="731" background="/images/resource/viewboard_02.jpg?v=1001"> </td>
+          <td width="29"> <img src="/images/resource/viewboard_03.gif?v=1001" width="29" height="27" alt=""></td>
+        </tr>
+        <tr>
+          <td background="/images/resource/viewboard_04.gif?v=1001"> <img src="/images/resource/viewboard_04.gif?v=1001" width="33" height="30" alt=""></td>
+          <td valign="top">            <div align="center">
+              <table id="Table_01" width="169" height="54" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_01.gif?v=1001" width="10" height="9" alt=""></td>
+                  <td background="/images/resource/blockprofile_02.gif?v=1001"> <img src="/images/resource/blockprofile_02.gif?v=1001" width="148" height="9" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_03.gif?v=1001" width="11" height="9" alt=""></td>
+                </tr>
+                <tr>
+                  <td background="/images/resource/blockprofile_04.gif?v=1001"> <img src="/images/resource/blockprofile_04.gif?v=1001" width="10" height="35" alt=""></td>
+                  <td valign="top" background="/images/resource/blockprofile_05.gif?v=1001">
+                    <div align="center">
+                      <table width="95%"  border="0">
+                        <tr>
+                          <td>
+                            <div align="center"> <h2>
+                              No. 1                              </h2>
+</div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center">
+                                                            <img src="/upload/member/20100814204635.jpg?v=1001" width="120" height="120">
+                                                        </div></td>
+                        </tr>
+                        <tr>
+                          <td><div align="center"><strong>
+                              <a href="/member-profile/uid-068149.html" title="View profile." alt="View profile." target="_blank" rel="nofollow">
+Poo_CodeZA</a></strong></div></td>
+                        </tr>
+                        <tr>
+                          <td><div align="center">
+                              <a href="/member-profile/uid-068149.html"  alt="Point : 54 - Click view profile." title="Point : 54 - Click view profile." style="cursor:hand"><img src="/images/resource/star1.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star1.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star1.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star1.gif?v=1001" width="10" height="16" align="absmiddle" border="0"><img src="/images/resource/star1.gif?v=1001" width="10" height="16" align="absmiddle" border="0"></a>                              <br>
+                              <br>
+                              <b>โพสกระทู้ (
+                              179        )</b><br>
+		                              <b>บทความ (
+                              0        )</b><br>
+         <br>
+        				 <br>		
+        <br>        
+		<img src="/images/resource/offline_now.gif" alt="สถานะออฟไลน์" title="สถานะออฟไลน์"" width="120" height="8">         
+		
+		</div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/images/resource/spacer.gif?v=1001" width="77" height="11"></div></td>
+                        </tr>
+                      </table>
+					  						  <br>
+                  </div></td>
+                  <td background="/images/resource/blockprofile_06.gif?v=1001"> <img src="/images/resource/blockprofile_06.gif?v=1001" width="11" height="302" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_07.gif?v=1001" width="10" height="10" alt=""></td>
+                  <td background="/images/resource/blockprofile_08.gif?v=1001"> <img src="/images/resource/blockprofile_08.gif?v=1001" width="148" height="10" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_09.gif?v=1001" width="11" height="10" alt=""></td>
+                </tr>
+              </table>
+              <br>
+                                          <strong> </strong> </div></td>
+          <td valign="top"><table width="99%"  border="0" cellpadding="5" cellspacing="5">
+            <tr>
+              <td height="250" valign="top"> <font class="detailDesc">
+                 พอดี เขียน WinApp ไม่เป็นเลนเขียน C# WebApp มาให้นะครับ ลองประยุกดูและกัน เพราะ WebApp ผมจะใช้ Session ด้วย ไม่รู้ WinApp ใช้อะไร ^^<br />
+<br />
+หน้า aspx<br />
+<strong>Code (C#)</strong><br />
+<span class="notranslate"><font class=css_code><pre class="brush:cs">&lt;body&gt;
+    &lt;form id=&quot;form1&quot; runat=&quot;server&quot;&gt;
+    &lt;div&gt;
+        &amp;nbsp;&lt;asp:Label ID=&quot;Label2&quot; runat=&quot;server&quot;&gt;&lt;/asp:Label&gt;
+    &lt;asp:Label ID=&quot;Label1&quot; runat=&quot;server&quot;&gt;&lt;/asp:Label&gt;&lt;br /&gt;
+        &lt;asp:TextBox ID=&quot;TextBox1&quot; runat=&quot;server&quot;&gt;&lt;/asp:TextBox&gt;
+        &lt;asp:Button ID=&quot;btn_up&quot; runat=&quot;server&quot; Text=&quot;Insert&quot; OnClick=&quot;btn_up_Click&quot; /&gt;
+        &lt;asp:Button ID=&quot;btn_Add&quot; runat=&quot;server&quot; Text=&quot;+&quot; OnClick=&quot;btn_Add_Click&quot; /&gt;
+        &lt;asp:Button ID=&quot;btn_result&quot; runat=&quot;server&quot; Text=&quot;=&quot; OnClick=&quot;btn_result_Click&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/body&gt;</pre></font></span><br />
+<br />
+Code Behind<br />
+<strong>Code (C#)</strong><br />
+<span class="notranslate"><font class=css_code><pre class="brush:cs">using System.Collections.Generic;
+public partial class Calculate : System.Web.UI.Page
+{   
+    public ArrayList inputData = new ArrayList();
+    int result = 0;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        
+        if (Session[&quot;data&quot;] != null)
+        {
+            inputData = (ArrayList)Session[&quot;data&quot;];
+
+        }
+        if (Session[&quot;result&quot;] != null)
+        {
+            result = (int)Session[&quot;result&quot;];
+        }
+       
+       
+    }
+    
+    protected void btn_up_Click(object sender, EventArgs e)
+    {
+        inputData.Add(TextBox1.Text);
+        int index = inputData.Count;
+        if (index &gt;= 3)
+        {
+            if (result == 0)
+            {
+                if (inputData[index - 2].ToString() == &quot;+&quot;)
+                {
+                    result += System.Convert.ToInt32(inputData[index - 3].ToString()) + System.Convert.ToInt32(inputData[index - 1].ToString());
+                    Session[&quot;result&quot;] = result;
+
+                }
+            }
+            else
+            {
+                result += System.Convert.ToInt32(inputData[index - 1].ToString());
+                Session[&quot;result&quot;] = result;
+            }
+        }
+        
+        Session[&quot;data&quot;] = inputData;
+        TextBox1.Text = &quot;&quot;;
+        Label2.Text = &quot;&quot;;
+        foreach (string a in inputData)
+        {
+            //Label1.Text +=&quot;&quot;+ a;
+            Label2.Text += &quot;&quot; + a;
+
+        }
+
+    }
+    protected void btn_Add_Click(object sender, EventArgs e)
+    {
+        inputData.Add(&quot;+&quot;);
+        Session[&quot;data&quot;] = inputData;
+        TextBox1.Text = &quot;&quot;;
+        Label2.Text = &quot;&quot;;
+        foreach (string a in inputData)
+        {
+            //Label1.Text +=&quot;&quot;+ a;
+            Label2.Text += &quot;&quot; + a;
+
+        }
+    }
+    protected void btn_result_Click(object sender, EventArgs e)
+    {
+        inputData = (ArrayList)Session[&quot;data&quot;];
+        foreach(string a in inputData)
+        {
+            //Label1.Text +=&quot;&quot;+ a;
+            Label1.Text = &quot;=&quot; + result;
+
+        }
+    }
+}</pre></font></span><br>                       </font>
+               
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+			                                
+              <table id="Table_01" width="708" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="13"> <img src="/images/resource/blockviewtopic_01.gif?v=1001" width="13" height="6" alt=""></td>
+                  <td width="670" background="/images/resource/blockviewtopic_02.gif?v=1001"> <img src="/images/resource/blockviewtopic_02.gif?v=1001" width="243" height="6" alt=""></td>
+                  <td width="10"> <img src="/images/resource/blockviewtopic_03.gif?v=1001" width="10" height="6" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_04.gif?v=1001" width="13" height="23" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_05.gif?v=1001"><table width="100%"  border="0" class="topicSubject">
+                      <tr>
+                        <td width="55%"><strong>Date</strong> :
+                            2009-11-19 13:48:04</td>
+                        <td width="45%"><strong>By</strong> :
+                            ksillapapan</td>
+                        </tr>
+                  </table></td>
+                  <td> <img src="/images/resource/blockviewtopic_06.gif?v=1001" width="10" height="23" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_07.gif?v=1001" width="13" height="5" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_08.gif?v=1001"> <img src="/images/resource/blockviewtopic_08.gif?v=1001" width="243" height="5" alt=""></td>
+                  <td> <img src="/images/resource/blockviewtopic_09.gif?v=1001" width="10" height="5" alt=""></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table>
+			        <div align="center"><a href="JavaScript:if(confirm('Do you want to delete ?')==true){window.location='/command.php?&Forum=DAID&RID=00096894&QID=034407';};">
+			                                
+            </div></td>
+          <td background="/images/resource/viewboard_06.gif?v=1001"> <img src="/images/resource/viewboard_06.gif?v=1001" width="29" height="30" alt=""></td>
+        </tr>
+        <tr>
+          <td> <img src="/images/resource/viewboard_07.gif?v=1001" width="33" height="35" alt=""></td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001">&nbsp;</td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001"> <img src="/images/resource/viewboard_08.jpg?v=1001" width="541" height="35" alt=""></td>
+          <td> <img src="/images/resource/viewboard_09.gif?v=1001" width="29" height="35" alt=""></td>
+        </tr>
+      </table>   
+	    
+     
+              <a name="0"></a><a name="00245161"></a> </div>
+		
+    <br>
+		
+	  <table id="Table_01" width="955" height="92" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="33"> <img src="/images/resource/viewboard_01.gif?v=1001" width="33" height="27" alt=""></td>
+          <td width="169" background="/images/resource/viewboard_02.jpg?v=1001">&nbsp;</td>
+          <td width="731" background="/images/resource/viewboard_02.jpg?v=1001"> </td>
+          <td width="29"> <img src="/images/resource/viewboard_03.gif?v=1001" width="29" height="27" alt=""></td>
+        </tr>
+        <tr>
+          <td background="/images/resource/viewboard_04.gif?v=1001"> <img src="/images/resource/viewboard_04.gif?v=1001" width="33" height="30" alt=""></td>
+          <td valign="top">            <div align="center">
+              <table id="Table_01" width="169" height="54" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_01.gif?v=1001" width="10" height="9" alt=""></td>
+                  <td background="/images/resource/blockprofile_02.gif?v=1001"> <img src="/images/resource/blockprofile_02.gif?v=1001" width="148" height="9" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_03.gif?v=1001" width="11" height="9" alt=""></td>
+                </tr>
+                <tr>
+                  <td background="/images/resource/blockprofile_04.gif?v=1001"> <img src="/images/resource/blockprofile_04.gif?v=1001" width="10" height="35" alt=""></td>
+                  <td valign="top" background="/images/resource/blockprofile_05.gif?v=1001">
+                    <div align="center">
+                      <table width="95%"  border="0">
+                        <tr>
+                          <td>
+                            <div align="center"> <h2>
+                              No. 2                              </h2>
+</div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/upload/member/question.jpg?v=1001" width="120" height="120"></div></td>
+                        </tr>
+                        <tr>
+                          <td><div align="center"><strong>Guest</strong></div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/images/resource/spacer.gif?v=1001" width="77" height="11"></div></td>
+                        </tr>
+                      </table>
+					  						  <br>
+                  </div></td>
+                  <td background="/images/resource/blockprofile_06.gif?v=1001"> <img src="/images/resource/blockprofile_06.gif?v=1001" width="11" height="302" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_07.gif?v=1001" width="10" height="10" alt=""></td>
+                  <td background="/images/resource/blockprofile_08.gif?v=1001"> <img src="/images/resource/blockprofile_08.gif?v=1001" width="148" height="10" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_09.gif?v=1001" width="11" height="10" alt=""></td>
+                </tr>
+              </table>
+              <br>
+                                          <strong> </strong> </div></td>
+          <td valign="top"><table width="99%"  border="0" cellpadding="5" cellspacing="5">
+            <tr>
+              <td height="250" valign="top"> <font class="detailDesc">
+                 <strong>Code (C#)</strong><br />
+<span class="notranslate"><font class=css_code><pre class="brush:cs">        private string number(string N)
+        {
+            if (textBox1.Text == &quot;0&quot;)
+                return N;
+            else if (btnResult.Enabled == true)
+                return textBox1.Text + N;
+            else
+            {
+                btnResult.Enabled = true;
+                listBox1.Items.Clear();
+                return N;
+            }
+</pre></font></span><br>                       </font>
+               
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+			                                
+              <table id="Table_01" width="708" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="13"> <img src="/images/resource/blockviewtopic_01.gif?v=1001" width="13" height="6" alt=""></td>
+                  <td width="670" background="/images/resource/blockviewtopic_02.gif?v=1001"> <img src="/images/resource/blockviewtopic_02.gif?v=1001" width="243" height="6" alt=""></td>
+                  <td width="10"> <img src="/images/resource/blockviewtopic_03.gif?v=1001" width="10" height="6" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_04.gif?v=1001" width="13" height="23" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_05.gif?v=1001"><table width="100%"  border="0" class="topicSubject">
+                      <tr>
+                        <td width="55%"><strong>Date</strong> :
+                            2011-12-16 14:55:07</td>
+                        <td width="45%"><strong>By</strong> :
+                            kkkkk</td>
+                        </tr>
+                  </table></td>
+                  <td> <img src="/images/resource/blockviewtopic_06.gif?v=1001" width="10" height="23" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_07.gif?v=1001" width="13" height="5" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_08.gif?v=1001"> <img src="/images/resource/blockviewtopic_08.gif?v=1001" width="243" height="5" alt=""></td>
+                  <td> <img src="/images/resource/blockviewtopic_09.gif?v=1001" width="10" height="5" alt=""></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table>
+			        <div align="center"><a href="JavaScript:if(confirm('Do you want to delete ?')==true){window.location='/command.php?&Forum=DAID&RID=00245161&QID=034407';};">
+			                                
+            </div></td>
+          <td background="/images/resource/viewboard_06.gif?v=1001"> <img src="/images/resource/viewboard_06.gif?v=1001" width="29" height="30" alt=""></td>
+        </tr>
+        <tr>
+          <td> <img src="/images/resource/viewboard_07.gif?v=1001" width="33" height="35" alt=""></td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001">&nbsp;</td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001"> <img src="/images/resource/viewboard_08.jpg?v=1001" width="541" height="35" alt=""></td>
+          <td> <img src="/images/resource/viewboard_09.gif?v=1001" width="29" height="35" alt=""></td>
+        </tr>
+      </table>   
+	    
+     
+              <a name="0"></a><a name="00297922"></a> </div>
+		
+    <br>
+		
+	  <table id="Table_01" width="955" height="92" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="33"> <img src="/images/resource/viewboard_01.gif?v=1001" width="33" height="27" alt=""></td>
+          <td width="169" background="/images/resource/viewboard_02.jpg?v=1001">&nbsp;</td>
+          <td width="731" background="/images/resource/viewboard_02.jpg?v=1001"> </td>
+          <td width="29"> <img src="/images/resource/viewboard_03.gif?v=1001" width="29" height="27" alt=""></td>
+        </tr>
+        <tr>
+          <td background="/images/resource/viewboard_04.gif?v=1001"> <img src="/images/resource/viewboard_04.gif?v=1001" width="33" height="30" alt=""></td>
+          <td valign="top">            <div align="center">
+              <table id="Table_01" width="169" height="54" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_01.gif?v=1001" width="10" height="9" alt=""></td>
+                  <td background="/images/resource/blockprofile_02.gif?v=1001"> <img src="/images/resource/blockprofile_02.gif?v=1001" width="148" height="9" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_03.gif?v=1001" width="11" height="9" alt=""></td>
+                </tr>
+                <tr>
+                  <td background="/images/resource/blockprofile_04.gif?v=1001"> <img src="/images/resource/blockprofile_04.gif?v=1001" width="10" height="35" alt=""></td>
+                  <td valign="top" background="/images/resource/blockprofile_05.gif?v=1001">
+                    <div align="center">
+                      <table width="95%"  border="0">
+                        <tr>
+                          <td>
+                            <div align="center"> <h2>
+                              No. 3                              </h2>
+</div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/upload/member/question.jpg?v=1001" width="120" height="120"></div></td>
+                        </tr>
+                        <tr>
+                          <td><div align="center"><strong>Guest</strong></div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/images/resource/spacer.gif?v=1001" width="77" height="11"></div></td>
+                        </tr>
+                      </table>
+					  						  <br>
+                  </div></td>
+                  <td background="/images/resource/blockprofile_06.gif?v=1001"> <img src="/images/resource/blockprofile_06.gif?v=1001" width="11" height="302" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_07.gif?v=1001" width="10" height="10" alt=""></td>
+                  <td background="/images/resource/blockprofile_08.gif?v=1001"> <img src="/images/resource/blockprofile_08.gif?v=1001" width="148" height="10" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_09.gif?v=1001" width="11" height="10" alt=""></td>
+                </tr>
+              </table>
+              <br>
+                                          <strong> </strong> </div></td>
+          <td valign="top"><table width="99%"  border="0" cellpadding="5" cellspacing="5">
+            <tr>
+              <td height="250" valign="top"> <font class="detailDesc">
+                 <img src="https://www.thaicreate.com/upload/stock/20120914152735.png?v=1001" alt="อันนี้ บวก ลบ คูณ หาร ได้ " title="อันนี้ บวก ลบ คูณ หาร ได้ " border="0" style="border:4px solid #f8f8f8;"><br />
+<br />
+using System.Collections.Generic;<br />
+using System.ComponentModel;<br />
+using System.Data;<br />
+using System.Drawing;<br />
+using System.Linq;<br />
+using System.Text;<br />
+using System.Windows.Forms;<br />
+<br />
+namespace WindowsFormsApplication1<br />
+{<br />
+    public partial class Form1 : Form<br />
+    {<br />
+        //int a;<br />
+        bool plus = false;<br />
+        bool minus = false;<br />
+        bool multiply = false;<br />
+        bool divide = false;<br />
+        bool power = false;<br />
+        public Form1()<br />
+        {<br />
+            InitializeComponent();<br />
+        }<br />
+<br />
+        private void num_0_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;0&quot;;<br />
+        }<br />
+<br />
+        private void num_1_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;1&quot;;<br />
+        }<br />
+<br />
+        private void num_2_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;2&quot;;<br />
+        }<br />
+<br />
+        private void num_3_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;3&quot;;<br />
+        }<br />
+<br />
+        private void num_4_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;4&quot;;<br />
+        }<br />
+<br />
+        private void num_5_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;5&quot;;<br />
+        }<br />
+<br />
+        private void num_6_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;6&quot;;<br />
+        }<br />
+<br />
+        private void num_7_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;7&quot;;<br />
+        }<br />
+<br />
+        private void num_8_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;8&quot;;<br />
+        }<br />
+<br />
+        private void num_9_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = textBox1.Text + &quot;9&quot;;<br />
+        }<br />
+<br />
+        private void btnBackspace_Click(object sender, EventArgs e)<br />
+        {<br />
+            int a = textBox1.Text.Length;<br />
+            if (textBox1.Text == &quot;&quot;)<br />
+            {<br />
+                textBox1.Text = &quot;&quot;;<br />
+            }<br />
+<br />
+            else<br />
+            {<br />
+                textBox1.Text = textBox1.Text.Remove(a - 1);<br />
+            }<br />
+        }<br />
+<br />
+        private void button1_Click(object sender, EventArgs e)<br />
+        {<br />
+            if (plus)<br />
+            {<br />
+<br />
+                decimal dec = Convert.ToDecimal(textBox1.Tag) + Convert.ToDecimal(textBox1.Text);<br />
+<br />
+                textBox1.Text = dec.ToString();<br />
+<br />
+            }<br />
+<br />
+            else if (minus)<br />
+            {<br />
+<br />
+                decimal dec = Convert.ToDecimal(textBox1.Tag) - Convert.ToDecimal(textBox1.Text);<br />
+<br />
+                textBox1.Text = dec.ToString();<br />
+<br />
+            }<br />
+<br />
+            else if (multiply)<br />
+            {<br />
+<br />
+                decimal dec = Convert.ToDecimal(textBox1.Tag) * Convert.ToDecimal(textBox1.Text);<br />
+<br />
+                textBox1.Text = dec.ToString();<br />
+<br />
+            }<br />
+<br />
+            else if (divide)<br />
+            {<br />
+<br />
+                if (textBox1.Text == &quot;0&quot;)<br />
+                {<br />
+<br />
+                    textBox1.Text = &quot;0&quot;;<br />
+<br />
+                }<br />
+<br />
+                else if (textBox1.Text != &quot;0&quot;)<br />
+                {<br />
+<br />
+                    decimal dec = Convert.ToDecimal(textBox1.Tag) / Convert.ToDecimal(textBox1.Text);<br />
+<br />
+                    textBox1.Text = dec.ToString();<br />
+<br />
+                }<br />
+<br />
+            }<br />
+<br />
+            else if (power)<br />
+            {<br />
+<br />
+                decimal dec = Convert.ToDecimal(textBox1.Tag) * Convert.ToDecimal(textBox1.Tag);<br />
+<br />
+                textBox1.Text = dec.ToString();<br />
+            }<br />
+<br />
+<br />
+<br />
+<br />
+            return;<br />
+<br />
+        }<br />
+<br />
+        private void btnKoon_Click(object sender, EventArgs e)<br />
+        {<br />
+            if (textBox1.Text == &quot;&quot;)<br />
+            {<br />
+<br />
+                return;<br />
+<br />
+            }<br />
+<br />
+            else<br />
+            {<br />
+<br />
+                multiply = true;<br />
+<br />
+                textBox1.Tag = textBox1.Text;<br />
+<br />
+                textBox1.Text = &quot;&quot;;<br />
+<br />
+<br />
+            }<br />
+        }<br />
+<br />
+        private void btnLopp_Click(object sender, EventArgs e)<br />
+        {<br />
+            if (textBox1.Text == &quot;&quot;)<br />
+            {<br />
+<br />
+                return;<br />
+<br />
+            }<br />
+<br />
+            else<br />
+            {<br />
+<br />
+                minus = true;<br />
+<br />
+                textBox1.Tag = textBox1.Text;<br />
+<br />
+                textBox1.Text = &quot;&quot;;<br />
+            }<br />
+        }<br />
+<br />
+        private void btnBuak_Click(object sender, EventArgs e)<br />
+        {<br />
+            if (textBox1.Text == &quot;&quot;)<br />
+            {<br />
+<br />
+                return;<br />
+<br />
+            }<br />
+<br />
+            else<br />
+            {<br />
+<br />
+                plus = true;<br />
+<br />
+                textBox1.Tag = textBox1.Text;<br />
+<br />
+                textBox1.Text = &quot;&quot;;<br />
+            }<br />
+        }<br />
+<br />
+        private void btnHan_Click(object sender, EventArgs e)<br />
+        {<br />
+            if (textBox1.Text == &quot;&quot;)<br />
+            {<br />
+                return;<br />
+            }<br />
+<br />
+            else<br />
+            {<br />
+                divide = true;<br />
+                textBox1.Tag = textBox1.Text;<br />
+                textBox1.Text = &quot;&quot;;<br />
+            }<br />
+        }<br />
+<br />
+        private void btnClear_Click(object sender, EventArgs e)<br />
+        {<br />
+            textBox1.Text = &quot;&quot;;<br />
+        }<br />
+<br />
+        private void btnJud_Click(object sender, EventArgs e)<br />
+        {<br />
+            if (textBox1.Text.Contains(&quot;.&quot;))<br />
+            {<br />
+                return;<br />
+            }<br />
+            else<br />
+            {<br />
+                textBox1.Text = textBox1.Text + &quot;.&quot;;<br />
+            }<br />
+        }<br />
+    }<br />
+เอามาให้ดูครับ ใช่ได้เลย เห็นว่า ปีหนึ่งต้องใช่มัน ผมไม่เก่งหรอกแต่ อัลลกอล์ ผมแน่น เลยทำได้ ลองให้เพื่อนฝึกอัลกอล์ดูนะครับ<br>                       </font>
+               
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+			                                
+              <table id="Table_01" width="708" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="13"> <img src="/images/resource/blockviewtopic_01.gif?v=1001" width="13" height="6" alt=""></td>
+                  <td width="670" background="/images/resource/blockviewtopic_02.gif?v=1001"> <img src="/images/resource/blockviewtopic_02.gif?v=1001" width="243" height="6" alt=""></td>
+                  <td width="10"> <img src="/images/resource/blockviewtopic_03.gif?v=1001" width="10" height="6" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_04.gif?v=1001" width="13" height="23" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_05.gif?v=1001"><table width="100%"  border="0" class="topicSubject">
+                      <tr>
+                        <td width="55%"><strong>Date</strong> :
+                            2012-09-14 15:28:36</td>
+                        <td width="45%"><strong>By</strong> :
+                            narutoyah</td>
+                        </tr>
+                  </table></td>
+                  <td> <img src="/images/resource/blockviewtopic_06.gif?v=1001" width="10" height="23" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_07.gif?v=1001" width="13" height="5" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_08.gif?v=1001"> <img src="/images/resource/blockviewtopic_08.gif?v=1001" width="243" height="5" alt=""></td>
+                  <td> <img src="/images/resource/blockviewtopic_09.gif?v=1001" width="10" height="5" alt=""></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table>
+			        <div align="center"><a href="JavaScript:if(confirm('Do you want to delete ?')==true){window.location='/command.php?&Forum=DAID&RID=00297922&QID=034407';};">
+			                                
+            </div></td>
+          <td background="/images/resource/viewboard_06.gif?v=1001"> <img src="/images/resource/viewboard_06.gif?v=1001" width="29" height="30" alt=""></td>
+        </tr>
+        <tr>
+          <td> <img src="/images/resource/viewboard_07.gif?v=1001" width="33" height="35" alt=""></td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001">&nbsp;</td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001"> <img src="/images/resource/viewboard_08.jpg?v=1001" width="541" height="35" alt=""></td>
+          <td> <img src="/images/resource/viewboard_09.gif?v=1001" width="29" height="35" alt=""></td>
+        </tr>
+      </table>   
+	    
+     
+              <a name="0"></a><a name="00382465"></a> </div>
+		
+    <br>
+		
+	  <table id="Table_01" width="955" height="92" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="33"> <img src="/images/resource/viewboard_01.gif?v=1001" width="33" height="27" alt=""></td>
+          <td width="169" background="/images/resource/viewboard_02.jpg?v=1001">&nbsp;</td>
+          <td width="731" background="/images/resource/viewboard_02.jpg?v=1001"> </td>
+          <td width="29"> <img src="/images/resource/viewboard_03.gif?v=1001" width="29" height="27" alt=""></td>
+        </tr>
+        <tr>
+          <td background="/images/resource/viewboard_04.gif?v=1001"> <img src="/images/resource/viewboard_04.gif?v=1001" width="33" height="30" alt=""></td>
+          <td valign="top">            <div align="center">
+              <table id="Table_01" width="169" height="54" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_01.gif?v=1001" width="10" height="9" alt=""></td>
+                  <td background="/images/resource/blockprofile_02.gif?v=1001"> <img src="/images/resource/blockprofile_02.gif?v=1001" width="148" height="9" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_03.gif?v=1001" width="11" height="9" alt=""></td>
+                </tr>
+                <tr>
+                  <td background="/images/resource/blockprofile_04.gif?v=1001"> <img src="/images/resource/blockprofile_04.gif?v=1001" width="10" height="35" alt=""></td>
+                  <td valign="top" background="/images/resource/blockprofile_05.gif?v=1001">
+                    <div align="center">
+                      <table width="95%"  border="0">
+                        <tr>
+                          <td>
+                            <div align="center"> <h2>
+                              No. 4                              </h2>
+</div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/upload/member/question.jpg?v=1001" width="120" height="120"></div></td>
+                        </tr>
+                        <tr>
+                          <td><div align="center"><strong>Guest</strong></div></td>
+                        </tr>
+                                                <tr>
+                          <td><div align="center"><img src="/images/resource/spacer.gif?v=1001" width="77" height="11"></div></td>
+                        </tr>
+                      </table>
+					  						  <br>
+                  </div></td>
+                  <td background="/images/resource/blockprofile_06.gif?v=1001"> <img src="/images/resource/blockprofile_06.gif?v=1001" width="11" height="302" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockprofile_07.gif?v=1001" width="10" height="10" alt=""></td>
+                  <td background="/images/resource/blockprofile_08.gif?v=1001"> <img src="/images/resource/blockprofile_08.gif?v=1001" width="148" height="10" alt=""></td>
+                  <td> <img src="/images/resource/blockprofile_09.gif?v=1001" width="11" height="10" alt=""></td>
+                </tr>
+              </table>
+              <br>
+                                          <strong> </strong> </div></td>
+          <td valign="top"><table width="99%"  border="0" cellpadding="5" cellspacing="5">
+            <tr>
+              <td height="250" valign="top"> <font class="detailDesc">
+                 int a = &quot;'+ textBox10.Text +'&quot;;<br />
+int b = &quot;'+ textBox9.Text +'&quot;;<br />
+int z = a + b;<br>                       </font>
+               
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+			                                
+              <table id="Table_01" width="708" height="34" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="13"> <img src="/images/resource/blockviewtopic_01.gif?v=1001" width="13" height="6" alt=""></td>
+                  <td width="670" background="/images/resource/blockviewtopic_02.gif?v=1001"> <img src="/images/resource/blockviewtopic_02.gif?v=1001" width="243" height="6" alt=""></td>
+                  <td width="10"> <img src="/images/resource/blockviewtopic_03.gif?v=1001" width="10" height="6" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_04.gif?v=1001" width="13" height="23" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_05.gif?v=1001"><table width="100%"  border="0" class="topicSubject">
+                      <tr>
+                        <td width="55%"><strong>Date</strong> :
+                            2014-03-14 23:41:36</td>
+                        <td width="45%"><strong>By</strong> :
+                            ดนั</td>
+                        </tr>
+                  </table></td>
+                  <td> <img src="/images/resource/blockviewtopic_06.gif?v=1001" width="10" height="23" alt=""></td>
+                </tr>
+                <tr>
+                  <td> <img src="/images/resource/blockviewtopic_07.gif?v=1001" width="13" height="5" alt=""></td>
+                  <td background="/images/resource/blockviewtopic_08.gif?v=1001"> <img src="/images/resource/blockviewtopic_08.gif?v=1001" width="243" height="5" alt=""></td>
+                  <td> <img src="/images/resource/blockviewtopic_09.gif?v=1001" width="10" height="5" alt=""></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table>
+			        <div align="center"><a href="JavaScript:if(confirm('Do you want to delete ?')==true){window.location='/command.php?&Forum=DAID&RID=00382465&QID=034407';};">
+			                                
+            </div></td>
+          <td background="/images/resource/viewboard_06.gif?v=1001"> <img src="/images/resource/viewboard_06.gif?v=1001" width="29" height="30" alt=""></td>
+        </tr>
+        <tr>
+          <td> <img src="/images/resource/viewboard_07.gif?v=1001" width="33" height="35" alt=""></td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001">&nbsp;</td>
+          <td background="/images/resource/viewboard_08.jpg?v=1001"> <img src="/images/resource/viewboard_08.jpg?v=1001" width="541" height="35" alt=""></td>
+          <td> <img src="/images/resource/viewboard_09.gif?v=1001" width="29" height="35" alt=""></td>
+        </tr>
+      </table>   
+	    
+     
+      		  
+	
+    </td>
+  </tr>
+</table>
+<script language="javascript">
+
+
+function checkSubmit()
+{
+	
+	if(trim(document.frmMain.txtDescription.value)=="")
+	{
+		alert('กรุณากรอก รายละเอียด');
+		document.frmMain.txtDescription.focus();
+		return false;
+	}
+	
+	if(trim(document.frmMain.txtName.value)=="")
+	{
+		alert('กรุณากรอก ชื่อ');
+		document.frmMain.txtName.focus();
+		return false;
+	}	
+	
+	/*
+	if(trim(document.frmMain.hdnCheckSum.value)=="Y")
+	{
+		if(trim(document.frmMain.txtVerify.value)!="4")
+		{
+			alert('2 + 2 = ?');
+			document.frmMain.txtVerify.focus();
+			return false;
+		}	
+	}
+	*/
+	
+return true;
+}
+</script>
+
+<br>
+
+<table width="947"  border="0">
+  <tr>
+    <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <br>      <table width="468" height="30"  border="0" align="center" cellpadding="0" cellspacing="1" background="/images/resource/bgsearch.jpg?v=1001" style="border-color: #600; border-width: 1px 1px 1px 1px; border-style: solid;">
+                            <tr>
+                              <td width="26%"><h2 align="center" style="padding-top:10px">ค้นหาข้อมูล</h2>
+                              <br></td>
+                              <td width="74%" valign="middle">
+							  <script language="javascript">
+							function searchitem()
+							{
+								document.frmSearch.action='https://www.thaicreate.com/search?cx=partner-pub-0639452308651048%3Amgul3k-tjap&cof=FORID%3A10&ie=UTF-8';
+								return true;
+							}
+							</script>							<form name="frmSearch" method="get" style="padding-top:10px" onSubmit="return searchitem();" target="_blank">
+                              	  <input name="q" type="text" style="height:30px;width:240px">
+								  <input type="hidden" name="cx" value="partner-pub-0639452308651048:mgul3k-tjap" />
+								  <input type="hidden" name="cof" value="FORID:10" />
+								  <input type="hidden" name="ie" value="UTF-8" />		 &nbsp; &nbsp;					  
+                                <input name="imageField" type="image" src="/images/resource/search.png?v=1001" width="73" height="20" border="0">
+                                                          </form></td>
+                            </tr>
+    </table> </td>
+  </tr>
+</table>
+<form name="frmMain" method="post" action="/command.php" onSubmit="return checkSubmit();">
+  <a name="lang"></a><br>
+<table width="947" height="61" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10" valign="top"><img src="/images/resource/menubar_l.png?v=1001" width="10" height="61"></td>
+    <td width="128" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject style1">แสดงความคิดเห็น</span></div></td>
+    <td width="788" background="/images/resource/menubar_m.png?v=1001">
+      <div align="left" class="topicSubject"> <b>Re :</b></span> 
+        C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ     </div></td>
+    <td width="8" height="63" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject"></span></div></td>
+    <td width="13" valign="top"><img src="/images/resource/menubar_r.png?v=1001" width="10" height="61"></td>
+  </tr>
+</table>
+<div id="divBoard"></div>
+<table width="950" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="136" valign="top">&nbsp;</td>
+    <td width="814" valign="top"><input name="hdnTag" type="hidden" id="hdnTag" value="0"></td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><div align="left"><span class="topicSubject"><strong>รายละเอียด</strong></span></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><a name="Reply" id="Reply"></a></td>
+    <td valign="top"><strong>
+      <input name="hdnCmd" type="hidden" id="hdnCmd" value="Save">
+      <input name="hdnQuestionID" type="hidden" id="hdnQuestionID" value="034407">
+      <input name="hdnLangID" type="hidden" id="hdnLangID" value="3">
+      <input name="hdnPage" type="hidden" id="hdnPage" value="reply">
+      <input name="hdnKey" type="hidden" id="hdnKey" value="202608241800398">
+      <input name="hdnFlag" type="hidden" id="hdnFlag" value="N">
+    </strong></td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">
+	
+	<table width="79%"  border="0">
+                    <tr>
+                      <td width="61%" rowspan="2"><TABLE width="480" border="0" cellPadding=0 cellspacing="0">
+  <TBODY>
+    <TR>
+      <TD vAlign=center>
+			<script language=JavaScript src="/js/bbcode.js" type=text/javascript></script>	  
+        	<script language=JavaScript type=text/javascript>
+			
+
+			function showimage()
+			{
+				document.images.icons.src = icon_urls[document.frmMain.txtDescription.icon.options[document.frmMain.txtDescription.icon.selectedIndex].value];
+			}
+			
+
+				function bbc_highlight(something, mode)
+				{
+					something.style.backgroundImage = "url("+(mode ? "/images/bbcode/bbc_hoverbg.gif?v=1001)" : "/images/bbcode/bbc_bg.gif?v=1001)");
+				}
+			</script>
+        	<a onclick="surroundText('[b]', '[/b]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><IMG onmouseover="bbc_highlight(this, true);" title="ตัวหนา" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวหนา" src="/images/bbcode/bold.gif?v=1001" width="23" align="bottom" border="0"></a>			
+			<a onclick="surroundText('[i]', '[/i]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวเอียง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวเอียง" src="/images/bbcode/italicize.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[u]', '[/u]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวขีดเส้นใต้" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวขีดเส้นใต้" src="/images/bbcode/underline.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[s]', '[/s]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวมีขีดกลาง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวมีขีดกลาง" src="/images/bbcode/strike.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="surroundText('[glow=red]', '[/glow]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวเรืองแสง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวเรืองแสง" src="/images/bbcode/glow.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[shadow=red left]', '[/shadow]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวมีเงา" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวมีเงา" src="/images/bbcode/shadow.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[marquee]', '[/marquee]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวอักษรวิ่ง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวอักษรวิ่ง" src="/images/bbcode/move.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="surroundText('[pre]', '[/pre]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="จัดย่อหน้าอิสระ" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="จัดย่อหน้าอิสระ" src="/images/bbcode/pre.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[left]', '[/left]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="จัดย่อหน้าชิดซ้าย" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="จัดย่อหน้าชิดซ้าย" src="/images/bbcode/left.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[center]', '[/center]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="จัดย่อหน้ากึ่งกลาง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="จัดย่อหน้ากึ่งกลาง" src="/images/bbcode/center.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[right]', '[/right]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="จัดย่อหน้าชิดขวา" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="จัดย่อหน้าชิดขวา" src="/images/bbcode/right.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="replaceText('[hr]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="เส้นขวาง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="เส้นขวาง" src="/images/bbcode/hr.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="surroundText('[size=10pt]', '[/size]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ขนาดตัวอักษร" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ขนาดตัวอักษร" src="/images/bbcode/size.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[font=Verdana]', '[/font]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="แบบตัวอักษร" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="แบบตัวอักษร" src="/images/bbcode/face.gif?v=1001" width="23" align="bottom" border="0"></a>
+        <BR>       	  <img Onmouseover="bbc_highlight(this, true);" title="ใส่แฟลช" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt=ใส่แฟลช src="/images/bbcode/flash.gif?v=1001" width="23" align="bottom" border="0">
+			<a onclick="surroundText('[img]', '[/img]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ใส่รูป" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt=ใส่รูป src="/images/bbcode/img.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[url]', '[/url]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ใส่ไฮเปอร์ลิ้งค์" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt=ใส่ไฮเปอร์ลิ้งค์ src="/images/bbcode/url.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[email]', '[/email]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ใส่อีเมล์" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt=ใส่อีเมล์ src="/images/bbcode/email.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[ftp]', '[/ftp]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ใส่ลิ้งค์ FTP" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ใส่ลิ้งค์ FTP" src="/images/bbcode/ftp.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">		  <img src="/images/bbcode/table.gif?v=1001" width="23" height="22" border="0" align="bottom" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" title="ใส่ตาราง" Onmouseover="bbc_highlight(this, true);" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);">		  <img Onmouseover="bbc_highlight(this, true);" title="ใส่แถวของตาราง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ใส่แถวของตาราง" src="/images/bbcode/tr.gif?v=1001" width="23" align="bottom" border="0">		  <img Onmouseover="bbc_highlight(this, true);" title="ใส่คอลัมน์ตาราง" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ใส่คอลัมน์ตาราง" src="/images/bbcode/td.gif?v=1001" width="23" align="bottom" border="0"><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="surroundText('[sup]', '[/sup]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวยก" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวยก" src="/images/bbcode/sup.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[sub]', '[/sub]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวห้อย" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวห้อย" src="/images/bbcode/sub.gif?v=1001" width="23" align="bottom" border="0"></a>
+			<a onclick="surroundText('[tt]', '[/tt]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ตัวพิมพ์ดีด" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ตัวพิมพ์ดีด" src="/images/bbcode/tele.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|" src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="surroundText('[head]Code[/head]\n[code]\n', '\n[/code]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ใส่โค้ด" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ใส่โค้ด" src="/images/bbcode/code.gif?v=1001" width="23" align="bottom" border="0"></a>		  
+			<a onclick="surroundText('[quote]', '[/quote]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img Onmouseover="bbc_highlight(this, true);" title="ใส่การอ้างถึงคำพูด "style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px" onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ใส่การอ้างถึงคำพูด" src="/images/bbcode/quote.gif?v=1001" width="23" align="bottom" border="0"></a><IMG style="MARGIN: 0px 3px" alt="|"src="/images/bbcode/divider.gif?v=1001">
+			<a onclick="surroundText('[list]\n[li]', '[/li]\n[li][/li]\n[/list]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><IMG onmouseover="bbc_highlight(this, true);" title="ใส่ลีสต์" style="BACKGROUND-IMAGE: url(/images/bbcode/bbc_bg.gif?v=1001); MARGIN: 1px 2px 1px 1px"onmouseout="if (window.bbc_highlight) bbc_highlight(this, false);" height="22" alt="ใส่ลีสต์" src="/images/bbcode/list.gif?v=1001" width="23" align="bottom" border="0"></a><br> 
+		    <table width="100%"  border="0">
+              <tr>
+                <td width="33%"><select name="select" style="width:160px;MARGIN-BOTTOM: 1ex" onChange="surroundText('[color=' + this.options[this.selectedIndex].value.toLowerCase() + ']', '[/color]', document.forms.frmMain.txtDescription); this.selectedIndex = 0; document.forms.frmMain.txtDescription.focus(document.forms.frmMain.txtDescription.caretPos);">
+                  <option value="" selected>เปลี่ยนสี</option>
+                  <option value="Black">สีดำ/ขาว</option>
+                  <option value="Red">สีแดง</option>
+                  <option value="Yellow">สีเหลือง</option>
+                  <option value="Pink">สีชมพู</option>
+                  <option value="Green">สีเขียว</option>
+                  <option value="Orange">สีส้ม</option>
+                  <option value="Purple">สีม่วง</option>
+                  <option value="Blue">สีนํ้าเงิน/ฟ้า</option>
+                  <option value="Beige">สีเทา</option>
+                  <option value="Brown">สีน้ำตาล</option>
+                  <option value="Teal">สีเขียวฟ้า</option>
+                  <option value="Navy">สีกรมท่า</option>
+                  <option value="Maroon">สีเลือดนก</option>
+                  <option value="LimeGreen">สีเหลืองอมเขียว</option>
+                </select></td>
+                <td width="67%"><a onClick="replaceText(':lol:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/bbcode/lol.gif?v=1001" alt="smiley for :lol:" border="0" title="smiley for :lol:" /></a> <a onClick="replaceText(':ken:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :ken:" title="smiley for :ken:" border="0" src="/images/bbcode/ken.gif?v=1001" /></a> <a onClick="replaceText(':-D:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :D" title="smiley for :D" border="0" src="/images/bbcode/grin.gif?v=1001" /></a> <a onClick="replaceText(':-):', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :)" title="smiley for :)" border="0" src="/images/bbcode/smile.gif?v=1001" /></a> <a onClick="replaceText(':;):', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for ;)" title="smiley for ;)" border="0" src="/images/bbcode/wink.gif?v=1001" /></a> <a onClick="replaceText(':eek:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :eek:" title="smiley for :eek:" border="0" src="/images/bbcode/eek.gif?v=1001" /></a> <a onClick="replaceText(':geek:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :geek:" title="smiley for :geek:" border="0" src="/images/bbcode/geek.gif?v=1001"  /></a> <a onClick="replaceText(':roll:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :roll:" title="smiley for :roll:" border="0" src="/images/bbcode/roll.gif?v=1001" /></a> <a onClick="replaceText(':erm:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :erm:" title="smiley for :erm:" border="0" src="/images/bbcode/erm.gif?v=1001" /></a> <a onClick="replaceText(':cool:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :cool:" title="smiley for :cool:" border="0" src="/images/bbcode/cool.gif?v=1001" /></a> <a onClick="replaceText(':blank:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :blank:" title="smiley for :blank:"  border="0" src="/images/bbcode/blank.gif?v=1001" /></a> <a onClick="replaceText(':idea:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :idea:" title="smiley for :idea:" border="0" src="/images/bbcode/idea.gif?v=1001" /></a> <a onClick="replaceText(':ehh:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :ehh:" title="smiley for :ehh:" border="0" src="/images/bbcode/ehh.gif?v=1001" /></a> <a onClick="replaceText(':aargh:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :aargh:" title="smiley for :aargh:" border="0" src="/images/bbcode/aargh.gif?v=1001" /></a> <a onClick="replaceText(':evil:', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img alt="smiley for :evil:" title="smiley for :evil:" border="0" src="/images/bbcode/evil.gif?v=1001" /></a> </td>
+              </tr>
+            </table>
+      </TD>
+    </TR>
+    <TR>
+      <TD></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</td>
+                      <td width="10%" valign="top"><div align="center"><a onclick="surroundText('[head]Code (PHP)[/head]\n[php]\n', '\n[/php]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/phpcode.gif?v=1001" alt="Insert PHP Code" width="50" height="50" border="0"></a></div></td>
+                      <td width="10%" valign="top"><div align="center"><a onclick="surroundText('[head]Code (ASP)[/head]\n[asp]\n', '\n[/asp]', document.forms.frmMain.txtDescription); return false;"  href="javascript:void(0);"><img src="/images/resource/asplogo.gif?v=1001" alt="Insert ASP Code" width="50" height="50" border="0"></a></div></td>
+                      <td width="10%" valign="top"><a  onclick="surroundText('[head]Code (VB.NET)[/head]\n[vb]\n', '\n[/vb]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/vbcode.gif?v=1001" alt="Insert VB.NET Code" width="50" height="50" border="0"></a></td>
+                      <td width="9%" valign="top"><a onclick="surroundText('[head]Code (C#)[/head]\n[cs]\n', '\n[/cs]', document.forms.frmMain.txtDescription); return false;"  href="javascript:void(0);"><img src="/images/resource/ccode.gif?v=1001" alt="Insert C#.NET Code" width="50" height="50" border="0"></a></td>
+                    <td width="10%" valign="top"><a  onclick="surroundText('[head]Code (JavaScript)[/head]\n[js]\n', '\n[/js]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/jscode.gif?v=1001" alt="Insert JavaScript Code" width="50" height="50" border="0"></a></td>
+                      <td width="9%" valign="top"><a onclick="surroundText('[head]Code (VBScript)[/head]\n[vb]\n', '\n[/vb]', document.forms.frmMain.txtDescription); return false;"  href="javascript:void(0);"><img src="/images/resource/vbscriptcode.gif?v=1001" alt="Insert C#.NET Code" width="50" height="50" border="0"></a></td>
+                    </tr>
+                    <tr>
+                      <td valign="top"><div align="center"><a onclick="surroundText('[head]Code (Java)[/head]\n[java]\n', '\n[/java]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/javacode.gif?v=1001" alt="Insert Java Code" width="50" height="50" border="0"></a></div></td>
+                      <td valign="top"><div align="center"><a onclick="surroundText('[head]Code (Android-Java)[/head]\n[java]\n', '\n[/java]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/androidcode.gif?v=1001" alt="Insert Android Code" width="50" height="50" border="0"></a></div></td>
+                      <td valign="top"><div align="center"><a onclick="surroundText('[head]Code (Objective-C)[/head]\n[obj-c]\n', '\n[/obj-c]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/objccode.gif?v=1001" alt="Insert Objective-C Code" width="50" height="50" border="0"></a></div></td>
+                      <td valign="top"><div align="center"><a onclick="surroundText('[head]Code (XML)[/head]\n[xml]\n', '\n[/xml]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/xmlcode.gif?v=1001" alt="Insert XML Code" width="50" height="50" border="0"></a></div></td>
+                      <td valign="top"><div align="center"><a onclick="surroundText('[head]Code (SQL)[/head]\n[sql]\n', '\n[/sql]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/sqlcode.gif?v=1001" alt="Insert SQL Code" width="50" height="50" border="0"></a></div></td>
+                      <td valign="top"><div align="center"><a onclick="surroundText('[head]Code[/head]\n[coding]\n', '\n[/coding]', document.forms.frmMain.txtDescription); return false;" href="javascript:void(0);"><img src="/images/resource/codecode.gif?v=1001" alt="Insert Code" width="50" height="50" border="0"></a></div></td>
+                    </tr>
+      </table>
+
+	<font class="topicSubject">เพื่อความเรียบร้อยของข้อความ ควรจัดรูปแบบให้พอดีกับขนาดของหน้าจอ เพื่อง่ายต่อการอ่านและสบายตา และตรวจสอบภาษาไทยให้ถูกต้อง</font><br><br>
+	<span class="style1x"> <a href="javascript:MM_openBrWindow('/upload_images.php','upload','scrollbars=no,resizable=no,width=612,height=620');">
+                          <h2 align="left"><img src="/images/resource/uploadIcon.png?v=1001" width="21" height="21" border="0" align="absmiddle">
+                              อัพโหลดแทรกรูปภาพ                          </h2>
+            </a> </span>	<textarea name="txtDescription" rows="25" class="topicSubject" id="txtDescription" style="width:800px;" onkeyup="storeCaret(this);" onclick="storeCaret(this);" onchange="storeCaret(this);" onselect="storeCaret(this);"></textarea>
+	<h2><u>Notice</u></h2><p class="topicSubject">เพื่อความปลอดภัยของเว็บบอร์ด ไม่อนุญาติให้แทรก แท็ก <big><font color=red>[img]....[/img]</font></big> โดยการอัพโหลดไฟล์รูปจากที่อื่น เช่นเว็บไซต์ ฟรีอัพโหลดต่าง ๆ <br>
+      <font color=red> <a href="javascript:MM_openBrWindow('/upload_images.php','upload','scrollbars=no,resizable=no,width=612,height=620');"> <img src="/images/resource/uploadIcon.png?v=1001" width="21" height="21" border="0" align="absmiddle">
+      อัพโหลดแทรกรูปภาพ      </a></font> ให้ใช้บริการอัพโหลดไฟล์ของไทยครีเอท และตัดรูปภาพให้พอดีกับสกรีน เพื่อความโหลดเร็วและไฟล์ไม่ถูกลบทิ้ง </p>
+	</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><span class="topicSubject"><strong><u>เพื่อความปลอดภัยและการตรวจสอบ กระทู้ที่แทรกไฟล์อัพโหลดไฟล์จากที่อื่น อาจจะถูกลบทิ้ง</u></strong></span></td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td valign="top"><input name="hdnRef" type="hidden" id="hdnRef" value="/dotnet/forum/034407.html"></td>
+  </tr>
+</table>
+
+<table width="947" height="61" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10" valign="top"><img src="/images/resource/menubar_l.png?v=1001" width="10" height="61"></td>
+    <td width="126" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject style1">โดย</span></div></td>
+    <td width="790" background="/images/resource/menubar_m.png?v=1001">
+      <div align="left">
+        <input name="txtName" type="text" class="topicSubject" id="txtName" style="width:400px;height:30px" value="" maxlength="30">
+    </div></td>
+    <td width="9" height="63" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject"></span></div></td>
+    <td width="12" valign="top"><img src="/images/resource/menubar_r.png?v=1001" width="10" height="61"></td>
+  </tr>
+</table>
+<table width="947" height="61" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10" valign="top"><img src="/images/resource/menubar_l.png?v=1001" width="10" height="61"></td>
+    <td width="125" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject">อีเมล์</span></div></td>
+    <td width="791" background="/images/resource/menubar_m.png?v=1001">
+      <div align="left">
+        <input name="txtEmail" type="text" id="txtEmail" style="width:400px;height:30px" maxlength="255" class="topicSubject">
+    </div></td>
+    <td width="9" height="63" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject"></span></div></td>
+    <td width="12" valign="top"><img src="/images/resource/menubar_r.png?v=1001" width="10" height="61"></td>
+  </tr>
+</table>
+<table width="947" height="61" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10" valign="top"><img src="/images/resource/menubar_l.png?v=1001" width="10" height="61"></td>
+    <td width="125" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject">บวกค่าให้ถูก</span></div></td>
+    <td width="791" background="/images/resource/menubar_m.png?v=1001">
+      <div align="left">
+      <input name="hdnCheckSum" type="hidden" id="hdnCheckSum" value="Y">
+		        <img src="/images/catcha6.jpg?v=1001" width="191" height="30" align="absbottom">
+
+		<input type="hidden" id="vCode" name="vCode" value="6">
+        <input name="txtVerify" type="text" class="topicSubject" id="txtVerify" style="width:60px;height:30px;text-align:center" size="7" maxlength="5">
+    <span class="topicSubject"><= ตัวเลขฮินดูอารบิก เช่น 123 (หรือล็อกอินเข้าระบบสมาชิกเพื่อไม่ต้องกรอก) </span></td>
+    <td width="9" height="63" background="/images/resource/menubar_m.png?v=1001"><div align="center"><span class="topicSubject"></span></div></td>
+    <td width="12" valign="top"><img src="/images/resource/menubar_r.png?v=1001" width="10" height="61"></td>
+  </tr>
+</table>
+<input name="hdnAccept" type="hidden" id="hdnAccept">
+<input name="hdnPage" type="hidden" id="hdnPage" value="reply">
+<input name="hdnCmd" type="hidden" id="hdnCmd" value="Save">
+<input name="hdnKey" type="hidden" id="hdnKey" value="202608241800394">
+<br>
+<table width="948"  border="0" cellpadding="0" cellspacing="0">
+  <tr background="/images/resource/line.jpg?v=1001">
+    <td height="3" colspan="11"><img src="/images/resource/line3.jpg?v=1001" width="948" height="2"></td>
+  </tr>
+</table>
+<br>
+    <table width="947" height="61" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="63" valign="top"><div align="center"></div>
+          
+          <div align="center">          <div align="center">
+              <input name="btnSubmit" type="submit" id="btnSubmit2" value="Submit" class="submit_forum" onClick="document.frmMain.hdnFlag.value='Y';">
+              <input name="btnReset" type="reset" id="btnReset2" value="Reset" class="submit_forum">
+              <br>
+         
+              
+            </div></td>
+      </tr>
+    </table>
+
+	
+</form>
+              </div></td>
+            </tr>
+</table>
+		
+    <table width="950" border="0" cellpadding="0" cellspacing="0" bordercolor="#996600">
+
+      <tr>
+        <td>
+		<center>
+		<!--<a href="https://m.do.co/c/886c85897f1d" rel="nofollow" target="_blank"><img src="/images/digitalocean-banner.jpg" border="0"></a><br><br>-->
+      <form action="https://www.thaicreate.com/search" id="cse-search-box">
+				      <div>
+				        <div align="center">
+				    <input type="hidden" name="cx" value="partner-pub-0639452308651048:mgul3k-tjap" />
+				    <input type="hidden" name="cof" value="FORID:10" />
+				    <input type="hidden" name="ie" value="UTF-8" />
+				    <strong>ลองค้นหาสิ่งที่ต้องการ</strong>				    <input type="text" name="q" class="button" size="70" />
+				    <input type="image" src="/images/resource/search.png" name="sa" width="70" height="20" border="0" align="absmiddle">
+		                </div>
+		  </div>			
+			<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>	
+	  </form><br><br>
+		</center>
+	    </td>
+      </tr>
+    </table>
+
+
+
+
+<table width="1004" border="0" cellpadding="0" cellspacing="0">
+  <tr >
+    <td width="33102" height="58" colspan="3"  ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="65" background="/images/resource/background_slice.png?v=1001"><div align="center"><span class="footer"> </span> <span class="footer"> <img src="/images/logo.png" alt="ThaiCreate.Com Logo" width="177" height="26"><br>
+            <!--BEGIN WEB STAT CODE---->
+					<a href="/ad.html"><img src="/images/goggen.jpg"></a>
+					<!--<SCRIPT LANGUAGE="javascript1.1" src="http://hits.truehits.in.th/data/f0010575.js?v=1001"></SCRIPT>-->
+                    <!-- END WEBSTAT CODE -->
+ &copy; www.ThaiCreate.Com. 2003-2026 All Rights Reserved. <br>
+<a href='/services.html'><font color="#FFFFFF">ไทยครีเอทบริการ จัดทำดูแลแก้ไข Web Application ทุกรูปแบบ (PHP, .Net Application, VB.Net, C#)</font></a><br>
+ [<span style="cursor: pointer;" onClick="window.location='/member-level.html'">Conditions Privacy Statement</span>]
+              <strong>ติดต่อโฆษณา</strong> 081-987-6107 <strong><u>อัตราราคา</u> <a href="/ad.html">คลิกที่นี่</a></strong>              <br> <br> 
+          </span></div></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<input type="hidden" size="100" name="box-content-clipboard" id="box-content-clipboard" value="[b][u]Go to[/u] : [url=https://www.thaicreate.com/dotnet/forum/034407.html]C# ถามเรื่องเครื่องคิดเลขครับ  คือผมสร้างเครื่องคิดเลขเฉพาะการบวกขึ้นครับ[/url][/b]">
+
+	<script type="text/javascript"> 
+		//set path
+		ZeroClipboard.setMoviePath('/js/ZeroClipboard.swf');
+		//create client
+		var clip = new ZeroClipboard.Client();
+		//event
+		clip.addEventListener('mousedown',function() {
+			clip.setText(document.getElementById('box-content-clipboard').value);
+		});
+		clip.addEventListener('complete',function(client,text) {
+			alert('Copied: Done!');
+		});
+		//glue it to the button
+		var copyclipboard = document.getElementById('copyclipboard');
+		if(copyclipboard != null)
+		{
+		clip.glue('copyclipboard');
+		}
+
+		function alertNews()
+		{
+
+		}
+	</script>
+		<div style="display: none;">
+		<a id="various1" href="#inline1" title="ThaiCreate.Com ไทยครีเอท">Inline</a>
+			</div>
+
+
+<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-10173467-1");
+		pageTracker._trackPageview();
+		} catch(err) {}
+
+/*
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+	if(scroll > 322)
+	{
+		$("#adsBanner").removeAttr("style");
+		$("#adsBanner").css({"position":"fixed","top":"0px", "width":"160px", "height":"700px"});
+	}
+	else
+	{
+		$("#adsBanner").removeAttr("style");
+		$("#adsBanner").css({"width":"160px", "height":"700px"});
+	}
+});
+
+*/
+
+</script>
+
+<!-- /* The tag in this template has been generated for use on a non-SSL page.
+      * If this tag is to be placed on an SSL page change the "http" to "https".
+*/ -->
+
+
+
+	
+	</td>
+  </tr>
+</table>
+<br>
+<br>
+
+		
+
+  <div class="fb-right">
+  <div class="fb-share-button" 
+    data-href="https://www.thaicreate.com/dotnet/forum/034407.html" 
+    data-layout="button_count">
+  </div>
+</div>
+
+</body>
+</html>

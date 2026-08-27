@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "committee_structure",
+      "value": "The examination board selects a chairperson from among its members, who are professors. The vice-chairperson is also selected from the board members or their representatives. The chairperson conducts the board's business and invites members to meetings.",
+      "original_value": "Der Prüfungsausschuss wählt eine Vorsitzende oder einen Vorsitzenden aus der Mitte der ihm angehörenden Professorinnen und Professoren. Die stellvertretende Vorsitzende oder der stellvertretende Vorsitzende wird aus der Mitte der dem Prüfungsausschuss angehörenden Professorinnen und Professoren oder ihrer Stellvertreterinnen und Stellvertreter gewählt. Die beziehungsweise der Vorsitzende führt die Geschäfte des Prüfungsausschusses. Sie oder er lädt zu den Sitzungen des Prüfungsausschusses ein und führt bei allen Beratungen und Beschlussfassungen den Vorsitz.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "committee_meeting_frequency",
+      "value": "At least one meeting of the examination board should occur each semester.",
+      "original_value": "In der Regel soll in jedem Semester mindestens eine Sitzung des Prüfungsausschusses stattfinden.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "committee_voting",
+      "value": "The examination board is quorate if at least half of the members, including the chairperson or vice-chairperson, are present. Decisions require a majority of votes from those present.",
+      "original_value": "Der Prüfungsausschuss tagt nicht öffentlich. Er ist beschlussfähig, wenn mindestens die Hälfte der Mitglieder, darunter die oder der Vorsitzende oder die oder der stellvertretende Vorsitzende, anwesend sind und die Stimmenmehrheit der Professorinnen und Professoren gewährleistet ist. Für Beschlüsse ist die Zustimmung der Mehrheit der Anwesenden erforderlich.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elector Registration - Voter Registration</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=Cw6XaAF-tldYxyYaiD-l-KXGUaIsjHCah_7c0wYhASM" />
+    <link rel="stylesheet" href="/css/all.min.css?v=dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt-7GnZCIo" />
+    <link rel="stylesheet" href="/css/flatpickr.min.css?v=GzSkJVLJbxDk36qko2cnawOGiqz_Y8GsQv_jMTUrx1Q" />
+    <link rel="stylesheet" href="/css/jquery-ui.css?v=yMIVeRjJ_tC7ncxWyWtS3Hr3CwXKAijkZ-r5F3d1Gtc" />
+
+    <style>
+        :root {
+            --primary-blue: #0d6efd;
+            --primary-dark: #0b5ed7;
+            --muted: #6c757d;
+            --light-gray: #f5f7fa;
+            --border-gray: #e9ecef;
+            --footer-bg-start: #0d6efd;
+            --footer-bg-end: #0b5ed7; 
+            --footer-text: #f7fbff;
+            --footer-link: #dff0ff;
+            --footer-link-hover: #ffffff;
+            --footer-social-start: rgba(255,255,255,0.08);
+            --footer-social-end: rgba(255,255,255,0.02);
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            accent-color: #0b5ed7; 
+            transform: scale(1.2); 
+        }
+
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #fff;
+            color: #212529;
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        main {
+            flex: 1 0 auto;
+            padding-bottom: 1.25rem;
+        }
+      
+        .top-bar {
+            min-height: 48px;
+            background: var(--primary-blue);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 0.35rem 1rem;
+            font-size: 0.9rem;
+            position: relative;
+            z-index: 1040; 
+        }
+
+            .top-bar .gov-text {
+                font-weight: 600;
+                letter-spacing: 0.2px;
+            }
+
+        .language-svg-icon {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+            .language-svg-icon svg path {
+                fill: #fff;
+            }
+
+        .social-media-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+            .social-media-container .primary-icon {
+                font-size: 1.05rem;
+                color: #fff;
+                cursor: pointer;
+            }
+
+        .social-icons-hover {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            background-color: #fff;
+            padding: .6rem;
+            border-radius: 8px;
+            box-shadow: 0 12px 30px rgba(9,30,66,0.16);
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 10px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-6px);
+            transition: all .18s ease-in-out;
+            z-index: 9999; 
+            pointer-events: auto;
+            min-width: 44px;
+        }
+
+        .social-media-container:hover .social-icons-hover,
+        .social-media-container:focus-within .social-icons-hover {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .social-icons-hover a {
+            color: var(--muted);
+            font-size: 1.05rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 6px;
+        }
+
+            .social-icons-hover a:hover {
+                color: var(--primary-blue);
+                background: rgba(13,110,253,0.06);
+            }
+
+        .middle-bar {
+            min-height: 84px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 1rem;
+            background: #fff;
+            border-bottom: 1px solid var(--border-gray);
+        }
+
+        .logo {
+            height: 72px;
+            max-width: 260px;
+            object-fit: contain;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .logo-text-container {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.05;
+        }
+
+        .logo-text-marathi {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #222;
+        }
+
+        .logo-text-english {
+            font-size: 0.92rem;
+            color: var(--muted);
+        }
+
+        .main-navbar {
+            min-height: 56px;
+            background-color: var(--primary-blue);
+            transition: all .28s ease-in-out;
+            padding-top: 0;
+            padding-bottom: 0;
+            z-index: 1035;
+        }
+
+            .main-navbar .container {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .main-navbar .navbar-nav {
+                align-items: center;
+            }
+
+            .main-navbar .nav-link {
+                color: rgba(255,255,255,0.95);
+                padding: .6rem .9rem;
+                border-radius: 6px;
+                font-weight: 600;
+                transition: background-color .18s ease, color .18s ease;
+            }
+
+                .main-navbar .nav-link:hover {
+                    background: rgba(255,255,255,0.08);
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                .main-navbar .nav-link.active {
+                    background: rgba(255,255,255,0.18);
+                    color: #fff !important;
+                    box-shadow: inset 0 -3px 0 rgba(255,255,255,0.08);
+                }
+
+            .main-navbar.scrolled {
+                background-color: #fff;
+                box-shadow: 0 6px 20px rgba(23,23,23,0.06);
+            }
+
+                .main-navbar.scrolled .nav-link {
+                    color: #333;
+                }
+
+                    .main-navbar.scrolled .nav-link.active {
+                        color: var(--primary-blue) !important;
+                        background: rgba(13,110,253,0.06);
+                        box-shadow: none;
+                    }
+
+        .navbar-toggler {
+            border: none;
+            padding: .25rem .6rem;
+            background: transparent;
+        }
+
+            .navbar-toggler:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+            .navbar-toggler .bar {
+                display: block;
+                width: 22px;
+                height: 2px;
+                background: #fff;
+                margin: 4px 0;
+                transition: transform .22s ease, opacity .2s ease;
+                border-radius: 1px;
+            }
+
+        .main-navbar.scrolled .navbar-toggler .bar {
+            background: #333;
+        }
+
+        .navbar-user-section {
+            z-index: 1050;
+            position: relative;
+        }
+
+        .site-footer {
+            background: linear-gradient(180deg, var(--footer-bg-start), var(--footer-bg-end));
+            color: var(--footer-text);
+            padding: 44px 0 12px;
+            border-top: none;
+            margin-top: 2rem;
+        }
+
+            .site-footer h6 {
+                color: rgba(255,255,255,0.95);
+                font-size: 14px;
+                text-transform: uppercase;
+                margin-top: 0;
+                letter-spacing: 1.6px;
+                font-weight: 700;
+            }
+
+            .site-footer p, .copyright-text, .version-text {
+                color: rgba(255,255,255,0.88);
+            }
+
+        .footer-links {
+            padding-left: 0;
+            list-style: none;
+            margin: 0;
+        }
+
+            .footer-links li {
+                margin-bottom: 8px;
+            }
+
+            .footer-links a {
+                color: var(--footer-link);
+                text-decoration: none;
+                transition: color .18s ease;
+            }
+
+                .footer-links a:hover {
+                    color: var(--footer-link-hover);
+                    text-decoration: underline;
+                }
+
+        .footer-social-icons {
+            padding-left: 0;
+            list-style: none;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+            .footer-social-icons li {
+                display: inline-block;
+            }
+
+            .footer-social-icons a {
+                color: #fff;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 8px;
+                background: linear-gradient(180deg, var(--footer-social-start), var(--footer-social-end));
+                border: 1px solid rgba(255,255,255,0.06);
+                box-shadow: 0 6px 18px rgba(255,255,255,0.04);
+                transition: transform .14s ease, box-shadow .14s ease, background .14s ease;
+            }
+
+                .footer-social-icons a:hover {
+                    transform: translateY(-4px);
+                    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+                }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.06);
+            padding-top: 14px;
+            margin-top: 18px;
+            background: transparent;
+        }
+
+        .copyright-text, .version-text {
+            color: rgba(255,255,255,0.88);
+            font-size: 0.92rem;
+            margin: 0;
+        }
+
+        @media (max-width: 767.98px) {
+            .middle-bar
+
+        {
+            padding: 0.5rem;
+        }
+
+        .logo {
+            height: 56px;
+        }
+
+        .top-bar {
+            font-size: 0.82rem;
+            padding: .25rem .6rem;
+        }
+
+        .main-navbar .nav-link {
+            padding: .45rem .6rem;
+            font-size: .95rem;
+        }
+
+        .social-icons-hover {
+            right: -6px;
+        }
+
+        }
+
+        .break-word {
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+    </style>
+
+    
+    <style>
+        main > .container {
+            max-width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-container {
+            display: flex;
+            min-height: calc(100vh - 20vh);
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .hero-section {
+            width: 55%;
+            color: white;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            background: linear-gradient(135deg, #0d6efd, #004aad, #0c2e8a);
+            background-size: 200% 200%;
+            animation: gradient-animation 15s ease infinite;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .hero-title, .hero-subtitle, .feature-list {
+            animation: text-fade-in 1s ease-out forwards;
+            opacity: 0;
+        }
+
+        .hero-subtitle {
+            animation-delay: 0.2s;
+        }
+
+        .feature-list {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes text-fade-in {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+            .feature-list li {
+                margin-bottom: 1rem;
+                font-size: 1.1rem;
+                display: flex;
+                align-items: center;
+            }
+
+            .feature-list i {
+                margin-right: 1rem;
+                font-size: 1.2rem;
+                width: 20px;
+            }
+
+        .login-section {
+            width: 45%;
+            background-color: #f4f7fc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .login-card {
+            width: 100%;
+            max-width: 450px;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            animation: card-entrance 0.7s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes card-entrance {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .login-title {
+            text-align: center;
+            font-weight: 700;
+            color: #0d6efd;
+            margin-bottom: 1.5rem;
+        }
+
+        .login-type-selector {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            padding: 5px;
+            margin-bottom: 2rem;
+        }
+
+            .login-type-selector .form-check {
+                padding: 0;
+            }
+
+            .login-type-selector input {
+                display: none;
+            }
+
+            .login-type-selector label {
+                display: block;
+                text-align: center;
+                padding: 0.5rem;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-weight: 500;
+                color: #495057;
+            }
+
+            .login-type-selector input:checked + label {
+                background-color: #ffffff;
+                color: #0d6efd;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+
+        .login-form-section {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+        }
+
+            .login-form-section.active {
+                display: block;
+                opacity: 1;
+            }
+
+        @media (max-width: 992px) {
+            .main-container {
+                flex-direction: column;
+            }
+
+            .hero-section, .login-section {
+                width: 100%;
+            }
+
+            .hero-section {
+                min-height: 40vh;
+                padding: 2rem;
+            }
+        }
+
+        /* Added  */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1050;
+        }
+
+        .modal-dialog {
+            width: 100%;
+            max-width: 550px;
+            margin: 1.75rem auto;
+        }
+
+        .modal-content {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            border: 1px solid rgba(0,0,0,.2);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #0d6efd;
+        }
+
+        .btn-close {
+            border: none;
+            background: transparent;
+            font-size: 1.5rem;
+            font-weight: bold;
+            line-height: 1;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 1.5rem;
+            line-height: 1.6;
+        }
+
+            .modal-body h6 {
+                font-weight: 700;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+                color: #343a40;
+            }
+
+            .modal-body ul {
+                padding-left: 1.5rem;
+                margin-bottom: 0;
+            }
+
+                .modal-body ul li {
+                    margin-bottom: 0.25rem;
+                }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            border-top: 1px solid #dee2e6;
+            gap: 0.5rem;
+        }
+
+        .feature-list h3 a,
+        a:hover,
+        a:active {
+            color: #fff
+        }
+
+        .hero-section .visual-table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            margin: 1.5rem auto 0 auto;
+            color: white !important; /* All text is white */
+            border: 1px solid #0d6efd; /* Main outer border */
+        }
+
+            .hero-section .visual-table th,
+            .hero-section .visual-table td {
+                border: 1px solid #0d6efd !important; /* Blue internal borders */
+                color: white !important;
+                padding: 10px 8px; /* Slightly more padding */
+                vertical-align: middle;
+            }
+
+            .hero-section .visual-table th {
+                background-color: #0d6efd !important; /* Solid Darker Blue Header */
+                font-weight: bold;
+            }
+
+            .hero-section .visual-table tbody td:first-child {
+                text-align: left;
+                font-weight: bold;
+                background-color: transparent !important; /* Keep first column background transparent/blue */
+            }
+
+            .hero-section .visual-table .fa-check {
+                color: #28a745; /* Green checkmark for contrast */
+                font-size: 1.1em;
+            }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="gov-text">
+                    Chief Electoral Officer Maharashtra 
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <div class="social-media-container">
+                        <i class="fas fa-share-alt primary-icon" style="color: #fff;" aria-hidden="true"></i>
+                        <div class="social-icons-hover" role="menu" aria-hidden="true">
+                            <a href="https://www.facebook.com/ChiefElectoralOfficerMaharashtra" title="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/CEO_Maharashtra" title="X" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/Ceo_Maharashtra" title="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCyhH4x59W2SjX_265uYsljQ" title="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-bar">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a href="https://www.eci.gov.in/" class="logo-group">
+                    <img src="/images/eciindia.png" alt="Election Commission Logo" class="logo" />
+                    <div class="logo-text-container d-none d-md-flex">
+                        <span class="logo-text-marathi">Elector Registration</span>
+                        <span class="logo-text-english">Graduates' & Teachers' Constituency</span>
+                        <span class="logo-text-english">2025-2026</span>
+                    </div>
+
+                </a>
+                <a href="https://ceoelection.maharashtra.gov.in/ceo/" class="logo-group">
+                    <img src="/images/ceom.png" alt="Chief Electoral Officer Maharashtra Logo" class="logo" />
+                    <div class="logo-text-container d-none d-md-flex">
+                        <span class="logo-text-marathi">मुख्य निवडणूक अधिकारी, महाराष्ट्र राज्य</span>
+                        <span class="logo-text-english">Chief Electoral Officer, Maharashtra</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <main role="main">
+        <div class="container mt-4">
+            
+
+
+
+
+
+<div class="main-container">
+    <div class="hero-section text-center p-5 bg-light rounded-4 shadow-sm">
+        <h1 class="hero-title mb-3 fw-bold">           
+            Elector Registration <br class="d-md-none" />
+            <span>Graduates' & Teachers' Constituency 2025–2026</span>
+        </h1>
+
+        <p class="hero-subtitle fs-5 mb-2">
+            <i class="fas fa-microphone me-2"></i>
+            <strong>Voice-Based Registration</strong>
+            <span class="mx-3">|</span>
+            <i class="fa-solid fa-cloud me-2"></i>
+            <strong>Fetch Documents & Basic Details via DigiLocker</strong>
+        </p>
+
+        <p class="mb-4" style="max-width: 900px; margin: 0 auto;">
+            This elector registration is being carried out for the preparation of the electoral roll for the election
+            to be held in <strong>2026</strong> for the <strong>Graduates' Constituency</strong> of
+            <em>Nagpur, Pune, and Aurangabad Divisions</em> and the
+            <strong>Teachers' Constituency</strong> of <em>Pune and Amravati Divisions</em>.
+        </p>
+
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered align-middle table-striped visual-table">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th scope="col">Constituencies</th>
+                        <th scope="col">Pune Division</th>
+                        <th scope="col">Aurangabad Division</th>
+                        <th scope="col">Nagpur Division</th>
+                        <th scope="col">Amravati Division</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td class="fw-semibold">Graduates'</td>
+                        <td><i class="fas fa-check text-success fs-5"></i></td>
+                        <td><i class="fas fa-check text-success fs-5"></i></td>
+                        <td><i class="fas fa-check text-success fs-5"></i></td>
+                        <td><i class="fa-solid fa-minus text-muted fs-6"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-semibold">Teachers'</td>
+                        <td><i class="fas fa-check text-success fs-5"></i></td>
+                        <td><i class="fa-solid fa-minus text-muted fs-6"></i></td>
+                        <td><i class="fa-solid fa-minus text-muted fs-6"></i></td>
+                        <td><i class="fas fa-check text-success fs-5"></i></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" class="text-center pt-4 border-0">
+                            <a href="/pdf/instruction.pdf" target="_blank" class="btn btn-outline-primary px-4 py-2 rounded-pill">
+                                <i class="fas fa-question-circle me-2"></i>
+                                Manual
+                            </a>
+                            <a href="/pdf/Instruction_15102025.pdf" target="_blank" class="btn btn-outline-primary px-4 py-2 rounded-pill">
+                                <i class="fas fa-question-circle me-2"></i>
+                                Important Clarification
+                            </a>
+                            <a href="ElectoralRoll" target="_blank"
+                               class="btn btn-outline-primary px-4 py-2 rounded-pill">
+                                <i class="fas fa-question-circle me-2"></i>
+                                Electoral Roll
+                            </a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+
+
+    <div class="login-section">
+        <div class="login-card">
+            <div class="login-type-selector">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ActiveLoginType" id="graduateLoginRadio" value="graduate" checked autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                    <label class="form-check-label" for="graduateLoginRadio">Elector Login</label>
+                </div>
+
+            </div>
+
+          
+            <form method="post" id="mainLoginForm" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+                
+                
+
+                <input type="hidden" id="activeLoginTypeHidden" class="input-validation-error" data-val="true" data-val-required="The ActiveLoginType field is required." name="ActiveLoginType" value="graduate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                <input type="hidden" id="loginNonce" name="LoginNonce" value="gPkr&#x2B;hPM8xBOXDC72lLvFA==" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                <input type="hidden" id="passwordResponse" name="passwordResponse" value="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+
+                <input type="hidden" id="actionHidden" name="_action" value="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+
+                <div id="graduateLoginForm" class="login-form-section active">
+                        <div class="mb-3">
+                            <label class="form-label">Register For</label>
+                            <div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="RegisterFor" id="regForGraduate" value="graduate" checked autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                                    <label class="form-check-label" for="regForGraduate">Graduates' Constituency</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="RegisterFor" id="regForTeacher" value="teacher" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                                    <label class="form-check-label" for="regForTeacher">Teacher</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="teacherFields" style="display:none;">
+                            <div class="mb-3">
+                                <label for="SevarthId" class="form-label">Sevarth ID <small class="text-muted">(optional)</small></label>
+                                <input type="text" name="SevarthId" id="SevarthId" class="form-control" maxlength="200" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                                <div id="sevarthHelp" class="form-text text-muted">If you provide Sevarth ID, DOB will be required for verification.</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="SevarthDob" class="form-label">Date of Birth <small class="text-muted">(optional)</small></label>
+                                <input type="date" name="SevarthDob" id="SevarthDob" class="form-control" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                                <div id="sevarthDobMsg" class="text-danger small" style="display:none;">DOB is required when Sevarth ID is provided.</div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label" for="MobileNumber">Mobile Number</label>
+                            <div class="input-group mb-2">
+                                <span class="input-group-text">+91</span>
+                                <input id="MobileNumberInput" name="MobileNumber" class="form-control" maxlength="10" placeholder="Enter 10-digit mobile number (starts 6-9)" pattern="^[6-9]\d{9}$" title="Enter a valid 10-digit Indian mobile number starting with 6-9" autocomplete="off" type="text" data-val="true" data-val-regex="Enter a valid 10-digit mobile number." data-val-regex-pattern="^[0-9]\d{9}$" data-val-required="The MobileNumber field is required." value="" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                            </div>
+                            <small id="mobileHelp" class="form-text text-muted">An OTP will be sent to your number.</small>
+                            <div id="mobileValidationMsg" class="text-danger small mt-1" style="display:none;">Please enter a valid mobile number (10 digits, starts with 6-9).</div>
+                        </div>
+                        <div class="d-grid mt-4 graduate-submit-wrap">
+                            <button type="submit" name="action" value="sendOtp" class="btn btn-primary shadow-sm" disabled>
+                                <i class="fas fa-paper-plane me-2"></i> Proceed
+                            </button>
+                        </div>
+                </div>
+
+                <div id="instituteLoginForm" class="login-form-section">
+                    <div class="mb-3">
+                        <label class="form-label" for="Username">Username</label>
+                        <input class="form-control" placeholder="Enter your institute username" autocomplete="off" type="text" id="Username" name="Username" value="" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label" for="Password">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password" autocomplete="off" id="Password" name="Password" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                    </div>
+
+                    <div class="d-grid mt-4 institute-submit-wrap">
+                        <button type="submit" name="action" value="instituteLogin" class="btn btn-primary shadow-sm">
+                            <i class="fas fa-building me-2"></i> Login
+                        </button>
+                    </div>
+                </div>
+
+                <div id="sharedCaptchaContainer" class="mb-4" style="display: none;">
+                    <label>Captcha</label>
+                    <div>
+                        <img id="captchaImg" src="/CaptchaImage?ts=639232534644107830" alt="captcha" style="border:1px solid #ddd;height:55px" />
+                        <button type="button" class="btn btn-sm btn-link" onclick="document.getElementById('captchaImg').src='/CaptchaImage?ts=' + new Date().getTime()">Refresh</button>
+                    </div>
+                    <input class="form-control mt-2" autocomplete="off" type="text" data-val="true" data-val-required="The Enter the characters shown field is required." id="CaptchaInput" name="CaptchaInput" value="" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                    <span class="text-danger field-validation-valid" data-valmsg-for="CaptchaInput" data-valmsg-replace="true"></span>
+                </div>
+
+
+
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8J1ZH9VnSGhDvwKg0GqwDHkEKbn751g4C19op_eNcaVDKTeF-OSTpOL2RkeD-I7_l4vVUaBwUPw8QlRzhnG0hFywolPjx1LarrvLIZJ5ZhGomL88zWmlhnpSNgx29KV6dM9xZNMBiufJQnL61yIEg6U" /></form>
+        </div>
+    </div>
+
+
+</div>
+
+
+        </div>
+    </main>
+
+    <footer class="site-footer mt-auto">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12">
+                    <h6>About The Portal</h6>
+                    <p class="text-justify">
+                        This portal, managed by the Office of the Chief Electoral Officer, Maharashtra, is dedicated to facilitating the registration of electors for Graduates' and Teachers' constituencies, ensuring a seamless and transparent process.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://electoralsearch.eci.gov.in/" target="_blank">Search in Electoral Roll</a></li>
+                        <li><a href="https://voters.eci.gov.in/" target="_blank">ECINet - Voter's Service Portal</a></li>
+                        <li><a href="https://ceoelection.maharashtra.gov.in/ceo/" target="_blank">CEO Maharashtra</a></li>
+                        <li><a href="https://www.eci.gov.in/" target="_blank">Election Commission of India</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h6>Follow Us</h6>
+                    <p>Stay updated through our official social media channels.</p>
+                    <ul class="footer-social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/ChiefElectoralOfficerMaharashtra" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="twitter" href="https://x.com/CEO_Maharashtra" target="_blank" aria-label="X"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" href="https://instagram.com/Ceo_Maharashtra" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="youtube" href="https://www.youtube.com/channel/UCyhH4x59W2SjX_265uYsljQ" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container d-flex justify-content-between align-items-center">
+                <p class="copyright-text mb-0">
+                    &copy; 2026 - Designed and Developed by National Informatics Centre (NIC).
+                </p>
+                <p class="version-text text-sm-center mb-0">
+                    Version - V3-17032026.01,  <span id="dbVersion"></span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="externalConfirmModal" tabindex="-1" aria-labelledby="externalConfirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="externalConfirmModalLabel">You are leaving this site</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    You are being redirected to an external website: <strong id="externalConfirmUrl" class="break-word"></strong>
+                    <div class="mt-2 text-muted small">The external site is not controlled by this portal. Do you want to continue?</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="externalConfirmCancel" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" id="externalConfirmProceed" class="btn btn-primary">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo"></script>
+    <script src="/js/flatpickr.js?v=Huqxy3eUcaCwqqk92RwusapTfWlvAasF6p2rxV6FJaE"></script>
+    <script src="/js/jquery-ui.min.js?v=lSjKY0_srUM9BE3dPm-c4fBo1dky2v27Gdjm2uoZaL0"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const trustedDomains = [
+                'www.facebook.com',
+                'x.com',
+                'instagram.com',
+                'www.youtube.com',
+                'ceoelection.maharashtra.gov.in',
+                'www.eci.gov.in',
+                'voters.eci.gov.in',
+                'electoralsearch.eci.gov.in'
+
+            ];
+
+            const modalEl = document.getElementById('externalConfirmModal');
+            if (!modalEl) return;
+            const bsModal = new bootstrap.Modal(modalEl, { backdrop: 'static', keyboard: true });
+            const urlSpan = document.getElementById('externalConfirmUrl');
+            const proceedBtn = document.getElementById('externalConfirmProceed');
+            const cancelBtn = document.getElementById('externalConfirmCancel');
+
+            let pendingExternalHref = null;
+            let pendingExternalTarget = '_blank';
+
+            function isValidExternalRedirect(url) {
+                try {
+                    const parsedUrl = new URL(url, window.location.origin);
+                    if (!['http:', 'https:'].includes(parsedUrl.protocol)) {
+                        return false;
+                    }
+                    return trustedDomains.includes(parsedUrl.hostname);
+                } catch (e) {
+                    return false;
+                }
+            }
+
+            function isExternalLinkAnchor(anchor) {
+                try {
+                    const href = anchor.getAttribute('href') || '';
+                    if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return false;
+                    const linkUrl = new URL(href, location.href);
+                    return linkUrl.hostname !== location.hostname;
+                } catch (e) {
+                    return false;
+                }
+            }
+
+            function handleActivation(ev, activationType) {
+                if (ev.defaultPrevented) return;
+                let el = ev.target;
+                if (activationType === 'keyboard') {
+                    el = document.activeElement || el;
+                }
+                const anchor = el.closest ? el.closest('a') : null;
+                if (!anchor) return;
+                if (anchor.dataset && (anchor.dataset.skipExternalConfirm === 'true' || anchor.dataset.skipExternalConfirm === '1')) return;
+                const hasModifier = ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey;
+                if (hasModifier && activationType !== 'keyboard') return;
+                if (!isExternalLinkAnchor(anchor)) return;
+                ev.preventDefault();
+                ev.stopPropagation();
+                pendingExternalHref = anchor.href;
+                pendingExternalTarget = '_blank';
+                urlSpan.textContent = pendingExternalHref;
+                bsModal.show();
+            }
+
+            document.body.addEventListener('click', (ev) => { if (ev.button === 0) handleActivation(ev, 'mouse'); }, true);
+            document.body.addEventListener('auxclick', (ev) => { if (ev.button === 1) handleActivation(ev, 'aux'); }, true);
+            document.body.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') handleActivation(ev, 'keyboard'); }, true);
+
+            proceedBtn.addEventListener('click', function () {
+                if (!pendingExternalHref) { bsModal.hide(); return; }
+
+                if (!isValidExternalRedirect(pendingExternalHref)) {
+                    console.error('Blocked attempt to open untrusted URL:', pendingExternalHref);
+                    pendingExternalHref = null;
+                    bsModal.hide();
+                    return; 
+                }
+
+                try {
+                    window.open(pendingExternalHref, pendingExternalTarget, 'noopener,noreferrer');
+                } catch (e) {
+                    window.location.href = pendingExternalHref;
+                } finally {
+                    pendingExternalHref = null;
+                    bsModal.hide();
+                }
+            });
+
+            cancelBtn.addEventListener('click', () => { pendingExternalHref = null; bsModal.hide(); });
+            modalEl.addEventListener('hidden.bs.modal', () => { pendingExternalHref = null; });
+        });
+    </script>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.getElementById('mainNavbar');
+            if (navbar) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 50) {
+                        navbar.classList.add('scrolled');
+                    } else {
+                        navbar.classList.remove('scrolled');
+                    }
+                });
+            }
+
+            const toggler = document.querySelector('.navbar-toggler');
+            const collapseEl = document.getElementById('gecNavbar');
+            if (toggler && collapseEl) {
+                collapseEl.addEventListener('show.bs.collapse', () => {
+                    toggler.classList.add('open');
+                    toggler.querySelectorAll('.bar').forEach((b, i) => {
+                        if (i === 0) b.style.transform = 'translateY(6px) rotate(45deg)';
+                        if (i === 1) b.style.opacity = '0';
+                        if (i === 2) b.style.transform = 'translateY(-6px) rotate(-45deg)';
+                    });
+                });
+                collapseEl.addEventListener('hide.bs.collapse', () => {
+                    toggler.classList.remove('open');
+                    toggler.querySelectorAll('.bar').forEach((b) => {
+                        b.style.transform = '';
+                        b.style.opacity = '1';
+                    });
+                });
+            }
+        });
+    </script>
+
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const password = document.getElementById('password'); // ensure your password input has id="password"
+            const confirmPassword = document.getElementById('confirmPassword');
+            const pwdBtn = document.getElementById('passwordLoginBtn');
+            const pwdError = document.getElementById('passwordError');
+            const confirmError = document.getElementById('confirmPasswordError');
+
+            if (!password || !pwdBtn) return;
+
+            const pwdRegex = /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}/;
+
+            // touched flags: control whether to show validation UI
+            let passwordTouched = false;
+            let confirmTouched = false;
+
+            function showPasswordError(message) {
+                if (pwdError) { pwdError.style.display = 'block'; pwdError.textContent = message; }
+                password.setAttribute('aria-invalid', 'true');
+                password.classList.add('is-invalid');
+            }
+            function clearPasswordError() {
+                if (pwdError) { pwdError.style.display = 'none'; pwdError.textContent = ''; }
+                password.removeAttribute('aria-invalid');
+                password.classList.remove('is-invalid');
+            }
+
+            function validatePasswordField() {
+                const val = password.value || '';
+                const isValid = pwdRegex.test(val);
+
+                // if user hasn't interacted, do not show errors, but return validity
+                if (!passwordTouched) {
+                    clearPasswordError();
+                    return isValid;
+                }
+
+                // only show errors after touched
+                if (!isValid) {
+                    showPasswordError('Password must be at least 8 characters and include uppercase, lowercase, number & special character.');
+                    return false;
+                } else {
+                    clearPasswordError();
+                    return true;
+                }
+            }
+
+            function showConfirmError(message) {
+                if (confirmError) { confirmError.style.display = 'block'; confirmError.textContent = message; }
+                confirmPassword.setAttribute('aria-invalid', 'true');
+                confirmPassword.classList.add('is-invalid');
+            }
+            function clearConfirmError() {
+                if (confirmError) { confirmError.style.display = 'none'; confirmError.textContent = ''; }
+                confirmPassword.removeAttribute('aria-invalid');
+                confirmPassword.classList.remove('is-invalid');
+            }
+
+            function validateConfirmField() {
+                if (!confirmPassword) return true;
+                const pwdVal = password.value || '';
+                const confVal = confirmPassword.value || '';
+                const isMatch = pwdVal === confVal && confVal !== '';
+
+                // if not touched, hide errors
+                if (!confirmTouched) {
+                    clearConfirmError();
+                    return isMatch;
+                }
+
+                if (confVal === '') {
+                    clearConfirmError();
+                    return false;
+                }
+
+                if (!isMatch) {
+                    showConfirmError('Passwords do not match.');
+                    return false;
+                } else {
+                    clearConfirmError();
+                    return true;
+                }
+            }
+
+            function toggleSubmit() {
+                const validPwd = validatePasswordField();
+                const validConfirm = validateConfirmField();
+                const confirmOk = confirmPassword ? validConfirm : true;
+                pwdBtn.disabled = !(validPwd && confirmOk);
+            }
+
+            // Mark as touched on first input or on blur (so errors show after user interacts)
+            password.addEventListener('input', function () {
+                if (!passwordTouched) passwordTouched = true;
+                validatePasswordField();
+                if (confirmPassword) validateConfirmField();
+                toggleSubmit();
+            });
+            password.addEventListener('blur', function () {
+                if (!passwordTouched) passwordTouched = true;
+                validatePasswordField();
+                toggleSubmit();
+            });
+
+            if (confirmPassword) {
+                confirmPassword.addEventListener('input', function () {
+                    if (!confirmTouched) confirmTouched = true;
+                    validateConfirmField();
+                    toggleSubmit();
+                });
+                confirmPassword.addEventListener('blur', function () {
+                    if (!confirmTouched) confirmTouched = true;
+                    validateConfirmField();
+                    toggleSubmit();
+                });
+            }
+
+            // safety: prevent submission when disabled
+            pwdBtn.addEventListener('click', function (e) {
+                if (pwdBtn.disabled) e.preventDefault();
+            });
+
+            // initial state: disable submit but do NOT show errors
+            pwdBtn.disabled = true;
+        });
+    </script>
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const graduateRadio = document.getElementById('graduateLoginRadio');
+            const instituteRadio = document.getElementById('instituteLoginRadio');
+            const instituteTab = document.getElementById('instituteTab');
+            const mainForm = document.getElementById('mainLoginForm');
+
+            const graduateForm = document.getElementById('graduateLoginForm');
+            const instituteForm = document.getElementById('instituteLoginForm');
+
+            const sharedCaptchaContainer = document.getElementById('sharedCaptchaContainer');
+            const activeHidden = document.getElementById('activeLoginTypeHidden');
+            const actionHidden = document.getElementById('actionHidden');
+
+            function syncActiveLoginType() {
+                const checked = document.querySelector('input[name="ActiveLoginType"]:checked');
+                const val = checked ? checked.value : 'graduate';
+                if (activeHidden) activeHidden.value = val;
+            }
+
+            syncActiveLoginType();
+            graduateRadio.addEventListener('change', syncActiveLoginType);
+            if (instituteRadio) instituteRadio.addEventListener('change', syncActiveLoginType);
+
+            const isOtpSent = ('False').toLowerCase() === 'true';
+            const lastActiveTab = 'graduate';
+
+            async function sha256Hex(msg) {
+                const enc = new TextEncoder();
+                const data = enc.encode(msg);
+                const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+            }
+            if (document.getElementById('regForGraduate')) {
+
+        (function () {
+            const regGraduate = document.getElementById('regForGraduate');
+            const regTeacher = document.getElementById('regForTeacher');
+            const regBoth = document.getElementById('regForBoth');
+            const teacherFields = document.getElementById('teacherFields');
+            const sevarthInput = document.getElementById('SevarthId');
+            const sevarthDobInput = document.getElementById('SevarthDob');
+            const sevarthDobMsg = document.getElementById('sevarthDobMsg');
+
+            function isTeacherSelected() {
+                const checked = document.querySelector('input[name="RegisterFor"]:checked');
+                return checked && (checked.value === 'teacher' || checked.value === 'both');
+            }
+
+            /*function updateTeacherFieldsVisibility() {
+                if (isTeacherSelected()) {
+                    teacherFields.style.display = 'block';
+                } else {
+                    teacherFields.style.display = 'none';
+                    if (sevarthInput) sevarthInput.value = sevarthInput.value || sevarthInput.value;
+                    if (sevarthDobInput) {
+                        sevarthDobInput.value = '';
+                        sevarthDobInput.required = false;
+                    }
+                    if (sevarthDobMsg) sevarthDobMsg.style.display = 'none';
+                }
+            }
+
+            function updateDobRequirement() {
+                const hasSevarth = sevarthInput && sevarthInput.value.trim().length > 0;
+                if (sevarthDobInput) {
+                    sevarthDobInput.required = !!hasSevarth;
+                }
+                if (sevarthDobMsg) {
+                    sevarthDobMsg.style.display = 'none';
+                }
+            }*/
+
+            [regGraduate, regTeacher, regBoth].forEach(el => {
+                if (el) el.addEventListener('change', () => {
+                    //updateTeacherFieldsVisibility();
+                    //updateDobRequirement();
+                });
+            });
+
+            /*if (sevarthInput) sevarthInput.addEventListener('input', updateDobRequirement);
+            if (sevarthDobInput) sevarthDobInput.addEventListener('input', () => {
+                if (sevarthDobMsg) sevarthDobMsg.style.display = 'none';
+            });*/
+
+
+            if (mainForm) {
+                mainForm.addEventListener('submit', function (e) {
+                    try {
+                        const isInstitute = document.getElementById('instituteLoginRadio') && document.getElementById('instituteLoginRadio').checked;
+                        if (isInstitute) return;
+
+                        if (!isTeacherSelected()) return;
+
+                        const sevarthVal = sevarthInput ? sevarthInput.value.trim() : '';
+                        const dobVal = sevarthDobInput ? sevarthDobInput.value : '';
+
+                        if (sevarthVal && !dobVal) {
+                            e.preventDefault();
+                            if (sevarthDobMsg) sevarthDobMsg.style.display = 'block';
+                            if (sevarthDobInput) sevarthDobInput.focus();
+                            return false;
+                        }
+
+                    } catch (err) {
+                        console.error('RegisterFor validation error', err);
+                        return;
+                    }
+                }, { passive: false });
+            }
+
+            //updateTeacherFieldsVisibility();
+            //updateDobRequirement();
+        })();
+        }
+
+            if (mainForm) {
+                mainForm.addEventListener('submit', async function (e) {
+                    syncActiveLoginType();
+
+                    const isInstitute = document.getElementById('instituteLoginRadio') && document.getElementById('instituteLoginRadio').checked;
+                    if (!isInstitute) return;
+
+                    e.preventDefault();
+
+                    const pwdInput = document.querySelector('input[name="Password"]') || document.querySelector('input[asp-for="Password"]');
+                    if (!pwdInput) {
+                        mainForm.submit();
+                        return;
+                    }
+
+                    const password = pwdInput.value || '';
+                    const nonce = document.getElementById('loginNonce')?.value || '';
+
+                    try {
+                        const H = await sha256Hex(password);
+                        const R = await sha256Hex(H + nonce);
+
+                        document.getElementById('passwordResponse').value = R;
+                        pwdInput.value = '';
+
+                        if (actionHidden) {
+                            actionHidden.name = 'action';
+                            actionHidden.value = 'instituteLogin';
+                        }
+
+                        mainForm.submit();
+                    } catch (err) {
+                        console.error('Login hashing error', err);
+                        mainForm.submit();
+                    }
+                });
+            }
+
+                    function placeCaptchaForGraduate() {
+            if (isOtpSent) {
+                removeCaptchaFromDom();
+                return;
+            }
+            const submitWrap = graduateForm.querySelector('.graduate-submit-wrap');
+            if (!submitWrap) return;
+
+            sharedCaptchaContainer.style.display = 'block';
+        $(submitWrap).before(sharedCaptchaContainer);
+
+            let checkboxWrap = document.getElementById('confirmPersonalNumberWrap');
+            if (!checkboxWrap) {
+                checkboxWrap = document.createElement('div');
+                checkboxWrap.className = 'form-check mb-3';
+                checkboxWrap.id = 'confirmPersonalNumberWrap';
+                checkboxWrap.innerHTML = `
+                    <input class="form-check-input" style=" accent-color: black;" type="checkbox" id="confirmPersonalNumber" />
+                    <label class="form-check-label" for="confirmPersonalNumber">
+                        I confirm this is my personal mobile number; it will be used only once for registration.
+                    </label>
+                `;
+            }
+
+            submitWrap.parentNode.insertBefore(checkboxWrap, submitWrap);
+
+            const sendBtn = submitWrap.querySelector('button[value="sendOtp"]');
+            const chk = document.getElementById('confirmPersonalNumber');
+            const mobileInput = document.getElementById('MobileNumberInput');
+            const mobileMsg = document.getElementById('mobileValidationMsg');
+
+            function isValidIndianMobile(val) {
+                if (!val) return false;
+                const digits = val.replace(/\D/g, '');
+                return /^[6-9]\d{9}$/.test(digits);
+            }
+
+            function updateSendButtonState() {
+                const mobileVal = mobileInput ? mobileInput.value.trim() : '';
+                const mobileOk = isValidIndianMobile(mobileVal);
+                if (mobileMsg) mobileMsg.style.display = mobileOk ? 'none' : (mobileVal ? 'block' : 'none');
+                if (sendBtn) sendBtn.disabled = !(chk && chk.checked && mobileOk);
+            }
+
+            if (sendBtn) sendBtn.disabled = true;
+
+            if (chk) {
+                chk.removeEventListener('change', updateSendButtonState);
+                chk.addEventListener('change', updateSendButtonState);
+            }
+            if (mobileInput) {
+                mobileInput.removeEventListener('input', updateSendButtonState);
+                mobileInput.addEventListener('input', updateSendButtonState);
+                mobileInput.addEventListener('blur', updateSendButtonState);
+            }
+
+            setTimeout(updateSendButtonState, 50);
+        }
+
+
+            function placeCaptchaForInstitute() {
+                const submitWrap = instituteForm.querySelector('.institute-submit-wrap');
+                if (!submitWrap) return;
+                sharedCaptchaContainer.style.display = 'block';
+                submitWrap.parentNode.insertBefore(sharedCaptchaContainer, submitWrap);
+            }
+
+            function removeCaptchaFromDom() {
+                if (sharedCaptchaContainer && sharedCaptchaContainer.parentNode) {
+                    sharedCaptchaContainer.parentNode.removeChild(sharedCaptchaContainer);
+                }
+
+                const checkboxWrap = document.getElementById('confirmPersonalNumberWrap');
+                if (checkboxWrap && checkboxWrap.parentNode) {
+                    checkboxWrap.parentNode.removeChild(checkboxWrap);
+                }
+            }
+
+            function toggleForms() {
+                if (graduateRadio.checked) {
+                    graduateForm.classList.add('active');
+                    instituteForm.classList.remove('active');
+                    instituteForm.querySelectorAll('input').forEach(input => input.required = false);
+
+                    if (!isOtpSent) {
+                        placeCaptchaForGraduate();
+                    } else {
+                        removeCaptchaFromDom();
+                    }
+                } else {
+                    graduateForm.classList.remove('active');
+                    instituteForm.classList.add('active');
+                    instituteForm.querySelectorAll('input').forEach(input => input.required = true);
+
+                    placeCaptchaForInstitute();
+                }
+            }
+
+            graduateRadio.addEventListener('change', toggleForms);
+            if (instituteRadio) instituteRadio.addEventListener('change', toggleForms);
+
+            if (lastActiveTab === 'institute' && instituteRadio && !instituteRadio.disabled) {
+                instituteRadio.checked = true;
+            } else {
+                graduateRadio.checked = true;
+            }
+
+            toggleForms();
+
+            const sendOtpBtn = document.querySelector('button[value="sendOtp"]');
+            if (sendOtpBtn) {
+                sendOtpBtn.addEventListener('click', function () {
+                    const instTab = document.getElementById('instituteTab');
+                    if (instTab) instTab.style.display = 'none';
+                });
+            }
+
+            const startTimers = () => {
+                const otpTimerEl = document.getElementById('otp-timer');
+                const resendBtn = document.getElementById('resendBtn');
+                if (!otpTimerEl || !resendBtn) return;
+
+                let otpTimeLeft = 120;
+                let resendTimeLeft = 30;
+                resendBtn.disabled = true;
+
+                const otpInterval = setInterval(() => {
+                    otpTimeLeft--;
+                    const minutes = Math.floor(otpTimeLeft / 60).toString().padStart(2, '0');
+                    const seconds = (otpTimeLeft % 60).toString().padStart(2, '0');
+                    otpTimerEl.textContent = `${minutes}:${seconds}`;
+
+                    if (otpTimeLeft <= 0) {
+                        clearInterval(otpInterval);
+                        otpTimerEl.textContent = "OTP Expired";
+                        const loginButton = document.querySelector('button[value="verifyOtp"]');
+                        if (loginButton) loginButton.disabled = true;
+                    }
+                }, 1000);
+
+                resendBtn.textContent = `Resend OTP (${resendTimeLeft}s)`;
+                const resendInterval = setInterval(() => {
+                    resendTimeLeft--;
+                    if (resendTimeLeft > 0) {
+                        resendBtn.textContent = `Resend OTP (${resendTimeLeft}s)`;
+                    } else {
+                        clearInterval(resendInterval);
+                        resendBtn.textContent = 'Resend OTP';
+                        resendBtn.disabled = false;
+                    }
+                }, 1000);
+            };
+             const constituencyModal = document.getElementById('constituencyModal');
+            const modalConfirmBtn = document.getElementById('modalConfirmBtn');
+            const modalCancelBtn = document.getElementById('modalCancelBtn');
+            const modalCloseBtn = document.getElementById('modalCloseBtn');
+            const constituencyListDiv = document.getElementById('constituencyList');
+
+            const regForRadios = document.querySelectorAll('input[name="RegisterFor"]');
+
+            let selectedRadio = null;
+            let previousRadioValue = document.querySelector('input[name="RegisterFor"]:checked')?.value;
+
+          /*  const showConstituencyModal = async (type) => {
+                const modalLoaderHtml = '<h6>Loading active constituencies...</h6>';
+                const noConstituenciesHtml = '<p>There are currently no active registrations for this category. Please select another option.</p>';
+                const errorHtml = '<p class="text-danger">Could not load constituency data. Please try again later.</p>';
+
+                const requestVerificationToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+                const url = `?handler=Constituencies&type=${type}`;
+
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'RequestVerificationToken': requestVerificationToken
+                    }
+                });
+
+                if (!response.ok) {
+                    constituencyListDiv.innerHTML = errorHtml;
+                    modalConfirmBtn.style.display = 'none';
+                    return;
+                }
+
+                const data = await response.json();
+                let listHtml = '';
+
+                // if (data.graduate && data.graduate.length > 0) {
+                //     listHtml += '<h6>Graduate Constituencies:</h6><ul>';
+                //     data.graduate.forEach(name => {
+                //         listHtml += `<li>${name}</li>`;
+                //     });
+                //     listHtml += '</ul>';
+                // }
+
+                if (data.teacher && data.teacher.length > 0) {
+                    listHtml += '<h6>Teacher Constituencies:</h6><ul>';
+                    data.teacher.forEach(name => {
+                        listHtml += `<li>${name}</li>`;
+                    });
+                    listHtml += '</ul>';
+                }
+
+                if (listHtml === '') {
+                    constituencyListDiv.innerHTML = noConstituenciesHtml;
+                    modalConfirmBtn.style.display = 'none';
+                } else {
+                    constituencyListDiv.innerHTML = listHtml;
+                    modalConfirmBtn.style.display = 'inline-block';
+                }
+
+                constituencyModal.style.display = 'flex';
+            };
+
+
+            regForRadios.forEach(radio => {
+                radio.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    selectedRadio = e.target;
+
+                    constituencyListDiv.innerHTML = '<h6>Loading...</h6>';
+                    constituencyModal.style.display = 'flex';
+
+                    showConstituencyModal(selectedRadio.value);
+                });
+            });
+
+            const closeModal = () => {
+                constituencyModal.style.display = 'none';
+                regForRadios.forEach(r => {
+                    if (r.value === previousRadioValue) {
+                        r.checked = true;
+                    }
+                });
+            };
+
+            modalConfirmBtn.addEventListener('click', () => {
+                if (selectedRadio) {
+                    selectedRadio.checked = true;
+                    previousRadioValue = selectedRadio.value;
+
+                    const changeEvent = new Event('change', { bubbles: true });
+                    selectedRadio.dispatchEvent(changeEvent);
+                }
+                constituencyModal.style.display = 'none';
+            });
+
+            modalCancelBtn.addEventListener('click', closeModal);
+            modalCloseBtn.addEventListener('click', closeModal);*/
+
+            if (isOtpSent) {
+                startTimers();
+            }
+        });
+    </script>
+
+   
+
+    <script>
+        fetch('/api/DbVersion')
+          .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.json();
+          })
+          .then(data => {
+            document.getElementById('dbVersion').textContent = data.version || '';
+          })
+          .catch(error => {
+            // On error, leave blank
+            document.getElementById('dbVersion').textContent = '';
+            console.error('Failed to fetch DB version:', error);
+          });
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "internationalization_description",
+      "value": "Internationalization is diverse. It requires a variety of offerings to reach all members of the university and to do justice to the diversity of the academic community.",
+      "original_value": "Internationalisierung ist vielgestaltig. Es bedarf vielfältiger Angebote, um möglichst alle Angehörigen der Universität zu erreichen und der Diversität der akademischen Gemeinschaft gerecht zu werden.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "study_abroad_description",
+      "value": "The exchange semester remains the most intensive form of international experience for students and teaching staff, but it is no longer the exclusive form.",
+      "original_value": "Das Austauschsemester ist zwar weiterhin die intensivste, aber nicht mehr die ausschließliche Form der Auslandserfahrung für Studierende und Lehrende.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "short_term_offers",
+      "value": "Short-term offerings of all kinds, international offers 'at home', and internationalized digital course elements can enrich the study experience of all disciplines.",
+      "original_value": "Kurzzeitangebote aller Art, internationale Angebote „@home“ sowie internationalisierte digitale Kurselemente können den Studienalltag aller Disziplinen bereichern.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

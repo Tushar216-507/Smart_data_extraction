@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "general_entrance_qualification",
+      "value": "General Higher Education Entrance Qualification",
+      "original_value": "Allgemeine Hochschulreife (Abitur)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "general",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "specialized_variants",
+      "value": "Specialized variants allow for admission to particular disciplines",
+      "original_value": "Spezialisierte Varianten (Fachgebundende Hochschulreife) erlauben die Zulassung zu bestimmten Fachrichtungen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "specialized",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "fachhochschulreife_access",
+      "value": "Access to Fachhochschulen is possible with a Fachhochschulreife",
+      "original_value": "Der Zugang zu Fachhochschulen (UAS) ist auch möglich mit einer Fachhochschulreife.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Fachhochschulreife",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "admission_procedures",
+      "value": "Higher Education Institutions may apply additional admission procedures",
+      "original_value": "Hochschulen können in bestimmten Fällen zusätzliche Zulassungsverfahren anwenden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "additional",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

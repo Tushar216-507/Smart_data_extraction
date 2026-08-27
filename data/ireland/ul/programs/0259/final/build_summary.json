@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0259",
+  "program_name": "Law, Human Rights in Criminal Justice (Online) - LLM / MA",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0259\\final",
+  "input_fact_count": 35,
+  "unique_fact_count": 35,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 35,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 35,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 12,
+    "admission": 3,
+    "curriculum": 10,
+    "career": 3,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 0,
+    "housing": 1,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0259\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0259\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0259\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0259\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0259\\final\\fees_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0259\\final\\student_life_data.json",
+    "housing": "data\\ireland\\ul\\programs\\0259\\final\\housing_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0259\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0259\\final\\build_summary.json"
+  }
+}

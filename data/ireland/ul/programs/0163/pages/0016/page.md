@@ -1,0 +1,9 @@
+## Mike Vriesema
+
+I am currently working as a Security Delivery Specialist at Accenture, a global professional services company. Throughout my journey here, I've been immersed in a diverse array of projects, all of which have been centred around bolstering security for our clients. These experiences have been enriched by the skills I cultivated during my time at UL's comprehensive course.
+
+My time at Accenture has not only provided invaluable exposure but also a platform for continuous learning. Starting out, I must admit, I felt a tad unprepared, but I was pleasantly surprised by how seamlessly my academic knowledge from UL integrated into the industry landscape.
+
+During my Co-Op tenure at Kemp Technologies in Limerick, I had the privilege of honing my soft skills and deepening my understanding of networks. A highlight of this period was the creation of my very own extensive virtual lab, crafted from scratch to facilitate hands-on practice.
+
+My academic journey at UL, specifically in Cyber Security & IT Forensics, laid a robust groundwork across various pivotal aspects within the security and technology realms. The course is designed to be forward-looking, in sync with the latest trends, and aligned with the ongoing global security landscape.

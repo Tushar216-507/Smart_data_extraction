@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0282",
+  "program_name": "Bachelor of Science in Applied Physics",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0282\\final",
+  "input_fact_count": 114,
+  "unique_fact_count": 114,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 114,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 114,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 8,
+    "admission": 58,
+    "curriculum": 1,
+    "career": 2,
+    "fees": 21,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 3,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 21
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0282\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0282\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0282\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0282\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0282\\final\\fees_data.json",
+    "research": "data\\ireland\\ul\\programs\\0282\\final\\research_data.json",
+    "other": "data\\ireland\\ul\\programs\\0282\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0282\\final\\build_summary.json"
+  }
+}

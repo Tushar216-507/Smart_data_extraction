@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_timing",
+      "field": "application_open_date",
+      "value": "July 1",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_timing",
+      "field": "priority_admission_date",
+      "value": "November 1",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_timing",
+      "field": "regular_admission_date",
+      "value": "January 15",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_requirements",
+      "field": "additional_information_needed",
+      "value": "nonrefundable application fee, self-report high school grades or send high school transcripts",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "test_scores",
+      "field": "act_sat_requirement",
+      "value": "not required for admission, but may be submitted for course placement or supplemental information",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "course_deficiency",
+      "field": "deficiency_policy",
+      "value": "ASU may grant admission with one deficiency in no more than two competency areas; deficiencies cannot be in both math and laboratory science, and students must earn at least a 2.00 in each subject area",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "high_school_equivalency",
+      "field": "ged_recognition",
+      "value": "ASU recognizes approved high school equivalency credentials, but applicants may still need to meet course competency and aptitude requirements",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    }
+  ]
+}

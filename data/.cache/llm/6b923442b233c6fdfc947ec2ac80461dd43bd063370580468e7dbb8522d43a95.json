@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "cancelation",
+      "field": "housing_assignment_cancellation",
+      "value": "Any housing assignment will also be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "cancelation",
+      "field": "financial_aid_cancellation",
+      "value": "Any financial aid (including scholarships) will also be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibility",
+      "field": "nonrefundable_housing_charges",
+      "value": "You may still be responsible for nonrefundable housing charges.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibility",
+      "field": "other_university_charges",
+      "value": "You may still be responsible for other university charges you may already owe.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "account_check",
+      "field": "my_asu_link",
+      "value": "Sign in to My ASU to check your account or pay any charges.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    }
+  ]
+}

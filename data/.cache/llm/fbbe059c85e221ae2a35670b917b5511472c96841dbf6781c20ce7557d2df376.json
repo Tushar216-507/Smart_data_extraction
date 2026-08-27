@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "official_program_name",
+      "value": "Southeast Asian Studies",
+      "original_value": "Southeast Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "ab WS 2017/18",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 12,
+      "original_value": "12 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodul: SEAS 5 (Variante 1)",
+      "original_value": "Wahlpflichtmodul: SEAS 5 (Variante 1)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5",
+        "name": "Wahlpflichtmodul: SEAS 5 (Variante 1)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "standard_duration",
+      "value": {
+        "min_semesters": 6,
+        "max_semesters": 8
+      },
+      "original_value": "mindestens sechs und höchstens acht Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "Bachelor's degree"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "standard_duration",
+      "value": {
+        "min_semesters": 2,
+        "max_semesters": 4
+      },
+      "original_value": "mindestens zwei und höchstens vier Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "Master's degree"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": {
+        "min_credits": 180,
+        "max_credits": 240
+      },
+      "original_value": "mindestens 180 Kreditpunkte (nachfolgend CP) und maximal 240 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "Bachelor's degree"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": {
+        "total_credits": 300
+      },
+      "original_value": "300 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "Master's degree"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "regulation",
+      "value": {
+        "max_additional_credits": 37,
+        "max_semester_extension": 1
+      },
+      "original_value": "verlängert sich die Regelstudienzeit um ein Semester, bei Auflagen von mehr als 37 CP bis höchstens 60 CP um zwei Semester.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "conditions": "additional credits for equivalency"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "part_time_study_availability",
+      "value": true,
+      "original_value": "ganz oder teilweise als Teilzeitstudium möglich",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": null,
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "part_time_study_conditions",
+      "value": "special rules apply",
+      "original_value": "besondere Regelstudienzeiten, die in den studiengangsspezifischen Ordnungen festzulegen sind",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "part-time study"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

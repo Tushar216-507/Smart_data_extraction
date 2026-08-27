@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "program_id": "0029",
+    "page_id": "unknown",
+    "document_id": "source",
+    "source_filename": "source.pdf",
+    "source_pdf": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+    "document_data": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\extracted\\document_data.json",
+    "evidence_file": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "identity": {
+    "university_name": "asu",
+    "program_name": "Online Master of Arts in Special Education – Applied Behavior Analysis"
+  },
+  "extraction": {
+    "extractor": "PDFFactExtractor",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.0,
+    "max_tokens": 12000,
+    "generated_at": "2026-08-26T08:42:50Z",
+    "output_file": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\facts\\pdf_program_facts.json"
+  },
+  "summary": {
+    "evidence_chunks_available": 7,
+    "evidence_chunks_processed": 7,
+    "successful_chunks": 7,
+    "failed_chunks": 0,
+    "chunks_with_facts": 1,
+    "facts_before_deduplication": 2,
+    "exact_duplicates_removed": 0,
+    "facts_written": 2,
+    "unique_pages_referenced": 2,
+    "page_numbers": [
+      2,
+      3
+    ]
+  },
+  "distribution": {
+    "by_category": {
+      "overview": 2
+    },
+    "by_field": {
+      "demand": 1,
+      "description": 1
+    },
+    "by_entity_type": {
+      "program": 2
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "pdf_source_0001_2988be992a76",
+      "category": "overview",
+      "field": "description",
+      "value": "Demand for behavior analysts continues to grow. Annual nationwide demand for individuals holding BCBA or BCBA-D certification has increased each year since 2010, with a 28% increase from 2024 to 2025.",
+      "original_value": "Demand for behavior analysts continues to grow. Annual nationwide demand for individuals holding BCBA or BCBA-D certification has increased each year since 2010, with a 28% increase from 2024 to 2025.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "Online Master of Arts in Special Education – Applied Behavior Analysis"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "asu"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0029",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "document_data": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "Key Findings",
+        "section_type": "general",
+        "pages": [
+          2,
+          3
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "460532536e840c96b85c8cc5a153738a917456993a939e4eadaf1c837e2acaa9"
+      },
+      "evidence": {
+        "text": "# Key Findings\n\n· Demand for behavior analysts continues to grow. Annual nationwide demand for individuals\nholding BCBA or BCBA-D certification has increased each year since 2010, with a 28% increase\nfrom 2024 to 2025. Demand was highest in five states in 2025 (ordered from most to least):\nCalifornia, New Jersey, Texas, Massachusetts, and North Carolina. These five states account for\n38% of the recent demand for behavior analysts, with California alone accounting for 15% of the\n2025 demand.\n\n· The demand for assistant behavior analysts decreased in 2025. After a significant 131%\nincrease in demand from 2023 to 2024, the demand for BCaBA certification decreased\nbetween 2024 and 2025; however, there is still an overall increasing trend for BCaBA\ncertification demand since 2010. Demand was highest in five states in 2025 (ordered from\nmost to least): California, Florida, Michigan, Texas, and Pennsylvania. These five states account\nfor 43% of the recent demand for assistant behavior analysts, with California alone accounting\nfor 15% of the 2025 demand.\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 1 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"2010-2025\" -->\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "Key Findings",
+        "section_type": "general",
+        "pages": [
+          2,
+          3
+        ],
+        "content_sha256": "460532536e840c96b85c8cc5a153738a917456993a939e4eadaf1c837e2acaa9"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0002_d106f1e10488",
+      "category": "overview",
+      "field": "demand",
+      "value": "Demand for assistant behavior analysts decreased in 2025. After a significant 131% increase in demand from 2023 to 2024, the demand for BCaBA certification decreased between 2024 and 2025; however, there is still an overall increasing trend for BCaBA certification demand since 2010.",
+      "original_value": "The demand for assistant behavior analysts decreased in 2025. After a significant 131% increase in demand from 2023 to 2024, the demand for BCaBA certification decreased between 2024 and 2025; however, there is still an overall increasing trend for BCaBA certification demand since 2010.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "Online Master of Arts in Special Education – Applied Behavior Analysis"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "asu"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0029",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\united_states\\asu\\programs\\0029\\pages\\0001\\assets\\source.pdf",
+        "document_data": "data\\united_states\\asu\\programs\\0029\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "Key Findings",
+        "section_type": "general",
+        "pages": [
+          2,
+          3
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "460532536e840c96b85c8cc5a153738a917456993a939e4eadaf1c837e2acaa9"
+      },
+      "evidence": {
+        "text": "# Key Findings\n\n· Demand for behavior analysts continues to grow. Annual nationwide demand for individuals\nholding BCBA or BCBA-D certification has increased each year since 2010, with a 28% increase\nfrom 2024 to 2025. Demand was highest in five states in 2025 (ordered from most to least):\nCalifornia, New Jersey, Texas, Massachusetts, and North Carolina. These five states account for\n38% of the recent demand for behavior analysts, with California alone accounting for 15% of the\n2025 demand.\n\n· The demand for assistant behavior analysts decreased in 2025. After a significant 131%\nincrease in demand from 2023 to 2024, the demand for BCaBA certification decreased\nbetween 2024 and 2025; however, there is still an overall increasing trend for BCaBA\ncertification demand since 2010. Demand was highest in five states in 2025 (ordered from\nmost to least): California, Florida, Michigan, Texas, and Pennsylvania. These five states account\nfor 43% of the recent demand for assistant behavior analysts, with California alone accounting\nfor 15% of the 2025 demand.\n\n<!-- PageFooter=\"Updated 01/2026\" -->\n<!-- PageNumber=\"- 1 -\" -->\n<!-- PageFooter=\"@ 2026, BACB® | All rights reserved\" -->\n<!-- PageBreak -->\n\n<!-- PageHeader=\"2010-2025\" -->\n<!-- PageHeader=\"US EMPLOYMENT DEMAND FOR BEHAVIOR ANALYSTS\" -->",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "Key Findings",
+        "section_type": "general",
+        "pages": [
+          2,
+          3
+        ],
+        "content_sha256": "460532536e840c96b85c8cc5a153738a917456993a939e4eadaf1c837e2acaa9"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    }
+  ],
+  "chunk_results": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    }
+  ],
+  "failed_chunks": [],
+  "quality": {
+    "all_facts_have_ids": true,
+    "all_facts_have_values": true,
+    "all_facts_have_sources": true,
+    "all_facts_have_chunk_ids": true,
+    "all_facts_have_content_hashes": true,
+    "page_traceability_available": true,
+    "partial_extraction": false
+  }
+}

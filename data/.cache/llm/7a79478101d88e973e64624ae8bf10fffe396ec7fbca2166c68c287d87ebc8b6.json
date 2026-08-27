@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_steps",
+      "value": "Provide information about yourself, select your program and start date, tell us about your school history, report your grades or notify ASU that you’ll send a transcript, help determine your Arizona residency, review and submit your application.",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_requirements",
+      "field": "high_school_grades_requirement",
+      "value": "Applicants are not required to self-report high school grades, but self-reporting grades expedites the admission decision.",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_requirements",
+      "field": "transcripts_requirement",
+      "value": "If you don’t self-report your grades, then you’ll need to send your official transcripts.",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_requirements",
+      "field": "future_high_school_students_requirement",
+      "value": "Future-dated high school students must submit all anticipated senior year courses and expected grades.",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    }
+  ]
+}

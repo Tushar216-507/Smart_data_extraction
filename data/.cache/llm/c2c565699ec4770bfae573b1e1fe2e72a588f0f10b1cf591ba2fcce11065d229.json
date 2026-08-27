@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "uni_frankfurt",
+      "original_value": "uni_frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0035",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Curatorial Studies - Theory - History - Criticism",
+      "original_value": "Curatorial Studies - Theory - History - Criticism",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0035",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

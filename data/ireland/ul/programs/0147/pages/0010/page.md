@@ -1,0 +1,29 @@
+Teachers in Ireland and abroad who are interested in leadership in international contexts can gain a professional qualification in leadership through UL’s Master of Education in Educational Leadership (International).
+
+This two year, fully online programme supports you to deepen your understanding of educational leadership and enhance your leadership practice.
+
+It is designed to help you lead with integrity, empathy and purpose in all educational settings.
+
+It provides teachers with the knowledge, skills and competencies to support their career progression towards Assistant Principal, Deputy Principal and Principal posts.
+
+It fosters your ongoing professional growth and personal development as reflective and resilient leaders.
+
+The programme builds on your experience of international educational systems and enhances your professional skills in a supportive learning environment.
+
+During this programme, you will
+
+Examine the dynamics of leading learning and teaching by engaging with theories and practices of instructional leadership.
+
+Build advanced knowledge of educational leadership through study of leadership approaches, case studies, and practical tools for leading change.
+
+Examine the impact of national and international policy developments on the professional role of the teacher.
+
+Foster inclusive and supportive leadership and explore strategies that promote equity, well-being, and collaborative and flourishing school cultures.
+
+Image
+
+This is an Oide Endorsed Programme. Tá an clár seo formhuinithe ag Oide.
+
+We need your consent to load this YouTube content
+
+This content is loaded from YouTube. We need your permission before loading as it may use cookies and similar technologies that UL does not control.

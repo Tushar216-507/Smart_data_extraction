@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "accreditation_system_description",
+      "value": "Since 1999, a nationwide accreditation system for study programs has existed under the supervision of the Accreditation Council, according to which all newly introduced study programs must be accredited.",
+      "original_value": "Seit 1999 existiert ein bundesweites Akkreditierungssystem für Studiengänge unter der Aufsicht des Akkreditierungsrates, nach dem alle neu eingeführten Studiengänge akkreditiert werden.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "accreditation_rights",
+      "value": "Accredited study programs are entitled to use the quality seal of the Accreditation Council.",
+      "original_value": "Akkreditierte Studiengänge sind berechtigt, das Qualitätssiegel des Akkreditierungsrates zu führen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

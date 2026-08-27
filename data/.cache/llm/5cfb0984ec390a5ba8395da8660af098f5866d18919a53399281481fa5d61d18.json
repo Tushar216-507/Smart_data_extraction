@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "final_project",
+      "scope": "programme",
+      "field": "thesis",
+      "value": "Bachelorarbeit",
+      "original_value": "Bachelorarbeit",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "obligatory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Bachelorarbeit",
+      "original_value": "Bachelorarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Bachelorarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "obligatory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": "The thesis should demonstrate the student's ability to independently work on a problem from their field using scientific methods within a specified timeframe.",
+      "original_value": "zeigen soll, dass die oder der Studierende dazu in der Lage ist, innerhalb einer vorgegebenen Frist ein Problem aus ihrem oder seinem Fach selbstständig nach wissenschaftlichen Methoden zu bearbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The scope of the thesis must be at least 6 CP and not exceed 12 CP.",
+      "original_value": "der Bearbeitungsumfang mindestens 6 CP betragen; er darf 12 CP nicht überschreiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "cancelation",
+      "field": "housing_assignment",
+      "value": "Any housing assignment will be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "cancelation",
+      "field": "financial_aid",
+      "value": "Any financial aid including scholarships will also be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibility",
+      "field": "nonrefundable_housing_charges",
+      "value": "You may still be responsible for nonrefundable housing charges.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "responsibility",
+      "field": "other_university_charges",
+      "value": "You may still be responsible for other university charges you may already owe.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "account_access",
+      "field": "my_asu_url",
+      "value": "https://my.asu.edu/",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0090",
+  "program_name": "Online Master of Science in Crime Analysis",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0090\\final",
+  "input_fact_count": 30,
+  "unique_fact_count": 30,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 30,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 30,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 12,
+    "admission": 3,
+    "curriculum": 5,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 5
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0090\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0090\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0090\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0090\\final\\career_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0090\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0090\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0090\\final\\build_summary.json"
+  }
+}

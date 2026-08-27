@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "tuition",
+      "field": "base_tuition",
+      "value": "Tuition and fees are to be paid to ASU.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tuition",
+      "field": "differential_tuition",
+      "value": "Some programs charge differential or program-specific tuition, which is in addition to the base tuition.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "estimation",
+      "field": "tuition_estimator_url",
+      "value": "https://tuition.asu.edu/cost-calculator/tuition",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "other_expenses",
+      "field": "expenses_variations",
+      "value": "Housing and meals, books and supplies, transportation, and personal expenses will vary depending on your spending choices.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    }
+  ]
+}

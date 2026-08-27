@@ -1,0 +1,41 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "semester_1_courses",
+      "value": [
+        "Biochemistry",
+        "Human Physiology I",
+        "Concepts of Genetics",
+        "Recombinant DNA",
+        "Biological Chemistry I",
+        "Technology & Biotechnology",
+        "Cell Biology",
+        "Immunology",
+        "Medical Microbiology",
+        "Biological Chemistry II"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Biomedical Engineering - BE or ME"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "semester_2_courses",
+      "value": [
+        "Human Physiology II",
+        "Elective II",
+        "Principles of Medicinal Chemistry",
+        "Elective III",
+        "Pharmacology & Toxicology",
+        "Elective IV",
+        "Techniques & Instrumentation",
+        "Project",
+        "Elective I"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Biomedical Engineering - BE or ME"
+    }
+  ]
+}

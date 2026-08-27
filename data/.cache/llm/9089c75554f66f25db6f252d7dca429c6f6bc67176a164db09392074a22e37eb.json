@@ -1,0 +1,189 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "learning_objectives",
+      "value": "The free studies follow the well-established format of a Studium Generale or a Liberal Arts-Curriculum and serve to generate abilities in reflection, communication and perception about scientific questions. These abilities produce interdisciplinary thinking and working.",
+      "original_value": "Die freien Studien folgen dem anerkannten Format eines Studium Generale oder einem Liberal Arts-Curriculum und dienen dazu, Fähigkeiten in Reflexion, Kommunikation und Wahrnehmung wissenschaftlicher Fragen zu entwickeln. Diese Fähigkeiten erzeugen interdisziplinäres Denken und Arbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "learning_objectives",
+      "value": "The objective is to encourage an interdisciplinary dialogue where the competences of the disciplines can interact and where the students are interested in the connection of bodies of knowledge and thus crossing the disciplinary boundaries.",
+      "original_value": "Ziel ist es, einen interdisziplinären Dialog zu fördern, in dem die Kompetenzen der Disziplinen interagieren können und in dem die Studierenden an der Verbindung von Wissensgebieten interessiert sind und somit die fachlichen Grenzen überschreiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Additional Studies",
+      "original_value": "Zusätzliche Studien",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module (only for students of version 2)",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "credits",
+      "value": 6,
+      "original_value": "6 CP (sum) = 180 h",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module (only for students of version 2)",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "contact_time": "30-60 h",
+        "self_study_time": "120-150 h"
+      },
+      "original_value": "2-4 SWS / 30-60 h, 120-150 h",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module (only for students of version 2)",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German and English",
+      "original_value": "Deutsch und Englisch",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Students with no sufficient command of the German language are only allowed to attend courses that are offered in English.",
+      "original_value": "Studierende ohne ausreichende Deutschkenntnisse dürfen nur an in Englisch angebotenen Kursen teilnehmen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

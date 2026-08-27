@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_link",
+      "value": "https://webapp4.asu.edu/dgsadmissions/Index.jsp",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "law_program_application_link",
+      "value": "https://law.asu.edu/admission",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_fee",
+      "value": "$115",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_fee_condition",
+      "value": "nonrefundable under any circumstance",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "payment_methods",
+      "value": "Visa or Mastercard",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    }
+  ]
+}

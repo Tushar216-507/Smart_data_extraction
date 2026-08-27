@@ -1,0 +1,158 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe-Universität Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credit_points": 10
+      },
+      "confidence": 1.0
+    }
+  ]
+}

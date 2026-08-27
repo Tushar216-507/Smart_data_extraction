@@ -1,0 +1,119 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "teaching_formats",
+      "value": [
+        {
+          "type": "lecture",
+          "description": "Systematic presentation and communication of basic and specialized knowledge as well as methodological skills through lecture, possibly in connection with demonstrations or experiments."
+        },
+        {
+          "type": "tutorial",
+          "description": "Working through and deepening of teaching materials and training in subject methodology and providing specific skills through processing and discussion of exemplary tasks."
+        },
+        {
+          "type": "seminar",
+          "description": "Development of scientific knowledge or addressing current problems using scientific methods, typically through student-prepared contributions, learning and practicing or deepening presentation and discussion techniques."
+        },
+        {
+          "type": "internship",
+          "description": "Guided execution of practical tasks in the experimental and apparatus area and/or computer simulations; training in the application of scientific investigation and solution methods; imparting of technical skills and insights into functional processes."
+        },
+        {
+          "type": "project",
+          "description": "Development of concepts as well as realization of solutions for complex, practical tasks; imparting social competence through largely independent processing of tasks while receiving technical and methodological guidance."
+        },
+        {
+          "type": "excursion",
+          "description": "Planned event outside the university."
+        },
+        {
+          "type": "professional_internship",
+          "description": "Experience of professional work through active participation, usually outside the university (practice site) under on-site guidance and typically with academic and methodological support from a lecturer."
+        },
+        {
+          "type": "tutoring",
+          "description": "A course preparing for the conduct of tutorials, including training in the communication of subject-specific and didactic competencies as well as learning of presentation and discussion techniques, overseen by academic staff."
+        },
+        {
+          "type": "self_study",
+          "description": "The specific order for the study program specifies what requirements are placed on self-study."
+        }
+      ],
+      "original_value": "(1) Lehrveranstaltungen können in den folgenden Formen durchgeführt werden: ... (2) Die in Abs. 1 genannten Formen ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "access_conditions",
+      "value": "Access to the events of a module may depend on the successful completion of other modules or attendance at academic advising, as specified in the module description.",
+      "original_value": "(3) Ist nach Maßgabe der Modulbeschreibung der Zugang zu den Lehrveranstaltungen eines Moduls vom erfolgreichen Abschluss anderer Module ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "mandatory_registration",
+      "value": "The specific order of the study program may require a mandatory registration for participation in modules or certain events.",
+      "original_value": "(4) Die studiengangsspezifische Ordnung kann regeln, dass für die Teilnahme an Modulen oder an bestimmten Veranstaltungen eine verbindliche Anmeldung durchgeführt werden kann.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe-Universität Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Bachelor of Arts in Education Sciences",
+      "original_value": "B.A. Erziehungswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optional module",
+      "original_value": "Optionalmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Optional module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Deepening Microeconomics",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Deepening Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Deepening Macroeconomics",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Deepening Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Political Theory",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Political Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "History of Theory",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "History of Theory"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Supplementary Area",
+      "original_value": "Ergänzungsbereich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Supplementary Area"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.Sc. Mathematics",
+      "original_value": "B.Sc. Mathematik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.Sc. Mathematics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor of Arts in Education Sciences"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

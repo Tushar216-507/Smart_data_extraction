@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Pass/Fail",
+      "original_value": "bestanden/nicht bestanden bewertet",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "A performance record required by the module description documents the successful completion of a study performance.",
+      "original_value": "Ein nach der Modulbeschreibung zu einer Lehrveranstaltung geforderter Leistungsnachweis dokumentiert die erfolgreiche Erbringung einer Studienleistung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "The study performance is considered successfully completed if positively evaluated by the instructor based on the module description.",
+      "original_value": "Die Studienleistung ist erfolgreich erbracht, wenn sie durch die Lehrende oder den Lehrenden nach Maßgabe der Modulbeschreibung mit „bestanden“ oder unter Anwendung des § 39 Abs. 3 mittels Note positiv bewertet wurde.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "In group work, the individual performance must be clearly distinguishable and evaluable.",
+      "original_value": "Bei Gruppenarbeiten muss die individuelle Leistung deutlich abgrenzbar und bewertbar sein.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The grades of the study performances do not count towards the module grade or the overall grade for the bachelor's examination.",
+      "original_value": "Die Noten der Studienleistungen gehen nicht in die Modulnote bzw. Gesamtnote für die Bachelorprüfung ein.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

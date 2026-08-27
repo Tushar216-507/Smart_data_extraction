@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0076",
+  "program_name": "Ritual Chant and Song - MA Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0076\\final",
+  "input_fact_count": 19,
+  "unique_fact_count": 18,
+  "exact_duplicate_count": 1,
+  "handled_fact_count": 18,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 18,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 10,
+    "admission": 0,
+    "curriculum": 4,
+    "career": 0,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0076\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0076\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0076\\final\\fees_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0076\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "faculty",
+      "subcategory": "department",
+      "field": "department_name",
+      "value": "Department of Sociology",
+      "confidence": 1.0,
+      "programme_association": "Electives LM002 Bachelor of Arts"
+    },
+    {
+      "category": "housing",
+      "subcategory": "location",
+      "field": "department_location",
+      "value": "1st floor of the Foundation Building, University of Limerick (UL Concert Hall)",
+      "confidence": 1.0,
+      "programme_association": "Electives LM002 Bachelor of Arts"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department administrator",
+      "field": "administrator_name",
+      "value": "Anne McCarthy",
+      "confidence": 1.0,
+      "programme_association": "Electives LM002 Bachelor of Arts"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department administrator",
+      "field": "administrator_email",
+      "value": "anne.mccarthy@ul.ie",
+      "confidence": 1.0,
+      "programme_association": "Electives LM002 Bachelor of Arts"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department address",
+      "field": "department_address",
+      "value": "University of Limerick, National Technological Park, Co. Limerick, Ireland",
+      "confidence": 1.0,
+      "programme_association": "Electives LM002 Bachelor of Arts"
+    }
+  ]
+}

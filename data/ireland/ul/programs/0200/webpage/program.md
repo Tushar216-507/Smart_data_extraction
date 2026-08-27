@@ -1,0 +1,11 @@
+This programme is designed to develop professional autonomy with a strong focus on inquiry learning and the integration of theory, practice and research.
+
+Please note this programme will NOT qualify you to become a teacher. The programme is aimed at previously qualified teachers and/or individuals with teaching experience.
+
+The Masters of Education programme is designed to develop students’ professional autonomy as both learners and practitioners with a strong focus on inquiry learning and the integration of theory, practice and research. Core taught modules will introduce the student to the, contemporary issues in education, postgraduate academic community and support the student in conducting high quality, ethical research. All students will share four core modules and develop a specialism through a thesis and two associated elective strand modules. An original research thesis must be completed as part of the programme.
+
+The Masters of Education programme is designed to develop students’ professional autonomy as both learners and practitioners with a strong focus on inquiry learning and the integration of theory, practice and research. Core taught modules will introduce the student to the, contemporary issues in education, postgraduate academic community and support the student in conducting high quality, ethical research. All students will share four core modules and develop a specialism through a thesis and two associated elective strand modules. An original research thesis must be completed as part of the programme.
+
+Students register on a part-time basis. This course is completed in two years over four academic semesters. Students may also opt to complete a 30 credit specialist diploma. For students wishing to pursue doctoral studies the MEd will provide an indirect link to the amalgamated EHS Structured PhD (with students getting credit for 2 research/inquiry modules if taken within the previous 5 years).
+
+Depending on the module, the academic work may include classes, seminars, summer schools, self-directed learning and/or e-learning, both on and off campus. This programme aims to offers flexibility to students with competing time demands.

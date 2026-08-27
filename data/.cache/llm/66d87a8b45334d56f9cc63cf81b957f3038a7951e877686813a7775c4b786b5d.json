@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "types_of_computers",
+      "field": "desktop_description",
+      "value": "Desktops are mainly used for regular use, and they have separate components mounted together, like the monitor, keyboard, mouse, CPU, etc. Since the system is primarily kept on a desk for better usability, it is called a desktop.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "types_of_computers",
+      "field": "laptop_description",
+      "value": "Laptops are a portable version of desktops, with all the components integrated into a single unit thus providing mobility to the system. They are great for on-the-go work and come with built-in webcams, Bluetooth and Wi-Fi.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "types_of_computers",
+      "field": "server_description",
+      "value": "Servers are special types of computers that are used to manage network resources. They provide services to other systems and computers. Some of the primary tasks of servers include creating databases, hosting and providing support to other applications.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "types_of_computers",
+      "field": "tablet_description",
+      "value": "Tablets are even more portable than laptops. They are smaller than laptops but are larger than smartphones. They come with touchscreens which makes them perfect for browsing the web, consuming content and personal communications.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "types_of_computers",
+      "field": "other_devices_description",
+      "value": "Other devices include smartphones, game consoles, Smart TVs etc.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    }
+  ]
+}

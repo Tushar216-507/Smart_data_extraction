@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "software_types",
+      "field": "operating_systems_definition",
+      "value": "Operating systems are the layer of software that manages a computer's resources for its users and their applications.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "software_types",
+      "field": "operating_systems_purposes",
+      "value": "1. Allocating resources between different applications, deciding when they will receive CPU time or space in memory. 2. Providing an interface that abstracts the details of accessing hardware details to make things easier for programmers. 3. Offering common services, such as an interface for accessing network and disk devices, allowing applications to run on different hardware without needing to be rewritten.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "software_types",
+      "field": "application_software_definition",
+      "value": "Application software runs on top of the operating system and uses the computer's resources to perform a task.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "software_deployment",
+      "field": "traditional_applications_definition",
+      "value": "Traditional applications are purchased with a perpetual license for a specific version of the software, downloaded, and run on hardware belonging to the purchaser.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "software_deployment",
+      "field": "saas_definition",
+      "value": "Software as a service (SaaS) is a model in which the provider hosts the software and provides the use of the software to customers, often in exchange for a subscription fee.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "software_deployment",
+      "field": "saas_trends",
+      "value": "By 2023, SaaS products had become the primary method that companies deliver applications, usually delivered via a web application.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    }
+  ]
+}

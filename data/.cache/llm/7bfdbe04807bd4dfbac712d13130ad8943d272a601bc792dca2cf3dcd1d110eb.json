@@ -1,0 +1,158 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master of Arts in Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master of Arts in Sociology"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "optional_module",
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master of Arts in Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": "Master of Arts in Economic Sociology"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "optional_module",
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Specialization in Microeconomics",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": "Specialization in Microeconomics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "optional_module",
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Specialization in Macroeconomics",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": "Specialization in Macroeconomics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "optional_module",
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master of Arts in Political Theory",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": "Master of Arts in Political Theory"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "optional_module",
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Theory History",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": "Theory History"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "optional_module",
+        "requirement_type": null,
+        "semester": 6,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

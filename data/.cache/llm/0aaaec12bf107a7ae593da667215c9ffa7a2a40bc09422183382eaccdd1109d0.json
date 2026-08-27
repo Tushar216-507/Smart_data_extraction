@@ -1,0 +1,224 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university",
+      "value": "Goethe University",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "regulation_date",
+      "value": "October 17, 2012",
+      "original_value": "17.10.2012",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. American Studies",
+      "original_value": "M.A. American Studies",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. American Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Anglophone Literatures, Cultures and Media",
+      "original_value": "M.A. Anglophone Literatures, Cultures and Media",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Anglophone Literatures, Cultures and Media"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Deutsche Literatur",
+      "original_value": "M.A. Deutsche Literatur",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Deutsche Literatur"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Filmkultur: Archivierung, Programmierung, Präsentation",
+      "original_value": "M.A. Filmkultur: Archivierung, Programmierung, Präsentation",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Filmkultur: Archivierung, Programmierung, Präsentation"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Moving Cultures - Transcultural Encounters",
+      "original_value": "M.A. Moving Cultures - Transcultural Encounters",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Moving Cultures - Transcultural Encounters"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Romanistische Linguistik",
+      "original_value": "M.A. Romanistische Linguistik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Romanistische Linguistik"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Skandinavistik",
+      "original_value": "M.A. Skandinavistik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Skandinavistik"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "M.A. Theater-, Film- und Medienwissenschaft",
+      "original_value": "M.A. Theater-, Film- und Medienwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "M.A. Theater-, Film- und Medienwissenschaft"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "staff_contact",
+      "field": "contact_method",
+      "value": "UL Staff can contact us via Topdesk",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Journalism and Digital Communication"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "student_parent_requests",
+      "field": "contact_instructions",
+      "value": "Please refer them to this page so they can contact us through the appropriate channel.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Journalism and Digital Communication"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "urgent_contact",
+      "field": "phone_number",
+      "value": "061 233 755",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Journalism and Digital Communication"
+    },
+    {
+      "category": "documents",
+      "subcategory": "official_documents",
+      "field": "transcript_request",
+      "value": "Request access to Parchment for your certified transcript & e-parchment",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Journalism and Digital Communication"
+    },
+    {
+      "category": "documents",
+      "subcategory": "parchment_issue",
+      "field": "issue_report",
+      "value": "Report an issue with my parchment",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Journalism and Digital Communication"
+    },
+    {
+      "category": "documents",
+      "subcategory": "update_personal_details",
+      "field": "update_method",
+      "value": "Update personal details",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Arts in Journalism and Digital Communication"
+    }
+  ]
+}

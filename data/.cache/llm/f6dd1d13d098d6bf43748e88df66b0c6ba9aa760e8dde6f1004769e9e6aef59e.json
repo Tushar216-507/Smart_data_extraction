@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "priority_readmission_application_deadline",
+      "value": "May 1",
+      "confidence": 1.0,
+      "programme_association": "African and African American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_requirements",
+      "value": "You must submit the application for undergraduate admission, along with the application fee, by the deadline specified for each semester.",
+      "confidence": 1.0,
+      "programme_association": "African and African American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "expedited_evaluation_requirements",
+      "value": "Submit official transcripts, test scores and supporting credentials immediately.",
+      "confidence": 1.0,
+      "programme_association": "African and African American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "readmission",
+      "field": "readmission_student_status",
+      "value": "If you have previously been admitted to ASU but did not attend, you will be considered a first-year student or a transfer student.",
+      "confidence": 1.0,
+      "programme_association": "African and African American Studies - BA"
+    }
+  ]
+}

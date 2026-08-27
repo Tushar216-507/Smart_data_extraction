@@ -1,0 +1,151 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master Thesis and Thesis Seminar",
+      "original_value": "Master Thesis and Thesis Seminar",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Core Lecture: Institutions and Innovations",
+      "original_value": "Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2 / ININ",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "credits": 7,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftsinformatik",
+      "original_value": "Wirtschaftsinformatik (WINFO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WINFO",
+        "name": "Wirtschaftsinformatik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "credits": 5,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Intelligente Methoden der Wirtschaftsinformatik",
+      "original_value": "Intelligente Methoden der Wirtschaftsinformatik (IMWI)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "IMWI",
+        "name": "Intelligente Methoden der Wirtschaftsinformatik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "All 3 semesters"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Cloud Computing",
+      "original_value": "Cloud Computing (CLC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "CLC",
+        "name": "Cloud Computing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "credits": 5,
+        "semester_offered": "Annually Summer or Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

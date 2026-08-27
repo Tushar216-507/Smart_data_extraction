@@ -1,0 +1,57 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe-Universität Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "official_program_name",
+      "value": "Master in Money, Macro and Finance",
+      "original_value": "M.Sc. Money, Macro and Finance",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "electives",
+      "value": [
+        "Quantitative Accounting",
+        "Quantitative Economics",
+        "Quantitative Finance",
+        "Quantitative Marketing"
+      ],
+      "original_value": "„Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 0.95
+    }
+  ]
+}

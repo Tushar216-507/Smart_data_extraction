@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "student_fee_classifications",
+      "field": "EU_fee_status",
+      "value": "Applies to Domestic or EU students, or students who have been resident as a taxpayer in EU/EEA/Swiss State for 3 out of the last 5 years.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "student_fee_classifications",
+      "field": "Non_EU_fee_status",
+      "value": "Applies to all other students.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tax_relief",
+      "field": "available_tax_relief",
+      "value": "Tax relief is available on postgraduate tuition fees, up to €7,000 per person per course.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "cost_information",
+      "field": "cost_estimate",
+      "value": "Courses cost upwards of €5,000 a year.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tax_relief",
+      "field": "eligible_postgraduate_courses",
+      "value": "Tax relief is available for tuition fees paid for approved postgraduate courses in private and publicly funded colleges in the State, postgraduate courses in a university or publicly funded college in another EU member state or the UK, including those that provide distance education in the State, and postgraduate courses in a university or publicly funded third-level college in non-EU countries.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

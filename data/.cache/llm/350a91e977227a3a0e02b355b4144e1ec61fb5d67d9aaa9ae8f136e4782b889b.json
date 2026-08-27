@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_address",
+      "value": "60629 Frankfurt am Main, Germany",
+      "original_value": "60629 Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul VWL",
+      "original_value": "NF 2 - Anwendungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 - Anwendungsmodul VWL",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 - Anwendungsmodul BWL",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_code",
+      "value": "0043",
+      "original_value": "0043",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Applications Module BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Applications Module BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finance 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finance 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting or Accounting 1",
+      "original_value": "Accounting (OACC) oder Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC/BACC",
+        "name": "Accounting or Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC/BACC",
+        "name": "Accounting or Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

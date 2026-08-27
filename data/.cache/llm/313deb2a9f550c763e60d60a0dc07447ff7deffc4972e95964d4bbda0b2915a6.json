@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "It is recommended to study abroad for at least one semester during the Bachelor program.",
+      "original_value": "Es wird empfohlen, im Verlauf des Bachelorstudiums für mindestens ein Semester an einer Universität im Ausland zu studieren.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Students can utilize the connections of Johann Wolfgang Goethe University with foreign universities.",
+      "original_value": "Dafür können die Verbindungen der Johann Wolfgang Goethe-Universität mit ausländischen Universitäten genutzt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "university",
+      "field": "contact_information",
+      "value": "Information about study abroad opportunities is provided in academic advising and at the International Office.",
+      "original_value": "über die in der Studienfachberatung und im International Office Auskunft erteilt wird.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "social_science_competency_requirement",
+      "field": "options_section_a",
+      "value": [
+        "One year of high school American history.",
+        "Minimum SAT II subject test score of 560 on American history/social studies.",
+        "One transferable 3-credit college American history course."
+      ],
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "social_science_competency_requirement",
+      "field": "options_section_b",
+      "value": [
+        "One year of high school social science (e.g., European history, world history, economics, sociology, geography, government, psychology or anthropology).",
+        "Minimum SAT II subject test score of 580 on world history.",
+        "One transferable 3-credit college social science course."
+      ],
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "fine_arts_or_career_and_technical_education_competency_requirement",
+      "field": "options",
+      "value": [
+        "One year (or a combination of two semesters) of high school fine arts or career and technical education.",
+        "One transferable 3-credit college fine arts course."
+      ],
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

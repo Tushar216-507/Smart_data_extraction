@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0006",
+  "program_name": "Online Master of Legal Studies (MLS)",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0006\\final",
+  "input_fact_count": 31,
+  "unique_fact_count": 31,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 27,
+  "unhandled_fact_count": 4,
+  "written_fact_count": 31,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 3,
+    "curriculum": 8,
+    "career": 6,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 2,
+    "student_life": 1,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0006\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0006\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0006\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0006\\final\\career_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0006\\final\\contacts_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0006\\final\\student_life_data.json",
+    "unhandled": "data\\united_states\\asu\\programs\\0006\\final\\unhandled_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0006\\final\\build_summary.json"
+  }
+}

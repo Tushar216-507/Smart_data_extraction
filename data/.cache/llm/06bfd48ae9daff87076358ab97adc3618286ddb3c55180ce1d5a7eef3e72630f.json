@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Johann Wolfgang Goethe University",
+      "original_value": "Johann Wolfgang Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "qualification",
+      "value": "Bachelor's degree",
+      "original_value": "Bachelorstudiengang",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "important_information",
+      "value": "The certificate will be signed by the dean or the head of the examination committee along with the university seal.",
+      "original_value": "Die Urkunde wird von der Dekanin oder dem Dekan alternativ: der Studiendekanin oder dem Studiendekan des Fachbereichs ... [Bezeichnung] sowie der oder dem Vorsitzenden des Prüfungsausschusses unterzeichnet und mit dem Siegel der Johann Wolfgang Goethe-Universität versehen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

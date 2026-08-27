@@ -1,0 +1,20 @@
+- having the most modern and recently developed ideas, methods, etc.
+  - Scientists are working on highly advanced technology to replace fossil fuels.
+  - It is a technologically advanced society.
+  - Even in advanced industrial societies, poverty persists.
+  - economically advanced countries/regions
+  - Sweden has a reputation for advanced and stylish design.Extra Examples
+  - a highly advanced economy
+  - an advanced civilization/​nation
+- (of a course of study) at a high or difficult level
+  - He hopes to pursue an advanced degree in economics.
+  - an advanced student of English
+  - There were only three of us on the advanced course.
+  - special courses for very advanced students[Languageb1](https://www.oxfordlearnersdictionaries.com/topic/language?level=b1)
+- at a late stage of development
+  - the advanced stages of the disease
+  - patients with advanced lung cancer
+
+- used in polite expressions to describe somebody as ‘very old’
+  - He was a man of advanced years.
+  - (humorous) Even at my advanced age I still know how to enjoy myself!

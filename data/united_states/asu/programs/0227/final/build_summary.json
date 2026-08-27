@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0227",
+  "program_name": "Asia Studies (South Asia), BA",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0227\\final",
+  "input_fact_count": 309,
+  "unique_fact_count": 301,
+  "exact_duplicate_count": 8,
+  "handled_fact_count": 301,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 301,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 58,
+    "admission": 0,
+    "curriculum": 18,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 13,
+    "other": 209
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0227\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0227\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0227\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0227\\final\\student_life_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0227\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0227\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0227\\final\\build_summary.json"
+  }
+}

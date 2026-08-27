@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Pass/Fail",
+      "original_value": "mit bestanden/nicht bestanden bewertet wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Assessment of academic performance must be documented and evaluated positively as per the module description.",
+      "original_value": "Ein nach der Modulbeschreibung zu einer Lehrveranstaltung geforderter Leistungsnachweis dokumentiert die erfolgreiche Erbringung einer Studienleistung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": "A group effort must have individual contributions that can be distinguished and evaluated.",
+      "original_value": "Bei Gruppenarbeiten muss die individuelle Leistung deutlich abgrenzbar und bewertbar sein.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Grades for academic performances do not contribute to the module grade or overall grade for the bachelor's examination.",
+      "original_value": "Die Noten der Studienleistungen gehen nicht in die Modulnote bzw. Gesamtnote für die Bachelorprüfung ein;",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

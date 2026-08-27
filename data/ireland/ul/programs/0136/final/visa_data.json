@@ -1,0 +1,40 @@
+{
+  "program_id": "0136",
+  "program_name": "Human Resource Management - MSc Graduate profile",
+  "fact_count": 2,
+  "university_facts": [],
+  "programme_facts": [
+    {
+      "category": "programme",
+      "subcategory": "visa",
+      "field": "visa_information_link",
+      "value": "https://www.irishimmigration.ie/visa-non-visa-required-nationalities/",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Non-EU applicants",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "visa",
+      "field": "information_website_link",
+      "value": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Non-EU applicants",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    }
+  ]
+}

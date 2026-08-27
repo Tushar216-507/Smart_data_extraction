@@ -1,0 +1,151 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe-Universität Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Supplementary Courses",
+      "original_value": "Supplementary Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Sozialstruktur und Soziale Ungleichheit",
+      "original_value": "Sozialstruktur und Soziale Ungleichheit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Sozialstruktur und Soziale Ungleichheit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "credits": 10,
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Kultur, Subjekt, Identität",
+      "original_value": "Kultur, Subjekt, Identität",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Kultur, Subjekt, Identität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "credits": 10,
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaft und Technik - Arbeit und Organisation",
+      "original_value": "Wirtschaft und Technik - Arbeit und Organisation",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Wirtschaft und Technik - Arbeit und Organisation"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "credits": 10,
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Geschlecht, Migration, Wissensproduktion",
+      "original_value": "Geschlecht, Migration, Wissensproduktion",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Geschlecht, Migration, Wissensproduktion"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "credits": 10,
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Soziologische Theorien",
+      "original_value": "Soziologische Theorien",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Soziologische Theorien"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0044",
+        "name": "Supplementary Courses"
+      },
+      "qualifiers": {
+        "credits": 10,
+        "status": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

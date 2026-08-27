@@ -1,0 +1,335 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_address",
+      "value": "60629 Frankfurt am Main, Germany",
+      "original_value": "60629 Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Soziologie",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Soziologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Wirtschaftssoziologie",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Wirtschaftssoziologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Vertiefung Mikroökonomik",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Vertiefung Mikroökonomik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Vertiefung Makroökonomik",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Vertiefung Makroökonomik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Politische Theorie",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Politische Theorie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theoriegeschichte",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Theoriegeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 6
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.A. Erziehungswissenschaften",
+      "original_value": "B.A. Erziehungswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.A. Erziehungswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 7
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Modern East Asian Studies",
+      "original_value": "M.A. Modern East Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.A. Modern East Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 7
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.A. Geographie",
+      "original_value": "B.A. Geographie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.A. Geographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 8
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.Sc. Physische Geographie",
+      "original_value": "M.Sc. Physische Geographie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.Sc. Physische Geographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 8
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.Sc. Meteorologie",
+      "original_value": "B.Sc. Meteorologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.Sc. Meteorologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 9
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.Sc. Mathematik",
+      "original_value": "B.Sc. Mathematik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "B.Sc. Mathematik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 11
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF Finanzwirtschaft / Finance",
+      "original_value": "NF Finanzwirtschaft / Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "NF Finanzwirtschaft / Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "credits": 11
+      },
+      "confidence": 1.0
+    }
+  ]
+}

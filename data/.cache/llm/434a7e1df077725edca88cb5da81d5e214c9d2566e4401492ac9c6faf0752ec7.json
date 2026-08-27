@@ -1,0 +1,169 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Literature and Media Culture I",
+      "original_value": "MAALCM 2 - Literature and Media Culture I",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9406",
+        "name": "Literature and Media Culture I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper / individual event-related examination",
+      "original_value": "Prüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9406",
+        "name": "Literature and Media Culture I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "submission_information",
+      "value": {
+        "normal_submission": {
+          "date_range": "29.06. - 21.09.2026",
+          "format": "pdf"
+        },
+        "repeat_submission": {
+          "due_date": "21.12.2026",
+          "format": "pdf"
+        },
+        "final_submission": {
+          "due_date": "28.09.2026",
+          "format": "pdf"
+        }
+      },
+      "original_value": {
+        "normal_submission": "Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS",
+        "repeat_submission": "Abgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+        "final_submission": "Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n"
+      },
+      "entity": {
+        "type": "module",
+        "id": "MP 9406",
+        "name": "Literature and Media Culture I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "instructors",
+      "value": [
+        {
+          "name": "Dr. Daniel Dornhofer",
+          "course": "Post-War British Poetry",
+          "schedule": "Di 14-16"
+        },
+        {
+          "name": "Prof. Dr. Astrid Erll",
+          "course": "Narrating South Africa",
+          "schedule": "Di 16-18"
+        },
+        {
+          "name": "Prof. Dr. Susanne Scholz",
+          "course": "Shakespeare Adaptations",
+          "schedule": "Do 14-16"
+        }
+      ],
+      "original_value": [
+        "Dr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)",
+        "Prof. Dr. Astrid Erll - Narrating South Africa (Di 16-18)",
+        "Prof. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)"
+      ],
+      "entity": {
+        "type": "module",
+        "id": "MP 9406",
+        "name": "Literature and Media Culture I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "withdrawal_date",
+      "value": "21.09.2026",
+      "original_value": "Rücktritt spätestens bis 21.09.2026",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9406",
+        "name": "Literature and Media Culture I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0032",
+        "name": "English Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_portal",
+      "value": "The application is made online through the central online portal for Master's programs at Goethe University in cooperation with uni-assist e.V.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor meets Business"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "document_upload",
+      "value": "Please upload all required documents, such as resumes and certificates, via the upload function in the uni-assist portal and assign them to your application.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor meets Business"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_fee",
+      "value": "No fees are charged for applications to Master's programs at Goethe University. No processing fee is to be paid to uni-assist.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor meets Business"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "technical_support",
+      "field": "technical_queries_contact",
+      "value": "For technical questions, please contact uni-assist directly.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor meets Business"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "admission_support",
+      "field": "content_queries_contact",
+      "value": "For content-related questions about the application, please contact the study program advising.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor meets Business"
+    },
+    {
+      "category": "documents",
+      "subcategory": "application_information",
+      "field": "additional_application_info",
+      "value": "Further information on the online application process can be found here: http://www2.uni-frankfurt.de/35791783.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor meets Business"
+    }
+  ]
+}

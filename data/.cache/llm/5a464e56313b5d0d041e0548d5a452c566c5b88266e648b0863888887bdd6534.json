@@ -1,0 +1,390 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University",
+      "original_value": "Goethe Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master's",
+      "original_value": "Master's",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "CP",
+      "original_value": "CP",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "DSH",
+      "original_value": "DSH",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "ECTS",
+      "original_value": "ECTS",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "GVBl.",
+      "original_value": "GVBl.",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "HHG",
+      "original_value": "HHG",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "HImmaVO",
+      "original_value": "HImmaVO",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "Kq",
+      "original_value": "Kq",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "M.A.",
+      "original_value": "M.A.",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "Pr",
+      "original_value": "Pr",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "Pj",
+      "original_value": "Pj",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "S",
+      "original_value": "S",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "SWS",
+      "original_value": "SWS",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "acronyms",
+      "scope": "both",
+      "field": "acronym",
+      "value": "V",
+      "original_value": "V",
+      "unit": null,
+      "entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_description",
+      "value": "The overall grade of the master's examination is calculated from the arithmetic mean of the module examinations and the grade of the master's thesis. The master's thesis is weighted double in the calculation of the master's grade.",
+      "original_value": "Die Gesamtnote der Masterprüfung errechnet sich aus dem arithmetrischen Mittel der Modulprüfungen und der Note der Masterarbeit. Die Masterarbeit wird bei der Berechnung der Masternote doppelt gewertet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "graduation_requirement",
+      "value": "The overall assessment 'passed with distinction' is awarded if all examination performances are graded 'very good' (1.0).",
+      "original_value": "Das Gesamturteil „mit Auszeichnung bestanden“ wird erteilt, wenn sämtliche Prüfungsleistungen mit „sehr gut“ (1,0) bewertet sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

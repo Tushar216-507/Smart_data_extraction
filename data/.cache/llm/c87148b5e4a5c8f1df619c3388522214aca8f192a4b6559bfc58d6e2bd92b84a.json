@@ -1,0 +1,361 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "field": "programme_name",
+      "value": "Liberal Studies",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Liberal Studies ,BA",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Liberal Studies ,BA",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "degree_type",
+      "value": "BA",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "program",
+        "source_id": "program_0001",
+        "title": "Liberal Studies ,BA",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Liberal Studies ,BA",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "fees",
+      "field": "tuition_rate",
+      "value": "one of the lowest tuition rates in the Big 12",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Cost and financial aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Cost and financial aid",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "scholarship_type",
+      "value": "New American University Scholarship",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Cost and financial aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Cost and financial aid",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "scholarship_eligibility",
+      "value": "automatically considered for nonresident students upon admission",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Cost and financial aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Cost and financial aid",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_options_description",
+      "value": "BYU Idaho students who wish to transfer to ASU have two transfer options.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "associate_degree_requirement",
+      "value": "The completed Associate of Applied Science must be transcripted on a BYU-Idaho transcript.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "virtual_visit_link",
+      "value": "https://visit.asu.edu/live-hosted-visit",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "on_demand_virtual_tours_link",
+      "value": "https://tours.asu.edu/",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "walking_tours_link",
+      "value": "https://visit.asu.edu/schedule",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Transfer of academic credit for students wishing to complete a degree at ASU.",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "cancellation_policy",
+      "value": "By canceling your admission, any housing assignment and financial aid (including scholarships) will also be canceled.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Canceling or deferring your undergraduate admission + If you have not registered for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Canceling or deferring your undergraduate admission + If you have not registered for classes",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "responsibility_for_charges",
+      "value": "You may still be responsible for nonrefundable housing charges and other university charges you may already owe.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Canceling or deferring your undergraduate admission + If you have not registered for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Canceling or deferring your undergraduate admission + If you have not registered for classes",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "account_access",
+      "value": "To check your account or pay any charges, sign in to My ASU.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Canceling or deferring your undergraduate admission + If you have not registered for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Canceling or deferring your undergraduate admission + If you have not registered for classes",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "definition",
+      "value": "Admission is guaranteed to the university, but not necessarily to your original major or program.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "maximum_duration",
+      "value": "One year for most other students including international students on an F-1 visa.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "requirements",
+      "value": "You cannot attend another college or university during your deferment.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "advice",
+      "value": "Contact Admission Services if you defer and plan to return in a different semester than approved.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_scores_validity",
+      "value": "Test scores are valid for two years from the test date.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "common_reasons_to_defer",
+      "value": "Religious volunteer work, Volunteer service, U.S. military service, International military service (for U.S. or non-U.S. citizens), Student Visa Denial or inability to obtain a visa appointment, Financial or personal reasons.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "deferment_requirements",
+      "value": "Approval is required through Financial Aid and Scholarship Services.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "process_steps",
+      "value": "To withdraw, sign in to My ASU.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "If you have registered for classes + Important Disclaimer + Deferring admission to ASU + What is deferred admission? + For international students: + When can I defer my admission? + Why should I defer my admission? + Important note for scholarship recipients + Step 01 + Withdraw from housing, orientation and classes + If you have not registered for classes + If you have registered for classes + Step 02",
+        "chunk_order": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Studium Generale",
+      "original_value": "Studium Generale",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 9",
+        "name": "Studium Generale"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "duration",
+      "value": 2,
+      "original_value": "2 Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 9",
+        "name": "Studium Generale"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "English",
+      "original_value": "Englisch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 9",
+        "name": "Studium Generale"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": "To develop reflection, communication, and perception skills through interdisciplinary approaches.",
+      "original_value": "Das Freie Studium folgt den an vielen Universitäten im Inland und Ausland etablierten Formen des Studium Generale und des Liberal Arts-Curriculums und dient der Herausbildung von Reflexions-, Kommunikations- und Wahrnehmungs-fähigkeiten über wissenschaftliche Fragestellungen, durch die fachübergreifendes Denken und Arbeiten angeregt und produziert wird.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 9",
+        "name": "Studium Generale"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "Completion requires confirmation from the module coordinator.",
+      "original_value": "Der Abschluss des Moduls ist durch den Modulbeauftragten zu bestätigen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 9",
+        "name": "Studium Generale"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

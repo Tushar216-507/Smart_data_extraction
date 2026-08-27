@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Language course 1",
+      "original_value": "Kurs Language course 1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7.1",
+        "name": "Language course 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "TN",
+        "semester": null,
+        "term": "SS 2014",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Language course 2",
+      "original_value": "Kurs Language course 2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7.2",
+        "name": "Language course 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "TN",
+        "semester": null,
+        "term": "SS 2014",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Diversity and regional integration in Southeast Asia",
+      "original_value": "Seminar Diversity and regional integration in Southeast Asia",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7.3",
+        "name": "Diversity and regional integration in Southeast Asia"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "LN",
+        "semester": null,
+        "term": "SS 2014",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

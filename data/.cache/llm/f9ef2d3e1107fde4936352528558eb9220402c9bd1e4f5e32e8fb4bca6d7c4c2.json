@@ -1,0 +1,131 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "diploma_supplement_description",
+      "value": "The Diploma Supplement is issued together with the certificate and transcript, in accordance with international guidelines.",
+      "original_value": "Mit der Urkunde und dem Zeugnis wird ein Diploma Supplement entsprechend den internationalen Vorgaben ausgestellt;",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "ects_classification_table",
+      "value": "The Diploma Supplement contains an ECTS classification table.",
+      "original_value": "Das Diploma Supplement enthält eine ECTS-Einstufungstabelle.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grade_distribution",
+      "value": {
+        "grades": [
+          {
+            "grade": "bis 1,5 (sehr gut)",
+            "number_in_reference_group": null,
+            "percentage_in_reference_group": null
+          },
+          {
+            "grade": "von 1,6 bis 2,5 (gut)",
+            "number_in_reference_group": null,
+            "percentage_in_reference_group": null
+          },
+          {
+            "grade": "von 2,6 bis 3,5 (befriedigend)",
+            "number_in_reference_group": null,
+            "percentage_in_reference_group": null
+          },
+          {
+            "grade": "von 3,6 bis 4,0 (ausreichend)",
+            "number_in_reference_group": null,
+            "percentage_in_reference_group": null
+          }
+        ]
+      },
+      "original_value": "Die Gesamtnoten, die im jeweiligen Studiengang in einer Vergleichskohorte vergeben werden, sind zu erfassen und ihre zahlenmäßige und prozentuale Verteilung auf die Notenstufen gemäß § 37 Abs. 8 zu ermitteln und in einer Tabelle wie folgt darzustellen:",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "reference_group_size",
+      "value": "The reference group is derived from the number of graduates of the respective program over three academic years, requiring a minimum of 50 graduates for calculation.",
+      "original_value": "Die Referenzgruppe ergibt sich aus der Anzahl der Absolventinnen und Absolventen des jeweiligen Studiengangs in einem Zeitraum von drei Studienjahren. Die Berechnung erfolgt nur, wenn die Referenzgruppe aus mindestens 50 Absolventinnen und Absolventen besteht.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

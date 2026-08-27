@@ -1,0 +1,7 @@
+If you are a person that combines creative imagination and analytical rigour; if you are a good observer; and if you are inspired by the prospect of changing the world we live in, then UL’s problem-oriented approach to architecture may just be right for you. Architecture requires a lot of dedication, and is a very hands-on course that relies on constructional understanding, based on lots of model making and material experiments.
+
+Why study Architecture at UL?
+
+Architecture at UL offers a 5-year undergraduate degree in architecture. The objective of the programme is to educate architects with a strong set of integrated skills, balanced with a clear understanding of the environment - built, existing and imagined - and vital to professional practice. The Royal Institute of Architects of Ireland (RIAI) has awarded full accreditation to the architecture programme at UL. Studying architecture in an accredited programme is the first step towards becoming a registered professional architect.
+
+The Architecture programme at UL embraces all parts of an architect’s education; it is a place where the study of architecture is undertaken with passion and inventiveness, open and transparent society of mobile thinkers. The teaching of architecture at UL is integrated with Environmental and Structural engineering, as disciplines that set us free from the limitations of our own knowledge and help us to achieve a balance with the environment by focusing human abilities.

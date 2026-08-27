@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "electronics_calculations",
+      "field": "resistance_formula",
+      "value": "R = V / I",
+      "confidence": 1.0,
+      "programme_association": "Electronic and Computer Engineering"
+    },
+    {
+      "category": "other",
+      "subcategory": "electronics_calculations",
+      "field": "capacitance_formula",
+      "value": "C = Q / V",
+      "confidence": 1.0,
+      "programme_association": "Electronic and Computer Engineering"
+    },
+    {
+      "category": "other",
+      "subcategory": "electronics_calculations",
+      "field": "inductance_formula",
+      "value": "V = L * (di/dt)",
+      "confidence": 1.0,
+      "programme_association": "Electronic and Computer Engineering"
+    }
+  ]
+}

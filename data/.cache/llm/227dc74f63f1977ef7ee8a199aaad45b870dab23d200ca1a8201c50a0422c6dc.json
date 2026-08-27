@@ -1,0 +1,190 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Additional Studies",
+      "original_value": "Additional Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module (for Variant 2)",
+        "semester": "2-4",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "credit_system",
+      "value": 6,
+      "original_value": "6 CP (insg.) = 180 h",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "contact_hours": {
+          "value": 30,
+          "original_value": "30-60 h",
+          "unit": "hours"
+        },
+        "self_study_hours": {
+          "value": 150,
+          "original_value": "um 120-150 h",
+          "unit": "hours"
+        }
+      },
+      "original_value": "30-60 h / um 120-150 h",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "Students following Variant 2 are provided the opportunity to deepen their subject-specific knowledge by attending additional courses offered as elective modules 5, 6, 7, and 8 of the Master’s program in Southeast Asian Studies or to engage with self-chosen topics in other disciplines.",
+      "original_value": "Im Rahmen der Ergänzenden Studien wird Studierenden, die nach Variante 2 studieren, die Möglichkeit gegeben entweder ihre fachspezifischen Kenntnisse zu vertiefen, indem sie zusätzlich Veranstaltungen besuchen, die im Rahmen der Wahlpflichtmodulen 5, 6, 7 und 8 des Masterstudiengangs Southeast Asian Studies angeboten werden oder sich mit selbstgewählten Themenbereichen in anderen Disziplinen auseinanderzusetzen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": "This module provides students of Variant 2 the possibility to prepare specifically for their semester abroad, for example, by attending language courses or enrolling in courses in other subjects.",
+      "original_value": "Dieses Modul bietet Studierenden der Variante 2 alternativ die Möglichkeit, sich gezielt auf das Auslandssemester (SEAS 11) vorzubereiten, z.B. durch den Besuch von Sprachkursen oder die Belegung von Lehrveranstaltungen in anderen Fächern.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German or English. For students without sufficient knowledge of German, the choice is limited to English-language courses.",
+      "original_value": "Deutsch oder Englisch. Für Studierende ohne ausreichende Deutschkenntnisse ist die Auswahl auf englischsprachige Lehrveranstaltungen beschränkt.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "participation_conditions",
+      "value": "none",
+      "original_value": "keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 10",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

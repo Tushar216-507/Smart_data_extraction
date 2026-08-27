@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0015",
+  "program_name": "Masters/PhD in Languages, Literature, Culture and Communications",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0015\\final",
+  "input_fact_count": 11,
+  "unique_fact_count": 11,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 11,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 11,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 6,
+    "admission": 0,
+    "curriculum": 1,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 1,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0015\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0015\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0015\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0015\\final\\scholarships_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0015\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0015\\final\\research_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0015\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "first_year_student_requirements",
+      "field": "ged_required_scores",
+      "value": {
+        "score_1998_to_2001": 50,
+        "score_2002_to_2013": 500,
+        "score_after_2013": 170
+      },
+      "confidence": 1.0,
+      "programme_association": "Organizational Leadership (Military and Veterans Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "first_year_student_requirements",
+      "field": "hiset_required_score",
+      "value": 75,
+      "confidence": 1.0,
+      "programme_association": "Organizational Leadership (Military and Veterans Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "first_year_student_requirements",
+      "field": "tasc_required_scores",
+      "value": {
+        "minimum_total_score": 2700,
+        "minimum_content_area_score": 500,
+        "minimum_essay_score": 2
+      },
+      "confidence": 1.0,
+      "programme_association": "Organizational Leadership (Military and Veterans Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deadlines",
+      "field": "important_deadlines",
+      "value": "fall 2027",
+      "confidence": 1.0,
+      "programme_association": "Organizational Leadership (Military and Veterans Studies) - BA"
+    }
+  ]
+}

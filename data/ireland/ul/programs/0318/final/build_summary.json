@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0318",
+  "program_name": "Bachelor/Master of Science in Immersive Bioscience and Biotherapeutics",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0318\\final",
+  "input_fact_count": 88,
+  "unique_fact_count": 88,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 88,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 88,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 20,
+    "admission": 1,
+    "curriculum": 17,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 2,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 47
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0318\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0318\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0318\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0318\\final\\career_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0318\\final\\contacts_data.json",
+    "other": "data\\ireland\\ul\\programs\\0318\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0318\\final\\build_summary.json"
+  }
+}

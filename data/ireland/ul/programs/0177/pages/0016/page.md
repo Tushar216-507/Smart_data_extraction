@@ -1,0 +1,9 @@
+### Kevin Brosnan
+
+Throughout second level education, numeracy based courses, maths and accounting, were my strongest - and not knowing what I could do with that my intention was always to become a second level maths teacher. After being encouraged by my maths teacher I looked at maths courses across Irish universities, and chose UL after speaking to a number of students on the course and after visiting the amazing campus.
+
+The first two years formed a basis of maths, statistics and computing, but it was the third year which changed my career trajectory. My co-op placement was with Accenture Analytics in Dublin working with large enterprises to identify and prevent fraud using statistics and data, a field we now commonly call Data Science. After my co-op placement I was gripped by the thought of using statistics and computing to prevent fraud and risk. I finished my final year and then enrolled for a PhD at UL - during which time I investigated cheating in elite athletics and worked with a company developing fraud detection tooling in the Motor Insurance Space.
+
+After finishing my PhD, I moved into the financial services space, and have worked with two global payment processors designing statistical and machine learning systems which detect, prevent and manage payment fraud in real-time - every transaction you do is scanned through a statistical model to evaluate the likelihood of the transaction being fraudulent in milliseconds!
+
+Today I work on strategic risk management and product development, where I use my knowledge of fraud and risk, as well as mathematics and statistics, to protect companies and consumers from sophisticated fraud attacks. While I don’t write algorithms, or solve difficult equations, my background in logical thinking and understanding of data is essential to risk, design and strategic decisions I make every day.

@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "visa",
+      "subcategory": "application_timing",
+      "field": "STEM OPT application recommendation",
+      "value": "Apply for 24-Month STEM OPT no more than 97 days prior to end date of your Post-OPT.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "extension_requirements",
+      "field": "STEM extension application receipt",
+      "value": "STEM extension applications must be received by USCIS before the end date listed on the Post-OPT EAD card or the STEM extension will be forfeited.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "pending_application_employment",
+      "field": "Employment during pending STEM extension application",
+      "value": "Students whose applications are received by USCIS before the EAD card expires will be able to continue employment while the extension application is pending until they receive the final decision from USCIS or for 180 days, whichever comes first.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

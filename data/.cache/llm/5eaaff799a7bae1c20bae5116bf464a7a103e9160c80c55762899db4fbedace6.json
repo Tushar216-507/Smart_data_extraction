@@ -1,0 +1,122 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "credit_system",
+      "value": "Credit Points",
+      "original_value": "Kreditpunkte",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "法律_name",
+      "value": "Hessian Higher Education Act",
+      "original_value": "Hessisches Hochschulgesetz vom 14. Dezember 2021, verkündet als Artikel 1 des Gesetzes zur Neuregelung und Änderung hochschulrechtlicher Vorschriften und zur Anpassung weiterer Rechtsvorschriften vom 14. Dezember 2021 (GVBl. S. 931), zuletzt geändert durch Art. 9 Haushaltsmodernisierungsgesetz vom 1. April 2022 (GVBl. S. 184, 204)",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "enrollment_regulation_name",
+      "value": "Hessian Enrollment Regulation",
+      "original_value": "Hessische Immatrikulationsverordnung vom 24. Februar 2010 (GVBl. I, S. 94), zuletzt geändert am 24. Oktober 2018 (GVBl. S. 651)",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "framework_ordinance_name",
+      "value": "Framework Ordinance for Structured and Modularized Study Programs",
+      "original_value": "Rahmenordnung für gestufte und modularisierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main vom 30. April 2014 in der Fassung vom 15. Juni 2020",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "weekly_semester_hours",
+      "value": "Semester weekly hours",
+      "original_value": "Semesterwochenstunden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

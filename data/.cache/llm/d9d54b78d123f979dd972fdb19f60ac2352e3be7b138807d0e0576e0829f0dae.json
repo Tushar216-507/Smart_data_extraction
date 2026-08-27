@@ -1,0 +1,180 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_ranking",
+      "value": "Ranked among the top 150 World Universities in the Shanghai Ranking 2013",
+      "original_value": "unter den 150 besten Universitäten der Welt im Shanghai Ranking 2013.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "facilities",
+      "scope": "university",
+      "field": "library_description",
+      "value": "The university's central library is one of the largest research libraries in Germany",
+      "original_value": "Die zentrale Bibliothek der Universität ist eine der größten Forschungsbibliotheken Deutschlands.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "facilities",
+      "scope": "programme",
+      "field": "southeast_asian_studies_library_collection",
+      "value": "Our department provides the most comprehensive collection for Southeast Asian Studies in Germany, currently holding about 55,000 books and journals",
+      "original_value": "Unsere Abteilung bietet die umfassendste Sammlung für Südostasienwissenschaften in Deutschland und hält derzeit etwa 55.000 Bücher und Zeitschriften.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "fees",
+      "scope": "university",
+      "field": "semester_fee",
+      "value": 365,
+      "original_value": "roughly € 365",
+      "unit": "EUR",
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "transportation",
+      "scope": "university",
+      "field": "semester_ticket_inclusion",
+      "value": "Includes the 'Semesterticket', which provides for unlimited travel on public transportation within the whole Rhein-Main region",
+      "original_value": "einschließlich des 'Semestertickets', das unbegrenzte Reisen mit öffentlichen Verkehrsmitteln innerhalb der gesamten Rhein-Main-Region ermöglicht.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "location",
+      "scope": "university",
+      "field": "city_description",
+      "value": "Frankfurt is Germany's transportation hub and a leading business centre",
+      "original_value": "Frankfurt ist Deutschlands Verkehrsknotenpunkt und ein führendes Wirtschaftscentrum.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "location",
+      "scope": "university",
+      "field": "city_features",
+      "value": "Home to headquarters of the European Central Bank and Germany's main stock exchange, known for trade fairs",
+      "original_value": "Heimat der Hauptquartiere der Europäischen Zentralbank und der deutschen Hauptbörse, bekannt für Handelsmessen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "location",
+      "scope": "university",
+      "field": "cultural_scene_description",
+      "value": "Frankfurt is an international city, home to more than 170 nationalities, with a broad cultural scene: a first-rate opera house, some 30 theatres, and almost 40 museums",
+      "original_value": "Frankfurt ist eine internationale Stadt mit mehr als 170 Nationalitäten und einer breiten Kulturszene: ein erstklassiges Opernhaus, etwa 30 Theater und fast 40 Museen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

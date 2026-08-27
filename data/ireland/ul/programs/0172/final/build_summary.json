@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0172",
+  "program_name": "Bachelor of Arts in Criminal Justice",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0172\\final",
+  "input_fact_count": 34,
+  "unique_fact_count": 34,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 31,
+  "unhandled_fact_count": 3,
+  "written_fact_count": 34,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 15,
+    "admission": 2,
+    "curriculum": 0,
+    "career": 7,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 7,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0172\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0172\\final\\admission_data.json",
+    "career": "data\\ireland\\ul\\programs\\0172\\final\\career_data.json",
+    "research": "data\\ireland\\ul\\programs\\0172\\final\\research_data.json",
+    "unhandled": "data\\ireland\\ul\\programs\\0172\\final\\unhandled_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0172\\final\\build_summary.json"
+  }
+}

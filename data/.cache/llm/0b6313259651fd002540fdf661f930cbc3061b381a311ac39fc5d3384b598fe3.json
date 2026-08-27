@@ -1,0 +1,129 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "American Literature and Literary Studies - Literary History",
+      "original_value": "Amerikanische Literatur und Literaturwissenschaft - Literaturgeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module for the major, Compulsory elective module for the minor",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Take Home or Term Paper",
+      "original_value": "Take Home (MP 2661) oder Hausarbeit (2662)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "submission_information",
+      "value": {
+        "term_paper_registration": {
+          "start_date": "29.06.2026",
+          "end_date": "21.09.2026"
+        },
+        "term_paper_submission": {
+          "due_date": "28.09.2026"
+        },
+        "take_home_registration": {
+          "start_date": "08.06.2026",
+          "end_date": "03.08.2026"
+        },
+        "take_home_submission": {
+          "due_date": "10.08.2026"
+        },
+        "re_submission_due_date": "21.12.2026"
+      },
+      "original_value": "Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026\nAbgabe der Hausarbeit: 28.09.2026\nAnmeldung zum Take Home: 08.06. - 03.08.2026\nAbgabe: 10.08.2026\nAbgabe der Wiederholung: 21.12.2026",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "instructors",
+      "value": [
+        "Max José Dreysse Passos de Carvalho",
+        "Prof. Dr. Bernd Herzogenrath",
+        "PD Dr. Tim Lanzendörfer",
+        "Dr. Magdalena Majewska"
+      ],
+      "original_value": "Max José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form\nProf. Dr. Bernd Herzogenrath - Theory into Practice\nPD Dr. Tim Lanzendörfer - Close Reading\nDr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0029",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

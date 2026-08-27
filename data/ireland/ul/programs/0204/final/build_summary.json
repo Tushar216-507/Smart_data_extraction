@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0204",
+  "program_name": "Education - School Leadership - Master of Education",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0204\\final",
+  "input_fact_count": 32,
+  "unique_fact_count": 32,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 32,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 32,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 9,
+    "admission": 8,
+    "curriculum": 6,
+    "career": 0,
+    "fees": 6,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 3,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0204\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0204\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0204\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0204\\final\\fees_data.json",
+    "visa": "data\\ireland\\ul\\programs\\0204\\final\\visa_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0204\\final\\build_summary.json"
+  }
+}

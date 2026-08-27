@@ -1,0 +1,3 @@
+Mit der Fachbereichsmedaille werden Persönlichkeiten geehrt, die sich in herausragender Weise um die Lehre am Fachbereich Wirtschaftswissenschaften verdient gemacht haben. Die Träger\*innen eint ein langjähriges und dauerhaftes Engagement für den Fachbereich. Ihr kontinuierlicher Einsatz mit Blick auf die Studierenden ist ein wesentlicher Garant für die hohe Qualität der angebotenen wirtschaftswissenschaftlichen Ausbildung.
+
+Die Fakultätsmedaille wurde erstmals 1964 verliehen. Seitdem haben folgende Persönlichkeiten die Auszeichnung erhalten:

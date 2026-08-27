@@ -1,0 +1,180 @@
+{
+  "facts": [
+    {
+      "category": "institution",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "official_program_name",
+      "value": "Master in Money, Macro and Finance",
+      "original_value": "Master in Money, Macro and Finance",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "credits": 5,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "credits": 5,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "credits": 5,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "credits": 5,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "credits": 5,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "credits": 10,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

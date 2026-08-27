@@ -1,0 +1,138 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "subcategory": "programme_title",
+      "field": "title",
+      "value": "English Studies Bachelor",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "identity",
+      "subcategory": "university_name",
+      "field": "name",
+      "value": "Goethe University Frankfurt",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "related_programmes",
+      "field": "programmes",
+      "value": [
+        {
+          "program_title": "BA English Studies",
+          "link": "https://www.uni-frankfurt.de/en/studium/studiengaenge/english-studies-bachelor-hauptfach"
+        },
+        {
+          "program_title": "BA American Studies",
+          "link": "https://www.uni-frankfurt.de/en/studium/studiengaenge/american-studies-bachelor-hauptfach"
+        },
+        {
+          "program_title": "Teaching degree English",
+          "links": [
+            "https://www.uni-frankfurt.de/35791065?",
+            "https://www.uni-frankfurt.de/35791066?",
+            "https://www.uni-frankfurt.de/35791067?",
+            "https://www.uni-frankfurt.de/35791068?"
+          ]
+        },
+        {
+          "program_title": "MA Anglophone Literature, Culture and Media",
+          "link": "https://www.uni-frankfurt.de/en/studium/studiengaenge/anglophone-literatures-cultures-and-media-master"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "theatre_contact",
+      "field": "contact_name",
+      "value": "James Fisk",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "theatre_contact",
+      "field": "contact_email",
+      "value": "fisk@em.uni-frankfurt.de",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "theatre_performance_details",
+      "field": "performance_dates",
+      "value": "Opening night is on July 3rd; additional performances are on July 4th, 9th, 10th, and 11th",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "theatre_performance_details",
+      "field": "curtain_time",
+      "value": "7:30 p.m.",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "theatre_performance_details",
+      "field": "ticket_price",
+      "value": "10€ (general admission) and 5€ (reduced)",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "theatre_performance_details",
+      "field": "ticket_availability",
+      "value": "Tickets are only available at the box office one hour before curtain (6:30 p.m.); no advance ticket sales.",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "theatre_performance_location",
+      "field": "location",
+      "value": "Goethe University, Campus Westend, IG Farbenhaus-Nebengebäude, room NG 1.741",
+      "confidence": 1.0,
+      "programme_association": "Chaincourt Theatre Company"
+    },
+    {
+      "category": "scholarships",
+      "subcategory": "prize_details",
+      "field": "recipient_name",
+      "value": "Vansh Sharma",
+      "confidence": 1.0,
+      "programme_association": "B.A. American Studies at Goethe University"
+    },
+    {
+      "category": "scholarships",
+      "subcategory": "prize_details",
+      "field": "prize_name",
+      "value": "DAAD Prize",
+      "confidence": 1.0,
+      "programme_association": "B.A. American Studies at Goethe University"
+    },
+    {
+      "category": "scholarships",
+      "subcategory": "prize_details",
+      "field": "prize_amount",
+      "value": "1,000 EUR",
+      "confidence": 1.0,
+      "programme_association": "B.A. American Studies at Goethe University"
+    },
+    {
+      "category": "statistics",
+      "subcategory": "student_achievement",
+      "field": "nomination_reason",
+      "value": "for outstanding achievements in American Studies and special social and intercultural engagement",
+      "confidence": 1.0,
+      "programme_association": "B.A. American Studies at Goethe University"
+    }
+  ]
+}

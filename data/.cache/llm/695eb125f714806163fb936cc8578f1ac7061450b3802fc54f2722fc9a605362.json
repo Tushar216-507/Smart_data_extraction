@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "special_admission_regulation",
+      "value": "The regulation applies particularly to non-restricted master programs. Applicants who are deemed suitable through a suitability assessment are to be admitted.",
+      "original_value": "Diese Anlage regelt die Zulassungsverfahren insbesondere bei nicht zulassungsbeschränkten Masterstudiengängen. Bewerberinnen und Bewerber, die aufgrund eines Eignungsfeststellungsverfahrens als geeignet gelten, sind zwingend zuzulassen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "special admission requirements",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "application_requirements",
+      "value": "The application must include certain documents due to special admission requirements, such as motivation letters or language certificates.",
+      "original_value": "Hier ist zu regeln, welche Unterlagen wegen der besonderen Zugangsvoraussetzungen bereits der Bewerbung in einfacher oder beglaubigter Kopie beigefügt werden müssen, z. B. Motivationsschreiben oder Sprachzeugnisse.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "document submission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "evaluation_process",
+      "value": "The examination board for the master program reviews the requirements and conducts further processes.",
+      "original_value": "Der Prüfungsausschuss für den Masterstudiengang überprüft das Vorliegen der Voraussetzungen nach Abs. 1 und 2 und führt das weitere Verfahren durch.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "evaluation process",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "interview_format",
+      "value": "The selection interview is conducted as a personal interview, is non-public, and lasts between 20 and 30 minutes.",
+      "original_value": "Das Gespräch wird als Einzelgespräch durchgeführt, ist nichtöffentlich und soll zwischen 20 und 30 Minuten dauern.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "interview format",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "assessment_criteria",
+      "value": "The assessment criteria for the suitability test will be determined by the committee, which includes evaluating the motivation and suitability for the master's degree.",
+      "original_value": "Der Test dient zur Feststellung der Eignung für das Masterstudium anhand der folgenden Kriterien: ... Das Nähere, insbesondere Aufgabenstellung und Prüfungsdauer, bestimmt der Ausschuss.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "assessment criteria",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

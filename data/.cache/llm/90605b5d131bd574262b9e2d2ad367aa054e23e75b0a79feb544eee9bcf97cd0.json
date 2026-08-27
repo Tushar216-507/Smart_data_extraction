@@ -1,0 +1,152 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master in International Economics and Economic Policy",
+      "original_value": "Master in International Economics and Economic Policy",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "faculty",
+      "value": "Department of Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.Sc. Biochemie",
+      "original_value": "M.Sc. Biochemie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "18",
+        "name": "M.Sc. Biochemie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftswissenschaften",
+      "original_value": "Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "18",
+        "name": "Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "WIWI-Module für das Orientierungsstudium",
+      "original_value": "WIWI-Module für das Orientierungsstudium",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "18",
+        "name": "WIWI-Module für das Orientierungsstudium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsfach Applied Economics",
+      "original_value": "Anwendungsfach Applied Economics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "19",
+        "name": "Anwendungsfach Applied Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Doctoral Program in Law, Finance and Economics",
+      "original_value": "Doctoral Program in Law, Finance and Economics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "19",
+        "name": "Doctoral Program in Law, Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

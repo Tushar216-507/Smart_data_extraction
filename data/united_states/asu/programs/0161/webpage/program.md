@@ -1,0 +1,49 @@
+# Online Master of Science in Sustainable Food Systems
+
+Arizona State University’s Master of Science in sustainable food systems prepares you to create and lead policy initiatives that pioneer innovative pathways for our future. In this program, you’ll explore food and agricultural trends, build relationships with farmers and learn from influential policy leaders that can help you advance in your career.
+
+[Learn more](#program-detail)
+
+Quick facts
+
+Next start date: NA
+
+Total classes: 11
+
+Weeks per class: 7.5-15
+
+Total credit hours: 30
+
+## What you’ll learn in this sustainable food systems master’s
+
+## Sustainable food systems master’s courses
+
+In this program, you’ll take a wide variety of sustainability courses and complete training that prepares you for roles in leadership. Topics you’ll study in your curriculum include policy making, environmental and resource conservation and approaches to achieving sustainable systems.
+
+## Prepare for leadership roles in the food and agricultural sector
+
+Upon graduating from this program, you’ll be able to utilize your training to pursue new opportunities or advance in your current role in the food and agriculture sector. Your knowledge of the interconnected social, political, economic and ecological factors that influence food systems will be highly desired by employers across many industries. Potential job titles include, but are not limited to:
+
+## How to apply
+
+Applicants to the sustainable food systems program must fulfill the requirements for the Graduate College and the School of Sustainability.
+
+## Study at the nation’s first School of Sustainability
+
+ASU is a global university recognized for its commitment to innovation, research and high-quality academic programs. Our university has been recognized with peer-reviewed honors from U.S. News & World Report and receives accolades from other prestigious organizations.
+
+### #1
+
+in the U.S. for innovation for 11 consecutive years, ahead of Stanford and MIT.
+
+### #1
+
+university in the U.S. in pursuit of United Nations Sustainable Development Goals.
+
+### #1
+
+“Cool Schools” for sustainability by Sierra Club for campus sustainability.
+
+### Top 10
+
+best online bachelor’s programs.

@@ -1,0 +1,1822 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="icon" href="https://food.wb.gov.in/images/logo.png" type="image/gif" sizes="30x30" />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="The Department of Food &amp;amp; Supplies has the vision to ensure that every citizen has access to food and a balanced diet. The department endeavors to provide nutritious food for the well-being of the community. We strive to serve the people with excellent standards of Procurement, Storage, and food distribution. " /><meta name="author" content="Inovatik" />
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" />
+    <!-- website name -->
+    <meta property="og:site" />
+    <!-- website link -->
+    <meta property="og:title" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" />
+    <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>
+	Food & Supplies Department - Government of West Bengal 
+</title>
+
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Raleway:wght@200&amp;family=Roboto:wght@300;400&amp;display=swap" rel="stylesheet" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Raleway:wght@200;300;400;700&amp;family=Roboto:wght@300&amp;display=swap" rel="stylesheet" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&amp;family=Roboto:wght@300&amp;display=swap" rel="stylesheet" /><link href="css/bootstrap.css" rel="stylesheet" /><link href="font-awesome/css/font-awesome.css" rel="stylesheet" /><link href="css/swiper.css" rel="stylesheet" /><link href="css/magnific-popup.css" rel="stylesheet" /><link href="css/styles.css" rel="stylesheet" /><link href="css/additional-style.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+        
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
+    
+
+    
+<style>
+
+#home_left_menu .col-sm-12:nth-child(even) .left_boxes {
+    background-color: #287f5c;
+    color: #ffffff;
+}
+#home_left_menu .col-sm-12:nth-child(odd) .left_boxes {
+    background-color: #fbd767;
+    color: #045a43;
+}
+#right_menu_html .col-sm-12:nth-child(odd) .right_boxes{
+    background-color: #fbd767;
+    color: #287f5c;
+}
+
+.sky_box.left_boxes {
+    font-size: 22px !important;
+}
+.green_bg {
+        background: #287f5c;
+        font-family: 'Oswald', sans-serif;
+        color: #f8f8f8;
+    }
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .green_bg {
+        background: #287f5c;
+        font-family: 'Oswald', sans-serif;
+        color: #f8f8f8;
+    }
+}
+
+/* Even position */
+#home_buttom_html > .col-md-3:nth-child(even) > div{
+    background-color: #fbd767 !important;
+    color: #045a43 !important;
+}
+
+/* Odd position */
+#home_buttom_html > .col-md-3:nth-child(odd) > div{
+    background-color: #287f5c !important;
+    color: #ffffff !important;
+}
+
+/* Text color */
+#home_buttom_html > .col-md-3:nth-child(even) .home_bottom_icons{
+    color: #045a43 !important;
+}
+
+#home_buttom_html > .col-md-3:nth-child(odd) .home_bottom_icons{
+    color: #ffffff !important;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #287f5c;
+    border-color: #007bff;
+}
+
+</style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            //GetQueryStringValue();
+            Get_Home_Menu(0);
+            Get_Home_News(0);
+            Get_Notice_Press_Govt(0);
+            Get_Press_Release(0);
+            Get_Govt_Order(0);
+            Get_Home_Product(0);
+        });
+
+        function GetQueryStringValue() {
+            var url = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+
+            var page_id = 0;
+            for (var i = 0; i < url.length; i++) {
+                var urlparam = url[i].split('=');
+                if (urlparam[0] == "page_id") {
+                    page_id = urlparam[1];
+                }
+            }
+
+            if (page_id != "") {
+                document.getElementById("lbl_page_id").innerHTML = page_id;
+                Get_Home_Menu(page_id);
+                Get_Home_News(page_id);
+                Get_Notice_Press_Govt(page_id);
+                Get_Press_Release(page_id);
+                Get_Govt_Order(page_id);
+                Get_Home_Product(page_id);
+            }
+
+        }
+
+        function Get_Home_Menu(page_id) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Index.aspx/Get_Home_Menu",
+                data: '{page_id: ' + JSON.stringify(page_id) + '}',
+                dataType: "json",
+                success: function (r) {
+
+                    if (r.d.length > 0) {
+
+                        var home_left_menu = "";
+                        var home_right_menu = "";
+                        var home_buttom_menu = "";
+                        var buttom_menu_counter = 5;
+                        for (var i = 0; i < r.d.length; i++) {
+
+				 var target_url = r.d[i]["Target_Url"];
+
+                            if (r.d[i]["Left_Right"] == "3") {
+
+                               
+
+                                home_left_menu += "<div class=\"col-sm-12 mb-2 p-0\" style=\"cursor:pointer\" onclick=\"Get_Target_Url('" + target_url + "'); \">" +
+                                    "<div class=\"" + r.d[i]["Color"] + " left_boxes\">" +
+                                    "<div class=\"row justify-content-center align-items-center text \">" +
+                                    "<div class=\"col-sm-4 border_area \">" +
+                                    "<img src=\"" + r.d[i]["Icon"] + "\" class=\"img-fluid\" alt=\"" + r.d[i]["Name_Category"] +"-Department of Food & Supplies, Government of West Bengal\">" +
+                                    "</div>" +
+                                    "<div style= \"font-size:18px\" class=\"col-sm-8 \">" + r.d[i]["Name_Category"] + "</div>" +
+                                    "</div>" +
+
+                                    "</div>" +
+
+                                    "</div>";
+                            }
+
+                            if (r.d[i]["Left_Right"] == "2") {
+                                home_right_menu += "<div class=\"col-sm-12 mt-1 mb-1 p-0 \" style=\"cursor:pointer\" onclick=\"Get_Target_Url('" + target_url + "'); \">" +
+                                    "<div style= \"font-size:18px\" class=\"" + r.d[i]["Color"] + " right_boxes\">" +
+                                    "" + r.d[i]["Name_Category"] + "" +
+
+                                    "</div>" +
+
+                                    "</div>";
+                            }
+
+                            if (r.d[i]["Left_Right"] == "4") {
+
+
+                                //if (i == buttom_menu_counter) {
+                                //     home_buttom_menu += "<div class=\"row\">";
+                                //}
+
+
+                                home_buttom_menu += "<div class=\"col-md-3\" style=\"margin-top:10px;cursor:pointer\" onclick=\"Get_Target_Url('" + target_url + "'); \">" +
+                                    "<div class=\"" + r.d[i]["Color"] + " box_ht\">" +
+                                    "<div class=\"row\">" +
+                                    "<div class=\"col-sm-2\">" +
+                                    "<img src=\"" + r.d[i]["Icon"] + "\" class=\"img-fluid\" alt=\"" + r.d[i]["Name_Category"] +"-Department of Food & Supplies, Government of West Bengal\">" +
+                                    "</div>" +
+                                    "<div style= \"font-size:18px\" class=\"col-sm-10 home_bottom_icons\">" +
+                                    "" + r.d[i]["Name_Category"] + "" +
+                                    "</div>" +
+                                    "</div>" +
+                                    "</div>" +
+                                    "</div>";
+                            }
+
+                        }
+
+                        $('#home_left_menu').html(home_left_menu);
+                        $('#right_menu_html').html(home_right_menu);
+                        $('#home_buttom_html').html(home_buttom_menu);
+                    }
+
+                },
+                error: function (r) {
+                    var msg = r.d;
+
+                    alert(msg);
+                }
+            });
+        }
+
+        function Get_Home_News(page_id) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Index.aspx/Get_Home_News",
+                data: '{page_id: ' + JSON.stringify(page_id) + '}',
+                dataType: "json",
+                success: function (r) {
+
+                    if (r.d.length > 0) {
+
+                        var home_imp_news_html = "";
+                        var home_what_news_html = "";
+
+                        document.getElementById("imp_news_title").innerHTML = r.d[0]["Important_Title"];
+                        document.getElementById("what_new_title").innerHTML = r.d[0]["What_New_Titile"];
+
+                        for (var i = 0; i < r.d.length; i++) {
+
+                            home_imp_news_html += "<li>" +
+                                "" + r.d[i]["Important_News"] + "" +
+                                "</li>";
+
+                            home_what_news_html += "<li>" +
+                                "" + r.d[i]["Whats_News"] + "" +
+                                "</li>";
+
+
+
+                        }
+
+                        $('#home_imp_news_html').html(home_imp_news_html);
+                        $('#home_what_news_html').html(home_what_news_html);
+
+                    }
+
+                },
+                error: function (r) {
+                    var msg = r.d;
+
+                    alert(msg);
+                }
+            });
+        }
+
+        function Get_Notice_Press_Govt(page_id) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Index.aspx/Get_Notice_Press_Govt",
+                data: '{page_id: ' + JSON.stringify(page_id) + '}',
+                dataType: "json",
+                success: function (r) {
+
+                    if (r.d.length > 0) {
+
+                        var home_notice_html = "";
+
+
+                        for (var i = 0; i < r.d.length; i++) {
+
+                            home_notice_html += "<li>" +
+                                "" + r.d[i]["Notice"] + "" +
+                                "</li >";
+                        }
+
+                        $('#home_notice_html').html(home_notice_html);
+                    }
+
+                },
+                error: function (r) {
+                    var msg = r.d;
+
+                    alert(msg);
+                }
+            });
+        }
+
+        function Get_Press_Release(page_id) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Index.aspx/Get_Press_Release",
+                data: '{page_id: ' + JSON.stringify(page_id) + '}',
+                dataType: "json",
+                success: function (r) {
+
+                    if (r.d.length > 0) {
+
+
+                        var home_press_release_html = "";
+
+                        for (var i = 0; i < r.d.length; i++) {
+
+                            home_press_release_html += "<li>" +
+                                "" + r.d[i]["Press_Release"] + "" +
+                                "</li >";
+                        }
+
+                        $('#home_press_release_html').html(home_press_release_html);
+                    }
+
+                },
+                error: function (r) {
+                    var msg = r.d;
+
+                    alert(msg);
+                }
+            });
+        }
+
+        function Get_Govt_Order(page_id) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Index.aspx/Get_Govt_Order",
+                data: '{page_id: ' + JSON.stringify(page_id) + '}',
+                dataType: "json",
+                success: function (r) {
+
+                    if (r.d.length > 0) {
+
+                        var home_govt_order_html = "";
+
+                        for (var i = 0; i < r.d.length; i++) {
+
+                            home_govt_order_html += "<li>" +
+                                "" + r.d[i]["Goverment_Order"] + "" +
+                                "</li >";
+                        }
+
+                        $('#home_govt_order_html').html(home_govt_order_html);
+                    }
+
+                },
+                error: function (r) {
+                    var msg = r.d;
+
+                    alert(msg);
+                }
+            });
+        }
+
+        function Get_Home_Product(page_id) {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Index.aspx/Get_Home_Product",
+                data: '{page_id: ' + JSON.stringify(page_id) + '}',
+                dataType: "json",
+                success: function (r) {
+
+                    if (r.d.length > 0) {
+
+                        var home_product_html = "";
+
+                        for (var i = 0; i < r.d.length; i++) {
+
+  var get_product_price = r.d[i]["Product_Price"];
+                            var converted_product_price = Number(get_product_price).toLocaleString("en-in");
+
+                            home_product_html += "<div class=\"col-md-4\">" +
+                                "<div class=\"dashboard_box\">" +
+
+                                "<div class=\"col-sm-12 text-center\">" +
+                                "" + r.d[i]["Product_Name"] + "<br>" +
+                                "" + r.d[i]["Attribute"] + "" +
+                                "</div>" +
+
+                                "<div class=\"col-sm-12 no text-center dashboard_text\">" + converted_product_price + "</div>" +
+                                "</div>" +
+
+                                "</div>";
+                        }
+
+                        $('#home_product_html').html(home_product_html);
+                    }
+
+                },
+                error: function (r) {
+                    var msg = r.d;
+
+                    alert(msg);
+                }
+            });
+        }
+
+        function Get_Target_Url(target_url) {
+            if (target_url != "") {
+                window.open(target_url, '_blank');
+            }
+            else {
+                alert("There Have No Url To Open")
+            }
+
+        }
+    </script>
+
+
+    <style type="text/css">
+
+    .nav_area {
+    background: #fffae0;
+}
+body {
+    background-color: #fffae0!important;
+}
+a {
+    color: #287f5c;
+    text-decoration: none;
+    background-color: transparent;
+}
+.card {
+    background: #fffae0;
+    color: #000;
+  
+}
+.logo_txt {
+   
+    color: #650808;
+  
+}
+    h1.citizenHomeSectionHeading {
+    display: none;
+}
+    /* Button styling using the CSS class */
+        .narrator-btn {
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            color: #007BFF;
+            cursor: pointer;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+
+        /* Hover effect for the buttons */
+        .narrator-btn:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Disabled button styles */
+        .narrator-btn:disabled {
+            background-color: #e0e0e0;
+            color: #999;
+            border: 2px solid #999;
+            cursor: not-allowed;
+        }
+        .login_big_front{
+            font-size:22px;
+            background-color:#2c5ee8;
+        }
+ul.socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+ul.socialIcon li {
+    width: 30px;
+    height: 30px;
+   transition: transform 0.6s;   border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; margin: 0 5px;
+    
+    padding-top: 3px;}
+
+
+ul.socialIcon li:hover  {
+  transform: rotateY(360deg);
+}
+    </style>
+<meta name="keywords" content="Food, supply, food supply, Ration Card, AAY, PHH, SPHH, Department of Food &amp; Supplies, Khadya Sathi, Duare Ration, Duare Sarkar, Khadyashree, NFSA, RKSY, RKSY-1, RKSY-2, Procurement, Storage, food distribution, Government of West Bengal" /></head>
+<body>
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="vGL8T4/ymdRZjCJotUo+HItTsZteUtf03slZPJSEb5QnjSaLqYhDOFe3ZB0UM+B3GAi8tGsuGau6eXt/6uj72CqSCyly7rnvFGFW7O6Q9r4hSqAIvnJabDJhUkcZTUmVcqhfkL0PCAgcmgHJSaUD1x1L0gF4//LYjWt4zDNGLFimhlp5Cb2FTrbUUPU6WWFsZ4Z8iJJjLgeWCYQ+vBSNW0x5G0HWW0Ju11TknQxKwOv4UHpE5Ch8zfdTTUWOtKdSYgHTCFm/kqLq19pJ1IyygzMVGDQpDWtZxp32vQJN5Nai7GJT/i599nPBSenoKLGEPUwioZE7T6wAfOECpWx0GI++6wN8AusUv9oik6/WNsPU+ZHqtyvqijpdN6fmrVCw7B+/ISyJHgd8mOGLM9Rke4YSw0Ohi/WhU0rtSqlYcsZ1+dggYrr5EZKVKLdYygKRpGK4kNEOVBgSKpooPMPaaOX+LAu2WoW9JuLEA6qQ32axdo009AOdxgApCft3TrpSqHNcC16ZADMjGJRIJ5XfKiGL4pJmlY9LM5LYnk8Ne/rAniYWFMoQ/UL/Z03FOnF5+A34Qavk038llFGaNP2z7YB9/AnFupQhe7SVXV1EnTboMvnqV2I+u/ucAGZi0+Uwm0TMSE0iXzcPfgDudc6GhEBWYAblAqdEeUQcBXkXONndGIyLBGCewsFgYBrBUvRIVxv3VDzwwQ8DyKenMg53y9nP9H8f16WWxfQF4zlhyssggFf33aK/EvrYEvIVpzOugQh/pDj/o2oM9jyEjz5CbEOFoeshMcrqD8zflOEmmeKCbb2LFwdaAJ1kQ8NTMKMn0yCFgk7cQwix+BchCIFKtuqal+k9smRK+OGW15fNWrltCNf2FJ3qv4nurv3OSB5PSz+gUhbC/IZNhA9bntHCvabBhcugZTdKic1cV+fKk85ZRJGnD4XPO0I59Am7TRcYZAeqB+H1YpcQ114no17iL7qyvGLg5gc6xPhYpdYeMYB4RjzubEzji5567zB5I9i3yhhFna//l8b4xE65sNCJNdUofTVobXL3PmpfhpFnX9hYik9I+Mrl1MoKn5dclTvQoHZx1l1Lfu5LLItX3IjXIUq8fhdmew0+8hIl/3hXeMys6sFRdw1Tx/kcRsIwv3Itqo8zQfybOgHui4epYCpr17l7gm1/NGOZqM1/hBXgCl0=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+</div>
+        <!-- Preloader -->
+        
+        <!-- end of preloader -->
+
+        <header>
+            <div class="header_top">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-md-end justify-content-between align-items-center">
+                        <div class="col-lg-2" id="div_date_html"></div>
+<div class="col-lg-3">
+<style>
+
+h2.notice {
+    font-size: 1.2rem;
+    text-transform: inherit;
+    text-decoration: none;
+color:#eff232;
+    animation: blinkAnimation 1s infinite alternate; /* Blinking animation */
+}
+
+@keyframes blinkAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: .7;
+    }
+}
+</style>
+<h2 class="notice" style="display:none">
+	Supply Chain and RCMS Portals will be down from today, 8:00 PM (03/06/2025) to tomorrow, 6:00 AM (04/06/2025) due to urgent maintenance work. All users are requested to plan accordingly. We apologize for the inconvenience caused.</h2>
+</div>
+
+                        
+                        <div class="col-lg-7 pt-3 pb-0">
+                            <div class="row pl-2 align-items-center">
+                                <div class="col-lg-3 p-0">
+<ul class="socialIcon">
+                                   <li style="background-color:#0089ff"> <a href="https://www.facebook.com/WBDFS/"><i class="fa fa-facebook" aria-hidden="true" style="color: #fff; font-size: 20px; "></i></a></li>
+ <li style="background-color:#f00"><a href="https://www.youtube.com/channel/UCr1DMrlCrJ8n09CxRLIwGMA"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #fff; font-size: 20px; "></i></a></li>
+                                    <li style="background-color:#00c8ff"> <a href="https://twitter.com/wbdfs"><i class="fa fa-twitter" aria-hidden="true" style="color: #fff; font-size: 20px; "></i></a></li>
+<li style="background-color:#07bc8b"><a href="https://wa.me/9903055505?text="><i class="fa fa-whatsapp" aria-hidden="true" style="color: #fff; font-size: 20px; "></i></a></li>
+</ul>
+                                </div>
+
+                                
+                                <div class="col-lg-3" style="padding: 0px 0 0 0;">
+                                    <ul>
+                                      
+                                         <li id="fontDec">A-</li>
+                                        <li>|</li>
+                                       
+                                         <li id="fontInc">A+    </li>
+                                       <li><button id="activateNarrator" class="narrator-btn">🔊</button> </li>
+    <li> <button id="deactivateNarrator" class="narrator-btn" disabled>🔇</button> </li>
+
+                                    </ul>
+                                </div>
+                             
+                              <div class="col-lg-3  ">
+                                    <style>
+                                        :root{
+                                            --color: #fff;
+                                        }
+                                        body{
+                                            background-color: var(--color);
+                                        }
+                                      
+                                         .color{
+                                               display: inline-block!important;
+    width: 15px;
+    height: 15px;
+                                             border-radius:50%;
+                                             border:2px solid #fff;
+                                             cursor:pointer;
+
+                                         }
+                                         #red{
+                                             background-color:crimson
+                                         }
+                                            #green{
+                                             background-color:aquamarine
+                                         }
+                                               #blue{
+                                             background-color:blueviolet
+                                         }
+                                                  #gray{
+                                             background-color:dimgrey
+                                         }
+                                                             #yellow{
+                                             background-color:#ffb100;
+                                         }
+.dropdown-menu {
+    right: 0;
+}
+                                    </style>
+
+                             
+                                        <span class="pallette">
+                                          
+                                            <ul>
+                                                <li class="color" id="red" data-color="#ffe5ea"></li>
+                                                <li class="color" id="green" data-color="#d6fff1"></li>
+                                                <li class="color" id="blue" data-color="#dedcff"></li>
+                                                <li class="color" id="gray" data-color="#dddddd"></li>
+                                                <li class="color" id="yellow" data-color="#fff1d1"></li>
+                                            </ul>
+                                        </span>
+
+                                           <script>
+                                               const color = document.getElementsByClassName('color');
+                                               let i;
+                                               for (i = 0; i < color.length; i++) {
+                                                   color[i].addEventListener('click', changecolor)
+                                               }
+                                               function changecolor() {
+                                                   let colors = this.getAttribute('data-color');
+                                                   document.documentElement.style.setProperty('--color', colors);
+
+                                               }
+                                           </script>
+                                </div>
+    <div class="col-lg-2  ">
+                                    <style>
+                                        :root{
+                                            --color: #fff;
+                                        }
+                                        body{
+                                            background-color: var(--color);
+                                        }
+                                      
+                                        
+                                    </style>
+
+                             <select  id="select_id" style="margin-bottom:19px">
+                                 <option value="">Font Style</option>
+                                 <option value="Oswald">Style 1</option>
+                                 <option value="cursive">Style 2</option>
+                                 <option value="system-ui">Style 3</option>
+                                 <option value="fantasy">Style 4</option>
+                                 <option value="revert">Style 5</option>
+
+                                 </select>
+                                        
+
+                                          <script>
+                                              function val() {
+                                                  d = document.getElementById("select_id").value;
+                                                  alert(d);
+                                              }
+                                          </script>
+                                </div>
+
+                                  
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="nav_area pt-2 pb-2">
+                <div class="container-fluid">
+                    <div class="row p-0">
+                        <div class="col-sm-3 text-left">
+                            <img src="../images/logo.png" class="img-fluid" alt="Government of West Bengal Logo">
+                        </div>
+
+                        <div class="col-sm-6 logo_txt">
+                            Department of Food & Supplies<br>
+                            <span class="logo_txt2">Government of West Bengal</span>
+                        </div>
+                        <div class="col-sm-3 text-right">
+
+                         
+                                     <div class="dropdown show"><a href="https://food.wb.gov.in/About_Category.aspx?page_id=78" target="_blank">
+                                </a><a class="btn btn-secondary dropdown-toggle" style="background-color:#022b77; color:#fff" href="#" role="button" id="dropdownMenuLink">
+    Language/ভাষা
+</a>
+
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="https://food.wb.gov.in/ben" style="font-size: 1.5rem;margin-bottom: 1rem;">বাংলা </a>
+                                    <a class="dropdown-item" href="https://food.wb.gov.in" style="font-size: 1.5rem;margin-bottom: 1rem;">English</a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+        <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var toggleBtn = document.getElementById('dropdownMenuLink');
+        var dropdownMenu = document.querySelector('.dropdown-menu');
+
+        toggleBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            dropdownMenu.classList.toggle('show');
+        });
+
+        // Optional: hide dropdown when clicked outside
+        document.addEventListener('click', function (e) {
+            if (!toggleBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
+                dropdownMenu.classList.remove('show');
+            }
+        });
+    });
+</script>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- Navigation -->
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<style>
+li.nav-item a {
+    font-size: 20px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.bg-light {
+    background-color: #045a43 !important;
+}
+
+.dropdown-menu{
+  right:0;
+      left: unset;
+}
+  
+</style>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/About_Category.aspx?page_id=9">About Us</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/About_Category.aspx?page_id=41">Schemes</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/Faq_Category.aspx?page_id=11">FAQ</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/About_Category.aspx?page_id=18">Disclosure</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/About_Category.aspx?page_id=63">MIS Reports</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/Contact.aspx?page_id=16">Contact Us</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/food/useradministration/notice-category.aspx">Notifications/Orders</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/Dynamic.aspx?page_id=121">Control order</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/food/useradministration/NoticeDetails.aspx?id=13&type=1">SOP/Manual/FRS</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="https://food.wb.gov.in/food/useradministration/NoticeDetails.aspx?id=17&type=1">Training Materials</a>
+</li>
+
+     
+    
+   
+    </ul>
+ 
+  </div>
+</nav>
+            <!-- end of navigation -->
+
+            <!-- Header -->
+
+        </header>
+
+        <div class="container-fluid mt-2">
+            
+    <div id="mainSlider" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+       <ul class="carousel-indicators">
+           <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+           <li data-target="#mainSlider" data-slide-to="1"></li>
+           <li data-target="#mainSlider" data-slide-to="2"></li>
+          
+       </ul>
+       
+       <!-- Slides -->
+       <div class="carousel-inner">
+       
+           <div class="carousel-item active">
+               <img src="https://food.wb.gov.in/bencms/images/Doc_08-05-2026_18_15_20.jpg" class="d-block w-100" alt="">
+           </div>
+       
+           <div class="carousel-item">
+               <img src="https://food.wb.gov.in/bencms/images/Doc_12-05-2026_12_26_29.jpeg" class="d-block w-100" alt="">
+           </div>
+
+           
+           <div class="carousel-item">
+            <img src="https://food.wb.gov.in/bencms/images/Doc_11-05-2026_23_11_19.png" class="d-block w-100" alt="">
+        </div>
+       
+         
+       
+       </div>
+       
+           <!-- Controls -->
+           <a class="carousel-control-prev" href="#mainSlider" data-slide="prev">
+               <span class="carousel-control-prev-icon"></span>
+           </a>
+       
+           <a class="carousel-control-next" href="#mainSlider" data-slide="next">
+               <span class="carousel-control-next-icon"></span>
+           </a>
+       
+       </div>
+    <div class="row">
+        <label id="lbl_page_id" style="display: none;"></label>
+        <div class="col-md-3" id="home_left_menu">
+        </div>
+        <div class="col-md-6">
+        
+    
+            <div class="mb-3 mt-3">
+                <div class="tab-content tab-space">
+                    <ul class="nav nav-pills" role="tablist">
+                        <!--
+                    color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#dashboard-1" role="tab" data-toggle="tab">Notices
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedule-1" role="tab" data-toggle="tab">Press Releases
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tasks-1" role="tab" data-toggle="tab">Government order
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-pane active card content_area" id="dashboard-1">
+                        <marquee width="100%" height="130px" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+       				
+        
+                    <ul id="home_notice_html">
+                                    
+                    </ul>
+                   </marquee>
+
+                    </div>
+                    <div class="tab-pane card content_area" id="schedule-1">
+                        <marquee width="100%" height="130px" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+                        <ul id="home_press_release_html">
+                        </ul>
+                        </marquee>
+
+                    </div>
+
+                    <div class="tab-pane card content_area" id="tasks-1">
+                        <marquee width="100%" height="130px" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+                      <ul id="home_govt_order_html">
+                        </ul>
+                        </marquee>
+                    </div>
+
+
+                </div>
+            </div>
+   <style>
+
+section.dashboard_area {
+   
+   
+}
+section.dashboard_area h3 {
+    color: #696969;
+    
+    font-size: 1.3rem;
+}
+.dashboardItem{
+text-align: center;
+background-color: #287f5c;;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #004278;
+    border-radius: 4px;
+    height: 100%;
+    box-shadow: 0 0 10px #ccc;
+}
+.dashboardItemIcon {
+      margin: 0 auto;
+    width: 57px;
+    border: 3px solid #dddddd;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.dashboardItem h4 {
+    color: #287f5c;
+    font-size: 1rem;
+    background-color: #fbd767;
+    border-radius: 4px 4px 0 0;
+    height: 75px;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.dashboardItem h5 {
+    font-size: 1rem;
+    padding: 0;
+ color: #e9e98d;
+}
+.devider {
+    background-color: #bababa;
+    height: 1px;
+    margin: 1rem 0;
+}
+span#ContentPlaceHolder1_lbl_percentage,span#ContentPlaceHolder1_lbl_percenAdhaar,#ContentPlaceHolder1_per_biometric,#ContentPlaceHolder1_per_iris, #ContentPlaceHolder1_per_mobile_otp{
+    font-size: .7rem;
+    color: #ffd236;
+    position: absolute;
+    right: 22px;
+    bottom: 8%;
+}
+
+
+span#ContentPlaceHolder1_lbl_lifted_ration, span#ContentPlaceHolder1_lbl_aadhaar_transac,#ContentPlaceHolder1_biometric,#ContentPlaceHolder1_eyeris, #ContentPlaceHolder1_mobile_otp {
+    text-align: left;
+    display: block;
+    padding-left: .4rem;
+}
+        </style>
+<div class="row	 align-items-center mb-1 d-none">
+<div class="col-10"><a href="https://food.wb.gov.in/fsr/FSR_Candidate_Login_Page">ADMIT CARD - Data Entry Operators on contractual
+basis for engagement in Price Monitoring Centres</a></div>
+<div class="col-2"><img  src="https://food.wb.gov.in/food/images/new_blink_gif.gif" class="img-fluid"></div>
+</div>
+
+           <section class="dashboard_area">
+                <h2 class="mb-3">Dashboard</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Ration card related</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Total ration card as on date</h4>
+                            <div class="dashboardItemIcon"><img src="images/a1.png" class="img-fluid"/></div>
+                           
+                           <h5>
+                               <span id="ContentPlaceHolder1_lbl_total_rc_count">8,73,30,231</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Total aadhaar linked ration card</h4>
+                            <div class="dashboardItemIcon"><img src="images/a2.png" class="img-fluid"/></div>
+                           
+                           <h5> <span id="ContentPlaceHolder1_lbl_total_aadhaar_link">8,66,60,320</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                              <h4>Aadhaar linking done in last 24 hours</h4>
+                            <div class="dashboardItemIcon"><img src="images/a3.png" class="img-fluid"/></div>
+                          
+                           <h5> <span id="ContentPlaceHolder1_lbl_aadhaar_link_24">5,659</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Mobile linked family count</h4>
+                            <div class="dashboardItemIcon"><img src="images/a4.png" class="img-fluid"/></div>
+                           
+                           <h5> <span id="ContentPlaceHolder1_lbl_mobile_link">1,93,38,895</span></h5>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="devider"></div>
+                    </div>
+                </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Application for ration card related services</h3>
+                        <p class="text-center" style="    font-size: 1rem;    margin-top: -0.7rem;">Since 1st January 2021</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Total application submitted </h4>
+                            <div class="dashboardItemIcon"><img src="images/b1.png" class="img-fluid"/></div>
+                           
+                           <h5> <span id="ContentPlaceHolder1_lbl_application_submitted">3,88,97,388</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Total application approved </h4>
+                            <div class="dashboardItemIcon"><img src="images/b2.png" class="img-fluid"/></div>
+                           
+                           <h5> <span id="ContentPlaceHolder1_lbl_application_approved">3,53,89,064</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                              <h4>Total application rejected </h4>
+                            <div class="dashboardItemIcon"><img src="images/b3.png" class="img-fluid"/></div>
+                          
+                           <h5> <span id="ContentPlaceHolder1_lbl_application_rejected">23,21,446</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Total application disposed </h4>
+                            <div class="dashboardItemIcon"><img src="images/b4.png" class="img-fluid"/></div>
+                           
+                           <h5> <span id="ContentPlaceHolder1_lbl_disposed">3,77,10,510</span></h5>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="devider"></div>
+                    </div>
+                </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Allocation and distribution</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dashboardItem">
+                            <h4>Total transactions this month </h4>
+                            <div class="dashboardItemIcon"><img src="images/c1.png" class="img-fluid"/></div>
+                           
+                           <h5><span id="ContentPlaceHolder1_lbl_card_transacted">0</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Beneficiaries lifted ration this month</h4>
+                            <div class="dashboardItemIcon"><img src="images/c2.png" class="img-fluid"/></div>
+                           
+                           <h5><span id="ContentPlaceHolder1_lbl_lifted_ration">0</span><span id="ContentPlaceHolder1_lbl_percentage"> (0.00 %)</span></h5>
+                              
+                        </div>
+                    </div>
+                 
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Total ration shops</h4>
+                            <div class="dashboardItemIcon"><img src="images/c4.png" class="img-fluid"/></div>
+                           
+                           <h5><span id="ContentPlaceHolder1_lbl_ration_shop">21,211</span></h5>
+                        </div>
+                    </div>
+
+                            <div class="col-md-3">
+                        <div class="dashboardItem">
+                              <h4>Total Distributors</h4>
+                            <div class="dashboardItemIcon"><img src="images/e3.png" class="img-fluid"/></div>
+                           <h5><span id="ContentPlaceHolder1_distributor">528</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="devider"></div>
+                    </div>
+                </div>
+
+                       <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Transaction related</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dashboardItem">
+                            <h4>Aadhaar authenticated transactions</h4>
+                            <div class="dashboardItemIcon"><img src="images/c3.png" class="img-fluid"/></div>
+                           
+                                                   <h5><span id="ContentPlaceHolder1_lbl_aadhaar_transac">0</span>
+<span id="ContentPlaceHolder1_lbl_percenAdhaar"> (0.00 %)</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Finger print authenticated transactions</h4>
+                            <div class="dashboardItemIcon"><img src="images/e2.png" class="img-fluid"/></div>
+                           
+                            <h5><span id="ContentPlaceHolder1_biometric">0</span>
+                                <span id="ContentPlaceHolder1_per_biometric"></span>
+                            </h5>
+                              
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                              <h4>Iris authenticated transactions</h4>
+                            <div class="dashboardItemIcon"><img src="images/e1.png" class="img-fluid"/></div>
+                          
+  <h5><span id="ContentPlaceHolder1_eyeris">0</span>
+      <span id="ContentPlaceHolder1_per_iris"></span>
+  </h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>OTP authenticated transactions</h4>
+                            <div class="dashboardItemIcon"><img src="images/e4.png" class="img-fluid"/></div>
+                           
+                           <h5><span id="ContentPlaceHolder1_mobile_otp">0</span>
+                               <span id="ContentPlaceHolder1_per_mobile_otp"></span>
+                           </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="devider"></div>
+                    </div>
+                </div>
+
+                    <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Paddy procurement KMS 2025-26</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Registered farmers as on date
+</h4>
+                            <div class="dashboardItemIcon"><img src="images/d1.png" class="img-fluid"/></div>
+                           
+                           <h5>
+                               <span id="ContentPlaceHolder1_farmer_registration">33,97,937</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Farmers sold paddy ( in numbers)</h4>
+                            <div class="dashboardItemIcon"><img src="images/d2.png" class="img-fluid"/></div>
+                           
+                           <h5><span id="ContentPlaceHolder1_soldPaddy">27,06,514</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                              <h4>Paddy procured  
+(in MT) as on date
+</h4>
+                            <div class="dashboardItemIcon"><img src="images/d3.png" class="img-fluid"/></div>
+                          
+                           <h5><span id="ContentPlaceHolder1_procurePaddy">48,34,237</span></h5>
+                        </div>
+                    </div>
+                     <div class="col-md-3">
+                        <div class="dashboardItem">
+                             <h4>Paddy procurement centres
+</h4>
+                            <div class="dashboardItemIcon"><img src="images/d4.png" class="img-fluid"/></div>
+                           
+                           <h5><span id="ContentPlaceHolder1_Totalcpc">3,122</span></h5>
+                        </div>
+                    </div>
+                    <div class="col-md-12"><br>
+  <span id="ContentPlaceHolder1_lbl_last_update">Last update: Aug 26 2026  2:02PM</span>
+                       <div class="devider"></div>
+
+                    </div>
+                </div>
+                  
+
+                
+
+
+
+            </section>
+<a href="https://food.wb.gov.in/Dynamic.aspx?page_id=74" class="btn btn-primary w-100 mb-3">Ease of Doing Business</a>
+<a href="https://food.wb.gov.in/PDSCMS/images/Doc_27-02-2026_16_49_43.pdf" class="btn btn-primary w-100 mb-3">Welfare institutions for the 1st half of 2026-27
+</a>
+
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12 p-0">
+
+                        <div class="heading p-1">Login As</div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-1 right_boxes" id="right_menu_html">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row services_part mt-3 mb-3">
+        <div class="col-sm-12 pt-2">
+            <h2>Special Services</h2>
+            <div class="col-sm-12 p-0 mt-2">
+                <div class="row" id="home_buttom_html">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <section>
+        
+
+
+<div class="col-lg-12">
+<style>
+h3.fpswisereport {
+    width: fit-content;
+    display: block;
+    margin: 2rem 1rem;
+    background-color: #018f87;
+    padding: .5rem 2rem;
+    border-radius: 4px;
+}
+
+h3.fpswisereport a {
+    color: #fff;
+}
+</style>
+	
+<div style="display:flex;justify-content: center;">
+   
+ <h3 class="fpswisereport"><a href="https://wbpds.wb.gov.in/(S(dhs0ggaz5imrxyp3lrppxjwa))/RCCount_District.aspx">FPS Wise List of Beneficiaries</a></h3>
+  
+</div>
+
+
+<style>
+    .aadhaar-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px;
+        }
+        .aadhaar-button img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .aadhaar-button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+ padding: 10px;
+            border-radius: 8px;
+        }
+</style>
+
+</div>
+        <div class="col-lg-12 p-0 justify-content-center">
+<div class="footerLogos">
+            <div class="row justify-content-center">
+            <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://pdsaccounts.wb.gov.in" target="_blank">
+                        <img src="../images/pds-system-logo.png" class="" alt="PDS System - Department of Food & Supplies, Govt of WB"></a>
+                </div>
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href=" https://epaddy.wb.gov.in/" target="_blank">
+                        <img src="../images/procurement-logo.png" class="" alt="Procurement - Department of Food & Supplies, Govt of WB"></a>
+                </div>
+                
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://dcgfood.wb.gov.in/" target="_blank">
+                        <img src="../images/DCG-Portal-logo.png" class="" alt="DCG Portal"></a>
+                </div>
+              
+                  <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://fnssrms.wb.gov.in/" target="_blank">
+                        <img src="../images/srms-logo.png" class="" alt="SRMS - Department of Food & Supplies, Govt of WB"></a>
+                </div>
+                
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://food.wb.gov.in/food_NEW/grievance/GrievanceCareOnline/" target="_blank">
+                        <img src="../images/Helpdesk-logo.png" class="" alt="Helpdesk - Department of Food & Supplies, Govt of WB"></a>
+                </div>
+                 <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://eoffice.wb.gov.in/" target="_blank">
+                        <img src="../images/eoffice-logo.png" class="" alt="e-Office - Department of Food & Supplies, Govt of WB"></a>
+                </div>
+                
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://wbhealthscheme.gov.in/" target="_blank">
+                        <img src="../images/wbhs-logo.png" class="" alt="WBHS"></a>
+                </div>
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href=" https://www.wbifms.gov.in/PORTAL/postlogin.html" target="_blank">
+                        <img src="../images/ifms-logo.png" class="" alt="IFMS"></a>
+                </div>
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href="https://wbifms.gov.in/GRIPS/" target="_blank">
+                        <img src="../images/grips-logo.png" class="" alt="GRIPS"></a>
+                </div>
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href=" https://www.wbifms.gov.in/cas/login?service=http%3A%2F%2Fwww.wbifms.gov.in%2Fifms%2Flogin.html" target="_blank">
+                        <img src="../images/HRMS-logo.png" class="" alt="HRMS"></a>
+                </div>
+
+ <div class="col-auto footer_logo_img text-center px-0">
+                    <a href=" https://www.india.gov.in/" target="_blank">
+                        <img src="../images/india.png" class="" alt="National Portal of India"></a>
+                </div>
+
+ <div class="col-auto footer_logo_img text-center px-0">
+                    <a href=" https://bsk.wb.gov.in/" target="_blank">
+                        <img src="../images/bsk.png" class="" alt="BSK" ></a>
+                </div>
+
+                <div class="col-auto footer_logo_img text-center px-0">
+                    <a href=" https://ifms.wb.gov.in/wbjit/login" target="_blank">
+                        <img src="../images/jit-sna.png" class="" alt="WBJIT" ></a>
+                </div>
+            </div>
+
+</div>
+           
+               
+               
+              
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+        </div>
+
+        <!-- end of footer -->
+        <footer>
+            <div class="footer_top ">
+                <div class="container text-center" id="visitor_counter_html-0">
+			<span>Visitor Counter : 2025236 </span><span> Launch Date: 06/04/2022 </span> <span id="copied_last_update"></span>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container pt-4 pb-4">
+                    <div class="row">
+                        <div class="col-sm-4 pt-4">
+                            
+                            <div class="col-sm-12 p-0 mt-5">
+                                <ul class="footerLinks">
+                                    <li><a href="Index.aspx?page_id=6">Home</a></li>
+                                    <li>|</li>
+                                    <li><a href="About_Category.aspx?page_id=9">About</a></li>
+                                    <li>|</li>
+                                    <li><a href="Contact.aspx?page_id=16">Contact</a></li>
+                                    <li>|</li>
+                                    <li><a href=" Dynamic.aspx?page_id=53">ECSC</a></li>
+                                    <li>|</li>
+                                    <li><a href="Dynamic.aspx?page_id=60">SWC</a></li>
+                                    <li>|</li>
+                                    <li><a href="http://dcg.wbfood.in/">DCG</a></li>
+                                </ul>
+
+<a style="color: #00f4ff;" href="https://food.wb.gov.in/food/GMAP/ApplicationForAPIGetway.aspx">Apply for API access (State Government/Central Government Department only)</a>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 Useful">
+
+                            <div class="col-sm-12 heading2">Useful Links</div>
+                            <div class="col-sm-12 pt-2 ">
+                                <ul class="usefullLinks">
+                                 
+                                    <li><a href="/feedback.aspx">Feedback</a></li>
+                                    <li><a href="/subscribe.aspx">Subscribe Us</a></li>
+<li><a href="/Terms_Of_Use.aspx">Terms Of Use</a></li>
+                                    <li><a href="/Privacy_Policy.aspx">Privacy Policy</a></li>
+<li><a href="/Hyperlinking.aspx">Hyperlinking Policy</a></li>
+                                    <li><a href="/Copyright_Policy.aspx">Copyright Policy</a></li>
+                                    
+                                </ul>
+
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+				<ul class="footerAddress">
+					<li class="address"><a href="https://www.google.com/maps/place/Khadya+Bhavan,+B+Block/@22.558662,88.35478,15z/data=!4m5!3m4!1s0x0:0xa52c94cceb0e82f0!8m2!3d22.558662!4d88.3547796?hl=en" target="_blank">New Khadya Bhaban<br>
+11A, Mirza Ghalib Street, Kolkata - 700087,<br>
+West Bengal</a></li>
+<li class="phone"><a href="tel:18003455505">1800 345 5505</a> / <a href="tel:18003451967">1967</a>(TOLL FREE)</li>
+ <!-- <li class="mail"><a href="https://food.wb.gov.in/food/HomePage/Complain.aspx">For Support, Click Here</a></li>	-->
+
+<li class=""><a href="https://food.wb.gov.in/food/AadhaarEnrolmentCenter.aspx"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Aadhaar enrolment centre</a></li>	
+				</ul>
+
+
+
+                          
+                           
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-12 text-center mt-3">
+                        © Copyrights 2022, all Rights Reserved | This website is designed and developed by Food and Supplies Department,Government of West Bengal.
+                    </div>
+                </div>
+
+
+
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- Copyright -->
+        <!-- end of copyright -->
+        <!-- end of copyright -->
+ <style>
+        .rcms-modal {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rcms-modal-header {
+    background: #0b2f78;
+    color: #fff;
+    border-bottom: none;
+}
+
+.rcms-modal-body {
+    background: #ffdc6b;
+    padding: 25px;
+    color: #0b2f78;
+    font-weight: 600;
+}
+
+.rcms-btn-old {
+    background: #2d855f;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.rcms-btn-old:hover {
+    background: #22694a;
+    color: #fff;
+}
+
+.rcms-btn-new {
+    background: #0b2f78;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.rcms-btn-new:hover {
+    background: #062259;
+    color: #fff;
+}
+        </style>
+<div class="modal fade" id="rcmsChoiceModal" tabindex="-1" role="dialog" aria-labelledby="rcmsChoiceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rcms-modal">
+
+            <div class="modal-header rcms-modal-header">
+                <h5 class="modal-title" id="rcmsChoiceModalLabel">GOVT OFFICIALS for RCMS</h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body rcms-modal-body">
+                <p class="mb-3">Please select RCMS site</p>
+
+                <a href="https://wbpds.gov.in/rcms/login.aspx"
+                   class="btn rcms-btn-old btn-block"
+                   target="_blank">
+                    RCMS Old Site
+                </a>
+
+                <a href="https://wbpds.gov.in/rcmsnew/Authentication/Login"
+                   class="btn rcms-btn-new btn-block"
+                   target="_blank">
+                    RCMS New Site (For S.I.R. and Form related works)
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+        <!-- Scripts -->
+
+
+        <!-- jQuery for Bootstrap's JavaScript plugins -->
+        <script src="js/popper.min.js"></script>
+        <!-- Popper tooltip library for Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Bootstrap framework -->
+
+
+
+        <script src="js/scripts.js"></script>
+        <!-- Custom scripts -->
+        <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+    var currentDate = new Date();
+      var day = currentDate.getDate();
+      var month = currentDate.getMonth() + 1; // Months are zero-indexed
+      var year = currentDate.getFullYear();
+      
+      // Formatting the date as dd/mm/yyyy
+      var formattedDate = (day < 10 ? '0' : '') + day + '/' + (month < 10 ? '0' : '') + month + '/' + year;
+      
+      $('#currentDateDisplay').text('Last Updated On: ' + formattedDate);
+            $("#fontDec").click(function () {
+                    var fontSize = parseInt($('div').css("font-size"));
+                    fontSize = fontSize - 1 + "px";
+                    $('div').css({ 'font-size': fontSize });
+
+
+
+                });
+
+                $("#fontInc").click(function () {
+                    var fontSize = parseInt($('div').css("font-size"));
+                    fontSize = fontSize + 1 + "px";
+                    $('div').css({ 'font-size': fontSize });
+
+
+                });
+             
+
+                $(".owl-carousel").owlCarousel({
+
+                    autoPlay: 3000,
+                    items: 4,
+                    itemsDesktop: [1199, 3],
+                    itemsDesktopSmall: [979, 3],
+                    center: true,
+                    nav: true,
+                    loop: true,
+                    responsive: {
+                        600: {
+                            items: 4
+                        }
+                    }
+
+
+                });
+
+                Populate_Menu("Top");
+                Format_Date();
+                Visitor_Counter();
+            });
+
+
+            function Populate_Menu(rec_type) {
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    url: "Dynamic_Menu.asmx/Populate_Menu",
+                    data: '{rec_type: ' + JSON.stringify(rec_type) + '}',
+                    dataType: "json",
+                    success: function (r) {
+
+                        if (r.d.length > 0) {
+
+                            var top_menu_html = "";
+                            for (var i = 0; i < r.d.length; i++) {
+
+                                if (i == 1) {
+                                    top_menu_html += "<li class=\"nav-item\">" +
+                                        "<a href=\"" + r.d[i]["Website_Url"] + "?page_id=" + r.d[i]["Page_ID"] + "\" class=\"nav-link\">" + r.d[i]["Name_of_Menu"] + "<span class=\"sr-only\">(current)</span></a>" +
+                                        "</li>";
+                                }
+                                else {
+                                    top_menu_html += "<li class=\"nav-item\">" +
+                                        "<a href=\"" + r.d[i]["Website_Url"] + "?page_id=" + r.d[i]["Page_ID"] + "\" class=\"nav-link\">" + r.d[i]["Name_of_Menu"] + "</a>" +
+                                        "</li>";
+                                }
+                            }
+
+                            $('#ul_top_html').html(top_menu_html);
+
+                            //showPage();
+                        }
+
+                    },
+                    error: function (r) {
+                        var msg = r.d;
+
+                        alert(msg);
+                    }
+                });
+            }
+
+            function Format_Date() {
+                var dayName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+                var days = dayName[new Date().getDay()];
+
+                const monthNames = ["January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"
+                ];
+
+                const d = new Date();
+
+                var name_of_month = monthNames[d.getMonth()];
+
+                var day = d.getUTCDate();
+                var year = d.getUTCFullYear();
+
+                var hours = d.getHours();
+                var minutes = d.getMinutes();
+                var ampm = hours >= 12 ? 'pm' : 'am';
+                hours = hours % 12;
+                hours = hours ? hours : 12; // the hour '0' should be '12'
+                minutes = minutes < 10 ? '0' + minutes : minutes;
+                var time = hours + ':' + minutes + ' ' + ampm;
+
+                //alert(days);
+                //alert(name_of_month);
+                //alert(day);
+                //alert(year);
+                //alert(time);
+
+                var live_time = days + "," + " " + name_of_month + " " + day + "," + " " + year;
+
+                $("#div_date_html").html(live_time);
+
+            }
+
+            function Visitor_Counter() {
+                var n = localStorage.getItem('on_load_counter');
+
+                if (n === null) {
+                    n = 0;
+                }
+
+                n++;
+
+                localStorage.setItem("on_load_counter", n);
+
+                var visitor = "Visitor Counter : " + n + " | Launch Date: 14/08/2019 | Last Update on: 01/03/2022"
+
+                $("#visitor_counter_html").html(visitor);
+
+            }
+            jQuery(document).ready(function ($) {
+
+
+                    
+                $('.js-example-basic-single').select2();
+                    
+
+
+                // Fixa navbar ao ultrapassa-lo
+                var navbar = $('#navbar-main'),
+                    distance = navbar.offset().top,
+                    $window = $(window);
+
+                $window.scroll(function () {
+                    if ($window.scrollTop() >= distance) {
+                        navbar.removeClass('navbar-fixed-top').addClass('navbar-fixed-top');
+                        $("body").css("padding-top", "70px");
+                    } else {
+                        navbar.removeClass('navbar-fixed-top');
+                        $("body").css("padding-top", "0px");
+                    }
+                });
+            });
+
+        </script>
+
+
+<script>
+    $(function () {
+        $('marquee').mouseover(function () {
+            $(this).attr('scrollamount', 0);
+        }).mouseout(function () {
+            $(this).attr('scrollamount', 5);
+        });
+    });
+</script>
+        
+ <script type="text/javascript">
+     setTimeout(function () {
+         Number(document.querySelector("#home_product_html .col-md-4:nth-child(1n) .no").innerHTML).toLocaleString("en-in")
+     }, 10000);
+ </script>
+
+    </form>
+     <script>
+        let narratorActivated = false; // Flag to track activation state
+        let currentSpeech = null; // Keep track of the current speech object
+
+        // Function to narrate text
+        const narrateText = (text) => {
+            // Stop any ongoing narration
+            window.speechSynthesis.cancel();
+
+            // Create a new speech synthesis object
+            currentSpeech = new SpeechSynthesisUtterance(text);
+            currentSpeech.lang = 'en-US'; // Set language
+            currentSpeech.pitch = 1; // Set pitch
+            currentSpeech.rate = 1; // Set speed
+            currentSpeech.volume = 1; // Set volume
+            window.speechSynthesis.speak(currentSpeech); // Speak the text
+        };
+
+        // Activate Narrator
+        document.getElementById('activateNarrator').addEventListener('click', () => {
+            narratorActivated = true; // Enable narrator
+            document.getElementById('activateNarrator').disabled = true; // Disable activate button
+            document.getElementById('deactivateNarrator').disabled = false; // Enable deactivate button
+            alert('Narrator Activated');
+        });
+
+        // Deactivate Narrator
+        document.getElementById('deactivateNarrator').addEventListener('click', () => {
+            narratorActivated = false; // Disable narrator
+            window.speechSynthesis.cancel(); // Stop ongoing narration
+            document.getElementById('activateNarrator').disabled = false; // Enable activate button
+            document.getElementById('deactivateNarrator').disabled = true; // Disable deactivate button
+            alert('Narrator Deactivated');
+        });
+
+        // Global mouseover listener for narration
+        document.addEventListener('mouseover', (event) => {
+            if (narratorActivated) { // Only narrate if activated
+                const element = event.target;
+                const text = element.innerText.trim(); // Get inner text
+                if (text) {
+                    narrateText(text); // Narrate the text
+                }
+            }
+        });
+
+        // Global mouseout listener to stop narration
+        document.addEventListener('mouseout', () => {
+            if (narratorActivated) {
+                window.speechSynthesis.cancel(); // Stop narration when mouse leaves the element
+            }
+        });
+    </script>
+<script>
+    $(document).ready(function () {
+        var lastUpdateText = $("#ContentPlaceHolder1_lbl_last_update").text();
+        $("#copied_last_update").text(lastUpdateText);
+   
+
+    // Set first option as selected on page load
+    $('#select_id option:eq(1)').prop('selected', true);
+
+    // Apply font-family of selected option
+    var valueSelected = $('#select_id').val();
+    $('div').css({ 'font-family': valueSelected });
+
+    // Change event
+    $('#select_id').on('change', function () {
+        var valueSelected = this.value;
+        $('div').css({ 'font-family': valueSelected });
+    });
+
+});
+</script>
+
+</body>
+</html>
+
+

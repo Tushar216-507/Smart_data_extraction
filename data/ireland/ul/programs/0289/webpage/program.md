@@ -1,0 +1,5 @@
+Are you interested in Science? Are you interested in the ways which a body protects itself against infection? How microbes impact both positively and negatively on health? Would you like to find out more about the internal workings of cells – how they are built, communicate and divide? Are you interested in using this knowledge to develop new strategies for new medicines? If so, the Biosciences degree at UL might be for you.
+
+Why study Bioscience at UL?
+
+The Bioscience degree merges studies of cell biology, molecular biology, and immunology with a focus on molecular medicine. Ireland is one of the leading international locations for the Life Science industry, which spans biopharmaceuticals, diagnostics, medical devices and biotechnology and the degree is designed to align with these areas. The course includes specialist guest lectures by members of the external BioPharma community giving the students a state-of-the-art insight into this exciting field.

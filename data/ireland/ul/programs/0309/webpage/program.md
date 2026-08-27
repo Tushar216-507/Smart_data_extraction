@@ -1,0 +1,11 @@
+This is an ideal programme for you if you are interested in problem-solving using mathematics and science. If you think you might enjoy exploring areas such as mechanical design, energy systems and materials, then Mechanical Engineering at UL might be a good choice for you.
+
+## Why Study Mechanical Engineering at UL?
+
+Mechanical Engineering is a very broadly based discipline and students following the degree programme are prepared for careers in many industrial sectors, including such diverse areas as Energy, Automotive, Chemical Processing, Research, Automation, Manufacturing, Design Consultancy, Materials Processing and Aviation. The Mechanical Engineering Degree programme aims not only to give you a thorough background in fundamental Mechanical Engineering subjects but also allows specialisation in one of a number of areas of particular relevance to Irish and international industry.
+
+Mechanical Engineering at UL adheres to traditional guidelines set down by the professional engineering institutions (such as Engineers Ireland and IMechE) and requires you to have an aptitude for mathematics and problem-solving.
+
+Entry to Mechanical Engineering is through LM116 (Engineering). Students take a common first year programme but select which engineering discipline (Mechanical, Biomedical, Civil or Design and Manufacturing) they wish to study in subsequent years during semester 2 of first year. Year 2, 3, and 4 for the Bachelors programme, and Years 2, 3, 4 and 5 for the Masters programme focus on that discipline and offer students a number of specialist modules.
+
+Both the level 8 Bachelors and level 9 Masters degrees are accredited by Engineers Ireland ([www.engineersireland.ie](http://www.engineersireland.ie/)), and the qualifications of graduates are recognised worldwide through international accords.

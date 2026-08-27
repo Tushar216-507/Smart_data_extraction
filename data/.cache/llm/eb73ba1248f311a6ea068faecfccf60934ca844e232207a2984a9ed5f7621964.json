@@ -1,0 +1,193 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Master Module",
+      "original_value": "Mastermodul Master Module",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "total_hours",
+      "value": 900,
+      "original_value": "insg. 900 Zeitstunden (h)",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Ability to present and discuss one's own project and research considerations in a research colloquium",
+        "Step-by-step reflection and analysis of one's own working processes",
+        "Enhancement of competence in systematic and argumentative problem-solving",
+        "Provide feedback on other students' work and process feedback on one's own work",
+        "Ability to conceive, methodologically conduct, and write a longer academic paper",
+        "Application of learned scientific methodology and knowledge in a freely chosen theological subject"
+      ],
+      "original_value": "Lernergebnisse / Kompetenzziele",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "description",
+      "value": "This module serves to establish the general academic focus in the context of the master's thesis and the preparation of a master's thesis on a self-chosen topic.",
+      "original_value": "Dieses Modul dient der allgemeinen fachlichen Schwerpunktbildung im Rahmen der Masterarbeit und der Anfertigung einer Masterarbeit zu einem selbstgewählten Thema.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "self_study_hours",
+      "value": 270,
+      "original_value": "Selbststudium 270 h",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "2 SWS / 30 h",
+      "original_value": "2 SWS / 30 h",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M8",
+        "name": "Master Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

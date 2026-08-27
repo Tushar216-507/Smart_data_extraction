@@ -1,0 +1,1435 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "program_id": "0095",
+    "page_id": "unknown",
+    "document_id": "source",
+    "source_filename": "source.pdf",
+    "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+    "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+    "evidence_file": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "identity": {
+    "university_name": "uni_frankfurt",
+    "program_name": "Empirical Linguistics"
+  },
+  "extraction": {
+    "extractor": "PDFFactExtractor",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.0,
+    "max_tokens": 12000,
+    "generated_at": "2026-08-25T14:41:55Z",
+    "output_file": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\facts\\pdf_program_facts.json"
+  },
+  "summary": {
+    "evidence_chunks_available": 29,
+    "evidence_chunks_processed": 29,
+    "successful_chunks": 29,
+    "failed_chunks": 0,
+    "chunks_with_facts": 12,
+    "facts_before_deduplication": 31,
+    "exact_duplicates_removed": 12,
+    "facts_written": 19,
+    "unique_pages_referenced": 11,
+    "page_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ]
+  },
+  "distribution": {
+    "by_category": {
+      "identity": 15,
+      "curriculum": 2,
+      "regulation": 2
+    },
+    "by_field": {
+      "program_name": 5,
+      "institution": 4,
+      "department": 2,
+      "university_name": 2,
+      "additional_submission_requirements": 1,
+      "external_form_requirements": 1,
+      "program_id": 1,
+      "structure": 1,
+      "submission_conditions": 1,
+      "university": 1
+    },
+    "by_entity_type": {
+      "program": 11,
+      "university": 6,
+      "department": 2
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "pdf_source_0001_e9a5ca7e9358",
+      "category": "identity",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1"
+      },
+      "evidence": {
+        "text": "## Document overview\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nStyle Sheet\nHAUS- und EXAMENSARBEITEN\nSusanne Schmidt\n\nInhalt\n\n<table>\n<tr>\n<td>1. Abgabeformate</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2. Äußere Form der Hausarbeit</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3. Zitate</td>\n<td>6</td>\n</tr>\n<tr>\n<td>4. Abkürzungen und Abkürzungsverzeichnis</td>\n<td>12</td>\n</tr>\n<tr>\n<td>5. Plagiatserklärung</td>\n<td>13</td>\n</tr>\n<tr>\n<td>6. Literatur</td>\n<td>14</td>\n</tr>\n</table>",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0002_9f24a5a9ec89",
+      "category": "identity",
+      "field": "program_name",
+      "value": "Empirical Linguistics",
+      "original_value": "Empirische Linguistik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1"
+      },
+      "evidence": {
+        "text": "## Document overview\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nStyle Sheet\nHAUS- und EXAMENSARBEITEN\nSusanne Schmidt\n\nInhalt\n\n<table>\n<tr>\n<td>1. Abgabeformate</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2. Äußere Form der Hausarbeit</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3. Zitate</td>\n<td>6</td>\n</tr>\n<tr>\n<td>4. Abkürzungen und Abkürzungsverzeichnis</td>\n<td>12</td>\n</tr>\n<tr>\n<td>5. Plagiatserklärung</td>\n<td>13</td>\n</tr>\n<tr>\n<td>6. Literatur</td>\n<td>14</td>\n</tr>\n</table>",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0003_e463b7f59efd",
+      "category": "identity",
+      "field": "department",
+      "value": "Institute for Empirical Linguistics",
+      "original_value": "Institut für Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": "Institute for Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1"
+      },
+      "evidence": {
+        "text": "## Document overview\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nStyle Sheet\nHAUS- und EXAMENSARBEITEN\nSusanne Schmidt\n\nInhalt\n\n<table>\n<tr>\n<td>1. Abgabeformate</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2. Äußere Form der Hausarbeit</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3. Zitate</td>\n<td>6</td>\n</tr>\n<tr>\n<td>4. Abkürzungen und Abkürzungsverzeichnis</td>\n<td>12</td>\n</tr>\n<tr>\n<td>5. Plagiatserklärung</td>\n<td>13</td>\n</tr>\n<tr>\n<td>6. Literatur</td>\n<td>14</td>\n</tr>\n</table>",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 3
+      }
+    },
+    {
+      "fact_id": "pdf_source_0004_cedf4387880e",
+      "category": "regulation",
+      "field": "submission_conditions",
+      "value": "To meet the submission deadline, it is theoretically sufficient to send the term paper as a PDF file by email to the supervisor.",
+      "original_value": "Um die Abgabefrist einzuhalten, genügt es theoretisch, die Hausarbeit als pdf-Datei per Mail an den/die Betreuer/in zu schicken.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "1. Abgabeformate",
+        "section_type": "general",
+        "pages": [
+          1
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "df493e0037cdf0a7bea6c14a24e1e88c3450423d1eb4abc79dd5550108777521"
+      },
+      "evidence": {
+        "text": "# 1. Abgabeformate\n\nUm die Abgabefrist einzuhalten, genügt es theoretisch, die Hausarbeit als pdf-Datei per Mail an\nden/die Betreuer/in zu schicken.\n\nAber: Da es immer wieder vorkommt, dass Schriftzeichen spezieller Fonts in der pdf-Datei nicht\nkorrekt dargestellt werden (dies geschieht, wenn der pdf-Creator die Schriftarten nicht einbindet; bei\neinigen Programmen lässt sich dies jedoch einstellen), sollte immer zusätzlich ein Ausdruck der Arbeit\nabgegeben und eine Word-Datei mitgeschickt werden.",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "1. Abgabeformate",
+        "section_type": "general",
+        "pages": [
+          1
+        ],
+        "content_sha256": "df493e0037cdf0a7bea6c14a24e1e88c3450423d1eb4abc79dd5550108777521"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0005_b0ab9e9942f8",
+      "category": "regulation",
+      "field": "additional_submission_requirements",
+      "value": "Since characters from special fonts in the PDF file may not be displayed correctly, a printout of the work must also be submitted along with a Word file.",
+      "original_value": "Da es immer wieder vorkommt, dass Schriftzeichen spezieller Fonts in der pdf-Datei nicht korrekt dargestellt werden (...) sollte immer zusätzlich ein Ausdruck der Arbeit abgegeben und eine Word-Datei mitgeschickt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "1. Abgabeformate",
+        "section_type": "general",
+        "pages": [
+          1
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "df493e0037cdf0a7bea6c14a24e1e88c3450423d1eb4abc79dd5550108777521"
+      },
+      "evidence": {
+        "text": "# 1. Abgabeformate\n\nUm die Abgabefrist einzuhalten, genügt es theoretisch, die Hausarbeit als pdf-Datei per Mail an\nden/die Betreuer/in zu schicken.\n\nAber: Da es immer wieder vorkommt, dass Schriftzeichen spezieller Fonts in der pdf-Datei nicht\nkorrekt dargestellt werden (dies geschieht, wenn der pdf-Creator die Schriftarten nicht einbindet; bei\neinigen Programmen lässt sich dies jedoch einstellen), sollte immer zusätzlich ein Ausdruck der Arbeit\nabgegeben und eine Word-Datei mitgeschickt werden.",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "1. Abgabeformate",
+        "section_type": "general",
+        "pages": [
+          1
+        ],
+        "content_sha256": "df493e0037cdf0a7bea6c14a24e1e88c3450423d1eb4abc79dd5550108777521"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0006_bbe564c9d144",
+      "category": "identity",
+      "field": "institution",
+      "value": "Institute for Empirical Linguistics",
+      "original_value": "Institut für Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Institute for Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "2. Äußere Form der Hausarbeit",
+        "section_type": "identity_overview",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496"
+      },
+      "evidence": {
+        "text": "# 2. Äußere Form der Hausarbeit\n\n· Eine Hausarbeit besteht aus folgenden Bestandteilen (optionale Teile stehen in Klammern):\n\nTitelblatt\nInhaltsverzeichnis\n\nEinleitung\n\nHauptteil\n\nTextteil\n\nSchluss / Zusammenfassung / Fazit\n\n(Abkürzungsverzeichnis)\nLiteraturverzeichnis\n\nPlagiatserklärung\n\\> Ist ein eigenständiges Dokument und erhält daher keine Seitenzahl\nund wird auch nicht im Inhaltsverzeichnis aufgeführt.\n\n<!-- PageNumber=\"1\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n· Folgende Angaben gehören auf das Titelblatt\n(Titelblatt gehört nicht zur Seitenzählung).\n\nAlle in Abb. 1 aufgeführten Angaben müssen auf dem\nTitelblatt verzeichnet sein!\n\n· Im Inhaltverzeichnis wird jedes Kapitel und\nUnterkapitel aufgeführt und mit einer Seitenzahl\nversehen. Für die Nummerierung der Kapitel wird\ndie Dezimalgliederung verwendet:\n\n<figure>\n\nName\n\nMatrikelnummer\nStudiengang (BA / MA)\n\nStudienfachkombination / Schwerpunkt\n\nSemester\nE-Mail-Adresse\n\nTitel der Hausarbeit\n(ggf. Untertitel)\n\nName des Instituts\nTitel der Veranstaltung\nName des/der Dozenten/Dozentin\n\nAbgabetermin\n\n</figure>\n\n<!-- PageHeader=\"Abbildung 1: Gestaltungsvorschlag für das Titelblatt einer Hausarbeit\" -->\n\n„Ihre Arbeit beginnt bei Kapitel 1 - das ist ge-\nwöhnlich die Einleitung - und Sie nummerieren\nfortlaufend von Kapitel zu Kapitel mit\narabischen Ziffern. Dies bezeichnet man als\nGliederung der 1. Stufe. Die Zugehörigkeit von\nUnterkapiteln zu einem Kapitel wird durch die\nÜbernahme von dessen Kapitelnummer und\neiner eigenen, durch einen Punkt abgetrennten\nZiffer markiert, die ebenfalls unter fortlaufender\nNummerierung mit 1 beginnt. Sie erhalten damit\neine Gliederung der 2. Stufe. [ ... ] Nach der\nletzten Ziffer steht bei den Unterkapiteln in der\nRegel kein Punkt.“ (Rothstein 2011: 149f.)\n\n1\\. Einleitung\n\n2\\. Erstes Hauptkapitel\n\n2.1 Erstes Unterkapitel des ersten Hauptkapitels\n\n2.2 Zweites Unterkapitel des ersten Hauptkapitels\n\n3\\. Zweites Hauptkapitel\n\n3.1 Erstes Unterkapitel des zweiten Hauptkapitels\n\n3.2\nusw.\n...\n\n4\\. Schluss / Fazit\n\n5\\. Abkürzungsverzeichnis\n\n6\\. Literaturverzeichnis\n\nAbbildung 2: Gliederung einer Hausarbeit\n\n· Äußere Form des Textteils:\n\n<table>\n<tr>\n<td>Format</td>\n<td>DIN A4-Seiten, einseitig beschrieben</td>\n</tr>\n<tr>\n<td>Schriftart</td>\n<td>Times New Roman</td>\n</tr>\n<tr>\n<td>Schriftgröße</td>\n<td>12 pt im Fließtext; 10 pt bei Fußnoten und längeren Zitaten (mehr als 3 Zeilen)</td>\n</tr>\n<tr>\n<td>Zeilenabstand</td>\n<td>1,5 im Fließtext; 1 bei Fußnoten, längeren Zitaten und im Literaturverzeichnis</td>\n</tr>\n<tr>\n<td>Seitenformat:</td>\n<td>Rand links 3 - 3,5 cm</td>\n</tr>\n<tr>\n<td rowspan=\"2\"></td>\n<td>Rand rechts 2,5 - 3 cm</td>\n</tr>\n<tr>\n<td>Rand oben und unten je 2 - 3 cm</td>\n</tr>\n<tr>\n<td>Textumfang:</td>\n<td>Die vorgegebene Seitenanzahl ist einzuhalten!</td>\n</tr>\n</table>\n\nSorgfalt beim Schreiben beugt Tipp- und anderen Fehlern vor; genaues Korrekturlesen vor der\nAbgabe ist unabdingbar.\n\n<!-- PageNumber=\"2\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "2. Äußere Form der Hausarbeit",
+        "section_type": "identity_overview",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0007_9e726bd62a0a",
+      "category": "curriculum",
+      "field": "structure",
+      "value": [
+        "Title page",
+        "Table of contents",
+        "Introduction",
+        "Main part",
+        "Text part",
+        "Conclusion / Summary / Final statement",
+        "List of abbreviations (optional)",
+        "Bibliography",
+        "Plagiarism declaration"
+      ],
+      "original_value": [
+        "Titelblatt",
+        "Inhaltsverzeichnis",
+        "Einleitung",
+        "Hauptteil",
+        "Textteil",
+        "Schluss / Zusammenfassung / Fazit",
+        "(Abkürzungsverzeichnis)",
+        "Literaturverzeichnis",
+        "Plagiatserklärung"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "2. Äußere Form der Hausarbeit",
+        "section_type": "identity_overview",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496"
+      },
+      "evidence": {
+        "text": "# 2. Äußere Form der Hausarbeit\n\n· Eine Hausarbeit besteht aus folgenden Bestandteilen (optionale Teile stehen in Klammern):\n\nTitelblatt\nInhaltsverzeichnis\n\nEinleitung\n\nHauptteil\n\nTextteil\n\nSchluss / Zusammenfassung / Fazit\n\n(Abkürzungsverzeichnis)\nLiteraturverzeichnis\n\nPlagiatserklärung\n\\> Ist ein eigenständiges Dokument und erhält daher keine Seitenzahl\nund wird auch nicht im Inhaltsverzeichnis aufgeführt.\n\n<!-- PageNumber=\"1\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n· Folgende Angaben gehören auf das Titelblatt\n(Titelblatt gehört nicht zur Seitenzählung).\n\nAlle in Abb. 1 aufgeführten Angaben müssen auf dem\nTitelblatt verzeichnet sein!\n\n· Im Inhaltverzeichnis wird jedes Kapitel und\nUnterkapitel aufgeführt und mit einer Seitenzahl\nversehen. Für die Nummerierung der Kapitel wird\ndie Dezimalgliederung verwendet:\n\n<figure>\n\nName\n\nMatrikelnummer\nStudiengang (BA / MA)\n\nStudienfachkombination / Schwerpunkt\n\nSemester\nE-Mail-Adresse\n\nTitel der Hausarbeit\n(ggf. Untertitel)\n\nName des Instituts\nTitel der Veranstaltung\nName des/der Dozenten/Dozentin\n\nAbgabetermin\n\n</figure>\n\n<!-- PageHeader=\"Abbildung 1: Gestaltungsvorschlag für das Titelblatt einer Hausarbeit\" -->\n\n„Ihre Arbeit beginnt bei Kapitel 1 - das ist ge-\nwöhnlich die Einleitung - und Sie nummerieren\nfortlaufend von Kapitel zu Kapitel mit\narabischen Ziffern. Dies bezeichnet man als\nGliederung der 1. Stufe. Die Zugehörigkeit von\nUnterkapiteln zu einem Kapitel wird durch die\nÜbernahme von dessen Kapitelnummer und\neiner eigenen, durch einen Punkt abgetrennten\nZiffer markiert, die ebenfalls unter fortlaufender\nNummerierung mit 1 beginnt. Sie erhalten damit\neine Gliederung der 2. Stufe. [ ... ] Nach der\nletzten Ziffer steht bei den Unterkapiteln in der\nRegel kein Punkt.“ (Rothstein 2011: 149f.)\n\n1\\. Einleitung\n\n2\\. Erstes Hauptkapitel\n\n2.1 Erstes Unterkapitel des ersten Hauptkapitels\n\n2.2 Zweites Unterkapitel des ersten Hauptkapitels\n\n3\\. Zweites Hauptkapitel\n\n3.1 Erstes Unterkapitel des zweiten Hauptkapitels\n\n3.2\nusw.\n...\n\n4\\. Schluss / Fazit\n\n5\\. Abkürzungsverzeichnis\n\n6\\. Literaturverzeichnis\n\nAbbildung 2: Gliederung einer Hausarbeit\n\n· Äußere Form des Textteils:\n\n<table>\n<tr>\n<td>Format</td>\n<td>DIN A4-Seiten, einseitig beschrieben</td>\n</tr>\n<tr>\n<td>Schriftart</td>\n<td>Times New Roman</td>\n</tr>\n<tr>\n<td>Schriftgröße</td>\n<td>12 pt im Fließtext; 10 pt bei Fußnoten und längeren Zitaten (mehr als 3 Zeilen)</td>\n</tr>\n<tr>\n<td>Zeilenabstand</td>\n<td>1,5 im Fließtext; 1 bei Fußnoten, längeren Zitaten und im Literaturverzeichnis</td>\n</tr>\n<tr>\n<td>Seitenformat:</td>\n<td>Rand links 3 - 3,5 cm</td>\n</tr>\n<tr>\n<td rowspan=\"2\"></td>\n<td>Rand rechts 2,5 - 3 cm</td>\n</tr>\n<tr>\n<td>Rand oben und unten je 2 - 3 cm</td>\n</tr>\n<tr>\n<td>Textumfang:</td>\n<td>Die vorgegebene Seitenanzahl ist einzuhalten!</td>\n</tr>\n</table>\n\nSorgfalt beim Schreiben beugt Tipp- und anderen Fehlern vor; genaues Korrekturlesen vor der\nAbgabe ist unabdingbar.\n\n<!-- PageNumber=\"2\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "2. Äußere Form der Hausarbeit",
+        "section_type": "identity_overview",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 3
+      }
+    },
+    {
+      "fact_id": "pdf_source_0008_eeac6882f245",
+      "category": "curriculum",
+      "field": "external_form_requirements",
+      "value": "The work must include all specified elements but does not include the plagiarism declaration in the page count or table of contents.",
+      "original_value": "Die Arbeit muss alle aufgeführten Angaben enthalten, aber die Plagiatserklärung wird nicht in die Seitenzahl oder das Inhaltsverzeichnis aufgenommen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "2. Äußere Form der Hausarbeit",
+        "section_type": "identity_overview",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496"
+      },
+      "evidence": {
+        "text": "# 2. Äußere Form der Hausarbeit\n\n· Eine Hausarbeit besteht aus folgenden Bestandteilen (optionale Teile stehen in Klammern):\n\nTitelblatt\nInhaltsverzeichnis\n\nEinleitung\n\nHauptteil\n\nTextteil\n\nSchluss / Zusammenfassung / Fazit\n\n(Abkürzungsverzeichnis)\nLiteraturverzeichnis\n\nPlagiatserklärung\n\\> Ist ein eigenständiges Dokument und erhält daher keine Seitenzahl\nund wird auch nicht im Inhaltsverzeichnis aufgeführt.\n\n<!-- PageNumber=\"1\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n· Folgende Angaben gehören auf das Titelblatt\n(Titelblatt gehört nicht zur Seitenzählung).\n\nAlle in Abb. 1 aufgeführten Angaben müssen auf dem\nTitelblatt verzeichnet sein!\n\n· Im Inhaltverzeichnis wird jedes Kapitel und\nUnterkapitel aufgeführt und mit einer Seitenzahl\nversehen. Für die Nummerierung der Kapitel wird\ndie Dezimalgliederung verwendet:\n\n<figure>\n\nName\n\nMatrikelnummer\nStudiengang (BA / MA)\n\nStudienfachkombination / Schwerpunkt\n\nSemester\nE-Mail-Adresse\n\nTitel der Hausarbeit\n(ggf. Untertitel)\n\nName des Instituts\nTitel der Veranstaltung\nName des/der Dozenten/Dozentin\n\nAbgabetermin\n\n</figure>\n\n<!-- PageHeader=\"Abbildung 1: Gestaltungsvorschlag für das Titelblatt einer Hausarbeit\" -->\n\n„Ihre Arbeit beginnt bei Kapitel 1 - das ist ge-\nwöhnlich die Einleitung - und Sie nummerieren\nfortlaufend von Kapitel zu Kapitel mit\narabischen Ziffern. Dies bezeichnet man als\nGliederung der 1. Stufe. Die Zugehörigkeit von\nUnterkapiteln zu einem Kapitel wird durch die\nÜbernahme von dessen Kapitelnummer und\neiner eigenen, durch einen Punkt abgetrennten\nZiffer markiert, die ebenfalls unter fortlaufender\nNummerierung mit 1 beginnt. Sie erhalten damit\neine Gliederung der 2. Stufe. [ ... ] Nach der\nletzten Ziffer steht bei den Unterkapiteln in der\nRegel kein Punkt.“ (Rothstein 2011: 149f.)\n\n1\\. Einleitung\n\n2\\. Erstes Hauptkapitel\n\n2.1 Erstes Unterkapitel des ersten Hauptkapitels\n\n2.2 Zweites Unterkapitel des ersten Hauptkapitels\n\n3\\. Zweites Hauptkapitel\n\n3.1 Erstes Unterkapitel des zweiten Hauptkapitels\n\n3.2\nusw.\n...\n\n4\\. Schluss / Fazit\n\n5\\. Abkürzungsverzeichnis\n\n6\\. Literaturverzeichnis\n\nAbbildung 2: Gliederung einer Hausarbeit\n\n· Äußere Form des Textteils:\n\n<table>\n<tr>\n<td>Format</td>\n<td>DIN A4-Seiten, einseitig beschrieben</td>\n</tr>\n<tr>\n<td>Schriftart</td>\n<td>Times New Roman</td>\n</tr>\n<tr>\n<td>Schriftgröße</td>\n<td>12 pt im Fließtext; 10 pt bei Fußnoten und längeren Zitaten (mehr als 3 Zeilen)</td>\n</tr>\n<tr>\n<td>Zeilenabstand</td>\n<td>1,5 im Fließtext; 1 bei Fußnoten, längeren Zitaten und im Literaturverzeichnis</td>\n</tr>\n<tr>\n<td>Seitenformat:</td>\n<td>Rand links 3 - 3,5 cm</td>\n</tr>\n<tr>\n<td rowspan=\"2\"></td>\n<td>Rand rechts 2,5 - 3 cm</td>\n</tr>\n<tr>\n<td>Rand oben und unten je 2 - 3 cm</td>\n</tr>\n<tr>\n<td>Textumfang:</td>\n<td>Die vorgegebene Seitenanzahl ist einzuhalten!</td>\n</tr>\n</table>\n\nSorgfalt beim Schreiben beugt Tipp- und anderen Fehlern vor; genaues Korrekturlesen vor der\nAbgabe ist unabdingbar.\n\n<!-- PageNumber=\"2\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+        "chunk_id": "pdf_source_0003",
+        "section_title": "2. Äußere Form der Hausarbeit",
+        "section_type": "identity_overview",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 4
+      }
+    },
+    {
+      "fact_id": "pdf_source_0009_a08376832268",
+      "category": "identity",
+      "field": "program_name",
+      "value": "Empirical Linguistics",
+      "original_value": "Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0005",
+        "section_title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "section_type": "identity_overview",
+        "pages": [
+          3,
+          4,
+          5
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "8690cb450b3d5cfc5554ab48fa280bce7477effd1a527c05e7df4d34bf0a7bdc"
+      },
+      "evidence": {
+        "text": "### · Objektsprachliche Beispiele und Interlinearversionen\n\nObjektsprachliche Beispiele außerhalb des Fließtextes - also solche, die durch einen eigenen Absatz\nhervorgehoben sind - müssen in der Hausarbeit fortlaufend nummeriert und in Klammern gesetzt sein,\ndamit im Text eindeutig auf die Beispiele verwiesen werden kann („Wie in Beispiel (1) zu sehen ... “).\nWenn mehrere Objektsprachen in der Arbeit behandelt werden, kann die jeweilige Objektsprache nach\nder Nummer angegeben werden, wie in Abb. 3 dargestellt. Die Übersetzungszeile steht in einfachen\nAnführungszeichen.\n\n<!-- PageNumber=\"3\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<figure>\n<figcaption>Abbildung 3: Glossierter Beispielsatz außerhalb des Fließtextes</figcaption>\n\n(1)\n\nBaskisch:\n\nSchriftgröße\n\nNik begiak indarrez igurtzi nituen.\n\nZeilenabstand\n\nindar-rez igurtzi\nn-it-uen\n\n}\n}\n\n12\n\nni-k begi-a-k\n\n0 pt\n\n10\n\nISG-ERG Auge-ART-PL\n\nKraft-INS\n\nreib\nSISG-O3PL-PST\n\n,Ich habe mir kräftig die Augen gerieben“\n\n6 pt\n\n</figure>\n\nBei der Gestaltung glossierter Beispielsätze sollte man größten Wert auf Übersichtlichkeit legen,\ndamit alles gut lesbar ist. Vor allem bei Beispielen, die länger als eine Zeile sind, ist es z.B. wichtig,\ndie Abstände zwischen den Zeilen, die zusammengehören, eng zu halten (0 pt), andere Zeilen\nhingegen durch einen größeren Zeilenabstand (z.B. 6 pt) davon abzuheben.\n\nRichtlinien für die Glossierung sind in den Leipzig Glossing Rules zu finden.\n\nFür Arbeiten, die Glossierungen enthalten, ist ein Abkürzungsverzeichnis für die grammatischen\nÜbersetzungen zu erstellen - auch dann, wenn man sich bei den gewählten Abkürzungen nach den\nLeipzig Glossing Rules richtet.\n\n„Gelegentlich werden auch ungrammatische Beispiele aufgeführt, etwa um zu zeigen, dass die\nvertretene Theorie sie auszuschließen vermag. Damit der Leser weiß, dass sie ungrammatisch sind,\nwird dies jeweils vor dem Beispiel markiert“ (Rothstein 2011: 141). Ungrammatische Beispiele sollen\ndurch ein voran- und hochgestelltes Kreuz „¡“ gekennzeichnet werden, Beispiele mit fragwürdiger\nAkzeptabilität durch ein voran- und hochgestelltes Fragezeichen („?“) und unbelegte oder rekonstru-\nierte Beispiele durch einen voran- und hochgestellten Asterisk „*“.\n\n(2)\n*Gestern er geht ins Kino\n\n(3)\nDu hast das Gesicht geschminkter als Kiss\n\n(4)\n*hjékuo-s\n\nAbbildung 4: Beispiele für die Kennzeichnung von Beispielsätzen (Sätze (2) und (3) aus Rothstein 2011: 141)\n\nLautliche (phonetische) Realisierungen wer-\nden in eckige Klammern geschrieben, Phone-\nme werden zwischen zwei Schrägstrichen\ndargestellt und Grapheme in spitzen Klam-\nmern:\n\n<figure>\n\nIm Deutschen werden die Allophone\n[c] und [x]\ndes Phonems\n/x/\n\ndurch das Graphem\n<ch>\ndargestellt.\n\n</figure>\n\nAbbildung 5: Die Verwendung verschiedener Klammersym-\nbole in der Sprachwissenschaft\n\nFür die Darstellung von Morphemen werden geschweifte Klammern verwendet: Das deutsche Wort\ngehen besteht aus zwei Morphemen: {geh} und {-en}.\n\n<!-- PageNumber=\"4\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n· Schaubilder und Tabellen müssen benannt und nummeriert werden:\n\n<figure>\n\nArgumentieren: Wie argumentiere ich\nwissenschaftlich?\n\n®\n30%\n\n0\n0%\n\n0\n70%\n\n@ = ,Das interessiert mich'\n\n„Das interessiert mich nicht'\n\n@ =, Weiß nicht‘\n\n</figure>\n\nAbbildung 6: Interessenlage der Soft Skills-Studierenden 2013/2014 an der Frage „Wie argumentiere ich wissenschaftlich?“\n\nDie Nummerierung dient hier - ebenso wie bei den Beispielsätzen - dazu, dass man sich im Text\neindeutig auf eine bestimmte Abbildung oder Tabelle beziehen kann (z.B. „Wie aus Tabelle 2\nersichtlich ... “).\n\nHat man ein Schaubild oder eine Tabelle nicht selbst erstellt, sondern von jemand anderem übernom-\nmen (vollständig oder teilweise), so muss man die Quelle angeben:\n\n<table>\n<caption>Tabelle 5: Transitive und detransitivierte Kasusrahmen in Ergativsprachen (Tsunoda 1988: 626)</caption>\n<tr>\n<th colspan=\"6\">O (ABS)</th>\n</tr>\n<tr>\n<th colspan=\"2\"></th>\n<th>unchanged</th>\n<th>changed to OBL</th>\n<th>changed to ERG</th>\n<th>deleted</th>\n</tr>\n<tr>\n<td>A (ERG)</td>\n<td>unchanged</td>\n<td>ERG-ABS</td>\n<td>ERG-OBL</td>\n<td>(ERG-ERG)24</td>\n<td>(ERG-Ø)</td>\n</tr>\n<tr>\n<td></td>\n<td>changed to OBL</td>\n<td>OBL-ABS</td>\n<td>OBL-OBL</td>\n<td>(OBL-ERG)</td>\n<td>(OBL-Ø)</td>\n</tr>\n<tr>\n<td></td>\n<td>changed to ABS</td>\n<td>ABS-ABS</td>\n<td>ABS-OBL</td>\n<td>(ABS-ERG)</td>\n<td>ABS-Ø</td>\n</tr>\n<tr>\n<td></td>\n<td>deleted</td>\n<td>(Ø-ABS)</td>\n<td>(Ø-OBL)</td>\n<td>(Ø-ERG)</td>\n<td>(Ø-Ø)</td>\n</tr>\n</table>",
+        "chunk_id": "pdf_source_0005",
+        "section_title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "section_type": "identity_overview",
+        "pages": [
+          3,
+          4,
+          5
+        ],
+        "content_sha256": "8690cb450b3d5cfc5554ab48fa280bce7477effd1a527c05e7df4d34bf0a7bdc"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0010_6604bfc5e330",
+      "category": "identity",
+      "field": "program_name",
+      "value": "Empirical Linguistics",
+      "original_value": "Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0006",
+        "section_title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "section_type": "identity_overview",
+        "pages": [],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "d2b93c1c7ee8e08813eedab6e361f425c9a19ab394f90e3f637f1c4b80c828e8"
+      },
+      "evidence": {
+        "text": "### · Objektsprachliche Beispiele und Interlinearversionen\n\nAbbildung 7: Von einem ande-\n\nren Autor übernommene Tabel-\nle (aus: Schmidt 2008: 26)\n\nWenn man eine von anderen Autoren bezogene Tabelle / Grafik / Abbildung verändert hat, muss man\ndies ebenfalls kennzeichnen. Bei geringen Änderungen genügt es z.B. „(nach Tsunoda 1988: 626)“ zu\nschreiben; dadurch macht man kenntlich, dass man mit der eigenen Darstellung im Prinzip dem\ngenannten Autor folgt. Nimmt man Umsortierungen, Streichungen oder Ergänzungen vor, so fügt man\nder Quellenangabe einen entsprechenden Zusatz hinzu, aus dem durch die Abkürzung des eigenen\nNamens (z.B. durch die Inititalen) zu erkennen ist, wer die Änderung vorgenommen hat, z.B.\n„(Tsunoda 1988: 626; ergänzt S.Sch.1)“, bei Veröffentlichungen findet man hierfür häufig die Abkür-\nzung „d. Verf.“ für ,der Verfasser“.\n\n1 NB: Ich verwende meine Initialen ungern - S.Sch.\n\n<!-- PageNumber=\"5\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nAuch Fotos oder Screenshots können in schriftlichen Arbeiten als Abbildungen Verwendung finden,\nals Quellenangabe dient dann das Datum (und die Uhrzeit) der Aufnahme. Bei einem Screenshot von\neiner Webseite muss auch die Adresse der Webseite angegeben werden.\n\n<figure>\n\nA\n\nBundesagentur für Arbeit\n\nSprache\n\nDeutsch\n\n¥\nÄndern\n\nStartseite | Kontakt | Nutzungsbedingungen | D\n\nJOBBÖRSE\n\n2.990.720 Bewerberprofile 945.000 Stellen 248.452 Ausbildur\n\nMeine JOBBÖRSE\n\nAnmelden\n\nNoch nicht bei der JOBBÖRSE registriert?\nJet\n\nVorheriges Stellenangebot\n\nZurück zur Ergebnisliste\n\nStellenangebot - Flugzeugzankwart (m/w) (Berufskraftfahrer/in)\n\n</figure>\n\nAbbildung 8: Stellenanzeige auf der Website der Bundesagentur für Arbeit,\nhttps://jobboerse.arbeitsagentur.de/; letzter Zugriff: 15.06.2015. (Screenshot\nvom 15.06.2015, 21:26 Uhr)\n\n<figure>\n</figure>\n\nNoch einmal sei darauf hingewiesen, dass ein abschließendes Korrekturlesen der Arbeit dringendst\nempfohlen wird. Sorgfalt bei der Korrektur von Tipp- und anderen Fehlern hilft Missverständnisse zu\nvermeiden.",
+        "chunk_id": "pdf_source_0006",
+        "section_title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "section_type": "identity_overview",
+        "pages": [],
+        "content_sha256": "d2b93c1c7ee8e08813eedab6e361f425c9a19ab394f90e3f637f1c4b80c828e8"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0011_606260eec994",
+      "category": "identity",
+      "field": "institution",
+      "value": "Institut für Empirische Sprachwissenschaft",
+      "original_value": "Institut für Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0006",
+        "section_title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "section_type": "identity_overview",
+        "pages": [],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "d2b93c1c7ee8e08813eedab6e361f425c9a19ab394f90e3f637f1c4b80c828e8"
+      },
+      "evidence": {
+        "text": "### · Objektsprachliche Beispiele und Interlinearversionen\n\nAbbildung 7: Von einem ande-\n\nren Autor übernommene Tabel-\nle (aus: Schmidt 2008: 26)\n\nWenn man eine von anderen Autoren bezogene Tabelle / Grafik / Abbildung verändert hat, muss man\ndies ebenfalls kennzeichnen. Bei geringen Änderungen genügt es z.B. „(nach Tsunoda 1988: 626)“ zu\nschreiben; dadurch macht man kenntlich, dass man mit der eigenen Darstellung im Prinzip dem\ngenannten Autor folgt. Nimmt man Umsortierungen, Streichungen oder Ergänzungen vor, so fügt man\nder Quellenangabe einen entsprechenden Zusatz hinzu, aus dem durch die Abkürzung des eigenen\nNamens (z.B. durch die Inititalen) zu erkennen ist, wer die Änderung vorgenommen hat, z.B.\n„(Tsunoda 1988: 626; ergänzt S.Sch.1)“, bei Veröffentlichungen findet man hierfür häufig die Abkür-\nzung „d. Verf.“ für ,der Verfasser“.\n\n1 NB: Ich verwende meine Initialen ungern - S.Sch.\n\n<!-- PageNumber=\"5\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nAuch Fotos oder Screenshots können in schriftlichen Arbeiten als Abbildungen Verwendung finden,\nals Quellenangabe dient dann das Datum (und die Uhrzeit) der Aufnahme. Bei einem Screenshot von\neiner Webseite muss auch die Adresse der Webseite angegeben werden.\n\n<figure>\n\nA\n\nBundesagentur für Arbeit\n\nSprache\n\nDeutsch\n\n¥\nÄndern\n\nStartseite | Kontakt | Nutzungsbedingungen | D\n\nJOBBÖRSE\n\n2.990.720 Bewerberprofile 945.000 Stellen 248.452 Ausbildur\n\nMeine JOBBÖRSE\n\nAnmelden\n\nNoch nicht bei der JOBBÖRSE registriert?\nJet\n\nVorheriges Stellenangebot\n\nZurück zur Ergebnisliste\n\nStellenangebot - Flugzeugzankwart (m/w) (Berufskraftfahrer/in)\n\n</figure>\n\nAbbildung 8: Stellenanzeige auf der Website der Bundesagentur für Arbeit,\nhttps://jobboerse.arbeitsagentur.de/; letzter Zugriff: 15.06.2015. (Screenshot\nvom 15.06.2015, 21:26 Uhr)\n\n<figure>\n</figure>\n\nNoch einmal sei darauf hingewiesen, dass ein abschließendes Korrekturlesen der Arbeit dringendst\nempfohlen wird. Sorgfalt bei der Korrektur von Tipp- und anderen Fehlern hilft Missverständnisse zu\nvermeiden.",
+        "chunk_id": "pdf_source_0006",
+        "section_title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "section_type": "identity_overview",
+        "pages": [],
+        "content_sha256": "d2b93c1c7ee8e08813eedab6e361f425c9a19ab394f90e3f637f1c4b80c828e8"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 3
+      }
+    },
+    {
+      "fact_id": "pdf_source_0012_fb6f3b5560f8",
+      "category": "identity",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0008",
+        "section_title": "· Kennzeichnung wörtlicher Zitate",
+        "section_type": "general",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c"
+      },
+      "evidence": {
+        "text": "### · Kennzeichnung wörtlicher Zitate\n\nKurze Zitate stehen in doppelten Anführungszeichen. Kommt in der zitierten Stelle wörtliche Rede\noder ein weiteres Zitat vor, das im Original in doppelten Anführungszeichen steht (Zitat im Zitat), so\ngibt man diese als einfache Anführungszeichen wieder: „Zitiert werden darf grundsätzlich nur anhand\ndes Originalmaterials. Ist das nicht möglich, muss auf die Sekundärquelle mit ,zitiert nach‘ verwiesen\nwerden.“ (Pages 2009: 15)\n\nLängere Zitate (ab drei Zeilen) werden abgesetzt (neue Zeile), eingerückt (um ca. 1 cm) und in\nSchriftgröße 10 formatiert, der Zeilenabstand beträgt 1:\n\n2 In Fußnoten gehören nur Zusatzinformationen wie z.B. Hinweise auf weiterführende Literatur.\n\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nZitate müssen in Form und Inhalt exakt übernommen werden. Das bedeutet, dass die vorliegende\nOrthographie und Interpunktion originalgetreu beibehalten werden muss - auch wenn es sich um\nungewöhnliche Schreibweisen oder sogar eindeutige Fehler handelt. Der Inhalt des Zitates muss in\nseinem neuen Kontext seinen ursprünglichen Sinn behalten. Eventuelle Veränderungen (z. B. Korrek-\ntur oder Hinweise auf offensichtliche Fehler) müssen kenntlich gemacht werden [ ... ].\n\n(Pages 2009: 15)\n\n<figure>\n<figcaption>Abbildung 9: Kennzeichnung von Veränderungen innerhalb von Zitaten</figcaption>\n\nAuslassungen von Wörtern, Sätzen oder Absätzen werden\ndurch drei Punkte in eckigen Klammern markiert:\n[ ... ]\n\nBei Zusätzen bzw. Korrekturen wird der Zusatz in eckige\nKlammern eingefasst:\n\nz.B .:\n\nVorlage:\nDaneben sollen sie auch ästhetischen Ansprüchen genügen.\n\nZitat:\nBefragungen unter Benutzerinnen und Benutzern der Stadtbibliothek\nergaben, dass „[ ... ] sie [die Räume - d.Verf.] auch ästhetischen\nAnsprüchen genügen [sollen]“.\n\n(Pages 2009: 17; Hervorhebung von S.Sch.)\n\nFehler im Originaltext werden, wenn man sie nicht korrigiert,\ndurch ein in eckigen Klammern stehendes sic! hinter dem\nfalsch geschriebenen Wort markiert.\n[sic!]\n\n</figure>\n\nZitate aus fremdsprachiger Literatur (z.B. Englisch) können nur dann in der Originalsprache\nstehen, wenn davon auszugehen ist, dass die Sprache ,üblicherweise‘ verstanden wird. Ansonsten\nsollte man sich um eine Übersetzung bemühen, die dem Originalzitat beigefügt wird. Übersetzt man\ndas Zitat selbst, wird dies in Klammern vermerkt (z.B. „Übersetzung S.Sch.“), verwendet man hin-\ngegen die Übersetzung eines anderen Autors, so muss man diesen als Übersetzer angeben.\n\n· Sinngemäße Zitate (Referieren der Positionen anderer)\n\nNicht gerade wenige Studierende sind der Meinung, dass sie nur dann zitieren, wenn sie Aussagen\nanderer wörtlich wiedergeben. Dies ist natürlich grober Unfug. Denn immer, wenn man Positionen,\nGedanken oder bspw. Ergebnisse Dritter in seiner wissenschaftlichen Arbeit übernimmmt, verwendet\nman ein sog. Zitat.\n\n(Kornmeier 2011: 276 f .; Hervorhebung im Original)\n\nMit einem sinngemäßen Zitat ist gemeint, dass man Gedanken bzw. Ausführungen anderer über-\nnimmt oder sich an die Argumentation anderer Autoren anlehnt, ohne indessen den betreffenden\nText wörtlich wiederzugeben. Hingegen ist mit einem indirekten Zitat nicht gemeint, dass man den\nOriginaltext (mit mehr oder weniger großer Mühe) umformuliert; vielmehr sollte man sich vom\njeweiligen Text lösen und den Inhalt in eigenen Worten wiedergeben [ ... ].\n\n(Kornmeier 2011: 280; Hervorhebung im Original)\n\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nBeim Referieren der Ausführungen anderer AutorInnen ist es wichtig, dies zunächst wertneutral und\nohne Interpretationen zu tun. Eine kritische Auseinandersetzung folgt erst, nachdem man die Inhalte\nausreichend dargelegt hat.\n\nFolgende Formulierungen sind beim Referieren hilfreich:\n\n· Nach Meinung / Auffassung des Autors ist\n\n· Der Autor vertritt dabei die Position, dass\n\n· So betont der Autor, dass ...\n\n. ... , so der Autor,\n\n· Dieser Umstand sei\n\nAbbildung 10: Formulierungshilfen für das Referieren (Kornmeier 2011: 280)\n\nWenn man in einer etwas längeren Passage (mehr als ein Satz) die Inhalte eines anderen Autors\nreferiert, sollte man den Autor nicht unbedingt in jedem Satz erneut erwähnen, sondern in diesen\nFällen den Konjunktiv I (Konjunktiv Präsens) verwenden, der signalisiert, daß es sich um die Aussage\neines anderen handelt - im Gegensatz zum Konjunktiv II (Konjunktiv Präteritum), der irreale Sach-\nverhalte (vor allem in Konditionalsätzen) markiert.\n\nDer Konjunktiv I wird vom Infinitivstamm des Verbs gebildet, an den die Konjunktiv-Endungen\nangefügt werden (eindeutige Formen sind fett markiert):",
+        "chunk_id": "pdf_source_0008",
+        "section_title": "· Kennzeichnung wörtlicher Zitate",
+        "section_type": "general",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0013_18d3f8845165",
+      "category": "identity",
+      "field": "program_name",
+      "value": "Empirical Linguistics",
+      "original_value": "Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0008",
+        "section_title": "· Kennzeichnung wörtlicher Zitate",
+        "section_type": "general",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c"
+      },
+      "evidence": {
+        "text": "### · Kennzeichnung wörtlicher Zitate\n\nKurze Zitate stehen in doppelten Anführungszeichen. Kommt in der zitierten Stelle wörtliche Rede\noder ein weiteres Zitat vor, das im Original in doppelten Anführungszeichen steht (Zitat im Zitat), so\ngibt man diese als einfache Anführungszeichen wieder: „Zitiert werden darf grundsätzlich nur anhand\ndes Originalmaterials. Ist das nicht möglich, muss auf die Sekundärquelle mit ,zitiert nach‘ verwiesen\nwerden.“ (Pages 2009: 15)\n\nLängere Zitate (ab drei Zeilen) werden abgesetzt (neue Zeile), eingerückt (um ca. 1 cm) und in\nSchriftgröße 10 formatiert, der Zeilenabstand beträgt 1:\n\n2 In Fußnoten gehören nur Zusatzinformationen wie z.B. Hinweise auf weiterführende Literatur.\n\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nZitate müssen in Form und Inhalt exakt übernommen werden. Das bedeutet, dass die vorliegende\nOrthographie und Interpunktion originalgetreu beibehalten werden muss - auch wenn es sich um\nungewöhnliche Schreibweisen oder sogar eindeutige Fehler handelt. Der Inhalt des Zitates muss in\nseinem neuen Kontext seinen ursprünglichen Sinn behalten. Eventuelle Veränderungen (z. B. Korrek-\ntur oder Hinweise auf offensichtliche Fehler) müssen kenntlich gemacht werden [ ... ].\n\n(Pages 2009: 15)\n\n<figure>\n<figcaption>Abbildung 9: Kennzeichnung von Veränderungen innerhalb von Zitaten</figcaption>\n\nAuslassungen von Wörtern, Sätzen oder Absätzen werden\ndurch drei Punkte in eckigen Klammern markiert:\n[ ... ]\n\nBei Zusätzen bzw. Korrekturen wird der Zusatz in eckige\nKlammern eingefasst:\n\nz.B .:\n\nVorlage:\nDaneben sollen sie auch ästhetischen Ansprüchen genügen.\n\nZitat:\nBefragungen unter Benutzerinnen und Benutzern der Stadtbibliothek\nergaben, dass „[ ... ] sie [die Räume - d.Verf.] auch ästhetischen\nAnsprüchen genügen [sollen]“.\n\n(Pages 2009: 17; Hervorhebung von S.Sch.)\n\nFehler im Originaltext werden, wenn man sie nicht korrigiert,\ndurch ein in eckigen Klammern stehendes sic! hinter dem\nfalsch geschriebenen Wort markiert.\n[sic!]\n\n</figure>\n\nZitate aus fremdsprachiger Literatur (z.B. Englisch) können nur dann in der Originalsprache\nstehen, wenn davon auszugehen ist, dass die Sprache ,üblicherweise‘ verstanden wird. Ansonsten\nsollte man sich um eine Übersetzung bemühen, die dem Originalzitat beigefügt wird. Übersetzt man\ndas Zitat selbst, wird dies in Klammern vermerkt (z.B. „Übersetzung S.Sch.“), verwendet man hin-\ngegen die Übersetzung eines anderen Autors, so muss man diesen als Übersetzer angeben.\n\n· Sinngemäße Zitate (Referieren der Positionen anderer)\n\nNicht gerade wenige Studierende sind der Meinung, dass sie nur dann zitieren, wenn sie Aussagen\nanderer wörtlich wiedergeben. Dies ist natürlich grober Unfug. Denn immer, wenn man Positionen,\nGedanken oder bspw. Ergebnisse Dritter in seiner wissenschaftlichen Arbeit übernimmmt, verwendet\nman ein sog. Zitat.\n\n(Kornmeier 2011: 276 f .; Hervorhebung im Original)\n\nMit einem sinngemäßen Zitat ist gemeint, dass man Gedanken bzw. Ausführungen anderer über-\nnimmt oder sich an die Argumentation anderer Autoren anlehnt, ohne indessen den betreffenden\nText wörtlich wiederzugeben. Hingegen ist mit einem indirekten Zitat nicht gemeint, dass man den\nOriginaltext (mit mehr oder weniger großer Mühe) umformuliert; vielmehr sollte man sich vom\njeweiligen Text lösen und den Inhalt in eigenen Worten wiedergeben [ ... ].\n\n(Kornmeier 2011: 280; Hervorhebung im Original)\n\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nBeim Referieren der Ausführungen anderer AutorInnen ist es wichtig, dies zunächst wertneutral und\nohne Interpretationen zu tun. Eine kritische Auseinandersetzung folgt erst, nachdem man die Inhalte\nausreichend dargelegt hat.\n\nFolgende Formulierungen sind beim Referieren hilfreich:\n\n· Nach Meinung / Auffassung des Autors ist\n\n· Der Autor vertritt dabei die Position, dass\n\n· So betont der Autor, dass ...\n\n. ... , so der Autor,\n\n· Dieser Umstand sei\n\nAbbildung 10: Formulierungshilfen für das Referieren (Kornmeier 2011: 280)\n\nWenn man in einer etwas längeren Passage (mehr als ein Satz) die Inhalte eines anderen Autors\nreferiert, sollte man den Autor nicht unbedingt in jedem Satz erneut erwähnen, sondern in diesen\nFällen den Konjunktiv I (Konjunktiv Präsens) verwenden, der signalisiert, daß es sich um die Aussage\neines anderen handelt - im Gegensatz zum Konjunktiv II (Konjunktiv Präteritum), der irreale Sach-\nverhalte (vor allem in Konditionalsätzen) markiert.\n\nDer Konjunktiv I wird vom Infinitivstamm des Verbs gebildet, an den die Konjunktiv-Endungen\nangefügt werden (eindeutige Formen sind fett markiert):",
+        "chunk_id": "pdf_source_0008",
+        "section_title": "· Kennzeichnung wörtlicher Zitate",
+        "section_type": "general",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0014_f843fbab3d9a",
+      "category": "identity",
+      "field": "institution",
+      "value": "Institute for Empirical Linguistics",
+      "original_value": "Institut für Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Institute for Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0008",
+        "section_title": "· Kennzeichnung wörtlicher Zitate",
+        "section_type": "general",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c"
+      },
+      "evidence": {
+        "text": "### · Kennzeichnung wörtlicher Zitate\n\nKurze Zitate stehen in doppelten Anführungszeichen. Kommt in der zitierten Stelle wörtliche Rede\noder ein weiteres Zitat vor, das im Original in doppelten Anführungszeichen steht (Zitat im Zitat), so\ngibt man diese als einfache Anführungszeichen wieder: „Zitiert werden darf grundsätzlich nur anhand\ndes Originalmaterials. Ist das nicht möglich, muss auf die Sekundärquelle mit ,zitiert nach‘ verwiesen\nwerden.“ (Pages 2009: 15)\n\nLängere Zitate (ab drei Zeilen) werden abgesetzt (neue Zeile), eingerückt (um ca. 1 cm) und in\nSchriftgröße 10 formatiert, der Zeilenabstand beträgt 1:\n\n2 In Fußnoten gehören nur Zusatzinformationen wie z.B. Hinweise auf weiterführende Literatur.\n\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nZitate müssen in Form und Inhalt exakt übernommen werden. Das bedeutet, dass die vorliegende\nOrthographie und Interpunktion originalgetreu beibehalten werden muss - auch wenn es sich um\nungewöhnliche Schreibweisen oder sogar eindeutige Fehler handelt. Der Inhalt des Zitates muss in\nseinem neuen Kontext seinen ursprünglichen Sinn behalten. Eventuelle Veränderungen (z. B. Korrek-\ntur oder Hinweise auf offensichtliche Fehler) müssen kenntlich gemacht werden [ ... ].\n\n(Pages 2009: 15)\n\n<figure>\n<figcaption>Abbildung 9: Kennzeichnung von Veränderungen innerhalb von Zitaten</figcaption>\n\nAuslassungen von Wörtern, Sätzen oder Absätzen werden\ndurch drei Punkte in eckigen Klammern markiert:\n[ ... ]\n\nBei Zusätzen bzw. Korrekturen wird der Zusatz in eckige\nKlammern eingefasst:\n\nz.B .:\n\nVorlage:\nDaneben sollen sie auch ästhetischen Ansprüchen genügen.\n\nZitat:\nBefragungen unter Benutzerinnen und Benutzern der Stadtbibliothek\nergaben, dass „[ ... ] sie [die Räume - d.Verf.] auch ästhetischen\nAnsprüchen genügen [sollen]“.\n\n(Pages 2009: 17; Hervorhebung von S.Sch.)\n\nFehler im Originaltext werden, wenn man sie nicht korrigiert,\ndurch ein in eckigen Klammern stehendes sic! hinter dem\nfalsch geschriebenen Wort markiert.\n[sic!]\n\n</figure>\n\nZitate aus fremdsprachiger Literatur (z.B. Englisch) können nur dann in der Originalsprache\nstehen, wenn davon auszugehen ist, dass die Sprache ,üblicherweise‘ verstanden wird. Ansonsten\nsollte man sich um eine Übersetzung bemühen, die dem Originalzitat beigefügt wird. Übersetzt man\ndas Zitat selbst, wird dies in Klammern vermerkt (z.B. „Übersetzung S.Sch.“), verwendet man hin-\ngegen die Übersetzung eines anderen Autors, so muss man diesen als Übersetzer angeben.\n\n· Sinngemäße Zitate (Referieren der Positionen anderer)\n\nNicht gerade wenige Studierende sind der Meinung, dass sie nur dann zitieren, wenn sie Aussagen\nanderer wörtlich wiedergeben. Dies ist natürlich grober Unfug. Denn immer, wenn man Positionen,\nGedanken oder bspw. Ergebnisse Dritter in seiner wissenschaftlichen Arbeit übernimmmt, verwendet\nman ein sog. Zitat.\n\n(Kornmeier 2011: 276 f .; Hervorhebung im Original)\n\nMit einem sinngemäßen Zitat ist gemeint, dass man Gedanken bzw. Ausführungen anderer über-\nnimmt oder sich an die Argumentation anderer Autoren anlehnt, ohne indessen den betreffenden\nText wörtlich wiederzugeben. Hingegen ist mit einem indirekten Zitat nicht gemeint, dass man den\nOriginaltext (mit mehr oder weniger großer Mühe) umformuliert; vielmehr sollte man sich vom\njeweiligen Text lösen und den Inhalt in eigenen Worten wiedergeben [ ... ].\n\n(Kornmeier 2011: 280; Hervorhebung im Original)\n\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nBeim Referieren der Ausführungen anderer AutorInnen ist es wichtig, dies zunächst wertneutral und\nohne Interpretationen zu tun. Eine kritische Auseinandersetzung folgt erst, nachdem man die Inhalte\nausreichend dargelegt hat.\n\nFolgende Formulierungen sind beim Referieren hilfreich:\n\n· Nach Meinung / Auffassung des Autors ist\n\n· Der Autor vertritt dabei die Position, dass\n\n· So betont der Autor, dass ...\n\n. ... , so der Autor,\n\n· Dieser Umstand sei\n\nAbbildung 10: Formulierungshilfen für das Referieren (Kornmeier 2011: 280)\n\nWenn man in einer etwas längeren Passage (mehr als ein Satz) die Inhalte eines anderen Autors\nreferiert, sollte man den Autor nicht unbedingt in jedem Satz erneut erwähnen, sondern in diesen\nFällen den Konjunktiv I (Konjunktiv Präsens) verwenden, der signalisiert, daß es sich um die Aussage\neines anderen handelt - im Gegensatz zum Konjunktiv II (Konjunktiv Präteritum), der irreale Sach-\nverhalte (vor allem in Konditionalsätzen) markiert.\n\nDer Konjunktiv I wird vom Infinitivstamm des Verbs gebildet, an den die Konjunktiv-Endungen\nangefügt werden (eindeutige Formen sind fett markiert):",
+        "chunk_id": "pdf_source_0008",
+        "section_title": "· Kennzeichnung wörtlicher Zitate",
+        "section_type": "general",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 3
+      }
+    },
+    {
+      "fact_id": "pdf_source_0015_2cee25ce08d5",
+      "category": "identity",
+      "field": "university",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0011",
+        "section_title": "a) Werk von einem Autor (Monografie):",
+        "section_type": "general",
+        "pages": [],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "3a402a4c1408d2c9e49be3d1fa15ecdbab326a0ec98dc1bbd47dbfd1df24d1d3"
+      },
+      "evidence": {
+        "text": "#### a) Werk von einem Autor (Monografie):\n\nVornamen sollten, wo immer mög- dt.\nlich, ausgeschrieben werden.\n\nWenn es sich nicht um die erste, sondern\neine weitere Auflage einer Publikation\nhandelt, muss dies angegeben werden.\nEntweder folgt diese Angabe nach dem\nTitel der Publikation oder sie wird durch\neine hochgestellte Ziffer vor dem Erschei-\nnungsjahr gekennzeichnet.\n\nPrimus, Beatrice, 1999: Cases and thematic roles: ergative,\naccusative and active. Tübingen: Niemeyer.\n\nArens, Hans, 1969: Sprachwissenschaft. Der Gang ihrer\nEntwicklung von der Antike bis zur Gegenwart. 2. Aufl.\nFreiburg/München: Alber.\n\nArens, Hans, 21969: Sprachwissenschaft. Der Gang ihrer Ent-\nwicklung von der Antike bis zur Gegenwart. Freiburg/Mün-\nchen: Alber.\n\n<!-- PageNumber=\"9\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nengl. Primus, Beatrice. 1999. Cases and thematic roles: ergative,\naccusative and active. Tübingen: Niemeyer.\n\nArens, Hans. 1969. Sprachwissenschaft. Der Gang ihrer\nEntwicklung von der Antike bis zur Gegenwart. 2nd edition.\nFreiburg/München: Alber.",
+        "chunk_id": "pdf_source_0011",
+        "section_title": "a) Werk von einem Autor (Monografie):",
+        "section_type": "general",
+        "pages": [],
+        "content_sha256": "3a402a4c1408d2c9e49be3d1fa15ecdbab326a0ec98dc1bbd47dbfd1df24d1d3"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0016_7a6f90bcb893",
+      "category": "identity",
+      "field": "program_name",
+      "value": "Empirical Linguistics",
+      "original_value": "Empirical Linguistics",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0017",
+        "section_title": "g) Aufsatz aus einem Sammelband:",
+        "section_type": "language",
+        "pages": [
+          10,
+          11
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "8f9791ee4c697e8680c36c968d3323ee29b49d495dc8aea991b09a739bcccc6e"
+      },
+      "evidence": {
+        "text": "##### g) Aufsatz aus einem Sammelband:\n\nAufsatztitel werden durch Anfüh- dt. Tsunoda, Tasaku, 1988: „Antipassives in Warrungu and other\nrungszeichen markiert.\n\nAustralian languages.“ In: Shibatani, Masayoshi (Hrsg.):\nPassive and Voice. Amsterdam/Philadelphia: John\nBenjamins. 595-649.\n\nengl. Tsunoda, Tasaku. 1988. \"Antipassives in Warrungu and other\nAustralian languages.\" In: Shibatani, Masayoshi, eds. Passive\nand Voice. Amsterdam/Philadelphia: John Benjamins. 595-\n649.\n\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nh) Mehrere Aufsätze aus demselben Sammelband (dieser muss dann ebenfalls für sich angeführt werden):\n\n. werden jeder für sich angeführt. Auf\nden Sammelband wird durch „In:“ mit\ndarauf folgendem Kurztitel verwiesen; der\nSammelband selbst wird unter seinen Her-\nausgebern erfasst.\n\nCooreman, Ann, 1988: „The antipassive in Chamorro: variations\non the theme of transitivity.“ In: Shibatani, Masayoshi\n(Hrsg.), 1988. 561-593.\n\nKaswanti Purwo, Bambang, 1988: „Voice in Indonesian: a\ndiscourse study.\" In: Shibatani, Masayoshi (Hrsg.), 1988.\n196-241.\n\nShibatani, Masayoshi (Hrsg.), 1988: Passive and Voice. Amster-\ndam/Philadelphia: John Benjamins.",
+        "chunk_id": "pdf_source_0017",
+        "section_title": "g) Aufsatz aus einem Sammelband:",
+        "section_type": "language",
+        "pages": [
+          10,
+          11
+        ],
+        "content_sha256": "8f9791ee4c697e8680c36c968d3323ee29b49d495dc8aea991b09a739bcccc6e"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0017_15d5b7bea52a",
+      "category": "identity",
+      "field": "program_id",
+      "value": "0095",
+      "original_value": "0095",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0017",
+        "section_title": "g) Aufsatz aus einem Sammelband:",
+        "section_type": "language",
+        "pages": [
+          10,
+          11
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "8f9791ee4c697e8680c36c968d3323ee29b49d495dc8aea991b09a739bcccc6e"
+      },
+      "evidence": {
+        "text": "##### g) Aufsatz aus einem Sammelband:\n\nAufsatztitel werden durch Anfüh- dt. Tsunoda, Tasaku, 1988: „Antipassives in Warrungu and other\nrungszeichen markiert.\n\nAustralian languages.“ In: Shibatani, Masayoshi (Hrsg.):\nPassive and Voice. Amsterdam/Philadelphia: John\nBenjamins. 595-649.\n\nengl. Tsunoda, Tasaku. 1988. \"Antipassives in Warrungu and other\nAustralian languages.\" In: Shibatani, Masayoshi, eds. Passive\nand Voice. Amsterdam/Philadelphia: John Benjamins. 595-\n649.\n\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nh) Mehrere Aufsätze aus demselben Sammelband (dieser muss dann ebenfalls für sich angeführt werden):\n\n. werden jeder für sich angeführt. Auf\nden Sammelband wird durch „In:“ mit\ndarauf folgendem Kurztitel verwiesen; der\nSammelband selbst wird unter seinen Her-\nausgebern erfasst.\n\nCooreman, Ann, 1988: „The antipassive in Chamorro: variations\non the theme of transitivity.“ In: Shibatani, Masayoshi\n(Hrsg.), 1988. 561-593.\n\nKaswanti Purwo, Bambang, 1988: „Voice in Indonesian: a\ndiscourse study.\" In: Shibatani, Masayoshi (Hrsg.), 1988.\n196-241.\n\nShibatani, Masayoshi (Hrsg.), 1988: Passive and Voice. Amster-\ndam/Philadelphia: John Benjamins.",
+        "chunk_id": "pdf_source_0017",
+        "section_title": "g) Aufsatz aus einem Sammelband:",
+        "section_type": "language",
+        "pages": [
+          10,
+          11
+        ],
+        "content_sha256": "8f9791ee4c697e8680c36c968d3323ee29b49d495dc8aea991b09a739bcccc6e"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 3
+      }
+    },
+    {
+      "fact_id": "pdf_source_0018_1b763eccf5a5",
+      "category": "identity",
+      "field": "institution",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0024",
+        "section_title": "4. Abkürzungen und Abkürzungsverzeichnis",
+        "section_type": "research",
+        "pages": [
+          12
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "8dc25194a80254860f0caab312f032a3b371359320d5339a85c43084b83378d5"
+      },
+      "evidence": {
+        "text": "## 4. Abkürzungen und Abkürzungsverzeichnis\n\nFür sprachwissenschaftliche Arbeiten mit Interlinearübersetzungen (Glossierungen) ist ein Abkür-\nzungsverzeichnis, in dem die Abkürzungen für die grammatischen Übersetzungen vollständig auf-\ngeführt werden, zwingend notwendig - auch dann, wenn man sich bei den gewählten Abkürzungen\nnach den Leipzig Glossing Rules richtet.\n\nDie in Tabelle 3 aufgeführten und als gebräuchlich eingestuften Abkürzungen müssen im Abkürzungs-\nverzeichnis der Arbeit nicht erläutert werden, ebensowenig folgende, die laut Duden gleichfalls als ge-\nbräuchlich gelten: u.v.m .; u.ä .; bzw .; ggf .; bspw .; usw. (vgl. Kornmeier 2011: 292). Gebräuchliche\nAbkürzungen des Deutschen sowie anderer Sprachen sind normalerweise in (guten) Wörterbüchern\nverzeichnet.\n\n<table>\n<caption>Tabelle 3: Bei Quellenangaben und Zitaten gebräuchliche Abkürzungen (nach Kornmeier 2011: 293)</caption>\n<tr>\n<th>Abkürzung (deutscher Sprachraum)</th>\n<th>Bedeutung</th>\n<th>Abkürzung (angloameri- kanischer Sprachraum)</th>\n</tr>\n<tr>\n<td>a.a.O.</td>\n<td>am angegebenen/angeführten Ort</td>\n<td>op. cit.</td>\n</tr>\n<tr>\n<td>Aufl.</td>\n<td>Auflage</td>\n<td>ed.</td>\n</tr>\n<tr>\n<td>Bd.</td>\n<td>Band</td>\n<td>vol.</td>\n</tr>\n<tr>\n<td>d.h.</td>\n<td>das heißt</td>\n<td>i.e.</td>\n</tr>\n<tr>\n<td>ders., dies.</td>\n<td>derselbe, dieselbe</td>\n<td>id.</td>\n</tr>\n<tr>\n<td>Diss.</td>\n<td>Dissertation</td>\n<td>Doct. Diss .; Ph. D. thesis</td>\n</tr>\n<tr>\n<td>ebd .; ebda.</td>\n<td>ebenda; an gleicher Stelle</td>\n<td>Loc. cit .; ibid.</td>\n</tr>\n<tr>\n<td>H.</td>\n<td>Heft</td>\n<td></td>\n</tr>\n<tr>\n<td>Hg .; Hrsg.</td>\n<td>Herausgeber</td>\n<td>ed .; eds.</td>\n</tr>\n<tr>\n<td>passim</td>\n<td>an mehreren Stellen (im Text)</td>\n<td>passim</td>\n</tr>\n<tr>\n<td>Jg.</td>\n<td>Jahrgang</td>\n<td>vol.</td>\n</tr>\n<tr>\n<td>Kap.</td>\n<td>Kapitel</td>\n<td>chap.</td>\n</tr>\n<tr>\n<td>Nachdr.</td>\n<td>Nachdruck</td>\n<td>repr.</td>\n</tr>\n<tr>\n<td>Nr.</td>\n<td>Nummer</td>\n<td>No.</td>\n</tr>\n<tr>\n<td>o.J.</td>\n<td>ohne Jahr</td>\n<td>n.d.</td>\n</tr>\n<tr>\n<td>o.O.</td>\n<td>ohne Ortsangabe</td>\n<td>n.p.</td>\n</tr>\n<tr>\n<td>o.S.</td>\n<td>ohne Seitenangabe</td>\n<td>s.p.</td>\n</tr>\n<tr>\n<td>o.V.</td>\n<td>ohne Verfasserangabe</td>\n<td>Anonymous; Anon.</td>\n</tr>\n<tr>\n<td>S.</td>\n<td>Seite / Seiten</td>\n<td>p. / pp.</td>\n</tr>\n<tr>\n<td>S.</td>\n<td>siehe</td>\n<td>cf.</td>\n</tr>\n<tr>\n<td>überarb.</td>\n<td>überarbeitet</td>\n<td>rev.</td>\n</tr>\n<tr>\n<td>u.a.</td>\n<td>und andere</td>\n<td>et al.</td>\n</tr>\n<tr>\n<td>f. / ff.</td>\n<td>und folgende Seite / Seiten; (auch: folgende / fortfolgende)</td>\n<td>sq. / sqq.</td>\n</tr>\n<tr>\n<td>u.a.</td>\n<td>unter anderem</td>\n<td>i.a.</td>\n</tr>\n<tr>\n<td>vgl.</td>\n<td>vergleiche</td>\n<td>cp.</td>\n</tr>\n<tr>\n<td>zit.n.</td>\n<td>zitiert nach</td>\n<td>cited in</td>\n</tr>\n<tr>\n<td>z.B.</td>\n<td>zum Beispiel</td>\n<td>e.g.</td>\n</tr>\n</table>\n\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+        "chunk_id": "pdf_source_0024",
+        "section_title": "4. Abkürzungen und Abkürzungsverzeichnis",
+        "section_type": "research",
+        "pages": [
+          12
+        ],
+        "content_sha256": "8dc25194a80254860f0caab312f032a3b371359320d5339a85c43084b83378d5"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    },
+    {
+      "fact_id": "pdf_source_0019_dd6772448e3f",
+      "category": "identity",
+      "field": "department",
+      "value": "Institute for Empirical Linguistics",
+      "original_value": "Institut für Empirische Sprachwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0095",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "document_data": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0024",
+        "section_title": "4. Abkürzungen und Abkürzungsverzeichnis",
+        "section_type": "research",
+        "pages": [
+          12
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "8dc25194a80254860f0caab312f032a3b371359320d5339a85c43084b83378d5"
+      },
+      "evidence": {
+        "text": "## 4. Abkürzungen und Abkürzungsverzeichnis\n\nFür sprachwissenschaftliche Arbeiten mit Interlinearübersetzungen (Glossierungen) ist ein Abkür-\nzungsverzeichnis, in dem die Abkürzungen für die grammatischen Übersetzungen vollständig auf-\ngeführt werden, zwingend notwendig - auch dann, wenn man sich bei den gewählten Abkürzungen\nnach den Leipzig Glossing Rules richtet.\n\nDie in Tabelle 3 aufgeführten und als gebräuchlich eingestuften Abkürzungen müssen im Abkürzungs-\nverzeichnis der Arbeit nicht erläutert werden, ebensowenig folgende, die laut Duden gleichfalls als ge-\nbräuchlich gelten: u.v.m .; u.ä .; bzw .; ggf .; bspw .; usw. (vgl. Kornmeier 2011: 292). Gebräuchliche\nAbkürzungen des Deutschen sowie anderer Sprachen sind normalerweise in (guten) Wörterbüchern\nverzeichnet.\n\n<table>\n<caption>Tabelle 3: Bei Quellenangaben und Zitaten gebräuchliche Abkürzungen (nach Kornmeier 2011: 293)</caption>\n<tr>\n<th>Abkürzung (deutscher Sprachraum)</th>\n<th>Bedeutung</th>\n<th>Abkürzung (angloameri- kanischer Sprachraum)</th>\n</tr>\n<tr>\n<td>a.a.O.</td>\n<td>am angegebenen/angeführten Ort</td>\n<td>op. cit.</td>\n</tr>\n<tr>\n<td>Aufl.</td>\n<td>Auflage</td>\n<td>ed.</td>\n</tr>\n<tr>\n<td>Bd.</td>\n<td>Band</td>\n<td>vol.</td>\n</tr>\n<tr>\n<td>d.h.</td>\n<td>das heißt</td>\n<td>i.e.</td>\n</tr>\n<tr>\n<td>ders., dies.</td>\n<td>derselbe, dieselbe</td>\n<td>id.</td>\n</tr>\n<tr>\n<td>Diss.</td>\n<td>Dissertation</td>\n<td>Doct. Diss .; Ph. D. thesis</td>\n</tr>\n<tr>\n<td>ebd .; ebda.</td>\n<td>ebenda; an gleicher Stelle</td>\n<td>Loc. cit .; ibid.</td>\n</tr>\n<tr>\n<td>H.</td>\n<td>Heft</td>\n<td></td>\n</tr>\n<tr>\n<td>Hg .; Hrsg.</td>\n<td>Herausgeber</td>\n<td>ed .; eds.</td>\n</tr>\n<tr>\n<td>passim</td>\n<td>an mehreren Stellen (im Text)</td>\n<td>passim</td>\n</tr>\n<tr>\n<td>Jg.</td>\n<td>Jahrgang</td>\n<td>vol.</td>\n</tr>\n<tr>\n<td>Kap.</td>\n<td>Kapitel</td>\n<td>chap.</td>\n</tr>\n<tr>\n<td>Nachdr.</td>\n<td>Nachdruck</td>\n<td>repr.</td>\n</tr>\n<tr>\n<td>Nr.</td>\n<td>Nummer</td>\n<td>No.</td>\n</tr>\n<tr>\n<td>o.J.</td>\n<td>ohne Jahr</td>\n<td>n.d.</td>\n</tr>\n<tr>\n<td>o.O.</td>\n<td>ohne Ortsangabe</td>\n<td>n.p.</td>\n</tr>\n<tr>\n<td>o.S.</td>\n<td>ohne Seitenangabe</td>\n<td>s.p.</td>\n</tr>\n<tr>\n<td>o.V.</td>\n<td>ohne Verfasserangabe</td>\n<td>Anonymous; Anon.</td>\n</tr>\n<tr>\n<td>S.</td>\n<td>Seite / Seiten</td>\n<td>p. / pp.</td>\n</tr>\n<tr>\n<td>S.</td>\n<td>siehe</td>\n<td>cf.</td>\n</tr>\n<tr>\n<td>überarb.</td>\n<td>überarbeitet</td>\n<td>rev.</td>\n</tr>\n<tr>\n<td>u.a.</td>\n<td>und andere</td>\n<td>et al.</td>\n</tr>\n<tr>\n<td>f. / ff.</td>\n<td>und folgende Seite / Seiten; (auch: folgende / fortfolgende)</td>\n<td>sq. / sqq.</td>\n</tr>\n<tr>\n<td>u.a.</td>\n<td>unter anderem</td>\n<td>i.a.</td>\n</tr>\n<tr>\n<td>vgl.</td>\n<td>vergleiche</td>\n<td>cp.</td>\n</tr>\n<tr>\n<td>zit.n.</td>\n<td>zitiert nach</td>\n<td>cited in</td>\n</tr>\n<tr>\n<td>z.B.</td>\n<td>zum Beispiel</td>\n<td>e.g.</td>\n</tr>\n</table>\n\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+        "chunk_id": "pdf_source_0024",
+        "section_title": "4. Abkürzungen und Abkürzungsverzeichnis",
+        "section_type": "research",
+        "pages": [
+          12
+        ],
+        "content_sha256": "8dc25194a80254860f0caab312f032a3b371359320d5339a85c43084b83378d5"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 3
+      }
+    }
+  ],
+  "chunk_results": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 3,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 4,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 3,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 3,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0013",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0014",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0015",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0016",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0017",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 3,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0018",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0019",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0020",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0021",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0022",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0023",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0024",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 3,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0025",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0026",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0027",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0028",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0029",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 0,
+      "error": null
+    }
+  ],
+  "failed_chunks": [],
+  "quality": {
+    "all_facts_have_ids": true,
+    "all_facts_have_values": true,
+    "all_facts_have_sources": true,
+    "all_facts_have_chunk_ids": true,
+    "all_facts_have_content_hashes": true,
+    "page_traceability_available": true,
+    "partial_extraction": false
+  }
+}

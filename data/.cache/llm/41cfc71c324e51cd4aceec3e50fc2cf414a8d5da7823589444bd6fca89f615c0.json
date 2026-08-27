@@ -1,0 +1,234 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Finance",
+      "original_value": "Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester/Summer semester",
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester/Summer semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Microeconomics",
+      "original_value": "Fundamentals of Microeconomics (FMIC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FMIC",
+        "name": "Fundamentals of Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FMIC",
+        "name": "Fundamentals of Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Macroeconomics",
+      "original_value": "Fundamentals of Macroeconomics (FMAC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FMAC",
+        "name": "Fundamentals of Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FMAC",
+        "name": "Fundamentals of Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0046",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

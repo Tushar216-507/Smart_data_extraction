@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0085",
+  "program_name": "Online Bachelor of Science in Applied Nutrition and Health",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0085\\final",
+  "input_fact_count": 42,
+  "unique_fact_count": 42,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 42,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 42,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 3,
+    "admission": 1,
+    "curriculum": 31,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 2,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 3,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0085\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0085\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0085\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0085\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0085\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0085\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0085\\final\\build_summary.json"
+  }
+}

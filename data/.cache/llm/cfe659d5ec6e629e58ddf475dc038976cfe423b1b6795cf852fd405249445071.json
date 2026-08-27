@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "grades",
+      "field": "importance_of_grades",
+      "value": "Grades are considered in the admission requirements.",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "grades",
+      "field": "higher_grade_requirements",
+      "value": "Some programs require even higher grades than the university does.",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "honors college",
+      "field": "barrett_honors_college_grade_consideration",
+      "value": "Good grades are important for admission to Barrett, The Honors College.",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "honors college",
+      "field": "barrett_honors_college_gpa_requirement",
+      "value": "Barrett does not require a minimum GPA but considers grades as a major factor in admission.",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    }
+  ]
+}

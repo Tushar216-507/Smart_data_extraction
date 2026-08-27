@@ -1,0 +1,190 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Bachelor of Arts in Geography",
+      "original_value": "B.A. Geographie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master of Arts in Geography of Globalization",
+      "original_value": "M.A. Geographie der Globalisierung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": "Master of Arts in Geography of Globalization"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Economics",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophy, Politics and Economics",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finance 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "credit_points": 5
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Microeconomics 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Microeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Arts in Geography"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "credit_points": 10
+      },
+      "confidence": 1.0
+    }
+  ]
+}

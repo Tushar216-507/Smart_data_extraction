@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Additional Studies",
+      "original_value": "Additional Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5-8",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_options",
+      "value": [
+        {
+          "description": "deepening their subject-related skills and knowledge by attending additional courses offered within the elective modules (SEAS 5, 6, 7 or 8) of the Master's programme in Southeast Asian Studies",
+          "status": "a"
+        },
+        {
+          "description": "explore subject areas of other disciplines with special reference to their semester abroad",
+          "status": "b"
+        }
+      ],
+      "original_value": "a) They can use the module for deepening their subject-related skills and knowledge by attending additional courses offered within the elective modules (SEAS 5, 6, 7 or 8) of the Master's programme in Southeast Asian Studies, or b) They can use the module to explore subject areas of other disciplines with special reference to their semester abroad.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5-8",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_completion",
+      "value": "conclusion of the module has to be attested by the module coordinator",
+      "original_value": "The conclusion of the module has to be attested by the module coordinator.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 5-8",
+        "name": "Additional Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

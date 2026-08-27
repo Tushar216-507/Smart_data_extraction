@@ -1,0 +1,48 @@
+{
+  "facts": [
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "standard_duration",
+      "value": 4,
+      "original_value": "vier Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "It is possible to finish the study programme earlier.",
+      "original_value": "Es ist möglich, das Studium früher abzuschließen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "passing_conditions",
+      "value": "A module examination consisting of a single assessment is passed if it is graded 'satisfactory' (4.0) or better. An assessment graded with points is passed if at least 5 points are achieved. Otherwise, it is not passed.",
+      "original_value": "Eine aus einer einzigen Prüfungsleistung bestehende Modulprüfung ist bestanden, wenn sie mit der Note \"ausreichend“ (4,0) oder besser bewertet worden ist. Eine mit Punkten bewertete Prüfungsleistung ist bestanden, wenn mindestens 5 Punkte erreicht sind. Andernfalls ist sie nicht bestanden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "passing_conditions",
+      "value": "A module examination consisting of multiple assessments (cumulative module examination) is passed only if all assessments are graded at least 'satisfactory' (4.0) [or with at least 5 points].",
+      "original_value": "Eine aus mehreren Modulteilprüfungen bestehende Modulprüfung (kumulative Modulprüfung) ist nur dann bestanden, wenn sämtliche Modulteilprüfungen mit mindestens „ausreichend“ (4,0) [gegebenenfalls: beziehungsweise mit 5 Punkten] bewertet worden sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

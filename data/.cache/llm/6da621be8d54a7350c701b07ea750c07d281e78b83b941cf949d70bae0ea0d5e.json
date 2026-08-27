@@ -1,0 +1,333 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "first_year_composition",
+      "value": {
+        "courses": [
+          {
+            "course_name": "First-Year Composition",
+            "course_code": "ENG 101 and ENG 102",
+            "credit_hours": 6,
+            "minimum_grade": "C",
+            "link": [
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=101",
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=102"
+            ]
+          },
+          {
+            "course_name": "Advanced First-Year Composition",
+            "course_code": "ENG 105",
+            "credit_hours": 6,
+            "minimum_grade": "C",
+            "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=105"
+          },
+          {
+            "course_name": "First-Year Composition",
+            "course_code": "ENG 107 and ENG 108",
+            "credit_hours": 6,
+            "minimum_grade": "C",
+            "link": [
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=107",
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=108"
+            ]
+          }
+        ]
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "identity",
+      "field": "programme_name",
+      "value": "Environmental Studies, BA",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "visa",
+      "field": "description",
+      "value": "The 24-Month STEM OPT Extension is an additional benefit from United States Citizenship and Immigration Services (USCIS) that allows international students in F-1 status who receive a bachelor’s, master’s, or doctoral degree in an approved STEM field to apply for a 24-month extension of their standard 12-month Post-OPT period, twice in a lifetime. This allows international students the opportunity to gain additional off-campus work experience in their field of study after completion of course studies and Post-OPT.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "STEM OPT Extension + Eligibility",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "visa",
+      "field": "eligibility",
+      "value": "F-1 status international students who receive a bachelor’s, master’s, or doctoral degree in an approved STEM field.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "STEM OPT Extension + Eligibility",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "post_opt_requirement",
+      "value": "F-1 students must currently be participating in the 12-month Post-OPT, and working for a U.S. employer in a job directly related to their major area of study.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "degree_requirement",
+      "value": "F-1 students must have earned a bachelor’s, master’s, or doctoral degree from a school that is accredited by a U.S. Department of Education-recognized accrediting agency and that is certified by the Student and Exchange Visitor Program (SEVP) at the time of application.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "stem_field_requirement",
+      "value": "F-1 students must have successfully completed a bachelor's, master’s, or doctoral degree in a STEM field included in the DHS STEM Designated Degree Program List.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "practice_training_hours",
+      "value": "F-1 students may not engage in practical training for less than 20 hours per week during the STEM OPT extension period.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "unpaid_training",
+      "value": "F-1 students may not engage in practical training that is unpaid/volunteer work or self-employment.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "multiple_employer_arrangement",
+      "value": "F-1 students may not be in a multiple employer arrangement or employed by a sole proprietorship, through a temp agency, or through a consulting firm arrangement that provides labor for hire.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "training_plan_requirement",
+      "value": "F-1 students must work with their employer to complete an individualized Training Plan for STEM OPT Students (Form I-983).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "employment_report_responsibility",
+      "value": "Students participating in STEM OPT are responsible for ensuring that all employment information reported to the ISSC, SEVP, and/or U.S. government agencies is complete, accurate, and truthful.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "false_information_consequences",
+      "value": "Reporting false employment, submitting fraudulent documentation, or misrepresenting job duties may result in serious immigration consequences.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "previous_stem_degree_eligibility",
+      "value": "F-1 students participating in a 12-month period of Post-OPT based on a non-STEM degree may be eligible to use a previous STEM degree for a STEM OPT extension.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "future_stem_degree_eligibility",
+      "value": "If students earn another qualifying STEM degree at a higher educational level, they may be eligible for one additional 24-month STEM OPT extension.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Requirements - Student",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "employer_registration",
+      "value": "Employer must be registered with the E-Verify Employment Verification System and remain a participant in good standing with E-Verify, as determined by USCIS.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "employer_identification_number",
+      "value": "Employer must have a valid Employer Identification Number (EIN) issued by the Internal Revenue Service for tax purposes.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "practical_training_requirements",
+      "value": "Employer must provide a practical training opportunity that is commensurate with those of similarly situated U.S. workers in duties, hours, and compensation.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "formal_training_program",
+      "value": "Employer must implement a formal training program to augment the F-1 student’s academic learning through practical experience.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "bona_fide_relationship",
+      "value": "Employer must maintain a bona fide employer-employee relationship with the F-1 student.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "form_i983_employer",
+      "value": "The employer that signs the Form I-983 must be the same entity that provides the practical training experience to the student.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "training_responsibilities",
+      "value": "The employer may not be the F-1 student’s employer in name only and may not assign, or otherwise delegate its training responsibilities to a non-employer third party (for example, a client or customer of the employer).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "reporting_changes",
+      "value": "Employer must report any material changes of the F-1 student’s employment by filling out a modified Form I-983.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Requirements - Employer",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    }
+  ]
+}

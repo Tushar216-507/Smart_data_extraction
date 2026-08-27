@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "additional_requirements",
+      "value": "For the Bachelor's program, further admission requirements may be required for specific courses, such as language skills, athletic abilities, or artistic talents.",
+      "original_value": "Für den Bachelorstudiengang können nach Maßgabe des § 8 Abs. 2 und Abs. 4 RO lediglich für bestimmte Studiengänge weitergehende Zugangsvoraussetzungen (studiengangsspezifische Fähigkeiten, wie weitergehende Fremdsprachenkenntnisse, sportliche Fähigkeiten, künstlerische Begabungen) verlangt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "program-specific",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_requirements",
+      "value": "International applicants must provide proof of German language proficiency at level B2 (DSH-2) unless exempted.",
+      "original_value": "An ausländische Studienbewerberinnen und Studienbewerber für einen Bachelorstudiengang müssen ... einen Sprachnachweis der Niveaustufe B 2 (DSH-2) vorlegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "language proficiency",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "university",
+      "field": "general_admission_qualification",
+      "value": "The required qualification for higher education is demonstrated through the acquisition of the general higher education entrance qualification or an equivalent qualification.",
+      "original_value": "Die für ein Hochschulstudium erforderliche Qualifikation durch den Erwerb der allgemeinen Hochschulreife oder durch eine als gleichwertig anerkannten Vorbildung nachgewiesen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "general qualification",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "immatriculation_reservation",
+      "value": "Enrollment is contingent upon providing the required knowledge or skills by the end of the first two semesters; otherwise, continuation into the third semester is excluded.",
+      "original_value": "Die Immatrikulation erfolgt mit dem Vorbehalt, dass die in Abs. 3 geforderten Kenntnisse beziehungsweise Fähigkeiten bis zum Abschluss der ersten beiden Semester nachgewiesen werden, andernfalls eine Rückmeldung zum dritten Semester ausgeschlossen ist.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "enrollment condition",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

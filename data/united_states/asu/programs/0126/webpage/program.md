@@ -1,0 +1,59 @@
+# Online Master of Counseling
+
+Prepare to become a Licensed Professional Counselor with Arizona State University’s online Master of Counseling. This clinically intensive program combines coursework and supervised clinical hours through a chosen local field placement in your area. Designed to meet Arizona licensure requirements, this program is approved by the Arizona Board of Behavioral Health Examiners as leading toward LPC licensure in Arizona and delivered through ASU’s School of Counseling and Counseling Psychology.
+
+[Learn more](#program-detail)
+
+Quick facts
+
+Next start date: 01/11/2027
+
+Total classes: 20
+
+Weeks per class: 7.5–15
+
+Total credit hours: 60
+
+## Prepare for a career with an online Master of Counseling
+
+## What you’ll study in this online Master of Counseling program
+
+The curriculum teaches you how to build the clinical skills and theoretical foundation needed to pursue licensure and practice in mental health, community counseling, substance abuse and wellness settings. Core courses in this master's in counseling online program span counseling theory and psychotherapy, human development across the lifespan, ethics, clinical assessment and multicultural competency — topics aligned to competencies you’ll use throughout your counseling career.
+
+You can tailor your studies through electives focused on the populations and practice areas aligned to your career goals, including substance abuse and addiction, neuropsychology, trauma and personality assessment.
+
+This program also includes three semesters of supervised field experience, including an online-supported counseling practicum completed at a local site you select within your community. Combined with weekly live, virtual group supervision, these experiences help you strengthen clinical counseling skills, expand your professional network and prepare for LPC licensure in Arizona.
+
+## Licensed Professional Counselor careers with a master’s degree in counseling
+
+The Bureau of Labor Statistics reports strong demand for mental health counselors, with approximately 483,500 counselors employed in 2024 and continued job growth projected through 2034. Earning an LPC credential typically requires rigorous graduate coursework, supervised clinical hours and passing a licensing exam. These steps prepare you to assess and treat clients across a range of mental health settings. Requirements vary by state, and ASU’s program is designed to meet Arizona licensure standards.
+
+After completing this program and obtaining licensure, you may work with individuals, couples, families and groups in community mental health agencies, hospitals, private practices and university counseling centers. Graduates may also pursue doctoral studies in clinical or counseling psychology.
+
+Career paths include:
+
+## How to apply
+
+Applicants to the Master of Counseling program must fulfill the requirements of both the Graduate College and the College of Integrative Sciences and Arts.
+
+This program admits a limited cohort each semester and reviews applications holistically. Please note that the fall application deadline is Feb. 1 and the spring application deadline is Aug. 1.
+
+## Study at a globally recognized university
+
+ASU is a global university recognized for its commitment to innovation, research and high-quality academic programs. Our university is repeatedly awarded peer-reviewed honors from U.S. News & World Report and other respected organizations.
+
+### #1
+
+in the U.S. for innovation for 11 consecutive years, ahead of Stanford and MIT
+
+### Top 10
+
+best online bachelor’s programs
+
+### Top 10%
+
+best global universities
+
+### 80%
+
+of graduates reported their experiences at ASU inspired them to explore new career opportunities

@@ -1,0 +1,93 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "Studienleistung nach freier Wahl",
+      "original_value": "Studienleistung nach freier Wahl",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "0037",
+        "name": "Studienleistung nach freier Wahl"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Der Abschluss des Moduls wird bestätigt (Modulbeauftragter)",
+      "original_value": "Der Abschluss des Moduls wird bestätigt: (Modulbeauftragter)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "0037",
+        "name": "Studienleistung nach freier Wahl"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "acronym_key",
+      "value": {
+        "SWS": "Semesterwochenstunden",
+        "LN": "Leistungsnachweis",
+        "TN": "Teilnahmenachweis",
+        "LV": "Lehrveranstaltung",
+        "V": "Vorlesung",
+        "PS": "Proseminar",
+        "Ü": "Übung",
+        "S": "Seminar",
+        "K": "Kurs",
+        "PR": "Praktikum"
+      },
+      "original_value": "Legende: SWS = Semesterwochenstunden, LN = Leistungsnachweis, TN = Teilnahmenachweis, LV = Lehrveranstaltung, V = Vorlesung, PS = Proseminar, Ü = Übung, S = Seminar, K = Kurs, PR = Praktikum",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "0037",
+        "name": "Studienleistung nach freier Wahl"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

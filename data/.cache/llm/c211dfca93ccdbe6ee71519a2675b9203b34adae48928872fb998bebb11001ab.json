@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_method",
+      "value": "You can apply directly through the online application if you meet the admission requirements.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "additional_documents",
+      "value": "If further documents are required, you will be informed at the end of the online application process.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry_requirements",
+      "field": "admission_restriction",
+      "value": "This program is not subject to admission restrictions.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "specific_regulations",
+      "value": "This regulation contains the specific regulations for the Master's program Money, Macro and Finance.",
+      "original_value": "Diese Ordnung enthält die studiengangspezifischen Regelungen für den Masterstudiengang Money, Macro and Finance.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "university_regulation",
+      "value": "The regulation applies in conjunction with the framework regulation for structured and modularized study programs of the Johann Wolfgang Goethe University Frankfurt am Main.",
+      "original_value": "Sie gilt in Verbindung mit der Rahmenordnung für gestufte und modularisierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "regulation_date",
+      "value": "April 30, 2014, and amended on July 15, 2020.",
+      "original_value": "vom 30. April 2014 in der Fassung vom 15. Juli 2020",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "reports_and_orders",
+      "value": "Related to the UniReport statutes and regulations dated December 22, 2020, in their valid form.",
+      "original_value": "UniReport Satzungen und Ordnungen vom 22. Dezember 2020 in der jeweils gültigen Fassung.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

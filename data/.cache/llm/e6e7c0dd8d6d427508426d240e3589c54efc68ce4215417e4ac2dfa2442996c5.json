@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "scope": "programme",
+      "field": "examination_fees",
+      "value": 100,
+      "original_value": "100,- Euro",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "applicable for four-semester master's programs",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "fees",
+      "scope": "programme",
+      "field": "examination_fees",
+      "value": 50,
+      "original_value": "50,- Euro",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "applicable for two-semester master's programs",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "both",
+      "field": "examination_fee_payment_conditions",
+      "value": {
+        "first_payment_due": "at the application for the master's examination",
+        "second_payment_due": "at the admission for the master's thesis"
+      },
+      "original_value": "Die Prüfungsgebühren werden in zwei hälftigen Raten fällig, und zwar die erste Rate bei der Beantragung der Zulassung zur Masterprüfung, die zweite Rate bei der Zulassung zur Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

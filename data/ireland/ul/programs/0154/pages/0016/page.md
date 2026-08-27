@@ -1,0 +1,11 @@
+### Claudia Clifford
+
+I am a fourth-year Law Plus student, studying Politics as my non-law pathway. In school, I was particularly drawn to English, public speaking and debating, so I decided to select the Law Plus course. I was delighted that I could cover all key legal modules whilst also being afforded the opportunity to undertake Erasmus and Co-Op Placement. The ability to engage with both of these programmes has afforded me a well-rounded and valuable degree.
+
+At UL, I have found lecturers often take a practical approach, basing assignments on tangible, real-life scenarios in the form of legal problem questions. It feels a lot more hands-on as opposed to being purely theoretical and helps you to fully engage with the material. In terms of workload, typically our course has 12 to 14 contact hours per week, but students are expected to do a lot of self-led learning and reading on the topics covered. I thoroughly enjoy this learning style as it allows students to cater to their own personal schedules with ample flexibility.
+
+Joining the UL Student Law Society in first year was a turning point in my degree. Interacting with people from different year groups allowed me to gain a wide range of knowledge outside the lecture halls. I am currently the President of the Law Society, and have been a committee member for the past three years in various other positions. Among other responsibilities, I organise events for our members and liaise with faculty and external firms throughout the year.
+
+For my Co-Op Placement, I worked with a commercial law firm in Dublin in their Real Estate Department. Having just studied Land Law, I was able to reflect on the concepts I had studied and apply them to the corporate context. I then moved to Bologna, Italy for four months on my Erasmus placement, and studied modules that I hadn’t been exposed to before, such as Air and Space Law and Regulatory & Sustainability Law.
+
+Overall, Law Plus is a very flexible course, allowing you the option of pursuing traditional career pathways such as solicitor or barrister but also a wide range of other roles. With the opportunity for both Co-Op and Erasmus, the course provides students with real-life experience which is invaluable to a career in law.

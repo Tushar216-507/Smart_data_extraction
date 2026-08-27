@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "deferment",
+      "field": "deferment_request_timeline",
+      "value": "You must request a deferment at least two weeks before the first day of classes in your original semester.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferment",
+      "field": "valid_reason_for_deferment",
+      "value": "You should defer your admission if you need to delay starting at ASU. Common reasons include: Religious volunteer work, Volunteer service, U.S. military service, International military service (for U.S. or non-U.S. citizens), Student Visa Denial or inability to obtain a visa appointment, Financial or personal reasons.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "scholarship",
+      "field": "scholarship_deferment_requirement",
+      "value": "If you are deferring admission for financial or personal reasons and have a scholarship, you must also complete the scholarship deferment form through Financial Aid and Scholarship Services. Approval is required.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "withdrawal",
+      "field": "housing_and_orientation_cancelation",
+      "value": "By deferring your admission, you also cancel your housing assignment and your orientation appointment. You may still owe nonrefundable housing or other university charges.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "withdrawal",
+      "field": "withdrawal_if_registered_for_classes",
+      "value": "You must withdraw from all classes before the refund deadline or you will owe full tuition. Registering means you agree to pay all tuition and fees. You will not be dropped for nonpayment. To withdraw, sign in to My ASU.",
+      "confidence": 1.0,
+      "programme_association": "Applied Military and Veterans Studies - BA"
+    }
+  ]
+}

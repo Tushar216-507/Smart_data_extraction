@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "written_exam_assessment",
+      "value": "Written examinations that cannot be repeated must be assessed by two examiners.",
+      "original_value": "Schriftliche Prüfungsleistungen, die nicht mehr wiederholt werden können, sind von zwei Prüfenden zu bewerten.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "oral_exam_assessment",
+      "value": "Oral examinations must be conducted by multiple examiners or by one examiner in the presence of an observer.",
+      "original_value": "Mündliche Prüfungen sind von mehreren Prüfenden oder von einer oder einem Prüfenden in Gegenwart einer oder eines Beisitzenden abzunehmen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "examiner_appointment",
+      "value": "Only a member of the Johann Wolfgang Goethe University can be appointed as an observer in oral examinations, who has at least a Bachelor’s degree or an equivalent qualification.",
+      "original_value": "Zur Beisitzerin oder zum Beisitzer bei mündlichen Prüfungen darf nur ein Mitglied oder eine Angehörige oder ein Angehöriger der Johann Wolfgang Goethe-Universität bestellt werden, das oder die oder der mindestens den Bachelorabschluss oder eine vergleichbare Prüfung abgelegt hat.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "examiner_confidentiality",
+      "value": "Examiner and observer confidentiality is mandatory.",
+      "original_value": "Prüferinnen, Prüfer, Beisitzerinnen und Beisitzer unterliegen der Amtsverschwiegenheit.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

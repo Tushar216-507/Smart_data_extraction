@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "field": "student_fee_classifications",
+      "value": "There are two student fee classifications - EU and Non-EU",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "eu_fee_status",
+      "value": "EU fee status applies to Domestic or EU students, or students who have been resident as a taxpayer in EU/EEA/Swiss State for 3 out of the last 5 years.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "non_eu_fee_status",
+      "value": "Non-EU fee status applies to all other students.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "tuition_fee_range",
+      "value": "Courses costing upwards of €5,000 a year.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "tax_relief_availability",
+      "value": "Tax relief is available on postgraduate tuition fees, up to €7,000 per person per course.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "tax_relief_approved_courses",
+      "value": "Tax relief is available for tuition fees paid for approved postgraduate courses in private and publicly funded colleges in the State.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "tax_relief_courses_in_eu_uk",
+      "value": "Tax relief is available for postgraduate courses in a university or publicly funded college in another EU member state or the UK, including such colleges that provide distance education in the State.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    },
+    {
+      "category": "fees",
+      "field": "tax_relief_courses_non_eu",
+      "value": "Tax relief is available for postgraduate courses in a university or publicly funded third-level college in non-EU countries.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture"
+    }
+  ]
+}

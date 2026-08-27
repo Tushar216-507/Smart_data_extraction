@@ -1,0 +1,43 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "research_degree_options",
+      "value": "Master of Arts/LLM or PhD level",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_opening_date",
+      "value": "20th October 2025",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_recommendation",
+      "value": "Early applications are strongly encouraged.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

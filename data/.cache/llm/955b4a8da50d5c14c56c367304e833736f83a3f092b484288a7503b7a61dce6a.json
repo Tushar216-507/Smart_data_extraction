@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "main postal address",
+      "field": "postal_address",
+      "value": "University of Limerick, Limerick, V94 T9PX, Ireland",
+      "confidence": 1.0,
+      "programme_association": "Bachelor/Master of Engineering in Biomedical Engineering"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "telephone",
+      "field": "telephone_general",
+      "value": "+353 (0)61 202700",
+      "confidence": 1.0,
+      "programme_association": "Bachelor/Master of Engineering in Biomedical Engineering"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "email",
+      "field": "email_general",
+      "value": "reception@ul.ie",
+      "confidence": 1.0,
+      "programme_association": "Bachelor/Master of Engineering in Biomedical Engineering"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "emergency number",
+      "field": "telephone_emergency",
+      "value": "061 213333",
+      "confidence": 1.0,
+      "programme_association": "Bachelor/Master of Engineering in Biomedical Engineering"
+    }
+  ]
+}

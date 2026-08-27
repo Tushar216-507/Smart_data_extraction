@@ -1,0 +1,51 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "admissions",
+      "field": "coordinator_name",
+      "value": "John McGuire",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "admissions",
+      "field": "coordinator_title",
+      "value": "Senior Coordinator, Military and Veteran Recruitment Admission Services",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "services",
+      "field": "services_provided",
+      "value": "Assistance with the admissions process for military-connected students and their families.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "services",
+      "field": "appointment_duration",
+      "value": "30 minutes",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "services",
+      "field": "topics_discussed",
+      "value": [
+        "Applying to ASU",
+        "Military and veteran education benefits",
+        "Financial aid and scholarships",
+        "Military and transfer credit",
+        "Enrollment and next steps",
+        "Veteran student support services and the Pat Tillman Veterans Center"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

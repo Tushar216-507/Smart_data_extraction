@@ -1,0 +1,107 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "German Courses",
+      "original_value": "German Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_modules",
+      "value": [
+        {
+          "module_name": "Core Lecture: Institutions and Innovations",
+          "module_code": "MEAS 2.2 / ININ",
+          "credits": 7,
+          "offered": "Summer semester"
+        },
+        {
+          "module_name": "Information Management",
+          "module_code": "WINFO",
+          "credits": 5,
+          "offered": "Winter semester"
+        },
+        {
+          "module_name": "Intelligente Methoden der Wirtschaftsinformatik",
+          "module_code": "IMWI",
+          "credits": 6,
+          "offered": "all 3 semesters"
+        },
+        {
+          "module_name": "Cloud Computing",
+          "module_code": "CLC",
+          "credits": 5,
+          "offered": "annually Summer or Winter semester"
+        },
+        {
+          "module_name": "Seminar Computational Humanities",
+          "module_code": "CH-S",
+          "credits": 5,
+          "offered": "Summer semester"
+        },
+        {
+          "module_name": "Seminar Aktuelle Themen aus der Wirtschaftsinformatik",
+          "module_code": "ATWIS.MS",
+          "credits": 5,
+          "offered": "Summer semester"
+        }
+      ],
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

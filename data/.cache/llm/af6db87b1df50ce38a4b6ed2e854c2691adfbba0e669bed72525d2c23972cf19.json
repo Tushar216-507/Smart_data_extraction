@@ -1,0 +1,120 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "both",
+      "field": "program_name",
+      "value": "Bachelor meets Business",
+      "original_value": "Bachelor meets Business",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Orientation Phase",
+      "original_value": "Orientierungsphase",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Orientation Phase"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "qualifiers": {},
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_name",
+      "value": "WIWI Modules for LIF SAFE",
+      "original_value": "WIWI-Module für LIF SAFE",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "WIWI Modules for LIF SAFE"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "qualifiers": {},
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Doctoral Program in Law, Finance and Economics",
+      "original_value": "Doctoral Program in Law, Finance and Economics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Doctoral Program in Law, Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "qualifiers": {},
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Applied Economics",
+      "original_value": "Anwendungsfach Applied Economics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Applied Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "qualifiers": {},
+      "confidence": 0.95
+    }
+  ]
+}

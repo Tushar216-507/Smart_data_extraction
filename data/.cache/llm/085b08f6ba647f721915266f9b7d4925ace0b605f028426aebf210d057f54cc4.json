@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "application_process",
+      "value": "Complete the graduate admission application and submit the nonrefundable application fee.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "application_link",
+      "value": "https://webapp4.asu.edu/dgsadmissions/Index.jsp",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "application_fee",
+      "value": "$115",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "application_fee_payment_methods",
+      "value": "Visa or Mastercard",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "application_fee_nonrefundable",
+      "value": "The application fee is dedicated to the administrative cost of processing all applications received and is not refundable under any circumstance.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    }
+  ]
+}

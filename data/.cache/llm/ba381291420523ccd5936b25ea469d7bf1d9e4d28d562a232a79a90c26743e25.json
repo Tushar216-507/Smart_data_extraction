@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "program",
+      "scope": "both",
+      "field": "program_name",
+      "value": "Double Degree Master's Program Paris Dauphine-PSL",
+      "original_value": "Double Degree Master's Program Paris Dauphine-PSL",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance",
+      "original_value": "Module : Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Finance",
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Economie et Droit",
+      "original_value": "Module : Economie et Droit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Economie et Droit",
+        "name": "Economie et Droit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Ouverture",
+      "original_value": "Module : Ouverture (au choix une option)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Ouverture",
+        "name": "Ouverture"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Economie",
+      "original_value": "Module : Economie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Economie",
+        "name": "Economie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Théâtre",
+      "original_value": "Module : Théâtre",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Théâtre",
+        "name": "Théâtre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

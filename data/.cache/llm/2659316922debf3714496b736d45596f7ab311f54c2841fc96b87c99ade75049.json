@@ -1,0 +1,218 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Introduction to Economics (OVWL)",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Introduction to Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Philosophy, Politics and Economics (OPPE)",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophy, Politics and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Microeconomics 1 (OMIK) or Macroeconomics 1 (BMAK)",
+      "original_value": "Mikroökonomik 1 (OMIK) oder Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK/BMAK",
+        "name": "Microeconomics 1 or Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": {
+          "min": 10,
+          "max": 12
+        },
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Finance 1 (OFIN)",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finance 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Marketing (OMAR)",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": 5,
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Accounting (OACC) or Accounting 1 (BACC)",
+      "original_value": "Accounting (OACC) oder Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC/BACC",
+        "name": "Accounting or Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": {
+          "min": 5,
+          "max": 6
+        },
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Management (BMGT)",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Business Informatics 2 (PWIN)",
+      "original_value": "Wirtschaftsinformatik 2 (PWIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PWIN",
+        "name": "Business Informatics 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "module_credits": 6,
+        "module_status": null,
+        "prerequisites": "B. Sc. Wirtschaftswissenschaften PO 2022"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

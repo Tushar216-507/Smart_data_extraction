@@ -1,0 +1,152 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Bachelorarbeit (ggf. Abschlussmodul)",
+      "original_value": "Bachelorarbeit: (ggf. Abschlussmodul)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Bachelorarbeit (ggf. Abschlussmodul)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Bachelorarbeit (ggf. Abschlussmodul)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optionalbereich",
+      "original_value": "Optionalbereich:",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 18,
+      "original_value": "18",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 120,
+      "original_value": "120",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The selection of elective modules may be restricted due to lack of capacity, as decided by the departmental council. This restriction must be promptly communicated to students by the dean.",
+      "original_value": "Die Wählbarkeit von Wahlpflichtmodulen kann bei fehlender Kapazität durch Fachbereichsratsbeschluss eingeschränkt werden. Die Einschränkung ist den Studierenden unverzüglich durch das Dekanat bekannt zu geben.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

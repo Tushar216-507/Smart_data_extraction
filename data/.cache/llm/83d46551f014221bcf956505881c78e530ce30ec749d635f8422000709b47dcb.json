@@ -1,0 +1,150 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "field": "tuition_fee_status",
+      "value": "You satisfy all three categories (1, 2 and 3) and therefore are eligible for the Higher Education Authority’s Free Fees scheme.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "eu_fee_status",
+      "value": "You satisfy both the citizenship and residency criteria but fail to satisfy the course requirements and are liable to EU fees.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "non_eu_fee_status",
+      "value": "You do not meet either the citizenship or residency criteria and are therefore liable to Non EU fees.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "more_information_url",
+      "value": "/finance/about-finance/finance-documents#fees",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "faculty",
+      "field": "name",
+      "value": "Faculty of Science & Engineering",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "graduate_name",
+      "value": "Rhona Tarrant",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Rhona Tarrant",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "current_position",
+      "value": "Executive Editor for CBS Confirmed",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Rhona Tarrant",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "current_employer",
+      "value": "CBS News",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Rhona Tarrant",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "previous_positions",
+      "value": [
+        "Head of Editorial for Storyful in New York",
+        "10 years in broadcast journalism in Ireland including RTÉ"
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Rhona Tarrant",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "career",
+      "field": "fellowships",
+      "value": "completed two fellowships at Harvard University on disinformation and AI",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Rhona Tarrant",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "testimonial_quote",
+      "value": "UL constantly pushed me out of my comfort zone, between the course, work experience, Erasmus, and the different people I met and became friends with. By the time I graduated, I had a lot more confidence to push myself even further.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Rhona Tarrant",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

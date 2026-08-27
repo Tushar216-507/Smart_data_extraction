@@ -1,0 +1,115 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "subjects_required",
+      "value": [
+        "Irish or another language",
+        "Mathematics",
+        "English"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "foundation_math_alternate",
+      "value": "An F6 (Foundation Level) grade in Mathematics can be used as an alternate to an O6 (Ordinary Level) grade and can be used to satisfy the Mathematics subject requirement.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "language_exemption",
+      "value": "Candidates who have a hearing impairment or a specific learning difficulty may apply for an exemption from the second language requirement.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "exemption_condition",
+      "value": "A language exemption can only apply to those programmes where the second language requirement is an O6 (Ordinary Level) grade or a H7 (Higher Level) grade.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "foundation_subjects",
+      "value": [
+        "Foundation Maths",
+        "Foundation Irish",
+        "LCVP"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "fulfilling_minimum_requirements",
+      "value": [
+        {
+          "subject": "Mathematics",
+          "fulfilled": "Yes"
+        },
+        {
+          "subject": "Irish or another language",
+          "fulfilled": "No"
+        },
+        {
+          "subject": "English",
+          "fulfilled": "No"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "fulfilling_specific_subject_requirements",
+      "value": [
+        {
+          "subject": "Mathematics",
+          "fulfilled": "No"
+        },
+        {
+          "subject": "Irish or another language",
+          "fulfilled": "No"
+        },
+        {
+          "subject": "English",
+          "fulfilled": "No"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    },
+    {
+      "category": "admission",
+      "subcategory": "entry requirements",
+      "field": "included_in_points_scores",
+      "value": [
+        {
+          "subject": "Mathematics",
+          "included": "No"
+        },
+        {
+          "subject": "Irish or another language",
+          "included": "No"
+        },
+        {
+          "subject": "English",
+          "included": "Yes"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Interaction Design"
+    }
+  ]
+}

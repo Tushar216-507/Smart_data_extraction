@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_assessment_type",
+      "value": "Module examinations",
+      "original_value": "Modulprüfungen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_completion_conditions",
+      "value": "Completed through module examinations, which can be repeated within limits.",
+      "original_value": "Mit ihnen wird das jeweilige Modul abgeschlossen. Sie sind Prüfungsereignisse, welche begrenzt wiederholbar sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Graded, generally.",
+      "original_value": "in der Regel mit Noten bewertet",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_completion_exam_type",
+      "value": "Usually concludes with a single examination related to one of the module's courses.",
+      "original_value": "Module schließen [in der Regel] mit einer einzigen Modulprüfung ab, welche auch im zeitlichen Zusammenhang zu einer der Lehrveranstaltungen des Moduls durchgeführt werden kann.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

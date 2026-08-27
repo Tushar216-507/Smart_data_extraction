@@ -1,0 +1,9 @@
+After completing my master’s, I did a Research Master’s in Chemistry and Nanotechnology under the supervision of Professor Kevin Ryan and Dr. Ning Liu at the prestigious Bernal Institute at UL. At present, I am pursuing my PhD in Fluid Dynamics (School of Engineering) at UL under the supervision of Professor Harry Van Den Akker.
+
+I took several modules on highly interesting topics like nanotechnology, the physics of medical instrumentation, and condensed matter physics, to name a few. The fact that there is special emphasis on the application of the material learned in class, in the form of tutorials, assignments, etc., makes this course quite different from others of its kind.
+
+Another reason why I chose this course was the fact that there is a perfect combination of taught modules and research. I was interested in nanotechnology and electron microscopy and was fortunate to do my taught Master’s Research Project at the prestigious Bernal Institute under the supervision of Professor Ursel Bangert. I was allowed to use the highly sophisticated facilities of the Bernal Institute, including the JEOL Transmission Electron Microscope, for my project.
+
+The professors and teachers in the Physics Department of UL are excellent and are all eminent researchers in their field. I learned a lot from them both during the classroom lectures and outside as well. All were very friendly, helpful, and accessible.
+
+Lastly, I would like to mention that UL is a wonderful place for studying. The campus is really vibrant and beautiful and there are lots of fun activities and events on the campus. I would highly recommend this Master’s in Applied Physics course to anyone who is thinking of gaining a thorough knowledge about applied physics and I sincerely think that pursuing this course has helped me a lot in following a successful career in research.

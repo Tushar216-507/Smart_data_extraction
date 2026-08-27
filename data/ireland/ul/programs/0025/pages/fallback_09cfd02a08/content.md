@@ -1,0 +1,1 @@
+Click on the map and filters below to explore the countries of the European Union. Find out when they joined the EU, Schengen or the euro, and learn more about the country on the dedicated page.

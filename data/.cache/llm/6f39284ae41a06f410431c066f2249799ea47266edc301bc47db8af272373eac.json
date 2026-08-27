@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "A certificate will be issued for the passed master's examination within four weeks after the last examination performance, in German, and upon request, in English translation.",
+      "original_value": "Über die bestandene Masterprüfung ist möglichst innerhalb von vier Wochen nach der letzten Prüfungsleistung ein Zeugnis in deutscher Sprache, auf Antrag der oder des Studierenden mit einer Übertragung in englischer Sprache, auszustellen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "content",
+      "value": "The certificate contains information about the modules with the grades obtained, the topic and grade of the master's thesis, the overall grade, and the total credits earned.",
+      "original_value": "Das Zeugnis enthält die Angabe der Module mit den in ihnen erzielten Noten, das Thema und die Note der Masterarbeit, die Gesamtnote und die insgesamt erreichten CP.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "university",
+      "field": "important_information",
+      "value": "The certificate must be signed by the chairperson of the Joint Examination Board and sealed with the seal of Johann Wolfgang Goethe University.",
+      "original_value": "Das Zeugnis ist von der oder dem Vorsitzenden des Gemeinsamen Prüfungsausschusses zu unterzeichnen und mit dem Siegel der Johann Wolfgang Goethe-Universität zu versehen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

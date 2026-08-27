@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "application",
+      "scope": "programme",
+      "field": "application_period",
+      "value": {
+        "start_month": "May",
+        "end_month": "July",
+        "term": "winter"
+      },
+      "original_value": "The application process for the winter term usually runs from May until July.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "application",
+      "scope": "both",
+      "field": "application_address",
+      "value": "Goethe-Universität Frankfurt, Masterabteilung, c/o uni-assist e.V., Geneststr. 5, D-10829 Berlin",
+      "original_value": "Goethe-Universität Frankfurt Masterabteilung c/o uni-assist e.V. Geneststr. 5 D-10829 Berlin",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "application",
+      "scope": "university",
+      "field": "application_information_url",
+      "value": "www2.uni-frankfurt.de/35791924",
+      "original_value": "www2.uni-frankfurt.de/35791924",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

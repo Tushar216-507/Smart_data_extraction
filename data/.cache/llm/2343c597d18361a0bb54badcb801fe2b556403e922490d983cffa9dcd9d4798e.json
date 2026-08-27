@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "student_support",
+      "scope": "both",
+      "field": "important_information",
+      "value": "It is recommended to study for at least one semester at a university abroad during the Bachelor's program or to plan a corresponding stay abroad.",
+      "original_value": "Es wird empfohlen, im Verlauf des Bachelorstudiums für mindestens ein Semester an einer Universität im Ausland zu studieren bzw. einen entsprechenden Auslandsaufenthalt einzuplanen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "university",
+      "field": "important_information",
+      "value": "Students can utilize the connections of Johann Wolfgang Goethe-Universität with foreign universities, for which information is provided in study counseling and the International Office.",
+      "original_value": "Dafür können die Verbindungen der Johann Wolfgang Goethe-Universität mit ausländischen Universitäten genutzt werden, über die in der Studienfachberatung und im International Office Auskunft erteilt wird.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

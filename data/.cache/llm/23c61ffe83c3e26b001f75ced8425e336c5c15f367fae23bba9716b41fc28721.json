@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_description",
+      "value": "In cumulative module examinations, the module grade is calculated as a weighted average of the grades for the individual partial examinations based on CP credits. The grades of the individual module examinations are multiplied by their assigned CP credits and divided by the total number of included CP credits. Only the first decimal place is considered when determining the module grade.",
+      "original_value": "(5) Bei kumulativen Modulprüfungen errechnet sich die Modulnote als ein nach CP gewichtetes Mittel der Noten für die einzelnen Teilprüfungen. Zur Ermittlung der Note der Modulprüfung werden die Noten der einzelnen Modulteilprüfungen mit den ihnen zugeordneten CP multipliziert und durch die Gesamtzahl der einbezogenen CP dividiert. Bei der Bildung der Modulnote wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_description",
+      "value": "If the module examination is assessed differently by two or more examiners, the module grade is calculated as the arithmetic average of the grades given by the examiners. Only the first decimal place is considered when determining the module grade.",
+      "original_value": "(6) Wird die Modulprüfung von zwei oder mehreren Prüfenden unterschiedlich bewertet, errechnet sich die Modulnote aus dem arithmetischen Mittel der Noten der Prüferbewertungen. Bei der Bildung der Modulnote wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

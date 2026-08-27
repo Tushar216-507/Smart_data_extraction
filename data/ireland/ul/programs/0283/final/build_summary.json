@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "program_id": "0283",
+  "program_name": "Bachelor of Arts in Applied Languages",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0283\\final",
+  "input_fact_count": 74,
+  "unique_fact_count": 74,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 74,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 74,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 1,
+    "curriculum": 1,
+    "career": 0,
+    "fees": 5,
+    "scholarships": 5,
+    "contacts": 27,
+    "student_life": 20,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 1,
+    "statistics": 1,
+    "other": 6
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0283\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0283\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0283\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0283\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0283\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0283\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0283\\final\\student_life_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0283\\final\\documents_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0283\\final\\statistics_data.json",
+    "other": "data\\ireland\\ul\\programs\\0283\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0283\\final\\build_summary.json"
+  }
+}

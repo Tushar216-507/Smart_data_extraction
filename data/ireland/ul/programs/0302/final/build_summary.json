@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0302",
+  "program_name": "Bachelor of Arts in Contemporary Dance",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0302\\final",
+  "input_fact_count": 104,
+  "unique_fact_count": 104,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 104,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 104,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 9,
+    "admission": 4,
+    "curriculum": 6,
+    "career": 0,
+    "fees": 23,
+    "scholarships": 2,
+    "contacts": 23,
+    "student_life": 18,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 19
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0302\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0302\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0302\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0302\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0302\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0302\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0302\\final\\student_life_data.json",
+    "other": "data\\ireland\\ul\\programs\\0302\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0302\\final\\build_summary.json"
+  }
+}

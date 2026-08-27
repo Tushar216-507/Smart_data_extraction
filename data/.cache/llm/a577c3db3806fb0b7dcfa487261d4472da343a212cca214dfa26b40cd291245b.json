@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application information",
+      "field": "information for international students",
+      "value": "Information on application for international students.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application deadlines",
+      "field": "application deadline status",
+      "value": "The application deadline has already passed.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "admission",
+      "subcategory": "additional opportunities",
+      "field": "lottery procedure",
+      "value": "The lottery procedure offers an additional opportunity even without prior application.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "support for students with disabilities",
+      "field": "information for students with disabilities",
+      "value": "Information on how to manage your studies if you live with a disability, chronic physical or mental illness.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "faculty",
+      "subcategory": "contact person",
+      "field": "contact name",
+      "value": "Marc Jacquemin",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    }
+  ]
+}

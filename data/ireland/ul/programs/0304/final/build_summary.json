@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0304",
+  "program_name": "Bachelor/Master of Engineering in Electronic and Computer Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0304\\final",
+  "input_fact_count": 251,
+  "unique_fact_count": 251,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 251,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 251,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 20,
+    "admission": 1,
+    "curriculum": 96,
+    "career": 3,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 27,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 103
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0304\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0304\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0304\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0304\\final\\career_data.json",
+    "research": "data\\ireland\\ul\\programs\\0304\\final\\research_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0304\\final\\statistics_data.json",
+    "other": "data\\ireland\\ul\\programs\\0304\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0304\\final\\build_summary.json"
+  }
+}

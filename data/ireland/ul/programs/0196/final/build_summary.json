@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0196",
+  "program_name": "Bachelor of Arts in Irish Music",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0196\\final",
+  "input_fact_count": 24,
+  "unique_fact_count": 24,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 24,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 24,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 6,
+    "curriculum": 5,
+    "career": 8,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 0,
+    "housing": 1,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0196\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0196\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0196\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0196\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0196\\final\\student_life_data.json",
+    "housing": "data\\ireland\\ul\\programs\\0196\\final\\housing_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0196\\final\\build_summary.json"
+  }
+}

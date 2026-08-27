@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "eligibility",
+      "value": "Must possess the legally regulated university entrance qualification and not be hindered from enrollment according to § 57 HHG.",
+      "original_value": "gesetzlich geregelte Hochschulzugangsberechtigung besitzen und nicht nach § 57 HHG an der Immatrikulation gehindert sein.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "admission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "eligibility",
+      "value": "The examination claim for the minor Bachelor's program must still exist, for example, the Bachelor's examination in this minor or the final examination in a closely related program must not have been permanently failed.",
+      "original_value": "der Prüfungsanspruch für den Nebenfach-Bachelorteilstudiengang ... noch bestehen, zum Beispiel darf die Bachelorprüfung in diesem Nebenfach oder die Abschlussprüfung in einem eng verwandten Studiengang noch nicht endgültig nicht bestanden sein.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "admission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

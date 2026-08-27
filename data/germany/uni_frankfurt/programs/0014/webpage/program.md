@@ -1,0 +1,7 @@
+The Master of Science in Money, Macro and Finance offers a structured and research-driven curriculum that combines rigorous core training with the flexibility to explore specialized topics. Students progress through foundational courses in economics, econometrics, and finance, followed by advanced electives, practitioner-led supplementary courses, seminars, and a master’s thesis.
+
+This carefully designed program equips students with both theoretical expertise and practical insights, making it an ideal preparation for careers in central banks, financial institutions, and policy organizations. More information about the program structure can be found [here](/en/study/study-programs/master/master-in-money-macro-and-finance/program-content).
+
+You can tailor your studies by selecting advanced electives from two core fields: Monetary/Macroeconomics and Finance. This allows you to either deepen your expertise in one area or build a broader perspective across both, depending on your interests and career goals.
+
+You can apply for the master's program from January 2 until May 15 (application for the first semester). Applications are managed via the central online platform for master's programs of Goethe University in cooperation with uni-assist. More information can be found [here](/en/study/study-programs/master/master-in-money-macro-and-finance/admission-and-requirements).

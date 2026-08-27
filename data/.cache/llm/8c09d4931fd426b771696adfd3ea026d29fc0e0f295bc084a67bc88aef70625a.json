@@ -1,0 +1,197 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "major_requirements",
+      "field": "upper_division_credit_hours",
+      "value": "12",
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "religious_studies_core_courses",
+      "field": "course_1",
+      "value": {
+        "course_title": "Religion, Culture and Public Life",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=101"
+      },
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "religious_studies_core_courses",
+      "field": "course_2",
+      "value": {
+        "course_title": "Religion: Theory and Practice",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=307"
+      },
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "religious_studies_core_courses",
+      "field": "course_options",
+      "value": {
+        "course_1": {
+          "course_title": "Problems in Religious Studies",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=405"
+        },
+        "course_2": {
+          "course_title": "Religious Studies Capstone I",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=406"
+        },
+        "course_3": {
+          "course_title": "Religious Studies Capstone II",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=407"
+        },
+        "notes": "REL 405 is offered to campus immersion students, while REL 406 and 407 are offered to ASU Online students. These courses are typically offered only in spring semesters."
+      },
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "religion_culture_and_public_life_concentration_courses",
+      "field": "credit_hours_1",
+      "value": "6",
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "religion_culture_and_public_life_concentration_courses",
+      "field": "credit_hours_2",
+      "value": "9",
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "religion_culture_and_public_life_concentration_courses",
+      "field": "outside_concentration_course",
+      "value": {
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "notes": "Any REL course that is NOT listed in the Religion, Culture and Public Life concentration list, except for REL 100, REL 294 Religious Freedom and REL 321, which may be used either inside or outside the concentration, but not both."
+      },
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "mathematics_proficiency_requirement",
+      "field": "credit_hours",
+      "value": 3,
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "mathematics_proficiency_requirement",
+      "field": "minimum_grade",
+      "value": "C",
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "second_language_requirement",
+      "field": "credit_hours",
+      "value": 16,
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "related_area",
+      "field": "credit_hours_1",
+      "value": 6,
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "related_area",
+      "field": "credit_hours_2",
+      "value": 9,
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "first_year_seminar",
+      "field": "course_options",
+      "value": {
+        "course_1": {
+          "course_title": "Student Success in The College of Liberal Arts and Sciences",
+          "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=LIA&catalogNbr=101"
+        },
+        "course_2": {
+          "course_title": "The ASU Experience",
+          "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ASU&catalogNbr=101-LA"
+        },
+        "notes": "Campus immersion students enroll in LIA 101. ASU Online students enroll in ASU 101-LA."
+      },
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "first_year_composition",
+      "field": "course_options",
+      "value": {
+        "course_1": {
+          "course_title": "First-Year Composition",
+          "courses": [
+            {
+              "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=101"
+            },
+            {
+              "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=102"
+            }
+          ]
+        },
+        "course_2": {
+          "course_title": "Advanced First-Year Composition",
+          "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=105"
+        },
+        "course_3": {
+          "course_title": "First-Year Composition",
+          "courses": [
+            {
+              "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=107"
+            },
+            {
+              "course_link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=108"
+            }
+          ]
+        },
+        "minimum_grade": "C",
+        "credit_hours": 6
+      },
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "language_placement",
+      "field": "requirements",
+      "value": "Only true beginners are eligible for 101-level courses. All other students are required to take a language placement test.",
+      "confidence": 1.0,
+      "programme_association": "Religious Studies Degree — Bachelor of Arts"
+    }
+  ]
+}

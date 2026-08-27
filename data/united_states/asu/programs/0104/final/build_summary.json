@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0104",
+  "program_name": "Online Master of Science in Health Care Administration and Policy",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0104\\final",
+  "input_fact_count": 15,
+  "unique_fact_count": 15,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 15,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 15,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 2,
+    "curriculum": 5,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0104\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0104\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0104\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0104\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0104\\final\\student_life_data.json",
+    "research": "data\\united_states\\asu\\programs\\0104\\final\\research_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0104\\final\\build_summary.json"
+  }
+}

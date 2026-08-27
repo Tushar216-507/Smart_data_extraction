@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "additional_admission_requirements",
+      "value": "Further admission requirements for the Bachelor's program ... are ... [specification]",
+      "original_value": "Weitere Zugangsvoraussetzung für den Nebenfach-Bachelorteilstudiengang ... [Bezeichnung] ist ... [ Angabe]",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.9
+    },
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "general_admission_qualification",
+      "value": "The qualification required for university studies is evidenced by obtaining the general higher education entrance qualification or an equivalent education recognized as such.",
+      "original_value": "die für ein Hochschulstudium erforderliche Qualifikation durch den Erwerb der allgemeinen Hochschulreife oder durch eine als gleichwertig anerkannte Vorbildung nachgewiesen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "specific_admission_requirements",
+      "value": "Additional admission requirements may be demanded for certain programs (such as specific language skills, athletic skills, artistic talents).",
+      "original_value": "nach Maßgabe des § 8 Abs. 2 und Abs. 4 RO lediglich für bestimmte Studiengänge weitergehende Zugangsvoraussetzungen (studiengangsspezifische Fähigkeiten, wie weitergehende Fremdsprachenkenntnisse, sportliche Fähigkeiten, künstlerische Begabungen) verlangt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "program-specific",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "proof_of_language_requirement",
+      "value": "Foreign applicants for a Bachelor's program must submit a language certificate of level B2 (DSH-2) according to the 'Regulation of Johann Wolfgang Goethe-University Frankfurt am Main regarding the German Language Examination for University Admission (DSH)' in its valid version.",
+      "original_value": "Ausländische Studienbewerberinnen und Studienbewerber für einen Bachelorstudiengang müssen entsprechend der „Ordnung der Johann Wolfgang Goethe-Universität Frankfurt am Main über die Deutsche Spracheprüfung für den Hochschulzugang (DSH) für Studienbewerberinnen und Studienbewerber mit ausländischer Hochschulzugangsberechtigung“ in der jeweils gültigen Fassung einen Sprachnachweis der Niveaustufe B 2 (DSH-2) vorlegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "immatriculation_resolution",
+      "value": "Enrollment is subject to the condition that the required knowledge or skills specified in paragraph 3 are demonstrated by the end of the first two semesters; otherwise, re-enrollment in the Bachelor's program for the third semester is excluded.",
+      "original_value": "Die Immatrikulation erfolgt mit dem Vorbehalt, dass die in Abs. 3 geforderten Kenntnisse beziehungsweise Fähigkeiten bis zum Abschluss der ersten beiden Semester nachgewiesen werden, andernfalls eine Rückmeldung in den Bachelorteilstudiengang zum dritten Semester ausgeschlossen ist.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

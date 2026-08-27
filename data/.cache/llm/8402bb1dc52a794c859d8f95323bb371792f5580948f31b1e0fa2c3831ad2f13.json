@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "document_effective_date",
+      "value": "2017-09-20",
+      "original_value": "am Tage nach seiner Veröffentlichung im UniReport Satzungen und Ordnungen der Johann Wolfgang Goethe-Universität Frankfurt am Main in Kraft.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "Wintersemester 2017/18",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "requirements_for_students",
+      "value": "Students enrolled from Winter semester 2017/18 are subject to these regulations.",
+      "original_value": "Studierende, die ihr Studium ab dem Wintersemester 2017/18 aufgenommen haben, studieren nach den Bestimmungen dieses Studiengangspezifischen Anhangs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "transition_regulations",
+      "value": "Students who started their studies before the effective date can take the master's examination according to the previous regulations until September 30, 2020.",
+      "original_value": "Studierende, die das Studium im Master Southeast Asian Studies vor Inkraftreten dieses studiengangspezifischen Anhangs aufgenommen haben, können die Masterprüfung nach der Ordnung für den Masterstudiengang Southeast Asian Studies vom 25.04.2012 (UniReport vom 18.11.2012) bis spätestens 30.09.2020 ablegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

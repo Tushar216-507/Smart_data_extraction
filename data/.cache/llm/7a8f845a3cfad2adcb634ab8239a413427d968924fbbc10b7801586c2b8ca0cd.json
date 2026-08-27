@@ -1,0 +1,1664 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "The following study plan is to be understood as a suggestion. Completion of all examinations within four semesters is also possible with other study paths.",
+      "original_value": "Der in der Folge aufgeführte Studienverlaufsplan ist lediglich als Vorschlag zu begreifen. Ein Ablegen sämtlicher Prüfungsleistungen in vier Semestern ist auch bei anderen Studienverläufen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.1-1",
+      "original_value": "Sk.MA.1-1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1-1",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Thema lt. VZ",
+      "original_value": "S: Thema lt. VZ",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1-1",
+        "name": "S: Thema lt. VZ"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1-1",
+        "name": "S: Thema lt. VZ"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.1-2",
+      "original_value": "Sk.MA.1-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Projektarbeit",
+      "original_value": "Projektarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1-2",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 7,
+      "original_value": "7 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1-2",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.4-1",
+      "original_value": "Sk.MA.4-1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-1",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Skandinavische Sprachen",
+      "original_value": "S: Skandinavische Sprachen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-1",
+        "name": "S: Skandinavische Sprachen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-1",
+        "name": "S: Skandinavische Sprachen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.5-1",
+      "original_value": "Sk.MA.5-1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-1",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Kanon (z.B. Dänisch)",
+      "original_value": "S: Kanon (z.B. Dänisch)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-1",
+        "name": "S: Kanon (z.B. Dänisch)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-1",
+        "name": "S: Kanon (z.B. Dänisch)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.3.1-1",
+      "original_value": "Sk.MA.3.1-1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-1",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S (fremdes Fach)",
+      "original_value": "S (fremdes Fach)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-1",
+        "name": "S (fremdes Fach)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-1",
+        "name": "S (fremdes Fach)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.6",
+      "original_value": "Sk.MA.6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optionalbereich",
+      "original_value": "Optionalbereich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 3,
+      "original_value": "3 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.2-1",
+      "original_value": "Sk.MA.2-1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Thema lt. VZ",
+      "original_value": "S: Thema lt. VZ",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": "S: Thema lt. VZ"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-1",
+        "name": "S: Thema lt. VZ"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.5-2",
+      "original_value": "Sk.MA.5-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Kanon (z.B. Norwegisch)",
+      "original_value": "S: Kanon (z.B. Norwegisch)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-2",
+        "name": "S: Kanon (z.B. Norwegisch)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-2",
+        "name": "S: Kanon (z.B. Norwegisch)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.5-4",
+      "original_value": "Sk.MA.5-4",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-4",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Modulabschlusspr. Kanon",
+      "original_value": "Modulabschlusspr. Kanon",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-4",
+        "name": "Modulabschlusspr. Kanon"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5-4",
+        "name": "Modulabschlusspr. Kanon"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.4-2",
+      "original_value": "Sk.MA.4-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Skandinavische Sprachen",
+      "original_value": "S: Skandinavische Sprachen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-2",
+        "name": "S: Skandinavische Sprachen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-2",
+        "name": "S: Skandinavische Sprachen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.4-3",
+      "original_value": "Sk.MA.4-3",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-3",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Modulabschlusspr. Sprachen",
+      "original_value": "Modulabschlusspr. Sprachen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-3",
+        "name": "Modulabschlusspr. Sprachen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 3,
+      "original_value": "3 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4-3",
+        "name": "Modulabschlusspr. Sprachen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.3.1-2",
+      "original_value": "Sk.MA.3.1-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "V (fremdes Fach)",
+      "original_value": "V (fremdes Fach)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-2",
+        "name": "V (fremdes Fach)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 2,
+      "original_value": "2 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-2",
+        "name": "V (fremdes Fach)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.3.1-3",
+      "original_value": "Sk.MA.3.1-3",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-3",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "UE (fremdes Fach oder lt. VZ)",
+      "original_value": "UE (fremdes Fach oder lt. VZ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-3",
+        "name": "UE (fremdes Fach oder lt. VZ)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 3,
+      "original_value": "3 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-3",
+        "name": "UE (fremdes Fach oder lt. VZ)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.6",
+      "original_value": "Sk.MA.6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optionalbereich",
+      "original_value": "Optionalbereich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.2-2",
+      "original_value": "Sk.MA.2-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "S: Thema lt. VZ",
+      "original_value": "S: Thema lt. VZ",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": "S: Thema lt. VZ"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": "S: Thema lt. VZ"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.2-3",
+      "original_value": "Sk.MA.2-3",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-3",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Projektarbeit",
+      "original_value": "Projektarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-3",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-3",
+        "name": "Projektarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.3.1-3",
+      "original_value": "Sk.MA.3.1-3",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-3",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "V (fremdes Fach oder lt. VZ)",
+      "original_value": "V (fremdes Fach oder lt. VZ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-3",
+        "name": "V (fremdes Fach oder lt. VZ)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 2,
+      "original_value": "2 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1-3",
+        "name": "V (fremdes Fach oder lt. VZ)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.7-1",
+      "original_value": "Sk.MA.7-1",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7-1",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Kolloquium",
+      "original_value": "Kolloquium",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7-1",
+        "name": "Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 3,
+      "original_value": "3 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7-1",
+        "name": "Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.7-2",
+      "original_value": "Sk.MA.7-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Präsentation",
+      "original_value": "Präsentation",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7-2",
+        "name": "Präsentation"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 2,
+      "original_value": "2 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7-2",
+        "name": "Präsentation"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.6",
+      "original_value": "Sk.MA.6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optionalbereich",
+      "original_value": "Optionalbereich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 7,
+      "original_value": "7 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_code",
+      "value": "Sk.MA.2-2",
+      "original_value": "Sk.MA.2-2",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2-2",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Masterarbeit",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

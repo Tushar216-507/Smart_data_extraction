@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Internship",
+      "original_value": "Praktikum",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Internship"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 1,
+      "original_value": "1 Semester",
+      "unit": "semester",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Internship"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "Internship report (Activity report, 12-16 pages)",
+      "original_value": "Praktikumsbericht (Tätigkeitsbericht, 12-16 S.)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Internship"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Internship",
+      "original_value": "Praktikum",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Internship"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German",
+      "original_value": "Deutsch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Internship"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "exam_form",
+      "value": "None",
+      "original_value": "Keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Internship"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Religion - Media - Interculturality",
+      "original_value": "Religion - Medien - Interkulturalität",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German",
+      "original_value": "Deutsch",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theology and Media II",
+      "original_value": "Theologie und Medien II",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M6a",
+        "name": "Theology and Media II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "M6a",
+        "name": "Theology and Media II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "duration",
+      "value": "2 semesters",
+      "original_value": "2 Semester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M6a",
+        "name": "Theology and Media II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Lecture, Seminar, Tutorial or practical class",
+      "original_value": "Vorlesung, Seminar, Übung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M6a",
+        "name": "Theology and Media II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_examination",
+      "value": "Oral examination or portfolio or term paper",
+      "original_value": "mündliche Prüfung (à 30 Min) oder ein Portfolio (entsprechend der Aufgabenstellungen im Seminar, Gesamtumfang ca. 20.000 Zeichen) oder eine Hausarbeit (22.500 Zeichen)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M6a",
+        "name": "Theology and Media II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

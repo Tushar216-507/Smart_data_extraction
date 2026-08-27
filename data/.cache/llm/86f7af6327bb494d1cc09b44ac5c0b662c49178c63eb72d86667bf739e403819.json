@@ -1,0 +1,98 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "American Literature and Literary Studies - Literary History",
+      "original_value": "Amerikanische Literatur und Literaturwissenschaft - Literaturgeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0018",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module for major, Compulsory elective module for minor",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Take Home or Term Paper",
+      "original_value": "Take Home (MP 2661) oder Hausarbeit (2662)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0018",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "submission_dates",
+      "value": {
+        "term_paper_registration": {
+          "start": "29.06.2026",
+          "end": "21.09.2026"
+        },
+        "term_paper_submission": "28.09.2026",
+        "take_home_registration": {
+          "start": "08.06.2026",
+          "end": "03.08.2026"
+        },
+        "take_home_submission": "10.08.2026"
+      },
+      "original_value": {
+        "term_paper_registration": "29.06 .- 21.09.2026",
+        "term_paper_submission": "28.09.2026",
+        "take_home_registration": "08.06. - 03.08.2026",
+        "take_home_submission": "10.08.2026"
+      },
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661 / 2662",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0018",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

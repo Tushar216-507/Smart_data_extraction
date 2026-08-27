@@ -1,0 +1,597 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 1 - Ergänzungsmodul VWL",
+      "original_value": "NF 1 - Ergänzungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Successful completion of both modules - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren beider Module - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1",
+        "name": "Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 1 - Ergänzungsmodul BWL",
+      "original_value": "NF 1 - Ergänzungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1 BWL",
+        "name": "Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF 1 BWL",
+        "name": "Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Successful completion of both modules - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren beider Module - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 1 BWL",
+        "name": "Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 2 - Anwendungsmodul VWL",
+      "original_value": "NF 2 - Anwendungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 VWL",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 20,
+      "original_value": "20",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF 2 VWL",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Successful completion of 3 modules - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren von 3 Modulen - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 VWL",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1 oder Makroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK) oder Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK or BMAK",
+        "name": "Mikroökonomik 1 oder Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OMIK or BMAK",
+        "name": "Mikroökonomik 1 oder Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 2 - Anwendungsmodul BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 BWL",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 21,
+      "original_value": "21",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF 2 BWL",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Successful completion of 4 modules - Registration via QIS.",
+      "original_value": "Erfolgreiches Absolvieren von 4 Modulen - Anmeldung via QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 BWL",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting oder Accounting 1",
+      "original_value": "Accounting (OACC) oder Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC or BACC",
+        "name": "Accounting oder Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OACC or BACC",
+        "name": "Accounting oder Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

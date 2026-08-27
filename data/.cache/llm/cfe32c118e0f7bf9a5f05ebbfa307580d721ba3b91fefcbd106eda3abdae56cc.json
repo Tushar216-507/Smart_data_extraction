@@ -1,0 +1,153 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer",
+      "original_value": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "Wahlpflichtmodul",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload_hours",
+      "value": {
+        "attendance_hours": {
+          "min": 90,
+          "max": 300
+        },
+        "self_study_hours": {
+          "min": 150,
+          "max": 360
+        }
+      },
+      "original_value": "je nach gewählten Veranstaltungstypen 90-300 Arbeitsstunden (3-10 CP), Selbststudium: je nach gewählten Veranstaltungstypen 150-360 Arbeitsstunden (5-12 CP)",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "competencies",
+      "value": "The students are able to analyze the specific historical and cultural conditions of medieval Scandinavian literatures in the European context using comparative approaches.",
+      "original_value": "Mit dem Abschluss des Moduls sind die Studierenden in der Lage, die spezifischen historischen und kulturellen Bedingungen der mittelalterlichen skandinavischen Literaturen im europäischen Kontext mittels komparativer Zugänge zu analysieren.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "Written report (10-15 pages) and related oral examination (30 minutes)",
+      "original_value": "schriftlicher Bericht (10-15 Seiten) und darauf bezogene mündliche Prüfung (30 Minuten)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 3,
+      "original_value": "drei Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte und Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University",
+      "original_value": "Goethe University",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

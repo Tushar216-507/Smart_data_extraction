@@ -1,0 +1,118 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "program_name",
+      "value": "Master's",
+      "original_value": "Masterstudiengänge",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "regulation_date",
+      "value": "April 16, 2008",
+      "original_value": "16.04.2008",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "regulation_date",
+      "value": "April 13, 2011",
+      "original_value": "13.04.2011",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "admission_conditions",
+      "value": "The program's specific appendices regulate particularly the objectives of the respective master's program as well as the access prerequisites and the admission requirements for the master's examination.",
+      "original_value": "Die studiengangsspezifischen Anhänge dieser Ordnung regeln insbesondere die Zielsetzung des jeweiligen Masterstudiengangs sowie die Zugangsvoraussetzungen und die Zulassungsvoraussetzungen zur Masterprüfung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_descriptions",
+      "value": "The specific appendices contain the module descriptions for the respective master's program.",
+      "original_value": "Sie enthalten die Modulbeschreibungen für den jeweiligen Masterstudiengang.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

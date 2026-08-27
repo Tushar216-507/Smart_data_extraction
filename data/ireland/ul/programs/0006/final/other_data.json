@@ -1,0 +1,481 @@
+{
+  "program_id": "0006",
+  "program_name": "Bachelor/Master of Engineering in Digital Mechatronic Engineering",
+  "fact_count": 26,
+  "university_facts": [],
+  "programme_facts": [
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "instructions_for_applicants",
+      "value": "Firstly, read the section titled 'Understanding the page for each country' before navigating to the relevant country page.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Understanding the page for your country",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "minimum_requirements_instruction",
+      "value": "Under the section 'What is the minimum I need?' on the country pages, please use the '2 H5 section' for all Level 8 courses at University of Limerick.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Understanding the page for your country",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "tables_usage_notice",
+      "value": "To use Tables 1 Subject Comparisons and 2 Points Conversion, please review the specific subject and points requirements for each course on the Course Pages or the Undergraduate Prospectus.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Understanding the page for your country",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "application_query_notice",
+      "value": "Applicants presenting older qualifications or qualifications not listed in the document should submit a query, attaching scanned copies of those qualifications.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Understanding the page for your country",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "submission_query_url",
+      "value": "https://www.ul.ie/admissions-askus",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Understanding the page for your country",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "description",
+      "value": "Key Action 1: Learning Mobility of Individuals brings positive and long-lasting impact on participants and participating organisations involved.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Benefits of Mobility",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "benefits",
+      "value": [
+        "Increased competencies in a new area contributing to your role or work area.",
+        "Gaining ideas and new perspectives to bring to your work area.",
+        "Improved language and intercultural skills as well as cross cultural communication.",
+        "Increased motivation and satisfaction in daily work."
+      ],
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Benefits of Mobility",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "eu_member_states",
+      "value": [
+        "Austria",
+        "Belgium",
+        "Bulgaria",
+        "Croatia",
+        "Cyprus",
+        "Czech Republic",
+        "Denmark",
+        "Estonia",
+        "Finland",
+        "France",
+        "Germany",
+        "Greece",
+        "Hungary",
+        "Ireland",
+        "Italy",
+        "Latvia",
+        "Lithuania",
+        "Luxembourg",
+        "Malta",
+        "Netherlands",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Slovakia",
+        "Slovenia",
+        "Spain",
+        "Sweden"
+      ],
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Eligible Programme Countries + Types of Staff Mobility + Staff Mobility for Teaching + Staff Mobility for Training + Staff Mobility for Teaching and Training",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "third_countries_associated_to_erasmus_plus",
+      "value": [
+        "Iceland",
+        "Norway",
+        "Serbia",
+        "Liechtenstein",
+        "Republic of North Macedonia",
+        "Turkey"
+      ],
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Eligible Programme Countries + Types of Staff Mobility + Staff Mobility for Teaching + Staff Mobility for Training + Staff Mobility for Teaching and Training",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "staff_mobility_for_teaching",
+      "value": {
+        "description": "Allows UL teaching staff to teach at a partner university abroad.",
+        "subject_area": "Any subject area/academic discipline",
+        "minimum_hours": 8,
+        "agreement_link": "/media/erasmus-and-icm-staff-mobility-for-teaching-agreement/download?inline"
+      },
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Eligible Programme Countries + Types of Staff Mobility + Staff Mobility for Teaching + Staff Mobility for Training + Staff Mobility for Teaching and Training",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "staff_mobility_for_training",
+      "value": {
+        "description": "A period abroad can combine teaching and training activities.",
+        "agreement_link": "/media/erasmus-and-icm-staff-mobility-for-training-agreement/download?inline"
+      },
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Eligible Programme Countries + Types of Staff Mobility + Staff Mobility for Teaching + Staff Mobility for Training + Staff Mobility for Teaching and Training",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "staff_mobility_for_teaching_and_training",
+      "value": {
+        "minimum_hours": 4,
+        "agreement_link": "/media/erasmus-and-icm-staff-mobility-for-teaching-agreement/download?inline"
+      },
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Eligible Programme Countries + Types of Staff Mobility + Staff Mobility for Teaching + Staff Mobility for Training + Staff Mobility for Teaching and Training",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "funding_availability_check",
+      "value": "Check with staff.mobility@ul.ie to see if funding is available.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "funding_allocation",
+      "value": "Funding is allocated on a first come basis.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "maximum_duration",
+      "value": "The maximum duration is 5 working days excluding travel time.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "mobility_agreement_links",
+      "value": "Complete the Staff Mobility agreement for Teaching or Training.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "agreement_submission",
+      "value": "Submit your fully signed mobility agreement to staff.mobility@ul.ie.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "contract_issuance_time",
+      "value": "Allow 10 working days for your contract to be issued.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "final_report",
+      "value": "Complete the final report which you will receive via email from a Europa.eu email address.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "final_payment_time",
+      "value": "Your final grant payment will be made within 10 working days on receipt of all documentation.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "insurance_claim_report",
+      "value": "In the event of an accident/theft participants must obtain a police report in order to file a claim.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "travel_insurance_info_link",
+      "value": "Information related to travel insurance is available at the following link.",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "considerations_for_destination",
+      "value": "Do you already have contacts at or an interest in a particular European institution?",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "relevant_specialism",
+      "value": "Is there an institution with a specialism relevant to your role/research interest?",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "staff_weeks_website",
+      "value": "Many university Staff Weeks are advertised on the IMOTION website: http://staffmobility.eu/",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "other",
+      "field": "eligible_duration_information",
+      "value": [
+        "A small, medium or large enterprise (including social enterprises).",
+        "A public body at local, regional or national level.",
+        "A research institute; a foundation; a school/institute/educational centre.",
+        "A non-profit organisation, association or NGO.",
+        "A body providing career guidance, professional counselling, and information services."
+      ],
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Staff Teaching and Training + Note regarding Insurance + Where can I go? + What should I consider when choosing a destination? + Erasmus+ Partner Staff Weeks + Eligible duration and activities + Staff Mobility for Teaching + Staff Mobility for Training + Erasmus grant support",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    }
+  ]
+}

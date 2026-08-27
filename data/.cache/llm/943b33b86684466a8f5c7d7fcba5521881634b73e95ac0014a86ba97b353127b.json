@@ -1,0 +1,188 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "passing_grade",
+      "value": "Passed or failed",
+      "original_value": "„bestanden“ oder „nicht bestanden“",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_grading",
+      "value": "Grades are assigned by the respective examiners based on individual performance",
+      "original_value": "Die Benotung beziehungsweise Bewertung der Prüfungsleistungen wird von den jeweiligen Prüferinnen und Prüfern vorgenommen. Dabei ist stets die individuelle Leistung der oder des Studierenden zugrunde zu legen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grade_scale",
+      "value": [
+        {
+          "grade": "1",
+          "description": "very good"
+        },
+        {
+          "grade": "2",
+          "description": "good"
+        },
+        {
+          "grade": "3",
+          "description": "satisfactory"
+        },
+        {
+          "grade": "4",
+          "description": "sufficient"
+        },
+        {
+          "grade": "5",
+          "description": "fail"
+        }
+      ],
+      "original_value": [
+        "1 sehr gut eine hervorragende Leistung;",
+        "2 gut eine Leistung, die erheblich über den durchschnittlichen Anforderungen liegt;",
+        "3 befriedigend eine Leistung, die durchschnittlichen Anforderungen entspricht;",
+        "4 ausreichend eine Leistung, die trotz ihrer Mängel noch den Anforderungen genügt;",
+        "5 nicht eine Leistung, die wegen erheblicher Mängel den Anforderungen nicht mehr genügt."
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "overall_grade_scale",
+      "value": [
+        {
+          "grade_range": "1.0 to 1.5",
+          "description": "very good"
+        },
+        {
+          "grade_range": "1.6 to 2.5",
+          "description": "good"
+        },
+        {
+          "grade_range": "2.6 to 3.5",
+          "description": "satisfactory"
+        },
+        {
+          "grade_range": "3.6 to 4.0",
+          "description": "sufficient"
+        },
+        {
+          "grade_range": "over 4.0",
+          "description": "fail"
+        }
+      ],
+      "original_value": [
+        "1,0 bis einschließlich 1,5 sehr gut",
+        "1,6 bis einschließlich 2,5 gut",
+        "2,6 bis einschließlich 3,5 befriedigend",
+        "3,6 bis einschließlich 4,0 ausreichend",
+        "über 4,0 nicht ausreichend"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "distinction_award",
+      "value": "with distinction",
+      "original_value": "„mit Auszeichnung bestanden“",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

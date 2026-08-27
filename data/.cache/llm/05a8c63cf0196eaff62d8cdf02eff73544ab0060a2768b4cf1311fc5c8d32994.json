@@ -1,0 +1,68 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "operations_supported",
+      "value": "addition and subtraction, multiplication, division, trigonometry functions such as sine, cosine, square roots",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "number_representation",
+      "value": "whole numbers (integers) or floating point to represent real numbers",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "complex_operation_support",
+      "value": "Any computer can be programmed to perform any arithmetic operation, though it takes more time if the ALU does not directly support the operation",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "comparison_operations",
+      "value": "compares numbers and returns Boolean truth values (true or false)",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "logic_operations",
+      "value": "AND, OR, XOR, NOT",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "applications_of_logic_operations",
+      "value": "useful for creating complicated conditional statements and processing Boolean logic",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "superscalar_computers",
+      "value": "may contain multiple ALUs allowing them to process several instructions simultaneously",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    },
+    {
+      "category": "other",
+      "subcategory": "arithmetic_logic_unit",
+      "field": "specialized_ALUs",
+      "value": "Graphics processors and computers with SIMD and MIMD features often contain ALUs that can perform arithmetic on vectors and matrices",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Computer Systems"
+    }
+  ]
+}

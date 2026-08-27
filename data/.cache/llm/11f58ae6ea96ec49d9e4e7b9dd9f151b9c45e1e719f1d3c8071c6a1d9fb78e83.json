@@ -1,0 +1,119 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Religion - Media - Interculturality",
+      "original_value": "Religion - Media - Interculturality",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Christentum und Religionen in Politik und Gesellschaft",
+      "original_value": "Christentum und Religionen in Politik und Gesellschaft",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Christentum und Religionen in Politik und Gesellschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "credits": 3,
+        "semester": 2,
+        "module_status": "Compulsory module"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Christliche Kultur- und Religionstheorie",
+      "original_value": "Christliche Kultur- und Religionstheorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Christliche Kultur- und Religionstheorie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "credits": 3,
+        "semester": 2,
+        "module_status": "Compulsory module"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Directed Studies",
+      "original_value": "Directed Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Directed Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "credits": 7,
+        "module_status": "Compulsory module",
+        "workload_hours": 150
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Modulprüfung",
+      "original_value": "Modulprüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Modulprüfung"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "credits": 2,
+        "module_status": "Assessment module"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

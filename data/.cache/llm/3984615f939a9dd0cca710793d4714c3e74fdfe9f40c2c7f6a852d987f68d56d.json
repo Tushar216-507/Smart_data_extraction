@@ -1,0 +1,521 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "field": "faculty",
+      "value": "Faculty of Science & Engineering",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "research",
+      "field": "research_focus",
+      "value": "development of cooling systems for 5G wireless technologies",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Joseph Mooney",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Joseph Mooney",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "academic_achievements",
+      "value": "graduated with a first class honors degree",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Joseph Mooney",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Joseph Mooney",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "cooperative_education_experience",
+      "value": "worked for Johnson & Johnson: Vision Care",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Joseph Mooney",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Joseph Mooney",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "sports_scholarship",
+      "value": "was a sports scholar at University of Limerick",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Joseph Mooney",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Joseph Mooney",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "personal_motivation",
+      "value": "chose University of Limerick because of its highly recognized engineering courses, co-operative education, and sporting facilities",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Joseph Mooney",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Joseph Mooney",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Mechanics is the study of forces and their effect upon matter. Typically, engineering mechanics is used to analyze and predict the acceleration and deformation of objects under known forces or stresses.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "subdisciplines",
+      "value": [
+        "Statics: the study of non-moving bodies under known loads.",
+        "Dynamics: the study of how forces affect moving bodies, including kinematics and kinetics.",
+        "Mechanics of materials: the study of how different materials deform under various types of stress.",
+        "Fluid mechanics: the study of how fluids react to forces.",
+        "Kinematics: the study of the motion of bodies and systems, ignoring the forces that cause the motion.",
+        "Continuum mechanics: a method of applying mechanics that assumes that objects are continuous."
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Mechatronics is a combination of mechanics and electronics, integrating electrical and mechanical engineering to create hybrid automation systems.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Robotics is the application of mechatronics to create robots used in industry to perform tasks that are dangerous, unpleasant, or repetitive.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Structural analysis is devoted to examining why and how objects fail, addressing static and fatigue failure, and often used after a failure has occurred or to prevent failure.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Thermodynamics is a physical science concerned with heat, work, energy, and the physical properties of matter, focusing on systems that change energy from one form to another.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Drafting is the means by which mechanical engineers design products and create instructions for manufacturing parts, often using technical drawings or CAD.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "description",
+      "value": "Many mechanical engineering companies incorporate computer-aided engineering (CAE) programs into their design and analysis processes, providing benefits like easier visualization and virtual assemblies.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 3",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Programme Information - Part 3",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "overview",
+      "field": "programme_title",
+      "value": "Bachelor/Master of Engineering in Mechanical Engineering",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "overview",
+      "field": "programme_url",
+      "value": "https://www.ul.ie/study/undergraduate/mechanical-engineering-be-or-me",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "product_lifecycle_management",
+      "value": "Commonly used by mechanical engineers, it includes tools for complex simulations and analysis.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "finite_element_analysis",
+      "value": "A computational tool to estimate stress, strain, and deflection of solid bodies.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "computational_fluid_dynamics",
+      "value": "A branch of fluid mechanics that uses numerical methods to solve problems involving fluid flows.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "acoustical_engineering",
+      "value": "The study of sound and vibration, focused on reducing noise pollution in devices and buildings.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "biomechanics",
+      "value": "Application of mechanical principles to biological systems, aiding in the creation of prosthetic limbs and artificial organs.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "nanotechnology",
+      "value": "Engineering at the smallest scales, focusing on applications like nanostructures and molecular assemblers.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "composites_research",
+      "value": "Focuses on designing stronger materials while reducing weight and susceptibility to corrosion.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "other",
+      "field": "friction_stir_welding",
+      "value": "A non-fusion welding technique that joins previously unweldable materials.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information - Part 4",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Programme Information - Part 4",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "identity",
+      "field": "name",
+      "value": "Mata Raj Kaur Institute of Engineering and Technology",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "name",
+      "value": "MRK Education Society",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "year_established",
+      "value": "2009",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "approved_by",
+      "value": "AICTE, New Delhi, Government of India",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "approved_by",
+      "value": "Directorate of Technical Education, Govt. of Haryana",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "identity",
+      "field": "affiliated_to",
+      "value": "Indira Gandhi University Meerpur, Rewari, Haryana",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    }
+  ]
+}

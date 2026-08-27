@@ -1,0 +1,29 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "module_types",
+      "value": [
+        "Compulsory modules",
+        "Compulsory elective modules"
+      ],
+      "original_value": "Pflichtmodule, die obligatorisch sind oder Wahlpflichtmodule, die aus einem vorgegebenen Katalog von Modulen auszuwählen sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_process",
+      "value": "Module examinations take place after the last event of the module. Event-related module examinations occur within the framework of the relevant events.",
+      "original_value": "Modulabschlussprüfungen erfolgen im Anschluss an die letzte Lehrveranstaltung des Moduls. Veranstaltungsbezogene Modulprüfungen erfolgen jeweils im Rahmen der betreffenden Lehrveranstaltungen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "examination_timing",
+      "value": "The examination periods for the module examinations are typically at the end of the lecture period of a semester.",
+      "original_value": "Die Prüfungszeiträume für die Modulabschlussprüfungen liegen in der Regel am Ende der Vorlesungszeit eines Semesters.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "withdrawal_terms",
+      "value": "Withdrawals from examinations are possible up to one week before the examination date.",
+      "original_value": "Rücktritte von den Prüfungen sind bis zu einer Woche vor dem Prüfungstermin möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "registration_requirement",
+      "value": "Students must register for each module examination at the examination office within the registration period.",
+      "original_value": "Zu jeder Modulprüfung hat sich die oder der Studierende innerhalb der Meldefrist beim Prüfungsamt anzumelden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

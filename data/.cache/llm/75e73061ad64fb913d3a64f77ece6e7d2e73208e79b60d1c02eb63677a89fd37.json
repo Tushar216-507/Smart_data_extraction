@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "language_requirements",
+      "field": "english_language_requirements",
+      "value": [
+        "Cambridge English C1 Certificate",
+        "TOEFL Test with a minimum score of 100 points",
+        "IELTS Test with a minimum score of 7.5",
+        "C1 language certificate from completing a Bachelor's WPM in Economic English from previous semesters"
+      ],
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "language_requirements",
+      "field": "french_language_requirements",
+      "value": [
+        "Baccalauréat, Abibac",
+        "DALF / DELF C1",
+        "C1 language certificate from completing a Bachelor's WPM in Economic French from previous semesters"
+      ],
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "language_requirements",
+      "field": "spanish_language_requirements",
+      "value": [
+        "C1 language certificate from completing a Bachelor's WPM in Economic Spanish from previous semesters"
+      ],
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "other",
+      "subcategory": "qualifying_tests",
+      "field": "qualifying_test_dates",
+      "value": "September 28, 2026",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "other",
+      "subcategory": "qualifying_tests",
+      "field": "qualifying_test_schedule",
+      "value": {
+        "english": {
+          "time": "9:00 AM to 11:00 AM",
+          "url": "https://lts3ext.rz.uni-frankfurt.de/#/invitation/7adffdad2ee74c33/"
+        },
+        "french": {
+          "time": "12:00 PM to 2:00 PM",
+          "url": "https://LTS3ext.rz.uni-frankfurt.de/#/invitation/fe4fc99033594824/"
+        },
+        "spanish": {
+          "time": "3:00 PM to 5:00 PM",
+          "url": "https://LTS3ext.rz.uni-frankfurt.de/#/invitation/24e1275968844027/"
+        }
+      },
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "language_requirements",
+      "field": "document_upload",
+      "value": "You must register with your student number to upload your language certificate.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "other",
+      "subcategory": "qualifying_tests",
+      "field": "test_availability",
+      "value": "The qualifying test is offered every semester before the start of lectures.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    }
+  ]
+}

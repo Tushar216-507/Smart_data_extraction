@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_start_date",
+      "value": "January 15",
+      "confidence": 1.0,
+      "programme_association": "Master Thesis - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_end_date",
+      "value": "May 15",
+      "confidence": 1.0,
+      "programme_association": "Master Thesis - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "notification",
+      "field": "notification_timing",
+      "value": "Very good applicants will be notified during the selection process.",
+      "confidence": 1.0,
+      "programme_association": "Master Thesis - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_requirements",
+      "field": "documents_submission_policy",
+      "value": "It is not possible to submit missing documents after the application deadline.",
+      "confidence": 1.0,
+      "programme_association": "Master Thesis - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_requirements",
+      "field": "language_proof_submission_policy",
+      "value": "This applies explicitly to all documents, including language certificates.",
+      "confidence": 1.0,
+      "programme_association": "Master Thesis - Department 02 | Goethe University Frankfurt"
+    }
+  ]
+}

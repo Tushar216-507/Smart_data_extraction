@@ -1,0 +1,48 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "required_information",
+      "value": "The module handbook must include the following information: designation as an import module (if applicable), module offering cycle (annually or semesterly), student workload differentiated by attendance/contact time and self-study in hours and credit points, duration of modules, recommended prerequisites, language of instruction/examination, teaching and learning forms as well as semester weekly hours and credit points, applicability of modules, module responsible/contact person, and (if applicable) temporal arrangement of modules.",
+      "original_value": "In das Modulhandbuch werden nach Maßgabe von § 14 Abs. 5 RO mindestens aufgenommen:\n\n- (ggf.) Kennzeichnung als Importmodul\n\n- Angebotszyklus der Module (jährlich oder jedes Semester)\n\n- studentischer Arbeitsaufwand differenziert nach Präsenz- beziehungsweise Kontaktzeit und Selbststudium in Stunden und Kreditpunkten (CP)\n\n- Dauer der Module\n\n- empfohlene Voraussetzungen\n\n- Unterrichts-/Prüfungssprache\n\n- Lehrveranstaltungen mit Lehr- und Lernformen sowie Semesterwochenstunden und Kreditpunkten\n\n- Verwendbarkeit der Module\n\n- Modulbeauftragte/Modulbeauftragter\n\n- (ggf.) zeitliche Einordnung der Module",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "workload_calculation",
+      "value": "The workload in hours results from the semester weekly hours (SWS) and the number of teaching weeks, with 15 weeks assumed for this calculation. Additionally, for preparing and following up on a lecture hour, at least 0.5 hours should be allocated. The time required for performance assessments (coursework, examinations) and their preparation should also be specified in hours.",
+      "original_value": "Der Workload in Zeitstunden ergibt sich aus den SWS und der Anzahl der Lehrveranstaltungswochen, wobei hierfür 15 anzusetzen sind. Weiterhin sind für die Vor- und Nachbereitung einer Vorlesungsstunde mindestens 0,5 Stunden zuzuweisen. Der Zeitaufwand für die Leistungskontrollen (Studienleistungen, Prüfungen) und für ihre Vorbereitung sollte in Zeitstunden ausgewiesen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

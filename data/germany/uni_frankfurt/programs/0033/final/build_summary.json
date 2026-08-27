@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0033",
+  "program_name": "English Studies",
+  "source_file": null,
+  "output_directory": "data\\germany\\uni_frankfurt\\programs\\0033\\final",
+  "input_fact_count": 12,
+  "unique_fact_count": 12,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 12,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 12,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 0,
+    "curriculum": 6,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 2,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\germany\\uni_frankfurt\\programs\\0033\\final\\program_data.json",
+    "curriculum": "data\\germany\\uni_frankfurt\\programs\\0033\\final\\curriculum_data.json",
+    "career": "data\\germany\\uni_frankfurt\\programs\\0033\\final\\career_data.json",
+    "student_life": "data\\germany\\uni_frankfurt\\programs\\0033\\final\\student_life_data.json",
+    "research": "data\\germany\\uni_frankfurt\\programs\\0033\\final\\research_data.json",
+    "summary": "data\\germany\\uni_frankfurt\\programs\\0033\\final\\build_summary.json"
+  }
+}

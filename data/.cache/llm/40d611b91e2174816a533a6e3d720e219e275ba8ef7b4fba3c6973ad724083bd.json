@@ -1,0 +1,143 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance",
+      "original_value": "Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": [
+        "Topics of financial management and corporate financing",
+        "Topics in capital market theory",
+        "Topics of asset and portfolio management",
+        "Topics of insurance and risk management",
+        "Topics in mergers and acquisitions",
+        "Topics in personal finance and retirement planning",
+        "Topics in hedge funds and alternative investments",
+        "Topics of financial regulation and systemic risk"
+      ],
+      "original_value": "Aufbauend auf den vermittelten Kenntnissen der Grundlagenmodule sollen den Studierenden in Veranstaltungen folgende mögliche Inhalte nähergebracht werden: · Themen des Finanzmanagements und der Unternehmensfinanzierung ...",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Expand subject-specific and methodological competencies in the listed areas",
+        "Master investment planning and evaluation concepts of financial products",
+        "Gain a solid insight into different capital market products and be able to critically discuss their applications",
+        "Acquire practical skills relevant for the job market in finance"
+      ],
+      "original_value": "Die Studierenden ... erweitern ihre inhaltlichen und methodischen Kompetenzen in den oben aufgelisteten Bereichen, ... beherrschen Konzepte der Investitionsplanung und Bewertung von Finanzprodukten...",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_assessment",
+      "value": [
+        "90-minute written examination",
+        "Oral examination (15 minutes per candidate)",
+        "Portfolio examination consisting of various assignments such as creation of a digital performance, a graphical depiction, or programming an IT tool"
+      ],
+      "original_value": "90-minütige Klausur oder mündliche Prüfung (15 Minuten je Prüfling) oder Portfolio Prüfung bestehend aus studienbegleitenden Teilleistungen...",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "module_portfolio",
+      "value": "The portfolio requires approximately 45 hours of processing time. The nature and scope of the individual elements will be communicated at the start of the course.",
+      "original_value": "Das Portfolio umfasst ca. 45 Stunden Bearbeitungszeit. Art und Umfang der einzelnen Elemente des Portfolios werden zu Beginn der Veranstaltung mitgeteilt.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "confidence": 0.95
+    }
+  ]
+}

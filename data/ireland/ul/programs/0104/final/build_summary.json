@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "program_id": "0104",
+  "program_name": "Public Health - MSc Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0104\\final",
+  "input_fact_count": 13,
+  "unique_fact_count": 13,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 13,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 13,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 0,
+    "curriculum": 6,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0104\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0104\\final\\curriculum_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0104\\final\\build_summary.json"
+  }
+}

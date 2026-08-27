@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0305",
+  "program_name": "Bachelor/Master of Engineering in Digital Mechatronic Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0305\\final",
+  "input_fact_count": 32,
+  "unique_fact_count": 32,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 32,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 32,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 0,
+    "curriculum": 0,
+    "career": 4,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 21
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0305\\final\\program_data.json",
+    "career": "data\\ireland\\ul\\programs\\0305\\final\\career_data.json",
+    "other": "data\\ireland\\ul\\programs\\0305\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0305\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "assessment_regulations",
+      "value": "Members of the professor group, scientific staff authorized to independently take on teaching tasks, as well as lecturers and teachers for special tasks, are authorized to conduct university examinations.",
+      "original_value": "Mitglieder der Professorengruppe, wissenschaftliche Mitarbeitende, die mit der selbstständigen Wahrnehmung von Lehraufgaben beauftragt worden sind, sowie Lehrbeauftragte und Lehrkräfte für besondere Aufgaben befugt.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "exam_authorization",
+      "value": "The examination board can appoint a non-affiliated person as a secondary examiner for the master's thesis if they are qualified.",
+      "original_value": "Der Prüfungsausschuss kann im Einzelfall eine nicht der Johann Wolfgang Goethe-Universität angehörende, aber nach Satz 1 prüfungsberechtigte Person als Zweitgutachterin oder Zweitgutachter für die Masterarbeit bestellen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "examination_procedure",
+      "value": "Written examinations that cannot be repeated must be evaluated by two examiners.",
+      "original_value": "Schriftliche Prüfungsleistungen, die nicht mehr wiederholt werden können, sind von zwei Prüfenden zu bewerten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "assessment_terms",
+      "value": "Oral examinations must be conducted by multiple examiners or by one examiner in the presence of an assessor.",
+      "original_value": "Mündliche Prüfungen sind von mehreren Prüfenden oder von einer oder einem Prüfenden in Gegenwart einer oder eines Beisitzenden abzunehmen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

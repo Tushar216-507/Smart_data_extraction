@@ -1,0 +1,451 @@
+<!DOCTYPE html><html lang="en_US">
+
+<head>
+    <meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="_csrf" content="345a471a-0f9a-42e0-8b67-a5278abbc117"/><meta name="_csrf_header" content="X-CSRF-TOKEN"/><title>ASU Sign In </title>
+    
+
+    <link rel="stylesheet" type="text/css" href="/cas/css/asu-signin.css?v=Hcy3" /><link rel="shortcut icon" href="/cas/favicon.ico" /></head>
+
+<body class="login mdc-typography">
+    <script type="text/javascript" src="/cas/webjars/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/cas/webjars/datatables/1.13.5/js/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript" src="/cas/webjars/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script type="text/javascript" src="/cas/webjars/css-vars-ponyfill/2.4.7/dist/css-vars-ponyfill.min.js"></script>
+    <script type="text/javascript" src="/cas/webjars/material-components-web/14.0.0/dist/material-components-web.min.js"></script>
+<script type="text/javascript" src="/cas/js/cas.js?v=i4kx"></script>
+<script type="text/javascript" src="/cas/js/material.js?v=i4kx"></script>
+<script type="text/javascript" src="/cas/js/asu-rememberid.js?v=i4kx"></script>
+<script type="text/javascript" src="/cas/js/asu-rotate.js?v=i4kx"></script>
+<script>
+    if (typeof resourceLoadedSuccessfully === "function") {
+        resourceLoadedSuccessfully();
+    }
+    $(() => {
+        typeof cssVars === "function" && cssVars({onlyLegacy: true});
+    });
+    let trackGeoLocation = false;
+</script>
+
+<div>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        localStorage.removeItem('asu-webauthn');
+        function enableAuthAuthn() {
+            if ($('#autoAuthn').is(':not(:checked)')) {
+                $('#autoAuthn').prop('checked', true);
+            }
+            localStorage.setItem('auto-webauthn', JSON.stringify({ 'enabled': true }));
+        }
+        function disableAutoAuthn() {
+            if ($('#autoAuthn').is(':checked')) {
+                $('#autoAuthn').prop('checked', false);
+            }
+            localStorage.removeItem('auto-webauthn');
+        }
+        async function triggerAuthn(username) {
+            await new Promise((resolve, reject) => {
+                if (typeof authenticate === 'function') {
+                    resolve(authenticate(username));
+                }
+            }).then((data) => {
+                handleAuthnResult(data);
+            }).catch((err) => {
+                disableAutoAuthn();
+            });
+        }
+        function handleAuthnResult(data) {
+            console.log('authenticate() result:', data);
+            $.each(data?.messages, function (i, msg) {
+                if (msg.includes('Username not found for userHandle:')) {
+                    disableAutoAuthn();
+                    $('#webauthnLoginPanel #messages p').text('Your passkey is invalid or not registered.  Please remove it from your device and create a new passkey to continue.');
+                    $('#divDeviceInfo').hide();
+                }
+            });
+        }
+        $(function() {
+            $.each(['show', 'hide'], function (i, ev) {
+                var el = $.fn[ev];
+                $.fn[ev] = function () {
+                    this.trigger(ev);
+                    return el.apply(this, arguments);
+                };
+            });
+            $('#errorPanel').hide();
+            $('#registerAuthnButton').on('click', function() {
+                var url = new URL(window.location.href);
+                url.searchParams.set('asu_webauthn_optin', 'register');
+                window.location.href = url.toString();
+            });
+            $('#autoAuthn').change(function(){
+                if($(this).is(':checked')){
+                    enableAuthAuthn();
+                } else {
+                    disableAutoAuthn();
+                }
+            });
+            $('#authnButton').on('hide', function() {
+                $('div:has(> #autoAuthn)').hide();
+            });
+            $('#authnButton').on('show', function() {
+                $('div:has(> #autoAuthn)').show();
+            });
+            $(async () => {
+                let autoAuthn = JSON.parse(localStorage.getItem('auto-webauthn') || '{}');
+                if (autoAuthn.enabled) {
+                    $('#autoAuthn').prop('checked', true);
+                    $(document.activeElement).blur();
+                    triggerAuthn();
+                }
+            });
+        });
+        /*]]>*/
+    </script>
+    <header role="banner" id="header" class="header">
+        <h1>
+            <a href="https://www.asu.edu/" title="Arizona State University">
+                <span class="sr-only">Arizona State University</span>
+            </a>
+        </h1>
+        <div id="ad" class="ad"></div>
+    </header>
+
+</div>
+
+    <div class="mdc-drawer-scrim"></div>
+
+    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust d-flex justify-content-center">
+        <main id="main-content" class="container-lg py-4">
+            <div id="content" class="d-flex justify-content-center">
+   <div class="d-flex justify-content-center flex-md-row flex-column mdc-card mdc-card-content card flex-grow-1">
+        <section id="loginForm"
+                 class="login-section login-form card-body">
+            <div class="d-flex flex-column justify-content-between m-auto">
+
+        <script type="text/javascript">
+            /*<![CDATA[*/
+            $(function() {
+                $('.btn[name="submitBtn"]').attr('tabindex', 3);
+                $('#rememberid').attr('tabindex', 4);
+            });
+            /*]]>*/
+        </script>
+
+        <div>
+            <div id="serviceui" class="mb-4">
+        <div class="d-flex align-items-center p-2">
+            <div id="servicedesc" class="ml-2">
+                <strong><i class="mdi mdi-web" aria-hidden="true"></i>All *.asu.edu CAS clients</strong>
+                <p>All *.asu.edu CAS clients</p>
+                </div>
+        </div>
+    </div>
+        </div>
+
+        <div class="form-wrapper">
+
+            <form method="post" id="fm1" action="login">
+                <div id="login-form-controls">
+                    <h2 class="text-center">
+                            <i class="mdi mdi-security fas fa-shield-alt" aria-hidden="true"></i>
+                            <span>Sign In</span>
+                        </h2>
+                    <section class="cas-field form-group my-3" id="usernameSection">
+                        <label for="username"
+                               class="mdc-text-field mdc-text-field--outlined control-label w-100">
+                            <span class="mdc-notched-outline">
+                                <span class="mdc-notched-outline__leading"></span>
+                                <span class="mdc-notched-outline__notch">
+                                    <span class="mdc-floating-label">ASURITE User ID</span>
+                                </span>
+                                <span class="mdc-notched-outline__trailing"></span>
+                            </span>
+                            <input class="mdc-text-field__input form-control" id="username" tabindex="1"
+                                   size="25"
+                                   type="text"
+                                   accesskey="u"
+                                   autocapitalize="none"
+                                   spellcheck="false"
+                                   autocomplete="username" required name="username" value="" /></label>
+
+                        <div class="mdc-text-field-helper-line invalid-feedback">
+                            <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" aria-hidden="true">
+                                <span id="usernameValidationMessage">User ID is required.</span>
+                            </div>
+                        </div>
+
+                        <script type="text/javascript">
+                            /*<![CDATA[*/
+                            let username = "";
+                            let disabled = false;
+
+                            if (username != null && username !== '') {
+                                $('#username').val(username);
+                                if (disabled) {
+                                    $('#usernameSection').hide();
+                                }
+                            }
+                            /*]]>*/
+                        </script>
+                    </section>
+
+                    <section class="cas-field form-group my-3 mdc-input-group form-group" id="passwordSection">
+                        <div class="mdc-input-group-field mdc-input-group-field-append">
+                            <label for="password"
+                                   class="mdc-text-field caps-check mdc-text-field--outlined control-label mdc-text-field--with-trailing-icon control-label w-100">
+                                    <span class="mdc-notched-outline">
+                                        <span class="mdc-notched-outline__leading"></span>
+                                        <span class="mdc-notched-outline__notch">
+                                            <span class="mdc-floating-label">Password</span>
+                                        </span>
+                                        <span class="mdc-notched-outline__trailing"></span>
+                                    </span>
+                                <input class="mdc-text-field__input form-control pwd" tabindex="2"
+                                       type="password"
+                                       id="password"
+                                       size="25"
+                                       required
+                                       accesskey="p"
+                                       autocomplete="off" name="password" value=""/><button
+                                        class="reveal-password mdc-button mdc-button--unelevated mdc-input-group-append mdc-icon-button btn btn-primary"
+                                        tabindex="-1" type="button">
+                                    <i class="mdi mdi-eye reveal-password-icon fas fa-eye"></i>
+                                    <span class="visually-hidden">Toggle Password</span>
+                                </button>
+                            </label>
+                            <div class="mdc-text-field-helper-line invalid-feedback">
+                                <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" aria-hidden="true">
+                                    <span id="passwordValidationMessage">Password is required.</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mdc-text-field-helper-line invalid-feedback caps-warn">
+                            <div class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg text-danger">
+                                <span >CAPSLOCK key is turned on!</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="cas-field form-group my-3">
+                        </section>
+
+                    <section class="cas-field">
+
+                        <input type="hidden" name="execution" value="a1126ce3-10a3-4725-adb8-ba5f594eaef2_ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0lzSW10cFpDSTZJbUl6T0dZek5EZGlMVE5tWkdZdE5EVTFPQzFpWkRGa0xUUmpaRE5rWm1ZM016azROU0o5LldiR19PZVBMRGNrSUgwMjY2U1hZSmZ3SjU2T2xaYWVYemtxc0hWU3BlYUlnajhIWjJLVGdwY1dtdDA2dWhTZjJudEcyT0pneXBaa0FINnlwWjBId0pMOUxHZVNoYk5PY25jd3k3bHZ4Qk85TlR1azg1SWlhdS1WZFRFQVJjUDRLNUVPNnJrTDNvT0E0MU1palp1NkVTblJuUndTOUI4ZDM4ZnE5WlotdUxmUksxbXFqNzljRGNwdFhEanJnTkloWnZXdDR1TEstYXo0QldOTlRlRHVEVU1rdzhlM01SazN4WTBTUm9yZkFKRXNRc3NzTUFCaVpiOUJvalJ4MjBSbFlqNzRDLVFraXdBZVg2a2FoX05YLWlnaEJxdEozNEszYlE3OG05SlZkSHVFZ3dJNnJVeGJqWUFUeGJiR3ByN2pXQW91Q3Rqa1BtcTBFd2xObEt3aG9ocmJyeWU2Y0ZiMTEyNjkyTWJ0Y3N0UEtOSVNudmNNNnlMWFBETnc4ektKd0drLW4wQkZ6UWpNTWpjRjc5Q1hualhReHdlNDFkWnBZU2Y4SUFIbU0xUkV2U2F2VXVxZTJPdzNENGxmTXFPWEtxQ25XREJRaGdGQ09yeG82SFpHZzRiRGdCVnBBM3VsRGFmVE5JcDBNWDM2VllvM1E5NlZJOUYxT2hQWXhPa3dPc2pVX0tLcmprZkR6cERiTzI5ZUFxMHJJNEVaSGNXVVp5eC1qTEhCQU5YVjN2c21EMUtLajlmZTdHMFNiR0RLMWJCNUZkbXpaTGx0cVo0VnhmUDgzeHhVczFpcHNqT3NmQ3F5TkRJdGRmcnQteFdGZFZNaFA5MkJsRjZrUDV6LUZzTkgzbnU2U1l6QklYV1dXTFBNV19YeXpSQWMxWTBidVRteXl0U2ZKN3hVWG13eXA0N3NQNUV1N0IweFd4dmYwdnVkN3hqQ3pYd25Ganp6elVHN3RlcEMxWEV0anNTRkg1WTkxUWNMa2hQUElTQ0xqd2JrTXFFSDdNZTAxSnZnWXlCVVFnVktsT1hKZDlhdHpQNVh3YUZDOUlWQ2NrcGhKY1RTXzBZOGMxNlhNSEFqbHlDUGdJMkZxMVgxekZSM2ZtVXlHYTFBLXhEaldNZGNpS1FQYXh0Y3k3cXVYcjZRNU54WDlaMWxlQUp6SjRScWJTZjhfOGRTNk9pVjhhUDBJdUJ0VjB4WV9vaXQxRkc5QXk0QnpSOVFjYUpLYkFHcjRBSHpYdnVpNTBoTVRmc3VFYTBWdjZHQnc5UVVva0VkdHVZandkcnozTFkxTmp6NDJXYjAyS09UNnZVcFFKUDc5ZDlManpjNG1lcUxCTTFhblBpUlNhQWdLd2V3dWxUNXl4TlBwbWZMTTloOHI2eUZ2R0dVZDVFNHUzRzZEeDRacXJIdW05eEhJZlh1VzU0U1lGY0kxaUtlZTJaSGpXR1Q5bi11dThJNGdneU0yX0piQ2JBdndZdGVCaHh6WG1icHdtS1NCUFhCb283OFMwMkZKbE1QT1FEeks1S3BjcEZOTkhCZndXbjJ1d1Vzc2h2Z2pBUmNIYmVTZThSZzA1b3ZOcDZEMUJ0NVhiSEVYZkZxWmFrQmY2WlJSbm42MlBBYzFiVGJOanRQVGt6MHExamFuTl9heXJxaGlXbnRQaDlTSHNNZVlLRzVLNXAtUEMxSVBKcEhaLUxTY0JSbzAzTDJ6RzlmcTlRbFpjOFlXQld0MTdQMFEwbUl1OFpjUVVqQk13UXpZTVRsUDUxMWp5QWFwbVgxakdJczZQQ196aThxTUdKMnZvMHFxSFdXX2JHZWVIbjdUR0cwZ0wyOUVyenFWeGJ6c1VZWDhVNktmTzMzTjIzaVM2WFYxbTJ1cXlyTFNnempFeTVHRWh0b0NlYll6TGlmWGdOTEI5YlRQeE5PTk5lODA2RHB2Rm1nMUNMRjJSU3JDcmlQZ2JHQ1NxWEoyQzBPd0pyZ294d1BOLTkxbkU5ZEZLbjJOcGdYbDY0clYtSG9mZk1PbXZKT1ZkS0ZucGZkcFZUakUwTEM1Z3BWUHVqbmVrbjVLS2RVeGlWMTdIZzFON3lNNmRnemVXSnVyNjd5Ukp1VGVlVHhROU1sbmNwSE5PajZfQ3BnZzRCUUtlUU5TRTV0UGZ0ZlF3Q0JESlBrS2Zia21aOEFJR2s0cHRBQ09qMDF5WGRhV2oxd1FlYUlDaHRxMEdHclNGcWRsbnNScWpuSTYxUEFzenBNUGJRWExVeGJQenhBUk9mRXhBWDFleDA5cXY5RXZXaFlvUWpEbWJjTkNuVTdlM3NQeWJVSkQ5dno4c3M5Tk9KYWhwU2htNzU1c1BFakxsaXVac3BzZ3otTHZKUzliVllRNGdiM1RmQzdFdHR0Yk9BYm93bHliNENXcF82RWFnU0VsWnJsWXVCWGZQc0EtMFoxXzU1ckVqaF9DNFN3NmNzWVBYWWNEM0NWZlhzTVRtbXhJRTRwRzJCZlFEZlRMOTVQQjd0ZGFlTE9NdmIya0ZFSjBIMGRNYU44b1B0bFpQQzRnaElnLTBFb1FGbXJEMXlRcjVfRVBWM2ExT2pzMGhrVGgwOEh0MVpIc3Fac3FWTkpaVkhvMmVXRDhWckk3NE5UOGZmM2tnUDM0eUQwRFlzYllvUno0akxqTGt0THQySTAtTWc0dnVOSDh3TEZDMTFpbGtEX29BdWZuekZjMjFsT3BjZ3d3eEdyUi1DZklWMVluMDg1alJJdUFWSkhVU0VhbkNyRUxjLWdsQTg1SWpHWkFaLVkxZ2gwcmc2VEFNT1k2bWhhTUVCa2RSNmFLLWJya2duUDRrdHNsUmFyY1JSczUyR2NOa0d4OFF4dk1QZ2IzblRlbDVYaGREZ1ZMN0N3Mzh5bmdIaUlrZkUtSVgySFpaU3k3VHVlZFBvTkxQeHFPdElTTm53Y1hiYlR6TGZYcURQVDJWMml0TFlfNzgtLTYwRkNqam5LLU9BUEUwNi1jOFQ4ZE9SclVrQVpOQ3Y0WnRMQTNqMkxQSGVOYlpTRGlXakd0LU11a25vWWtlcDdVT29KbGdIU2JEa21HZS1Vcnh0UFk3bGE3OXlDTmF2U3pIMnY2ZUk3S2FBVGRzbl9UbUlEZGFVaUIxMVlhS09iYVVRNHM0YmM1UDhieWkxMG9fcWVuOUVlMVQ5U3lmTkdNa3dYWktxX09PcTRnNFlvV3ZXM3VEZmd6RTQzNUtaaFIxVUgyZEhScUtOUkhOREgwTG9melFkcWwyQXZ0bm8zaS1rVm1pX3cwWXZreTRwVC01eXFYMEJQaEdCSTVRempuQm5EOWhranRBVFVtX1hubzZFdmhNQVZIWGRRRGtsc3pyMXBNMkVCMGtTYThRTzZTQi1DeU5scWVxdkluLTktdW9WSVJOSFR4Sk1WSDJGdUtSUnh5dl9QUG1WT2lIQ0lMY3NmM3JnQnB1QUh5WmNYN01LV0ZmVW11Wkk3cHdPSk5Wd1Q1SUlZdENhSXh1NzhWeDM5LUhZVU80WDUyZ3RYYzhCZmlGOGlmemowcmE5RksxM1MxejR0eWU2VVpCUDA1M1BaYm5WalQxNnJpaUtJcGozOTFubTBCNDRtc3BieXVBMXIxeXpGcF9HUWlnTWhzcHZqa05IbTdDQVBIUnJScU1yYUMxLW5ER25FTEI0WFFyZFg1Smpaa1VlZTU2Zm5hUGIzSlhURTlVWnZOVF9XTHlLcHJhc1RxS2xYYS1lNVVLTk1UNm4taDRJdEoyLVpNcTlzSkhoZEQyMWs1czYwckYxczA5QU5aM1JXZTJrdjd0STF3RWU5ZHk5YkY1VFFtRzZqV3h2b2lfdUdHazVFd1Nxc09Dam5aT0w0NW9lNUVwUnpoUzNadHZyZmQ1UUx1amZRM19iUUUtaEJqTWZrZTl5SFRUUC1HZlBJMWhBR1BiVmRTRXFIbFM2YnZPUVJQcVlySi1SeGhGbnlPZkZKMFN3R2lYZUNvelduWVJaekRnYmRsN3VMNmpSUjd2b3RVcHh0eEE3WnMwcDcyMlE1Q0gwZjlqTnFQTk1sWTBmVGhtV3ZEcXk5S3o0YkRJWllLdjQ5YUlzV25YcjViVzZqX0Q4UjJ2MUtJRkdwb01hSlJ4eFh4TXd5MzJlc2xYLTlMYkNJS2psdlVRcThvMVJGdlhndnR6UHBkWThXbDlsYUc3R25rMzVQY0FRdGdYbG42VWNSSzhXRW41ZzJJWUlra2U5SFNTTHgyLXRkUGJIVFNIYjdpZDJZT0gxbzFGcVR6dGhTck96U1NqNjBKRGdsN3ZpOTBDYVZUWnVNWEpwbU44MmtkVFRVUXFXbUJuc2psT2x3NmZQbzBTQlowNmM0M0UzdTNtMTU5Y25mV3ozbkJiYkJrRXY1cVY2cEdLZFpQd05TSzBOUUFqblI4SmNwcjRRVXdoUGVBUjJuNjA5ZGNRUGg2TFFFRnc1S3pOY3lobm10cVVmNjVBVnhVaVZFWkFGQkloMWRBamJaNzdZeXlyenYyVVhkbjdFaFFmcjlSQzVCRGFPYjRqMWozdFhfVG5sYjYtVzlNcV9OTE0zMjJfQngyNlpweS10SmNXclZURE95VFdsRFg2M19xbkdsem83akUyZGFfUXBDbEZnSk9ndXlCQ1ZyY2NWTHR1bVZzSzJUMlVGbjJPcmNUTEJJRHg1OXlQWERpelhUbTVsUVVUREhrZTZkU0tqOXFKM25tX0ZBeGpsX183bVlRX1NLVE9BNlhqYUluVUtXMnhuUWgwb09LLWhnVTZDakNoTTB0V05ldmF5MzRuaGpNcDhBaDhpc0x5VjBrb0tlRF9vLS1xQlR1cGUwY2ZWSl8xUW9tQW9nVFpsMVlyamdKbzI4TEdNYVBEd05pcDJPemhLaHNTbHlPUmtxRGxFNTVzbFB1b1RoYl9kclN2MWgtaUhHazVzUHhUREpETk9MSEx5UVlWNEY0aGU4Z1dUVFB4T1l2MmQ0VERsaGFSRjN4MDVMMDZXUkF2LVptWEgzWmF5bjluRkNFT2h2SFNsZHRDNjJQb1J1TVhvSkVSZFZrOXo4U0ZTZFBvc1pyVVQtLWVzTy1kYWszcmI1eHJFSkV5MVRwWHU2bllUNTg1QURzN1EyNTBaWmJaYUJYNV9BeEFrUUVwTkRpQ0dhY0RJTzdKTzNKMUdISm5mSHA2cmtXUS1GbFFmUVJ3Q1g2NXdXTGRzODJkX0tJelY3a1FsOEFHOXlIYWlvNFp0b29EUzR3QmduRTQwUmhyZ2hLb1Q2UjRQZ2VWRk9QUURjUnZjemlqcVlGTmNIblpFcW9RcGw4V3lSTlRYSG05ZmNUYWZ1U2NYdUt0cWxjVnRjZTN3QjdobVhkM0VvaDlmbzBVdEM3bDZaOGx1ZTQ0V1hmYlRDYnBXTTVHMVhLMmxhT1FhQzlfUzh3UUlCaHQ3Zkp1S0xEekVrcWRrTXZxd01takdlbFJJM1AxeFpIVUF1SlNOM0dGN3RUWXJqeUVjd2dwc2docTRoU01pS00zc2t1VThsOF9ia29HLVJpSnp0ZldxQ19Zc2hZblBEenRnbnZ3UUdOZlR2ZTJCV3RHMjdWMXdtMFhnZDkzODBIZ2hUckJQc1U3NWFWNVQ0NXQyVTJlZ00yT0E4bHF5cmt1eGxlNXUtRkxDNEZaR0tER0dVdTNyNHJrNUhSMHY5eUFIOXBQNm5Ea1J5dUowV25tRjduVVdqT3daM1dxMUhibGNIcDJWcG9HbXdsNlZUa0x1WkNVTnlmSHBJSThpNTVvOUtqRXp6NU8yY2Y0emFuNU5hWEZoQnpLbnpHOE1naWQ4NzloVGgzYjhyak4wSVRqMDg1QVpVWVhubDVWOV9FQjMxWUZSeDBMMXlJbHRvMlNpVG9xazlyZl91WVZLdFlmSGNwdlBWeTNzaXhQR3paUHdmUzZ2b25FS2NwdnEzMUY0czhvZ2NDeDNTZUh3aXg1WkhqbG1tZUc5cXhDWXNGakdWeGVJTTdfRGQ3UXdkOHJqRkZWTDJZdTloNW5IZVN0Ym9hWWpTZTYyOVRhcW00a3hjaVlKdnVKOUhaR1ZTQ0M1dlBBN21tRnNtOTRnM3BIODVlaGJlTHZmclczRWdiZ0lTeFpRU0JsTk9EV3lNWEhzZnUtampEaW80cVhfVG0xRlVMX055bkMxMXlmbHpJcDNEOUVnM29ybV9RV2c5NUJ5ZEpKMmszZjM1d0t0MG5MTE5FcDloOWhvcVBJdDFObm82Y1ZPTDFPWHp5RlZwRUFRcURCZU4tWEZTXzgyZC1aSXZCNHhweGs3UThvV3JBSTB5eEZVc0RvUXhfZXNrYmFQdFpydVJyQXNoZVFsbzdfeDA2Y3pDbXdtYmZTU3l0LW4wY3JBN183c0gxTDVkTXQzaV9KT2xyMjY3cEpIcGt1VjJfZVQ3a1pHNkJLZmxVVWNmV0pGS1daenFnejFMZnNuV3pmb3djaDR6eDN5dUxSYmRVQ0Z0WG9GLTFQempzSnhTVy1ySExFVm1wZzBKQ3VmSzRsTmJOUFFzeFVveE5HUWxKdzhXdG8zNWNTNGlLMWVoQUo2V20tNWJLY2M3MjdOckpJUFA0cXllNzNSeEIzZ1hkMU5IOThDcEE4c2k5eC1Cd3JoTTFad0VVMHJZaXgtczFwaGFtRlFJZk14cURUQndwcE5pMlFKdkFTWVoydUFzbjU1SW1EckpfS0pXT2ZVcXJ0aGVUNFhLTDNyUzNuWGlKcTNlUTdZNEdfcEJsOFJtWjFMbUZYWEtMdnVJWV9pbWpwbU5hRDdySFMxX1hrN2VNcGNnQTRjcGRnZXlCUWZ2ZlJGTUQtMENyTk9tbWhCbFZ6VDBkM0NqNW9aR3JfT1pWLW5wNndOcTFXN0VpLUpidkQyN2hJZ3NsZ1dEeEdqOExZMi0wT3dWWFB4OVVUZ3JCTXBlTWg2RUpMeGVzNFFjb3VQdVg3Y0ttSzI0dWw3akdkd0xYMGdDeDJxWEE3dndsaF9iQm5CRmRvWG1ubmlqbnJ1RE93T1BqR2Y0bnB6RWpsa0pBRVpCbnJBN1FkRjNSRlpyMGU5WUNNdnB5cUR4Rm5uSXM1b0hYNHNlT2tVdXJmbXJNV3gwQkpPSjRQVnR5U1V4UGlMVHdSU2prazJfRUptbmc3ZW5nZXVKM3cwNTFGQ2pJcEFUemk2dEUzeHhqRXMzbllCeEJYZ3dQdjJLRWF0dVBQd095dU5sTlF5RnhyWm1acVBKYmJOWVdiQk1uQm1wU2FZWW1RTXk1clZCbTBSYVRMUVJZWG0wT2t0bk1zUW81aHhDcXFacTN2VDByeUVfRWg1R01EM0tONjVvRi1hTl9xWmFId2JYOG15dThJNnk4aHZDbzVwcDhadHZhTWRFcjVmSXcwRXpneC02Ti02NUZJNEpHdUE0TDhKUXZYUUowTklJNC1aWGt3d29SWkwzNDVDczdDZy5lN08tMnJ6N1owN0NtVHhmeFFyTEk4VVVnc2JKRENGcThYT2d1R3pxNk5jRXp5VGxmaTdtMHQ3UDZEcTVZbUU1eVk1U1VLbm4zY2ZrbklkVWpaTW5sUQ=="/><input type="hidden" name="_eventId" value="submit"/><input type="hidden" name="geolocation"/></section>
+
+                    <button
+                class="mdc-button mdc-button--raised btn btn-primary btn-primary"
+                name="submitBtn"
+                accesskey="l"
+                type="submit">
+            <span class="mdc-button__label">Sign In</span>
+        </button>
+
+        </div>
+            </form>
+
+            <hr class="my-4"/><span id="webauthnLoginPanel">
+                    <script type="text/javascript">
+                        $('#webauthnLoginPanel').show();
+                    </script>
+
+                    <div>
+
+        <script type="text/javascript" src="/cas/webjars/text-encoding/0.7.0/lib/encoding.js"></script>
+        <script type="text/javascript" src="/cas/webjars/text-encoding/0.7.0/lib/encoding-indexes.js"></script>
+        <script type="text/javascript" src="/cas/webjars/whatwg-fetch/3.6.2/dist/fetch.umd.js"></script>
+        <script type="text/javascript" src="/cas/webjars/base64-js/1.5.1/base64js.min.js"></script>
+
+        <script type="text/javascript">
+            /*<![CDATA[*/
+            var appId = "https:\/\/weblogin.asu.edu";
+            /*]]>*/
+        </script>
+
+        <script type="text/javascript">
+            let authFailTitle = "Authentication Failed";
+            let authFailDesc = "A passkey was not found for this device.";
+        </script>
+
+        <script src="/cas/js/webauthn/webauthn.js"></script>
+
+        <div style="display: none" id="diagnostics">
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#serverResponse" aria-expanded="false" aria-controls="serverResponse">
+                    Server Response
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#authenticatorResponse" aria-expanded="false" aria-controls="authenticatorResponse">
+                    Authenticator Response
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#requestPanel" aria-expanded="false" aria-controls="requestPanel">
+                    Request
+                </button>
+            </p>
+            <div class="collapse" id="serverResponse">
+                <div class="card card-body">
+                    <h4>Server Response:</h4>
+                    <pre id="session"></pre>
+                    <pre id="server-response"></pre>
+                </div>
+            </div>
+            <div class="collapse" id="authenticatorResponse">
+                <div class="card card-body">
+                    <h4>Authenticator Response:</h4>
+                    <pre id="authenticator-response"></pre>
+                </div>
+            </div>
+            <div class="collapse" id="requestPanel">
+                <div class="card card-body">
+                    <h4>WebAuthN Request:</h4>
+                    <pre id="request"></pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center flex-column">
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <h2 id="status" >OR</h2>
+            </div>
+
+            <div id="messages"></div>
+            <div id="device-info">
+                <div class="d-flex justify-content-center flex-column align-items-center">
+                    <br><img id="device-icon"/><br><span id="device-name"></span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <button class="mdc-button mdc-button--raised btn btn-primary me-2"
+                        name="authnButton" id="authnButton" accesskey="a" tabindex="5" type="button"
+                        aria-label="Sign In with your Passkey">
+                    <i class="mdi mdi-fingerprint fas fa-fingerprint"></i>
+                    <span id="authnButtonText" class="mdc-button__label">Sign In with your Passkey</span>
+                </button>
+            </div>
+            <div>
+                <input type="checkbox" name="autoAuthn" id="autoAuthn" value="false" tabindex="6"><label for="autoAuthn" id="autoAuthn_label">Do this next time</label>
+            </div>
+        </div>
+        <div>
+            <div class="w-100 mdc-data-table table-responsive mx-auto my-4" id="divDeviceInfo" style="display: none">
+                <table id="deviceTable" class="table table-striped" style="white-space: unset">
+                    <thead>
+                    <tr class="mdc-data-table__header-row">
+                        <th class="w-50 mdc-data-table__header-cell" role="columnheader" scope="col">Attribute</th>
+                        <th class="w-50 mdc-data-table__header-cell" role="columnheader" scope="col">Value(s)</th>
+                    </tr>
+                    </thead>
+                    <tbody class="mdc-data-table__content">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center flex-column align-items-center">
+            <p>A passkey is a faster and safer way to sign in than a password.</p>
+            <button class="mdc-button mdc-button--raised btn btn-primary me-2"
+                    name="registerAuthnButton" id="registerAuthnButton" accesskey="c" tabindex="7" type="button"
+                    aria-label="Create a Passkey">
+                <i class="mdi mdi-fingerprint fas fa-fingerprint"></i>
+                <span id="registerAuthnButtonText" class="mdc-button__label">Create a Passkey</span>
+            </button>
+        </div>
+
+        <form method="POST" id="webauthnLoginForm" class="fm-v clearfix" action="/cas/login"><input type="hidden" name="_csrf" value="9JHwQb6aESBSmPs2pnN44OkB8OmowCwuZi4km2eKLKBwYVzEx6XFIIqtIEF_qJ0Px15M0owx3dHK9hsDBxsWrF_rTsITUG3z"/>
+            <input type="hidden" name="_eventId" value="validate"/><input type="hidden" id="token" name="token"/><input type="hidden" name="geolocation"/><input type="hidden" id="authnCsrfToken" name="_csrf" value="345a471a-0f9a-42e0-8b67-a5278abbc117"/><input type="hidden" name="execution" value="a1126ce3-10a3-4725-adb8-ba5f594eaef2_ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0lzSW10cFpDSTZJbUl6T0dZek5EZGlMVE5tWkdZdE5EVTFPQzFpWkRGa0xUUmpaRE5rWm1ZM016azROU0o5LldiR19PZVBMRGNrSUgwMjY2U1hZSmZ3SjU2T2xaYWVYemtxc0hWU3BlYUlnajhIWjJLVGdwY1dtdDA2dWhTZjJudEcyT0pneXBaa0FINnlwWjBId0pMOUxHZVNoYk5PY25jd3k3bHZ4Qk85TlR1azg1SWlhdS1WZFRFQVJjUDRLNUVPNnJrTDNvT0E0MU1palp1NkVTblJuUndTOUI4ZDM4ZnE5WlotdUxmUksxbXFqNzljRGNwdFhEanJnTkloWnZXdDR1TEstYXo0QldOTlRlRHVEVU1rdzhlM01SazN4WTBTUm9yZkFKRXNRc3NzTUFCaVpiOUJvalJ4MjBSbFlqNzRDLVFraXdBZVg2a2FoX05YLWlnaEJxdEozNEszYlE3OG05SlZkSHVFZ3dJNnJVeGJqWUFUeGJiR3ByN2pXQW91Q3Rqa1BtcTBFd2xObEt3aG9ocmJyeWU2Y0ZiMTEyNjkyTWJ0Y3N0UEtOSVNudmNNNnlMWFBETnc4ektKd0drLW4wQkZ6UWpNTWpjRjc5Q1hualhReHdlNDFkWnBZU2Y4SUFIbU0xUkV2U2F2VXVxZTJPdzNENGxmTXFPWEtxQ25XREJRaGdGQ09yeG82SFpHZzRiRGdCVnBBM3VsRGFmVE5JcDBNWDM2VllvM1E5NlZJOUYxT2hQWXhPa3dPc2pVX0tLcmprZkR6cERiTzI5ZUFxMHJJNEVaSGNXVVp5eC1qTEhCQU5YVjN2c21EMUtLajlmZTdHMFNiR0RLMWJCNUZkbXpaTGx0cVo0VnhmUDgzeHhVczFpcHNqT3NmQ3F5TkRJdGRmcnQteFdGZFZNaFA5MkJsRjZrUDV6LUZzTkgzbnU2U1l6QklYV1dXTFBNV19YeXpSQWMxWTBidVRteXl0U2ZKN3hVWG13eXA0N3NQNUV1N0IweFd4dmYwdnVkN3hqQ3pYd25Ganp6elVHN3RlcEMxWEV0anNTRkg1WTkxUWNMa2hQUElTQ0xqd2JrTXFFSDdNZTAxSnZnWXlCVVFnVktsT1hKZDlhdHpQNVh3YUZDOUlWQ2NrcGhKY1RTXzBZOGMxNlhNSEFqbHlDUGdJMkZxMVgxekZSM2ZtVXlHYTFBLXhEaldNZGNpS1FQYXh0Y3k3cXVYcjZRNU54WDlaMWxlQUp6SjRScWJTZjhfOGRTNk9pVjhhUDBJdUJ0VjB4WV9vaXQxRkc5QXk0QnpSOVFjYUpLYkFHcjRBSHpYdnVpNTBoTVRmc3VFYTBWdjZHQnc5UVVva0VkdHVZandkcnozTFkxTmp6NDJXYjAyS09UNnZVcFFKUDc5ZDlManpjNG1lcUxCTTFhblBpUlNhQWdLd2V3dWxUNXl4TlBwbWZMTTloOHI2eUZ2R0dVZDVFNHUzRzZEeDRacXJIdW05eEhJZlh1VzU0U1lGY0kxaUtlZTJaSGpXR1Q5bi11dThJNGdneU0yX0piQ2JBdndZdGVCaHh6WG1icHdtS1NCUFhCb283OFMwMkZKbE1QT1FEeks1S3BjcEZOTkhCZndXbjJ1d1Vzc2h2Z2pBUmNIYmVTZThSZzA1b3ZOcDZEMUJ0NVhiSEVYZkZxWmFrQmY2WlJSbm42MlBBYzFiVGJOanRQVGt6MHExamFuTl9heXJxaGlXbnRQaDlTSHNNZVlLRzVLNXAtUEMxSVBKcEhaLUxTY0JSbzAzTDJ6RzlmcTlRbFpjOFlXQld0MTdQMFEwbUl1OFpjUVVqQk13UXpZTVRsUDUxMWp5QWFwbVgxakdJczZQQ196aThxTUdKMnZvMHFxSFdXX2JHZWVIbjdUR0cwZ0wyOUVyenFWeGJ6c1VZWDhVNktmTzMzTjIzaVM2WFYxbTJ1cXlyTFNnempFeTVHRWh0b0NlYll6TGlmWGdOTEI5YlRQeE5PTk5lODA2RHB2Rm1nMUNMRjJSU3JDcmlQZ2JHQ1NxWEoyQzBPd0pyZ294d1BOLTkxbkU5ZEZLbjJOcGdYbDY0clYtSG9mZk1PbXZKT1ZkS0ZucGZkcFZUakUwTEM1Z3BWUHVqbmVrbjVLS2RVeGlWMTdIZzFON3lNNmRnemVXSnVyNjd5Ukp1VGVlVHhROU1sbmNwSE5PajZfQ3BnZzRCUUtlUU5TRTV0UGZ0ZlF3Q0JESlBrS2Zia21aOEFJR2s0cHRBQ09qMDF5WGRhV2oxd1FlYUlDaHRxMEdHclNGcWRsbnNScWpuSTYxUEFzenBNUGJRWExVeGJQenhBUk9mRXhBWDFleDA5cXY5RXZXaFlvUWpEbWJjTkNuVTdlM3NQeWJVSkQ5dno4c3M5Tk9KYWhwU2htNzU1c1BFakxsaXVac3BzZ3otTHZKUzliVllRNGdiM1RmQzdFdHR0Yk9BYm93bHliNENXcF82RWFnU0VsWnJsWXVCWGZQc0EtMFoxXzU1ckVqaF9DNFN3NmNzWVBYWWNEM0NWZlhzTVRtbXhJRTRwRzJCZlFEZlRMOTVQQjd0ZGFlTE9NdmIya0ZFSjBIMGRNYU44b1B0bFpQQzRnaElnLTBFb1FGbXJEMXlRcjVfRVBWM2ExT2pzMGhrVGgwOEh0MVpIc3Fac3FWTkpaVkhvMmVXRDhWckk3NE5UOGZmM2tnUDM0eUQwRFlzYllvUno0akxqTGt0THQySTAtTWc0dnVOSDh3TEZDMTFpbGtEX29BdWZuekZjMjFsT3BjZ3d3eEdyUi1DZklWMVluMDg1alJJdUFWSkhVU0VhbkNyRUxjLWdsQTg1SWpHWkFaLVkxZ2gwcmc2VEFNT1k2bWhhTUVCa2RSNmFLLWJya2duUDRrdHNsUmFyY1JSczUyR2NOa0d4OFF4dk1QZ2IzblRlbDVYaGREZ1ZMN0N3Mzh5bmdIaUlrZkUtSVgySFpaU3k3VHVlZFBvTkxQeHFPdElTTm53Y1hiYlR6TGZYcURQVDJWMml0TFlfNzgtLTYwRkNqam5LLU9BUEUwNi1jOFQ4ZE9SclVrQVpOQ3Y0WnRMQTNqMkxQSGVOYlpTRGlXakd0LU11a25vWWtlcDdVT29KbGdIU2JEa21HZS1Vcnh0UFk3bGE3OXlDTmF2U3pIMnY2ZUk3S2FBVGRzbl9UbUlEZGFVaUIxMVlhS09iYVVRNHM0YmM1UDhieWkxMG9fcWVuOUVlMVQ5U3lmTkdNa3dYWktxX09PcTRnNFlvV3ZXM3VEZmd6RTQzNUtaaFIxVUgyZEhScUtOUkhOREgwTG9melFkcWwyQXZ0bm8zaS1rVm1pX3cwWXZreTRwVC01eXFYMEJQaEdCSTVRempuQm5EOWhranRBVFVtX1hubzZFdmhNQVZIWGRRRGtsc3pyMXBNMkVCMGtTYThRTzZTQi1DeU5scWVxdkluLTktdW9WSVJOSFR4Sk1WSDJGdUtSUnh5dl9QUG1WT2lIQ0lMY3NmM3JnQnB1QUh5WmNYN01LV0ZmVW11Wkk3cHdPSk5Wd1Q1SUlZdENhSXh1NzhWeDM5LUhZVU80WDUyZ3RYYzhCZmlGOGlmemowcmE5RksxM1MxejR0eWU2VVpCUDA1M1BaYm5WalQxNnJpaUtJcGozOTFubTBCNDRtc3BieXVBMXIxeXpGcF9HUWlnTWhzcHZqa05IbTdDQVBIUnJScU1yYUMxLW5ER25FTEI0WFFyZFg1Smpaa1VlZTU2Zm5hUGIzSlhURTlVWnZOVF9XTHlLcHJhc1RxS2xYYS1lNVVLTk1UNm4taDRJdEoyLVpNcTlzSkhoZEQyMWs1czYwckYxczA5QU5aM1JXZTJrdjd0STF3RWU5ZHk5YkY1VFFtRzZqV3h2b2lfdUdHazVFd1Nxc09Dam5aT0w0NW9lNUVwUnpoUzNadHZyZmQ1UUx1amZRM19iUUUtaEJqTWZrZTl5SFRUUC1HZlBJMWhBR1BiVmRTRXFIbFM2YnZPUVJQcVlySi1SeGhGbnlPZkZKMFN3R2lYZUNvelduWVJaekRnYmRsN3VMNmpSUjd2b3RVcHh0eEE3WnMwcDcyMlE1Q0gwZjlqTnFQTk1sWTBmVGhtV3ZEcXk5S3o0YkRJWllLdjQ5YUlzV25YcjViVzZqX0Q4UjJ2MUtJRkdwb01hSlJ4eFh4TXd5MzJlc2xYLTlMYkNJS2psdlVRcThvMVJGdlhndnR6UHBkWThXbDlsYUc3R25rMzVQY0FRdGdYbG42VWNSSzhXRW41ZzJJWUlra2U5SFNTTHgyLXRkUGJIVFNIYjdpZDJZT0gxbzFGcVR6dGhTck96U1NqNjBKRGdsN3ZpOTBDYVZUWnVNWEpwbU44MmtkVFRVUXFXbUJuc2psT2x3NmZQbzBTQlowNmM0M0UzdTNtMTU5Y25mV3ozbkJiYkJrRXY1cVY2cEdLZFpQd05TSzBOUUFqblI4SmNwcjRRVXdoUGVBUjJuNjA5ZGNRUGg2TFFFRnc1S3pOY3lobm10cVVmNjVBVnhVaVZFWkFGQkloMWRBamJaNzdZeXlyenYyVVhkbjdFaFFmcjlSQzVCRGFPYjRqMWozdFhfVG5sYjYtVzlNcV9OTE0zMjJfQngyNlpweS10SmNXclZURE95VFdsRFg2M19xbkdsem83akUyZGFfUXBDbEZnSk9ndXlCQ1ZyY2NWTHR1bVZzSzJUMlVGbjJPcmNUTEJJRHg1OXlQWERpelhUbTVsUVVUREhrZTZkU0tqOXFKM25tX0ZBeGpsX183bVlRX1NLVE9BNlhqYUluVUtXMnhuUWgwb09LLWhnVTZDakNoTTB0V05ldmF5MzRuaGpNcDhBaDhpc0x5VjBrb0tlRF9vLS1xQlR1cGUwY2ZWSl8xUW9tQW9nVFpsMVlyamdKbzI4TEdNYVBEd05pcDJPemhLaHNTbHlPUmtxRGxFNTVzbFB1b1RoYl9kclN2MWgtaUhHazVzUHhUREpETk9MSEx5UVlWNEY0aGU4Z1dUVFB4T1l2MmQ0VERsaGFSRjN4MDVMMDZXUkF2LVptWEgzWmF5bjluRkNFT2h2SFNsZHRDNjJQb1J1TVhvSkVSZFZrOXo4U0ZTZFBvc1pyVVQtLWVzTy1kYWszcmI1eHJFSkV5MVRwWHU2bllUNTg1QURzN1EyNTBaWmJaYUJYNV9BeEFrUUVwTkRpQ0dhY0RJTzdKTzNKMUdISm5mSHA2cmtXUS1GbFFmUVJ3Q1g2NXdXTGRzODJkX0tJelY3a1FsOEFHOXlIYWlvNFp0b29EUzR3QmduRTQwUmhyZ2hLb1Q2UjRQZ2VWRk9QUURjUnZjemlqcVlGTmNIblpFcW9RcGw4V3lSTlRYSG05ZmNUYWZ1U2NYdUt0cWxjVnRjZTN3QjdobVhkM0VvaDlmbzBVdEM3bDZaOGx1ZTQ0V1hmYlRDYnBXTTVHMVhLMmxhT1FhQzlfUzh3UUlCaHQ3Zkp1S0xEekVrcWRrTXZxd01takdlbFJJM1AxeFpIVUF1SlNOM0dGN3RUWXJqeUVjd2dwc2docTRoU01pS00zc2t1VThsOF9ia29HLVJpSnp0ZldxQ19Zc2hZblBEenRnbnZ3UUdOZlR2ZTJCV3RHMjdWMXdtMFhnZDkzODBIZ2hUckJQc1U3NWFWNVQ0NXQyVTJlZ00yT0E4bHF5cmt1eGxlNXUtRkxDNEZaR0tER0dVdTNyNHJrNUhSMHY5eUFIOXBQNm5Ea1J5dUowV25tRjduVVdqT3daM1dxMUhibGNIcDJWcG9HbXdsNlZUa0x1WkNVTnlmSHBJSThpNTVvOUtqRXp6NU8yY2Y0emFuNU5hWEZoQnpLbnpHOE1naWQ4NzloVGgzYjhyak4wSVRqMDg1QVpVWVhubDVWOV9FQjMxWUZSeDBMMXlJbHRvMlNpVG9xazlyZl91WVZLdFlmSGNwdlBWeTNzaXhQR3paUHdmUzZ2b25FS2NwdnEzMUY0czhvZ2NDeDNTZUh3aXg1WkhqbG1tZUc5cXhDWXNGakdWeGVJTTdfRGQ3UXdkOHJqRkZWTDJZdTloNW5IZVN0Ym9hWWpTZTYyOVRhcW00a3hjaVlKdnVKOUhaR1ZTQ0M1dlBBN21tRnNtOTRnM3BIODVlaGJlTHZmclczRWdiZ0lTeFpRU0JsTk9EV3lNWEhzZnUtampEaW80cVhfVG0xRlVMX055bkMxMXlmbHpJcDNEOUVnM29ybV9RV2c5NUJ5ZEpKMmszZjM1d0t0MG5MTE5FcDloOWhvcVBJdDFObm82Y1ZPTDFPWHp5RlZwRUFRcURCZU4tWEZTXzgyZC1aSXZCNHhweGs3UThvV3JBSTB5eEZVc0RvUXhfZXNrYmFQdFpydVJyQXNoZVFsbzdfeDA2Y3pDbXdtYmZTU3l0LW4wY3JBN183c0gxTDVkTXQzaV9KT2xyMjY3cEpIcGt1VjJfZVQ3a1pHNkJLZmxVVWNmV0pGS1daenFnejFMZnNuV3pmb3djaDR6eDN5dUxSYmRVQ0Z0WG9GLTFQempzSnhTVy1ySExFVm1wZzBKQ3VmSzRsTmJOUFFzeFVveE5HUWxKdzhXdG8zNWNTNGlLMWVoQUo2V20tNWJLY2M3MjdOckpJUFA0cXllNzNSeEIzZ1hkMU5IOThDcEE4c2k5eC1Cd3JoTTFad0VVMHJZaXgtczFwaGFtRlFJZk14cURUQndwcE5pMlFKdkFTWVoydUFzbjU1SW1EckpfS0pXT2ZVcXJ0aGVUNFhLTDNyUzNuWGlKcTNlUTdZNEdfcEJsOFJtWjFMbUZYWEtMdnVJWV9pbWpwbU5hRDdySFMxX1hrN2VNcGNnQTRjcGRnZXlCUWZ2ZlJGTUQtMENyTk9tbWhCbFZ6VDBkM0NqNW9aR3JfT1pWLW5wNndOcTFXN0VpLUpidkQyN2hJZ3NsZ1dEeEdqOExZMi0wT3dWWFB4OVVUZ3JCTXBlTWg2RUpMeGVzNFFjb3VQdVg3Y0ttSzI0dWw3akdkd0xYMGdDeDJxWEE3dndsaF9iQm5CRmRvWG1ubmlqbnJ1RE93T1BqR2Y0bnB6RWpsa0pBRVpCbnJBN1FkRjNSRlpyMGU5WUNNdnB5cUR4Rm5uSXM1b0hYNHNlT2tVdXJmbXJNV3gwQkpPSjRQVnR5U1V4UGlMVHdSU2prazJfRUptbmc3ZW5nZXVKM3cwNTFGQ2pJcEFUemk2dEUzeHhqRXMzbllCeEJYZ3dQdjJLRWF0dVBQd095dU5sTlF5RnhyWm1acVBKYmJOWVdiQk1uQm1wU2FZWW1RTXk1clZCbTBSYVRMUVJZWG0wT2t0bk1zUW81aHhDcXFacTN2VDByeUVfRWg1R01EM0tONjVvRi1hTl9xWmFId2JYOG15dThJNnk4aHZDbzVwcDhadHZhTWRFcjVmSXcwRXpneC02Ti02NUZJNEpHdUE0TDhKUXZYUUowTklJNC1aWGt3d29SWkwzNDVDczdDZy5lN08tMnJ6N1owN0NtVHhmeFFyTEk4VVVnc2JKRENGcThYT2d1R3pxNk5jRXp5VGxmaTdtMHQ3UDZEcTVZbUU1eVk1U1VLbm4zY2ZrbklkVWpaTW5sUQ=="/></form>
+
+        <input type="hidden" id="loginCsrfToken" name="_csrf" value="345a471a-0f9a-42e0-8b67-a5278abbc117"/><script type="text/javascript">
+            const csrfToken = $('#loginCsrfToken').val();
+
+            let div = document.querySelector('#divDeviceInfo');
+            new mdc.dataTable.MDCDataTable(div);
+
+            var btn = document.getElementById('authnButton');
+            btn.addEventListener('click', function (event) {
+                $("#errorPanel").hide();
+                var username = '';
+                if (username === '') {
+                    username = $("#fm1 #username").val();
+                }
+                triggerAuthn(username);
+            }, false);
+        </script>
+
+    </div>
+                    <hr class="my-4"/></span>
+            <div>
+                <div id="pmlinks" class="my-2">
+    <div class="hint request-id-link">
+        <a href="https://selfsub.asu.edu/activation">Activate</a> or <a href="https://www.asu.edu/asuriterequest">request an
+        ID</a>
+    </div>
+
+    <div class="hint forgot-password-link">
+        <a href="https://www.asu.edu/lostpassword">Forgot ID / password?</a>
+    </div>
+
+    <div class="form-type-checkbox">
+        <input type="checkbox" name="rememberid" id="rememberid" value="true"><label for="rememberid" id="rememberid_label">Remember my User ID</label>
+    </div>
+</div>
+                </div>
+
+            <script type="text/javascript">
+                /*<![CDATA[*/
+                var i = "One moment please..."
+                var j = "Sign In"
+                    /*]]>*/
+                    $(window).on('pageshow', function () {
+                        $(':submit').prop('disabled', false);
+                        $(':submit').attr('value', j);
+                    });
+                $(document).ready(function () {
+                    $("#fm1").submit(function () {
+                        $(":submit").attr("disabled", true);
+                        $(":submit").attr("value", i);
+                        return true;
+                    });
+                });
+            </script>
+        </div>
+
+        <div>
+            <div id="sidebar">
+            <div class="sidebar-content">
+                <p>For security reasons, please <a href="logout">log out</a> and exit your web browser when you are done accessing services that require authentication!</p>
+            </div>
+        </div>
+        </div>
+    </div>
+        </section>
+        <span>
+            </span>
+        </div>
+</div>
+        </main>
+    </div>
+
+    <footer class="footer" role="contentinfo">
+    <div id="help" class="help">
+        <div class="teaser">Need Help?</div>
+        <span class="advice">
+                Visit the <a href="https://help.asu.edu">Help Center</a> or call 1-855-ASU-5080
+                (1-855-278-5080)
+            </span>
+    </div>
+    <ul id="footer" class="link-list">
+        <li><a href="https://systemstatus.asu.edu/">System Status</a></li>
+        <li><a href="https://asu.edu">ASU Home</a></li>
+        <li><a href="https://www.asu.edu/copyright/">Copyright</a></li>
+        <li><a href="https://www.asu.edu/aad/manuals/acd/acd125.html">Acceptable Use</a></li>
+        <li><a href="https://www.asu.edu/privacy/">Privacy</a></li>
+    </ul>
+</footer>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3122d464f9f1397',t:'MTc4Nzc0MDM5MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

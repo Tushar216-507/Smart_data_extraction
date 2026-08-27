@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "access_restriction",
+      "field": "is_admission_restricted",
+      "value": "This programme is not admission restricted.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_method",
+      "value": "You can enroll directly in the programme via the online application during the application period, provided you meet the access requirements.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "additional_documents",
+      "value": "If further documents are required, you will be informed at the end of the online application process.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor | Goethe University Frankfurt"
+    }
+  ]
+}

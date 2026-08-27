@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "module_reassessment_policy",
+      "value": "Failed module examinations can be repeated a maximum of twice.",
+      "original_value": "Nicht bestandene Modulprüfungen und Modulteilprüfungen können höchstens zweimal wiederholt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "additional_reassessment_policy",
+      "value": "In a maximum of two modules, failed assessments can be repeated a third time.",
+      "original_value": "In maximal zwei Modulen können nicht bestandene Prüfungsleistungen ein drittes Mal wiederholt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "cross_programme_reassessment_policy",
+      "value": "Attempts of the same or similar module examination from another program of Johann Wolfgang Goethe-University or another German university are counted towards the maximum number of resits.",
+      "original_value": "Fehlversuche derselben oder einer vergleichbaren Modulprüfung eines anderen Studiengangs der Johann Wolfgang Goethe-Universität oder einer anderen deutschen Hochschule sind auf die zulässige Zahl der Wiederholungsprüfungen anzurechnen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "unknown",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "exemption_policy",
+      "value": "The examination board can waive the accounting in special cases, especially when changing programs.",
+      "original_value": "Der Prüfungsausschuss kann in besonderen Fällen, insbesondere bei einem Studiengangwechsel, von einer Anrechnung absehen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "unknown",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

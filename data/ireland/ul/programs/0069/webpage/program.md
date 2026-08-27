@@ -1,0 +1,11 @@
+Having completed my undergraduate degree in the National University of Ireland, Galway (NUIG), I felt that completing a master’s was the route I should take. I decided that after studying in NUIG for 3 years, it was time for me to get more exposure by moving to a different University in Ireland. While completing my degree I had a great attraction to the study of Criminal law, however, I wanted to incorporate Human Rights into my love for Criminal Law.
+
+One of the main attractions to the University of Limerick was not only the similarities between it and NUIG, as both colleges are of medium to large student populations, and both have excellent sporting facilities.  However, it was the fact that they provided a unique combination of two distinct disciplines (Human Rights and Criminal Justice) which are traditionally taught separately and this appealed to me most.
+
+The modules offered in the course emphasize the ever-growing relationship between human rights and criminal justice. During the course of the programme we covered key areas such are International Criminal Law, Penology and Victimology and Policing and Human Rights.
+
+I would highly recommend the course of Human Rights and Criminal Justice to all students wishing to gain further knowledge of these diverse areas of law, with their unique inter-relationship. The LLM in Human Rights and Criminal Justice has enabled me to study modules that have developed my lawyering and research skills both critically and analytically alongside the added advantage of being presented in a multi-jurisdictional setting.
+
+I chose this master's programme above all others available in the country due to its uniqueness, as well as the background and diversity of staff and students. Which I knew would provide me with the opportunity to work alongside some of the greatest in the industry, both academically and those who work in practice.
+
+The University campus provides a wonderful atmosphere and setting for studying, this inspired me throughout my year in the University of Limerick.

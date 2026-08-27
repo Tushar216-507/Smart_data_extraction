@@ -1,0 +1,3 @@
+# Strategische Partnerschaften
+
+Der Fachbereich pflegt Kooperationen mit führenden Universitäten weltweit. Zur Stärkung seines internationalen Profils und zur Nutzung gemeinsamer Schwerpunkte wurden zwei Hochschulen als strategische Partner ausgewählt. Die Zusammenarbeit umfasst u. a. Forschungskooperationen, den Austausch von Lehrenden und Studierenden, gemeinsame Studiengänge, Doktorandenseminare sowie wissenschaftliche Tagungen. Strategische Partner des Fachbereichs sind die [Université Paris Dauphine](https://www.dauphine.fr/fr/index.html) und die [University of Pennsylvania, Wharton School](https://www.dauphine.fr/fr/index.html).

@@ -1,0 +1,1 @@
+Discover how technologies work and build real‑world skills in Applied Physics with hands‑on labs, industry links and a supportive, student‑focused community.

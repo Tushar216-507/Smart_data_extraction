@@ -1,0 +1,1 @@
+It is the responsibility of students to familiarise themselves with the University’s regulations, which cover student fees, enrolment and registration procedures.

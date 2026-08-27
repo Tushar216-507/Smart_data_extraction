@@ -1,0 +1,191 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Skandinavistik im philologischen Kontext",
+      "original_value": "Skandinavistik im philologischen Kontext",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "presence_time": {
+          "min_hours": 90,
+          "max_hours": 300
+        },
+        "self_study_time": {
+          "min_hours": 150,
+          "max_hours": 360
+        }
+      },
+      "original_value": "Präsenzzeit: je nach gewählten Veranstaltungstypen 90-300 Arbeitsstunden (3-10 CP), Selbststudium: je nach gewählten Veranstaltungstypen 150-360 Arbeitsstunden (5-12 CP)",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": "In this module, knowledge about history, literature, and culture outside Scandinavia is acquired, and the methodological tools are expanded and made applicable in a comparative approach for scientific questions of Scandinavian studies.",
+      "original_value": "In diesem Modul werden Kenntnisse über Geschichte, Literatur und Kultur außerhalb Skandinaviens erworben sowie das methodische Instrumentarium erweitert und in einem komparatistischen Ansatz für wissenschaftliche Fragestellungen der Skandinavistik fruchtbar gemacht.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "competencies",
+      "value": "Upon completion of the module, students are able to address questions regarding the emergence and reception of recent Scandinavian literatures from a global perspective and considering various theoretical approaches.",
+      "original_value": "Mit dem Abschluss des Moduls sind die Studierenden in der Lage, Fragen der Entstehung und Rezeption der neueren skandinavischen Literaturen aus globaler Perspektive und unter Berücksichtigung verschiedener theoretischer Ansätze zu behandeln.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "requirements",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "none",
+      "original_value": "keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 3,
+      "original_value": "drei Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "written report (10-15 pages) and related oral examination (30 minutes)",
+      "original_value": "schriftlicher Bericht (10-15 Seiten) und darauf bezogene mündliche Prüfung (30 Minuten)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "requirements",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "Proof of participation in Sk.MA.3.3-1, Sk.MA.3.3-2, Sk.MA.3.3-3; passing the module examination is required for the award of credits.",
+      "original_value": "Voraussetzung für die Vergabe der CP: Teilnahmenachweise in Sk.MA.3.3-1-Sk.MA.3.3-3; Bestehen der Modulabschlussprüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

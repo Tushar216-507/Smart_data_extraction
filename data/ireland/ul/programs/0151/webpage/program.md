@@ -1,0 +1,5 @@
+UL’s Master of Professional Practice (MPP) is a flexible, part-time master’s designed for working professionals seeking a tailored, interdisciplinary qualification aligned with their career goals. You will combine postgraduate awards from a range of disciplines into a single, multi-disciplinary Master’s degree. The MPP can be completed in one year by earning 30 ECTS credits through a Professional Diploma and a reflective learning assignment at UL.
+
+Choose from a curated selection of pathways, including AI, Data Analytics, Cybersecurity, Strategic Leadership, Project Management, Lean, and Law & Technology. This programme is ideal if you already hold 60 ECTS at NFQ Level 9 (completed within the last 5 years), typically achieved through two Professional Diplomas at UL or equivalent postgraduate study elsewhere.
+
+If you don’t yet have 60 ECTS, you can begin by enrolling in a UL Professional Diploma, Postgraduate Certificate, or Postgraduate Diploma, and return to complete your MPP once you’ve built the required credits. The MPP offers a unique opportunity to develop a diverse, career-focused skillset in a format that fits around your professional life.

@@ -1,0 +1,22 @@
+📏 Need LONG audio and more voices? Try [text to audiobook](https://perchance.org/text-to-audiobook). It's also completely free, unlimited, no sign-up.
+
+Del
+Text
+Voice
+P/S
+Fav
+Play
+
+# VoiceGenerator
+
+This web app allows you to generate voice audio from text - no login needed, and it's completely free! It uses your browser's built-in voice synthesis technology, and so the voices will differ depending on the browser that you're using. You can download the audio as a file, but note that the downloaded voices may be different to your browser's voices because they are downloaded from an external text-to-speech server. If you don't like the externally-downloaded voice, you can use a recording app on your device to record the "system" or "internal" sound while you're playing the generated voice audio.
+
+Want more voices? You can download the generated audio and then use [voicechanger.io](https://voicechanger.io/) to add effects to the voice. For example, you can make the voice sound more robotic, or like a giant ogre, or an evil demon. You can even use it to reverse the generated audio, randomly distort the speed of the voice throughout the audio, add a scary ghost effect, or add an "anonymous hacker" effect to it.
+
+Note: If the list of available text-to-speech voices is small, or all the voices sound the same, then you may need to install text-to-speech voices on your device. Many operating systems (including some versions of Android, for example) only come with one voice by default, and the others need to be downloaded in your device's settings. If you don't know how to install more voices, and you can't find a tutorial online, you can try downloading the audio with the download button instead. As mentioned above, the downloaded audio uses external voices which may be different to your device's local ones.
+
+You're free to use the generated voices for any purpose - no attribution needed. You could use this website as a free voice over generator for narrating your videos in cases where don't want to use your real voice. You can also adjust the pitch of the voice to make it sound younger/older, and you can even adjust the rate/speed of the generated speech, so you can create a fast-talking high-pitched chipmunk voice if you want to.
+
+Note: If you have offline-compatible voices installed on your device (check your system Text-To-Speech settings), then this web app works offline! Find the "add to homescreen" or "install" button in your browser to add a shortcut to this app in your home screen. And note that if you don't have an internet connection, or if for some reason the voice audio download isn't working for you, you can also use a recording app that records your devices "internal" or "system" sound.
+
+Got some feedback? You can share it with me [here](https://s.surveyplanet.com/o46GvLZsC3).

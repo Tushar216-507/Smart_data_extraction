@@ -1,0 +1,7644 @@
+{
+  "document_id": "source",
+  "total_tables": 2,
+  "tables": [
+    {
+      "table_id": "table_0001",
+      "row_count": 31,
+      "column_count": 4,
+      "cell_count": 124,
+      "headers": [
+        "BCBA/BCBA-D By State",
+        "2024 Postings",
+        "2025 Postings",
+        "% Change"
+      ],
+      "rows": [
+        [
+          "BCBA/BCBA-D By State",
+          "2024 Postings",
+          "2025 Postings",
+          "% Change"
+        ],
+        [
+          "California",
+          "19,578",
+          "20,258",
+          "3%"
+        ],
+        [
+          "New Jersey",
+          "5,154",
+          "8,139",
+          "58%"
+        ],
+        [
+          "Texas",
+          "5,889",
+          "7,792",
+          "32%"
+        ],
+        [
+          "Massachusetts",
+          "6,132",
+          "7,315",
+          "19%"
+        ],
+        [
+          "North Carolina",
+          "4,228",
+          "6,874",
+          "63%"
+        ],
+        [
+          "Georgia",
+          "4,315",
+          "6,471",
+          "50%"
+        ],
+        [
+          "Florida",
+          "4,709",
+          "5,537",
+          "18%"
+        ],
+        [
+          "Pennsylvania",
+          "3,828",
+          "5,012",
+          "31%"
+        ],
+        [
+          "New York",
+          "3,026",
+          "4,902",
+          "62%"
+        ],
+        [
+          "Illinois",
+          "4,680",
+          "4,835",
+          "3%"
+        ],
+        [
+          "Maryland",
+          "3,023",
+          "4,751",
+          "57%"
+        ],
+        [
+          "Virginia",
+          "3,425",
+          "4,343",
+          "27%"
+        ],
+        [
+          "Michigan",
+          "3,424",
+          "4,160",
+          "21%"
+        ],
+        [
+          "Colorado",
+          "2,611",
+          "3,510",
+          "34%"
+        ],
+        [
+          "Indiana",
+          "2,341",
+          "2,954",
+          "26%"
+        ],
+        [
+          "Arizona",
+          "3,025",
+          "2,841",
+          "-6%"
+        ],
+        [
+          "Tennessee",
+          "1,933",
+          "2,691",
+          "39%"
+        ],
+        [
+          "Missouri",
+          "1,454",
+          "2,565",
+          "76%"
+        ],
+        [
+          "Connecticut",
+          "1,793",
+          "2,358",
+          "32%"
+        ],
+        [
+          "Washington",
+          "2,487",
+          "2,250",
+          "-10%"
+        ],
+        [
+          "Ohio",
+          "1,791",
+          "1,912",
+          "7%"
+        ],
+        [
+          "Utah",
+          "814",
+          "1,578",
+          "94%"
+        ],
+        [
+          "Minnesota",
+          "916",
+          "1,485",
+          "62%"
+        ],
+        [
+          "South Carolina",
+          "706",
+          "1,425",
+          "102%"
+        ],
+        [
+          "New Hampshire",
+          "810",
+          "1,319",
+          "63%"
+        ],
+        [
+          "Oregon",
+          "1,399",
+          "1,254",
+          "-10%"
+        ],
+        [
+          "Kansas",
+          "1,087",
+          "1,215",
+          "12%"
+        ],
+        [
+          "Alabama",
+          "687",
+          "1,063",
+          "55%"
+        ],
+        [
+          "Nebraska",
+          "532",
+          "962",
+          "81%"
+        ],
+        [
+          "Oklahoma",
+          "815",
+          "895",
+          "10%"
+        ]
+      ],
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "BCBA/BCBA-D By State",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                0.9924,
+                2.8593,
+                0.9924,
+                2.8593,
+                1.1884,
+                0.9976,
+                1.1814
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4611,
+              "length": 20
+            }
+          ]
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "2024 Postings",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                0.9924,
+                4.4131,
+                0.9994,
+                4.4131,
+                1.1884,
+                2.8593,
+                1.1884
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4641,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "2025 Postings",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                0.9994,
+                6.0299,
+                0.9994,
+                6.0299,
+                1.1884,
+                4.4131,
+                1.1884
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4664,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "% Change",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0299,
+                0.9994,
+                7.4857,
+                0.9994,
+                7.4857,
+                1.1884,
+                6.0299,
+                1.1884
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4687,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "California",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                1.1814,
+                2.8593,
+                1.1884,
+                2.8593,
+                1.3985,
+                0.9976,
+                1.3985
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4716,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "19,578",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                1.1884,
+                4.4131,
+                1.1884,
+                4.4131,
+                1.4055,
+                2.8593,
+                1.3985
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4736,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "20,258",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                1.1884,
+                6.0299,
+                1.1884,
+                6.0299,
+                1.3985,
+                4.4131,
+                1.4055
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4752,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0299,
+                1.1884,
+                7.4857,
+                1.1884,
+                7.4857,
+                1.3985,
+                6.0299,
+                1.3985
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4768,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "New Jersey",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                1.3985,
+                2.8593,
+                1.3985,
+                2.8593,
+                1.6225,
+                0.9976,
+                1.6225
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4791,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "5,154",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                1.3985,
+                4.4131,
+                1.4055,
+                4.4131,
+                1.6225,
+                2.8593,
+                1.6225
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4811,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "8,139",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                1.4055,
+                6.0299,
+                1.3985,
+                6.0299,
+                1.6295,
+                4.4131,
+                1.6225
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4826,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "58%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0299,
+                1.3985,
+                7.4857,
+                1.3985,
+                7.4857,
+                1.6295,
+                6.0299,
+                1.6295
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4841,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Texas",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                1.6225,
+                2.8593,
+                1.6225,
+                2.8593,
+                1.8395,
+                0.9976,
+                1.8395
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4865,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "5,889",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                1.6225,
+                4.4131,
+                1.6225,
+                4.4131,
+                1.8395,
+                2.8593,
+                1.8395
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4880,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "7,792",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                1.6225,
+                6.0299,
+                1.6295,
+                6.0369,
+                1.8395,
+                4.4131,
+                1.8395
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4895,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "32%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0299,
+                1.6295,
+                7.4857,
+                1.6295,
+                7.4857,
+                1.8395,
+                6.0369,
+                1.8395
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4910,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Massachusetts",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                1.8395,
+                2.8593,
+                1.8395,
+                2.8593,
+                2.0566,
+                0.9976,
+                2.0566
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4934,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "6,132",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                1.8395,
+                4.4131,
+                1.8395,
+                4.4131,
+                2.0566,
+                2.8593,
+                2.0566
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4957,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "7,315",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                1.8395,
+                6.0369,
+                1.8395,
+                6.0369,
+                2.0636,
+                4.4131,
+                2.0566
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4972,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "19%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                1.8395,
+                7.4857,
+                1.8395,
+                7.4857,
+                2.0566,
+                6.0369,
+                2.0636
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 4987,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "North Carolina",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                2.0566,
+                2.8593,
+                2.0566,
+                2.8593,
+                2.2806,
+                0.9976,
+                2.2806
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5011,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,228",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                2.0566,
+                4.4131,
+                2.0566,
+                4.4131,
+                2.2806,
+                2.8593,
+                2.2806
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5035,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "6,874",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                2.0566,
+                6.0369,
+                2.0636,
+                6.0369,
+                2.2806,
+                4.4131,
+                2.2806
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5050,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "63%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                2.0636,
+                7.4857,
+                2.0566,
+                7.4927,
+                2.2806,
+                6.0369,
+                2.2806
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5065,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Georgia",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                2.2806,
+                2.8593,
+                2.2806,
+                2.8593,
+                2.5046,
+                0.9976,
+                2.5046
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5089,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,315",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                2.2806,
+                4.4131,
+                2.2806,
+                4.4131,
+                2.5046,
+                2.8593,
+                2.5046
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5106,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "6,471",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                2.2806,
+                6.0369,
+                2.2806,
+                6.0369,
+                2.5046,
+                4.4131,
+                2.5046
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5121,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "50%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                2.2806,
+                7.4927,
+                2.2806,
+                7.4927,
+                2.5046,
+                6.0369,
+                2.5046
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5136,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Florida",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                2.5046,
+                2.8593,
+                2.5046,
+                2.8593,
+                2.7217,
+                0.9976,
+                2.7147
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5160,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,709",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                2.5046,
+                4.4131,
+                2.5046,
+                4.4131,
+                2.7217,
+                2.8593,
+                2.7217
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5177,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "5,537",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                2.5046,
+                6.0369,
+                2.5046,
+                6.0369,
+                2.7217,
+                4.4131,
+                2.7217
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5192,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "18%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                2.5046,
+                7.4927,
+                2.5046,
+                7.4927,
+                2.7147,
+                6.0369,
+                2.7217
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5207,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Pennsylvania",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                2.7147,
+                2.8593,
+                2.7217,
+                2.8593,
+                2.9457,
+                0.9976,
+                2.9457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5231,
+              "length": 12
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,828",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                2.7217,
+                4.4131,
+                2.7217,
+                4.4131,
+                2.9457,
+                2.8593,
+                2.9457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5253,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "5,012",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                2.7217,
+                6.0369,
+                2.7217,
+                6.0369,
+                2.9457,
+                4.4131,
+                2.9457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5268,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "31%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                2.7217,
+                7.4927,
+                2.7147,
+                7.4927,
+                2.9457,
+                6.0369,
+                2.9457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5283,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "New York",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                2.9457,
+                2.8593,
+                2.9457,
+                2.8593,
+                3.1627,
+                0.9976,
+                3.1487
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5307,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,026",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                2.9457,
+                4.4131,
+                2.9457,
+                4.4131,
+                3.1627,
+                2.8593,
+                3.1627
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5325,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,902",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                2.9457,
+                6.0369,
+                2.9457,
+                6.0369,
+                3.1627,
+                4.4131,
+                3.1627
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5340,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "62%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                2.9457,
+                7.4927,
+                2.9457,
+                7.4927,
+                3.1487,
+                6.0369,
+                3.1627
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5355,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Illinois",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                3.1487,
+                2.8593,
+                3.1627,
+                2.8593,
+                3.3868,
+                0.9976,
+                3.3868
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5379,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,680",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                3.1627,
+                4.4131,
+                3.1627,
+                4.4131,
+                3.3868,
+                2.8593,
+                3.3868
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5397,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,835",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                3.1627,
+                6.0369,
+                3.1627,
+                6.0369,
+                3.3868,
+                4.4131,
+                3.3868
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5412,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                3.1627,
+                7.4927,
+                3.1487,
+                7.4927,
+                3.3868,
+                6.0369,
+                3.3868
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5427,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Maryland",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                3.3868,
+                2.8593,
+                3.3868,
+                2.8593,
+                3.6038,
+                0.9976,
+                3.6038
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5450,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,023",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                3.3868,
+                4.4131,
+                3.3868,
+                4.4131,
+                3.6038,
+                2.8593,
+                3.6038
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5468,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,751",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                3.3868,
+                6.0369,
+                3.3868,
+                6.0369,
+                3.6038,
+                4.4131,
+                3.6038
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5483,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "57%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                3.3868,
+                7.4927,
+                3.3868,
+                7.4927,
+                3.6038,
+                6.0369,
+                3.6038
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5498,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Virginia",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                3.6038,
+                2.8593,
+                3.6038,
+                2.8593,
+                3.8278,
+                0.9976,
+                3.8278
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5522,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,425",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                3.6038,
+                4.4131,
+                3.6038,
+                4.4131,
+                3.8278,
+                2.8593,
+                3.8278
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5540,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,343",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                3.6038,
+                6.0369,
+                3.6038,
+                6.0369,
+                3.8278,
+                4.4131,
+                3.8278
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5555,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "27%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                3.6038,
+                7.4927,
+                3.6038,
+                7.4927,
+                3.8278,
+                6.0369,
+                3.8278
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5570,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Michigan",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                3.8278,
+                2.8593,
+                3.8278,
+                2.8593,
+                4.0379,
+                0.9976,
+                4.0379
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5594,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,424",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                3.8278,
+                4.4131,
+                3.8278,
+                4.4131,
+                4.0379,
+                2.8593,
+                4.0379
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5612,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "4,160",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                3.8278,
+                6.0369,
+                3.8278,
+                6.0369,
+                4.0379,
+                4.4131,
+                4.0379
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5627,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "21%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                3.8278,
+                7.4927,
+                3.8278,
+                7.4927,
+                4.0379,
+                6.0369,
+                4.0379
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5642,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Colorado",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                4.0379,
+                2.8593,
+                4.0379,
+                2.8593,
+                4.2619,
+                0.9976,
+                4.2619
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5666,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,611",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                4.0379,
+                4.4131,
+                4.0379,
+                4.4131,
+                4.2619,
+                2.8593,
+                4.2619
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5684,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,510",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                4.0379,
+                6.0369,
+                4.0379,
+                6.0369,
+                4.2619,
+                4.4131,
+                4.2619
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5699,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "34%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                4.0379,
+                7.4927,
+                4.0379,
+                7.4927,
+                4.2619,
+                6.0369,
+                4.2619
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5714,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Indiana",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                4.2619,
+                2.8593,
+                4.2619,
+                2.8593,
+                4.4859,
+                0.9976,
+                4.4859
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5738,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,341",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                4.2619,
+                4.4131,
+                4.2619,
+                4.4131,
+                4.4859,
+                2.8593,
+                4.4859
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5755,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,954",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                4.2619,
+                6.0369,
+                4.2619,
+                6.0369,
+                4.4789,
+                4.4131,
+                4.4859
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5770,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "26%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                4.2619,
+                7.4927,
+                4.2619,
+                7.4927,
+                4.4789,
+                6.0369,
+                4.4789
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5785,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Arizona",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                4.4859,
+                2.8593,
+                4.4859,
+                2.8593,
+                4.703,
+                0.9976,
+                4.703
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5809,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "3,025",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                4.4859,
+                4.4131,
+                4.4859,
+                4.4131,
+                4.703,
+                2.8593,
+                4.703
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5826,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,841",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                4.4859,
+                6.0369,
+                4.4789,
+                6.0369,
+                4.703,
+                4.4131,
+                4.703
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5841,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-6%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                4.4789,
+                7.4927,
+                4.4789,
+                7.4927,
+                4.703,
+                6.0369,
+                4.703
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5856,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Tennessee",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                4.703,
+                2.8593,
+                4.703,
+                2.8593,
+                4.92,
+                0.9976,
+                4.92
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5880,
+              "length": 9
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,933",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                4.703,
+                4.4131,
+                4.703,
+                4.4131,
+                4.92,
+                2.8593,
+                4.92
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5899,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,691",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                4.703,
+                6.0369,
+                4.703,
+                6.0369,
+                4.92,
+                4.4131,
+                4.92
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5914,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "39%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                4.703,
+                7.4927,
+                4.703,
+                7.4927,
+                4.92,
+                6.0369,
+                4.92
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5929,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Missouri",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                4.92,
+                2.8593,
+                4.92,
+                2.8593,
+                5.151,
+                0.9976,
+                5.151
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5953,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,454",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                4.92,
+                4.4131,
+                4.92,
+                4.4131,
+                5.151,
+                2.8593,
+                5.151
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5971,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,565",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                4.92,
+                6.0369,
+                4.92,
+                6.0369,
+                5.151,
+                4.4131,
+                5.151
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 5986,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "76%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                4.92,
+                7.4927,
+                4.92,
+                7.4927,
+                5.137,
+                6.0369,
+                5.151
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6001,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Connecticut",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                5.151,
+                2.8593,
+                5.151,
+                2.8593,
+                5.3681,
+                0.9976,
+                5.3681
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6025,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,793",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                5.151,
+                4.4131,
+                5.151,
+                4.4131,
+                5.3681,
+                2.8593,
+                5.3681
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6046,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,358",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                5.151,
+                6.0369,
+                5.151,
+                6.0439,
+                5.3681,
+                4.4131,
+                5.3681
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6061,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "32%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0369,
+                5.151,
+                7.4927,
+                5.137,
+                7.4927,
+                5.3611,
+                6.0439,
+                5.3681
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6076,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Washington",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                5.3681,
+                2.8593,
+                5.3681,
+                2.8593,
+                5.5851,
+                0.9976,
+                5.5781
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6100,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,487",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                5.3681,
+                4.4131,
+                5.3681,
+                4.4131,
+                5.5851,
+                2.8593,
+                5.5851
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6120,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,250",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                5.3681,
+                6.0439,
+                5.3681,
+                6.0439,
+                5.5851,
+                4.4131,
+                5.5851
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6135,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-10%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                5.3681,
+                7.4927,
+                5.3611,
+                7.4927,
+                5.5851,
+                6.0439,
+                5.5851
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6150,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Ohio",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                5.5781,
+                2.8593,
+                5.5851,
+                2.8593,
+                5.8021,
+                0.9976,
+                5.8021
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6175,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,791",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                5.5851,
+                4.4131,
+                5.5851,
+                4.4131,
+                5.8021,
+                2.8593,
+                5.8021
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6189,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,912",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                5.5851,
+                6.0439,
+                5.5851,
+                6.0439,
+                5.8021,
+                4.4131,
+                5.8021
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6204,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "7%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                5.5851,
+                7.4927,
+                5.5851,
+                7.4997,
+                5.7951,
+                6.0439,
+                5.8021
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6219,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Utah",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                5.8021,
+                2.8593,
+                5.8021,
+                2.8593,
+                6.0192,
+                0.9976,
+                6.0262
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6242,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "814",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                5.8021,
+                4.4131,
+                5.8021,
+                4.4131,
+                6.0192,
+                2.8593,
+                6.0192
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6256,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,578",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                5.8021,
+                6.0439,
+                5.8021,
+                6.0439,
+                6.0192,
+                4.4131,
+                6.0192
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6269,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "94%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                5.8021,
+                7.4997,
+                5.7951,
+                7.4997,
+                6.0192,
+                6.0439,
+                6.0192
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6284,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Minnesota",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                6.0262,
+                2.8593,
+                6.0192,
+                2.8593,
+                6.2432,
+                0.9976,
+                6.2432
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6308,
+              "length": 9
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "916",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                6.0192,
+                4.4131,
+                6.0192,
+                4.4131,
+                6.2362,
+                2.8593,
+                6.2432
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6327,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,485",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                6.0192,
+                6.0439,
+                6.0192,
+                6.0439,
+                6.2432,
+                4.4131,
+                6.2362
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6340,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "62%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                6.0192,
+                7.4997,
+                6.0192,
+                7.4997,
+                6.2362,
+                6.0439,
+                6.2432
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6355,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "South Carolina",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                6.2432,
+                2.8593,
+                6.2432,
+                2.8593,
+                6.4672,
+                0.9976,
+                6.4672
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6379,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "706",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                6.2432,
+                4.4131,
+                6.2362,
+                4.4131,
+                6.4672,
+                2.8593,
+                6.4672
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6403,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,425",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                6.2362,
+                6.0439,
+                6.2432,
+                6.0439,
+                6.4672,
+                4.4131,
+                6.4672
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6416,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "102%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                6.2432,
+                7.4997,
+                6.2362,
+                7.4997,
+                6.4672,
+                6.0439,
+                6.4672
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6431,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "New Hampshire",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                6.4672,
+                2.8593,
+                6.4672,
+                2.8593,
+                6.6843,
+                0.9976,
+                6.6843
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6456,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "810",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                6.4672,
+                4.4131,
+                6.4672,
+                4.4131,
+                6.6843,
+                2.8593,
+                6.6843
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6479,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,319",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                6.4672,
+                6.0439,
+                6.4672,
+                6.0439,
+                6.6843,
+                4.4131,
+                6.6843
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6492,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "63%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                6.4672,
+                7.4997,
+                6.4672,
+                7.4997,
+                6.6773,
+                6.0439,
+                6.6843
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6507,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Oregon",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                6.6843,
+                2.8593,
+                6.6843,
+                2.8593,
+                6.9083,
+                0.9976,
+                6.9083
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6531,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,399",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                6.6843,
+                4.4131,
+                6.6843,
+                4.4131,
+                6.9083,
+                2.8593,
+                6.9083
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6547,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,254",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                6.6843,
+                6.0439,
+                6.6843,
+                6.0439,
+                6.9083,
+                4.4131,
+                6.9083
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6562,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-10%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                6.6843,
+                7.4997,
+                6.6773,
+                7.4997,
+                6.9013,
+                6.0439,
+                6.9083
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6577,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Kansas",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                6.9083,
+                2.8593,
+                6.9083,
+                2.8593,
+                7.1183,
+                0.9976,
+                7.1253
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6602,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,087",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                6.9083,
+                4.4131,
+                6.9083,
+                4.4131,
+                7.1183,
+                2.8593,
+                7.1183
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6618,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,215",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                6.9083,
+                6.0439,
+                6.9083,
+                6.0439,
+                7.1183,
+                4.4131,
+                7.1183
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6633,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "12%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                6.9083,
+                7.4997,
+                6.9013,
+                7.4997,
+                7.1183,
+                6.0439,
+                7.1183
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6648,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Alabama",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                7.1253,
+                2.8593,
+                7.1183,
+                2.8593,
+                7.3424,
+                0.9976,
+                7.3424
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6672,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "687",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                7.1183,
+                4.4131,
+                7.1183,
+                4.4131,
+                7.3424,
+                2.8593,
+                7.3424
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6689,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,063",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                7.1183,
+                6.0439,
+                7.1183,
+                6.0439,
+                7.3424,
+                4.4131,
+                7.3424
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6702,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "55%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                7.1183,
+                7.4997,
+                7.1183,
+                7.4997,
+                7.3424,
+                6.0439,
+                7.3424
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6717,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Nebraska",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                7.3424,
+                2.8593,
+                7.3424,
+                2.8593,
+                7.5664,
+                0.9976,
+                7.5664
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6741,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "532",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                7.3424,
+                4.4131,
+                7.3424,
+                4.4131,
+                7.5594,
+                2.8593,
+                7.5664
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6759,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "962",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                7.3424,
+                6.0439,
+                7.3424,
+                6.0439,
+                7.5594,
+                4.4131,
+                7.5594
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6772,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "81%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                7.3424,
+                7.4997,
+                7.3424,
+                7.4997,
+                7.5594,
+                6.0439,
+                7.5594
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6785,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Oklahoma",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                0.9976,
+                7.5664,
+                2.8593,
+                7.5664,
+                2.8593,
+                7.7834,
+                0.9976,
+                7.7764
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6809,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "815",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                2.8593,
+                7.5664,
+                4.4131,
+                7.5594,
+                4.4131,
+                7.7834,
+                2.8593,
+                7.7834
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6827,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "895",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                4.4131,
+                7.5594,
+                6.0439,
+                7.5594,
+                6.0439,
+                7.7834,
+                4.4131,
+                7.7834
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6840,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "10%",
+          "bounding_regions": [
+            {
+              "pageNumber": 4,
+              "polygon": [
+                6.0439,
+                7.5594,
+                7.4997,
+                7.5594,
+                7.4997,
+                7.7834,
+                6.0439,
+                7.7834
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 6853,
+              "length": 3
+            }
+          ]
+        }
+      ],
+      "bounding_regions": [
+        {
+          "pageNumber": 4,
+          "polygon": [
+            0.9885,
+            0.9828,
+            7.5057,
+            0.9818,
+            7.5077,
+            7.7962,
+            0.9898,
+            7.7947
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 4594,
+          "length": 2282
+        }
+      ]
+    },
+    {
+      "table_id": "table_0002",
+      "row_count": 31,
+      "column_count": 4,
+      "cell_count": 124,
+      "headers": [
+        "BCaBA by State",
+        "2024 Postings",
+        "2025 Postings",
+        "% Change"
+      ],
+      "rows": [
+        [
+          "BCaBA by State",
+          "2024 Postings",
+          "2025 Postings",
+          "% Change"
+        ],
+        [
+          "California",
+          "2,610",
+          "1,612",
+          "-38%"
+        ],
+        [
+          "Florida",
+          "1,408",
+          "978",
+          "-31%"
+        ],
+        [
+          "Michigan",
+          "734",
+          "788",
+          "7%"
+        ],
+        [
+          "Texas",
+          "1,341",
+          "669",
+          "-50%"
+        ],
+        [
+          "Pennsylvania",
+          "705",
+          "560",
+          "-21%"
+        ],
+        [
+          "Georgia",
+          "590",
+          "554",
+          "-6%"
+        ],
+        [
+          "Virginia",
+          "920",
+          "470",
+          "-49%"
+        ],
+        [
+          "New Jersey",
+          "393",
+          "402",
+          "2%"
+        ],
+        [
+          "Tennessee",
+          "405",
+          "346",
+          "-15%"
+        ],
+        [
+          "North Carolina",
+          "423",
+          "307",
+          "-27%"
+        ],
+        [
+          "Missouri",
+          "253",
+          "305",
+          "21%"
+        ],
+        [
+          "South Carolina",
+          "248",
+          "278",
+          "12%"
+        ],
+        [
+          "Washington",
+          "324",
+          "272",
+          "-16%"
+        ],
+        [
+          "Massachusetts",
+          "374",
+          "266",
+          "-29%"
+        ],
+        [
+          "Indiana",
+          "226",
+          "261",
+          "15%"
+        ],
+        [
+          "Illinois",
+          "517",
+          "230",
+          "-56%"
+        ],
+        [
+          "Oregon",
+          "214",
+          "203",
+          "-5%"
+        ],
+        [
+          "Colorado",
+          "254",
+          "198",
+          "-22%"
+        ],
+        [
+          "Alabama",
+          "256",
+          "190",
+          "-26%"
+        ],
+        [
+          "Ohio",
+          "221",
+          "165",
+          "-25%"
+        ],
+        [
+          "Minnesota",
+          "202",
+          "149",
+          "-26%"
+        ],
+        [
+          "Arizona",
+          "212",
+          "137",
+          "-35%"
+        ],
+        [
+          "Maryland",
+          "120",
+          "133",
+          "11%"
+        ],
+        [
+          "Louisiana",
+          "194",
+          "110",
+          "-43%"
+        ],
+        [
+          "Kansas",
+          "267",
+          "107",
+          "-60%"
+        ],
+        [
+          "New York",
+          "86",
+          "106",
+          "23%"
+        ],
+        [
+          "Hawaii",
+          "83",
+          "92",
+          "11%"
+        ],
+        [
+          "Oklahoma",
+          "201",
+          "82",
+          "-59%"
+        ],
+        [
+          "Nevada",
+          "175",
+          "79",
+          "-55%"
+        ],
+        [
+          "New Hampshire",
+          "18",
+          "71",
+          "294%"
+        ]
+      ],
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "BCaBA by State",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                1.0043,
+                0.9992,
+                2.6401,
+                0.9922,
+                2.6401,
+                1.1881,
+                1.0043,
+                1.1811
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8499,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "2024 Postings",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                0.9922,
+                4.255,
+                0.9992,
+                4.255,
+                1.1881,
+                2.6401,
+                1.1881
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8523,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "2025 Postings",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.255,
+                0.9992,
+                5.9048,
+                0.9992,
+                5.9118,
+                1.1881,
+                4.255,
+                1.1881
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8546,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "columnHeader",
+          "content": "% Change",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9048,
+                0.9992,
+                7.4637,
+                0.9992,
+                7.4637,
+                1.1881,
+                5.9118,
+                1.1881
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8569,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "California",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                1.0043,
+                1.1811,
+                2.6401,
+                1.1881,
+                2.6401,
+                1.405,
+                1.0043,
+                1.391
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8598,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2,610",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                1.1881,
+                4.255,
+                1.1881,
+                4.2619,
+                1.405,
+                2.6401,
+                1.405
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8618,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,612",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.255,
+                1.1881,
+                5.9118,
+                1.1881,
+                5.9118,
+                1.405,
+                4.2619,
+                1.405
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8633,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-38%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                1.1881,
+                7.4637,
+                1.1881,
+                7.4637,
+                1.405,
+                5.9118,
+                1.405
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8648,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Florida",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                1.0043,
+                1.391,
+                2.6401,
+                1.405,
+                2.6401,
+                1.6218,
+                0.9973,
+                1.6218
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8673,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,408",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                1.405,
+                4.2619,
+                1.405,
+                4.2619,
+                1.6288,
+                2.6401,
+                1.6218
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8690,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "978",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                1.405,
+                5.9118,
+                1.405,
+                5.9118,
+                1.6288,
+                4.2619,
+                1.6288
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8705,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-31%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                1.405,
+                7.4637,
+                1.405,
+                7.4637,
+                1.6288,
+                5.9118,
+                1.6288
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8718,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Michigan",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                1.6218,
+                2.6401,
+                1.6218,
+                2.6401,
+                1.8457,
+                0.9973,
+                1.8457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8743,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "734",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                1.6218,
+                4.2619,
+                1.6288,
+                4.2619,
+                1.8457,
+                2.6401,
+                1.8457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8761,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "788",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                1.6288,
+                5.9118,
+                1.6288,
+                5.9118,
+                1.8387,
+                4.2619,
+                1.8457
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8774,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "7%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                1.6288,
+                7.4637,
+                1.6288,
+                7.4637,
+                1.8457,
+                5.9118,
+                1.8387
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8787,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Texas",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                1.8457,
+                2.6401,
+                1.8457,
+                2.6401,
+                2.0625,
+                0.9973,
+                2.0625
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8810,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "1,341",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                1.8457,
+                4.2619,
+                1.8457,
+                4.2619,
+                2.0625,
+                2.6401,
+                2.0625
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8825,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "669",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                1.8457,
+                5.9118,
+                1.8387,
+                5.9118,
+                2.0695,
+                4.2619,
+                2.0625
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8840,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-50%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                1.8387,
+                7.4637,
+                1.8457,
+                7.4637,
+                2.0555,
+                5.9118,
+                2.0695
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8853,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Pennsylvania",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                2.0625,
+                2.6401,
+                2.0625,
+                2.6401,
+                2.2864,
+                0.9973,
+                2.2794
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8878,
+              "length": 12
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "705",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                2.0625,
+                4.2619,
+                2.0625,
+                4.2619,
+                2.2794,
+                2.6401,
+                2.2864
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8900,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "560",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                2.0625,
+                5.9118,
+                2.0695,
+                5.9118,
+                2.2794,
+                4.2619,
+                2.2794
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8913,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-21%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                2.0695,
+                7.4637,
+                2.0555,
+                7.4637,
+                2.2864,
+                5.9118,
+                2.2794
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8926,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Georgia",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                2.2794,
+                2.6401,
+                2.2864,
+                2.6401,
+                2.5033,
+                0.9973,
+                2.5033
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8951,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "590",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                2.2864,
+                4.2619,
+                2.2794,
+                4.2619,
+                2.5033,
+                2.6401,
+                2.5033
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8968,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "554",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                2.2794,
+                5.9118,
+                2.2794,
+                5.9118,
+                2.5033,
+                4.2619,
+                2.5033
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8981,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-6%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                2.2794,
+                7.4637,
+                2.2864,
+                7.4637,
+                2.5033,
+                5.9118,
+                2.5033
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 8994,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Virginia",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                2.5033,
+                2.6401,
+                2.5033,
+                2.6401,
+                2.7131,
+                0.9973,
+                2.7131
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9018,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "920",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                2.5033,
+                4.2619,
+                2.5033,
+                4.2619,
+                2.7131,
+                2.6401,
+                2.7131
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9036,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "470",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                2.5033,
+                5.9118,
+                2.5033,
+                5.9188,
+                2.7131,
+                4.2619,
+                2.7131
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9049,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-49%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9118,
+                2.5033,
+                7.4637,
+                2.5033,
+                7.4637,
+                2.7131,
+                5.9188,
+                2.7131
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9062,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "New Jersey",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                2.7131,
+                2.6401,
+                2.7131,
+                2.6401,
+                2.944,
+                0.9973,
+                2.944
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9087,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "393",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                2.7131,
+                4.2619,
+                2.7131,
+                4.2619,
+                2.944,
+                2.6401,
+                2.944
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9107,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "402",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                2.7131,
+                5.9188,
+                2.7131,
+                5.9188,
+                2.944,
+                4.2619,
+                2.944
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9120,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "2%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                2.7131,
+                7.4637,
+                2.7131,
+                7.4637,
+                2.944,
+                5.9188,
+                2.944
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9133,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Tennessee",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                2.944,
+                2.6401,
+                2.944,
+                2.6401,
+                3.1609,
+                0.9973,
+                3.1539
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9156,
+              "length": 9
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "405",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                2.944,
+                4.2619,
+                2.944,
+                4.2619,
+                3.1609,
+                2.6401,
+                3.1609
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9175,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "346",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                2.944,
+                5.9188,
+                2.944,
+                5.9188,
+                3.1609,
+                4.2619,
+                3.1609
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9188,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-15%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                2.944,
+                7.4637,
+                2.944,
+                7.4637,
+                3.1539,
+                5.9188,
+                3.1609
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9201,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "North Carolina",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                3.1539,
+                2.6401,
+                3.1609,
+                2.6401,
+                3.3847,
+                0.9973,
+                3.3847
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9226,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "423",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                3.1609,
+                4.2619,
+                3.1609,
+                4.2619,
+                3.3847,
+                2.6401,
+                3.3847
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9250,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "307",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                3.1609,
+                5.9188,
+                3.1609,
+                5.9188,
+                3.3847,
+                4.2619,
+                3.3847
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9263,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-27%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                3.1609,
+                7.4637,
+                3.1539,
+                7.4707,
+                3.3847,
+                5.9188,
+                3.3847
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9276,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Missouri",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                3.3847,
+                2.6401,
+                3.3847,
+                2.6401,
+                3.5946,
+                0.9973,
+                3.5946
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9301,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "253",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                3.3847,
+                4.2619,
+                3.3847,
+                4.2619,
+                3.5946,
+                2.6401,
+                3.5946
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9319,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "305",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                3.3847,
+                5.9188,
+                3.3847,
+                5.9188,
+                3.5946,
+                4.2619,
+                3.5946
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9332,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "21%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                3.3847,
+                7.4707,
+                3.3847,
+                7.4707,
+                3.5946,
+                5.9188,
+                3.5946
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9345,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "South Carolina",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                3.5946,
+                2.6401,
+                3.5946,
+                2.6401,
+                3.8255,
+                0.9973,
+                3.8255
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9369,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "248",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                3.5946,
+                4.2619,
+                3.5946,
+                4.2619,
+                3.8255,
+                2.6401,
+                3.8255
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9393,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "278",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                3.5946,
+                5.9188,
+                3.5946,
+                5.9188,
+                3.8255,
+                4.2619,
+                3.8255
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9406,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "12%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                3.5946,
+                7.4707,
+                3.5946,
+                7.4707,
+                3.8255,
+                5.9188,
+                3.8255
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9419,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Washington",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                3.8255,
+                2.6401,
+                3.8255,
+                2.6401,
+                4.0423,
+                0.9973,
+                4.0423
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9443,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "324",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                3.8255,
+                4.2619,
+                3.8255,
+                4.2619,
+                4.0423,
+                2.6401,
+                4.0423
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9463,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "272",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                3.8255,
+                5.9188,
+                3.8255,
+                5.9188,
+                4.0423,
+                4.2619,
+                4.0423
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9476,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-16%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                3.8255,
+                7.4707,
+                3.8255,
+                7.4707,
+                4.0423,
+                5.9188,
+                4.0423
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9489,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Massachusetts",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                4.0423,
+                2.6401,
+                4.0423,
+                2.6401,
+                4.2592,
+                0.9973,
+                4.2592
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9514,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "374",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                4.0423,
+                4.2619,
+                4.0423,
+                4.2619,
+                4.2592,
+                2.6401,
+                4.2592
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9537,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "266",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                4.0423,
+                5.9188,
+                4.0423,
+                5.9257,
+                4.2592,
+                4.2619,
+                4.2592
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9550,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-29%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9188,
+                4.0423,
+                7.4707,
+                4.0423,
+                7.4707,
+                4.2592,
+                5.9257,
+                4.2592
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9563,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Indiana",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                4.2592,
+                2.6401,
+                4.2592,
+                2.6401,
+                4.476,
+                0.9973,
+                4.476
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9588,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "226",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                4.2592,
+                4.2619,
+                4.2592,
+                4.2619,
+                4.476,
+                2.6401,
+                4.476
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9605,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "261",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                4.2592,
+                5.9257,
+                4.2592,
+                5.9257,
+                4.476,
+                4.2619,
+                4.476
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9618,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "15%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                4.2592,
+                7.4707,
+                4.2592,
+                7.4707,
+                4.476,
+                5.9257,
+                4.476
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9631,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Illinois",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                4.476,
+                2.6401,
+                4.476,
+                2.6401,
+                4.6999,
+                0.9973,
+                4.6999
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9655,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "517",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                4.476,
+                4.2619,
+                4.476,
+                4.2689,
+                4.6999,
+                2.6401,
+                4.6999
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9673,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "230",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2619,
+                4.476,
+                5.9257,
+                4.476,
+                5.9257,
+                4.6999,
+                4.2689,
+                4.6999
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9686,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 16,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-56%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                4.476,
+                7.4707,
+                4.476,
+                7.4707,
+                4.6999,
+                5.9257,
+                4.6999
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9699,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Oregon",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                4.6999,
+                2.6401,
+                4.6999,
+                2.6401,
+                4.9238,
+                0.9973,
+                4.9238
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9724,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "214",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                4.6999,
+                4.2689,
+                4.6999,
+                4.2689,
+                4.9238,
+                2.6401,
+                4.9238
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9740,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "203",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                4.6999,
+                5.9257,
+                4.6999,
+                5.9257,
+                4.9238,
+                4.2689,
+                4.9238
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9753,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 17,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-5%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                4.6999,
+                7.4707,
+                4.6999,
+                7.4707,
+                4.9168,
+                5.9257,
+                4.9238
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9766,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Colorado",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                4.9238,
+                2.6401,
+                4.9238,
+                2.6401,
+                5.1406,
+                0.9973,
+                5.1406
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9790,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "254",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                4.9238,
+                4.2689,
+                4.9238,
+                4.2689,
+                5.1406,
+                2.6401,
+                5.1406
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9808,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "198",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                4.9238,
+                5.9257,
+                4.9238,
+                5.9257,
+                5.1406,
+                4.2689,
+                5.1406
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9821,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 18,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-22%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                4.9238,
+                7.4707,
+                4.9168,
+                7.4707,
+                5.1406,
+                5.9257,
+                5.1406
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9834,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Alabama",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                5.1406,
+                2.6401,
+                5.1406,
+                2.6401,
+                5.3575,
+                0.9973,
+                5.3575
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9859,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "256",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                5.1406,
+                4.2689,
+                5.1406,
+                4.2689,
+                5.3575,
+                2.6401,
+                5.3575
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9876,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "190",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                5.1406,
+                5.9257,
+                5.1406,
+                5.9257,
+                5.3575,
+                4.2689,
+                5.3575
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9889,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 19,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-26%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                5.1406,
+                7.4707,
+                5.1406,
+                7.4707,
+                5.3575,
+                5.9257,
+                5.3575
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9902,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Ohio",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                5.3575,
+                2.6401,
+                5.3575,
+                2.6401,
+                5.5814,
+                0.9973,
+                5.5814
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9927,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "221",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                5.3575,
+                4.2689,
+                5.3575,
+                4.2689,
+                5.5814,
+                2.6401,
+                5.5814
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9941,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "165",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                5.3575,
+                5.9257,
+                5.3575,
+                5.9257,
+                5.5814,
+                4.2689,
+                5.5814
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9954,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 20,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-25%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                5.3575,
+                7.4707,
+                5.3575,
+                7.4707,
+                5.5814,
+                5.9257,
+                5.5814
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9967,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Minnesota",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                5.5814,
+                2.6401,
+                5.5814,
+                2.6401,
+                5.7982,
+                0.9973,
+                5.7982
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9992,
+              "length": 9
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "202",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                5.5814,
+                4.2689,
+                5.5814,
+                4.2689,
+                5.7982,
+                2.6401,
+                5.7982
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10011,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "149",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                5.5814,
+                5.9257,
+                5.5814,
+                5.9327,
+                5.7982,
+                4.2689,
+                5.7982
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10024,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 21,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-26%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9257,
+                5.5814,
+                7.4707,
+                5.5814,
+                7.4707,
+                5.7982,
+                5.9327,
+                5.7982
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10037,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Arizona",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                5.7982,
+                2.6401,
+                5.7982,
+                2.6401,
+                6.0291,
+                0.9973,
+                6.0291
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10062,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "212",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                5.7982,
+                4.2689,
+                5.7982,
+                4.2689,
+                6.0291,
+                2.6401,
+                6.0291
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10079,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "137",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                5.7982,
+                5.9327,
+                5.7982,
+                5.9327,
+                6.0221,
+                4.2689,
+                6.0291
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10092,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 22,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-35%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                5.7982,
+                7.4707,
+                5.7982,
+                7.4707,
+                6.0151,
+                5.9327,
+                6.0221
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10105,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Maryland",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                6.0291,
+                2.6401,
+                6.0291,
+                2.6401,
+                6.239,
+                0.9973,
+                6.239
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10130,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "120",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                6.0291,
+                4.2689,
+                6.0291,
+                4.2689,
+                6.239,
+                2.6401,
+                6.239
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10148,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "133",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                6.0291,
+                5.9327,
+                6.0221,
+                5.9327,
+                6.239,
+                4.2689,
+                6.239
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10161,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 23,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "11%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                6.0221,
+                7.4707,
+                6.0151,
+                7.4707,
+                6.239,
+                5.9327,
+                6.239
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10174,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Louisiana",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                6.239,
+                2.6401,
+                6.239,
+                2.6401,
+                6.4628,
+                0.9973,
+                6.4628
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10198,
+              "length": 9
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "194",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                6.239,
+                4.2689,
+                6.239,
+                4.2689,
+                6.4628,
+                2.6401,
+                6.4628
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10217,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "110",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                6.239,
+                5.9327,
+                6.239,
+                5.9327,
+                6.4628,
+                4.2689,
+                6.4628
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10230,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 24,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-43%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                6.239,
+                7.4707,
+                6.239,
+                7.4707,
+                6.4628,
+                5.9327,
+                6.4628
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10243,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Kansas",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                6.4628,
+                2.6401,
+                6.4628,
+                2.6401,
+                6.6797,
+                0.9973,
+                6.6797
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10268,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "267",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                6.4628,
+                4.2689,
+                6.4628,
+                4.2689,
+                6.6797,
+                2.6401,
+                6.6797
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10284,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "107",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                6.4628,
+                5.9327,
+                6.4628,
+                5.9327,
+                6.6797,
+                4.2689,
+                6.6797
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10297,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 25,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-60%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                6.4628,
+                7.4707,
+                6.4628,
+                7.4777,
+                6.6797,
+                5.9327,
+                6.6797
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10310,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "New York",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                6.6797,
+                2.6401,
+                6.6797,
+                2.6471,
+                6.8966,
+                0.9973,
+                6.8966
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10335,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "86",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6401,
+                6.6797,
+                4.2689,
+                6.6797,
+                4.2689,
+                6.8966,
+                2.6471,
+                6.8966
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10353,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "106",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                6.6797,
+                5.9327,
+                6.6797,
+                5.9327,
+                6.8966,
+                4.2689,
+                6.8966
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10365,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 26,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "23%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                6.6797,
+                7.4777,
+                6.6797,
+                7.4777,
+                6.8966,
+                5.9327,
+                6.8966
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10378,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Hawaii",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                6.8966,
+                2.6471,
+                6.8966,
+                2.6471,
+                7.1274,
+                0.9973,
+                7.1274
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10402,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "83",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6471,
+                6.8966,
+                4.2689,
+                6.8966,
+                4.2689,
+                7.1274,
+                2.6471,
+                7.1274
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10418,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "92",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                6.8966,
+                5.9327,
+                6.8966,
+                5.9327,
+                7.1204,
+                4.2689,
+                7.1274
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10430,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 27,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "11%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                6.8966,
+                7.4777,
+                6.8966,
+                7.4777,
+                7.1204,
+                5.9327,
+                7.1204
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10442,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Oklahoma",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                7.1274,
+                2.6471,
+                7.1274,
+                2.6471,
+                7.3373,
+                0.9973,
+                7.3373
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10466,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "201",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6471,
+                7.1274,
+                4.2689,
+                7.1274,
+                4.2689,
+                7.3373,
+                2.6471,
+                7.3373
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10484,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "82",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                7.1274,
+                5.9327,
+                7.1204,
+                5.9327,
+                7.3443,
+                4.2689,
+                7.3373
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10497,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 28,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-59%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                7.1204,
+                7.4777,
+                7.1204,
+                7.4777,
+                7.3443,
+                5.9327,
+                7.3443
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10509,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "Nevada",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                7.3373,
+                2.6471,
+                7.3373,
+                2.6471,
+                7.5681,
+                0.9973,
+                7.5681
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10534,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "175",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6471,
+                7.3373,
+                4.2689,
+                7.3373,
+                4.2689,
+                7.5611,
+                2.6471,
+                7.5681
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10550,
+              "length": 3
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "79",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                7.3373,
+                5.9327,
+                7.3443,
+                5.9397,
+                7.5611,
+                4.2689,
+                7.5611
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10563,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 29,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "-55%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9327,
+                7.3443,
+                7.4777,
+                7.3443,
+                7.4777,
+                7.5611,
+                5.9397,
+                7.5611
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10575,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "New Hampshire",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                0.9973,
+                7.5681,
+                2.6471,
+                7.5681,
+                2.6471,
+                7.778,
+                0.9973,
+                7.771
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10600,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "18",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                2.6471,
+                7.5681,
+                4.2689,
+                7.5611,
+                4.2689,
+                7.778,
+                2.6471,
+                7.778
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10623,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "71",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                4.2689,
+                7.5611,
+                5.9397,
+                7.5611,
+                5.9397,
+                7.778,
+                4.2689,
+                7.778
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10635,
+              "length": 2
+            }
+          ]
+        },
+        {
+          "row_index": 30,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "kind": "content",
+          "content": "294%",
+          "bounding_regions": [
+            {
+              "pageNumber": 6,
+              "polygon": [
+                5.9397,
+                7.5611,
+                7.4777,
+                7.5611,
+                7.4777,
+                7.778,
+                5.9397,
+                7.778
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 10647,
+              "length": 4
+            }
+          ]
+        }
+      ],
+      "bounding_regions": [
+        {
+          "pageNumber": 6,
+          "polygon": [
+            0.9903,
+            0.984,
+            7.4836,
+            0.9831,
+            7.4852,
+            7.7921,
+            0.9913,
+            7.7907
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 8482,
+          "length": 2189
+        }
+      ]
+    }
+  ]
+}

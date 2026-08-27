@@ -1,0 +1,130 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "both",
+      "scope": "both",
+      "field": "program_name",
+      "value": "Bachelor of Science in Business Education",
+      "original_value": "B.Sc. Wirtschaftspädagogik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Science in Business Education"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "both",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Import modules can only be taken based on existing cooperation agreements between departments.",
+      "original_value": "Importmodule können nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen absolviert werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Science in Business Education"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "both",
+      "scope": "both",
+      "field": "important_information",
+      "value": "No other modules from other departments can be incorporated into your program.",
+      "original_value": "Darüber hinaus können Sie keine anderen Module von anderen Fachbereichen in Ihren Studiengang am Fachbereich Wirtschaftswissenschaften einbringen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Science in Business Education"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "both",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Import modules are subject to the examination regulations of the exporting department.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0047",
+        "name": "Bachelor of Science in Business Education"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

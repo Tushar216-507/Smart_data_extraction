@@ -1,0 +1,38 @@
+{
+  "facts": [
+    {
+      "category": "career",
+      "scope": "programme",
+      "field": "career_fields",
+      "value": [
+        "Academic career / research",
+        "Interpreter / translator",
+        "Foreign language didactics / DaF",
+        "Publishing / editing",
+        "Journalism / media",
+        "Computational linguistics / software development",
+        "Many other areas depending on specialization choice"
+      ],
+      "original_value": "Akademische Laufbahn / Forschung, Dolmetscher / Übersetzer, Fremdsprachendidaktik / DaF, Verlagswesen / Lektorat, Journalismus / Medien, Computerlinguistik / Softwareentwicklung, Viele weitere Bereiche je nach Schwerpunktwahl",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

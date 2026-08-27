@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university",
+      "value": "Johann Wolfgang Goethe-Universität",
+      "original_value": "Johann Wolfgang Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_structure_description",
+      "value": "The bachelor's program can be offered as a single-subject or multi-subject program.",
+      "original_value": "Das Bachelorstudium wird an der Johann Wolfgang Goethe-Universität als Ein-Fach- oder als Mehr-Fächer-Studium angeboten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 180,
+      "original_value": "180 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "single_subject_bachelor"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "main_subject_credits",
+      "value": 120,
+      "original_value": "120 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "multi_subject_bachelor",
+        "main_subject_position": 1
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "minor_subject_credits",
+      "value": 60,
+      "original_value": "60 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "type": "multi_subject_bachelor",
+        "minor_subject_position": 1
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "multi_subject_program_options",
+      "value": "Multi-subject programs can consist of a major and a minor or a major and two minors.",
+      "original_value": "Mehr-Fächer-Studiengänge bestehen aus einem Hauptfach und einem Nebenfach oder aus einem Hauptfach und zwei Nebenfächern.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Master's thesis",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "description",
+      "value": "The Master's thesis should demonstrate the student's ability to comprehensively and deeply process a topic within a stipulated period following the objectives set out in paragraphs 2 and 6.",
+      "original_value": "Die Masterarbeit soll zeigen, dass die oder der Studierende in der Lage ist, innerhalb einer vorgegebenen Frist entsprechend den Zielen gemäß §§ 2 und 6 ein Thema umfassend und vertieft zu bearbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "credits",
+      "value": 24,
+      "original_value": "24 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 18,
+      "original_value": "18 Wochen",
+      "unit": "weeks",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "Admission to the Master's thesis requires proof of 60 CP from the Master's program Money, Macro and Finance, including all modules from the foundational phase.",
+      "original_value": "Die Zulassung zur Masterarbeit setzt den Nachweis von 60 CP aus dem Masterstudiengang Money, Macro and Finance, darunter alle Module der Grundlagenphase, voraus.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The Master's thesis must be written in English.",
+      "original_value": "Die Masterarbeit ist in englischer Sprache abzufassen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Master's thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

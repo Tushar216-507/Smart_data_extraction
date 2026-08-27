@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0147",
+  "program_name": "Online Master of Project Management",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0147\\final",
+  "input_fact_count": 14,
+  "unique_fact_count": 14,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 14,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 14,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 5,
+    "admission": 1,
+    "curriculum": 5,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 2,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0147\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0147\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0147\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0147\\final\\career_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0147\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0147\\final\\build_summary.json"
+  }
+}

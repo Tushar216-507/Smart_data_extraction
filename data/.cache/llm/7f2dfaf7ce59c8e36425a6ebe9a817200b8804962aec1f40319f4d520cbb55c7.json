@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Johann Wolfgang Goethe-University Frankfurt am Main",
+      "original_value": "Johann Wolfgang Goethe- Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "both",
+      "field": "regulation",
+      "value": "HessHG: Hessisches Hochschulgesetz vom 14. Dezember 2021",
+      "original_value": "Hessisches Hochschulgesetz vom 14. Dezember 2021, verkündet als Artikel 1 des Gesetzes zur Neuregelung und Änderung hochschulrechtlicher Vorschriften und zur Anpassung weiterer Rechtsvorschriften vom 14. Dezember 2021 (GVBl. S. 931), zuletzt geändert durch Artikel 7 des Gesetzes vom 29. Juni 2023 (GVBl. S. 456, 472)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "both",
+      "field": "regulation",
+      "value": "RO: Rahmenordnung für gestufte und modularisierte Studiengänge",
+      "original_value": "Rahmenordnung für gestufte und modularisierte Studiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main vom 30. April 2014 in der Fassung vom 15. Juli 2020",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

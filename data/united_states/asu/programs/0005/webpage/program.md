@@ -1,0 +1,45 @@
+# Online Bachelor of Arts in Liberal Studies
+
+The online Bachelor of Arts in liberal studies is one of Arizona State University's most flexible degrees. With only two core courses, the majority of your coursework is focused on electives of your choosing. You’ll be able to explore multiple interests while developing a multidisciplinary skill set relevant to a variety of careers.
+
+[Learn more](#program-detail)
+
+Quick facts
+
+Next start date: 10/14/2026
+
+Total classes: 40
+
+Weeks per class: 7.5
+
+Total credit hours: 120
+
+## A flexible, transfer-friendly degree tailored to your interests
+
+## Online liberal studies degree courses
+
+This program features a highly flexible curriculum. Whatever courses you choose, you’ll develop essential skills in critical thinking, writing and communication, data analysis and much more.
+
+## The jobs liberal studies majors are prepared for
+
+The ability to work collaboratively and think critically is vital for professional development and sets you up for success in many industries. Thanks to the flexibility of this program, you could pursue careers in business or nonprofit management, public relations, social services, urban planning, local government and more. Some roles you may consider include, but aren’t limited to:
+
+## Study at a globally recognized university
+
+ASU is a global university recognized for its commitment to innovation, research and high-quality academic programs. Our university is repeatedly awarded peer-reviewed honors from U.S. News & World Report and other respected organizations.
+
+### #1
+
+in the U.S. for innovation for 11 consecutive years, ahead of Stanford and MIT
+
+### Top 10
+
+best online bachelor’s programs
+
+### Top 10%
+
+best global universities
+
+### 80%
+
+of graduates reported that their experiences at ASU inspired them to explore new career opportunities.

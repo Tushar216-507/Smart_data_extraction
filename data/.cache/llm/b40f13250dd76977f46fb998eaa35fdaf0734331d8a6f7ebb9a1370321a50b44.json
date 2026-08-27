@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "application_link",
+      "value": "https://webapp4.asu.edu/dgsadmissions/Index.jsp",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_process",
+      "field": "law_college_admission_site",
+      "value": "https://law.asu.edu/admission",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "application_fee_description",
+      "value": "The application fee is dedicated to the administrative cost of processing all applications received and is not refundable under any circumstance.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "payment_methods",
+      "value": "ASU accepts Visa or Mastercard.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "international_application_fee",
+      "value": "$115",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    }
+  ]
+}

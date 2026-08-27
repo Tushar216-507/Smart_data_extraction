@@ -1,0 +1,119 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "thesis",
+      "value": "The bachelor's thesis is a mandatory component of the bachelor's program.",
+      "original_value": "Die Bachelorarbeit ist obligatorischer Bestandteil des Bachelorstudiengangs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "thesis",
+      "value": "The bachelor's thesis is an independent module.",
+      "original_value": "Sie bildet ein eigenständiges [Abschluss-]Modul.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "thesis",
+      "value": "The bachelor's thesis along with an oral final examination or a colloquium forms a joint final module.",
+      "original_value": "Die Bachelorarbeit ist obligatorischer Bestandteil des Bachelorstudiengangs und bildet zusammen mit einer mündlichen Abschlussprüfung oder einem Kolloquium ein gemeinsames Abschlussmodul.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "thesis",
+      "value": "The bachelor's thesis is an examination assignment to demonstrate that the student is able to independently work on a problem from their field using scientific methods within a specified time frame.",
+      "original_value": "Die Bachelorarbeit ist eine Prüfungsarbeit, die zeigen soll, dass die oder der Studierende dazu in der Lage ist, innerhalb einer vorgegebenen Frist ein Problem aus ihrem oder seinem Fach selbstständig nach wissenschaftlichen Methoden zu bearbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "thesis",
+      "value": {
+        "min_credits": 6,
+        "max_credits": 12,
+        "min_processing_time_weeks": 5,
+        "max_processing_time_weeks": 9
+      },
+      "original_value": "Nach § 40 Abs. 3 RO muss der Bearbeitungsumfang mindestens 6 CP betragen; er darf 12 CP nicht überschreiten. Ein Bearbeitungsumfang von 6 CP entspricht einer Bearbeitungszeit von fünf Wochen, ein Bearbeitungsumfang von 12 CP entspricht einer Bearbeitungszeit von neun Wochen.",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

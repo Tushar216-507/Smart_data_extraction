@@ -1,0 +1,39 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "application_period",
+      "value": "January 15 to May 15 of each year",
+      "confidence": 1.0,
+      "programme_association": "Fundamental Courses"
+    },
+    {
+      "category": "admission",
+      "field": "document_submission",
+      "value": "It is not possible to submit missing documents after the application deadline.",
+      "confidence": 1.0,
+      "programme_association": "Fundamental Courses"
+    },
+    {
+      "category": "admission",
+      "field": "notification_of_acceptance",
+      "value": "Official acceptance letters can only be sent after the selection process has been completed.",
+      "confidence": 1.0,
+      "programme_association": "Fundamental Courses"
+    },
+    {
+      "category": "admission",
+      "field": "early_notification",
+      "value": "Very good applicants will be notified during the selection process.",
+      "confidence": 1.0,
+      "programme_association": "Fundamental Courses"
+    },
+    {
+      "category": "admission",
+      "field": "language_proof_submission",
+      "value": "This applies explicitly to all documents, including language proficiency certificates.",
+      "confidence": 1.0,
+      "programme_association": "Fundamental Courses"
+    }
+  ]
+}

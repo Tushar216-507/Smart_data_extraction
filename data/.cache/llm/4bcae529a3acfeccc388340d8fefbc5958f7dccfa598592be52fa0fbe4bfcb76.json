@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "requirements_for_enrollment",
+      "value": "A recognition certificate for creditable achievements must be presented for enrollment in the Bachelor's program in a higher semester.",
+      "original_value": "eine Anrechnungsbescheinigung gemäß §§ 29, 30 vorzulegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "bachelor_exam_admission_conditions",
+      "value": "The conditions for admission to the Bachelor examination are regulated in § 22.",
+      "original_value": "Die Voraussetzungen für die Zulassung zur Bachelorprüfung sind in § 22 geregelt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "admission_limitations",
+      "value": "If there is a restriction on admission to the Bachelor's program due to capacity reasons, a selection process according to state law will be conducted.",
+      "original_value": "Sofern für den Bachelorstudiengang ... [Bezeichnung] aus Kapazitätsgründen eine Zulassungsbeschränkung besteht, wird ein Auswahlverfahren nach Landesrecht durchgeführt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

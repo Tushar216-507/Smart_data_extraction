@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "special_requirements",
+      "value": "If the proof of the bachelor's degree is not available at the time of application for a master's program, the application can be based on a certificate of enrollment and a special certificate based on completed examinations amounting to at least 80% of the required credits for the bachelor's degree.",
+      "original_value": "kann die Bewerbung stattdessen auf einen Immatrikulationsnachweis und auf eine besondere Bescheinigung gestützt werden, die auf erbrachten Prüfungsleistungen im Umfang von mindestens 80 Prozent der für den Bachelorabschluss erforderlichen CP beruhen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": "conditional",
+        "requirement_type": "application",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "conditional_admission",
+      "value": "Conditional admission is granted on the condition that the bachelor's certificate is submitted by the end of the first semester.",
+      "original_value": "Eine Zulassung auf Grundlage der besonderen Bescheinigung erfolgt unter dem Vorbehalt, dass das Bachelorzeugnis bis zum Ende des ersten Semesters vorgelegt wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": "conditional",
+        "requirement_type": "application",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "admission_decision",
+      "value": "The admission decision is made by the examination board or the admission committee.",
+      "original_value": "Über das Vorliegen der Zugangsvoraussetzungen und ggf. die vorläufige Zulassung nach Abs. 9 entscheidet der Prüfungsausschuss.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "admission",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "conditions_for_master_exam",
+      "value": "The conditions for admission to the master's examination are regulated and require a declaration regarding previous examinations in the respective field or a comparable program.",
+      "original_value": "Die Voraussetzungen für die Zulassung zur Masterprüfung sind in § 22 geregelt. Danach hat die oder der Studierende bei der Zulassung zur Masterprüfung insbesondere eine Erklärung darüber abzugeben, ob sie oder er bereits eine ... in einem noch nicht abgeschlossenen Prüfungsverfahren an einer Hochschule in Deutschland oder im Ausland befindet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "examination",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

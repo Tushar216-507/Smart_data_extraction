@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_requirements",
+      "value": "Applicants for a master's program with German and English as the language of instruction must prove German language skills according to the given standards and English language skills typically at C1 level of the Common European Framework of Reference for Languages.",
+      "original_value": "Studienbewerberinnen und Studienbewerber für einen Masterstudiengang mit Deutsch und Englisch als Unterrichtssprache müssen Deutschkenntnisse entsprechend Abs. 10 und Englischkenntnisse in der Regel auf dem Sprachniveau C 1 des „Gemeinsamen europäischen Referenzrahmens für Sprachen des Europarats“ nachweisen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "alternative_language_requirements",
+      "value": "For a master's program with exclusively English as the language of instruction, applicants must prove English language skills typically at C1 level or at least B2 level.",
+      "original_value": "Studienbewerberinnen und Studienbewerber für einen Masterstudiengang mit ausschließlich Englisch als Unterrichtssprache müssen für die Zulassung zum Studium Englischkenntnisse in der Regel auf dem Niveau C 1, mindestens aber B 2 nachweisen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "admission_process",
+      "value": "If the final bachelor's certificate is not available at the time of application for a consecutive master's program, the application can be based on a certificate of enrollment and a special confirmation.",
+      "original_value": "Liegt bei der Bewerbung um einen Studienplatz eines konsekutiven Masterstudiengangs das Abschlusszeugnis für den Bachelorabschluss noch nicht vor, kann die Bewerbung stattdessen auf einen Immatrikulationsnachweis und auf eine besondere Bescheinigung gestützt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "conditional",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "provisional_admission",
+      "value": "Provisional admission based on the special confirmation will be granted, subject to the final bachelor's certificate being submitted by the end of the first semester.",
+      "original_value": "Eine Zulassung auf Grundlage der besonderen Bescheinigung erfolgt unter dem Vorbehalt, dass das Bachelorzeugnis bis zum Ende des ersten Semesters vorgelegt wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "final_certificate_requirement",
+      "value": "Failure to submit the final bachelor's certificate in time will result in the cancellation of admission and withdrawal of enrollment.",
+      "original_value": "Wird dieser Nachweis nicht fristgerecht erbracht, erlischt die Zulassung, und die Immatrikulation ist zurückzunehmen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

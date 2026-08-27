@@ -1,0 +1,19 @@
+Customer and Personal Service - Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction.
+
+Psychology - Knowledge of human behavior and performance; individual differences in ability, personality, and interests; learning and motivation; psychological research methods; and the assessment and treatment of behavioral and affective disorders.
+
+Therapy and Counseling - Knowledge of principles, methods, and procedures for diagnosis, treatment, and rehabilitation of physical and mental dysfunctions, and for career counseling and guidance.
+
+English Language - Knowledge of the structure and content of the English language including the meaning and spelling of words, and rules of composition and grammar.
+
+Administrative - Knowledge of administrative and office procedures and systems such as word processing, managing files and records, stenography and transcription, designing forms, and workplace terminology.
+
+Sociology and Anthropology - Knowledge of group behavior and dynamics, societal trends and influences, human migrations, ethnicity, cultures, and their history and origins.
+
+Computers and Electronics - Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.
+
+Education and Training - Knowledge of principles and methods for curriculum and training design, teaching and instruction for individuals and groups, and the measurement of training effects.
+
+Law and Government - Knowledge of laws, legal codes, court procedures, precedents, government regulations, executive orders, agency rules, and the democratic political process.
+
+Philosophy and Theology - Knowledge of different philosophical systems and religions. This includes their basic principles, values, ethics, ways of thinking, customs, practices, and their impact on human culture.

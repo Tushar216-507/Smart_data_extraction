@@ -1,0 +1,89 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "motivation_letter_assessment",
+      "value": "The assessment of the motivation letter is based on both external quality and the convincing explanation of interest in the Master's program Money, Macro and Finance, as well as the presentation of the particular suitability and motivation for this program.",
+      "original_value": "Die Bewertung des Motivationsschreibens stützt sich neben der äußeren Qualität auf die überzeugende Erklärung des Interesses am Masterstudiengang Money, Macro and Finance sowie der Darstellung der besonderen Eignung und Motivation für diesen Studiengang.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "motivation_letter_scoring",
+      "value": [
+        {
+          "score_range": "1.0 - 1.4",
+          "points": 10
+        },
+        {
+          "score_range": "1.5 - 1.7",
+          "points": 9
+        },
+        {
+          "score_range": "1.8 - 1.9",
+          "points": 8
+        },
+        {
+          "score_range": "2.0 - 2.1",
+          "points": 7
+        },
+        {
+          "score_range": "2.2 - 2.3",
+          "points": 6
+        },
+        {
+          "score_range": "2.6 - 2.7",
+          "points": 4
+        },
+        {
+          "score_range": "2.8 - 2.9",
+          "points": 3
+        },
+        {
+          "score_range": "3.0 - 3.1",
+          "points": 2
+        },
+        {
+          "score_range": "3.2 - 4.0",
+          "points": 1
+        },
+        {
+          "score_range": "≥ 3.2",
+          "points": 0
+        }
+      ],
+      "original_value": "<table><tr><td>1,0 - 1,4</td><td>10 Notenpunkte</td></tr><tr><td>1,5 - 1,7</td><td>9 Notenpunkte</td></tr><tr><td>1,8 - 1,9</td><td>8 Notenpunkte</td></tr><tr><td>2,0 - 2,1</td><td>7 Notenpunkte</td></tr><tr><td>2,2 - 2,3</td><td>6 Notenpunkte</td></tr><tr><td>2,6 - 2,7</td><td>4 Notenpunkte</td></tr><tr><td>2,8 - 2,9</td><td>3 Notenpunkte</td></tr><tr><td>3,0 - 3,1</td><td>2 Notenpunkte</td></tr><tr><td>3,2 - 4,0</td><td>1 Notenpunkte</td></tr><tr><td>≥ 3,2</td><td>0 Notenpunkte</td></tr></table>",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

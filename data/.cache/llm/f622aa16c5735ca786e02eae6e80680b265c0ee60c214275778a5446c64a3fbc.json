@@ -1,0 +1,130 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul VWL",
+      "original_value": "Anwendungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2 - Anwendungsmodul VWL",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": "Successful completion of 3 modules",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1 oder Makroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK) oder Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK/BMAK",
+        "name": "Mikroökonomik 1 oder Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0043",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

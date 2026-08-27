@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "minimum_grade",
+      "value": "C",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "modules",
+      "value": [
+        {
+          "course_title": "Circuits I",
+          "credit_hours": 4,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=EEE&catalogNbr=202"
+        },
+        {
+          "course_title": "Introduction to Engineering",
+          "credit_hours": 2,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=FSE&catalogNbr=100"
+        },
+        {
+          "course_title": "Mechanics of Particles and Rigid Bodies I: Statics",
+          "credit_hours": 3,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=201"
+        },
+        {
+          "course_title": "Mechanics of Particles and Rigid Bodies II: Dynamics",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=202"
+        },
+        {
+          "course_title": "Mechanics of Materials",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=213"
+        },
+        {
+          "course_title": "Computer-Aided Engineering I",
+          "credit_hours": 1,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=214"
+        },
+        {
+          "course_title": "Introduction to Programming in MATLAB",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=215"
+        },
+        {
+          "course_title": "Introduction to Thermodynamics",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=241"
+        },
+        {
+          "course_title": "Introduction to Fluid Mechanics",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=242"
+        },
+        {
+          "course_title": "Applied Experimental Statistics",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=301"
+        },
+        {
+          "course_title": "System Dynamics and Control I",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=318"
+        },
+        {
+          "course_title": "Advanced Mathematical Methods for Engineers (QTRS)",
+          "credit_hours": null,
+          "course_url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAE&catalogNbr=384"
+        },
+        {
+          "course_title": "Structural Mechanics",
+          "credit_hours": null,
+          "course_url": null
+        }
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

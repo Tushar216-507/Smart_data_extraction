@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Students are granted access to their written examination papers and associated assessments upon request shortly after the announcement of examination results.",
+      "original_value": "Dem*der Studierenden wird auf Antrag zeitnah nach der Bekanntgabe von Prüfungsergebnissen Einsicht in ihre bzw. seine schriftlichen Prüfungsarbeiten, die darauf bezogenen Gutachten und in die Prüfungsprotokolle gewährt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0038",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "important_information",
+      "value": "The examination records must be maintained by the examination offices, and the retention periods for examination documents are governed by § 22 of the regulations of Johann Wolfgang Goethe University Frankfurt am Main.",
+      "original_value": "Die Prüfungsakten sind von den Prüfungsämtern zu führen. Maßgeblich für die Aufbewahrungsfristen von Prüfungsunterlagen ist § 22 der Satzung der Johann Wolfgang Goethe-Universität Frankfurt am Main über das Verfahren der Immatrikulation sowie weiterer Regelungen zur Organisation und Verwaltung des Studiums in der jeweils gültigen Fassung.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

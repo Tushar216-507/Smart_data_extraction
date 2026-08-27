@@ -1,0 +1,166 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Foreign Language Communication II",
+      "original_value": "Fremdsprachliche Kommunikation II",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2627",
+        "name": "Foreign Language Communication II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Written examination",
+      "original_value": "Klausur",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2627",
+        "name": "Foreign Language Communication II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "examination_date",
+      "value": "13.07.2026",
+      "original_value": "13.07.2026",
+      "unit": "date",
+      "entity": {
+        "type": "module",
+        "id": "MP 2627",
+        "name": "Foreign Language Communication II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "registration_period",
+      "value": {
+        "start_date": "08.06.2026",
+        "end_date": "06.07.2026"
+      },
+      "original_value": "08.06 .- 06.07.2026",
+      "unit": "date",
+      "entity": {
+        "type": "module",
+        "id": "MP 2627",
+        "name": "Foreign Language Communication II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "withdrawal_deadline",
+      "value": "06.07.2026",
+      "original_value": "spätestens bis 06.07.2026",
+      "unit": "date",
+      "entity": {
+        "type": "module",
+        "id": "MP 2627",
+        "name": "Foreign Language Communication II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "resit_date",
+      "value": {
+        "date": "22.09.2026",
+        "time": "12-14 Uhr"
+      },
+      "original_value": "22.09.2026, 12-14 Uhr",
+      "unit": "date and time",
+      "entity": {
+        "type": "module",
+        "id": "MP 2627",
+        "name": "Foreign Language Communication II"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

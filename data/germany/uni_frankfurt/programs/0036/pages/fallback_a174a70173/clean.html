@@ -1,0 +1,234 @@
+<html>
+  <body><div class="content"><p>Applies to: Configuration Manager (current branch)</p>
+<p>Your organization's IT admin uses Software Center to install applications, software updates, and upgrade Windows. This user guide explains the functionality of Software Center for users of the computer.</p>
+<p>Software Center is installed automatically on Windows devices that your IT organization manages. To get started, see <a href="#bkmk_open">How to open Software Center</a>.</p>
+<p>General notes about Software Center functionality:</p>
+<ul>
+<li><p>This article describes the latest features of Software Center. If your organization is using an older but still supported version of Software Center, not all features are available. For more information, contact your IT admin.</p>
+</li>
+<li><p>Your IT admin may disable some aspects of Software Center. Your specific experience may vary.</p>
+</li>
+<li><p>If multiple users are using a device at the same time, the user with the lowest session ID will be the only one to see all available deployments in Software Center. For example, multiple users on a remote desktop environment. Users with higher session IDs may not see some of the deployments in Software Center. For example, the users with higher session IDs may see deployed Applications, but not deployed Packages or Task Sequences. Meanwhile the user with the lowest session ID will see all deployed Applications, Packages, and Task Sequences. The Users tab of Windows Task Manager shows all users and their session IDs.</p>
+</li>
+<li><p>Your IT admin may change the color of Software Center, and add your organization's logo.</p>
+</li>
+</ul>
+<h2> How to open Software Center</h2>
+<p>Software Center is installed automatically on Windows devices that your IT organization manages. For the simplest method to start Software Center, go to Start and type <pre>Software Center</pre>. You may not need to type the entire string for Windows to find the best match.</p>
+
+<p>To navigate the Start menu, look under the Microsoft Endpoint Manager group for the Software Center icon.</p>
+
+<div class="NOTE">
+<p>Note</p>
+<p>The above Start menu path is for versions from November 2019 (version 1910) or later. In earlier versions, the folder name is Microsoft System Center.</p>
+</div>
+<p>If you can't find Software Center in the Start menu, contact your IT administrator.</p>
+<h2>Applications</h2>
+
+<p>Select the Applications tab (1) to find and install applications that your IT admin deploys to you or this computer.</p>
+<ul>
+<li><p>All (2): Shows all available applications that you can install.</p>
+</li>
+<li><p>Required (3): Your IT admin enforces these applications. If you uninstall one of these applications, Software Center reinstalls it.</p>
+</li>
+<li><p>Filters (4): Your IT admin may create categories of applications. If available, select the drop-down list to filter the view to only those applications in a specific category. Select All to show all applications.</p>
+</li>
+<li><p>Sort by (5): Rearrange the list of applications. By default this list sorts by Most recent. Recently available applications display with a New banner that's visible for seven days.</p>
+</li>
+<li><p>Search (6): Still can't find what you're looking for? Enter keywords in the Search box to find it!</p>
+</li>
+<li><p>Switch the view (7): Select the icons to switch the view between list view and tile view. By default the applications list shows as graphic tiles.</p>
+</li>
+</ul>
+<table>
+
+<row>
+<cell role="head">Icon</cell>
+<cell role="head">View</cell>
+<cell role="head">Description</cell>
+</row>
+
+
+<row>
+<cell>
+</cell>
+<cell>Multi-select mode</cell>
+<cell>Install more than one application at a time. For more information, see <a href="#install-multiple-applications">Install multiple applications</a>.</cell>
+</row>
+<row>
+<cell>
+</cell>
+<cell>List view</cell>
+<cell>This view displays the application icon, name, publisher, version, and status.</cell>
+</row>
+<row>
+<cell>
+</cell>
+<cell>Tile view</cell>
+<cell>Your IT admin can customize the icons. Below each tile displays the application name, publisher, and version.</cell>
+</row>
+
+</table>
+<h3>Install an application</h3>
+<p>Select an application from the list to see more information about it. Select Install to install it. If an app is already installed, you may have the option to Uninstall.</p>
+<p>Some apps may require approval before they install.</p>
+<ul>
+<li><p>When you try to install it, you can enter a comment and then Request the app.</p>
+
+</li>
+<li><p>Software Center shows the request history, and you can cancel the request.</p>
+
+</li>
+<li><p>When an administrator approves your request, you can install the app. If you wait, Software Center automatically installs the app during your non-business hours.</p>
+
+</li>
+</ul>
+<h3>Install multiple applications</h3>
+
+<p>Install more than one application at a time instead of waiting for one to finish before starting the next. The selected apps need to qualify:</p>
+<ul>
+<li>The app is visible to you</li>
+<li>The app isn't already downloading or installed</li>
+<li>Your IT admin doesn't require approval to install the app</li>
+</ul>
+<p>To install more than one application at a time:</p>
+<ul>
+<li><p>Select the multi-select icon in the upper right corner: 
+</p>
+</li>
+<li><p>Select two or more apps to install. Select the checkbox to the left of each app in the list.</p>
+</li>
+<li><p>Select the Install Selected button to start.</p>
+</li>
+</ul>
+<p>The apps install as normal, only now in succession.</p>
+<h3>Share an application</h3>
+<p>To share a link to a specific app, after you select the app, select the Share icon in the upper right corner: 
+</p>
+
+<p>Copy the string, and paste elsewhere, such as an email message. For example, <pre>softwarecenter:SoftwareID=ScopeId_73F3BB5E-5EDC-4928-87BD-4E75EB4BBC34/Application_b9e438aa-f5b5-432c-9b4f-6ebeeb132a5a</pre>. Anyone else in your organization with Software Center can use the link to open the same application.</p>
+<h3>Featured Apps</h3>
+<p>Featured tab in Software Center displays featured apps. With this tab, IT admin can mark apps as "featured" and encourage end users to use these apps.
+Currently, this feature is available only for "User Available" apps.
+Also, admins can make the Featured tab of Software Center as the default tab from Client Settings.</p>
+<p>If an app is marked as Featured and it's deployed to a User Collection as an Available app, it will show under the Featured pivot in Software Center.</p>
+
+<h2>Updates</h2>
+
+<p>Select the Updates tab (1) to view and install software updates that your IT admin deploys to this computer.</p>
+<ul>
+<li><p>All (2): Shows all updates that you can install</p>
+</li>
+<li><p>Required (3): Your IT admin enforces these updates.</p>
+</li>
+<li><p>Sort by (4): Rearrange the list of updates. By default this list sorts by Application name: A to Z.</p>
+</li>
+<li><p>Search (5): Still can't find what you're looking for? Enter keywords in the Search box to find it!</p>
+</li>
+</ul>
+<p>To install updates, select Install All (6).</p>
+<p>To only install specific updates, select the icon to enter multi-select mode (7): 
+Check the updates to install, and then select Install Selected.</p>
+<h2>Operating Systems</h2>
+
+<p>Select the Operating Systems tab (1) to view and install versions of Windows that your IT admin deploys to this computer.</p>
+<ul>
+<li><p>All (2): Shows all Windows versions that you can install</p>
+</li>
+<li><p>Required (3): Your IT admin enforces these upgrades.</p>
+</li>
+<li><p>Sort by (4): Rearrange the list of updates. By default this list sorts by Application name: A to Z.</p>
+</li>
+<li><p>Search (5): Still can't find what you're looking for? Enter keywords in the Search box to find it!</p>
+</li>
+</ul>
+<h2>Installation status</h2>
+<p>Select the Installation status tab to view the status of applications. You may see the following states:</p>
+<ul>
+<li><p>Installed: Software Center already installed this application on this computer.</p>
+</li>
+<li><p>Downloading: Software Center is downloading the software to install on this computer.</p>
+</li>
+<li><p>Failed: Software Center wasn't able to install the software.</p>
+</li>
+<li><p>Scheduled to install after: Shows the date and time of the device's next maintenance window to install upcoming software. Maintenance windows are defined by your IT admin.</p>
+
+</li>
+</ul>
+<h2>Device compliance</h2>
+<p>Select the Device compliance tab to view the compliance status of this computer.</p>
+<p>Select Check compliance to evaluate this device's settings against the security policies defined by your IT admin.</p>
+<h2>Options</h2>
+<p>Select the Options tab to view additional settings for this computer.</p>
+
+<p>Indicate the hours that you typically work. Your IT admin may schedule software installations outside your business hours. Allow at least four hours each day for system maintenance tasks. Your IT admin can still install critical applications and software updates during business hours.</p>
+<ul>
+<li><p>Select the earliest and latest hours that you use this computer. By default these values are from 5:00 AM through 10:00 PM.</p>
+</li>
+<li><p>Select the days of the week that you typically use this computer. By default Software Center only selects the weekdays.</p>
+</li>
+</ul>
+<p>Specify whether you regularly use this computer to do your work. Your administrator might automatically install applications or make additional applications available to primary computers. If the computer you're using is a primary computer, select I regularly use this computer to do my work.</p>
+<h3>Power management</h3>
+<p>Your IT admin may set power management policies. These policies help your organization conserve electricity when this computer isn't in use.</p>
+<p>To make this computer exempt from these policies, select Do not apply power settings from my IT department to this computer. By default this setting is disabled and the computer applies power settings.</p>
+<h3>Computer maintenance</h3>
+<p>Specify how Software Center applies changes to software before the deadline.</p>
+<ul>
+<li><p>Automatically install or uninstall required software and restart the computer only outside of the specified business hours: This setting is disabled by default.</p>
+</li>
+<li><p>Suspend Software Center activities when my computer is in presentation mode: This setting is enabled by default.</p>
+</li>
+</ul>
+<div class="NOTE">
+<p>Note</p>
+<p>These settings are designed to be managed by end users and do not impact deployment deadlines.</p>
+</div>
+<p>When instructed by your IT admin, select Sync Policy. This computer checks with the servers for anything new, such as applications, software updates, or operating systems.</p>
+<h3>Remote Control</h3>
+<p>Specify remote access and remote control settings for your computer.</p>
+<p>Use remote access settings from your IT department: By default, your IT department defines the settings to remotely assist you. The other settings in this section show the state of the settings that your IT department defines. To change any settings, first disable this option.</p>
+<ul>
+<li><p>Level of remote access allowed</p>
+<ul>
+<li>Do not allow remote access: IT administrators can't remotely access this computer to assist you.</li>
+<li>View only: An IT administrator can only remotely view your screen.</li>
+<li>Full: An IT administrator can remotely control this computer. This setting is the default option.</li>
+</ul>
+</li>
+<li><p>Allow remote control of this computer by administrators when I am away. This setting is Yes by default.</p>
+</li>
+<li><p>When an administrator tries to control this computer remotely</p>
+<ul>
+<li>Ask for permission each time: This setting is the default option.</li>
+<li>Do not ask for permission</li>
+</ul>
+</li>
+<li><p>Show the following during remote control: These visual notifications are both enabled by default to let you know that an administrator is remotely accessing the device.</p>
+<ul>
+<li>Status icon in the notification area</li>
+<li>A session connection bar on the desktop</li>
+</ul>
+</li>
+<li><p>Play sound: This audible notification lets you know that an administrator is remotely accessing the device.</p>
+<ul>
+<li>When session begins and ends: This setting is the default option.</li>
+<li>Repeatedly during session</li>
+<li>Never</li>
+</ul>
+</li>
+</ul>
+<h2>Custom tabs</h2>
+<p>Your IT admin can remove the default tabs or add additional tabs to Software Center. Custom tabs are named by your admin, and they open a web site that the admin specifies. For instance, you might have a tab called "Help Desk" that opens your IT organization's help desk web site. </p>
+
+<p>More information is available for IT administrators on how to plan for and configure Software Center in the following articles:</p>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

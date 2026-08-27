@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0152",
+  "program_name": "Bachelor of Arts in International Business",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0152\\final",
+  "input_fact_count": 95,
+  "unique_fact_count": 95,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 95,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 95,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 0,
+    "curriculum": 6,
+    "career": 3,
+    "fees": 19,
+    "scholarships": 6,
+    "contacts": 25,
+    "student_life": 14,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 18
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0152\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0152\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0152\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0152\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0152\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0152\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0152\\final\\student_life_data.json",
+    "other": "data\\ireland\\ul\\programs\\0152\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0152\\final\\build_summary.json"
+  }
+}

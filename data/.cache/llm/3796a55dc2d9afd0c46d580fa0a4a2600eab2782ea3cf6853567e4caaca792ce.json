@@ -1,0 +1,339 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "transfer_gpa_12_23_credits",
+      "value": "minimum 2.50 cumulative transfer GPA",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Aptitude requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_gpa_24_or_more_credits",
+      "value": "minimum 2.50 cumulative transfer GPA",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Aptitude requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_gpa_associate_degree",
+      "value": "minimum 2.00 cumulative GPA for associate degree or higher from a regionally accredited higher education institution",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Aptitude requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "note_on_graded_courses",
+      "value": "ASU accepts college-level courses in which you have earned a 'C-' or better",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Aptitude requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "link_to_degree_search",
+      "value": "https://degrees.asu.edu/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Aptitude requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "competency_requirements_us_high_school",
+      "value": {
+        "english": "four years (composition/literature based)",
+        "math": "four years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "laboratory_science": "three years total (one year each from any of the following areas are accepted: biology, chemistry, earth science, integrated sciences, and physics)",
+        "social_science": "two years (including one year American history)",
+        "foreign_language": "two years (same language)",
+        "fine_arts": "one year"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Competency requirements",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "competency_requirements_international_high_school",
+      "value": {
+        "math": "four years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "laboratory_science": "three years total (one year each from any of the following areas are accepted: biology, chemistry, earth science, integrated sciences, and physics)"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Competency requirements",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "wue_eligibility_maintenance_requirements",
+      "value": "Students admitted to ASU under Western Undergraduate Exchange (WUE) program in spring 2026 or earlier will continue to receive the WUE tuition rate as long as they maintain continuous enrollment and meet the semesterly renewal requirements for WUE eligibility.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE Requirements for Maintaining Eligibility + Eligible Majors/Programs",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "wue_program_participation",
+      "value": "Beginning with students admitted for fall 2026, ASU will no longer participate in the WUE program.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE Requirements for Maintaining Eligibility + Eligible Majors/Programs",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "major_requirements_for_wue_eligibility",
+      "value": "Once students are admitted into an ASU Western Undergraduate Exchange (WUE) major, they must meet certain requirements to maintain their WUE eligibility each semester.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE Requirements for Maintaining Eligibility + Eligible Majors/Programs",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "eligible_majors",
+      "value": "Students must remain enrolled in one of the ASU WUE-eligible majors or programs.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE Requirements for Maintaining Eligibility + Eligible Majors/Programs",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "online_program_eligibility",
+      "value": "ASU Online programs are not eligible.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE Requirements for Maintaining Eligibility + Eligible Majors/Programs",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "changing_majors_impact_on_wue",
+      "value": "Students who change majors to a non-WUE major will be removed from WUE and charged out-of-state tuition.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE Requirements for Maintaining Eligibility + Eligible Majors/Programs",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "first_year_students_eligibility",
+      "value": "WUE status is available for first-year students admitted in spring 2026 or earlier, up to a maximum of eight semesters, beginning with their first term of enrollment at ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Eligibility Time Periods",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "community_college_transfer_students_eligibility",
+      "value": "WUE status is available for two-year community college transfer students admitted in spring 2026 or earlier, up to a maximum of 5 semesters, beginning with their first term of enrollment at ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Eligibility Time Periods",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "four_year_institution_transfer_students_eligibility",
+      "value": "WUE status is available for four-year institution transfer students admitted in spring 2026 or earlier, up to a maximum of 120 credit hours, including all transfer credits.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Eligibility Time Periods",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "minimum_credit_hours_required",
+      "value": 24,
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Credit Hour Requirements + Required GPA",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_definition",
+      "value": "Students must maintain continuous enrollment which is defined as enrollment in both fall and spring semesters with summer sessions not included.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Credit Hour Requirements + Required GPA",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "excluded_credits",
+      "value": "Summer sessions and consortium agreement classes, repeated classes, incomplete grades or audited classes, and any credits received by examination, including AP, CLEP, IB and other tests.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Credit Hour Requirements + Required GPA",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "minimum_gpa_required",
+      "value": 2.0,
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Credit Hour Requirements + Required GPA",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "gpa_definition",
+      "value": "Students must maintain a minimum ASU cumulative GPA.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Credit Hour Requirements + Required GPA",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "designated_campus_location",
+      "value": "Students are expected to enroll in classes at their designated campus location.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Enrollment Requirements (can count in 24 credit hours requirement) + Concurrent Degrees, Minors and Certificates + Residency Status + Code of Conduct + More Information about WUE:",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "courses_delivered",
+      "value": "Courses delivered through iCourse are allowed.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Enrollment Requirements (can count in 24 credit hours requirement) + Concurrent Degrees, Minors and Certificates + Residency Status + Code of Conduct + More Information about WUE:",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "specialized_program_offerings",
+      "value": "Enrollment is allowed in a few select specialized program offerings such as participation in a ROTC program, ASU Marching Band, internship or study abroad experience.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Enrollment Requirements (can count in 24 credit hours requirement) + Concurrent Degrees, Minors and Certificates + Residency Status + Code of Conduct + More Information about WUE:",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_exceptions",
+      "value": "Students seeking enrollment exceptions should submit requests via email.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Enrollment Requirements (can count in 24 credit hours requirement) + Concurrent Degrees, Minors and Certificates + Residency Status + Code of Conduct + More Information about WUE:",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    }
+  ]
+}

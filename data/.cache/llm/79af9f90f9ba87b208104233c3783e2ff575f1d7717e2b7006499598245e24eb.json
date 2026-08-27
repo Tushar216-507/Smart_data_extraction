@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "grades_importance",
+      "field": "grade_requirement_importance",
+      "value": "Grades are considered important for admission, and some programs may require higher grades than the university standard.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "honors_college",
+      "field": "barrett_honors_college_grade_consideration",
+      "value": "Good grades are important for admission to Barrett, The Honors College, though no minimum GPA is required.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "honors_college",
+      "field": "barrett_honors_college_admission_factor",
+      "value": "Grades are viewed as a major factor in deciding on honors college admission.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    }
+  ]
+}

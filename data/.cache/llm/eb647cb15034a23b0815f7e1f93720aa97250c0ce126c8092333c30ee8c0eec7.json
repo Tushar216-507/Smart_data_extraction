@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_start_date",
+      "value": "January 15",
+      "confidence": 1.0,
+      "programme_association": "German Courses - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_end_date",
+      "value": "May 15",
+      "confidence": 1.0,
+      "programme_association": "German Courses - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_details",
+      "field": "official_admission_notices",
+      "value": "Official admission notices can only be sent after the conclusion of the selection process.",
+      "confidence": 1.0,
+      "programme_association": "German Courses - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_details",
+      "field": "notification_of_top_candidates",
+      "value": "Very good applicants will be notified during the process.",
+      "confidence": 1.0,
+      "programme_association": "German Courses - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_details",
+      "field": "submission_of_missing_documents",
+      "value": "It is not possible to submit missing documents after the application deadline.",
+      "confidence": 1.0,
+      "programme_association": "German Courses - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_details",
+      "field": "document_requirements",
+      "value": "This explicitly applies to all documents, including language certificates.",
+      "confidence": 1.0,
+      "programme_association": "German Courses - Department 02 | Goethe University Frankfurt"
+    }
+  ]
+}

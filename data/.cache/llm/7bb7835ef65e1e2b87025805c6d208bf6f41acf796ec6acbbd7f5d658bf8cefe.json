@@ -1,0 +1,355 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "email_for_deferment",
+      "value": "[email protected]",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Submit your deferment application + Step 03",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_information_for_email",
+      "value": "Your ASU ID, your reason for requesting a deferment, and the term you wish to enroll.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Submit your deferment application + Step 03",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "note",
+      "value": "See Step 3 for important information about scholarships and financial aid.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Submit your deferment application + Step 03",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "deferment_policy",
+      "value": "Once your admission deferment is approved, your ASU scholarships will be automatically deferred — except if your deferment is for personal or financial reasons.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Defer your scholarships and financial aid + Step 04",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "scholarship_deferment_form",
+      "value": "You must submit a scholarship deferment form to Financial Aid and Scholarship Services for review if your deferment is for personal or financial reasons.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Defer your scholarships and financial aid + Step 04",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "disbursed_funds_return",
+      "value": "If any scholarships or financial aid have already been disbursed, you must return those funds.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Defer your scholarships and financial aid + Step 04",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "private_scholarships_policy",
+      "value": "Private scholarships cannot be deferred by ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Defer your scholarships and financial aid + Step 04",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "contact_for_private_scholarships",
+      "value": "You must contact your scholarship sponsor directly to request a deferment.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Defer your scholarships and financial aid + Step 04",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "sponsor_decision",
+      "value": "The sponsor will decide whether to approve the deferment.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Defer your scholarships and financial aid + Step 04",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_requirements",
+      "value": "Request official transcripts from every school you’ve attended. Transcripts must be sent directly from the school to ASU (by mail or electronically), sealed in the original envelope if hand-delivered, and not faxed — ASU does not accept faxed transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "high_school_transcript_requirements",
+      "value": "High school transcripts must include your GPA and graduation date.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "non_english_transcript_requirements",
+      "value": "Non-English transcripts must include an English translation.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_full_details_url",
+      "value": "https://admission.asu.edu/apply/transcripts",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "admission_services_address",
+      "value": "Admission Services, Arizona State University, PO Box 870112, Tempe, AZ 85287-0112",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "family_access_instructions",
+      "value": "You can let a parent or guardian view your academic and financial records. To set this up, go to the Profile tab in My ASU and click Add a Guest under My ASU Guest Access Permissions.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "guest_access_note",
+      "value": "This is especially helpful if you’re deferring admission and may have limited internet access.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "Have your final transcripts sent to ASU + Step 05 + Give your parents or family access to My ASU",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "deferment_duration",
+      "value": "up to five terms (2.5 years for U.S. citizens on religious missions or military service)",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "attending_other_schools",
+      "value": "You may not attend another school during your deferment.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_check",
+      "value": "ASU may check enrollment through the National Student Clearinghouse.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "individual_review",
+      "value": "Each deferment is reviewed individually based on your reason for requesting it.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "financial_aid_conditions",
+      "value": "Changes to deferment not approved by the Financial Aid and Scholarship Services may result in the loss of scholarships or program eligibility.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "review_account",
+      "value": "You may still have outstanding charges or Priority Tasks.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "my_asu_login",
+      "value": "Log in to My ASU to review your account and avoid collection activity.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "to_do_items_tracking",
+      "value": "You can keep track of to-do items in My ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "login_requirements",
+      "value": "You'll need an ASURITE User ID and password to log in.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_deposit",
+      "value": "Your enrollment deposit will be posted to the term you are entering.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Conditions of deferring your admission + Returning to ASU after deferment",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_deposit",
+      "value": "$300",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Incoming first-year students + To reinstate a scholarship or program: + Incoming transfer students:",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    }
+  ]
+}

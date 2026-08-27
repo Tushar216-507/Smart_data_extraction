@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "degree_certificate_description",
+      "value": "A Bachelor certificate is issued simultaneously with the Bachelor examination certificate, stating the date of the certificate according to the regulations of the framework order. It certifies the conferment of the academic degree.",
+      "original_value": "Dabei wird die Verleihung des akademischen Grades beurkundet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "english_certificate_option",
+      "value": "The certificate can additionally be issued in English upon request.",
+      "original_value": "Auf Antrag kann die Urkunde zusätzlich in Englisch ausgestellt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

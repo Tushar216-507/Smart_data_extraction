@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0012",
+  "program_name": "Online Bachelor of Arts in Global Studies",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0012\\final",
+  "input_fact_count": 25,
+  "unique_fact_count": 25,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 25,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 25,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 3,
+    "admission": 2,
+    "curriculum": 15,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 3,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0012\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0012\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0012\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0012\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0012\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0012\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0012\\final\\build_summary.json"
+  }
+}

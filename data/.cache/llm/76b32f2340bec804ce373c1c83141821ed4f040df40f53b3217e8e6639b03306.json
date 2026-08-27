@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "programme_commencement",
+      "value": "The Master's programme in Southeast Asian Studies can only be commenced in the winter semester.",
+      "original_value": "Das Masterprogramm in Southeast Asian Studies kann nur im Wintersemester begonnen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": "winter semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

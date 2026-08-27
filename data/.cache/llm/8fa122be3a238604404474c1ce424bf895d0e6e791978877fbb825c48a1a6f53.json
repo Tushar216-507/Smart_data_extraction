@@ -1,0 +1,443 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "field": "tuition_estimator_link",
+      "value": "https://tuition.asu.edu/cost/tuition-estimator",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "college_cost_comparison_tool_link",
+      "value": "https://tuition.asu.edu/financial-aid/cost-comparison",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "fafsa_start_link",
+      "value": "https://tuition.asu.edu/financial-aid/fafsa",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "apply_url",
+      "value": "https://admission.asu.edu/transfer/apply",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fafsa_url",
+      "value": "http://fafsa.gov",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fall_deadline",
+      "value": "January 15",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "spring_deadline",
+      "value": "October 1",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "tuition_residency",
+      "value": "Must be an Arizona resident for tuition purposes.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_student_requirement",
+      "value": "Must be a transfer student from an Arizona community college.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "gpa_requirement",
+      "value": "Must have a minimum 3.50 cumulative transfer GPA.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "financial_need_requirement",
+      "value": "Must demonstrate financial need as determined by the FAFSA.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_admission_team_url",
+      "value": "https://admission.asu.edu/contact/undergraduate",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "deferment_url",
+      "value": "https://admission.asu.edu/apply/first-year/admitted/cancel-defer",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "reapply_url",
+      "value": "http://asu.edu/apply",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "deferment_timeline",
+      "value": "Deferment requests must be submitted at least two weeks before the start of your admit term.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_1",
+      "value": {
+        "title": "Introduction to Judaism",
+        "options": [
+          {
+            "course_code": "JST 210",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=JST&catalogNbr=210"
+          },
+          {
+            "course_code": "REL 210",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=210"
+          }
+        ],
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_2",
+      "value": {
+        "title": "Jews and Judaism in America",
+        "options": [
+          {
+            "course_code": "HST 211",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=HST&catalogNbr=211"
+          },
+          {
+            "course_code": "JST 211",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=JST&catalogNbr=211"
+          },
+          {
+            "course_code": "REL 211",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=211"
+          }
+        ],
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_3",
+      "value": {
+        "title": "Introduction to Jewish Civilization (GCSI)",
+        "options": [
+          {
+            "course_code": "HST 230",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=HST&catalogNbr=230"
+          },
+          {
+            "course_code": "JST 230",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=JST&catalogNbr=230"
+          },
+          {
+            "course_code": "REL 230",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=230"
+          }
+        ],
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_4",
+      "value": {
+        "title": "Methods of Historical Inquiry",
+        "course_code": "JST 490",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "notes": "JST 490 is the capstone course for the Jewish studies major and is typically offered only in spring semesters."
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "mathematics",
+      "value": {
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "languages",
+      "value": "Modern Hebrew, Biblical Hebrew, Arabic, German, Polish, Russian or Spanish at the intermediate level (202 or equivalent).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "coursework",
+      "value": {
+        "credit_hours": 15,
+        "minimum_grade": "C",
+        "requirements": "At least nine credit hours must be upper division."
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course",
+      "value": {
+        "options": [
+          {
+            "course_code": "LIA 101",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=LIA&catalogNbr=101"
+          },
+          {
+            "course_code": "ASU 101-LA",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ASU&catalogNbr=101-LA"
+          }
+        ],
+        "credit_hours": 1,
+        "notes": "ASU 101 or college-specific equivalent First-Year Seminar required of all first-year students."
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "courses",
+      "value": {
+        "options": [
+          {
+            "course_code": "ENG 101",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=101"
+          },
+          {
+            "course_code": "ENG 102",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=102"
+          },
+          {
+            "course_code": "ENG 105",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=105"
+          },
+          {
+            "course_code": "ENG 107",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=107"
+          },
+          {
+            "course_code": "ENG 108",
+            "url": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=108"
+          }
+        ],
+        "credit_hours": 6,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "guidelines",
+      "value": "Many General Studies requirements can overlap with major requirements, leaving more room for electives. Consult an academic advisor to select the best courses for your personal plan of study.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "notes",
+      "value": "Not all courses in the course lists are available every term. Students should consult Class Search prior to each term to confirm course availability.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

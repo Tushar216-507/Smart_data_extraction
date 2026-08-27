@@ -1,0 +1,138 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Semester abroad (only variant 2)",
+      "original_value": "Semester abroad (nur Variante 2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad (nur Variante 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module (for variant 2)",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "duration",
+      "value": "1-2 semesters",
+      "original_value": "1-2 Semester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad (nur Variante 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language",
+      "value": "German or English, limited selection for students without sufficient German knowledge",
+      "original_value": "Deutsch oder Englisch. Für Studierende ohne ausreichende Deutschkenntnisse ist beschränkt. die Auswahl auf englischsprachige Lehrveranstaltungen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad (nur Variante 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": [
+        "Improvement of language skills",
+        "Practical experience in applying learned key qualifications",
+        "Acquisition of practical international experience, as well as intercultural and communicative competencies for later professional and/or academic activities"
+      ],
+      "original_value": "Verbesserung der Fremdsprachenkompetenz, Praxiserfahrung in der Anwendung von erlernten Schlüsselqualifikationen, Erwerb praktischer Auslandserfahrung, sowie interkultureller und kommunikativer Kompetenzen für spätere berufliche und/oder wissenschaftliche Tätigkeiten",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad (nur Variante 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Students planning an overseas stay are encouraged to contact the module coordinator and academic advisory service as early as possible for planning, organization, and financing advice.",
+      "original_value": "Studierende, die einen Auslandsaufenthalt planen, sind angehalten sich so früh wie möglich mit der oder dem Modulbeauftragten und der Fachstudienberatung in Verbindung zu setzen, damit sie über Planung, Organisation und Finanzierung des Studienaufenthaltes und Wahl des Studienortes beraten werden können.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad (nur Variante 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

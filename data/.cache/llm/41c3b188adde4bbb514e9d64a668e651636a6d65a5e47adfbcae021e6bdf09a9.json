@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "total_credit_hours",
+      "value": {
+        "credit_hours": 30,
+        "details": "including the required capstone course (ENG 597)"
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "Communication, Film, Interdisciplinary Studies, Narrative, Storytelling, english, humanities, literature, media, writing",
+        "chunk_order": 1,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "required_core",
+      "value": [
+        {
+          "course_code": "ENG 503",
+          "course_name": "History of Narrative",
+          "credits": 3
+        },
+        {
+          "course_code": "ENG 509",
+          "course_name": "Studies in Narrative Writing",
+          "credits": 3
+        },
+        {
+          "course_code": "ENG 512",
+          "course_name": "Narrating the Archives",
+          "credits": 3
+        },
+        {
+          "course_code": "ENG 520",
+          "course_name": "Visual Narratives",
+          "credits": 3
+        },
+        {
+          "course_code": "COM 510",
+          "course_name": "Transmedia Narratives",
+          "credits": 3
+        },
+        {
+          "course_code": "ENG 505",
+          "course_name": "Narrative Research Methods",
+          "credits": 3
+        }
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "Communication, Film, Interdisciplinary Studies, Narrative, Storytelling, english, humanities, literature, media, writing",
+        "chunk_order": 1,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "electives_or_research",
+      "value": {
+        "description": "Students choose five courses from a restricted list for a total of 15 credit hours. Other courses (ENG, COM, FMS, HST or appropriate field) may be used for up to six credit hours with approval from the academic unit."
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "Communication, Film, Interdisciplinary Studies, Narrative, Storytelling, english, humanities, literature, media, writing",
+        "chunk_order": 1,
+        "source_type": "program"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "culminating_experience",
+      "value": {
+        "course_code": "ENG 597",
+        "course_name": "Graduate Capstone Seminar",
+        "credits": 3
+      },
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0002",
+        "chunk_title": "Communication, Film, Interdisciplinary Studies, Narrative, Storytelling, english, humanities, literature, media, writing",
+        "chunk_order": 1,
+        "source_type": "program"
+      }
+    }
+  ]
+}

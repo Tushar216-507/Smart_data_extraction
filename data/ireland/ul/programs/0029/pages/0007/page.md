@@ -1,0 +1,13 @@
+The Faculty of Arts, Humanities and Social Sciences (AHSS) is a dynamic community where ideas are explored, challenged, and brought to life. It offers high‑quality teaching and a rich research environment that spans traditional disciplines and innovative interdisciplinary work.
+
+The Education and Health Sciences (EHS) Faculty includes the Schools of Medicine, Allied Health, Education, and Nursing and Midwifery as well as the Departments of Psychology, Physical Education and Sport Sciences.
+
+The faculty has built a reputation for high-quality teaching and innovative academic programmes. It works hard to prepare excellent scientists and caring, competent health professionals.
+
+The Kemmy Business School (KBS) is a dynamic, innovative business school with a reputation, established over 30 years, for delivering a first-class business education that prepares graduates for successful, rewarding careers across a wide range of business disciplines and professions.
+
+The Faculty of Science and Engineering is well recognised for the quality of its teaching and learning, academic programmes and research expertise. It has three world-class research institutes in Materials and Surface Sciences, Software Engineering and Mathematics, all underpinned by well-established industry links.
+
+The Irish World Academy of Music and Dance is the centre of academic and performance excellence at University of Limerick, Ireland.
+
+It honours the energies of performance and academic reflection across a wide range of genres and disciplines. These are informed by community outreach and artist-in-residence initiatives that take the Academy to the wider community, attracting international performance and scholarly expertise.

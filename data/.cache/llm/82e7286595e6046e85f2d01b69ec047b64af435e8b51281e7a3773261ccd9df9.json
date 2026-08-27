@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "grades": [
+          {
+            "range": "1.0 bis einschließlich 1.5",
+            "description": "very good"
+          },
+          {
+            "range": "1.6 bis einschließlich 2.5",
+            "description": "good"
+          },
+          {
+            "range": "2.6 bis einschließlich 3.5",
+            "description": "satisfactory"
+          },
+          {
+            "range": "3.6 bis einschließlich 4.0",
+            "description": "sufficient"
+          },
+          {
+            "range": "über 4.0",
+            "description": "fail"
+          }
+        ]
+      },
+      "original_value": "1,0 bis einschließlich 1,5 | very good\n1,6 bis einschließlich 2,5 | good\n2,6 bis einschließlich 3.5 | satisfactory\n3,6 bis einschließlich 4,0 | sufficient\nüber 4,0 | fail",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "programme_specific_order",
+      "value": {
+        "description": "Das Gesamturteil „mit Auszeichnung bestanden“ kann erteilt werden.",
+        "english_translation": "The overall assessment 'passed with distinction' can be awarded."
+      },
+      "original_value": "Die studiengangsspezifische Ordnung kann vorsehen, dass das Gesamturteil „mit Auszeichnung bestanden“ erteilt wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "diploma_supplement",
+      "value": {
+        "description": "Zur Transparenz der Gesamtnote wird in das Diploma Supplement eine ECTS-Einstufungstabelle aufgenommen.",
+        "details": "An ECTS grading table will be included in the Diploma Supplement for transparency of the overall grade."
+      },
+      "original_value": "Zur Transparenz der Gesamtnote wird in das Diploma Supplement eine ECTS-Einstufungstabelle gemäß § 50 Abs. 2 aufgenommen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

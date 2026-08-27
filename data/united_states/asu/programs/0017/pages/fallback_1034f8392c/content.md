@@ -1,0 +1,21 @@
+An intuitive gifting platform for birthdays, work anniversary, spot bonuses, client gifting, and everything in between.
+
+Through recognition and rewards, our easy-to-use, robust and 100% free employee gifting platform drives a culture of appreciation.
+
+Onboarding, celebrating, and retaining your employees just got easier and more fun with custom swag, automated birthdays & work anniversaries, and spot bonus gifting.
+
+A carefully curated catalog of physical gifts that not only support local business and brands, but that we know your global teams will love.
+
+Say goodbye to last minute gifting stress and forgetfulness. In minutes, plan, execute and manage holidays, birthdays, and work anniversaries ahead of time, when you have the time.
+
+We don't believe in user fees or minimums, but do believe recognition is a team effort. So go ahead and invite as many users as you want to join your gifting solution. It's free.
+
+Give your employees the gift of choice with thousands of gift cards, physical gifts and swag to choose from. It'll be a gift they really want!
+
+Comprehensive reports and analytics make tracking gifts and obtaining real time insights an effortless task.
+
+Your people are updated automagically by integrating Gifted with systems you already know and love.
+
+Launch your company's branded on-demand swag shop in minutes. Ordering the right size for your teams just got easier!
+
+At Gifted, we prioritize your privacy, ensuring that your information is protected with the highest level of care and security.

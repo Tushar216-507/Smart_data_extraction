@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "department",
+      "field": "department_name",
+      "value": "Institute for English and American Studies",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "administrative staff",
+      "field": "staff_position",
+      "value": "Administrative and Technical Staff",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "administrative office",
+      "field": "office_name",
+      "value": "Office",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "department_link",
+      "field": "link",
+      "value": "https://qis.server.uni-frankfurt.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoEinrichtung&publishSubDir=einrichtung&keep=y&einrichtung.eid=100700",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    }
+  ]
+}

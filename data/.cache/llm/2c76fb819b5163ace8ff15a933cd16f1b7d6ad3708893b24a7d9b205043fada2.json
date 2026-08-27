@@ -1,0 +1,152 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "address",
+      "value": "60629 Frankfurt am Main",
+      "original_value": "60629 Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftswissenschaften",
+      "original_value": "Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance",
+      "original_value": "NF Finanzwirtschaft / Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF",
+        "name": "Finanzwirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Computer Science",
+      "original_value": "B.Sc. Informatik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "B.Sc. Informatik",
+        "name": "Informatik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

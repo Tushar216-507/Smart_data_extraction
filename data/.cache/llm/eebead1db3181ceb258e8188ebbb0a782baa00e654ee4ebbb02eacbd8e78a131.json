@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_formats",
+      "value": [
+        "Lecture",
+        "Tutorial or practical class",
+        "Seminar/Thesis Seminar",
+        "Project"
+      ],
+      "original_value": [
+        "Vorlesung (V)",
+        "Übung (Ü)",
+        "Seminar/Thesis Seminar (S/TS)",
+        "Projekt (P)"
+      ],
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_access_conditions",
+      "value": "Access to courses may depend on successful completion of other modules or may require attendance proof.",
+      "original_value": "Zugang zu den Lehrveranstaltungen eines Moduls vom erfolgreichen Abschluss anderer Module oder vom Besuch der Studienfachberatung abhängig.",
+      "entity": {
+        "type": "module",
+        "id": "access_conditions_module",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_registration_requirements",
+      "value": "Attendance may require pre-registration; details to be announced on the program-specific website.",
+      "original_value": "zur Teilnahme am Modul oder an bestimmten Veranstaltungen des Moduls eine verbindliche Anmeldung vorausgesetzt werden kann.",
+      "entity": {
+        "type": "module",
+        "id": "registration_requirements_module",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_class_capacity",
+      "value": "If interest exceeds capacity, a selection process will be conducted.",
+      "original_value": "kann die Lehrveranstaltungsleitung ein Anmeldeverfahren durchführen.",
+      "entity": {
+        "type": "module",
+        "id": "class_capacity_module",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

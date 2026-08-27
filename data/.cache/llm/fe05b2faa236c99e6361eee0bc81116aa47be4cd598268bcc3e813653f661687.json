@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "grading_scheme",
+      "value": {
+        "grades": [
+          {
+            "level": 1,
+            "designation": "Sehr Gut",
+            "translation": "Very Good"
+          },
+          {
+            "level": 2,
+            "designation": "Gut",
+            "translation": "Good"
+          },
+          {
+            "level": 3,
+            "designation": "Befriedigend",
+            "translation": "Satisfactory"
+          },
+          {
+            "level": 4,
+            "designation": "Ausreichend",
+            "translation": "Sufficient"
+          },
+          {
+            "level": 5,
+            "designation": "Nicht ausreichend",
+            "translation": "Non-Sufficient/Fail"
+          }
+        ],
+        "minimum_passing_grade": {
+          "level": 4,
+          "designation": "Ausreichend",
+          "translation": "Sufficient"
+        },
+        "ects_grading_scheme": [
+          {
+            "level": "A",
+            "description": "best 10 %"
+          },
+          {
+            "level": "B",
+            "description": "next 25 %"
+          },
+          {
+            "level": "C",
+            "description": "next 30 %"
+          },
+          {
+            "level": "D",
+            "description": "next 25 %"
+          },
+          {
+            "level": "E",
+            "description": "next 10 %"
+          }
+        ]
+      },
+      "original_value": "The grading scheme in Germany usually comprises five levels (with numerical equivalents; intermediate grades may be given): \"Sehr Gut\" (1) = Very Good; \"Gut\" (2) = Good; \"Befriedigend\" (3) = Satisfactory; \"Ausreichend\" (4) = Sufficient; \"Nicht ausreichend\" (5) = Non-Sufficient/Fail. The minimum passing grade is \"Ausreichend\" (4). Verbal designations of grades may vary in some cases and for doctoral degrees.\nIn addition institutions may already use the ECTS grading scheme, which operates with the levels A (best 10 %), B (next 25 %), C (next 30 %), D (next 25 %), and E (next 10 %).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

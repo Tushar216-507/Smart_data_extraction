@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <p>Hello ,</p>
+    <p>In Windows 11, Microsoft has introduced a new way to access and manage applications compared to previous versions of Windows. Instead of using the traditional Software Center, which was often associated with System Center Configuration Manager (SCCM), Windows 11 now relies more on the Microsoft Store, Package Manager (winget), and other modern methods for application management.</p>
+    <p>These methods include:</p>
+    <ul>
+      <li>Download from Microsoft Store</li>
+      <li>Use Winget: Windows Package Manager (winget) is a command-line tool for installing and managing applications. You can open Command Prompt or PowerShell as an administrator and use commands like winget search to find applications and winget install to install them. You may need to enable winget if it's not already enabled on your system.</li>
+    </ul>
+    <p>To enable winget, open PowerShell as an administrator and run the following command: dism.exe /online /enable-feature /featurename:MicrosoftWindowsPowerShell /all /norestart</p>
+    <p>Then update Winget with: winget --update</p>
+    <p>Search for app using Winget: winget search "&lt;namekeywords&gt;"</p>
+    <p>Install using the precise name obtained during the search using: winget install "&lt;name as it appears in the search result&gt;"</p>
+    <p>-Manual Installation: If the application you need is not available in the Microsoft Store or via winget, you may need to download and install it manually.</p>
+    <p>If you still need Software Center, but it is not present on the computer, you will need to contact your IT Department or Software Management team in order to ensure that the SCCM agent is configured correctly and the computer is managed by the SCCM infrastructure.</p>
+    <p>--If the reply is helpful, please Upvote and Accept as answer--</p>
+  </body>
+</html>

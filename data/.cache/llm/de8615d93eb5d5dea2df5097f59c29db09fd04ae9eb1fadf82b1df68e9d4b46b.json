@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "study_abroad_recommendation",
+      "value": "It is recommended to study for at least one semester at a university abroad during the course of the studies.",
+      "original_value": "Es wird empfohlen, im Verlauf des Studiums für mindestens ein Semester an einer Universität im Ausland zu studieren.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "both",
+      "field": "study_abroad_integration",
+      "value": "Study programs are designed so that a study abroad stay can be integrated without extending the study period by recognizing study and examination achievements.",
+      "original_value": "Damit ein Auslandsaufenthalt einplanbar ist, sollen die Studiengänge so gestaltet werden, dass sich ein Auslandsstudium/Auslandsaufenthalt ohne Studienzeitverlängerung unter Anrechnung von Studien- und Prüfungs-leistungen integrieren lässt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "international_office_information",
+      "value": "Information about study abroad opportunities can be obtained through the study program advisory services and the International Office.",
+      "original_value": "über die in den Studienfachberatungen und im International Office Auskunft erteilt wird.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "study_abroad_timing",
+      "value": "The program-specific guidelines should specify the optimal timeframe for a study abroad experience.",
+      "original_value": "Die studiengangsspezifische Ordnung soll den für ein Auslandsstudium besonders geeigneten Zeitrahmen ausweisen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "both",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

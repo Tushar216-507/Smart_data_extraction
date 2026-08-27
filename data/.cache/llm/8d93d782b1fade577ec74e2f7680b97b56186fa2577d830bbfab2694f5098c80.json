@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "termination_of_enrolment",
+      "field": "termination_before_october_31",
+      "value": "No Fees for Semester 1 of Academic Year",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "termination_of_enrolment",
+      "field": "termination_after_october_31_before_january_31",
+      "value": "Fees for Semester 1 only",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "termination_of_enrolment",
+      "field": "termination_after_january_31",
+      "value": "Fees for Full Academic Year",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

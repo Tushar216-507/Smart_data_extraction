@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="en" class=""
+    data-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="u6wTVtPqiPQZkOb3NXUPcFyd60pdzswUyxXLVwWu">
+
+    <title>EMS Tracking – International Speed Post | MySpeedPost</title>
+
+    <!-- Critical CSS for LCP optimization -->
+    <style>
+        /* Inline critical CSS */
+        #main-heading {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            font-display: swap;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color 0.15s ease-in-out, box-shadow-sm 0.15s ease-in-out;
+        }
+
+        /* Prevent layout shifts */
+        .loading {
+            display: inline-flex;
+            position: relative;
+        }
+
+        .loading-dots {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.25rem;
+            margin-right: 0.25rem;
+            animation: loading-dots 1s infinite linear;
+        }
+
+        @keyframes loading-dots {
+
+            0%,
+            100% {
+                opacity: 0.5;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+
+
+    <!-- Preconnect to critical domains -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="https://myspeedpost.com/images/icon-75.png" as="image" fetchpriority="high">
+
+    <!-- Fonts with display=swap for better performance -->
+    
+
+    <!-- Non-critical scripts with defer -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"
+        defer></script>
+    <script src='https://unpkg.com/leaflet@1.8.0/dist/leaflet.js' defer crossorigin=''></script>
+    <link rel='stylesheet' href='https://unpkg.com/leaflet@1.8.0/dist/leaflet.css' media="print"
+        onload="this.media='all'" crossorigin='' />
+    <script src="https://cdn.jsdelivr.net/npm/@ryangjchandler/alpine-clipboard@2.x.x/dist/alpine-clipboard.js"
+        defer></script>
+
+    <!-- Primary Meta Tags -->
+<meta name="title" content="EMS Tracking – International Speed Post | MySpeedPost">
+<meta name="description" content="Free EMS tracking for India Post Express Mail Service. Track international EMS consignments live with delivery status, location updates and WhatsApp alerts.">
+<meta name="keywords" content="ems tracking, express mail service tracking, india post ems tracking, track ems consignment, ems status, india post express tracking, ems speed post tracking, international parcel tracking india, package tracking, postal tracking india">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="MySpeedPost">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://myspeedpost.com/track-ems-speedpost">
+
+<!-- Language alternates -->
+<link rel="alternate" hreflang="en" href="https://myspeedpost.com/track-ems-speedpost">
+<link rel="alternate" hreflang="hi" href="https://myspeedpost.com/hi/track-ems-speedpost">
+<link rel="alternate" hreflang="x-default" href="https://myspeedpost.com/track-ems-speedpost">
+
+<!-- Resource hints for performance -->
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+
+<!-- Favicon and Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://myspeedpost.com/track-ems-speedpost">
+<meta property="og:title" content="EMS Tracking – International Speed Post | MySpeedPost">
+<meta property="og:description" content="Free EMS tracking for India Post Express Mail Service. Track international EMS consignments live with delivery status, location updates and WhatsApp alerts.">
+<meta property="og:image" content="https://cdn.myspeedpost.com/images/myspeedpost-og-2.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MySpeedPost - Speed Post & India Post Tracking">
+<meta property="og:site_name" content="MySpeedPost">
+<meta property="og:locale" content="en_IN">
+<meta property="og:locale:alternate" content="hi_IN">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://myspeedpost.com/track-ems-speedpost">
+<meta name="twitter:title" content="EMS Tracking – International Speed Post | MySpeedPost">
+<meta name="twitter:description" content="Free EMS tracking for India Post Express Mail Service. Track international EMS consignments live with delivery status, location updates and WhatsApp alerts.">
+<meta name="twitter:image" content="https://cdn.myspeedpost.com/images/myspeedpost-og-2.png">
+<meta name="twitter:site" content="@my_speed_post">
+<meta name="twitter:creator" content="@my_speed_post">
+
+<!-- Additional SEO Meta Tags -->
+<meta name="theme-color" content="#1e40af">
+<meta name="msapplication-TileColor" content="#1e40af">
+<meta name="application-name" content="MySpeedPost">
+<meta name="apple-mobile-web-app-title" content="MySpeedPost">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+  <!-- Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://myspeedpost.com/#organization",
+    "name": "MySpeedPost",
+    "url": "https://myspeedpost.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.myspeedpost.com/images/icon-256.png"
+    },
+    "email": "support@myspeedpost.com",
+    "description": "MySpeedPost is an independent Speed Post tracking platform that helps users track India Post consignments, receive WhatsApp delivery notifications, and understand shipment status in real time.",
+    "sameAs": [
+      "https://twitter.com/my_speed_post"
+    ],
+    "foundingLocation": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "India Post",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/India_Post",
+        "https://www.indiapost.gov.in/"
+      ]
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  }
+  </script>
+
+  <!-- WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://myspeedpost.com/#website",
+    "url": "https://myspeedpost.com/",
+    "name": "MySpeedPost",
+    "publisher": { "@id": "https://myspeedpost.com/#organization" },
+    "description": "Track your India Post Speed Post consignments instantly. Get real-time delivery updates, transit status, and WhatsApp notifications for every scan on your shipment.",
+    "inLanguage": "en-IN",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://myspeedpost.com/s/{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MySpeedPost - Speed Post Tracking Tool",
+    "applicationCategory": "Utility",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    },
+    "description": "Track India Post Speed Post consignments with live updates and WhatsApp delivery alerts."
+  }
+  </script>
+
+
+<!-- WebPage -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","url":"https://myspeedpost.com/track-ems-speedpost","name":"EMS Tracking – International Speed Post | MySpeedPost","description":"Free EMS tracking for India Post Express Mail Service. Track international EMS consignments live with delivery status, location updates and WhatsApp alerts.","inLanguage":"en-IN","isPartOf":{"@id":"https://myspeedpost.com/#website"}}
+</script>
+
+
+<!-- Breadcrumb -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://myspeedpost.com"},{"@type":"ListItem","position":2,"name":"Track Ems Speedpost","item":"https://myspeedpost.com/track-ems-speedpost"}]}
+</script>
+
+        <!-- Scripts -->
+    <link rel="preload" as="style" href="https://myspeedpost.com/build/assets/app-9abf6d3c.css" /><link rel="modulepreload" as="script" href="https://myspeedpost.com/build/assets/app-7b3fcdf8.js" /><link rel="modulepreload" as="script" href="https://myspeedpost.com/build/assets/vendor-28bc18a3.js" /><link rel="stylesheet" href="https://myspeedpost.com/build/assets/app-9abf6d3c.css" data-navigate-track="reload" /><script type="module" src="https://myspeedpost.com/build/assets/app-7b3fcdf8.js" data-navigate-track="reload"></script>
+    <!-- Styles -->
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}</style>
+
+    <div>
+            <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSG6SCEVLW"></script>
+        <script defer>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-YSG6SCEVLW');
+        </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11367281867"></script>
+        <script defer>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'AW-11367281867');
+        </script>
+        <!-- Event snippet for Page view conversion page -->
+        <script defer>
+            gtag('event', 'conversion', {
+                'send_to': 'AW-11367281867/dLlrCMH8pOoYEMvpq6wq'
+            });
+        </script>
+
+        <!-- Clarity MS -->
+                    <script type="text/javascript" defer>
+                (function(c, l, a, r, i, t, y) {
+                    c[a] = c[a] || function() {
+                        (c[a].q = c[a].q || []).push(arguments)
+                    };
+                    t = l.createElement(r);
+                    t.async = 1;
+                    t.src = "https://www.clarity.ms/tag/" + i;
+                    y = l.getElementsByTagName(r)[0];
+                    y.parentNode.insertBefore(t, y);
+                })(window, document, "clarity", "script", "jaczjxhqky");
+            </script>
+        
+        <script defer>
+            (function(w, d, t, r, u) {
+                var f, n, i;
+                w[u] = w[u] || [], f = function() {
+                    var o = {
+                        ti: "343120931",
+                        enableAutoSpaTracking: true
+                    };
+                    o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
+                }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function() {
+                    var s = this.readyState;
+                    s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+                }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
+            })(window, document, "script", "//bat.bing.com/bat.js", "uetq");
+        </script>
+
+        
+
+        
+        
+        <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false"
+            src="//scripts.scriptwrapper.com/tags/8304d599-c0b8-4be3-ad33-e89c9c916060.js"></script>
+
+        <script data-grow-initializer="">
+            !(function() {
+                window.growMe || ((window.growMe = function(e) {
+                    window.growMe._.push(e);
+                }), (window.growMe._ = []));
+                var e = document.createElement("script");
+                (e.type = "text/javascript"), (e.src = "https://faves.grow.me/main.js"), (e.defer = !0), e.setAttribute(
+                    "data-grow-faves-site-id", "U2l0ZTo4MzA0ZDU5OS1jMGI4LTRiZTMtYWQzMy1lODljOWM5MTYwNjA=");
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(e, t);
+            })();
+        </script>
+        
+
+
+        
+        <!-- self affilate network -->
+        <script src="https://myspeedads.com/sdk/myspeedads.js" defer></script>
+
+    </div>
+</head>
+
+<body class="bg-slate-100 dark:bg-gray-900 h-full min-h-screen flex flex-col">
+    <div x-data="{&quot;show&quot;:true,&quot;style&quot;:&quot;success&quot;,&quot;message&quot;:null}"
+    :class="{ 'bg-indigo-500': style == 'success', 'bg-red-700': style == 'danger', 'bg-gray-500': style != 'success' && style != 'danger' }"
+    style="display: none;" x-show="show && message" x-on:banner-message.window="
+                style = event.detail.style;
+                message = event.detail.message;
+                show = true;
+            ">
+    <div class="max-w-(--breakpoint-xl) mx-auto py-2 px-3 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="w-0 flex-1 flex items-center min-w-0">
+                <span class="flex p-2 rounded-lg"
+                    :class="{ 'bg-indigo-600': style == 'success', 'bg-red-600': style == 'danger' }">
+                    <svg x-show="style == 'success'" class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <svg x-show="style == 'danger'" class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                    </svg>
+                    <svg x-show="style != 'success' && style != 'danger'" class="h-5 w-5 text-white"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                    </svg>
+                </span>
+
+                <p class="ml-3 font-medium text-sm text-white truncate" x-text="message"></p>
+            </div>
+
+            <div class="shrink-0 sm:ml-3">
+                <button type="button" class="-mr-1 flex p-2 rounded-md focus:outline-hidden sm:-mr-2 transition"
+                    :class="{ 'hover:bg-indigo-600 focus:bg-indigo-600': style == 'success', 'hover:bg-red-600 focus:bg-red-600': style == 'danger' }"
+                    aria-label="Dismiss" x-on:click="show = false">
+                    <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="font-sans text-gray-900 dark:text-gray-100 antialiased">
+        <!-- Page Heading -->
+                    <header class="bg-base-100 dark:bg-gray-800 shadow-sm">
+                <div class="max-w-7xl mx-auto py-0 px-4 sm:px-6 lg:px-8">
+                    <div class="navbar">
+    <div class="navbar-start">
+        <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+            </label>
+            <ul tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow-sm bg-base-100 rounded-box w-[calc(100vw-2rem)] max-w-none lg:w-64">
+                <li><a href="https://myspeedpost.com/speed-post-tracking" >Track Speed Post <svg xmlns="http://www.w3.org/2000/svg"
+                            class="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="#FF0000">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg></a></li>
+                
+                <li><a href="https://myspeedpost.com/pincode-search" >Pincode Search</a></li>
+                                    <li><a href="https://myspeedpost.com/bulk-tracking" >Bulk Tracking</a></li>
+                                <li><a href="https://myspeedpost.com/blog" >Blogs</a></li>
+                <li><a href="https://forum.myspeedpost.com" target="_blank">Forum</a></li>
+                <li><a href="https://myspeedpost.com/redirect/crm" target="_blank">Raise Complaint</a></li>
+                <li><a href="https://trackmypnr.com?ref=myspeedpost.com"
+                        target="_blank">Track PNR Status</a></li>
+                
+            </ul>
+        </div>
+        <a href="https://myspeedpost.com/dashboard">
+        </a>
+        <img src="https://myspeedpost.com/images/icon-75.png" alt="myspeedpost.com" class="block h-10 w-auto" width="75" height="75"
+    loading="eager" fetchpriority="high" />        <a class="btn btn-ghost normal-case text-xl" href="https://myspeedpost.com">My Speed Post</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+            <li class="mx-1"><a href="https://myspeedpost.com/speed-post-tracking" >Track Speed Post <svg
+                        xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24"
+                        stroke="#FF0000">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg></a></li>
+            
+            <li class="mx-1"><a href="https://myspeedpost.com/pincode-search" >Pincode Search</a></li>
+                            <li class="mx-1"><a href="https://myspeedpost.com/bulk-tracking" >Bulk Tracking</a></li>
+                        <li class="mx-1"><a href="https://myspeedpost.com/blog" >Blog</a></li>
+            <li class="mx-1"><a href="https://forum.myspeedpost.com" target="_blank">Forum</a></li>
+            
+            <li><a href="https://trackmypnr.com?ref=myspeedpost.com"
+                    target="_blank">Track PNR Status</a></li>
+            
+                                                <div class="sm:flex sm:gap-4">
+                        
+                    </div>
+                                    </ul>
+    </div>
+    <div class="navbar-end">
+        
+        <div class="ml-auto">
+            
+        </div>
+    </div>
+</div>
+                </div>
+            </header>
+        
+    </div>
+    <main class="grow p-2">
+        <div class="min-[1920px]:flex min-[1920px]:justify-center min-[1920px]:gap-4">
+            <aside class="hidden min-[1920px]:block w-[300px] shrink-0" aria-hidden="true"></aside>
+            <div class="min-w-0 flex-1">
+                <!-- Structured Data for Service -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "EMS Tracking Service",
+        "description": "Live tracking service for India Post EMS (Express Mail Service) consignments",
+        "provider": {
+            "@type": "Organization",
+            "name": "MySpeedPost"
+        },
+        "serviceType": "Express Package Tracking",
+        "areaServed": "India",
+        "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": "https://myspeedpost.com/track-ems-speedpost",
+            "serviceSmsNumber": null,
+            "servicePhone": null
+        }
+        }
+        </script>
+    
+
+    <div>
+    </div>
+    <!-- Main Content with SEO-optimized structure -->
+    <div class="py-0 bg-slate-100 dark:bg-gray-900 mx-2 my-6">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <!-- SEO-friendly heading structure with LCP optimization -->
+            <div class="mb-6 text-center">
+                <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2" id="main-heading">EMS Speed Post Tracking For India Post</h1>
+                <p class="text-lg text-gray-600 dark:text-gray-400">Track your EMS (Express Mail Service) international shipments through India Post. Get real-time updates on your international consignment status.</p>
+            </div>
+            
+            <div wire:snapshot="{&quot;data&quot;:{&quot;consignment_number&quot;:&quot;&quot;,&quot;consignment_number_raw&quot;:&quot;&quot;,&quot;sample_consignment_number&quot;:&quot;EH229306588IN&quot;,&quot;sync_on_load&quot;:false,&quot;notificationEnabled&quot;:false,&quot;last_notified_time&quot;:null,&quot;hasPremium&quot;:false,&quot;isCompact&quot;:false,&quot;enableSearch&quot;:true,&quot;redirectOnSubmit&quot;:false,&quot;autoTrack&quot;:false,&quot;userTimezone&quot;:null,&quot;mode&quot;:&quot;ems&quot;,&quot;maxCards&quot;:5,&quot;default_tabview&quot;:&quot;1&quot;,&quot;status&quot;:[&quot;New&quot;,{&quot;class&quot;:&quot;App\\Enums\\ConsignmentFormStatus&quot;,&quot;s&quot;:&quot;enm&quot;}],&quot;consignment&quot;:null,&quot;tracking_request&quot;:null,&quot;last_tracking_event&quot;:null,&quot;last_tracking_event_at&quot;:null,&quot;recentConsignments&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;maxRecentConsignments&quot;:4,&quot;hasSubscription&quot;:false,&quot;suggestedCourier&quot;:null,&quot;turnstileToken&quot;:null},&quot;memo&quot;:{&quot;id&quot;:&quot;amyjGiPDSuzVO5e6ispA&quot;,&quot;name&quot;:&quot;track-consignment&quot;,&quot;path&quot;:&quot;track-ems-speedpost&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[&quot;2921248888-0&quot;],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;1da41d92b9944a14d00af3f631a789224bb66497696bbe4541be3059090e3029&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;scripts&quot;:{&quot;2921248888-0&quot;:&quot;        &lt;script&gt;\n            const turnstileWidgetId = &#039;track-turnstile-amyjGiPDSuzVO5e6ispA&#039;;\n\n            window.trackTurnstileCallback = (token) =&gt; {\n                $wire.set(&#039;turnstileToken&#039;, token, false);\n                window.dispatchEvent(new CustomEvent(&#039;track-turnstile-token&#039;));\n            };\n\n            window.trackTurnstileExpired = () =&gt; {\n                $wire.set(&#039;turnstileToken&#039;, null, false);\n                window.dispatchEvent(new CustomEvent(&#039;track-turnstile-expired&#039;));\n            };\n\n            \n            $wire.on(&#039;turnstile-reset&#039;, () =&gt; {\n                window.dispatchEvent(new CustomEvent(&#039;track-turnstile-expired&#039;));\n                const widget = document.getElementById(turnstileWidgetId);\n                if (widget) {\n                    window.turnstile?.reset(widget);\n                }\n            });\n\n            $wire.on(&#039;consignment_created&#039;, (event) =&gt; {\n                logEvent(\&quot;consignment_created\&quot;);\n                \/\/ $wire.dispatch(&#039;track_consignment&#039;);\n            });\n\n            $wire.on(&#039;trigger_share_via_whatsapp&#039;, (event) =&gt; {\n                logEvent(\&quot;share_via_whatsapp\&quot;);\n            });\n\n            $wire.on(&#039;consignment_tracked&#039;, (event) =&gt; {\n                logEvent(\&quot;consignment_tracked\&quot;);\n\n                const trackedNumber = ($wire.get(&#039;consignment_number&#039;) || &#039;&#039;).trim();\n                if (trackedNumber) {\n                    window.dispatchEvent(new CustomEvent(&#039;results-cached&#039;, {\n                        detail: {\n                            key: trackedNumber.toLowerCase(),\n                            found: true\n                        }\n                    }));\n                }\n\n                window.scrollTo({\n                    top: 380,\n                    behavior: &#039;smooth&#039;\n                })\n            });\n\n            $wire.on(&#039;consignment_subscription_alert&#039;, (event) =&gt; {\n                const dialog = document.getElementById(&#039;consignment_subscription_dialog_container&#039;);\n                if (dialog) {\n                    \/\/ setTimeout(() =&gt; {\n                    \/\/     dialog.showModal();\n                    \/\/     document.getElementById(&#039;consignment_modal_box&#039;).focus();\n                    \/\/ }, 6000);\n                }\n            });\n\n            $wire.on(&#039;consignment_track_failed&#039;, (event) =&gt; {\n                logEvent(\&quot;consignment_track_failed\&quot;);\n                window.scrollTo({\n                    top: 0,\n                    behavior: &#039;smooth&#039;\n                })\n            });\n\n            $wire.on(&#039;log_event&#039;, (event) =&gt; {\n                logEvent(event.name);\n            });\n\n            $wire.on(&#039;consignment_not_found&#039;, (event) =&gt; {\n                const notFoundNumber = (event.consignment_number || $wire.get(&#039;consignment_number&#039;) || &#039;&#039;).trim();\n                if (notFoundNumber) {\n                    window.dispatchEvent(new CustomEvent(&#039;results-cached&#039;, {\n                        detail: {\n                            key: notFoundNumber.toLowerCase(),\n                            found: false\n                        }\n                    }));\n                }\n\n                const consignment_number_holder = document.getElementById(&#039;consignment_number_holder&#039;);\n                consignment_number_holder.innerHTML = event.consignment_number;\n                const dialog = document.getElementById(&#039;consignment_subscription_dialog_container&#039;);\n                const cookieName = event.consignment_number + \&quot;_skip_alert\&quot;;\n                const skipCookie = document.cookie.includes(cookieName);\n\n                if (dialog &amp;&amp; !skipCookie) {\n                    \/\/ setTimeout(() =&gt; {\n                    \/\/     dialog.showModal();\n                    \/\/     document.getElementById(&#039;consignment_modal_box&#039;).focus();\n                    \/\/ }, 1000);\n                }\n            });\n\n            $wire.on(&#039;consignment_delivered&#039;, (event) =&gt; {\n                const end = Date.now() + 1 * 1000;\n\n                \/\/ go Buckeyes!\n                const colors = [\&quot;#bb0000\&quot;, \&quot;#ffffff\&quot;];\n\n                (function frame() {\n                    confetti({\n                        particleCount: 2,\n                        angle: 60,\n                        spread: 55,\n                        origin: {\n                            x: 0\n                        },\n                        colors: colors,\n                    });\n\n                    confetti({\n                        particleCount: 2,\n                        angle: 120,\n                        spread: 55,\n                        origin: {\n                            x: 1\n                        },\n                        colors: colors,\n                    });\n\n                    if (Date.now() &lt; end) {\n                        requestAnimationFrame(frame);\n                    }\n                })();\n            });\n\n            document.addEventListener(&#039;DOMContentLoaded&#039;, function() {\n                window.addEventListener(&#039;scroll&#039;, function() {\n                    const stickyElement = document.querySelector(&#039;#sticky-progress-bar&#039;);\n                    const container = document.querySelector(&#039;#tracking-consignment-container&#039;);\n\n                    if (!stickyElement || !container) {\n                        return;\n                    }\n\n                    const containerRect = container.getBoundingClientRect();\n\n                    if (containerRect.bottom &lt; 0) {\n                        stickyElement.classList.add(&#039;fixed&#039;);\n                        stickyElement.classList.remove(&#039;sticky&#039;);\n                    } else {\n                        stickyElement.classList.remove(&#039;fixed&#039;);\n                        stickyElement.classList.add(&#039;sticky&#039;);\n                    }\n                });\n            });\n        &lt;\/script&gt;\n        &quot;},&quot;url&quot;:{&quot;consignment_number&quot;:{&quot;as&quot;:&quot;n&quot;,&quot;use&quot;:&quot;push&quot;,&quot;alwaysShow&quot;:false,&quot;except&quot;:null}},&quot;listeners&quot;:[&quot;check_if_notification_enabled&quot;,&quot;set_consignment_number&quot;,&quot;consignment_subscription_saved&quot;,&quot;clear_consignment_cookie&quot;,&quot;set_default_tabview&quot;,&quot;share_via_whatsapp&quot;,&quot;refresh_consignment&quot;,&quot;sample_consignment&quot;]}" wire:id="amyjGiPDSuzVO5e6ispA" class="" id="tracking-consignment-container" x-data="{
+    cachedSearchKey: null,
+    cachedSearchTime: null,
+    cachedSearchFound: true,
+    isCachedLoading: false,
+    isSubmitting: false,
+    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    turnstileReady: true,
+    turnstileEnabled: false,
+    autoTrackPending: false,
+    wireStatus: $wire.entangle('status'),
+    cachingDisabled: false,
+    redirectOnSubmit: false,
+    trackUrl: 'https://myspeedpost.com/speed-post-tracking',
+    get isTracking() {
+        return this.isCachedLoading || this.isSubmitting || this.wireStatus === 'Processing';
+    },
+    get isLoading() {
+        return this.isTracking;
+    },
+    get isButtonDisabled() {
+        return this.isTracking || (this.turnstileEnabled && (!this.turnstileReady || this.autoTrackPending));
+    },
+    handleSubmit(action = 'submit') {
+        
+        if (this.turnstileEnabled && (this.autoTrackPending || !this.turnstileReady)) {
+            return;
+        }
+
+        const trackingNum = ($wire.consignment_number || '').trim();
+
+        if (!trackingNum) {
+            $wire.submit(this.timezone);
+            return;
+        }
+
+        if (this.redirectOnSubmit && action === 'submit') {
+            this.isSubmitting = true;
+            window.location.assign(this.trackUrl + '?n=' + encodeURIComponent(trackingNum) + '&sync=true');
+            return;
+        }
+
+        const cacheKey = trackingNum.toLowerCase();
+        const now = Date.now();
+
+        if (this.cachingDisabled || this.cachedSearchKey !== cacheKey) {
+            this.cachedSearchKey = null;
+            this.cachedSearchTime = null;
+        }
+
+        if (this.cachedSearchKey === cacheKey && this.cachedSearchTime && (now - this.cachedSearchTime) < 300000) {
+            this.isCachedLoading = true;
+            console.log('handleSubmit isCachedLoading set to true for cached search key:', cacheKey);
+            setTimeout(() => {
+                this.isCachedLoading = false;
+                window.scrollTo({ top: this.cachedSearchFound ? 380 : 0, behavior: 'smooth' });
+            }, 1200);
+            return;
+        }
+
+        if (action === 'refresh') {
+            $wire.dispatch('refresh_consignment', { userTimezone: this.timezone });
+        } else {
+            this.isSubmitting = true;
+            $wire.submit(this.timezone)
+                .catch((err) => {
+                    console.error('Submit error:', err);
+                })
+                .finally(() => {
+                    this.isSubmitting = false;
+                });
+            setTimeout(() => {
+                if (this.isSubmitting) {
+                    this.isSubmitting = false;
+                }
+            }, 15000);
+        }
+    }
+}" x-init="$wire.set('userTimezone', timezone, false);
+
+setTimeout(() => turnstileReady = true, 5000)"
+    @track-turnstile-token.window="turnstileReady = true"
+    @track-turnstile-expired.window="turnstileReady = false; setTimeout(() => turnstileReady = true, 5000)"
+    @track-submit-reset.window="isSubmitting = false"
+    @results-cached.window="cachedSearchKey = $event.detail.key; cachedSearchTime = Date.now(); cachedSearchFound = $event.detail.found !== false">
+
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+    <!--[if BLOCK]><![endif]-->        <div class="tracking-card relative overflow-hidden w-full my-3 p-5 sm:p-6 rounded-2xl bg-white dark:bg-gray-800 shadow-lg border border-gray-100 dark:border-gray-700"
+            x-data="{ consignment_number: $wire.entangle('consignment_number'), shakeError: false }" x-init="if (!consignment_number) consignment_number = '';
+            $nextTick(() => { if (!(consignment_number || '').trim()) $refs.trackingInput.focus(); })">
+            
+            <div
+                class="tracking-card-glow absolute -top-20 -right-20 w-40 h-40 rounded-full bg-blue-500/10 dark:bg-blue-400/10 blur-3xl pointer-events-none">
+            </div>
+
+            
+            <div class="flex items-center justify-center gap-2 mb-4">
+                <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-100">Enter your tracking number to track your EMS shipment</h3>
+                <div class="flex items-center gap-1.5 text-xs font-medium text-emerald-600 dark:text-emerald-400">
+                    <span class="tracking-pulse-dot relative flex h-2 w-2">
+                        <span
+                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <span>Live</span>
+                </div>
+            </div>
+
+            
+            
+
+            <form
+                @submit.prevent="if (!(consignment_number || '').trim()) { shakeError = true; $refs.trackingInput.focus(); setTimeout(() => shakeError = false, 1000); return; } handleSubmit();"
+                class="max-w-md mx-auto">
+                
+                <div class="relative mb-3">
+                    <button type="button"
+                        class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 dark:text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors z-10 p-0.5"
+                        @click="document.getElementById('qr-scanner-dialog').showModal(); if (window.__startQrScanner) window.__startQrScanner();"
+                        aria-label="Scan QR or Barcode" title="Scan QR / Barcode">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-qr-code-scan" viewBox="0 0 16 16">
+                            <path
+                                d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z" />
+                            <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z" />
+                            <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z" />
+                            <path
+                                d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z" />
+                            <path d="M12 9h2V8h-2z" />
+                        </svg>
+                    </button>
+                    <input id="consignment_search" x-ref="trackingInput" type="search"
+                        class="block w-full pl-11 pr-16 py-3.5 sm:py-3 text-lg sm:text-base font-normal tracking-wider text-gray-800 dark:text-gray-100 bg-gray-50 dark:bg-gray-700/60 border rounded-xl transition-all duration-200 placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:bg-white dark:focus:bg-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 focus:outline-hidden [&::-webkit-search-cancel-button]:hidden"
+                        :class="shakeError ? 'border-red-500 ring-2 ring-red-500/20 animate-[shake_0.3s_ease-in-out]' :
+                            'border-gray-200 dark:border-gray-600'"
+                        @input="shakeError = false" placeholder="e.g EK123456789IN" aria-label="Search"
+                        aria-describedby="button-addon2" wire:model="consignment_number"
+                        value="" inputmode="text" autocomplete="off" data-clarity-unmask="true"
+                         autofocus >
+                    <span
+                        class="absolute right-10 top-1/2 -translate-y-1/2 text-sm font-medium pointer-events-none tabular-nums"
+                        :class="(consignment_number || '').length > 0 && (consignment_number || '').length !== 13 ?
+                            'text-red-400' : 'text-gray-400 dark:text-gray-500'"
+                        x-text="(consignment_number || '').length + '/13'"></span>
+                    <button type="button"
+                        class="absolute right-3 top-1/2 -translate-y-1/2 p-0.5 text-gray-400 hover:text-red-500 dark:text-gray-500 dark:hover:text-red-400 transition-colors"
+                        x-show="(consignment_number || '').length > 0" x-cloak
+                        @click="consignment_number = ''; $wire.set('consignment_number', ''); window.Livewire.find('amyjGiPDSuzVO5e6ispA').dispatch('clear_consignment_cookie');"
+                        aria-label="Clear input">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+                
+                <button type="submit" id="button-addon2" :disabled="isButtonDisabled"
+                    class="w-full flex items-center justify-center gap-2 py-3.5 sm:py-3 px-6 text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl shadow-md shadow-blue-500/20 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg hover:shadow-blue-500/30 active:scale-[0.98] focus:outline-hidden focus:ring-2 focus:ring-blue-500/40 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed disabled:active:scale-100"
+                    >
+                    <span x-show="!isTracking" class="flex items-center gap-2">
+                        <span>Track Now</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </span>
+                    <span x-show="isTracking" x-cloak class="flex items-center gap-2">
+                        <svg class="w-4 h-4 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor"
+                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                            </path>
+                        </svg>
+                        <span>Fetching Latest Tracking Status</span>
+                    </span>
+                </button>
+
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+                
+
+                <div>
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                </div>
+
+                <div class="pt-3 pb-0 text-center text-slate-400 dark:text-slate-500">
+                    <a href="https://myspeedpost.com/lang/hi"
+    class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 rounded-md transition-colors"
+    wire:ignore>
+    <span></span>
+            <img src="https://myspeedpost.com/images/svg/flag-india.svg" class="w-6 h-6 mr-1" alt="WhatsApp" />
+        </span>
+    <span class="inline text-slate-400 dark:text-slate-500">हिन्दी में देखें</span>
+</a>                </div>
+
+                <!--[if BLOCK]><![endif]-->                    <div class="w-full max-w-3xl mx-auto">
+    <div class="pl-4 pr-4">
+            </div>
+</div>                <!--[if ENDBLOCK]><![endif]-->
+            </form>
+        </div>
+
+        
+        <div class="w-full" wire:ignore x-init="(function tryFill(n) {
+            const web = window.$adManagementConfig && window.$adManagementConfig.web;
+            if (web && web.fillHints) { web.fillHints(); } else if (n > 0) { setTimeout(() => tryFill(n - 1), 1000); }
+        })(15)">
+            <div class="mv_slot_target" data-slot="content"></div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]-->
+    <div class="justify-center">
+                
+        <div x-show="isCachedLoading" x-cloak
+            class="rounded-2xl py-1 mb-0 sticky top-0 left-0 right-0 z-50 bg-base-100 dark:bg-gray-800 shadow-sm">
+            <div class="flex flex-col items-center px-4 py-2">
+                <div class="flex flex-row items-center">
+                    <div class="text-primary mr-2">Fetching Latest Tracking Status</div>
+                    <span class="loading loading-dots loading-md text-primary"></span>
+                </div>
+            </div>
+            <div class="px-4 pb-2">
+                <progress class="progress progress-primary w-full"></progress>
+            </div>
+        </div>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+    </div>
+    
+    <dialog id="qr-scanner-dialog"
+        class="fixed inset-0 w-full h-full max-w-full max-h-full m-0 p-0 bg-black z-[9999] backdrop:bg-black"
+        style="border: none;" wire:ignore.self>
+        <div class="relative w-full h-full flex flex-col">
+            
+            <div class="flex items-center justify-between px-4 py-3 bg-black/80 text-white z-10">
+                <h3 class="text-lg font-semibold">Scan QR Code / Barcode</h3>
+                <button type="button"
+                    onclick="window.__stopQrScanner(); document.getElementById('qr-scanner-dialog').close();"
+                    class="p-2 rounded-full hover:bg-white/20 transition-colors" aria-label="Close scanner">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="flex-1 flex items-center justify-center bg-black overflow-hidden">
+                <div id="qr-reader" class="w-full h-full"></div>
+            </div>
+            
+            <div id="qr-scanner-status" class="px-4 py-3 bg-black/80 text-center text-sm text-gray-300">
+                Point your camera at a QR code or barcode on the consignment receipt
+            </div>
+        </div>
+    </dialog>
+
+    <script>
+        (function() {
+            let html5QrCode = null;
+            let isScanning = false;
+            let libLoaded = false;
+            let libLoading = false;
+
+            function loadLib() {
+                return new Promise(function(resolve, reject) {
+                    if (libLoaded) return resolve();
+                    if (libLoading) {
+                        // Wait for existing load
+                        const check = setInterval(function() {
+                            if (libLoaded) {
+                                clearInterval(check);
+                                resolve();
+                            }
+                        }, 50);
+                        return;
+                    }
+                    libLoading = true;
+                    const s = document.createElement('script');
+                    s.src = 'https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js';
+                    s.onload = function() {
+                        libLoaded = true;
+                        resolve();
+                    };
+                    s.onerror = function() {
+                        libLoading = false;
+                        reject(new Error('Failed to load QR scanner library'));
+                    };
+                    document.head.appendChild(s);
+                });
+            }
+
+            window.__startQrScanner = function() {
+                const statusEl = document.getElementById('qr-scanner-status');
+                statusEl.textContent = 'Loading scanner...';
+                statusEl.className = 'px-4 py-3 bg-black/80 text-center text-sm text-gray-300';
+
+                if (html5QrCode && isScanning) return;
+
+                loadLib().then(function() {
+                    statusEl.textContent = 'Initializing camera...';
+
+                    html5QrCode = new Html5Qrcode("qr-reader");
+                    isScanning = true;
+
+                    html5QrCode.start({
+                            facingMode: "environment"
+                        }, {
+                            fps: 10,
+                            qrbox: function(viewfinderWidth, viewfinderHeight) {
+                                let size = Math.min(viewfinderWidth, viewfinderHeight) * 0.75;
+                                return {
+                                    width: Math.floor(size),
+                                    height: Math.floor(size * 0.6)
+                                };
+                            },
+                            aspectRatio: 1.0,
+                            formatsToSupport: [
+                                Html5QrcodeSupportedFormats.QR_CODE,
+                                Html5QrcodeSupportedFormats.CODE_128,
+                                // Html5QrcodeSupportedFormats.CODE_39,
+                                // Html5QrcodeSupportedFormats.EAN_13,
+                                // Html5QrcodeSupportedFormats.EAN_8,
+                            ],
+                        },
+                        function onScanSuccess(decodedText) {
+                            statusEl.textContent = 'Processing: ' + decodedText;
+                            statusEl.className =
+                                'px-4 py-3 bg-black/80 text-center text-sm text-yellow-300';
+
+                            // Immediately stop scanning to prevent duplicates
+                            window.__stopQrScanner();
+
+                            // Call Livewire to prepare/validate the number
+                            window.Livewire.find('amyjGiPDSuzVO5e6ispA').prepareScannedNumber(decodedText).then(function(prepared) {
+                                if (prepared && prepared.trim().length > 0) {
+                                    // Valid consignment number
+                                    window.Livewire.find('amyjGiPDSuzVO5e6ispA').set('consignment_number', prepared);
+                                    document.getElementById('qr-scanner-dialog').close();
+                                    // Auto-submit
+                                    window.Livewire.find('amyjGiPDSuzVO5e6ispA').submit();
+                                } else {
+                                    // Invalid - show error and restart scanner
+                                    statusEl.textContent =
+                                        'Invalid consignment number. Please try again.';
+                                    statusEl.className =
+                                        'px-4 py-3 bg-black/80 text-center text-sm text-red-400';
+                                    setTimeout(function() {
+                                        window.__startQrScanner();
+                                    }, 1500);
+                                }
+                            }).catch(function() {
+                                statusEl.textContent =
+                                    'Error processing scan. Please try again.';
+                                statusEl.className =
+                                    'px-4 py-3 bg-black/80 text-center text-sm text-red-400';
+                                setTimeout(function() {
+                                    window.__startQrScanner();
+                                }, 1500);
+                            });
+                        },
+                        function onScanFailure() {
+                            // Ignore continuous scan failures (no code in view)
+                        }
+                    ).then(function() {
+                        statusEl.textContent =
+                            'Point your camera at a QR code or barcode on the consignment receipt';
+                        statusEl.className =
+                            'px-4 py-3 bg-black/80 text-center text-sm text-gray-300';
+                    }).catch(function(err) {
+                        isScanning = false;
+                        statusEl.textContent =
+                            'Camera access denied or not available. Please allow camera permissions.';
+                        statusEl.className =
+                            'px-4 py-3 bg-black/80 text-center text-sm text-red-400';
+                        console.error('QR Scanner error:', err);
+                    });
+                }).catch(function(err) {
+                    statusEl.textContent = 'Failed to load scanner. Please check your connection.';
+                    statusEl.className = 'px-4 py-3 bg-black/80 text-center text-sm text-red-400';
+                    console.error('QR lib load error:', err);
+                });
+            };
+
+            window.__stopQrScanner = function() {
+                if (html5QrCode && isScanning) {
+                    html5QrCode.stop().then(function() {
+                        html5QrCode.clear();
+                        isScanning = false;
+                    }).catch(function() {
+                        isScanning = false;
+                    });
+                }
+            };
+
+            // Close on Escape key
+            document.getElementById('qr-scanner-dialog').addEventListener('close', function() {
+                window.__stopQrScanner();
+            });
+        })();
+    </script>
+
+    <div x-persist="consignment-tracker-script">
+        <script>
+            var consignement_number = "";
+            document.addEventListener('livewire:init', () => {
+                if (window.Livewire.find('amyjGiPDSuzVO5e6ispA')) {
+                    consignement_number = window.Livewire.find('amyjGiPDSuzVO5e6ispA').get('consignment_number', '');
+                    var sync_on_load = window.Livewire.find('amyjGiPDSuzVO5e6ispA').get('sync_on_load', false);
+
+                    if (consignement_number != "" && sync_on_load) {
+                        $wire.dispatch('track_consignment');
+                    }
+                }
+
+                const consignmentSearch = document.getElementById('consignment_search');
+                if (consignmentSearch) {
+                    consignmentSearch.addEventListener('input', (e) => {
+                        if (e.currentTarget && e.currentTarget.value === "") {
+                            window.Livewire.find('amyjGiPDSuzVO5e6ispA').dispatch('clear_consignment_cookie');
+                        }
+                    });
+                }
+
+            });
+
+            document.addEventListener('livewire:error', event => {
+                console.error('Livewire error:', event.detail);
+                window.dispatchEvent(new CustomEvent('track-submit-reset'));
+                if (event.detail && event.detail.exception && event.detail.exception.message && event.detail.exception.message.includes('Gateway timeout')) {
+                    console.error('Gateway timeout error occurred. Please try again later.');
+                }
+            });
+        </script>
+    </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="my-3 mx-2 bg-slate-100 dark:bg-gray-900">
+        <div class="max-w-7xl sm:px-8 mx-auto">
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xs rounded-2xl">
+                <div class="p-6">
+                                            <div class="container mx-auto px-4 sm:px-10 py-0 dark:text-gray-300" data-content-area>
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 dark:text-red-400 ">About EMS Express Mail Service Tracking on
+            MySpeedPost</h2>
+    </div>
+
+    <p>Welcome to MySpeedPost.com, your trusted platform for tracking EMS (Express Mail Service) shipments dispatched
+        via India Post's premium express delivery service. Whether you're sending or receiving important documents,
+        parcels, or packages, you can use our service to monitor the delivery status of your EMS consignments in
+        real-time.</p>
+    <p class="p-4"><b>Live Notifications:</b> Receive live updates on WhatsApp or Email as your EMS package moves
+        through the India Post network.</p>p>
+    <p class="p-4"><b>Track EMS Delivery:</b> Enter your EMS tracking number (provided at the time of booking) to get
+        instant updates on your package's location, delivery status, and expected arrival date.</p>
+    <p class="p-4"><b>Multiple Shipments:</b> Track the status and delivery of multiple EMS shipments by entering their
+        respective tracking numbers.</p>
+    <p class="p-4"><b>User-Friendly Experience:</b> Our website is designed for simplicity—just enter your tracking
+        number and click 'Track' to see the latest status.</p>
+
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 ">How To Track Your EMS Shipment</h2>
+    </div>
+    <p>Tracking your EMS shipment on MySpeedPost is easy. Here's how:</p>
+    <p class="pt-4"><b>1: Locate Your Tracking Number:</b> Your EMS tracking number is provided on your receipt when you
+        book an Express Mail Service at the post office.</p>
+    <p class="p-4"><b>2. Visit MySpeedPost.com: </b>Go to <a href="https://www.myspeedpost.com">www.myspeedpost.com</a>
+        and select EMS Tracking.</p>
+    <div class="flex items-center justify-center">
+        <img src="https://cdn.myspeedpost.com/images/content/website-720.png" alt="MySpeedPost Website"
+            class="w-full md:w-1/2" loading="lazy">
+    </div>
+    <p class="p-4"><b>3. Enter Your Tracking Number: </b>Input your EMS tracking number in the form. Double-check for
+        accuracy.</p>
+    <p class="p-4"><b>4. Click 'Track':</b> Instantly view the latest status, location, and delivery updates for your
+        EMS shipment.</p>
+    <div class="flex items-center justify-center">
+        <img src="https://cdn.myspeedpost.com/images/content/post-720.png" alt="Track EMS Delivery"
+            class="w-full md:w-1/2" loading="lazy">
+    </div>
+
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 ">FAQs: EMS Express Mail Service Tracking</h2>
+    </div>
+    <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+        <li><b>How to Track EMS Status online?</b> Enter your EMS tracking number in the Track EMS form on this page.
+        </li>
+        <li><b>What information do I need?</b> Your 13-digit EMS tracking number from your booking receipt.</li>
+        <li><b>What information is displayed?</b> Current location, delivery status, expected delivery date, and
+            complete movement history.</li>
+        <li><b>How long does it take for status to update?</b> EMS tracking is updated in real-time as your package
+            moves through the postal network.</li>
+        <li><b>What does 'in transit' mean?</b> Your EMS package is on its way to the destination and moving through the
+            postal network.</li>
+        <li><b>How to check if EMS has been delivered?</b> Status will show 'delivered' with delivery date, time, and
+            recipient signature details.</li>
+        <li><b>Can I track delivery status?</b> Yes, you can track your EMS package from booking to final delivery via
+            MySpeedPost.com.</li>
+        <li><b>If I've lost my tracking number?</b> Contact the post office where you booked the EMS or check your
+            booking receipt.</li>
+        <li><b>How often should I check?</b> You can check anytime for real-time updates on your EMS shipment.</li>
+        <li><b>If status shows 'undelivered'?</b> Contact the destination post office or update your delivery address if
+            needed.</li>
+        <li><b>If there's a discrepancy?</b> Contact India Post customer support or visit your local post office for
+            assistance.</li>
+        <li><b>Can I track multiple EMS shipments?</b> Yes, enter each EMS tracking number separately to track multiple
+            shipments.</li>
+        <li><b>What makes EMS different from regular Speed Post?</b> EMS is a premium express service with faster
+            delivery, better tracking, and international delivery options.</li>
+    </ul>
+
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 ">How EMS Express Mail Service Works</h2>
+    </div>
+    <p>EMS (Express Mail Service) is India Post's premium express delivery service that provides fast, reliable, and
+        trackable delivery of documents and packages. When you book an EMS shipment, it is processed with priority
+        handling and moves through a dedicated express network. You can track every step of this journey using
+        MySpeedPost.com until it is delivered to the recipient.</p>
+
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 ">What is EMS Consignment Number?</h2>
+    </div>
+    <p>An EMS consignment number is a unique identifier assigned to Express Mail Service shipments sent through India
+        Post. This 13-digit tracking number allows you to track the progress and location of your express package as it
+        moves through the postal system with priority handling.</p>
+    <p class="pt-4 pb-10">The EMS consignment number follows the international standard format with 13 characters. The
+        first letter indicates the service type - 'E' for EMS Express Mail Service. The following characters indicate
+        origin, unique identification number, and destination country code 'IN' for India.</p>
+    <div class="pt-10">
+        <table class="static_table pt-10">
+            <tbody class="">
+                <tr class="border">
+                    <th scope="row" class="font-bold border p-4 bg-slate-200 dark:bg-slate-700 text-left">Types of EMS
+                        Services</th>
+                </tr>
+                <tr class="border">
+                    <td class="p-4">
+                        <ul>
+                            <li><b>EE </b>stands for EMS Express Mail Service for international shipments</li>
+                            <li><b>EM </b>stands for EMS Express Mail Service for domestic shipments</li>
+                            <li><b>EP </b>stands for EMS Premium service with additional features</li>
+                            <li><b>ED </b>stands for EMS Documents service for important papers</li>
+                            <li><b>EC </b>stands for EMS Commercial service for business packages</li>
+                        </ul>
+                    <td>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 ">What is India Post EMS Speed Post?</h2>
+    </div>
+    <p>India Post EMS, also known as EMS Speed Post, is a premium, time-bound postal service for both domestic and
+        international shipments. It offers fast and reliable delivery of documents and parcels, with tracking available
+        for both domestic and international items.</p>
+
+    <div class="mt-6">
+        <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200 mb-2">Key Features:</h3>
+        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 ml-4">
+            <li><b>Domestic and International:</b> Covers both domestic and international shipments with reliable
+                delivery networks.</li>
+            <li><b>Complete Tracking:</b> Provides comprehensive tracking for both domestic and international items with
+                real-time updates.</li>
+            <li><b>Wide Network:</b> India Post has a vast network, making EMS accessible across India and to
+                international destinations.</li>
+            <li><b>Reliable Delivery:</b> EMS Speed Post aims for fast and reliable delivery of packages and documents
+                with time-bound service.</li>
+            <li><b>Cost-Effective:</b> Considered a cost-effective solution for premium shipping needs compared to
+                private couriers.</li>
+            <li><b>Easy Booking:</b> You can book EMS Speed Post at any post office across India with proper
+                documentation.</li>
+        </ul>
+    </div>
+
+    <div class="mt-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-2">How to Use EMS Speed Post:</h3>
+        <ol class="list-decimal list-inside space-y-2 text-gray-700 dark:text-gray-300 ml-4">
+            <li><b>Find a Post Office:</b> Locate the nearest post office that offers Speed Post services.</li>
+            <li><b>Book your Item:</b> Take your package or document to the post office and book it under the EMS Speed
+                Post service.</li>
+            <li><b>Track your Item:</b> Use MySpeedPost.com or India Post's online tracking system to monitor its
+                progress in real-time.</li>
+        </ol>
+    </div>
+
+    <p class="mt-6">In essence, India Post EMS (Speed Post) is a reliable and efficient way to send documents and
+        packages both within India and internationally, with the added benefit of comprehensive tracking to keep you
+        updated on your shipment's progress throughout the delivery journey.</p>
+
+    <div class="border-b-2 mb-4 pt-10">
+        <h2 class=" text-2xl font-semibold text-red-700 ">Understanding EMS Tracking Numbers</h2>
+
+    </div>
+    <p>An EMS tracking number in India Post is a unique identifier assigned to Express Mail Service shipments. It is
+        also commonly referred to as an "EMS tracking ID" or "express consignment number." This number allows both the
+        sender and the recipient to track the progress and location of the express package as it moves through the
+        priority postal network.</p>
+    <p class="pt-4 pb-10">The EMS tracking number is comprised of 13 characters, with the first two letters indicating
+        the service type. For instance, if you take the example of EE123456789IN, 'EE' represents EMS Express Mail
+        Service. The middle 9 digits represent the unique identification number, and the last 2 digits, 'IN,' signify
+        that the package is destined for or originated from INDIA.</p>
+    <div class="pt-10">
+        <table class="static_table pt-10">
+
+            <tbody class="">
+                <tr class="border">
+                    <th scope="row" class="font-bold border p-4 bg-slate-200 text-left">EMS Service Types</th>
+                </tr>
+                <tr class="border">
+                    <td class="p-4">
+                        <ul>
+                            <li><b>EE </b>stands for EMS Express Mail Service (International)</li>
+                            <li><b>EM </b>stands for EMS Express Mail Service (Domestic)</li>
+                            <li><b>EP </b>stands for EMS Premium Express Service</li>
+                            <li><b>ED </b>stands for EMS Document Express Service</li>
+                            <li><b>EC </b>stands for EMS Commercial Express Service</li>
+                        </ul>
+                    <td>
+            </tbody>
+        </table>
+    </div>
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional SEO Content -->
+        <div class="my-3 mx-2 bg-slate-100 dark:bg-gray-900">
+        <div class="max-w-7xl sm:px-8 mx-auto">
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xs rounded-2xl">
+                <div class="p-6 sm:p-8">
+            <div>
+                <div class="prose max-w-none">
+                    <h2 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">How to Track Your EMS Shipment</h2>
+                    <p class="mb-6 text-gray-700 dark:text-gray-300">This page is dedicated to tracking EMS (Express Mail Service) shipments sent through India Post&#039;s premium express delivery service. Enter your EMS tracking number above to get real-time updates on your shipment&#039;s status, delivery progress, and location.</p>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">Find Your Tracking Number</h3>
+                            <ol class="list-decimal list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                                <li>Look for the 13-character EMS tracking number on your receipt. It typically starts with &quot;EE&quot; or &quot;EM&quot; followed by 9 digits and ends with the country code.</li>
+                                <li>Enter your tracking number in the search box above and click &quot;Track&quot; to get real-time updates on your EMS shipment.</li>
+                                <li>Create a free account to save your tracking history and get automatic email notifications for status changes.</li>
+                                <li>Enter your tracking number to track your EMS shipment</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">What Information Is Available?</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                                <li>Current location and status of your EMS shipment</li>
+                                <li>Expected delivery date and complete movement history</li>
+                                <li>Delivery confirmation and recipient details (if delivered)</li>
+                                <li>Live tracking updates for express delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">Why Use This Service?</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                            <li>Specialized for EMS Express Mail Service tracking</li>
+                            <li>Fast, accurate, and up-to-date shipment information</li>
+                            <li>Easy to use and accessible from any device</li>
+                            <li>No registration required for basic tracking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+            </div>
+            <aside class="sidebar hidden min-[1920px]:block w-[300px] shrink-0" aria-label="Sponsored content"></aside>
+        </div>
+        
+        <!-- Blade Template -->
+<div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;Bo0Xx0LyvKLkbyGKnq1g&quot;,&quot;name&quot;:&quot;notfound-dialog&quot;,&quot;path&quot;:&quot;track-ems-speedpost&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;48346bc943d557e4f88e177ae3f5e8b5843c58e734fd267ebea8231d3c7be0c3&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="Bo0Xx0LyvKLkbyGKnq1g" id="consignment_register_dialog_parent">
+    <div x-persist="notfound-dialog">
+    <dialog id="consignment_register_dialog_container" class="modal modal-bottom sm:modal-middle">
+                <div class="modal-box bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm mx-auto">
+            <div class="text-center mb-6">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20 7.5L12 3L4 7.5M20 7.5V16.5L12 21M20 7.5L12 12M12 12L4 7.5M12 12V21M4 7.5V16.5L12 21">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">
+                    <span id="consignment_number_holder"></span> could not be found
+                </h3>
+                
+                <p class="text-gray-600 dark:text-gray-300">
+                    It may take up to 24 hours for the tracking information to be updated. Get instant notifications when your consignment status changes.
+                </p>
+            </div>
+            <div class="bg-blue-100 dark:bg-blue-900 rounded-lg p-4 mb-6">
+                <p class="text-lg font-semibold text-blue-600 dark:text-blue-300 mb-4">
+                    Register Now to get:</p>
+                <ul class="text-gray-600 dark:text-gray-300 mt-4">
+                                            <li class="flex items-center mb-2"><svg class="w-4 h-4 mr-2 text-green-500" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg>Live Tracking for 24 Hours</li>
+                                            <li class="flex items-center mb-2"><svg class="w-4 h-4 mr-2 text-green-500" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg>Email Alerts</li>
+                                            <li class="flex items-center mb-2"><svg class="w-4 h-4 mr-2 text-green-500" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg>Unlimited Consignment Tracking</li>
+                                            <li class="flex items-center mb-2"><svg class="w-4 h-4 mr-2 text-green-500" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg>Live Tracking Status Updates</li>
+                                            <li class="flex items-center mb-2"><svg class="w-4 h-4 mr-2 text-green-500" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg>Push Notifications</li>
+                                            <li class="flex items-center mb-2"><svg class="w-4 h-4 mr-2 text-green-500" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                                </path>
+                            </svg>Background Notifications</li>
+                                    </ul>
+            </div>
+            <div class="flex justify-center gap-2">
+                <form method="dialog">
+                    <button
+                        class="bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 text-gray-800 dark:text-gray-200 font-bold py-2 px-8 rounded-sm focus:outline-hidden focus:shadow-outline"
+                        wire:click="skip">
+                        Later
+                    </button>
+                </form>
+                <form method="dialog">
+                    <button
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-sm focus:outline-hidden focus:shadow-outline"
+                        wire:click="registerNow" wire:loading.attr="disabled" wire:loading.class.remove="bg-blue-600">
+                        Register Now
+                    </button>
+                </form>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    </div>
+</div>        <!-- Blade Template -->
+<div wire:snapshot="{&quot;data&quot;:{&quot;email&quot;:null,&quot;phone&quot;:null,&quot;consignmentNumber&quot;:null,&quot;consignmentNotFound&quot;:false,&quot;subscribedEmails&quot;:&quot;&quot;,&quot;latestStatus&quot;:&quot;In Transit \ud83d\ude9a&quot;,&quot;latestLocation&quot;:&quot;Local Post Office, Mumbai&quot;,&quot;lastUpdated&quot;:&quot;10:42 AM&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;oZzmkKuQjIl7AhSiRbxc&quot;,&quot;name&quot;:&quot;consignment-subscription&quot;,&quot;path&quot;:&quot;track-ems-speedpost&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[&quot;1566727944-0&quot;],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;3670715e4cdcc92006e1454bae29c5e3eb7aaa54ad15d9e9eff74be752ccfe76&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;scripts&quot;:{&quot;1566727944-0&quot;:&quot;&lt;script&gt;\n    $wire.on(&#039;consignment_subscription_saved&#039;, () =&gt; {\n        \/\/ Close the subscription dialog\n        consignment_subscription_dialog_container.close();\n\n        \/\/ Show the confirmation dialog after delay\n        setTimeout(() =&gt; {\n            subscription_confirmation_dialog_container.showModal();\n        }, 300);\n    });\n&lt;\/script&gt;\n    &quot;},&quot;listeners&quot;:[&quot;set_consignment_number&quot;,&quot;consignment_not_found&quot;]}" wire:id="oZzmkKuQjIl7AhSiRbxc" id="consignment_subscription_dialog_parent" wire:ignore.self>
+    <div x-persist="consignment-subscription-dialog">
+    <dialog id="consignment_subscription_dialog_container" class="modal modal-bottom sm:modal-middle" wire:ignore.self>
+        <div id="consignment_modal_box" tabindex="-1"
+            class="modal-box bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm mx-auto">
+            <div class="text-center mb-6">
+                                    
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">
+                        🔔 Get Live Tracking Updates for 
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Subscribe for free to receive instant notifications when your consignment status changes. No Signup Required.
+                    </p>
+                            </div>
+            
+            
+            <div class="" x-data="{
+                    mode: 'whatsapp',
+                    isSubscribingPush: false,
+                    pushError: null,
+                    isIOS: false,
+                    isStandalone: false,
+                    pushSupported: true,
+                    permission: 'default',
+                    init() {
+                        this.isIOS = (/iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream;
+                        this.isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+                        this.pushSupported = 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;
+                        if ('Notification' in window) {
+                            this.permission = Notification.permission;
+                        }
+                    },
+                    urlBase64ToUint8Array(base64String) {
+                        const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
+                        const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+                        const rawData = atob(base64);
+                        return Uint8Array.from([...rawData].map((c) => c.charCodeAt(0)));
+                    },
+                    async subscribeWebPush() {
+                        this.pushError = null;
+                        if (this.isIOS && !this.isStandalone) {
+                            this.pushError = 'On iPhone/iPad, please add MySpeedPost to your Home Screen first to enable Web Push notifications.';
+                            return;
+                        }
+                        if (!this.pushSupported) {
+                            this.pushError = 'Web Push notifications are not supported by this browser.';
+                            return;
+                        }
+                        this.isSubscribingPush = true;
+                        try {
+                            const permission = await Notification.requestPermission();
+                            this.permission = permission;
+                            if (permission !== 'granted') {
+                                this.pushError = 'Notification permission was denied. Please enable notifications in your browser settings.';
+                                this.isSubscribingPush = false;
+                                return;
+                            }
+                            await navigator.serviceWorker.register('/sw.js');
+                            const registration = await navigator.serviceWorker.ready;
+                            const vapidKey = document.querySelector('meta[name=\'vapid-public-key\']')?.content || 'BHh3zdhO00ctlnPq_HWhewzgAAenQ70mi1WhQ5LNdOVfzGpRWG0uYwTAxK9KmdTmD24OnSAbrTyjYOyPS396aWQ';
+                            if (!vapidKey) {
+                                throw new Error('VAPID public key not found.');
+                            }
+                            let subscription = await registration.pushManager.getSubscription();
+                            if (!subscription) {
+                                subscription = await registration.pushManager.subscribe({
+                                    userVisibleOnly: true,
+                                    applicationServerKey: this.urlBase64ToUint8Array(vapidKey),
+                                });
+                            }
+                            const json = subscription.toJSON();
+                            const contentEncoding = (window.PushManager?.supportedContentEncodings || ['aes128gcm'])[0];
+                            await $wire.saveWebPushSubscription({
+                                endpoint: json.endpoint,
+                                key: json.keys?.p256dh,
+                                token: json.keys?.auth,
+                                encoding: contentEncoding,
+                            });
+                        } catch (err) {
+                            console.error('Web Push subscription error:', err);
+                            this.pushError = err.message || 'Failed to enable Web Push notifications. Please try again.';
+                        } finally {
+                            this.isSubscribingPush = false;
+                        }
+                    }
+                }"
+                @set-subscription-mode.window="mode = $event.detail.mode">
+                
+                                    <div x-show="mode === 'whatsapp'">
+                                                    
+                            <div
+                                class="mt-4 mb-4 rounded-xl overflow-hidden border border-gray-200 dark:border-gray-600 shadow-sm">
+                                
+                                <div class="bg-[#075E54] dark:bg-[#1F2C34] text-white px-3 py-2 flex items-center gap-2">
+                                    <div
+                                        class="w-7 h-7 rounded-full bg-[#25D366] flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                                        </svg>
+                                    </div>
+                                    <div class="min-w-0">
+                                        <p class="text-xs font-semibold leading-tight truncate">MySpeedPost Live Updates</p>
+                                        <p class="text-[10px] text-green-200 leading-tight">online</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-[#ECE5DD] dark:bg-[#0B141A] px-3 py-3"
+                                    style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;200&quot; height=&quot;200&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cdefs%3E%3Cpattern id=&quot;p&quot; width=&quot;40&quot; height=&quot;40&quot; patternUnits=&quot;userSpaceOnUse&quot;%3E%3Ccircle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;1&quot; fill=&quot;%23d5cec5&quot; opacity=&quot;0.4&quot;/%3E%3C/pattern%3E%3C/defs%3E%3Crect width=&quot;200&quot; height=&quot;200&quot; fill=&quot;url(%23p)&quot;/%3E%3C/svg%3E');">
+                                    
+                                    <div class="max-w-[88%]">
+                                        <div
+                                            class="bg-white dark:bg-[#202C33] rounded-lg rounded-tl-none px-3 py-2 shadow-sm relative">
+                                            <p class="text-[11px] font-semibold text-[#075E54] dark:text-[#25D366] mb-1">Your
+                                                Consignment Status has been updated</p>
+                                            <div class="mt-1.5 text-[12px] text-gray-700 dark:text-gray-300 leading-relaxed">
+                                                <p>Your consignment</p>
+                                            </div>
+                                            <p class="text-[13px] text-gray-900 dark:text-gray-100 font-medium leading-snug">📦
+                                                EE123456789IN
+                                            </p>
+                                            <div class="mt-1.5 text-[12px] text-gray-700 dark:text-gray-300 leading-relaxed">
+                                                <p class="mt-1">Status: <span
+                                                        class="font-semibold text-[#25D366]">In Transit 🚚</span>
+                                                </p>
+                                                <p class="mt-1 text-gray-500 dark:text-gray-400"><span
+                                                        class="font-semibold text-gray-400 dark:text-gray-500">📍
+                                                        Local Post Office, Mumbai</span></p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-1 mt-1">
+                                                <span
+                                                    class="text-[10px] text-gray-400 dark:text-gray-500">10:42 AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <div class="flex justify-between gap-2">
+                            <button type="button"
+                                @click="consignment_subscription_dialog_container.close(); $wire.skip('', '')"
+                                class="bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 text-gray-800 dark:text-gray-200 font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline">
+                                Skip
+                            </button>
+                            <a href="https://api.whatsapp.com/send?text=&phone=918147160707"
+                                target="_blank"
+                                class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center focus:outline-none focus:shadow-outline"
+                                wire:loading.class="opacity-50 cursor-not-allowed"
+                                @click="consignment_subscription_dialog_container.close();">
+                                <span class="text-white flex items-center"> <span class="bell-swing">
+                                        <img src="https://myspeedpost.com/images/svg/whatsapp2.svg"
+                                            class="w-12 h-12 sm:w-6 sm:h-6 mr-1" alt="WhatsApp" />
+                                    </span>
+                                    Get Live Updates on WhatsApp
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="text-center mt-3 flex flex-col gap-1">
+                            <a href="#" @click.prevent="mode = 'email'"
+                                class="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">
+                                ✉️ Get Live Updates Via Email
+                            </a>
+                            <a href="#" @click.prevent="mode = 'web_push'"
+                                class="text-sm text-amber-600 hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-300 underline">
+                                🔔 Get Live Updates Via Browser Notifications
+                            </a>
+                        </div>
+                    </div>
+                
+                
+                <div x-show="mode === 'email'" x-cloak>
+                    <form wire:submit.prevent="saveSubscription">
+                        <div class="mb-4">
+                            <label for="email"
+                                class="block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2">Email Address *</label>
+                            <input type="email" id="email" wire:model="email" required
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-200 dark:bg-gray-700 dark:border-gray-600 leading-tight focus:outline-none focus:shadow-outline"
+                                placeholder="your@email.com">
+                                                    </div>
+
+                        <div class="bg-blue-50 dark:bg-blue-900 rounded-lg p-4 mb-4">
+                            <p class="text-sm text-blue-700 dark:text-blue-300">You&#039;ll receive notifications about:
+                            </p>
+                            <ul class="text-gray-600 dark:text-gray-300 mt-2">
+                                <li class="flex items-center mb-1">
+                                    <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Status updates
+                                </li>
+                                <li class="flex items-center mb-1">
+                                    <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Delivery Confirmation
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="flex justify-between gap-2">
+                            <button type="button"
+                                @click="consignment_subscription_dialog_container.close(); $wire.skip('', '')"
+                                class="bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 text-gray-800 dark:text-gray-200 font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline">
+                                Skip
+                            </button>
+                            <button type="submit"
+                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"
+                                wire:loading.attr="disabled" wire:loading.class.remove="bg-blue-600">
+                                <span>
+                                    <span class="bell-swing">🔔</span> Notify My Email
+                                </span>
+                            </button>
+                        </div>
+
+                                            </form>
+
+                                            <div class="text-center mt-3">
+                            <a href="#" @click.prevent="mode = 'whatsapp'"
+                                class="text-sm text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 underline">
+                                💬 Get Live Updates Via WhatsApp
+                            </a>
+                        </div>
+                                        <div class="text-center mt-3">
+                        <a href="#" @click.prevent="mode = 'web_push'"
+                            class="text-sm text-amber-600 hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-300 underline">
+                            🔔 Get Live Updates Via Browser Notifications
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div x-show="mode === 'web_push'" x-cloak>
+                    <div class="bg-blue-50 dark:bg-blue-900 rounded-lg p-4 mb-4">
+                        <p class="text-sm text-blue-700 dark:text-blue-300">Get instant notifications directly in your
+                            browser — even when this tab is closed.</p>
+                        <ul class="text-gray-600 dark:text-gray-300 mt-2">
+                            <li class="flex items-center mb-1">
+                                <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                Status updates
+                            </li>
+                            <li class="flex items-center mb-1">
+                                <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                Delivery Confirmation
+                            </li>
+                            <li class="flex items-center mb-1">
+                                <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                No email or phone number needed
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex justify-between gap-2">
+                        <button type="button"
+                            @click="consignment_subscription_dialog_container.close(); $wire.skip('', '')"
+                            class="bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 text-gray-800 dark:text-gray-200 font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline">
+                            Skip
+                        </button>
+                        <button type="button" @click="subscribeWebPush()" :disabled="isSubscribingPush"
+                            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline disabled:opacity-60 disabled:cursor-not-allowed">
+                            <span x-show="!isSubscribingPush">
+                                <span class="bell-swing">🔔</span> Enable Notifications
+                            </span>
+                            <span x-show="isSubscribingPush" x-cloak>
+                                Enabling...
+                            </span>
+                        </button>
+                    </div>
+
+                    
+                    <div x-show="isIOS && !isStandalone" x-cloak
+                        class="mt-3 rounded-lg bg-sky-50 dark:bg-sky-900 p-3 text-xs text-sky-800 dark:text-sky-300">
+                        📱 On iPhone/iPad, tap <strong>Share</strong> &rarr; <strong>Add to Home Screen</strong> first to
+                        receive notifications.
+                    </div>
+
+                    
+                    <div x-show="permission === 'denied'" x-cloak
+                        class="mt-3 rounded-lg bg-red-50 dark:bg-red-900 p-3 text-xs text-red-700 dark:text-red-300">
+                        ⚠️ Notifications are blocked in your browser settings. Please allow notifications for this site to
+                        receive live updates.
+                    </div>
+
+                    <div x-show="pushError" class="mt-3 text-xs font-medium text-red-500 dark:text-red-400"
+                        x-text="pushError" x-cloak></div>
+
+                    <div class="text-center mt-3 flex flex-col gap-1">
+                        <a href="#" @click.prevent="mode = 'email'"
+                            class="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">
+                            ✉️ Get Live Updates Via Email
+                        </a>
+                                                    <a href="#" @click.prevent="mode = 'whatsapp'"
+                                class="text-sm text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 underline">
+                                💬 Get Live Updates Via WhatsApp
+                            </a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    </div>
+
+    <div x-persist="subscription-confirmation-dialog">
+    <dialog id="subscription_confirmation_dialog_container" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm mx-auto">
+            <div class="text-center mb-6">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">
+                    Subscription Successful!
+                </h3>
+                <p class="text-gray-600 dark:text-gray-300">
+                    You will now receive notifications about your consignment status changes.
+                </p>
+            </div>
+
+            <div class="bg-blue-50 dark:bg-blue-900 rounded-lg p-4 mb-6">
+                <p class="text-sm text-blue-700 dark:text-blue-300 font-semibold">What&#039;s next?</p>
+                <ul class="text-gray-600 dark:text-gray-300 mt-2">
+                    <li class="flex items-center mb-1">
+                        <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                        Check your email for a confirmation
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                            </path>
+                        </svg>
+                        We&#039;ll notify you of any status changes
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex justify-center">
+                <form method="dialog">
+                    <button
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-sm focus:outline-hidden focus:shadow-outline">
+                        Close
+                    </button>
+                </form>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    </div>
+</div>
+
+            <div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;bRsV8qKeweL3zqgCHeGj&quot;,&quot;name&quot;:&quot;consignment-subscription-active-dialog&quot;,&quot;path&quot;:&quot;track-ems-speedpost&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;f96645c8fbce195ad567b15d0680938c35e4722f9a8e74b48a81322496c7811b&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="bRsV8qKeweL3zqgCHeGj" id="subscription_activated_dialog_parent">
+    <div x-persist="subscription_activated_dialog">
+    <dialog id="subscription_activated_dialog_container" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm mx-auto">
+            <div class="text-center mb-6">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800 dark:text-gray-100 mb-2">
+                    Subscription Activated!</h3>
+                <p class="text-gray-600 dark:text-gray-300">You will now receive notifications for your consignment</p>
+            </div>
+
+            <div class="bg-blue-100 dark:bg-blue-900 rounded-lg p-4 mb-6">
+                <p class="text-lg font-semibold text-blue-600 dark:text-blue-300 mb-4">
+                    Your Subscription Benefits:</p>
+                <ul class="text-gray-600 dark:text-gray-300">
+                    <li class="flex items-center mb-2">
+                        <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Live status updates
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Delivery notifications
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Exception alerts
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Email and SMS notifications
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex justify-center">
+                <form method="dialog">
+                    <button
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-sm focus:outline-hidden focus:shadow-outline">
+                        Continue Tracking
+                    </button>
+                </form>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+    </div>
+</div>    </main>
+
+    <footer
+    class="flex flex-col items-center gap-6 p-10 bg-base-200 text-base-content rounded-lg text-center dark:bg-gray-800 dark:text-gray-200">
+    
+    
+
+    <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/speed-post-tracking"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                Speed Post Tracking
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/track-pan-card-speedpost"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                PAN Card Tracking
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/track-ems-speedpost"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                EMS Tracking
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/track-passport-speedpost"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                Passport Tracking
+            </a>
+        </div>
+                    <div class="px-5 py-2">
+                <a href="https://myspeedpost.com/bulk-tracking"
+                    class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                    Bulk Tracking
+                </a>
+            </div>
+                <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/pincode-search"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                Pincode Search
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/faq"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                FAQ
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/about-india-post"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                About India Post
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/about-myspeedpost"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                About MySpeedPost
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/contact"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                Contact
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://rapidapi.com/dream-api-dev/api/speedpost-tracking-api-for-india-post/?ref=myspeedpost.com"
+                target="_blank"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                API
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/privacy-policy"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                Privacy Policy
+            </a>
+        </div>
+        <div class="px-5 py-2">
+            <a href="https://myspeedpost.com/terms-of-service"
+                class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                Terms of Service
+            </a>
+        </div>
+        <div class="relative inline-block" x-data="{ open: false }" wire:ignore>
+    <button @click="open = !open" @click.away="open = false"
+        class="inline-flex items-center gap-1 px-2 py-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 rounded-md transition-colors">
+        <span>🔤</span>
+        <span class="inline">English</span>
+        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+    </button>
+    <div x-show="open" x-transition
+        class="absolute right-0 mt-1 w-32 bg-white dark:bg-gray-800 rounded-md shadow-lg ring-1 ring-black/5 z-50">
+                                                        <a href="https://myspeedpost.com/lang/hi"
+                    class="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md">
+                    <span>🇮🇳</span>
+                    <span>हिन्दी</span>
+                </a>
+                        </div>
+</div>    </nav>
+
+
+
+    <aside class="w-full max-w-3xl mx-auto space-y-3">
+        <div
+            class="px-4 py-3 bg-gray-100 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-xl text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p>⛔ Disclaimer: This webapp is not endorsed by or affiliated with India Post.</p>
+        </div>
+        <div
+            class="px-4 py-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-xl text-sm text-amber-800 dark:text-amber-300 leading-relaxed flex items-start gap-2 text-left">
+            <span class="flex-shrink-0 mt-0.5">⚠️</span>
+            <p><strong>Warning:</strong> India Post does not ask customers for personal information or payments via calls, SMS, or email. Be cautious and avoid sharing details or clicking on links. For your safety, do not call phone numbers or install APKs from ads. We are not responsible for any loss. For official support from India Post kindly visit www.indiapost.gov.in</p>
+        </div>
+        <p class="text-sm text-gray-500 dark:text-gray-400 pt-1">© 2026 MySpeedPost. All rights reserved.</p>
+    </aside>
+</footer>
+    
+    <script src="/livewire/livewire.min.js?id=df3a17f2"   data-csrf="u6wTVtPqiPQZkOb3NXUPcFyd60pdzswUyxXLVwWu" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+    <div role="status" id="toaster" x-data="toasterHub([], JSON.parse('{\u0022alignment\u0022:\u0022bottom\u0022,\u0022duration\u0022:3000,\u0022replace\u0022:false,\u0022suppress\u0022:false}'))" class="fixed z-50 p-4 w-full flex flex-col pointer-events-none sm:p-6 bottom-0 items-end rtl:items-start">
+    <template x-for="toast in toasts" :key="toast.id">
+        <div x-show="toast.isVisible"
+             x-init="$nextTick(() => toast.show($el))"
+                          x-transition:enter-start="translate-y-12 opacity-0"
+             x-transition:enter-end="translate-y-0 opacity-100"
+                          x-transition:leave-end="opacity-0 scale-90"
+             class="relative duration-300 transform transition ease-in-out max-w-xs w-full pointer-events-auto"
+             :class="toast.select({ error: 'text-white', info: 'text-black', success: 'text-white', warning: 'text-white' })"
+        >
+            <i x-text="toast.message"
+               class="inline-block select-none not-italic px-6 py-3 rounded rounded-sm shadow-lg text-sm w-full mt-3"
+               :class="toast.select({ error: 'bg-red-500', info: 'bg-gray-200', success: 'bg-green-600', warning: 'bg-orange-500' })"
+            ></i>
+
+                        <button @click="toast.dispose()" aria-label="close" class="absolute right-0 p-2 focus:outline-none focus:outline-hidden rtl:right-auto rtl:left-0 top-3">
+                <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+                    </div>
+    </template>
+</div>
+</body>
+
+</html>

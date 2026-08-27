@@ -1,0 +1,11 @@
+The Electronic and Computer Engineering (ECE) degree programme has been developed in conjunction with employers to meet the demand for graduates with strong skills in computer software and electronic hardware engineering, along with mathematical analysis abilities, to support current and emerging societal needs.
+
+This programme of study will support the development of skills required to develop and employ technologies to tackle many of the challenges of the coming decades including Internet edge devices, climate change, electric vehicles, sustainable development, energy, personalised health and well-being, and artificial intelligence, as well as other innovative areas such as entertainment and autonomous vehicles.
+
+Graduates of this degree programme will play key roles in the research, design, development, test and installation of future systems. They will frequently work in teams to tackle challenging problems. Many of those who graduate from this degree programme also continue their academic studies by pursuing higher degrees by research (e.g., MEng and PhD), or through taught postgraduate programmes (e.g., MSc, MEng, and MBA).
+
+The programme can be undertaken as either a four-year (Bachelor of Engineering, BEng) degree programme or a five-year (Master of Engineering, MEng) degree programme. All students would initially enter the BEng degree programme route, and can either graduate with a BEng degree at the end of the fourth year of study or have the option to continue into the fifth year Masters degree by transferring into the MEng degree programme at the end of the fourth year rather than graduating with a BEng degree.
+
+At the end of the second year, students on the Electronic and Computer Engineering degree programme would select a major option from five major options – Electronic Engineering, Computer Engineering, Robotic Engineering, Electrical Energy Engineering, and a General option. Core subjects studied will be augmented by student-selected elective subjects that allow the student to identify a focus of specific interest.
+
+The programme of study thus offers an excellent choice, thereby enhancing the range of employment prospects and future career choice options for the student

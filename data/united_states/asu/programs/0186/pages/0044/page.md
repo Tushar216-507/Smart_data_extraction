@@ -1,0 +1,17 @@
+### MyPath2ASU®
+
+[Sign up for MyPath2ASU®](https://admission.asu.edu/mypath2asuform)  [MyPath2ASU® majors](https://webapp4.asu.edu/transfercreditguide/app/transfermap)
+
+To view MyPath2ASU® majors from prior years, visit the [archive search tool](/transfer/maricopa-mapp-archive).
+
+[Sign up for MyPath2ASU®](https://admission.asu.edu/mypath2asuform)  [MyPath2ASU® majors](https://webapp4.asu.edu/transfercreditguide/app/transfermap)
+
+To view MyPath2ASU® majors from prior years, visit the [archive search tool](/transfer/maricopa-mapp-archive).
+
+[live-hosted sessions](https://visit.asu.edu/live-hosted-visit) with ASU enrollment and academic team members and current students who can answer your questions. Navigate the MyPath2ASU® transfer experience and learn more about ASU's admission and enrollment processes. Explore each of our campuses through [live-hosted virtual visit](https://visit.asu.edu/live-hosted-visit) experiences, [walking tours](https://visit.asu.edu/schedule) and [on-demand virtual tours](https://tours.asu.edu/).
+
+MyPath2ASU® is your suite of customized self-service transfer tools.
+
+Plan to meet with an academic advisor to ensure your courses will meet degree requirements.
+
+<https://redirect.maricopa.edu/student-center>. Consult your community college academic advisor first to understand potential consequences of making a program plan change.

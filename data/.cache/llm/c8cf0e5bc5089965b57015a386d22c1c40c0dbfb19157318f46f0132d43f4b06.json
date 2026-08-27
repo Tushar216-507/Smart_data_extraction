@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_pass_criteria",
+      "value": "A module examination consisting of a single assessment is passed if it is graded with 'sufficient' (4.0) or better.",
+      "original_value": "Eine aus einer einzigen Prüfungsleistung bestehende Modulprüfung ist bestanden, wenn sie mit der Note 'ausreichend' (4,0) oder besser bewertet worden ist.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "cumulative_module_pass_criteria",
+      "value": "A cumulative module examination is only passed if all component examinations are graded at least 'sufficient' (4.0).",
+      "original_value": "Eine aus mehreren Modulteilprüfungen bestehende Modulprüfung (kumulative Modulprüfung) ist nur dann bestanden, wenn sämtliche Modulteilprüfungen mit mindestens mit 'ausreichend' (4,0) bewertet worden sind.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "master_exam_pass_criteria",
+      "value": "The master examination is passed if all modules specified in the program-specific appendices are successfully completed with at least 'sufficient' (4.0).",
+      "original_value": "Die Masterprüfung ist bestanden, wenn sämtliche in den studiengangspezifischen Anhängen vorgeschriebenen Module erfolgreich erbracht wurden ... mit mindestens 'ausreichend' (4,0) bewertet worden sind.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "university",
+      "field": "evaluation_disclosure",
+      "value": "The results of all examinations are announced immediately. The examination board decides whether the grades are publicly displayed anonymously or through the electronic examination management system.",
+      "original_value": "Die Ergebnisse sämtlicher Prüfungen werden unverzüglich bekannt gegeben. Der Prüfungsausschuss entscheidet darüber, ob die Noten anonymisiert ... erfolgt.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": null,
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "repeating_exam_information",
+      "value": "If a module examination is ultimately graded as 'not sufficient' or the master's thesis is graded lower than 'sufficient' (4.0), the student receives a written notice including information on how and within which period the examination or master's thesis can be retaken.",
+      "original_value": "Wurde eine Modulprüfung endgültig mit 'nicht ausreichend' bewertet oder wurde die Masterarbeit schlechter als 'ausreichend' (4,0) bewertet ... in welcher Frist die Modulprüfung beziehungsweise die Masterarbeit wiederholt werden kann.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

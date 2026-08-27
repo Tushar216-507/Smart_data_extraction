@@ -1,0 +1,3 @@
+## Can veterans use military VA benefits and financial aid to pay for college?
+
+Yes. You've earned your benefits — now use them to help you achieve your goals. And don’t stop with just your benefits. There are scholarships and financial aid opportunities that can help cover your college costs too. File the FAFSA to be considered for pell grants and university scholarships.

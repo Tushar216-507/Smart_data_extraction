@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "UL Staff",
+      "field": "contact_method",
+      "value": "UL Staff can contact us via Topdesk",
+      "confidence": 1.0,
+      "programme_association": ""
+    },
+    {
+      "category": "contacts",
+      "subcategory": "Student / Parent Requests",
+      "field": "contact_instructions",
+      "value": "Please refer them to this page so they can contact us through the appropriate channel. Do not forward their query to us as our system will log a call for you rather than for the individual.",
+      "confidence": 1.0,
+      "programme_association": ""
+    },
+    {
+      "category": "contacts",
+      "subcategory": "urgent_queries",
+      "field": "telephone_number",
+      "value": "061 233 755",
+      "confidence": 1.0,
+      "programme_association": ""
+    },
+    {
+      "category": "documents",
+      "subcategory": "Certified e-transcript and e-parchments",
+      "field": "request_link",
+      "value": "/academic-registry/access-digitary-alumni",
+      "confidence": 1.0,
+      "programme_association": ""
+    },
+    {
+      "category": "documents",
+      "subcategory": "Parchments",
+      "field": "note",
+      "value": "Physical parchments are not available for pre-2003 graduates. Instead, we can offer a report an issue with my parchment.",
+      "confidence": 1.0,
+      "programme_association": ""
+    },
+    {
+      "category": "documents",
+      "subcategory": "Official Documents",
+      "field": "update_personal_details_link",
+      "value": "/academic-registry/update-personal-details",
+      "confidence": 1.0,
+      "programme_association": ""
+    },
+    {
+      "category": "documents",
+      "subcategory": "Report an issue",
+      "field": "issue_link",
+      "value": "/academic-registry/report-issue-my-parchment",
+      "confidence": 1.0,
+      "programme_association": ""
+    }
+  ]
+}

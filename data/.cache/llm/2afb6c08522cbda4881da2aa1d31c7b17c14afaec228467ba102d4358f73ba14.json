@@ -1,0 +1,242 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Religion - Media - Interculturality",
+      "original_value": "Religion - Medien - Interkulturalität",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "duration",
+      "value": 2,
+      "original_value": "2 Semester",
+      "unit": "semesters",
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar, Lecture, Tutorial or practical class",
+      "original_value": "Seminar, Vorlesung, Übung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German",
+      "original_value": "Deutsch",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "Module final examination - Written examination (60 Min)",
+      "original_value": "Modulabschlussprüfung - Klausur (60 Min)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Contexts of Theology",
+      "original_value": "Kontexte der Theologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "presence_study_hours": 120,
+        "self_study_hours": 330,
+        "total_hours": 450
+      },
+      "original_value": "insg. 450 Zeitstunden (h)",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": "The module explores the contexts and contextuality of theological questions in various theological disciplines, addressing biblical foundations within specific cultural, socio-historical, and philosophical contexts, historical approaches to Christianity from a global historical perspective, and enhances sensitivity to sociopolitical and socio-ethical issues in the specific consideration of digitalization and its significance for theological ethics.",
+      "original_value": "Das Modul erschließt Kontexte und Kontextualität theologischer Fragestellungen im Horizont verschiedener theologischer Disziplinen. Das Modul befasst sich mit biblischen Grundlegungen in jeweiligen kulturellen, sozialgeschichtlichen und philosophischen Kontexten, mit historischen Zugängen zum Christentum in globalgeschichtlicher Perspektive, und erweitert die Sensibilität für gesellschaftspolitische und sozialethische Fragestellungen in der spezifischen Betrachtung der Digitalisierung und ihre Bedeutung für die theologische Ethik.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": null
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

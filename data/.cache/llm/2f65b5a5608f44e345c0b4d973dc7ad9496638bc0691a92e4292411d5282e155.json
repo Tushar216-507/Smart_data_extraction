@@ -1,0 +1,156 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "university_name",
+      "value": "Goethe University",
+      "original_value": "Name der Universität",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "institute_name",
+      "value": null,
+      "original_value": "Name des Instituts",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "mandatory_components",
+      "value": [
+        "cover page",
+        "table of contents",
+        "introduction",
+        "main body",
+        "conclusion",
+        "literature review",
+        "statement of originality"
+      ],
+      "original_value": "Deckblatt, Inhaltsverzeichnis, Einleitung, Hauptteil, Schluss, Literaturverzeichnis, Eigenständigkeitserklärung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "cover_page_requirements",
+      "value": [
+        "name of the university",
+        "name of the institute",
+        "title of the seminar",
+        "semester",
+        "seminar leader",
+        "title and possibly subtitle of the work",
+        "name and email address of the author",
+        "matriculation number, program, and semester number",
+        "submission date"
+      ],
+      "original_value": "Name der Universität, Name des Instituts, Titel des Seminars, Semester, Seminarleiter/in, Titel und ggf. Untertitel der Arbeit, Name und E-Mail-Adresse der Verfasserin/des Verfassers, Matrikelnummer, Studiengang und Fachsemesterzahl, Abgabedatum",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "additional_components",
+      "value": [
+        "table of contents",
+        "literature review",
+        "statement of originality"
+      ],
+      "original_value": "Inhaltsverzeichnis, Literaturverzeichnis, Eigenständigkeitserklärung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

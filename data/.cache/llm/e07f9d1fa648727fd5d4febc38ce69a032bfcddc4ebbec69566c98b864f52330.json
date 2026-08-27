@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "joint_examination_committee",
+      "value": "A joint examination committee is formed for the Bachelor's programs.",
+      "original_value": "einen gemeinsamen Prüfungsausschuss.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "examination_committee_membership",
+      "value": "The examination committee consists of seven members: four professors, one academic staff, and two students.",
+      "original_value": "Dem Prüfungsausschuss gehören sieben Mitglieder an, darunter vier Mitglieder der Gruppe der Professoren- schaft, eine wissenschaftliche Mitarbeiterin oder ein wissenschaftlicher Mitarbeiter und zwei Studierende.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "examination_committee_term",
+      "value": "The term of the students is one year, while the other members serve for two years.",
+      "original_value": "Die Amtszeit der Studierenden beträgt ein Jahr, die der anderen Mitglieder zwei Jahre.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "examination_chair",
+      "value": "The chair of the examination committee is held by the Dean of Studies.",
+      "original_value": "Die Studiendekanin oder der Studiendekan hat den Vorsitz des Prüfungsausschusses inne.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

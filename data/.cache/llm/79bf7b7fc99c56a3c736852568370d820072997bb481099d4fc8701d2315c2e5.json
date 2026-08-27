@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Exportmodules des Fachbereichs Wirtschaftswissenschaften",
+      "original_value": "Exportmodule des Fachbereichs Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Exportmodules des Fachbereichs Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "conditions",
+      "value": "You can only register for specific modules from the Department of Business Administration based on existing cooperation agreements between departments.",
+      "original_value": "Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Exportmodules des Fachbereichs Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "module_restriction",
+      "value": "You may not incorporate other modules from the Department of Business Administration into your program.",
+      "original_value": "Darüber hinaus können Sie keine anderen Module vom Fachbereich Wirtschaftswissenschaften in Ihren Studiengang am anderen Fachbereich einbringen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Exportmodules des Fachbereichs Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_assessment",
+      "value": "Each module from the Department of Business Administration is concluded with a module examination.",
+      "original_value": "Jedes Modul des Fachbereichs Wirtschaftswissenschaften wird mit einer Modulprüfung abgeschlossen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Exportmodules des Fachbereichs Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "contact_email",
+      "value": "pruefungsamt@wiwi.uni-frankfurt.de",
+      "original_value": "pruefungsamt@wiwi.uni-frankfurt.de",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "University of Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

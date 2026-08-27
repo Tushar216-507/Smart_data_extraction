@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 180,
+      "original_value": "180",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Bachelor's thesis (possibly final module)",
+      "original_value": "Bachelorarbeit: (ggf. Abschlussmodul)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PF",
+        "name": "Bachelor's thesis (possibly final module)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 12,
+      "original_value": "12",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PF",
+        "name": "Bachelor's thesis (possibly final module)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The choice of compulsory elective modules may be restricted by decision of the departmental council in case of lack of capacity. The restriction must be communicated to the students immediately by the dean's office.",
+      "original_value": "Die Wählbarkeit von Wahlpflichtmodulen kann bei fehlender Kapazität durch Fachbereichsratsbeschluss eingeschränkt werden. Die Einschränkung ist den Studierenden unverzüglich durch das Dekanat bekannt zu geben.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Note: Paragraph 5 is void if no compulsory elective modules are provided.",
+      "original_value": "Hinweis zu Abs. 5: Abs. 5 entfällt, wenn keine Wahlpflichtmodule vorgesehen sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

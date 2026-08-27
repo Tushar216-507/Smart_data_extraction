@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "application_process",
+      "value": "The application process for the winter term usually runs from May until July.",
+      "original_value": "Der Bewerbungsprozess für das Wintersemester läuft in der Regel von Mai bis Juli.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "application_address",
+      "value": "Applications must be sent directly to Goethe-Universität Frankfurt, Masterabteilung, c/o uni-assist e.V., Geneststr. 5, D-10829 Berlin.",
+      "original_value": "Bewerbungen müssen direkt an die Goethe-Universität Frankfurt, Masterabteilung, c/o uni-assist e.V., Geneststr. 5, D-10829 Berlin, gesendet werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "both",
+      "field": "website",
+      "value": "For further information on the application process and current deadlines please visit the international Master's programme portal of Goethe University on the internet.",
+      "original_value": "Für weitere Informationen zum Bewerbungsprozess und zu aktuellen Fristen besuchen Sie bitte das Portal für internationale Masterprogramme der Goethe-Universität im Internet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

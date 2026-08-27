@@ -1,0 +1,5 @@
+Literature, history, media, and culture: American Studies in Frankfurt offers a vast field of possibilities for studying the United States of America. Study at one of Germany’s largest and best American Studies departments, one of the few to offer both B.A. and M.A. degrees, in one of Germany’s most vibrant cities. Learn from some of Germany’s most renowned scholars, find your own interests, and sharpen your talents and abilities in one of the most creative and expansive fields of the humanities.
+
+American Studies
+
+Goethe University Frankfurt

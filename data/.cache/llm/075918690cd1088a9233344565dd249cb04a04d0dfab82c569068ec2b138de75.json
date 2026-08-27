@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "power_supply_role",
+      "field": "power_conversion",
+      "value": "Power supply takes a high-voltage (220 V or 110 V) AC supply from main circuit and converts it into a low-voltage (5 V, 12 V, 24 V, etc.) DC supply suitable for the electronic circuits.",
+      "confidence": 1.0,
+      "programme_association": "Electronic and Computer Engineering - BE or ME | University of Limerick"
+    },
+    {
+      "category": "other",
+      "subcategory": "power_supply_role",
+      "field": "voltage_regulation",
+      "value": "Power supply also regulates the supply voltage to keep it stable.",
+      "confidence": 1.0,
+      "programme_association": "Electronic and Computer Engineering - BE or ME | University of Limerick"
+    },
+    {
+      "category": "other",
+      "subcategory": "power_supply_role",
+      "field": "protection",
+      "value": "Power supply provides protection against overvoltage, over current, short-circuit, etc.",
+      "confidence": 1.0,
+      "programme_association": "Electronic and Computer Engineering - BE or ME | University of Limerick"
+    }
+  ]
+}

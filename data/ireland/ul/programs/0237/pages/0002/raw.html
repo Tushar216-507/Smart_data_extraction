@@ -1,0 +1,446 @@
+
+
+	
+		<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="format-detection" content="telephone=no">
+  	<meta name="robots" content="noindex, nofollow">
+    <meta name="google" content="nopagereadaloud">
+
+    <title>IPP login screen</title>
+
+    <link rel="stylesheet" href="../css/sits.css">
+    <link rel="stylesheet" href="../css/sv.css">
+    <link rel="stylesheet" href="../plugins/css/ui/sits-ui.css">
+
+    <script src="../plugins/javascript/jquery.js?v=1007.1"></script>
+    <script src="../plugins/javascript/jquery-ui.js?v=1007.1"></script>
+
+    <script src="../plugins/javascript/sv.min.js?v=1007.1"></script>
+
+    <script src="../javascript/settings.js?v=1007.1"></script>
+    <script src="../javascript/sits_ajax.js?v=1007.1"></script>
+    <script src="../javascript/dmu.js"></script>
+
+    <script src="../plugins/javascript/tablesaw/tablesaw.min.js?v=1007.1"></script>
+    <script src="../plugins/javascript/datatables/media/js/jquery.dataTables.min.js?v=1007.1"></script>
+    <script src="../plugins/javascript/datatables/media/js/dataTables.tribal.min.js?v=1007.1"></script>
+	
+    <style id="antiClickjack">body{display:none !important;}</style>
+    <script>
+    if (self===top) { // we are not in a frame remove the style tag
+      var antiClickjack = document.getElementById("antiClickjack");
+      antiClickjack.parentNode.removeChild(antiClickjack);
+    }else{// we are in a frame set outermost document/frame to be same as frame location
+      top.location = self.location;
+    }
+    </script>
+  	<script type="text/javascript">
+	  	function uSubmit(){} //include dummy function to prevent errors when submitting
+	  </script>
+	<!-- Start Of Extra Scripts -->
+	<script type="text/javascript" src="../javascript/sits_app_form.js"></script>
+	<script type="text/javascript" src="../javascript/oa_app_form.js"></script>
+
+
+  </head>
+
+  <body>
+    <a class="sv-sr-only sv-sr-only-focusable" href="#sv-page-top">Skip navigation</a>
+    <header class="sv-header-main sv-hidden-print">
+      <nav class="sv-navbar-default">
+        <div class="sv-navbar-header">
+          <div class="sv-navbar-brand sv-header-image"></div>
+        </div>
+        <div class="sv-navbar-collapse sv-collapse sv-navbar-responsive-collapse">   
+          <div class="sv-nav sv-navbar-nav sv-navbar-right"> 
+            <h1 class="sv-navbar-text sv-h1-small">e:Vision Enquiries and Applications</h1>
+          </div>          
+        </div>
+      </nav>	
+    </header>
+
+    <a id="sv-page-top"></a>
+
+    <div class="sv-page-content sv-container-fluid">
+<script type="text/javascript">sits_widget_bp = {"dt":{"emptyTable":"No information available","info":"Showing page _PAGE_ of _PAGES_","infoEmpty":"No records to show","infoFiltered":" (filtered)","lengthMenu":"Show _MENU_ entries","loadingRecords":"Loading...","processing":"Processing...","search":"Search:","zeroRecords":"No matching entries found","paginate":{"first":"&#xe069;","last":"&#xe077;","next":"&#xe080;","previous":"&#xe079;"},"aria":{"sortAscending":": use to sort column ascending","sortDescending":": use to sort column descending","first":"Show first page","last":"Show last page","next":"Show next page","previous":"Show previous page"},"tribal":{"detailsLabelOpen":"Activate to show additional details for this row","detailsLabelClose":"Activate to hide additional details for this row","detailsLabelDataOpen":"Activate to show additional details for _DATA_","detailsLabelDataClose":"Activate to hide additional details for _DATA_"},"buttons":{"copyTitle":"Copy to clipboard","closeCopy":"Close","colVisTitle":"Column Visibility","colVisLegend":"Use these fields to hide and show columns","colVisRemoveMessage":"Column %d Removed","colVisAddMessage":"Column %d Added","copySuccess":{"_":"%d rows copied to clipboard","1":"1 row copied to clipboard"}}},"ts":{"modeStack":"Stack","modeSwipe":"Swipe","modeToggle":"Toggle","modeSwitchColumnsAbbreviated":"Cols","modeSwitchColumns":"Columns","columnToggleButton":"Columns","columnToggleError":"No eligible columns.","sort":"Sort","sortAscText":": use to sort column ascending","sortDescText":": use to sort column descending","swipePreviousColumn":"Show previous column on the following table","swipeNextColumn":"Show next column on the following table","swipePreviousColumnDisabled":"Show previous column on the following table (not currently available)","swipeNextColumnDisabled":"Show next column on the following table (not currently available)"},"pg":{"infoText":"Showing page {0} of {1}","infoWithRecsText":"Showing page {0} of {1}","firstBtnText":"&#xe069;","prevBtnText":"&#xe079;","nextBtnText":"&#xe080;","lastBtnText":"&#xe077;","firstBtnAriaText":"Show first page","prevBtnAriaText":"Show previous page","nextBtnAriaText":"Show next page","lastBtnAriaText":"Show last page","pageBtnAriaText":"Show page {0}"},"tp":{"currentText":"Now","closeText":"Done","timeOnlyTitle":"Choose Time","timeText":"Time","hourText":"Hour","minuteText":"Minute","secondText":"Second","millisecText":"Millisecond","microsecText":"Microsecond","timezoneText":"Time Zone"},"ui":{"dialogOk":"Ok","dialogCancel":"Cancel","tabsClose":"Close","dialogClose":"Close","moreDetails":"More Details","datePickerDate":"Select a date","datePickerTime":"Select a time","datePickerDateTime":"Select a date\/time","loading":"Loading...","selectAllTitle":"Select All","selectAll":"Select All","selectNone":"Select None","invertAll":"Invert All","errorText":"Error","datePickerMonth":"Select a month","datePickerYear":"Select a year","tabsScrollLeft":"Scroll left","tabsScrollRight":"Scroll right","dynamicSearch":"Searching for Results","dynamicSearchAnnounce":"{0} search results found","charRemain":"Character Remaining","charsRemain":"Characters Remaining"},"ld":{"loadTitle":"Loading","loadContent":"Loading, please wait...","loadMore":"Load more","processTitle":"Processing","processContent":"Processing, please wait...","saveTitle":"Saving","saveContent":"Saving, please wait..."},"to":{"sessionTitle":"Session Expiry","sessionContent":"Your session is due to expire in approximately {0} minute(s). If you would like to continue using this session, please click \"Continue\".","pageTitle":"Page Expiry","pageContent":"This page is due to expire in approximately {0} minute(s). If you would like to continue using this page, please click \"Continue\".","buttonContinue":"Continue","messageTitle":"Process Message","errorMessage":"Unfortunately we were unable to update your session data. Your current session will expire soon. Please log out and log back in to start a new session.","successMessage":"Session data updated."},"pb":{"fileCreated":"A file has been produced and is ready to be downloaded.","contentDisplayed":"The content has been produced and is ready to be viewed in a new tab or window.","processCompletedTitle":"{0} - Completed","processFailedTitle":"{0} - Errored"},"db":{"linkTitle":"Debug Info","linkDescription":"Show debug information for the current page","dialogTitle":"Debug Information","dialogClose":"Close","noContent":"Debug information is not available."},"tt":{"linkTitle":"Show help information","linkTitleWithValue":"Show help for {0}","linkAltText":"Show help information","dialogTitle":"Help","dialogClose":"Close","noContent":"No help defined."},"bd":{"mandatoryValue":"Required value","invalidValue":"Invalid value","invalidDate":"Invalid date","invalidDateRange":"Invalid date range","invalidTime":"Invalid time","invalidDatetime":"Invalid date time","invalidNumber":"Invalid number","minLength":"Value must be at least {minLength} characters","maxLength":"Value cannot be more than {maxLength} characters","minValue":"Value must be at least {minValue}","maxValue":"Value cannot be more than {maxValue}","minRecords":"Value must match at least {minRecords} record(s)","maxRecords":"Value cannot match more than {maxRecords} record(s)","minValues":"At least {minValues} values(s) must be selected","maxValues":"No more than {maxValues} values(s) can be selected","listButton":"List","listButtonTitle":"View selection list","selectLabel":"Select","selectRowLabel":"Select record {rowNumber} on the current page","bulkSingleText":"row selected","bulkText":"rows selected","bulkDismiss":"Dismiss","bulkActions":"Bulk actions","dateSplitDate":"Date","dateSplitMonth":"Month","dateSplitYear":"Year","dateRangeFrom":"From Date","dateRangeTo":"To Date","dateRangeSeparator":" to","accessLabelText":" (for {label})"},"nt":{"storeSuccessful":{"type":"success","message":"Save successful"},"deleteSuccessful":{"type":"success","message":"Delete successful"},"processSuccessful":{"type":"success","message":"Process successful"}},"bc":{"title":"Breadcrumb"}};sits_widget_det = {"user":{"user":"UNKNOWN","name":"UNKNOWN"},"edge":{"isEdgeStyle":true},"ck":{"lic":"T0hod2FYUlVUMUZOUmtzNVVYWlFSVkJFTW5oT1QwdFZhU3RXWkZsdGVqTnVSR2gxVHpZeFQwaFdVamcxWTBwaFRUQnpSM1pJWjJvdFRXcEJlVTU2UVRCTlZGazk=","isPrem":false}}</script>
+<script type="text/javascript">sits_debug_info = []</script>
+	
+<input type="hidden" name="%.WEB_HEAD.MENSYS.1" value="wLbwGZK4EoQG4W5O6+Bowzmart5OLC3bPgFvrm9rBU4=;new;;" />
+<!-- body-start.hts page header include ends here -->
+
+<!-- adding header_tabs/header_message -->
+
+	
+		<!-- NO DOCTYPE, HTML, HEAD OR BODY NEEDED AS THIS SITS WITHIN ALL IPP PAGES -->
+
+
+
+<div id="IPPWelcome">
+    Logged In:
+	
+		
+			<input type="hidden" name="FORENAME.TAB_DUMMY.CAMS.1" value="" />
+			<input type="hidden" name="SURNAME.TAB_DUMMY.CAMS.1" value="" />
+			<input type="hidden" name="NAME.TAB_DUMMY.CAMS.1" value="" />
+
+		
+	<input type="hidden" name="%.TAB_DUMMY.CAMS.1" value="zDwULBnpju+xQfEy3g/iYsVSx5jm8NmIDM/i1O64hQM=;new;;" />
+</div>
+
+<div id="IPPPageTabs">
+	<!-- repeat for each page tab -->
+	
+		
+			<span class="normaltab">
+				
+			</span>
+		
+	<input type="hidden" name="#.TAB.MENSYS" value="h+OtQenF/1smlDT6JLN3V8S20jAz+DS8z3zrgGAn39c=;new;;" />
+	<!-- end of repeat for each page tab -->
+</div>
+
+<!-- IPP selections table -->
+
+<!--	<div class="sv-row" id="siw_ipp_tab_enquiry_table_div">
+		<div class="sv-col-md-12">
+			<div class="sv-panel sv-panel-primary">
+				<div class="sv-panel-heading">
+					<h2 class="sv-panel-title">
+					    <x-subst type="html" name="BP004.DUMMY_B.MENSYS">Your enquiries:</x-subst>
+					</h2>
+				</div>
+				<div class="sv-table-container sv-table-responsive">
+
+					<table class="sv-table sv-table-striped" title="Selected Programme Details" data-tablesaw-mode="stack">
+						<caption>
+						    <x-subst type="html" name="BP004.DUMMY_B.MENSYS">Your enquiries:</x-subst>
+						</caption>
+						<thead>
+							<tr>
+								<th>
+								    <x-subst type="html" name="BP005.DUMMY_B.MENSYS">Selected Programme(s)</x-subst>
+								</th>
+								<th>
+								    <x-subst type="html" name="BP006.DUMMY_B.MENSYS">IPP Code</x-subst>
+								</th>
+								<th>
+								    <x-subst type="html" name="BP007.DUMMY_B.MENSYS">IPO Sequence</x-subst>
+								</th>
+								<th>
+								    <x-subst type="html" name="BP008.DUMMY_B.MENSYS">IPO Start date</x-subst>
+								</th>
+								<th>
+								    <x-subst type="html" name="BP009.DUMMY_B.MENSYS">IPO Mode of Attendance</x-subst>
+								</th>
+								<th>
+								    <x-subst type="html" name="BP010.DUMMY_B.MENSYS">IPO Academic Year</x-subst>
+								</th>								
+                <x-subst type="html" name="CRSS_HDEL.DUMMY.MENSYS"></x-subst> --> <!-- Included TH -->  
+											
+			<!--							</tr>
+						</thead>
+						<tbody>
+							<x-occurrence name="IPP.SRS" atleastone="1" start="first">
+								<tr>
+									<td>
+										<x-subst type="text" name="OCC.IPP.SRS"></x-subst>
+										<x-subst type="text" name="IPP_TITL.IPP.SRS"></x-subst>
+									</td>
+									<td>
+										<x-subst type="text" name="IPP_CODE.IPP.SRS"></x-subst>
+									</td>
+									<td>
+										<x-subst type="text" name="IPO_SEQN.IPO.SRS"></x-subst>
+									</td>
+									<td>
+										<x-subst type="text" name="IPO_BEGD.IPO.SRS"></x-subst>
+									</td>
+									<td>
+										<x-subst type="text" name="MOA_SNAM.MOA.SRS"></x-subst>
+									</td>
+									<td>
+										<x-subst type="text" name="IPO_AYRC.IPO.SRS"></x-subst>
+									</td>                  
+                  <x-subst type="html" name="CRSS_DEL.IPP.SRS"></x-subst> -->   <!-- Included TD -->
+                  <!--                  <x-subst type="html" name="DETAIL.IPP.SRS"></x-subst> --> <!-- Included TD -->  
+									
+					<!--								</tr>
+							</x-occurrence>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+	<</div> -->
+<input type="hidden" name="#.IPP.SRS.1" value="WLggiofLAk6crLbiwG8zKGMLGEe43xsTJ0TFs8cA1i4=;mod;E9166533;DBJDTVNCSU9NVEZBRA==" />
+
+
+<input type="hidden" name="%.DUMMY_B.MENSYS" value="UFPy3lk+KRS0VXbonxDVZr528W5zYf90iP/1N00vCtE=;new;;" />
+                                        
+
+		
+	
+<input type="hidden" name="%.WEB_HEAD.MENSYS.1" value="wLbwGZK4EoQG4W5O6+Bowzmart5OLC3bPgFvrm9rBU4=;new;;" />
+<!-- end of header_tabs/header_message -->
+
+<!-- Start Of Extra Scripts -->
+<script type="text/javascript">sits_attach_event(window, "load", ipp_new_startup);
+	function ipp_new_startup() {
+	
+		pre_check_form_token();
+		sits_attach_event(document, "visibilitychange", pre_check_form_token);
+
+		if(!sits_get_object("NEW_USER")) {
+			sits_get_object("new_user_section").style.display = "none";
+			sits_get_object("login_section").style.width = "100%";
+		}
+		sits_set_focus("MUA_CODE");
+		
+		if( typeof externalIdLinkEnabled === "string" ){
+			if( externalIdLinkEnabled === "Y" ){
+				sits_hide("#logInFormContainer");
+				sits_show("#externalLinkFormContainer");
+				sits_set_focus("externalIdLink");
+			}
+		}
+		
+	}
+	
+	function pre_check_form_token(){	
+		const token = $("#formVerificationToken").val() || "";
+		if(token !== ""){
+			const par = "TOKEN="+sits_escape_url(token);
+			sits_send_query("POST", "siw_ipp_lgn.check_form_token", par, false, "pre_check_form_token_response");
+		}
+	}
+
+	function pre_check_form_token_response(response){
+		if(typeof response ==="string") {
+			const obj = sits_parse_json(response) || "";
+			if(typeof obj ==="object") {
+				const valid = obj.valid || "";
+				if(valid === "N"){
+					const messageTitle = sits_get_bptext(siw_ipp_lgn_boilerplates, 12) || "Process Message";
+					const messageBody = sits_get_bptext(siw_ipp_lgn_boilerplates, 13) || "This page has expired. Please refresh the page.";
+					const buttonText = sits_get_bptext(siw_ipp_lgn_boilerplates, 14) || "Close";
+					const vtid = "sitsFormVerificationMessageBox";
+					const btn = {};
+					btn[buttonText] = function (){
+						sits_dialog_close(true, vtid);
+					};
+					sits_dialog(messageTitle, messageBody, btn, true, true, false, 0, vtid, true, 35);
+					return;
+				}
+			}
+		}
+	}
+	</script>
+
+<!-- End Of Extra Scripts -->
+
+
+
+<form method="post" action="SIW_IPP_LGN" autocomplete="off">
+	
+		
+			<input type="hidden" name="PROCESS.DUMMY.MENSYS.1" value="siw_ipp_app" />
+			<input type="hidden" name="IPP_CODE.DUMMY.MENSYS.1" value="MSBIOMTFAD" />
+			<input type="hidden" name="IPO_SEQN.DUMMY.MENSYS.1" value="0006" />
+			<input type="hidden" name="RUN_MODE.DUMMY.MENSYS.1" value="" />
+			
+			<input type="hidden" name="RUNTIME.DUMMY.MENSYS.1" value="2026082610290752" />
+			<input type="hidden" name="REFERER.DUMMY.MENSYS.1" value="NONE" />
+			<input type="hidden" name="ENQ_LOGIN.DUMMY.MENSYS.1" value="" />
+			<input type="hidden" name="FORM_VERIFICATION_TOKEN.DUMMY.MENSYS.1" value="HPEMkOsbE+nP/bQ3viagfXleS2Vrn9tSbcf5R+dObGxM+odWhBKOV3xxmZMmkIr1rRDVGCmKtimX29MHTHkOPg==" id="formVerificationToken" />
+			<script>siw_ipp_lgn_boilerplates = ["Type a username and password to log in.","Email Address*","Password*","Date of Birth","Login","New to online applications?","Click below to create a new account","OR","","Log in using","Log In","Process Message","This page has expired. Please refresh the page.","Close"];</script>
+		
+	<input type="hidden" name="%.DUMMY.MENSYS.1" value="ZVY8N20U+u0v83E0aoB2iQSSNHIzFm7YvmBn9FEQ4H8=;new;;" />
+
+	
+		
+			<div style="height:auto;"><!-- Contains login elements-->
+
+
+		<div class="sv-row">
+					<div class="sv-col-sm-12">
+									You are applying for <strong>Master of Science in Biomolecular Sciences Full-Time</strong> to start in <strong>September 2026</strong>. Please log in using your email address and password below. If you have not applied to us using the online application form before please select New User.
+					</div>
+			</div>
+				</br>
+
+
+				<div id="login_section" >
+					<div class="sv-row">
+					<div class="sv-col-sm-6">
+						<!--<div class="sv-col-md-6 sv-col-sm-offset-3">-->
+							<div class="sv-row">
+								<div class="sv-col-md-12">
+									<!-- THESE 5 BOILERPLATES WILL BE RUN THROUGH THE SRL TRANSLATION TOOL
+               (BUILD_TEXT) AND CAN BE PLACED ANY WHERE ON THE PAGE
+          -->
+									
+									<!-- <x-subst type="html" name="BP501.DUMMY_B.MENSYS"></x-subst> -->
+									
+									
+									
+									<div class="sv-panel sv-panel-primary">
+										<!-- Main Window Table -->
+										<div class="sv-panel-heading">
+											<h2 class="sv-panel-title">
+												Login
+											</h2>
+										</div>
+										<div class="sv-panel-body">
+											<div id="logInFormContainer" class="sv-form-container">
+												<fieldset>
+													<legend>
+														Login
+													</legend>
+													<div class="sv-form-group">
+														<label for="MUA_CODE">
+															Email Address*
+														</label>
+														<div class="sv-input-group">
+														<input type="text" name="MUA_CODE.DUMMY.MENSYS.1" value="" id="MUA_CODE" class="sv-form-control" />
+														<span class="sv-input-group-addon"><a href="javascript:ul_open_help('HELP_NEW_USR');"><b>?</b></a></span>
+													</div>
+													</div>
+																										<div class="sv-alert sv-alert-info" id="HELP_NEW_USR" data-help="HELP_NEW_USR">
+              											Please enter the email address you used to set up your Online Application account.
+              											<div class="askbutton">
+																</div>
+              											<div style="clear:both"></div>
+           	 										</div>
+
+													<div class="sv-form-group">
+														<label for="PASSWORD">
+															Password*
+														</label>
+														<input type="password" name="PASSWORD.DUMMY.MENSYS.1" value="" id="PASSWORD" class="sv-form-control" /> 
+													</div>
+													<div class="sv-row">
+														<div class="sv-col-sm-6 sv-col-sm-push-6">
+															<div class="sv-form-group">
+																<input type="submit" name="OK.DUMMY.MENSYS.1" value="Log in" class="sv-btn sv-btn-block sv-btn-primary" title="Click here to login and proceed with your action" />
+															</div>
+														</div>
+														<div class="sv-col-sm-6 sv-col-sm-pull-6">
+															<div class="sv-form-group">
+																<a href="../run/siw_pqs.forgot_ipp?process=siw_ipp_app&ipp_code=MSBIOMTFAD&ipo_seqn=0006" class="sv-btn sv-btn-block sv-btn-default">Forgotten Password</a>
+															</div>
+														</div>
+													</div>
+													<div id="auth_section">
+														<hr/>
+														<div class="sv-row">
+															<div class="sv-col-sm-12 sv-text-center">  												
+																                                                    
+															</div>
+														</div>
+														<br/>
+														<div class="sv-row">
+															<div class="sv-col-sm-12">
+																<div class="sv-col-sm-2 sv-col-xs-4">
+																	
+																</div>
+																<div class="sv-col-sm-2 sv-col-xs-4">
+																	
+																</div>
+																<div class="sv-col-sm-2 sv-col-xs-4">
+																	
+																</div>
+																<div class="sv-col-sm-2 sv-col-xs-4">
+																	
+																</div>
+																<div class="sv-col-sm-2 sv-col-xs-4">
+																	
+																</div>
+																<div class="sv-col-sm-2 sv-col-xs-4">
+																	
+																</div>                               
+															</div>
+														</div>
+													</div>
+												</fieldset>
+											</div>
+											<div id="externalLinkFormContainer" class="sv-form-container sv-hide">
+												<fieldset>
+													<legend>
+														Login
+													</legend>
+													<div class="sv-row">
+														<div class="sv-col-sm-6 sv-col-sm-offset-3">
+															
+														</div>
+													</div>
+												</fieldset>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="new_user_section" >
+							<div class="sv-col-sm-6">
+								<div class="sv-row">
+									<div class="sv-col-md-12">
+										<div class="sv-panel sv-panel-primary">
+											<!-- Main Window Table -->
+											<div class="sv-panel-heading">
+												<h2 class="sv-panel-title">
+													New to online applications?
+												</h2>
+											</div>
+											<div class="sv-panel-body">
+												<div class="sv-form-container">
+													<fieldset>
+														<legend>
+															Click below to create a new account
+														</legend>
+														<div class="sv-row">
+															<div class="sv-col-sm-offset-3 sv-col-sm-6">
+
+																<input type="submit" name="NEW_USER.DUMMY.MENSYS.1" value="New User" id="NEW_USER" class="sv-btn sv-btn-block sv-btn-primary" title="Register as a new user if you have not used this system before" />
+															</div>
+														</div>
+													</fieldset>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	<input type="hidden" name="%.DUMMY_B.MENSYS.1" value="L68YvRN7o8WzD80MFvD2QXtcCAzWXwZcdq/0I0KVAMo=;new;;" />
+</form>
+
+
+
+
+<!-- body-end.hts page header include starts here -->
+
+	<!-- start of HTML from body-end.hts  -->
+
+    </div>
+    
+<footer class="sv-footer">
+      <div class="sv-footer-text">
+        Student Administration Portal &copy; University of Limerick. All Rights Reserved 5(<a href="#sv-page-top">Go to top</a>)
+      </div>
+    </footer>
+    
+  </body>
+</html>
+

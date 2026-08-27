@@ -1,0 +1,126 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "program_structure",
+      "value": "This program consists of 4 courses, starting with a beginner course for students with no prior knowledge.",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "levels_covered",
+      "value": "The program includes levels A1 (Basic Chinese) and A2 (Business Chinese) according to the Common European Framework of Reference for Languages.",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "learning_outcome",
+      "value": "After completing the entire program, students should achieve approximately the A1 level of the GER.",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "module_1",
+      "value": {
+        "title": "Basic Chinese Course 1",
+        "prerequisites": "No prior knowledge required.",
+        "goal": "To acquire basic vocabulary and strengthen knowledge of fundamental structures of the Chinese language.",
+        "assessment": "Reading comprehension and writing competence will be tested in a 90-minute exam at the end of the semester, and a graded certificate will be awarded upon successful completion.",
+        "max_participants": 20,
+        "units": [
+          "Chinese pronunciation",
+          "Greetings, introducing oneself",
+          "Exchanging simple information",
+          "About the family",
+          "About various topics"
+        ],
+        "course_material": "Information about the textbook will be provided in the first course meeting.",
+        "fee": "90 Euro",
+        "duration": "GCH1 (13 double hours, including final exam)",
+        "semesters_offered": "This course is offered only in the winter semester."
+      },
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "module_2",
+      "value": {
+        "title": "Basic Chinese Course 2",
+        "prerequisites": "Basic Chinese Course 1 is required.",
+        "goal": "To acquire basic vocabulary and strengthen knowledge of fundamental structures of the Chinese language.",
+        "assessment": "Reading comprehension and writing competence will be tested in a 90-minute exam at the end of the semester, and a graded certificate will be awarded upon successful completion.",
+        "max_participants": 20,
+        "units": [
+          "Telephone numbers",
+          "Work and study",
+          "Dates and age",
+          "Time, daily routine",
+          "Shopping"
+        ],
+        "course_material": "Information about the textbook will be provided in the first course meeting.",
+        "fee": "90 Euro",
+        "duration": "GCH2 (13 double hours, including final exam)",
+        "semesters_offered": "This course is offered only in the summer semester."
+      },
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "module_3",
+      "value": {
+        "title": "Business Chinese Course 1",
+        "prerequisites": "Language skills based on HSK level I vocabulary lists are required; about 50 characters should be recognized passively.",
+        "goal": "To develop business-related language skills with an emphasis on oral communicative competencies.",
+        "assessment": "Language skills will be tested in a 90-minute exam at the end of the semester, and a graded certificate will be awarded upon successful completion.",
+        "max_participants": 20,
+        "units": [
+          "Formal introductions and greetings",
+          "Describing people",
+          "Daily work life",
+          "Problems at work"
+        ],
+        "course_material": "Chinese Experience - Official Communication in China.",
+        "fee": "90 Euro",
+        "duration": "WCH1 (13 double hours, including final exam)",
+        "semesters_offered": "This course is offered only in the winter semester."
+      },
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "chinese_language_program",
+      "field": "module_4",
+      "value": {
+        "title": "Business Chinese Course 2",
+        "prerequisites": "Language skills based on the vocabulary lists of the state-recognized language proficiency test HSK at levels I and II are required, and knowledge of characters at HSK level I.<br />Approximately 100 characters should be recognized passively.",
+        "goal": "To further develop business-related language skills, emphasizing verbal communication competencies.",
+        "assessment": "Language skills will be tested in a 90-minute exam at the end of the semester, and a graded certificate will be awarded upon successful completion.",
+        "max_participants": 20,
+        "units": [
+          "At the official invitation (e.g., greeting, table talk, thanks)",
+          "Appointments (e.g., planning, confirmation, cancellation)",
+          "Consultations (e.g., visa issues, work)",
+          "Bookings/reservations (e.g., flight tickets, hotel, restaurant)"
+        ],
+        "course_material": "Chinese Experience - Official Communication in China.",
+        "fee": "90 Euro",
+        "duration": "WCH2 (13 double hours, including final exam)",
+        "semesters_offered": "This course is offered only in the summer semester."
+      },
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "intended_audience",
+      "value": "undergraduate college students and practicing electronics engineers",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Prerequisites to Understand Basic Electronics + FAQs on Basic Electronics",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "semiconductors",
+      "value": "Semiconductors are important materials used for fabricating various electronic devices and components like diodes, transistors, integrated circuits, LEDs, logic gates, etc. The most commonly used semiconductors are silicon (Si) and germanium (Ge).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "resistors",
+      "value": "Resistors are commonly used circuit components in electronics used to control the amount of electric current in electronic circuits.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "capacitors",
+      "value": "Capacitors are basic circuit components used for storing electric charge and designing circuits to perform signal filtering.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "inductors",
+      "value": "Inductors are used in electronic circuits to store energy in the form of magnetic fields and filter out alternating current signals.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transformers",
+      "value": "Transformers are electromagnetic devices used to reduce high voltages like 220 Volts into lower values like 5 V, 12 V, 24 V, or any other suitable value for electronic circuits.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "diodes",
+      "value": "Diodes are basic semiconductor devices that consist of two semiconductor regions, p-type and n-type, having a pn-junction. They are used in electronic circuits as unidirectional devices or static switches, commonly for rectification (conversion of AC into DC).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transistors",
+      "value": "Transistors are three-terminal semiconductor devices used in electronics to perform amplification and switching of electric signals. They are the building blocks of most electronic circuits and complex devices.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "other important concepts",
+      "value": "Other important concepts in electronics include voltage, current, electrons, holes (positive charges in semiconductors), power, etc.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "1. What are the most important concepts in basic electronics?",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "ohms_law_description",
+      "value": "Ohm's law describes the relationship between voltage, current, and resistance in a circuit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "ohms_law_equation",
+      "value": "V = IR",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "ohms_law_usage",
+      "value": "If any two qualities among V, I, and R are known, then we can calculate the third one.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "ohms_law_application_1",
+      "value": "If the resistance is kept constant and the voltage is increased, the current in the circuit will also increase.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "ohms_law_application_2",
+      "value": "If the voltage is kept constant and the resistance is increased, the current in the circuit will decrease.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "electronics_classification",
+      "value": "Analog electronics deals with continuous-time signals.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "electronics_classification_2",
+      "value": "Digital electronics deals with discrete-time signals.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "2. How does Ohm's Law work in electronic circuits? + 3. What is the difference between analog and digital electronics?",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "resistance_formula",
+      "value": "R = V / I",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "4. How do you calculate resistance, capacitance, and inductance in electronics?",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "capacitance_formula",
+      "value": "C = Q / V",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "4. How do you calculate resistance, capacitance, and inductance in electronics?",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "inductance_formula",
+      "value": "V = L * (di/dt)",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "4. How do you calculate resistance, capacitance, and inductance in electronics?",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "mistake_description",
+      "value": "Beginners ignore basic concepts and directly jump onto complex concepts, leading to confusion and lack of understanding.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "mistake_description",
+      "value": "Many electronics beginners avoid reading book theory and jump directly into practical electronics, which can lead to frustration.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "mistake_description",
+      "value": "Beginners avoid practicing hands-on projects and try to learn electronic circuits only through books.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "resource_type",
+      "value": "Introductory textbooks on basic electronics",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "resource_type",
+      "value": "Beginners online tutorials and courses",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "resource_type",
+      "value": "Community discussion platforms and groups",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "5. What are common mistakes beginners make when learning electronics? + 6. What tools do I need to start learning basic electronics?",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    }
+  ]
+}

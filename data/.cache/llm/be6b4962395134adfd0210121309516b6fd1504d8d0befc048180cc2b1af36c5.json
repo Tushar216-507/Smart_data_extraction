@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "regulation_name",
+      "value": "Rahmenordnung für gestufte und modularisierte Studiengänge",
+      "original_value": "Rahmenordnung für gestufte und modularisierte Studiengänge",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "previous_regulation_name",
+      "value": "Allgemeine Bestimmungen für Bachelor- und Masterstudiengänge",
+      "original_value": "Allgemeine Bestimmungen für Bachelor- und Masterstudiengänge",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "regulation_effective_date",
+      "value": "04.07.2014",
+      "original_value": "04.07.14",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "transition_provisions",
+      "value": "New program-specific regulations can be approved based on the general provisions for bachelor and master programs effective from 13.04.2011 if their approval process was initiated before the effective date of this framework regulation.",
+      "original_value": "Studiengangsspezifische Ordnungen, deren Beschluss- und Genehmigungsverfahren vor dem In-Kraft-Treten dieser Rahmenordnung eingeleitet wurde, können auf Grundlage der Allgemeinen Bestimmungen für Bachelor- und Masterstudiengänge der Johann Wolfgang Goethe-Universität Frankfurt am Main in der Fassung vom 13.04.2011 genehmigt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

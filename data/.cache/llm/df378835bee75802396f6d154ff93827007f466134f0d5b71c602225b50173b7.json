@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "A module examination consisting of a single examination performance is passed if it is graded with at least 'sufficient' (4.0) or better. An examination performance graded with points is passed if a minimum of 5 points is achieved.",
+      "original_value": "Eine aus einer einzigen Prüfungsleistung bestehende Modulprüfung ist bestanden, wenn sie mit der Note \"ausreichend“ (4,0) oder besser bewertet worden ist. Eine mit Punkten bewertete Prüfungsleistung ist bestanden, wenn mindestens 5 Punkte erreicht sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "module examination",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "A cumulative module examination consisting of multiple module partial examinations is passed only if all or certain module partial examinations are graded with at least 'sufficient' (4.0) or 5 points. It can also be regulated that failed partial examinations can be compensated by other individual grades of the respective module, thus allowing the overall module examination to be passed.",
+      "original_value": "Die studiengangsspezifische Ordnung kann bestimmen, dass eine aus mehreren Modulteilprüfungen bestehende Modulprüfung (kumulative Modulprüfung) nur dann bestanden ist, wenn sämtliche Modulteilprüfungen oder bestimmte Modulteilprüfungen mindestens mit „ausreichend“ (4,0) beziehungsweise mit 5 Punkten bewertet worden sind. Sie kann auch regeln, dass nicht bestandene Teilprüfungen durch andere Einzelnoten des jeweiligen Moduls kompensiert werden können und damit die Modulprüfung insgesamt bestanden ist.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "cumulative module examination",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "The Bachelor's or Master's examination is passed if all modules required according to the program-specific regulations are successfully completed, meaning the required study achievements are present and the examinations prescribed for the program, including the Bachelor's or Master's thesis, are graded with at least 'sufficient' (4.0).",
+      "original_value": "Die Bachelor- oder Masterprüfung ist bestanden, wenn sämtliche nach der studiengangsspezifischen Ordnung vorgeschriebenen Module erfolgreich erbracht wurden, das heißt die geforderten Studiennachweise vorliegen und die für den Studiengang vorgeschriebenen Modulprüfungen einschließlich der Bachelor- beziehungsweise Masterarbeit mit mindestens „ausreichend“ (4,0) bewertet worden sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Bachelor's or Master's examination",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The results of all examinations will be announced immediately. The program-specific regulations govern the procedure for announcing grades for each written examination and the Bachelor's and Master's thesis.",
+      "original_value": "Die Ergebnisse sämtlicher Prüfungen werden unverzüglich bekannt gegeben. Die studiengangsspezifische Ordnung regelt das Verfahren der Bekanntgabe der Noten für die einzelnen schriftlichen Prüfungsleistungen und die Bachelor- und Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

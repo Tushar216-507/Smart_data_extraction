@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_description_requirements",
+      "value": "Each module shall have a description that provides reliable information about study progression, content, qualitative and quantitative requirements, and its integration into the overall concept of the program or its relationship to other modules.",
+      "original_value": "Die Modulbeschreibung soll den Studierenden zuverlässige Informationen über Studienverlauf, Inhalte, qualitative und quantitative Anforderungen und die Einbindung in das Gesamtkonzept des Studiengangs oder das Verhältnis zu anderen Modulen bieten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "required_module_description_contents",
+      "value": [
+        "Module name",
+        "Type of module (compulsory or elective)",
+        "Assignment to various areas of the program",
+        "Prerequisites for participation",
+        "Content/Learning outcomes/Competence objectives",
+        "Number of credits awarded for the module",
+        "Possible teaching and learning forms with credits",
+        "Examination prerequisites or study records",
+        "Module examination (type, form, duration, and possibly content)",
+        "Formation of the module grade"
+      ],
+      "original_value": "Die Modulbeschreibung enthält mindestens Angaben zu: \n- Modulname\n- Art des Moduls (Pflicht- oder Wahlpflicht)\n- Zuordnung zu den verschiedenen Bereichen des Studiengangs\n- Voraussetzungen für die Teilnahme\n- Inhalte/Lernergebnisse/Kompetenzziele\n- Anzahl der für das Modul zu vergebenden Kreditpunkte\n- den möglichen Lehr- und Lernformen mit Kreditpunkten\n- Prüfungsvorleistungen beziehungsweise Studiennachweise\n- Modulprüfung (Art, Form, Dauer und ggf. Inhalt)\n- Bildung der Modulnote",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_handbook_purpose",
+      "value": "The module handbook serves particularly to inform students and is necessary for accreditation.",
+      "original_value": "Das Modulhandbuch dient insbesondere der Information der Studierenden und ist für die Akkreditierung notwendig.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_handbook_modification_conditions",
+      "value": "A module description in the module handbook can be changed without altering the module description in the program-specific regulations, provided the minimum information detailed is not affected.",
+      "original_value": "Eine Modulbeschreibung im Modulhandbuch kann ohne Änderung der Modulbeschreibung in der studiengangsspezifischen Ordnung geändert werden, soweit nicht die in Abs. 2 genannten Mindestangaben betroffen sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

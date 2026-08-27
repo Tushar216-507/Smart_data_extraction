@@ -1,0 +1,197 @@
+{
+  "facts": [
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "none",
+      "original_value": "keine",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_association",
+      "value": "Master SEAS (Variante 2) / Fachbereich 09",
+      "original_value": "Master SEAS (Variante 2) / Fachbereich 09",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "module_duration",
+      "value": "1-2 semesters",
+      "original_value": "1-2 Semester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "offer_frequency",
+      "value": "Available in Winter semester or Summer semester",
+      "original_value": "Beginn im Wintersemester oder Sommersemester möglich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German or English; limited options for students without sufficient German knowledge",
+      "original_value": "Deutsch oder Englisch. Für Studierende ohne ausreichende Deutschkenntnisse ist beschränkt. die Auswahl auf englischsprachige Lehrveranstaltungen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "total_workload",
+      "value": {
+        "hours": 900,
+        "contact_hours": {
+          "min": 120,
+          "max": 210
+        },
+        "self_study_hours": 690
+      },
+      "original_value": "30 CP (insg.) = 900 h",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "SEAS 11",
+        "name": "Semester abroad (nur Variante 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": "pflichtmodul",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "competencies",
+      "value": [
+        "Improvement of language skills",
+        "Practical experience in applying learned key qualifications",
+        "Acquisition of practical foreign experience, as well as intercultural and communicative competencies for future professional and/or academic activities"
+      ],
+      "original_value": "Generell gefördert werden folgende Kompetenzen:\n\n- Verbesserung der Fremdsprachenkompetenz\n\n- Praxiserfahrung in der Anwendung von erlernten Schlüsselqualifikationen\n\n- Erwerb praktischer Auslandserfahrung, sowie interkultureller und kommunikativer Kompetenzen für spätere berufliche und/oder wissenschaftliche Tätigkeiten",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

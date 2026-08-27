@@ -1,0 +1,48 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "module_examination_condition",
+      "value": "The student may only take the module examination if they are admitted to the Bachelor examination and have not definitively failed the relevant module examination.",
+      "original_value": "Die oder der Studierende kann die Modulprüfung nur ablegen, sofern sie oder er zur Bachelorprüfung zugelassen ist und sie oder er die entsprechende Modulprüfung noch nicht endgültig nicht bestanden hat.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "university_enrollment",
+      "value": "The student must be enrolled at Johann Wolfgang Goethe University.",
+      "original_value": "Die Alternative ist zu wählen, wenn kein Meldeverfahren vorgesehen ist. Der in der Klammer auf die Modulteilprüfungen bezogene Text entfällt jeweils, sofern es im Studiengang keine Modulteilprüfungen gibt. Sofern keine Leistungs- und/oder Teilnahmenachweise verlangt werden, ist der jeweils hierauf bezogene Text in den Klammern zu streichen ... an der Johann Wolfgang Goethe-Universität immatrikuliert ist.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

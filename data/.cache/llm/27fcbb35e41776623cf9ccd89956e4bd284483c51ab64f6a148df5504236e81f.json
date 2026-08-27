@@ -1,0 +1,637 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 1 - Ergänzungsmodul VWL",
+      "original_value": "NF 1 - Ergänzungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF1_Ergaenzungsmodul_VWL",
+        "name": "NF 1 - Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF1_Ergaenzungsmodul_VWL",
+        "name": "NF 1 - Ergänzungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 1 - Ergänzungsmodul BWL",
+      "original_value": "NF 1 - Ergänzungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF1_Ergaenzungsmodul_BWL",
+        "name": "NF 1 - Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF1_Ergaenzungsmodul_BWL",
+        "name": "NF 1 - Ergänzungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 2 - Anwendungsmodul VWL",
+      "original_value": "NF 2 - Anwendungsmodul VWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF2_Anwendungsmodul_VWL",
+        "name": "NF 2 - Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": {
+        "min": 20,
+        "max": 22
+      },
+      "original_value": "20/ 22",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF2_Anwendungsmodul_VWL",
+        "name": "NF 2 - Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "NF 2 - Anwendungsmodul BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF2_Anwendungsmodul_BWL",
+        "name": "NF 2 - Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": {
+        "min": 21,
+        "max": 22
+      },
+      "original_value": "21/ 22",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "NF2_Anwendungsmodul_BWL",
+        "name": "NF 2 - Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": "Condition for Registration",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting 1",
+      "original_value": "Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BACC",
+        "name": "Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": {
+        "min": 5,
+        "max": 6
+      },
+      "original_value": "5/ 6",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "BACC",
+        "name": "Accounting 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "application_requirements",
+      "value": "Necessary documents for enrollment must be submitted on time.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Wichtige Termine und Fristen",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "semester_contribution",
+      "value": "Pay the semester fee on time.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Wichtige Termine und Fristen",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "departmental_advising",
+      "value": "Marc Jacquemin",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "exchange_program_description",
+      "value": "We provide advice on Erasmus+ stays and other exchange programs.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

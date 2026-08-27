@@ -1,0 +1,1 @@
+Study record managers: refer to the [Data Element Definitions](/policy#data-element-definitions) if submitting registration or results information.

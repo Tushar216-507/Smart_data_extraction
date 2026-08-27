@@ -1,0 +1,48 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "scope": "university",
+      "field": "additional_information_sources",
+      "value": "http://www.physik.uni-frankfurt.de, http://www.uni-frankfurt.de/studium/ssc",
+      "original_value": "http://www.physik.uni-frankfurt.de, http://www.uni-frankfurt.de/studium/ssc",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "program",
+      "field": "additional_information_sources",
+      "value": "http://www.physik.uni-frankfurt.de/mpcs",
+      "original_value": "http://www.physik.uni-frankfurt.de/mpcs",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

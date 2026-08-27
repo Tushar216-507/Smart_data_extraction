@@ -1,0 +1,3 @@
+## Your community of support
+
+College courses can be intense, which is why ASU provides extra support for you and your classmates. You’ll have access to [free tutoring](https://tutoring.asu.edu), the writing centers, first-year coaches and mentors, and [career advisors](https://career.asu.edu). Your mental well-being is important, and [ASU's counseling center](https://wellness.asu.edu) offers 24/7 support. The ASU community is always ready to rally around you and your success.

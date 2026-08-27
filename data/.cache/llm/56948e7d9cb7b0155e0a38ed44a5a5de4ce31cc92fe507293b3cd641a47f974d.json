@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "uni_frankfurt",
+      "original_value": "uni_frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "description",
+      "value": "The department establishes a website for the Bachelor's minor degree program where general information and regulations regarding the program are provided in their current form.",
+      "original_value": "Der Fachbereich richtet für den Nebenfach-Bachelorteilstudiengang ... [Bezeichnung] eine Webseite ein, auf der allgemeine Informationen und Regelungen zum Studiengang in der jeweils aktuellen Form hinterlegt sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "description",
+      "value": "The department will create a commented course directory based on module descriptions and study plans, which includes a content and organizational description of the teaching offerings.",
+      "original_value": "der Studienverlaufspläne ein kommentiertes Veranstaltungsverzeichnis mit einer inhaltlichen und organisatorischen Beschreibung des Lehrangebots.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

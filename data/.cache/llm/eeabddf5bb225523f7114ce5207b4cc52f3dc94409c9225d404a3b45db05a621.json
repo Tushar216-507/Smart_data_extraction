@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "completed_orientation_section",
+      "value": "A completed orientation section within two semesters.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "grade_point_average",
+      "value": "A grade point average better than 3.0.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "language_certificate",
+      "value": "A language certificate according to the requirements of the respective exchange program.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "complete_application",
+      "value": "A complete application.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "selection_criteria",
+      "field": "grades",
+      "value": "Grades.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "selection_criteria",
+      "field": "social_commitment",
+      "value": "Social voluntary engagement at the department, at the university, or outside the university.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "admission",
+      "subcategory": "selection_criteria",
+      "field": "motivation",
+      "value": "Motivation.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tuition",
+      "field": "tuition_fee_european_exchanges",
+      "value": "No tuition fees for exchanges with universities in Europe.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "fees",
+      "subcategory": "tuition",
+      "field": "tuition_fee_international_exchanges",
+      "value": "No tuition fees for exchanges with universities worldwide.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "financial_aid",
+      "subcategory": "erasmus_program",
+      "field": "erasmus_plus_program",
+      "value": "The exchange with universities in Europe is supported by the Erasmus+ program of the European Union.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "financial_aid",
+      "subcategory": "promos_program",
+      "field": "promos_program",
+      "value": "The exchange with universities worldwide can be supported by the PROMOS program of the German Academic Exchange Service (DAAD); an application is required.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "financial_aid",
+      "subcategory": "bafoeg",
+      "field": "auslands_bafög",
+      "value": "Check if you are eligible for Auslands-BAföG.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    },
+    {
+      "category": "financial_aid",
+      "subcategory": "scholarships",
+      "field": "daad_scholarship_database",
+      "value": "Further scholarships can be found in the DAAD scholarship database.",
+      "confidence": 1.0,
+      "programme_association": "German Courses"
+    }
+  ]
+}

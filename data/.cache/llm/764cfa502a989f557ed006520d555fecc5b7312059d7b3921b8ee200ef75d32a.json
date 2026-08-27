@@ -1,0 +1,76 @@
+{
+  "facts": [
+    {
+      "category": "visa",
+      "subcategory": "visa_application",
+      "field": "visa_type",
+      "value": "F-1 or J-1 visa",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "visa_application",
+      "field": "i20_requirement",
+      "value": "Students must receive a SEVIS number and I-20 document from ASU",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "my_asu",
+      "field": "asurite_user_id",
+      "value": "Your ASURITE User ID is the official login name you’ll use to access most ASU systems and services",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "my_asu",
+      "field": "asurite_user_id_activation",
+      "value": "Activation instructions will be sent shortly after you submit your application",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "my_asu",
+      "field": "my_asu_access",
+      "value": "You’ll log in to My ASU with your ASURITE User ID and password to view tasks and next steps for enrollment",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "my_asu",
+      "field": "official_email_activation",
+      "value": "Students must activate their official @asu.edu email address after enrolling in classes",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "record_access",
+      "field": "parent_guest_access",
+      "value": "Students can share their academic records with parents through My ASU Parent Guest Access",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "enrollment_deposit",
+      "field": "enrollment_deposit_availability",
+      "value": "For fall 2026 admits, the enrollment deposit will be available beginning Oct. 1, 2025",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "math_placement_test",
+      "field": "math_placement_test_requirement",
+      "value": "All first-year students are required to take the math placement test at least seven calendar days before their Academic Orientation Session",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    }
+  ]
+}

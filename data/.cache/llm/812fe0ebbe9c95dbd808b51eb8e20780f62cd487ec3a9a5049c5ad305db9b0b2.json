@@ -1,0 +1,264 @@
+{
+  "facts": [
+    {
+      "category": "documents",
+      "field": "fax_policy",
+      "value": "ASU does not accept faxed college transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "College or university transcripts",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "how_to_send_transcripts_link",
+      "value": "https://admission.asu.edu/apply/transcripts",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "College or university transcripts",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "documents",
+      "field": "transferring_credits_info_link",
+      "value": "https://admission.asu.edu/apply/transfer/transferring-credits",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "College or university transcripts",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_requirements",
+      "value": "Official high school transcripts are required if: you have fewer than 24 transferable semester hours of college credit after high school; you're applying to a program that specifically requires a high school transcript, regardless of your credit hours; you've earned an associate degree (or higher) but with fewer than 24 transferable semester credits post-high school.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "High school transcripts + Test scores",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_content",
+      "value": "Transcripts must reflect all four years of coursework and include your graduation date.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "High school transcripts + Test scores",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_submission",
+      "value": "Transcripts must be sent directly from the high school through a secure electronic service approved by ASU, by mail, or via email directly from a school official. ASU only accepts hand-delivered official high school transcripts if they are in a sealed envelope provided by the school. ASU does not accept faxed high school transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "High school transcripts + Test scores",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "ged_requirements",
+      "value": "For a completed GED, ASU requires a battery average score of 170 or higher for tests taken after 2013. ASU also accepts the HiSet, TASC (Test Assessing Secondary Completion), California High School Proficiency Examination, and College Credit Pathway, with some limitations.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "High school transcripts + Test scores",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_score_requirements",
+      "value": "ACT or SAT scores are not required for admission, but may be used in place of a high school GPA if necessary.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "High school transcripts + Test scores",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_score_submission",
+      "value": "Have your scores sent to ASU directly from ACT or College Board. If you have taken AP, IB or CLEP exams, request your scores be sent directly to ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "High school transcripts + Test scores",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "official_transcripts_requirement",
+      "value": "You must have one set of transcripts from every college and university from which you earned a bachelor’s degree or higher sent to ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_submission_method",
+      "value": "Official transcripts must be sent directly to ASU Admission Services from the issuing institution's records office either by mail or through a secured electronic transcript service.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "unofficial_transcripts_policy",
+      "value": "ASU accepts unofficial transcripts as part of the application, but if you are admitted, you will be required to send official transcripts to the university.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "official_test_scores_requirement",
+      "value": "Your program may require you to have official test scores (such as GRE, GMAT, etc.) sent directly to ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_score_submission_method",
+      "value": "Test scores must be received directly from the agency administering the test. Photocopies and faxes are not acceptable.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "home_test_policy",
+      "value": "ASU does not accept the GRE® General Test at home.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_support_materials",
+      "value": "Required support materials may include a statement of purpose or writing sample, portfolio, curriculum vitae or biographical sketch or resume.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "letters_of_recommendation_policy",
+      "value": "Depending on your graduate program, letters of recommendation may also be requested.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "english_proficiency_requirement",
+      "value": "International students must submit proof of English proficiency.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_reference_number_importance",
+      "value": "To expedite the processing of your application, please write your application reference number on all documents and envelopes submitted to ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "application_address_stamped_mail",
+      "value": "Arizona State University, Graduate Admission Services, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "What you need to apply to graduate school + Frequently asked questions about the graduate application + When do I apply for grad school? + What is the grad school application deadline? + When do grad programs start?",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    }
+  ]
+}

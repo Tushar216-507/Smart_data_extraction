@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "passing_criteria",
+      "value": "An exam that contains more than 25% multiple-choice questions is passed if the student answers at least 50% of the questions correctly or if the number of correctly answered questions does not fall short of the average performance of all participants in the exam by more than 22%.",
+      "original_value": "Eine Klausur, die mehr als 25 % „Multiple-Choice“-Fragen enthält, ist bestanden, wenn die oder der Studierende mindestens 50 % (Bestehensgrenze) der gestellten Prüfungsfragen zutreffend beantwortet hat oder wenn die Zahl der von der Studierenden oder dem Studierenden zutreffend beantworteten Fragen die durchschnittliche Prüfungsleistung aller Prüfungsteilnehmerinnen und Prüfungsteilnehmer um nicht mehr als 22 % unterschreitet, die erstmals an der Prüfung teilgenommen haben.",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "late_arrival_policy",
+      "value": "Students arriving late to the exam cannot make up the missed time and must leave the examination room only with the supervisor's permission.",
+      "original_value": "Erscheint die oder der Studierende verspätet zur Klausur, so kann sie oder er die versäumte Zeit nicht nachholen. Der Prüfungsraum kann nur mit Erlaubnis der aufsichtführenden Person verlassen werden.",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "exam_procedures",
+      "value": "The supervisor of the exam must create a brief record of all occurrences relevant to the determination of the exam result.",
+      "original_value": "Die eine Klausur beaufsichtigende Person hat über jede Klausur ein Kurzprotokoll zu fertigen. In diesem sind alle Vorkommnisse einzutragen, welche für die Feststellung des Prüfungsergebnisses von Belang sind.",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "exam_duration_policy",
+      "value": "The processing time for exam papers should be oriented towards the scope of the module being examined, with a recommended duration of at least 60 minutes and a maximum of 240 minutes.",
+      "original_value": "Die Bearbeitungszeit für die Klausurarbeiten soll sich am Umfang des zu prüfenden Moduls [...] orientieren. Sie beträgt für Klausurarbeiten mindestens ... [Angabe] Minuten und höchstens ... [Angabe] Minuten. [...] es empfiehlt sich ein Zeitrahmen von mindestens 60 Minuten und maximal 240 Minuten.",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.9
+    }
+  ]
+}

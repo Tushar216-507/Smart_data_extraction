@@ -1,0 +1,102 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "committee_name",
+      "value": "Examination Committee",
+      "original_value": "Prüfungsausschuss",
+      "unit": null,
+      "entity": {
+        "type": "committee",
+        "id": null,
+        "name": "Examination Committee"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "related_programs",
+      "value": [
+        "Master in Social Ethics in Health Care",
+        "Bachelor in Catholic Theology"
+      ],
+      "original_value": [
+        "Master Sozialethik im Gesundheitswesen",
+        "Bachelor Katholische Theologie"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "committee_structure",
+      "value": {
+        "members_count": 7,
+        "professors_count": 4,
+        "academic_members_count": 1,
+        "student_members_count": 2,
+        "student_term_length": "1 year",
+        "other_members_term_length": "2 years"
+      },
+      "original_value": {
+        "members_count": 7,
+        "professors_count": 4,
+        "academic_members_count": 1,
+        "student_members_count": 2,
+        "student_term_length": "1 Jahr",
+        "other_members_term_length": "2 Jahre"
+      },
+      "unit": null,
+      "entity": {
+        "type": "committee",
+        "id": null,
+        "name": "Examination Committee"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "University of Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

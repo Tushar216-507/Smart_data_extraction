@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "degree_certificate",
+      "value": "A Master's certificate is issued simultaneously with the Master's examination certificate.",
+      "original_value": "Gleichzeitig mit dem Zeugnis der Masterprüfung erhält die oder der Studierende eine Masterurkunde mit dem Datum des Zeugnisses nach den Vorgaben der Muster der Rahmenordnung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "degree_certificate_issuance",
+      "value": "The certificate will be signed by the dean of the Department of Language and Cultural Studies and the chairperson of the examination board, and sealed with the seal of Johann Wolfgang Goethe University.",
+      "original_value": "Die Urkunde wird von der Studiendekanin oder dem Studiendekan des Fachbereichs Sprach- und Kulturwissenschaften sowie der oder dem Vorsitzenden des Prüfungsausschusses unterzeichnet und mit dem Siegel der Johann Wolfgang Goethe-Universität versehen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "degree_usage",
+      "value": "The academic degree may only be used after the certificate is issued.",
+      "original_value": "Der akademische Grad darf erst nach Aushändigung der Urkunde geführt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

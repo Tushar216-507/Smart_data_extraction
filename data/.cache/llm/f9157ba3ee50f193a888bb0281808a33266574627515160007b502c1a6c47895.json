@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "important_information",
+      "value": "The University of Frankfurt has drafted specific guidelines regarding plagiarism, which serve as a standard for all academic work, including term papers, final theses, and doctoral dissertations.",
+      "original_value": "Die Universität Frankfurt hat dazu eigens eine Leitlinie verfasst. Diese Grundsätze der Johann Wolfgang- Goethe-Universität zur Sicherung guter wissenschaftlicher Praxis sind der Maßstab, an dem sich jede wissenschaftliche Arbeit - einschließlich Hausarbeiten, Abschlussarbeiten und Promotionen - messen lassen muss.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "University of Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Plagiarism is considered a violation of good scientific practice and can have legal and social consequences. Legal consequences are regulated by framework regulations or program-specific regulations.",
+      "original_value": "Abgesehen davon, dass Plagiate gegen die gute wissenschaftliche Praxis verstoßen, können sie auch rechtliche und soziale Konsequenzen haben. Die rechtlichen Konsequenzen werden durch die Rahmenordnung bzw. durch die Ordnungen der Studiengänge geregelt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "University of Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

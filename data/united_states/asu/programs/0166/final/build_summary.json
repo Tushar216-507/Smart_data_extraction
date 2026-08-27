@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0166",
+  "program_name": "Online Master of Science in Regulatory Science – Food Safety",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0166\\final",
+  "input_fact_count": 22,
+  "unique_fact_count": 13,
+  "exact_duplicate_count": 9,
+  "handled_fact_count": 13,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 13,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 3,
+    "admission": 2,
+    "curriculum": 4,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0166\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0166\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0166\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0166\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0166\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0166\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0166\\final\\build_summary.json"
+  }
+}

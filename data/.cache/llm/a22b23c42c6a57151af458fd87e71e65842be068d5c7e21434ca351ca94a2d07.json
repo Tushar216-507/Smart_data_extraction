@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "overall_grade_calculation",
+      "value": "The overall grade in the Master Southeast Asian Studies is formed from the arithmetic mean of all module examination results. The master's module is counted twice in this calculation.",
+      "original_value": "Die Gesamtnote im Master Southeast Asian Studies wird aus dem arithmetischen Mittel aller Modulprüfungser-gebnisse gebildet. Das Mastermodul wird bei dieser Berechnung doppelt gewertet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

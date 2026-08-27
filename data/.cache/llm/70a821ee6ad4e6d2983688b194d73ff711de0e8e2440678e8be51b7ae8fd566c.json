@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_assessment_frequency",
+      "value": "At least twice a year for compulsory modules and annually scheduled elective modules",
+      "original_value": "mindestens zweimal pro Jahr für Pflichtmodule und jährlich angesetzte Wahlpflichtmodule",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_exam_periods",
+      "value": "Usually the first two and the last two weeks of the lecture-free period",
+      "original_value": "in der Regel die ersten beiden und die letzten beiden Wochen der vorlesungsfreien Zeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "exact_exam_dates_announcement",
+      "value": "At least four weeks before the exam dates, including time and place of exams and names of evaluators",
+      "original_value": "spätestens aber vier Wochen vor den Prüfungsterminen, Zeit und Ort der Prüfungen sowie die Namen der beteiligten Prüferinnen und Prüfer",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "exam_schedule_changes",
+      "value": "Changes must be approved by the chair of the examination board",
+      "original_value": "nur mit Genehmigung der oder des Vorsitzenden des Prüfungsausschusses möglich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

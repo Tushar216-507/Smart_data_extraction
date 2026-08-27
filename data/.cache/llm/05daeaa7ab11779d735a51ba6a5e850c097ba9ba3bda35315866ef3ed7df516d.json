@@ -1,0 +1,368 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Soziologie",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "M.A. Soziologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Wirtschaftssoziologie",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "M.A. Wirtschaftssoziologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Vertiefung Mikroökonomik",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "Vertiefung Mikroökonomik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Vertiefung Makroökonomik",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "Vertiefung Makroökonomik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Politische Theorie",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "M.A. Politische Theorie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theoriegeschichte",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "6",
+        "name": "Theoriegeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fachbereich 04",
+      "original_value": "Fachbereich 04",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7",
+        "name": "Fachbereich 04"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.A. Erziehungswissenschaften",
+      "original_value": "B.A. Erziehungswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7",
+        "name": "B.A. Erziehungswissenschaften"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fachbereich 09",
+      "original_value": "Fachbereich 09",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7",
+        "name": "Fachbereich 09"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Modern East Asian Studies",
+      "original_value": "M.A. Modern East Asian Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "7",
+        "name": "M.A. Modern East Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fachbereich 11",
+      "original_value": "Fachbereich 11",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "8",
+        "name": "Fachbereich 11"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "B.A. Geographie",
+      "original_value": "B.A. Geographie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "8",
+        "name": "B.A. Geographie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "M.A. Geographie der Globalisierung",
+      "original_value": "M.A. Geographie der Globalisierung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "8",
+        "name": "M.A. Geographie der Globalisierung"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

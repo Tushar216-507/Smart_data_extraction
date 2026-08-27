@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "academic_calendar",
+      "scope": "programme",
+      "field": "start_term",
+      "value": "Winter semester 2014/15",
+      "original_value": "Wintersemester 2014/15",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "implementation_conditions",
+      "value": "The subject-specific regulations take effect the day after their announcement in the Uni-Report.",
+      "original_value": "Die fachspezifischen Bestimmungen treten am Tage nach ihrer Bekanntgabe im Uni-Report in Kraft.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

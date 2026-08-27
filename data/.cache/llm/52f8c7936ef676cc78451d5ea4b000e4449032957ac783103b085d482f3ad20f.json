@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "loss_of_exam_claim_conditions",
+      "value": "The overall examination in the program is finally not passed and the examination claim is permanently lost if certain conditions are met, including failing a module examination after exhausting all retake attempts, exceeding deadlines for certain performance requirements, or in case of serious misconduct.",
+      "original_value": "Die Gesamtprüfung im Studiengang ist endgültig nicht bestanden und der Prüfungsanspruch geht endgültig verloren, wenn ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "final_exam_not_passed_notification",
+      "value": "A notification about the final failure of the overall examination in the program and the associated loss of examination claim will be issued, which includes legal instruction.",
+      "original_value": "Über das endgültige Nichtbestehen der Gesamtprüfung im Studiengang und dem damit verbundenen Verlust des Prüfungsanspruchs wird ein Bescheid erteilt ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "exmatriculation_after_final_failure",
+      "value": "If a student has definitively failed the overall examination in the program and thus permanently lost the examination claim, they must be exmatriculated.",
+      "original_value": "Hat die oder der Studierende die Gesamtprüfung im Studiengang endgültig nicht bestanden ... ist sie oder er zu exmatrikulieren.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "certificate_of_passed_modules_condition",
+      "value": "Upon request, a student may obtain a certificate from the examination office listing the passed module examinations, their grades, and the acquired credit points, indicating that the overall examination in the program has been definitively failed.",
+      "original_value": "Auf Antrag erhält die oder der Studierende gegen Vorlage der Exmatrikulationsbescheinigung eine Bescheinigung des Prüfungsamtes ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "1": "1.0 to 1.5",
+        "2": "1.6 to 2.5",
+        "3": "2.6 to 3.5",
+        "4": "3.6 to 4.0",
+        "5": "over 4.0"
+      },
+      "original_value": "1,0 bis einschließlich 1,5\n1,6 bis einschließlich 2,5\n2,6 bis einschließlich 3,5\n3,6 bis einschließlich 4,0\nüber 4,0",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "overall_grading",
+      "value": "excellent",
+      "original_value": "mit Auszeichnung bestanden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

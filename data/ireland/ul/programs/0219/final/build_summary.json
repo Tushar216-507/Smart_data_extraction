@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0219",
+  "program_name": "Masters/PhD in Work & Employment Studies",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0219\\final",
+  "input_fact_count": 18,
+  "unique_fact_count": 18,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 18,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 18,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 1,
+    "curriculum": 9,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 2,
+    "housing": 0,
+    "visa": 0,
+    "documents": 1,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0219\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0219\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0219\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0219\\final\\career_data.json",
+    "research": "data\\ireland\\ul\\programs\\0219\\final\\research_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0219\\final\\documents_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0219\\final\\build_summary.json"
+  }
+}

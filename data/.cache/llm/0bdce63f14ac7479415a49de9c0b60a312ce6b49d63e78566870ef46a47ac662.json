@@ -1,0 +1,286 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Freier Bereich",
+      "original_value": "WPMX - Freier Bereich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Freier Bereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Wirtschaftspädagogik",
+      "original_value": "Grundlagen der Wirtschaftspädagogik (OWIP)",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Grundlagen der Wirtschaftspädagogik"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftsenglisch A-D",
+      "original_value": "Wirtschaftsenglisch A-D",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Wirtschaftsenglisch A-D"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftsfranzösisch A-D",
+      "original_value": "Wirtschaftsfranzösisch A-D",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Wirtschaftsfranzösisch A-D"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaftsspanisch A-D",
+      "original_value": "Wirtschaftsspanisch A-D",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Wirtschaftsspanisch A-D"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Sozialstruktur und Soziale Ungleichheit",
+      "original_value": "Sozialstruktur und Soziale Ungleichheit",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Sozialstruktur und Soziale Ungleichheit"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Kultur, Subjekt, Identität",
+      "original_value": "Kultur, Subjekt, Identität",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Kultur, Subjekt, Identität"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wirtschaft und Technik - Arbeit und Organisation",
+      "original_value": "Wirtschaft und Technik - Arbeit und Organisation",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Wirtschaft und Technik - Arbeit und Organisation"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Geschlecht, Migration, Wissensproduktion",
+      "original_value": "Geschlecht, Migration, Wissensproduktion",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Geschlecht, Migration, Wissensproduktion"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module_component",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Soziologische Theorien",
+      "original_value": "Soziologische Theorien",
+      "unit": null,
+      "entity": {
+        "type": "module_component",
+        "id": null,
+        "name": "Soziologische Theorien"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": "Freier Bereich",
+        "name": "Freier Bereich"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

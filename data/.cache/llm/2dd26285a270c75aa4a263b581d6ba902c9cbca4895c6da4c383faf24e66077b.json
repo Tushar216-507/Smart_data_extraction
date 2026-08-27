@@ -1,0 +1,74 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "program",
+      "field": "description",
+      "value": "In the context of your program in the Department of Economics, you can complete certain modules in other departments, referred to as 'import modules'. This is only possible on the basis of existing cooperation agreements between departments.",
+      "original_value": "Im Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie bestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "program",
+      "field": "important_information",
+      "value": "Import modules from other study programs are subject to the examination regulations of the exporting department. The module descriptions and conditions for earning credit points are in accordance with the valid version of the examination regulations of the respective originating study program.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung). Es gelten die Modulbeschreibungen und die Bedingungen zum Erwerb von CP gemäß der gültigen Fassung der Prüfungsordnung des jeweiligen Herkunftsstudienganges.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "language_of_instruction",
+      "value": "German",
+      "original_value": "Deutsch",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

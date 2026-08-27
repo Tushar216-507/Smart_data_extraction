@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "introduction to high-level programming languages",
+      "value": "The invention of high-level programming languages was simultaneous with compilers needed to translate them automatically into machine code.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "compilers and libraries",
+      "value": "Most programs do not contain all the resources needed to run them and rely on external libraries.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "compiler function",
+      "value": "Part of the compiler's function is to link these files in such a way that the program can be executed by the hardware.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "object file",
+      "value": "Once compiled, the program can be saved as an object file and the loader can take this saved file and execute it as a process on the computer hardware.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "interpreter and performance",
+      "value": "Some programming languages use an interpreter instead of a compiler. An interpreter converts the program into machine code at run time, which makes them 10 to 100 times slower than compiled programming languages.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "software liability",
+      "value": "Software is often released with the knowledge that it is incomplete or contains bugs.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    },
+    {
+      "category": "other",
+      "subcategory": "content",
+      "field": "purchaser awareness",
+      "value": "Purchasers knowingly buy it in this state, which has led to a legal regime where liability for software products is significantly curtailed compared to other products.",
+      "confidence": 1.0,
+      "programme_association": "Software Engineering Master’s Concentration"
+    }
+  ]
+}

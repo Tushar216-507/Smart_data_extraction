@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "subcategory": "programme_title",
+      "field": "title",
+      "value": "English Studies Bachelor",
+      "confidence": 1.0,
+      "programme_association": "Goethe University Frankfurt"
+    },
+    {
+      "category": "identity",
+      "subcategory": "department",
+      "field": "name",
+      "value": "Institute for English and American Studies",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor"
+    },
+    {
+      "category": "identity",
+      "subcategory": "certification",
+      "field": "authorized_degree_types",
+      "value": "Teaching (L1, L2, L3, L5)",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor"
+    },
+    {
+      "category": "identity",
+      "subcategory": "url",
+      "field": "programme_url",
+      "value": "https://www.uni-frankfurt.de/en/home/studium/studiengaenge/english-studies-bachelor-nebenfach",
+      "confidence": 1.0,
+      "programme_association": "English Studies Bachelor"
+    }
+  ]
+}

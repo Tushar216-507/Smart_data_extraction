@@ -1,0 +1,144 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Master's thesis",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "completion_conditions",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "The Master's thesis must be submitted along with an oral final examination or a colloquium.",
+      "original_value": "Die Masterarbeit kann zusammen mit einer mündlichen Abschlussprüfung oder einem Kolloquium abgeschlossen werden.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "learning_outcomes",
+      "scope": "programme",
+      "field": "learning_outcomes",
+      "value": "The Master's thesis should demonstrate the ability to comprehensively and in-depth address a topic within a stipulated timeframe according to specified program goals.",
+      "original_value": "Die Masterarbeit soll zeigen, dass die oder der Studierende in der Lage ist, innerhalb einer vorgegebenen Frist entsprechend den Zielen...ein Thema umfassend und vertieft zu bearbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Specific requirements for the Master's thesis, such as required credits (CP), are regulated by program-specific appendices.",
+      "original_value": "Näheres regeln die studiengangspezifischen Anhänge.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The processing duration of the Master's thesis must be between 15 and 30 credits.",
+      "original_value": "Die Bearbeitungszeit darf 15 CP nicht unter- und 30 CP nicht überschreiten.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "The Master's thesis must be written in German unless stated otherwise in program-specific appendices.",
+      "original_value": "Die Masterarbeit ist in deutscher Sprache abzufassen, sofern die studiengangspezifischen Anhänge nichts anderes vorsehen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "A new topic can only be returned once and only within the first third of the processing time.",
+      "original_value": "Das gestellte Thema kann nur einmal und nur innerhalb des ersten Drittels der Bearbeitungszeit zurückgegeben werden.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

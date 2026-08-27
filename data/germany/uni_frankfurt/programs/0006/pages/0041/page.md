@@ -1,0 +1,3 @@
+Der European Triple-Bachelor in Economics and Business (EU Tribe) ist auf drei Jahre angelegt. Teilnehmende Studierende der Goethe-Uni verbringen das erste Studienjahr in Frankfurt. Es folgen ein einjähriger Studienaufenthalt in Brüssel und ein weiterer in Rom. Während der beiden Studienjahre absolvieren die Studierenden das Studienprogramm im entsprechenden Studienabschnitt der jeweiligen Gasthochschule.
+
+Das Studium in Brüssel und Rom kann vollständig in englischer Sprache absolviert werden. Außerdem besteht die Möglichkeit, italienischen und französische Sprachkenntnisse zu erwerben oder vorhandene Sprachkenntnisse zu verbessern.

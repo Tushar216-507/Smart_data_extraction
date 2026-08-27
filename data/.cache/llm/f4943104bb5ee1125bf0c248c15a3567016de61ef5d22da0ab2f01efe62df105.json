@@ -1,0 +1,62 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "scope": "programme",
+      "field": "examination_fees",
+      "value": {
+        "standard_fee": 100,
+        "fee_reduction": {
+          "amount": 25,
+          "condition": "per semester deviation from standard duration"
+        }
+      },
+      "original_value": "100 Euro; bei hiervon abweichenden Regelstudienzeiten verringert sich der Betrag um 25 Euro pro Semester Regelstudienzeit.",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Master's degree",
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "fees",
+      "scope": "programme",
+      "field": "payment_conditions",
+      "value": "The examination fees are due in two equal installments, with the first installment at the application for admission to the Master's examination, and the second installment at the admission to the Master's thesis.",
+      "original_value": "Die Prüfungsgebühren werden in zwei hälftigen Raten fällig, und zwar die erste Rate bei der Beantragung der Zulassung zur Masterprüfung, die zweite Rate bei der Zulassung zur Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

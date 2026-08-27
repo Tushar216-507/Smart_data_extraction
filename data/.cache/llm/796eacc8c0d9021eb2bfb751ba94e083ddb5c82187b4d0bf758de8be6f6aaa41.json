@@ -1,0 +1,446 @@
+{
+  "facts": [
+    {
+      "category": "student_life",
+      "field": "event_schedule",
+      "value": "Explore the event schedule to discover which welcome events to attend.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0004",
+        "title": "Should transfer students visit campus? + Are there events for transfer students?",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Should transfer students visit campus? + Are there events for transfer students?",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "admission",
+      "field": "asurite_user_id_instructions",
+      "value": "You will get your ASURITE User ID and activation instructions shortly after you submit your application.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "email_activation_info",
+      "value": "A message from asu.edu will be sent to the email address you provided in your application with the subject line 'ASU Account Activation'.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "forget_user_id_instructions",
+      "value": "If you can't remember your ASURITE User ID, you can look it up at: asu.edu/lostpassword",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "my_asu_access",
+      "value": "You will log in to My ASU with your ASURITE User ID and password.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "my_asu_tasks_info",
+      "value": "You can view your priority tasks and next steps for enrollment, advisor contact information, financial aid and billing information, and connect to campus technology and services on My ASU.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "login_instructions",
+      "value": "Navigate to my.asu.edu, enter your ASURITE User ID and password, and click the 'Sign In' button.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "asu_email_activation_info",
+      "value": "After you enroll in classes, visit asu.edu/emailsignup to activate your official @asu.edu email address.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "regular_email_check_advice",
+      "value": "Be sure to check both your non-ASU personal email address and your ASU Gmail inbox regularly.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "After you activate your ASURITE User ID, visit My ASU + Download and save your admission letter for future reference",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_process",
+      "value": "To apply for federal financial aid, complete a Free Application for Federal Student Aid.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Complete the Free Application for Federal Student Aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Complete the Free Application for Federal Student Aid",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fa_information",
+      "value": "View your FAFSA information on your Finances tab in My ASU, and view your Priority Tasks for important financial aid next steps.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Complete the Free Application for Federal Student Aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Complete the Free Application for Federal Student Aid",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "priority_tasks",
+      "value": "Complete any items listed under Priority Tasks early to ensure you do not have any barriers to receiving your aid.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Complete the Free Application for Federal Student Aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Complete the Free Application for Federal Student Aid",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "state_law_verification",
+      "value": "Arizona law requires verification of citizenship or other lawful presence in the U.S. for all students receiving financial aid funded by state money.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Complete the Free Application for Federal Student Aid",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Complete the Free Application for Federal Student Aid",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "mmr_vaccine_availability",
+      "value": "The MMR vaccine is available for a fee at any of ASU's Health Services locations.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0004",
+        "title": "Submit your MMR immunization verification form (on-campus students only + Pay your enrollment deposit (on-campus students only)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Submit your MMR immunization verification form (on-campus students only + Pay your enrollment deposit (on-campus students only)",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "admission",
+      "field": "enrollment_deposit",
+      "value": "Confirm your place in ASU by submitting your enrollment deposit via My ASU.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0004",
+        "title": "Submit your MMR immunization verification form (on-campus students only + Pay your enrollment deposit (on-campus students only)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Submit your MMR immunization verification form (on-campus students only + Pay your enrollment deposit (on-campus students only)",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "admission",
+      "field": "priority_tasks",
+      "value": "Check My ASU often for any Priority Tasks needed to complete your steps to enroll.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0004",
+        "title": "Submit your MMR immunization verification form (on-campus students only + Pay your enrollment deposit (on-campus students only)",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Submit your MMR immunization verification form (on-campus students only + Pay your enrollment deposit (on-campus students only)",
+        "chunk_order": 3
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "registration_info",
+      "value": "Once your enrollment deposit is paid, you can meet with your academic advisor for more information on how to register for courses.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "academic_advisor_contact",
+      "value": "You can find the name, email and phone number for your academic advisor in the Academic Support Team box in My ASU.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "registration_hold_info",
+      "value": "Note that you may have a hold on your enrollment that will need to be completed before registering for classes.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "spring_admits_registration_timing",
+      "value": "Class registration typically becomes available mid-October.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "fall_admits_registration_timing",
+      "value": "Class registration typically becomes available mid-spring.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "outstanding_holds_info",
+      "value": "Review and complete any outstanding holds you may have under Priority Tasks in My ASU.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "registration_link",
+      "value": "https://students.asu.edu/register-for-classes?_ga=2.93573652.847924599.1595263629-538413994.1582755467",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0005",
+        "title": "Register for classes",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Register for classes",
+        "chunk_order": 4
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_process_description",
+      "value": "This page details how to apply to ASU for undergraduate, graduate, international, online and visiting student pathways, with guidance organized by student profile.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Programme Overview + Apply to attend ASU",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + Apply to attend ASU",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "test_scores",
+      "value": "ACT or SAT scores are not required, though they are encouraged for merit scholarships.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Programme Overview + Apply to attend ASU",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + Apply to attend ASU",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_guidance",
+      "value": "Apply early and submit only one application (ASU application or Common App), and avoid using a school email.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Programme Overview + Apply to attend ASU",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + Apply to attend ASU",
+        "chunk_order": 0
+      }
+    }
+  ]
+}

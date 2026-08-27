@@ -1,0 +1,9 @@
+### Joseph Mooney
+
+I choose to complete my degree at University of Limerick because of its highly recognized engineering courses, co-operative education and sporting facilities. As a sports scholar, UL helped me to balance my sporting and academic goals and in August 2018, I graduated with a first class honors degree. I am also still at peak performance levels in sport thanks to the university and its staff.
+
+In my leaving cert year I was uncertain of what course I wanted to pursue. I had a great passion for design (my DCG project received 4th best in the country), problem solving, inventing and making these inventions come to life. My favorite subjects in school were: Physics, DCG, Engineering and Mathematics. In choosing Engineering (Common Entry), I was able to study relevant engineering modules in first year before deciding on my specific discipline. After my first year in UL, I knew that mechanical engineering was for me.
+
+I chose mechanical engineering because it is so versatile. Throughout the programme, I developed skills to solve problems in mechanical engineering, but also for applications in many other types of engineering such as aeronautical, biomedical and design. The University of Limerick gave me the opportunity to work for a biomedical engineering company (Johnson & Jonson: Vision Care) for my co-operative education.
+
+Currently I am completing a PhD in the development of cooling systems for 5G wireless technologies. This research requires me to use the knowledge I gained from my undergraduate courses in heat transfer, materials, finite element analysis and mechanics modules. I developed a passion for these topics during my undergraduate and I believe 5G technologies are currently on the front line for global development. A degree in mechanical engineering is so adaptable that if, in time, you want to branch out into another industry you will already have the skills required to do so.

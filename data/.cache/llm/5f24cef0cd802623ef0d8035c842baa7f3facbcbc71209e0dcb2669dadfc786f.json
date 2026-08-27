@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "program",
+      "field": "assessment_fees",
+      "value": 150,
+      "original_value": "150,- Euro",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe - Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "program",
+      "field": "assessment_fees",
+      "value": 100,
+      "original_value": "100,- Euro",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe - Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "program",
+      "field": "fee_adjustment_per_semester",
+      "value": 25,
+      "original_value": "25 Euro",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe - Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "program",
+      "field": "payment_schedule",
+      "value": {
+        "first_payment": "at application for Bachelor or Master examination",
+        "second_payment": "at approval for Bachelor or Master thesis"
+      },
+      "original_value": "Die Prüfungsgebühren werden in zwei hälftigen Raten fällig, und zwar die erste Rate bei der Beantragung der Zulassung zur Bachelor- beziehungsweise Masterprüfung, die zweite Rate bei der Zulassung zur Bachelor- beziehungsweise Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe - Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

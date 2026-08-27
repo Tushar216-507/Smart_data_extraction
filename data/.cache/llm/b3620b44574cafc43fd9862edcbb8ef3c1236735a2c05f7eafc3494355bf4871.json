@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_dates",
+      "value": "January 15 to May 15 (application deadline) of each year",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "notification",
+      "field": "notification_of_admittance",
+      "value": "Official admission notifications can only be sent after the selection process has been completed - that is, after reviewing all applications. However, very good applicants will be notified during the process.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "admission",
+      "subcategory": "documents",
+      "field": "missing_documents_policy",
+      "value": "It is not possible to submit missing documents after the application deadline. This explicitly applies to all documents, including language certificates.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    }
+  ]
+}

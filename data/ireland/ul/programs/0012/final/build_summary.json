@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "program_id": "0012",
+  "program_name": "Structured Masters by Research",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0012\\final",
+  "input_fact_count": 84,
+  "unique_fact_count": 84,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 84,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 84,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 18,
+    "admission": 2,
+    "curriculum": 10,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 17,
+    "contacts": 5,
+    "student_life": 4,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 7,
+    "statistics": 0,
+    "other": 20
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0012\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0012\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0012\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0012\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0012\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0012\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0012\\final\\student_life_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0012\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0012\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0012\\final\\build_summary.json"
+  }
+}

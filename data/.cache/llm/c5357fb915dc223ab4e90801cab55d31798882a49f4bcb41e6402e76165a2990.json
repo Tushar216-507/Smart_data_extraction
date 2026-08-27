@@ -1,0 +1,76 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "fee_status",
+      "field": "free_fee_status_criteria",
+      "value": "You satisfy all three categories (Residency, Citizenship, Course Requirements).",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_status",
+      "field": "eu_fee_status_criteria",
+      "value": "You satisfy both the Citizenship and Residency criteria but fail to satisfy the Course Requirements.",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_status",
+      "field": "non_eu_fee_status_criteria",
+      "value": "You do not meet either the Citizenship or Residency criteria.",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_criteria",
+      "field": "residency_criteria",
+      "value": "You must have been living in an EU/EEA member state or Switzerland for at least 3 of the 5 years before starting your course.",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_criteria",
+      "field": "citizenship_criteria",
+      "value": "You must be a citizen of an EU/EEA member state or Switzerland or have official refugee status.",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_criteria",
+      "field": "course_requirements_criteria",
+      "value": "You must be a first time full-time undergraduate. You must be undertaking a full-time undergraduate course of at least 2 years' duration. You cannot be undertaking a repeat year of study at the same level unless evidence of exceptional circumstances such as serious illness is provided.",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "additional_information",
+      "field": "free_fee_scheme",
+      "value": "Higher Education Authority’s Free Fees scheme",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "additional_information",
+      "field": "finance_website",
+      "value": "https://hea.ie/",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    },
+    {
+      "category": "fees",
+      "subcategory": "additional_information",
+      "field": "more_information_website",
+      "value": "/finance/about-finance/finance-documents#fees",
+      "confidence": 1.0,
+      "programme_association": "Law Plus - LLB"
+    }
+  ]
+}

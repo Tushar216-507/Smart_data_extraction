@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university",
+      "value": "Goethe-Universität Frankfurt am Main",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "department",
+      "value": "Fachbereich Wirtschaftswissenschaften",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt am Main"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master in Money, Macro and Finance",
+      "original_value": "Master in Money, Macro and Finance",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_modules",
+      "value": "Various modules from other departments and fields.",
+      "original_value": "Importmodule: Module an anderen Fachbereichen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 0.95
+    }
+  ]
+}

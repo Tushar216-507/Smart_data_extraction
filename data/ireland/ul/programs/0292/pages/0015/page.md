@@ -1,0 +1,12 @@
+### Claire Rooney
+
+I chose the BSc in Pharmaceutical and Industrial Chemistry because I liked chemistry in school and was always interested in the pharmaceutical industry. The course offered a wide range of chemistry modules and UL???s tutoring programme meant that support was available to help me do well in what I found to be the tougher modules.
+
+My work here at Abbot is primarily project based. It is very varied and some of my daily tasks include: performing testing on raw materials and finished goods, dealing with representatives from contract labs, statistical trending of results, design of experiments, investigative work, presenting to management and many others.
+
+My four years at UL equipped me with many of the necessary skills I use at work everyday, such as planning, technical writing, communication and presentation skills.
+
+Claire's tip
+If I was to give one piece of advice to school leavers it would be to do a course that you think you will like over one you think you will be good at. It is a lot easier to spend time working in college on something that is of interest to you. Enjoy your time in UL - it is a brilliant campus and would still be my choice of college if I were doing the leaving cert this year.
+
+Claire is currently employed as a Chemist on the graduate programme of Abbot Ireland

@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "MAAS OMAC",
+      "original_value": "MAAS OMAC (MP 9145)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9145",
+        "name": "MAAS OMAC"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Wahlpflichtmodul",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9145",
+        "name": "MAAS OMAC"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Registration for the term paper is from 29.06 to 21.09.2026 via QIS. Withdrawal is possible until 21.09.2026.",
+      "original_value": "Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS Rücktritt spätestens bis 21.09.2026",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9145",
+        "name": "MAAS OMAC"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Submission of the term paper is due on 28.09.2026 as a PDF to the lecturer.",
+      "original_value": "Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9145",
+        "name": "MAAS OMAC"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

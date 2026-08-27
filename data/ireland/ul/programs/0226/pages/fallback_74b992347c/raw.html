@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCQT3YNG8C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WCQT3YNG8C');
+    </script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="notranslate"> Swayam Central </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://storage.googleapis.com/swayam2_central/assets/css/swayam_css/bootstrap_v2.min.css">
+  <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+  </style>
+   <link rel="stylesheet" href="https://storage.googleapis.com/swayam2_central/assets/css/swayam_css/header_v2.css">
+  
+<link rel="stylesheet" href="https://storage.googleapis.com/swayam2_central/assets/css/swayam_css/home_page_v2.css">
+
+  <link rel="stylesheet" href="https://storage.googleapis.com/swayam2_central/assets/css/swayam_css/footer_v2.css">
+</head>
+<body>
+    <header class="header-icon desktop-header" id="desktopHeader">
+    <div class="container-header">
+        <div class="row align-items-center">
+            <div class="col-auto swayam-logo-container">
+                <a href="/">
+                    <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_logo.png" alt="Swayam Logo" class="img-fluid">
+                </a>
+            </div>
+
+            <div class="col">
+                <nav class="navbar navbar-expand notranslate">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="header-nav-link" href="/about">About Swayam</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header-nav-link" href="/explorer">All Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header-nav-link" href="/nc_details/">National Coordinator</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header-nav-link redirect-link" href="https://nptel.ac.in/LocalChapter/" data-redirect-title="LOCAL CHAPTERS">Local Chapters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header-nav-link" href="/faq">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header-nav-link redirect-link" href="https://swayam-plus.swayam2.ac.in" data-redirect-title="SWAYAM PLUS">Swayam Plus</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header-nav-link redirect-link" href="https://learn.swayam2.ac.in"
+                                       data-redirect-title="SWAYAM ARCHIVED COURSES">Archived Courses</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-auto d-flex align-items-center notranslate">
+
+                <div class="notification-header-icon notification-wrapper notranslate" id="desktopNotification">
+                    <div class="notification-bell has-notification" id="has_notification">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/announcement_icon.png" alt="Notifications" class="bell-icon">
+                        <span class="notification-indicator"></span>
+                    </div>
+                    <div class="notification-popup" id="desktopNotificationPopup">
+                        <div class="notification-header">
+                            <h6 class="notification-title">Notifications</h6>
+                        </div>
+                        <ul class="notification-list" id="notificationList">
+                            
+                                
+                                    <li class="notification-item" data-index="0">
+                                        <a href="https://storage.googleapis.com/swayam2_central/reports/UGC_V4.html" target="_blank">Framework for Universities to conduct Examinations for SWAYAM Courses, with FAQs</a>
+                                    </li>
+                                
+                                    <li class="notification-item" data-index="1">
+                                        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTcRBMs2cF4lGkKJuE0p3V0RuX6fAfrpInw3CzgrU4nREFAmGJXG8c5Tr2aIn1k6A/pubhtml" target="_blank">Approved list of SWAYAM courses for July 2026 semester</a>
+                                    </li>
+                                
+                                    <li class="notification-item" data-index="2">
+                                        <a href="https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/08/20260819120749987.pdf" target="_blank"><span class='blink_notice'>Result for January 2026 Semester for 69 Hybrid mode courses are live</span></a>
+                                    </li>
+                                
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                    <a href="https://swayam-sso.swayam2.ac.in/signin?response_type=code&amp;client_id=swayam-central-production&amp;redirect_uri=%2F&amp;state=IY30l34arvX39K7vgGcMlGHFfyPEqo" class="login-btn">Login/Sign up</a>
+                
+
+                <div class="language-selector notranslate" id="languageSelector">
+                    <i class="fas fa-globe"></i>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <div class="language-menu">
+                            <div class="language-item" onclick="changeTranslation('en')">English</div>
+                            <div class="language-item" onclick="changeTranslation('gu')">Gujarati</div>
+                            <div class="language-item" onclick="changeTranslation('hi')">Hindi</div>
+                            <div class="language-item" onclick="changeTranslation('kn')">Kannada</div>
+                            <div class="language-item" onclick="changeTranslation('ml')">Malayalam</div>
+                            <div class="language-item" onclick="changeTranslation('mr')">Marathi</div>
+                            <div class="language-item" onclick="changeTranslation('ta')">Tamil</div>
+                            <div class="language-item" onclick="changeTranslation('te')">Telugu</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<header class="mobile-header" id="mobileHeader">
+    <div class="d-flex justify-content-between align-items-center w-100">
+     <div class="hamburger-menu">
+       <i class="fas fa-bars hamburger-icon" id="menuToggle"></i>
+     </div>
+    </div>
+
+    <div class="mobile-notification" id="mobileNotification">
+        <div class="notification-bell has-notification" id="has_notification_mob">
+            <img src="https://storage.googleapis.com/swayam2_central/assets/img/announcement_icon.png" alt="Notifications" class="bell-icon">
+            <span class="notification-indicator"></span>
+        </div>
+        <div class="notification-popup notranslate" id="mobileNotificationPopup">
+            <div class="notification-header">
+                <h6 class="notification-title">Notifications</h6>
+            </div>
+            <ul class="notification-list" id="mobileNotificationList">
+                
+                    
+                        <li class="notification-item" data-index="0">
+                            <a href="https://storage.googleapis.com/swayam2_central/reports/UGC_V4.html" target="_blank">Framework for Universities to conduct Examinations for SWAYAM Courses, with FAQs</a>
+                        </li>
+                    
+                        <li class="notification-item" data-index="1">
+                            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTcRBMs2cF4lGkKJuE0p3V0RuX6fAfrpInw3CzgrU4nREFAmGJXG8c5Tr2aIn1k6A/pubhtml" target="_blank">Approved list of SWAYAM courses for July 2026 semester</a>
+                        </li>
+                    
+                        <li class="notification-item" data-index="2">
+                            <a href="https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/08/20260819120749987.pdf" target="_blank"><span class='blink_notice'>Result for January 2026 Semester for 69 Hybrid mode courses are live</span></a>
+                        </li>
+                    
+                
+            </ul>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu notranslate" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_logo.png" alt="Swayam Logo" height="30">
+            <div class="mobile-menu-close" id="menuClose">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        
+            <div class="mobile-menu-login">
+                <a href="https://swayam-sso.swayam2.ac.in/signin?response_type=code&amp;client_id=swayam-central-production&amp;redirect_uri=%2F&amp;state=IY30l34arvX39K7vgGcMlGHFfyPEqo" class="login-btn d-block text-center">Login/Sign up</a>
+            </div>
+        
+
+        <ul class="mobile-menu-list">
+            
+            <li class="mobile-menu-item">
+                <a href="/about" class="mobile-menu-link">About Swayam</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="/explorer" class="mobile-menu-link">All Courses</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="/nc_details/" class="mobile-menu-link">National Coordinator</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="https://nptel.ac.in/LocalChapter/" class="mobile-menu-link redirect-link" data-redirect-title="LOCAL CHAPTERS">Local Chapters</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="/faq" class="mobile-menu-link">FAQ</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="https://swayam-plus.swayam2.ac.in" class="mobile-menu-link redirect-link" data-redirect-title="SWAYAM PLUS">Swayam Plus</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a href="https://learn.swayam2.ac.in" class="mobile-menu-link redirect-link"
+                   data-redirect-title="SWAYAM ARCHIVED COURSES">Archived Courses</a>
+            </li>
+            <li class="mobile-menu-item">
+                <div class="mobile-translate-link" id="translateToggle">Translate to
+                    <i class="fas fa-chevron-down dropdown-icon" id="translate_dropdown"></i>
+                </div>
+                <ul class="language-submenu" id="languageSubmenu">
+                    <li class="language-item" onclick="changeTranslation('en')">English</li>
+                    <li class="language-item" onclick="changeTranslation('gu')">Gujarati</li>
+                    <li class="language-item" onclick="changeTranslation('hi')">Hindi</li>
+                    <li class="language-item" onclick="changeTranslation('kn')">Kannada</li>
+                    <li class="language-item" onclick="changeTranslation('ml')">Malayalam</li>
+                    <li class="language-item" onclick="changeTranslation('mr')">Marathi</li>
+                    <li class="language-item" onclick="changeTranslation('ta')">Tamil</li>
+                    <li class="language-item" onclick="changeTranslation('te')">Telugu</li>
+                </ul>
+            </li>
+        </ul>
+
+        
+    </div>
+</header>
+<div class="overlay" id="menuOverlay"></div>
+
+<div class="redirect-popup" id="redirectPopup" style="display: none;">
+    <div class="redirect-popup-content">
+        <div class="redirect-header" id="redirectHeader">
+        </div>
+        <div class="redirect-body">
+            <p>You are being redirected to a different site. Do you want to continue?</p>
+            <div class="redirect-buttons">
+                <button id="continueBtn" class="redirect-btn continue-btn">Continue</button>
+                <button id="closeBtn" class="redirect-btn close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spoc-popup" id="spoc_popup" style="display: none;">
+    <div class="spoc-popup-content">
+        <div class="spoc-header">SPOC ADMIN PORTAL
+            <span class="close-icon" id="spocCloseBtn">&times;</span>
+        </div>
+        <div class="spoc-body">
+            <div class="spoc-container">
+                <div class="form-group required">
+                    <label style="padding-bottom: 10px;">Please select the National Coordinator to access SPOC Admin Portal<span class="text-danger">*</span></label>
+                    <select class="spoc-form-control" id="spoc-select">
+                        <option disabled selected value="">Select</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">AICTE</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">CEC</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">IGNOU</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">IIMB</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">INI</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">NCERT</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">NIOS</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">NITTTR</option>
+                        
+                            <option value="https://onlinecourses.nptel.ac.in/spoc">NPTEL</option>
+                        
+                            <option value="https://onlinecourses.swayam2.ac.in/spoc">UGC</option>
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="google_translate_element" style="display:none;"></div>
+    
+<div class="py-4 main-container">
+    <!-- Keeping for Illustration
+    <img src="https://storage.googleapis.com/swayam2_central/assets/img/main_art1.png" alt="top-image1" class="top-image top-right d-none d-md-block">
+    <img src="https://storage.googleapis.com/swayam2_central/assets/img/main_art2.png" alt="top-image2" class="top-image bottom-left d-none d-md-block">
+    -->
+
+    <div class="text-center header-content">
+        <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_logo.png" alt="Swayam Logo" class="header-logo">
+    </div>
+
+    <div class="search-container notranslate">
+        <div class="input-group mb-3 shadow-sm">
+            <input type="text" id="courseSearch" class="form-control py-2" placeholder="Search SWAYAM Courses" aria-label="Search Courses" autocomplete="off">
+            <button class="btn btn-light search-icon" type="button">
+                <i class="fas fa-search text-muted"></i>
+            </button>
+        </div>
+        <div id="autocompleteResults" class="autocomplete-items" style="display: none;"></div>
+    </div>
+
+   <div class="categories-container-desktop">
+       <div class="categories-flex-container">
+           <a href="/explorer?category=POPULAR_COURSES" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/popular_courses.svg" alt="Popular Courses">
+               </div>
+               <div class="category-name">Popular Courses</div>
+           </a>
+           <a href="/explorer?category=ARCHI_COURSES" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/archi_courses.svg" alt="Architecture & Planning">
+               </div>
+               <div class="category-name">Architecture & Planning</div>
+           </a>
+           <a href="/explorer?category=Design" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/design.svg" alt="Design">
+               </div>
+               <div class="category-name">Design</div>
+           </a>
+           <a href="/explorer?category=Engineering_and_Technology" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/engineering_and_technology.svg" alt="Engineering & Technology">
+               </div>
+               <div class="category-name">Engineering & Technology</div>
+           </a>
+           <a href="/explorer?category=Health_Sciences" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/health_sciences.svg" alt=">Health Sciences">
+               </div>
+               <div class="category-name">Health Sciences</div>
+           </a>
+           <a href="/explorer?category=Humanities_and_Arts" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/humanities_and_arts.svg" alt="Humanities & Arts">
+               </div>
+               <div class="category-name">Humanities & Arts</div>
+           </a>
+           <a href="/explorer?category=Law" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/law.svg" alt="Law">
+               </div>
+               <div class="category-name">Law</div>
+           </a>
+           <a href="/explorer?category=Management_and_Commerce" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/management_and_commerce.svg" alt="Management & Commerce">
+               </div>
+               <div class="category-name">Management & Commerce</div>
+           </a>
+           <a href="/explorer?category=Math_and_Sciences" class="category-item text-decoration-none text-dark">
+               <div class="category-icon">
+                   <img src="https://storage.googleapis.com/swayam2_central/assets/img/math_and_sciences.svg" alt="Maths & Sciences">
+               </div>
+               <div class="category-name">Maths & Sciences</div>
+           </a>
+       </div>
+   </div>
+</div>
+
+<div class="container-stats-main" id="container_stats_main">
+    <div class="stats-container" id="stats-container">
+        <div class="row stats-row visible-row" id="total-stats">
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <div class="stat-label">Total Courses</div>
+                        <h2 class="stat-value"><span class="counter notranslate" id="total-courses">0</span> <span id="total-courses-unit"></span></h2>
+                    </div>
+                </div>
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <div class="stat-label">Total Enrollments</div>
+                    <h2 class="stat-value"><span class="counter notranslate" id="total-enrollments">0</span> <span id="total-enrollments-unit"></span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <div class="stat-label">Total Certifications</div>
+                    <h2 class="stat-value"><span class="counter notranslate" id="total-certifications">0</span> <span id="total-certifications-unit"></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row stats-row hidden-row" id="ongoing-stats">
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <div class="stat-label">Ongoing Courses</div>
+                    <h2 class="stat-value"><span class="counter notranslate" id="ongoing-courses">0</span> <span id="ongoing-courses-unit"></span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <div class="stat-label">Ongoing Enrollments</div>
+                    <h2 class="stat-value"><span class="counter notranslate" id="ongoing-enrollments">0</span> <span id="ongoing-enrollments-unit"></span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat-item">
+                    <div class="stat-label">Exam Registration</div>
+                    <h2 class="stat-value"><span class="counter notranslate" id="exam-registration">0</span> <span id="exam-registration-unit"></span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Why SWAYAM-->
+<div class="feature-container">
+    <h1 class="mb-4 notranslate">Why SWAYAM?</h1>
+
+    <!-- Web View -->
+    <div class="content-wrapper">
+        <div class="features-column">
+            <div class="feature-card active shadow-sm rounded-1 border" data-feature="courses">
+                <div class="feature-strip"></div>
+                <div class="feature-content-wrapper">
+                    <div class="feature-icon rounded-circle d-flex justify-content-center align-items-center">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/courses.svg" alt="Free Courses">
+                    </div>
+                    <div class="feature-content">
+                        <h2 class="feature-title fw-semibold">Free Course from Top Universities</h2>
+                        <p class="feature-description text-secondary">Find Free courses from the Best Universities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card shadow-sm rounded-1 border" data-feature="learning">
+                <div class="feature-strip"></div>
+                <div class="feature-content-wrapper">
+                    <div class="feature-icon rounded-circle d-flex justify-content-center align-items-center">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/learning.svg" alt="Self-Paced Learning">
+                    </div>
+                    <div class="feature-content">
+                        <h2 class="feature-title fw-semibold">Self-Paced Learning</h2>
+                        <p class="feature-description text-secondary">Learn at your own pace, Anytime, Anywhere</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card shadow-sm rounded-1 border" data-feature="certifications">
+                <div class="feature-strip"></div>
+                <div class="feature-content-wrapper">
+                    <div class="feature-icon rounded-circle d-flex justify-content-center align-items-center">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/certifications.svg" alt="Certifications">
+                    </div>
+                    <div class="feature-content">
+                        <h2 class="feature-title fw-semibold">Earn Certifications</h2>
+                        <p class="feature-description text-secondary">Earn Certifications and Recognition from the Top Universities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card shadow-sm rounded-1 border" data-feature="universities">
+                <div class="feature-strip"></div>
+                <div class="feature-content-wrapper">
+                    <div class="feature-icon rounded-circle d-flex justify-content-center align-items-center">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/universities.svg" alt="Credits">
+                    </div>
+                    <div class="feature-content">
+                        <h2 class="feature-title fw-semibold">Get University Credits</h2>
+                        <p class="feature-description text-secondary">Earn University Credits and get them transferred to your degree</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-column">
+            <div class="image-wrapper">
+                <img src="https://storage.googleapis.com/swayam2_central/assets/img/courses.jpg" alt="Free courses" class="feature-image active border rounded-1 shadow" data-feature="courses">
+                <img src="https://storage.googleapis.com/swayam2_central/assets/img/learning.jpg" alt="Self-paced learning" class="feature-image border rounded-1 shadow" data-feature="learning">
+                <img src="https://storage.googleapis.com/swayam2_central/assets/img/certifications.jpg" alt="Earn certifications" class="feature-image border rounded-1 shadow" data-feature="certifications">
+                <img src="https://storage.googleapis.com/swayam2_central/assets/img/universities.jpg" alt="University credits" class="feature-image border rounded-1 shadow" data-feature="universities">
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-content-wrapper">
+        <div class="cards-container bg-white">
+            <div class="feature-card-mobile active" data-feature="courses">
+                <div class="feature-content-mobile">
+                    <div class="feature-img-container">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/courses.jpg" alt="Free courses" data-feature="courses">
+                    </div>
+                    <div class="feature-text">
+                        <h2 class="feature-title-mobile fw-semibold">Free Course from Top Universities</h2>
+                        <p class="feature-description-mobile text-secondary">Find Free courses from the Best Universities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card-mobile" data-feature="learning">
+                <div class="feature-content-mobile">
+                    <div class="feature-img-container">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/learning.jpg" alt="" data-feature="learning">
+                    </div>
+                    <div class="feature-text">
+                        <h2 class="feature-title-mobile fw-semibold">Self-Paced Learning</h2>
+                        <p class="feature-description-mobile text-secondary">Learn at your own pace, Anytime, Anywhere</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card-mobile" data-feature="certifications">
+                <div class="feature-content-mobile">
+                    <div class="feature-img-container">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/certifications.jpg" alt="Earn certifications" data-feature="certifications">
+                    </div>
+                    <div class="feature-text">
+                        <h2 class="feature-title-mobile fw-semibold">Earn Certifications</h2>
+                        <p class="feature-description-mobile text-secondary">Earn Certifications and Recognition from the Top Universities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-card-mobile" data-feature="universities">
+                <div class="feature-content-mobile">
+                    <div class="feature-img-container">
+                        <img src="https://storage.googleapis.com/swayam2_central/assets/img/universities.jpg" alt="University Credits" data-feature="universities">
+                    </div>
+                    <div class="feature-text">
+                        <h2 class="feature-title-mobile fw-semibold">Get University Credits</h2>
+                        <p class="feature-description-mobile text-secondary">Earn University Credits and get them transferred to your degree</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-dots d-flex justify-content-center bg-white">
+            <span class="feature-dot active" data-feature="courses"></span>
+            <span class="feature-dot" data-feature="learning"></span>
+            <span class="feature-dot" data-feature="certifications"></span>
+            <span class="feature-dot" data-feature="universities"></span>
+        </div>
+    </div>
+
+</div>
+
+<!--Explore Courses-->
+<div class="explore-container-header mt-4 mb-5 notranslate" id="explorer-header">
+    <h2 class="mb-4">Explore Courses</h2>
+</div>
+
+<!--Populated using AJAX-->
+<div class="explore-container notranslate" id="explorer-main">
+</div>
+
+<!-- Testimonial-->
+<div class="container-testimonial-header notranslate">
+    <div class="border-bottom border-2" style="border-color: #D1D7DC !important;">
+        <h1>Hear from our Achievers</h1>
+        <p class="text-secondary mb-4">SWAYAM courses have been empowering learners in multiple ways. Hear directly from our achievers on how courses have impacted them.</p>
+    </div>
+</div>
+
+<div class="testimonial-container notranslate">
+    <div class="testimonials">
+        
+            <div class="testimonial">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="https://storage.googleapis.com/swayam-central-production.appspot.com/Testimonials/riya_raj.png" class="rounded-circle me-3" width="50" height="50">
+                    <cite class="fw-bold text-secondary">Riya Raj</cite>
+                </div>
+                <blockquote class="mb-3">
+                    <p class="mb-4">I would like to thank the NPTEL team for giving me such an opportunity to share my story. I had registered myself for an introduction to biostatistics through the NPTEL Swayam portal as part of my course curriculum, which was conducted by Professor Shamik Sen from IIT Bombay. It was a really great experience of online learning from Professor Shamik. From here, I learned how statistics are used as catalysts in the medical field.</p>
+                </blockquote>
+                <div class="read-more">Read more</div>
+            </div>
+        
+            <div class="testimonial">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="https://storage.googleapis.com/swayam-central-production.appspot.com/Testimonials/Pamir_Roy.jpeg" class="rounded-circle me-3" width="50" height="50">
+                    <cite class="fw-bold text-secondary">Pamir Roy</cite>
+                </div>
+                <blockquote class="mb-3">
+                    <p class="mb-4">Basically I don&#39;t see much of a difference between regular classes and online learning. I look at online learning as new way of the 21st century
+NPTEL courses are enhancing learning thru technology. The Discussion forum has been a great help as most questions that I had already been discussed there.</p>
+                </blockquote>
+                <div class="read-more">Read more</div>
+            </div>
+        
+            <div class="testimonial">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="https://storage.googleapis.com/swayam-central-production.appspot.com/Testimonials/shweta_batra.png" class="rounded-circle me-3" width="50" height="50">
+                    <cite class="fw-bold text-secondary">Dr. Shweta Batra</cite>
+                </div>
+                <blockquote class="mb-3">
+                    <p class="mb-4">I started with this course, Organizational Development and Change in the 21st Century, with the thought process of learning new concepts and things, and my experience was wonderful. It has given me a lot of learning and new aspects of the course. I am really thankful to Professor Ashish Pandey, IIT Bombay, and NPTEL for this learning platform. Elated for being the topper of the course.</p>
+                </blockquote>
+                <div class="read-more">Read more</div>
+            </div>
+        
+            <div class="testimonial">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="https://storage.googleapis.com/swayam-central-production.appspot.com/Testimonials/Pavithra_Pradeep.png" class="rounded-circle me-3" width="50" height="50">
+                    <cite class="fw-bold text-secondary">Pavithra Pradeep</cite>
+                </div>
+                <blockquote class="mb-3">
+                    <p class="mb-4">I recently took the Health Research Fundamentals Exam and emerged as one of the top performers. This experience has been invaluable for my academic and research journey. The course I undertook gave me profound insights into fundamental concepts in epidemiology and biostatistics related to research methods. These concepts are not only crucial for my teaching at college but also directly impact my ongoing PhD research.
+</p>
+                </blockquote>
+                <div class="read-more">Read more</div>
+            </div>
+        
+    </div>
+    <div class="navigation-testimonial">
+        <button id="prevBtn" class="shadow-sm">&lt;</button>
+        <button id="nextBtn" class="shadow-sm">&gt;</button>
+    </div>
+</div>
+
+<!--National Coordinators-->
+<div class="partner-container py-4">
+  <div class="header text-center mb-4">
+    <h2 class="fs-4 text-secondary">Partnered with <span class="bold-text">Top Institutions</span> to produce <span class="bold-text">Best Quality Education content for Free</span></h2>
+  </div>
+
+  <div class="desktop-logos notranslate">
+    <div class="row justify-content-center">
+      <!-- Using Bootstrap row and responsive columns -->
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/AICTE"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/AICTE_logo_128.png" alt="AICTE Logo" class="logo-img"></a>
+          <div class="logo-text">AICTE</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/CEC"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/CEC-logo.png" alt="CEC Logo" class="logo-img"></a>
+          <div class="logo-text">CEC</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/IGNOU"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/IGNOU-logo.png" alt="IGNOU Logo" class="logo-img"></a>
+          <div class="logo-text">IGNOU</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/IIMB"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/IIMB_logo_128.png" alt="IIMB Logo" class="logo-img"></a>
+          <div class="logo-text">IIMB</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/INI"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/INI_logo_2x.png" alt="INI Logo" class="logo-img"></a>
+          <div class="logo-text">INI</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/NCERT"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NCERT_logo_128.png" alt="NCERT Logo" class="logo-img"></a>
+          <div class="logo-text">NCERT</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/NIOS"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NIOS_logo_128.png" alt="NIOS Logo" class="logo-img"></a>
+          <div class="logo-text">NIOS</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/NITTTR"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NITTTR_logo_128.png" alt="NITTTR Logo" class="logo-img"></a>
+          <div class="logo-text">NITTTR</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/NPTEL"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NPTEL_logo_128.png" alt="NPTEL Logo" class="logo-img"></a>
+          <div class="logo-text">NPTEL</div>
+        </div>
+      
+        <div class="col-auto logo-item">
+            <a href="/nc_details/UGC"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/UGC_logo_128.png" alt="UGC Logo" class="logo-img"></a>
+          <div class="logo-text">UGC</div>
+        </div>
+      
+    </div>
+  </div>
+
+  <!-- Mobile View - Bootstrap Carousel -->
+  <div class="mobile-carousel notranslate">
+    <div id="mobileLogoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+        <div class="carousel-inner">
+            
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/AICTE"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/AICTE_logo_128.png" alt="AICTE Logo" class="logo-img"></a>
+                                <div class="logo-text">AICTE</div>
+                            </div>
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/CEC"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/CEC-logo.png" alt="CEC Logo" class="logo-img"></a>
+                                <div class="logo-text">CEC</div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div class="carousel-item ">
+                    <div class="d-flex justify-content-center">
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/IGNOU"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/IGNOU-logo.png" alt="IGNOU Logo" class="logo-img"></a>
+                                <div class="logo-text">IGNOU</div>
+                            </div>
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/IIMB"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/IIMB_logo_128.png" alt="IIMB Logo" class="logo-img"></a>
+                                <div class="logo-text">IIMB</div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div class="carousel-item ">
+                    <div class="d-flex justify-content-center">
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/INI"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/INI_logo_2x.png" alt="INI Logo" class="logo-img"></a>
+                                <div class="logo-text">INI</div>
+                            </div>
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/NCERT"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NCERT_logo_128.png" alt="NCERT Logo" class="logo-img"></a>
+                                <div class="logo-text">NCERT</div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div class="carousel-item ">
+                    <div class="d-flex justify-content-center">
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/NIOS"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NIOS_logo_128.png" alt="NIOS Logo" class="logo-img"></a>
+                                <div class="logo-text">NIOS</div>
+                            </div>
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/NITTTR"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NITTTR_logo_128.png" alt="NITTTR Logo" class="logo-img"></a>
+                                <div class="logo-text">NITTTR</div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                <div class="carousel-item ">
+                    <div class="d-flex justify-content-center">
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/NPTEL"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NPTEL_logo_128.png" alt="NPTEL Logo" class="logo-img"></a>
+                                <div class="logo-text">NPTEL</div>
+                            </div>
+                        
+                            <div class="logo-item">
+                                <a href="/nc_details/UGC"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/UGC_logo_128.png" alt="UGC Logo" class="logo-img"></a>
+                                <div class="logo-text">UGC</div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+        </div>
+
+        <!-- Custom dot indicators -->
+        <div class="carousel-dots">
+            
+                <div class="dot active" data-bs-target="#mobileLogoCarousel" data-bs-slide-to="0"></div>
+            
+                <div class="dot " data-bs-target="#mobileLogoCarousel" data-bs-slide-to="1"></div>
+            
+                <div class="dot " data-bs-target="#mobileLogoCarousel" data-bs-slide-to="2"></div>
+            
+                <div class="dot " data-bs-target="#mobileLogoCarousel" data-bs-slide-to="3"></div>
+            
+                <div class="dot " data-bs-target="#mobileLogoCarousel" data-bs-slide-to="4"></div>
+            
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    const elasticSearchEnabled = true;
+    const logged_in_user = 'None'
+</script>
+
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-main">
+            <!-- Left side with logo, ministry logo, and social icons -->
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_logo.png" alt="SWAYAM">
+                </div>
+                <div class="ministry-logo">
+                    <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/mhrd_logo.png" alt="Ministry of Education">
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/swayammoocs/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/SWAYAMMHRD" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/swayammhrd/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Center with download app - positioned to align with copyright section -->
+            <div class="footer-center">
+                <div class="download-app">
+                    <p>Download App</p>
+                    <a href="https://play.google.com/store/apps/details?id=in.gov.swayam.app"><img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/download_google_play_logo.png" alt="Get it on Google Play"></a>
+                </div>
+            </div>
+
+            <!-- Right side with links -->
+            <div class="footer-right">
+                <div class="footer-links">
+                    <a href="/privacy_policy">Privacy Policy</a>
+                    <a href="/terms_of_use">Terms of Use</a>
+                    <a href="/honor_code">Honor Code</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#helplineModal">SWAYAM Helpline / Support</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 SWAYAM - All rights reserved.</p>
+        </div>
+        <div class="initiative">
+            <p>Initiative by : Ministry of Education (Govt of India)</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Modal -->
+<div class="modal fade custom-modal" id="helplineModal" tabindex="-1" aria-labelledby="helplineModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="helplineModalLabel">SWAYAM SUPPORT</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-form">
+                    <div class="form-group">
+                        <label for="coordinator" class="form-label">Please choose the SWAYAM National Coordinator for support.<span class="required">*</span> :</label>
+                        <select id="coordinator" class="form-select">
+                            <option value="" disabled selected>Select</option>
+                            
+                                <option value="AICTE">AICTE</option>
+                            
+                                <option value="CEC">CEC</option>
+                            
+                                <option value="IGNOU">IGNOU</option>
+                            
+                                <option value="IIMB">IIMB</option>
+                            
+                                <option value="INI">INI</option>
+                            
+                                <option value="NCERT">NCERT</option>
+                            
+                                <option value="NIOS">NIOS</option>
+                            
+                                <option value="NITTTR">NITTTR</option>
+                            
+                                <option value="NPTEL">NPTEL</option>
+                            
+                                <option value="UGC">UGC</option>
+                            
+                        </select>
+                    </div>
+                    <div class="form-info" id="coordinatorInfo" style="display: none;">
+                        Please refer <span class="coordinator-name">Select</span> regarding your queries / issues
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://storage.googleapis.com/swayam2_central/assets/js/swayam_js/jquery_v2.min.js"></script>
+    <script src="https://storage.googleapis.com/swayam2_central/assets/js/swayam_js/bootstrap_v2.min.js"></script>
+    <script src="https://storage.googleapis.com/swayam2_central/assets/js/swayam_js/header_v2.js"></script>
+    <script src="https://storage.googleapis.com/swayam2_central/assets/js/swayam_js/translate.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://storage.googleapis.com/swayam2_central/assets/js/swayam_js/home_page_v2.js"></script>
+
+    <script src="https://storage.googleapis.com/swayam2_central/assets/js/swayam_js/footer_v2.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "internship_report",
+      "value": "A report must be created by the intern regarding the internship.",
+      "original_value": "Über das Praktikum ist von der Praktikantin oder dem Praktikanten ein Praktikumsbericht zu erstellen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "internship_certificate_requirements",
+      "value": "The certificate must include the name of the institution, first name, last name, date of birth, matriculation number of the intern, as well as the type and duration of the activity.",
+      "original_value": "Die Bescheinigung muss folgende Angaben enthalten: Bezeichnung der Einrichtung, Vorname, Nachname, Geburtsdatum, Matrikelnummer der Praktikantin oder des Praktikanten sowie die Art und Dauer der Tätigkeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "internship_grading",
+      "value": "The internship report will be graded according to the provisions set forth.",
+      "original_value": "Über das Praktikum ist von der Praktikantin oder dem Praktikanten ein Praktikumsbericht zu erstellen, der ... nach Maßgabe von § 39 Abs. 3 [alternativ: Absätze 3 und 4] benotet wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "internship_non_requirement_note",
+      "value": "If no internship is provided, this paragraph must be deleted.",
+      "original_value": "Hinweis zu Abs. 5: Falls kein Berufs- praktikum vorgesehen ist, ist Abs. 5 zu löschen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

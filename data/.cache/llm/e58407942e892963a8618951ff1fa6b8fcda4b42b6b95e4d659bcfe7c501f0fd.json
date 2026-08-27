@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "composition_of_final_grade",
+      "value": "The grade for the Master's thesis is calculated from the average of the module grades, with the thesis counted twice.",
+      "original_value": "grade for the Master's thesis being examination is calculated from the average of the module grades, with the counted twice.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

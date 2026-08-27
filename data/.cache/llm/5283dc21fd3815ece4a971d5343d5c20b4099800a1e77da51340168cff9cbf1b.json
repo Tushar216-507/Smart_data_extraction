@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "wue_program",
+      "field": "eligible_majors_programs",
+      "value": "Students must remain enrolled in one of the ASU WUE-eligible majors or programs.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "wue_program",
+      "field": "online_programs_eligibility",
+      "value": "ASU Online programs are not eligible.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "wue_program",
+      "field": "change_of_major",
+      "value": "Students who change majors to a non-WUE major will be removed from WUE and charged out-of-state tuition.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "wue_program",
+      "field": "continuity_requirement",
+      "value": "Students admitted to ASU under Western Undergraduate Exchange, or WUE, program in spring 2026 or earlier will continue to receive the WUE tuition rate as long as they maintain continuous enrollment and meet the semesterly renewal requirements for WUE eligibility.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "wue_program",
+      "field": "future_participation",
+      "value": "Beginning with students admitted for fall 2026, ASU will no longer participate in the WUE program.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

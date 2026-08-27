@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0078",
+  "program_name": "Online Bachelor of Science in Public Service and Public Policy – Emergency Management and Homeland Security",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0078\\final",
+  "input_fact_count": 57,
+  "unique_fact_count": 57,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 57,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 57,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 5,
+    "admission": 0,
+    "curriculum": 34,
+    "career": 6,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 5,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0078\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0078\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0078\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0078\\final\\fees_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0078\\final\\contacts_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0078\\final\\student_life_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0078\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0078\\final\\build_summary.json"
+  }
+}

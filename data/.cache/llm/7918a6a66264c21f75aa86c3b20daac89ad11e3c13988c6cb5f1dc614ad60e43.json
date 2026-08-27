@@ -1,0 +1,316 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Finance",
+      "original_value": "Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester/Summer semester",
+        "academic_year": "2025"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Core Lecture: Institutions and Innovations",
+      "original_value": "Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2 / ININ",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Summer semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 7,
+      "original_value": "7",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2 / ININ",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Stochastic Calculus in Finance and Economics",
+      "original_value": "Stochastic Calculus in Finance and Economics (SCFC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "SCFC",
+        "name": "Stochastic Calculus in Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Summer semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "SCFC",
+        "name": "Stochastic Calculus in Finance and Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Microeconomics",
+      "original_value": "Fundamentals of Microeconomics (FMIC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FMIC",
+        "name": "Fundamentals of Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "FMIC",
+        "name": "Fundamentals of Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Macroeconomics",
+      "original_value": "Fundamentals of Macroeconomics (FMAC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FMAC",
+        "name": "Fundamentals of Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": "Winter semester",
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "credits",
+      "entity": {
+        "type": "module",
+        "id": "FMAC",
+        "name": "Fundamentals of Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

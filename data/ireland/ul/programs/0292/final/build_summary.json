@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0292",
+  "program_name": "Bachelor of Science in Pharmaceutical and Industrial Chemistry",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0292\\final",
+  "input_fact_count": 20,
+  "unique_fact_count": 20,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 19,
+  "unhandled_fact_count": 1,
+  "written_fact_count": 20,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 8,
+    "admission": 0,
+    "curriculum": 5,
+    "career": 4,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0292\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0292\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0292\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0292\\final\\student_life_data.json",
+    "unhandled": "data\\ireland\\ul\\programs\\0292\\final\\unhandled_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0292\\final\\build_summary.json"
+  }
+}

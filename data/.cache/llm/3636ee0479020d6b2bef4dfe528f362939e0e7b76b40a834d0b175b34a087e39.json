@@ -1,0 +1,362 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "department",
+      "value": "Department of Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mathematical Methods",
+      "original_value": "Mathematical Methods (MAME)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MAME",
+        "name": "Mathematical Methods"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Econometrics 1",
+      "original_value": "Advanced Econometrics 1 (AEC 1)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AEC1",
+        "name": "Advanced Econometrics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Econometrics 2",
+      "original_value": "Advanced Econometrics 2 (AEC 2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AEC2",
+        "name": "Advanced Econometrics 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Microeconomics 1",
+      "original_value": "Advanced Microeonomics 1 (AMI1)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AMI1",
+        "name": "Advanced Microeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Microeconomics 2",
+      "original_value": "Advanced Microeonomics 2 (AMI2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AMI2",
+        "name": "Advanced Microeconomics 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Macroeconomics 1",
+      "original_value": "Advanced Macroeconomics 1 (AMA1)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AMA1",
+        "name": "Advanced Macroeconomics 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Macroeconomics 2",
+      "original_value": "Advanced Macroeconomics 2 (AMA2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AMA2",
+        "name": "Advanced Macroeconomics 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 8,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Historical and Normative Foundations of Economics",
+      "original_value": "Historical and Normative Foundations of Economics (1) + (2) (HFNE(1) + (HFNE(2))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "HFNE",
+        "name": "Historical and Normative Foundations of Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Research Seminar in Development and International Economics",
+      "original_value": "Research Seminar in Development and International Economics (RSDI)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "RSDI",
+        "name": "Research Seminar in Development and International Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Development",
+      "original_value": "Advanced Topics in Development (1) + (2) + (3) (ATDI(1), ATDI(2), ATDI(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATDI",
+        "name": "Advanced Topics in Development"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Econometrics",
+      "original_value": "Advanced Topics in Econometrics (1) + (2) + (3) (ATEC(1), ATEC(2), ATEC(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATEC",
+        "name": "Advanced Topics in Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Microeconomics",
+      "original_value": "Advanced Topics in Microeconomics (1) + (2) + (3) (ATMI(1), ATMI(2), ATMI(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATMI",
+        "name": "Advanced Topics in Microeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Macroeconomics",
+      "original_value": "Advanced Topics in Macroeconomics (1) + (2) + (3) (ATMA(1), ATMA(2), ATMA(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATMA",
+        "name": "Advanced Topics in Macroeconomics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 6,
+        "semester_offered": "Winter semester/Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Programming Language",
+      "original_value": "Programming Language (PRLA)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PRLA",
+        "name": "Programming Language"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "qualifiers": {
+        "credits": 4,
+        "semester_offered": "Summer semester"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

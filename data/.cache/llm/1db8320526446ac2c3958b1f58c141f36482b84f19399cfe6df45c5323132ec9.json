@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "canceling admission",
+      "field": "housing_assignment_and_financial_aid",
+      "value": "Any housing assignment and financial aid (including scholarships) will also be canceled.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "canceling admission",
+      "field": "responsibility_for_charges",
+      "value": "You may still be responsible for nonrefundable housing charges.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "canceling admission",
+      "field": "responsibility_for_charges",
+      "value": "You may still be responsible for other university charges you may already owe.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    },
+    {
+      "category": "other",
+      "subcategory": "payment_information",
+      "field": "payment_method",
+      "value": "To check your account or pay any charges, sign in to My ASU.",
+      "confidence": 1.0,
+      "programme_association": "Social and Cultural Analysis (American Studies) - BA"
+    }
+  ]
+}

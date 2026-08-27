@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "assessment_committee_structure",
+      "value": "For each degree program, a committee is formed by the departmental council of the involved departments.",
+      "original_value": "Für jeden Studiengang bildet der Fachbereichsrat oder bilden die Fachbereichsräte der am Studiengang beteiligten Fachbereiche einen Prüfungsausschuss.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Uni Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "assessment_committee_members",
+      "value": "Typically, seven members are part of each committee, including four professors, one research staff member, and two students.",
+      "original_value": "Jedem Prüfungsausschuss gehören in der Regel sieben Mitglieder an, darunter vier Mitglieder der Gruppe der Professorenschaft, eine wissenschaftliche Mitarbeiterin oder ein wissenschaftlicher Mitarbeiter und zwei Studierende.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Uni Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "assessment_committee_chair",
+      "value": "The Dean has the chair of the assessment committee, but specific regulations can allow election of a chair from the professors.",
+      "original_value": "Die Studiendekanin oder der Studiendekan hat den Vorsitz des Prüfungsausschusses inne.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Uni Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "assessment_committee_quorum",
+      "value": "The committee is quorate if at least half of the members are present, including the chair or deputy chair.",
+      "original_value": "Er ist beschlussfähig, wenn mindestens die Hälfte der Mitglieder, darunter die oder der Vorsitzende oder die oder der stellvertretende Vorsitzende, anwesend sind.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Uni Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "assessment_committee_meeting_frequency",
+      "value": "At least one meeting of the assessment committee should take place each semester.",
+      "original_value": "In der Regel soll in jedem Semester mindestens eine Sitzung des Prüfungsausschusses stattfinden.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Uni Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "faculty",
+      "field": "faculty",
+      "value": "Faculty of Science & Engineering",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "faculty",
+      "field": "faculty_members",
+      "value": [
+        "Joseph O’Connor",
+        "Donal Ryan",
+        "Sarah Moore Fitzgerald",
+        "Emily Cullen",
+        "Kit deWaal"
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "program_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0,
+        "source_type": "program"
+      }
+    }
+  ]
+}

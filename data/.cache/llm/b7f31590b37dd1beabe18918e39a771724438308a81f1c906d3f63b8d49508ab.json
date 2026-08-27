@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "in_force_date",
+      "value": "August 25, 2015",
+      "original_value": "am Tage nach ihrer Veröffentlichung im UniReport/Satzungen und Ordnungen der Johann Wolfgang Goethe-Universität Frankfurt am Main in Kraft.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "unknown",
+        "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "applicable_starting_semester",
+      "value": "Winter semester 2015/2016",
+      "original_value": "Wintersemester 2015/2016",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "field": "citizenship_requirement",
+      "value": "You must be a citizen of an EU/EEA member state or Switzerland or have official refugee status.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "course_requirements",
+      "value": "You must be a first time full-time undergraduate (Exceptions are provided for students who hold a Level 6 or Level 7 qualification and are progressing to a Level 8 course in the same general area of study).",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "course_duration_requirement",
+      "value": "You must be undertaking a full-time undergraduate course of at least 2 years' duration.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "repeat_study_condition",
+      "value": "You cannot be undertaking a repeat year of study at the same level unless evidence of exceptional circumstances e.g. serious illness is provided (in which case this condition may be waived).",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "free_fee_status",
+      "value": "You satisfy all three categories (1, 2 and 3) and therefore are eligible for the Higher Education Authority’s Free Fees scheme.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "eu_fee_status",
+      "value": "You satisfy both the citizenship and residency criteria but fail to satisfy the course requirements and are liable to EU fees.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "non_eu_fee_status",
+      "value": "You do not meet either the citizenship or residency criteria and are therefore liable to Non EU fees.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "more_information_url",
+      "value": "/finance/about-finance/finance-documents#fees",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Tuition Fees",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "academic_scholarships",
+      "value": "There are both course specific academic scholarships and others available to everyone.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Scholarships",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "sports_scholarships",
+      "value": "Sports scholarships for budding sports stars.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Scholarships",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "international_student_scholarships",
+      "value": "Scholarships for international students studying with us.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Scholarships",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "ERASMUS stands for EuRopean community Action Scheme for the Mobility of University Students.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "original_programme_name",
+      "value": "Socrates programme",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "establishment_year",
+      "value": "1987",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "program_success",
+      "value": "The Erasmus programme has proved to be one of the most successful projects of the European Union.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "aim",
+      "value": "The main aim of the Erasmus+ programme is to improve students' skills and ultimately their employability as well as to support the modernisation of education and training systems across Europe.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "employer_rating",
+      "value": "The programme is highly rated by employers.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "impact_study_findings",
+      "value": "A recent Erasmus+ Impact Study shows that the programme enhances students’ employability abroad, improves transferrable skills and enhances career development.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "ERASMUS",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "other",
+      "field": "participation_years",
+      "value": "Since 1988",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "partner_institutions",
+      "value": "Over 300",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "best_programme_awards",
+      "value": "2018, 2019, 2022, 2024, 2025",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "largest_outgoing_cohort",
+      "value": "Approx. 600 students",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "tuition_fee_policy",
+      "value": "Students do not pay tuition fees at the host University",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "self_funded",
+      "value": "The ERASMUS programme is self-funded",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "eu_mobility_grant",
+      "value": "Students may receive an EU mobility grant",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "contact_information",
+      "value": "UL Global, outgoing.erasmus@ul.ie",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "other",
+      "field": "information_sessions",
+      "value": "Held each semester",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "UL and ERASMUS + Find out more",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "career",
+      "field": "opportunities",
+      "value": "Equine Enterprise Management (Stud Farms, Show Jumping Yards, Racing Yards, Equestrian Centres)",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "career",
+      "field": "opportunities",
+      "value": "Leisure, Recreation and Tourism based on Equine activities",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "career",
+      "field": "opportunities",
+      "value": "Equestrian Marketing and Sales Enterprises",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Information",
+        "chunk_order": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_modules_description",
+      "value": "Students in the Master in Management Science program can undertake certain modules in other departments, referred to as import modules, based on existing cooperation agreements between departments.",
+      "original_value": "Im Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie bestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "import_modules_regulations",
+      "value": "Import modules from other programs are subject to the examination regulations of the exporting department. The module descriptions and conditions for acquiring credit points apply according to the valid version of the examination regulations of the relevant source program.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung). Es gelten die Modulbeschreibungen und die Bedingungen zum Erwerb von CP gemäß der gültigen Fassung der Prüfungsordnung des jeweiligen Herkunftsstudienganges.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "import_modules_applications",
+      "value": "Students must verify the module specifications of the offering programs. Registration for examinations is usually done via QIS according to the deadlines set by the corresponding examination offices in the other departments.",
+      "original_value": "Bitte prüfen Sie zwingend die Modulangaben der anbietenden Studiengänge. Die Meldung zu den Prüfungen erfolgt i.d.R. via QIS zu den jeweiligen Fristen der zuständigen Prüfungsämter an den anderen Fachbereichen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "optional_modules_management_science",
+      "value": [
+        "B.Sc. Wirtschaftspädagogik",
+        "B.A. NF Soziologie",
+        "B.A. NF Politikwissenschaft",
+        "B.Sc. Psychologie",
+        "B.A. Sinologie",
+        "M.Sc. Betriebswirtschaftslehre",
+        "M.Sc. International Economics and Economic Policy",
+        "M.Sc. Management Science"
+      ],
+      "original_value": [
+        "B.Sc. Wirtschaftspädagogik",
+        "FB03 - B.A. NF Soziologie",
+        "FB03 - B.A. NF Politikwissenschaft.",
+        "FB05 - B.Sc. Psychologie",
+        "FB09 - B.A. Sinologie",
+        "M.Sc. Betriebswirtschaftslehre",
+        "M.Sc. International Economics and Economic Policy",
+        "M.Sc. Management Science"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0011",
+        "name": "Master in Management Science"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": "Optional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

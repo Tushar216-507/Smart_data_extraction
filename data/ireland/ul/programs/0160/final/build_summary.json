@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0160",
+  "program_name": "Bachelor of Engineering in Design and Manufacturing Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0160\\final",
+  "input_fact_count": 80,
+  "unique_fact_count": 80,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 80,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 80,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 16,
+    "admission": 47,
+    "curriculum": 7,
+    "career": 5,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 1,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 2,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0160\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0160\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0160\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0160\\final\\career_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0160\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0160\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0160\\final\\research_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0160\\final\\documents_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0160\\final\\build_summary.json"
+  }
+}

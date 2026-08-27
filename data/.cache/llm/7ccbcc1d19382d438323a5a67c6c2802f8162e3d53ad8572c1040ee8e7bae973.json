@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "admission_method",
+      "field": "method",
+      "value": "Admission is done through merit score.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Biomedical Science"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "application_process",
+      "value": "Students have to fill the application form and upon successful registration, the counseling process is conducted for the candidates.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Biomedical Science"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "qualification",
+      "value": "A candidate must have passed class 12th or any other equivalent examination with physics, chemistry, and biology as compulsory subjects from a recognized board.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Biomedical Science"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "minimum_percentage",
+      "value": "A student must have secured the minimum required percentage in PCB collectively to get admission.",
+      "confidence": 1.0,
+      "programme_association": "Bachelor of Science in Biomedical Science"
+    }
+  ]
+}

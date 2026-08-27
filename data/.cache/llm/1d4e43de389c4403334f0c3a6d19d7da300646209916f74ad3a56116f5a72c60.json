@@ -1,0 +1,181 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe-Universität Frankfurt am Main",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": null,
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Arbeitsrecht (1 und 2)",
+      "original_value": "Arbeitsrecht (1 und 2)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Arbeitsrecht (1 und 2)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": "Optional elective module"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Differentielle Psychologie (PsyBsc6)",
+      "original_value": "Differentielle Psychologie (PsyBsc6)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc6",
+        "name": "Differentielle Psychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": "Winter semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Diagnostik (PsyBSc11)",
+      "original_value": "Grundlagen der Diagnostik (PsyBSc11)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBSc11",
+        "name": "Grundlagen der Diagnostik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": "Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Angewandte Psychologie: Grundlagen und Vertiefung der Arbeits- und Organisationspsychologie (MP PsyBsc16) und Personalpsychologie (SL PsyBsc18)",
+      "original_value": "Angewandte Psychologie: Grundlagen und Vertiefung der Arbeits- und Organisationspsychologie (MP PsyBsc16) und Personalpsychologie (SL PsyBsc18)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP_PsyBsc16_SL_PsyBsc18",
+        "name": "Angewandte Psychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "semester": "Winter semester / Summer semester"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodule der Schwerpunkte (keine Seminare und keine Module aus dem Bereich Management)",
+      "original_value": "Wahlpflichtmodule der Schwerpunkte (keine Seminare und keine Module aus dem Bereich Management)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Wahlpflichtmodule der Schwerpunkte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Französisch: 2 Wirtschaftsfranzösischmodule A-D",
+      "original_value": "Französisch: 2 Wirtschaftsfranzösischmodule A-D",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "2 Wirtschaftsfranzösischmodule A-D"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Spanisch: 2 Wirtschaftsfranzösischmodule A-D",
+      "original_value": "Spanisch: 2 Wirtschaftsfranzösischmodule A-D",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "2 Wirtschaftsfranzösischmodule A-D"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

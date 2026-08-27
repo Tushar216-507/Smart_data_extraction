@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Bachelor examination",
+      "original_value": "Bachelorprüfung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "certificate_issuance",
+      "value": "Certificate issued in German with an optional English translation within four weeks of the last assessment",
+      "original_value": "ein Zeugnis in deutscher Sprache, auf Antrag der oder des Studierenden mit einer Übertragung in englischer Sprache",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "certificate_contents",
+      "value": "The certificate contains the completed modules in the major and minor with grades, the topic and grade of the Bachelor's thesis, the standard duration, and the overall grade of the Bachelor's examination",
+      "original_value": "Das Zeugnis enthält die im Hauptfach ... [Bezeichnung] sowie im Nebenfach ... [Name des Nebenfaches; ggf. Namen der Nebenfächer] absolvierten Module mit den in ihnen erzielten Noten ... das Thema und die Note der Bachelorarbeit, die Regelstudienzeit und die Gesamtnote der Bachelorprüfung.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "signature",
+      "value": "The certificate must be signed by the chairperson of the examination board or the dean of the department",
+      "original_value": "Das Zeugnis ist von der oder dem Vorsitzenden des Prüfungsausschusses oder von der Studiendekanin oder dem Studiendekan des Fachbereichs ... [Bezeichnung] zu unterzeichnen",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "certificate_date",
+      "value": "The certificate bears the date when the last assessment was evaluated",
+      "original_value": "Das Zeugnis trägt das Datum des Tages, an dem die letzte Prüfungsleistung bewertet worden ist.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

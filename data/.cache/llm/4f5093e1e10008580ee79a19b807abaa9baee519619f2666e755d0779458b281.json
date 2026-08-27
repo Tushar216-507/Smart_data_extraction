@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "general_access_requirement",
+      "value": "The Allgemeine Hochschulreife (Abitur) after 12 to 13 school years allows access to all degree programs.",
+      "original_value": "Die Allgemeine Hochschulreife (Abitur) nach 12 bis 13 Schuljahren ermöglicht den Zugang zu allen Studiengängen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "specific_access_requirement",
+      "value": "The Fachgebundene Hochschulreife allows access to certain subjects.",
+      "original_value": "Die Fachgebundene Hochschulreife ermöglicht den Zugang zu bestimmten Fächern.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "access_requirement_fachhochschule",
+      "value": "Access to universities of applied sciences is also possible with the Fachhochschulreife, typically obtained after 12 school years.",
+      "original_value": "Das Studium an Fachhochschulen ist auch mit der Fachhochschulreife möglich, die in der Regel nach 12 Schuljahren erworben wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "university",
+      "field": "additional_admission_procedures",
+      "value": "Universities may implement additional specific admission procedures in certain cases.",
+      "original_value": "Die Hochschulen können in bestimmten Fällen zusätzliche spezifische Zulassungsverfahren durchführen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

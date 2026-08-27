@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "program_id": "0245",
+  "program_name": "European Politics and Governance - MA",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0245\\final",
+  "input_fact_count": 25,
+  "unique_fact_count": 25,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 25,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 25,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 14,
+    "admission": 0,
+    "curriculum": 4,
+    "career": 3,
+    "fees": 4,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0245\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0245\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0245\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0245\\final\\fees_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0245\\final\\build_summary.json"
+  }
+}

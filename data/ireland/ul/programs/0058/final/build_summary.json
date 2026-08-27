@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0058",
+  "program_name": "Applied Linguistics (International) - MA Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0058\\final",
+  "input_fact_count": 37,
+  "unique_fact_count": 37,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 37,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 37,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 21,
+    "admission": 0,
+    "curriculum": 9,
+    "career": 0,
+    "fees": 7,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0058\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0058\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0058\\final\\fees_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0058\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "program_id": "0003",
+  "program_name": "Professional Master of Education Graduate profile",
+  "fact_count": 2,
+  "university_facts": [],
+  "programme_facts": [
+    {
+      "category": "programme",
+      "subcategory": "visa",
+      "field": "check_country_requirements_url",
+      "value": "https://www.irishimmigration.ie/visa-non-visa-required-nationalities/",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Non-EU applicants",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "programme",
+      "subcategory": "visa",
+      "field": "citizens_information_url",
+      "value": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/",
+      "confidence": 1.0,
+      "source_url": "",
+      "source_type": "",
+      "programme_association": "",
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Non-EU applicants",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Are you the type of person who enjoys understanding the details of how current technologies work? Would you like to use this understanding to develop new technologies and applications? Do you want to have flexibility in choosing your career?  If so, this programme might suit you.
+
+## Why Study Applied Physics in UL?
+
+In short, the top reasons for studying applied physics at UL are:
+
+- A pragmatic balance between fundamental and applied aspects of physics.
+- Strong emphasis on problem-solving skills making graduates highly desirable as employees in industry, academia and research.
+- Strong engagement in research ensuring that graduates are up to date with the latest developments in applied physics.
+- Outstanding links with local industry for cooperative placement, collaborative research and employment.
+- A friendly, collaborative, and highly collegial environment that stimulates innovative thinking and promotes the highest standard of accomplishment in tackling challenges.
+
+The UL link with industry is one of the strongest in Ireland. With both directly funded and state-sponsored active collaborative research, the Department of Physics at UL is working with companies such as Analog Devices, COOK Medical, Intel, and BorgWarner. In addition to advancing science and developing new products, this engagement also creates employment opportunities for the graduates of the BSc in Applied Physics course. UL’s pioneering Cooperative placement programme also ensures that the graduates are engaged with industry from an early stage of their career and can adapt to the high levels of skill and professionalism required in industry.
+
+Faculty members teaching this course are deeply involved in research and are continually generating scientific breakthroughs and next-generation technologies. The Department has an outstanding track record in scientific publications, patents and generation of intellectual property. Examples of scientific advances and technological innovations pioneered in the Department include piezoelectricity in synthetic bone material, infrared nanoscopy, and vanadium redox flow batteries.
+
+Many of the Department’s faculty members are also members of the Bernal Institute, one of the leading research institutes in Ireland, which houses nationally unique microscopy, spectroscopy and process infrastructure. Students gain access to this infrastructure through undergraduate laboratory courses and fourth-year projects.

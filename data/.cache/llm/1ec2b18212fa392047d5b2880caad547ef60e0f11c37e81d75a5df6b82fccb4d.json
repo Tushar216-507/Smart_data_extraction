@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "A module exam consisting of a single examination performance is passed if it is graded at least 'sufficient' (4.0) or better. A performance evaluated with points is passed if at least 5 points are achieved. Otherwise, it is not passed.",
+      "original_value": "Eine aus einer einzigen Prüfungsleistung bestehende Modulprüfung ist bestanden, wenn sie mit der Note \"ausreichend“ (4,0) oder besser bewertet worden ist. Eine mit Punkten bewertete Prüfungsleistung ist bestanden, wenn mindestens 5 Punkte erreicht sind. Andernfalls ist sie nicht bestanden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "A module exam consisting of multiple module partial exams is only passed if all module partial exams are graded at least 'sufficient' (4.0).",
+      "original_value": "Eine aus mehreren Modulteilprüfungen bestehende Modulprüfung (kumulative Modulprüfung) ist nur dann bestanden, wenn sämtliche Modulteilprüfungen mit mindestens mit „ausreichend“ (4,0) [gegebenenfalls beziehungsweise mit 5 Punkten] bewertet worden sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "The Bachelor's examination in the minor subject is passed if all modules prescribed by these regulations have been successfully completed, meaning that the required study credits are presented and the prescribed module exams are graded at least 'sufficient' (4.0).",
+      "original_value": "Die Bachelorprüfung im Nebenfach ... [Bezeichnung] ist bestanden, wenn sämtliche in dieser Ordnung vorgeschriebenen Module erfolgreich erbracht wurden, das heißt die geforderten Studiennachweise vorliegen und die vorgeschriebenen Modulprüfungen mit mindestens „ausreichend“ (4,0) bewertet worden sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "university",
+      "field": "important_information",
+      "value": "The results of all examinations will be announced immediately. The examination committee decides whether the announcement of grades is made anonymously publicly by posting and/or through the electronic examination management system, while safeguarding the pertinent interests.",
+      "original_value": "Die Ergebnisse sämtlicher Prüfungen werden unverzüglich bekannt gegeben. Der Prüfungsausschuss entscheidet darüber, ob die Notenbekanntgabe anonymisiert hochschulöffentlich durch Aushang und/oder durch das elektronische Prüfungsverwaltungssystem erfolgt, wobei die schutzwürdigen Interessen der Betroffenen zu wahren sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

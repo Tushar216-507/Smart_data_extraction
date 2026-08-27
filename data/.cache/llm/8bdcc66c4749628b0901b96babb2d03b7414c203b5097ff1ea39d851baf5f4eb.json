@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Arizona State University School of Social Work",
+      "original_value": "Arizona State University School of Social Work",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Arizona State University School of Social Work"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "Online Master of Social Work (MSW)"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

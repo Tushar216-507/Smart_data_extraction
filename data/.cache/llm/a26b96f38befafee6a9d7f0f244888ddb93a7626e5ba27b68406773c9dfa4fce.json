@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master in Money, Macro and Finance",
+      "original_value": "M.Sc. Money, Macro and Finance",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "start_term",
+      "value": "unknown",
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 0.9
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "electives",
+      "value": [
+        {
+          "course_name": "Sozialstruktur und Soziale Ungleichheit",
+          "course_credits": 10,
+          "original_value": "Sozialstruktur und Soziale Ungleichheit",
+          "delivery_method": null,
+          "requirements": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "course_name": "Kultur, Subjekt, Identität",
+          "course_credits": 10,
+          "original_value": "Kultur, Subjekt, Identität",
+          "delivery_method": null,
+          "requirements": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "course_name": "Wirtschaft und Technik - Arbeit und Organisation",
+          "course_credits": 10,
+          "original_value": "Wirtschaft und Technik - Arbeit und Organisation",
+          "delivery_method": null,
+          "requirements": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "course_name": "Geschlecht, Migration, Wissensproduktion",
+          "course_credits": 10,
+          "original_value": "Geschlecht, Migration, Wissensproduktion",
+          "delivery_method": null,
+          "requirements": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        },
+        {
+          "course_name": "Soziologische Theorien",
+          "course_credits": 10,
+          "original_value": "Soziologische Theorien",
+          "delivery_method": null,
+          "requirements": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend"
+        }
+      ],
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0014",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

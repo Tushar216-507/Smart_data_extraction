@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "admission_requirements",
+      "value": "To be admitted to the Master's program, one must have completed a Bachelor degree in the same field with a standard duration of at least six semesters or an equivalent degree recognized as such by the Joint Examination Board.",
+      "original_value": "Zum Masterstudium kann nur zugelassen werden, wer die Bachelorprüfung in gleicher Fachrichtung mit einer Regelstudienzeit von mindestens sechs Semestern bestanden hat oder einen vom Gemeinsamen Prüfungsausschuss als mindestens gleichwertig anerkannten Abschluss einer deutschen Universität oder Fachhochschule in gleicher oder verwandter Fachrichtung mit einer Regelstudienzeit von mindestens sechs Semestern besitzt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "additional_requirements",
+      "value": "The specific program appendices may stipulate that admission in particular cases requires completion of additional study requirements and module examinations from the Bachelor's program up to a maximum of 30 credit points.",
+      "original_value": "Die studiengangsspezifischen Anhänge können vorsehen, dass die Zulassung in den Fällen des Abs. 1b und c unter der Auflage der Erbringung zusätzlicher Studienleistungen und Modulprüfungen aus dem Bachelorstudiengang im Umfang von maximal 30 Kreditpunkten (CP) erteilt wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "provisional_admission",
+      "value": "Provisional admission can be granted based on a preliminary transcript of records if at least 150 credit points are achieved and the Bachelor's thesis is either completed or nearing completion.",
+      "original_value": "Die Zulassung kann auf der Grundlage eines vorläufigen Notenauszugs (Transcript of Records) vorläufig erfolgen, wenn mindestens 150 CP erreicht wurden und die Bachelorarbeit bereits abgeschlossen ist oder kurz vor dem Abschluss steht.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "language_proficiency",
+      "value": "International applicants for a Master's program where the language of instruction is German must provide proof of language proficiency according to the relevant regulations.",
+      "original_value": "Ausländische Studienbewerberinnen und Studienbewerber für einen Masterstudiengang, in dem die Unterrichtssprache Deutsch ist, müssen entsprechend der Ordnung der Johann Wolfgang Goethe-Universität Frankfurt am Main über die Deutsche Sprachprüfung für den Hochschulzugang (DSH) für Studienbewerberinnen und Studienbewerber mit ausländischer Hochschulzugangsberechtigung einen Sprachnachweis vorlegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

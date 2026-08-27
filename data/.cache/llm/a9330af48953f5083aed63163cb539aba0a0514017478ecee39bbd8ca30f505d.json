@@ -1,0 +1,166 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "major_requirements",
+      "field": "religious_studies_core_courses",
+      "value": [
+        {
+          "course": "REL 101 Religion, Culture and Public Life",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=101"
+        },
+        {
+          "course": "REL 307 Religion: Theory and Practice",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=307"
+        },
+        {
+          "course": "REL 405 Problems in Religious Studies",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=405"
+        },
+        {
+          "course": "REL 406 Religious Studies Capstone I",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=406"
+        },
+        {
+          "course": "REL 407 Religious Studies Capstone II",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=REL&catalogNbr=407"
+        }
+      ],
+      "notes": "REL 405 is offered to campus immersion students, while REL 406 and 407 are offered to ASU Online students. These courses are typically offered only in spring semesters."
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "major_requirements",
+      "field": "religion_culture_and_public_life_concentration_courses",
+      "value": [
+        {
+          "credit_hours": 6,
+          "minimum_grade": "C"
+        },
+        {
+          "credit_hours": 9,
+          "minimum_grade": "C"
+        },
+        {
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "notes": "Any REL course that is NOT listed in the Religion, Culture and Public Life concentration list, except for REL 100, REL 294 Religious Freedom and REL 321, which may be used either inside or outside the concentration, but not both."
+        },
+        {
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        }
+      ],
+      "notes": "Due to their broad content, REL 100, REL 294 Religious Freedom and REL 321 may count as either Religion, Culture and Public Life concentration courses or as REL Outside Concentration courses, but each course will satisfy only ONE requirement, not both."
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "college_requirements",
+      "field": "mathematics",
+      "credit_hours": 3,
+      "minimum_grade": "C"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "college_requirements",
+      "field": "second_language_requirement",
+      "description": "All students pursuing a BA degree in The College of Liberal Arts and Sciences must demonstrate proficiency in a second language.",
+      "credit_hours": 16,
+      "minimum_grade": "C",
+      "notes": "Proficiency is demonstrated by completion of a language course at the intermediate level (202 or equivalent), or a higher-level course that has 202 (or its equivalent) as a prerequisite."
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "college_requirements",
+      "field": "related_area",
+      "credit_hours": [
+        {
+          "subject": "JST Elective",
+          "exclusions": "not from JST 133, 233, 333, or 334",
+          "credit_hours": 6,
+          "minimum_grade": "C"
+        },
+        {
+          "subject": "JST Elective",
+          "exclusions": "not from JST 133, 233, 333, or 334",
+          "credit_hours": 9,
+          "minimum_grade": "C"
+        }
+      ]
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "college_requirements",
+      "field": "first_year_seminar",
+      "credit_hours": 1,
+      "options": [
+        {
+          "course": "LIA 101 Student Success in The College of Liberal Arts and Sciences",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=LIA&catalogNbr=101"
+        },
+        {
+          "course": "ASU 101-LA The ASU Experience",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ASU&catalogNbr=101-LA"
+        }
+      ],
+      "notes": "Campus immersion students enroll in LIA 101. ASU Online students enroll in ASU 101-LA."
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "first_year_composition",
+      "field": "first_year_composition_options",
+      "value": [
+        {
+          "courses": [
+            {
+              "course": "ENG 101 First-Year Composition",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=101"
+            },
+            {
+              "course": "ENG 102 First-Year Composition",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=102"
+            }
+          ]
+        },
+        {
+          "courses": [
+            {
+              "course": "ENG 105 Advanced First-Year Composition",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=105"
+            }
+          ]
+        },
+        {
+          "courses": [
+            {
+              "course": "ENG 107 First-Year Composition",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=107"
+            },
+            {
+              "course": "ENG 108 First-Year Composition",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=108"
+            }
+          ]
+        }
+      ],
+      "credit_hours": 6,
+      "minimum_grade": "C"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "general_notes",
+      "field": "notes",
+      "value": "Not all courses in the course lists are available every term or available in both on-campus and online formats. Students should consult Class Search prior to each term to confirm course availability."
+    }
+  ]
+}

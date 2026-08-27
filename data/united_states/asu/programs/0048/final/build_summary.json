@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "program_id": "0048",
+  "program_name": "Online Bachelor of Applied Science in Health Sciences",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0048\\final",
+  "input_fact_count": 29,
+  "unique_fact_count": 29,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 29,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 29,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 3,
+    "curriculum": 11,
+    "career": 4,
+    "fees": 2,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 3,
+    "other": 2
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0048\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0048\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0048\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0048\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0048\\final\\fees_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0048\\final\\contacts_data.json",
+    "research": "data\\united_states\\asu\\programs\\0048\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0048\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0048\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0048\\final\\build_summary.json"
+  }
+}

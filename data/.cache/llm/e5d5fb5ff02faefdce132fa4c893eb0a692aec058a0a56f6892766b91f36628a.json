@@ -1,0 +1,137 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "description",
+      "value": "With a written term paper, the student must demonstrate the ability to independently address a problem from a subject area using scientific methods.",
+      "original_value": "Mit einer schriftlichen Hausarbeit soll die oder der Studierende zeigen, dass sie oder er in der Lage ist, ein Problem aus einem Fachgebiet selbstständig nach wissenschaftlichen Methoden zu bearbeiten.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The term paper must be part of a module.",
+      "original_value": "Sie muss Bestandteil eines Moduls sein.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "The term paper may be permitted as group work, provided the contribution of each individual is identifiable based on objective criteria.",
+      "original_value": "Eine Hausarbeit kann als Gruppenarbeit zugelassen werden, wenn der als Prüfungsleistung zu bewertende Beitrag der Einzelnen aufgrund objektiver Kriterien erkennbar ist.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Students may be given the opportunity to propose a topic. The topic is issued by the examiner, who documents the processing time of the term paper.",
+      "original_value": "Der oder dem Studierenden kann Gelegenheit gegeben werden, ein Thema vorzuschlagen. Die Ausgabe des Themas erfolgt durch die oder den Prüfenden, die oder der die Bearbeitungsdauer der Hausarbeit dokumentiert.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "duration",
+      "value": {
+        "min_weeks": 2,
+        "max_weeks": 4
+      },
+      "original_value": "mindestens zwei und längstens vier Wochen Bearbeitungszeit (Vollzeit, d.h. 2 bis 5 CP Workload)",
+      "unit": "weeks",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "undergraduate",
+      "field": "contact_details",
+      "value": "Admission Services, Arizona State University, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "graduate",
+      "field": "contact_details",
+      "value": "Graduate Admission Services, Arizona State University, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "other",
+      "subcategory": "military_transfer_credit",
+      "field": "accepted_military_transcripts",
+      "value": "ASU accepts the following military transcripts for transfer credit: Air Force and Space Force members",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

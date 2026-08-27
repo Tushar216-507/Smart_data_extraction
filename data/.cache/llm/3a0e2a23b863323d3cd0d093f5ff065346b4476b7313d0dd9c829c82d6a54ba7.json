@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "amount",
+      "value": "$75",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "payment_methods",
+      "value": "credit card (Visa, Mastercard or Discover), check",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "payment_address",
+      "value": "Admission Services Applicant Processing, Arizona State University, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_fee",
+      "field": "account_activation_email",
+      "value": "ASU Account Activation",
+      "confidence": 1.0,
+      "programme_association": "Master’s in International Affairs and Leadership"
+    }
+  ]
+}

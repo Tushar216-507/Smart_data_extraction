@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "extension_conditions",
+      "value": "The deadline for fulfilling the requirements is extended upon request if the delay is due to the university or if the student was unable to adhere to the deadline due to serious circumstances.",
+      "original_value": "Die für die Auflagenerfüllung ... nicht in der Lage war, die Frist einzuhalten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "considerations_for_deadline_extension",
+      "value": "Extensions and interruptions due to approved leave semesters, participation in academic or student self-governance, illness, disability, chronic illness, maternity protection, parental leave, necessary childcare, or caring for a close relative are not considered when adhering to deadlines.",
+      "original_value": "Bei der Einhaltung von Fristen werden Verlängerungen ... nicht zu vertretenden Grund; ... Angehörigkeit zu einem A-, B-, C- oder D/C-Kader der Spitzensportverbände.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

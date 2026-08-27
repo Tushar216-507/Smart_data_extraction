@@ -1,0 +1,334 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Bachelor of Science in Economics",
+      "original_value": "B. Sc. Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mikroökonomik 1",
+      "original_value": "Mikroökonomik 1 (OMIK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMIK",
+        "name": "Mikroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Einführung in die Volkswirtschaftslehre",
+      "original_value": "Einführung in die Volkswirtschaftslehre (OVWL)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OVWL",
+        "name": "Einführung in die Volkswirtschaftslehre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophie, Politik und Wirtschaft",
+      "original_value": "Philosophie, Politik und Wirtschaft (OPPE)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OPPE",
+        "name": "Philosophie, Politik und Wirtschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": "Optional module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Vertiefung Mikroökonomik",
+      "original_value": "Vertiefung Mikroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Mikroökonomik",
+        "name": "Vertiefung Mikroökonomik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.A. Wirtschaftssoziologie",
+        "name": "Master of Arts in Economic Sociology"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Wahl Vertiefung Mikroökonomik oder Makroökonomik",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Vertiefung Makroökonomik",
+      "original_value": "Vertiefung Makroökonomik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Vertiefung Makroökonomik",
+        "name": "Vertiefung Makroökonomik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.A. Wirtschaftssoziologie",
+        "name": "Master of Arts in Economic Sociology"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Erfolgreiches Absolvieren des Moduls",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Makroökonomik 1",
+      "original_value": "Makroökonomik 1 (BMAK)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMAK",
+        "name": "Makroökonomik 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theoriegeschichte",
+      "original_value": "Theoriegeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Theoriegeschichte",
+        "name": "Theoriegeschichte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "M.A. Politische Theorie",
+        "name": "Master of Arts in Political Theory"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodul Economics",
+      "original_value": "Wahlpflichtmodul Economics (WPME)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WPME",
+        "name": "Wahlpflichtmodul Economics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "B. Sc. Wirtschaftswissenschaften PO 2022",
+        "name": "Bachelor of Science in Economics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

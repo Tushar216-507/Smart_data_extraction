@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "grades": [
+          {
+            "score": 1,
+            "description": "sehr gut",
+            "meaning": "eine hervorragende Leistung"
+          },
+          {
+            "score": 2,
+            "description": "gut",
+            "meaning": "eine Leistung, die erheblich über den durchschnittlichen Anforderungen liegt"
+          },
+          {
+            "score": 3,
+            "description": "befriedigend",
+            "meaning": "eine Leistung, die durchschnittlichen Anforderungen entspricht"
+          },
+          {
+            "score": 4,
+            "description": "ausreichend",
+            "meaning": "eine Leistung, die trotz ihrer Mängel noch den Anforderungen genügt"
+          },
+          {
+            "score": 5,
+            "description": "nicht ausreichend",
+            "meaning": "eine Leistung, die wegen erheblicher Mängel den Anforderungen nicht mehr genügt"
+          }
+        ],
+        "interval_grading_allowed": true,
+        "intervals": [
+          1.0,
+          1.3,
+          1.7,
+          2.0,
+          2.3,
+          2.7,
+          3.0,
+          3.3,
+          3.7,
+          4.0,
+          5.0
+        ]
+      },
+      "original_value": "Zur differenzierten Bewertung der Prüfungsleistungen können die Noten um 0,3 auf Zwischenwerte angehoben oder abgesenkt werden; zulässig sind die Noten 1,0; 1,3; 1,7; 2,0; 2,3; 2,7; 3,0; 3,3; 3,7; 4,0 und 5,0.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

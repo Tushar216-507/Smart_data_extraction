@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0181",
+  "program_name": "Bachelor of Science in Nursing (General)",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0181\\final",
+  "input_fact_count": 57,
+  "unique_fact_count": 57,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 57,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 57,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 13,
+    "admission": 5,
+    "curriculum": 5,
+    "career": 18,
+    "fees": 14,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 1
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0181\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0181\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0181\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0181\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0181\\final\\fees_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0181\\final\\student_life_data.json",
+    "other": "data\\ireland\\ul\\programs\\0181\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0181\\final\\build_summary.json"
+  }
+}

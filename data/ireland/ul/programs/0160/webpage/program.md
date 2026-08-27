@@ -1,0 +1,9 @@
+Are you interested in clever designs that benefit people’s lives, in how they are produced in the real world meeting high technical standards, and how they are made affordable, accessible and sustainable? Are you interested in interacting with other people to achieve a common goal, and listening to people in a constructive manner? Are you interested in applying problem-solving techniques and practices to big real-world problems? Are you a hands-on person? If so, this course should suit you well.
+
+## What is a Bachelor of Engineering in Design and Manufacture?
+
+Design and Manufacture Engineering covers a range of topics which are directly relevant to solving big real-world problems. As we know, manufacturing is the backbone of modern society and creates the wealth of a nation.
+
+The vision for graduates from the BE in Design and Manufacture programme, is for them to design useful working products, seeing them developed from possibility and concept, through the practicalities of manufacture, to real use, and eventual recycling after their life’s end. In common with all UL programmes, the Engineers Ireland accredited BE in Design and Manufacture includes a cooperative education placement and adheres to traditional educational guidelines of preparation for the profession of engineering.
+
+In choosing to study this programme, you will build upon your skills and aptitude for design and analytical work. You will cover a range of subjects including fundamentals of design and production processes, computer-aided design, automation, materials, quality, capacity planning and simulation, costs and sustainability. The programme follows CDIO principles (Conceive-Design-implement- Operate) including active learning and problem-based learning these are important elements of the programme in each year.

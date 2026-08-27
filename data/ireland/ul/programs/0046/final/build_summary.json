@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0046",
+  "program_name": "Nursing (Psychosocial Interventions in Mental Health Care) - MSc Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0046\\final",
+  "input_fact_count": 19,
+  "unique_fact_count": 19,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 19,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 19,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 11,
+    "admission": 0,
+    "curriculum": 5,
+    "career": 0,
+    "fees": 3,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0046\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0046\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0046\\final\\fees_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0046\\final\\build_summary.json"
+  }
+}

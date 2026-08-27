@@ -1,0 +1,172 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "standard_duration",
+      "value": {
+        "min_semesters": 6,
+        "max_semesters": 8,
+        "type": "Bachelor"
+      },
+      "original_value": "mindestens sechs und höchstens acht Semester für die Bachelorstudiengänge",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "standard_duration",
+      "value": {
+        "min_semesters": 2,
+        "max_semesters": 4,
+        "type": "Master"
+      },
+      "original_value": "mindestens zwei und höchstens vier Semester für die Masterstudiengänge",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "both",
+      "field": "total_credits",
+      "value": {
+        "min_credits": 180,
+        "max_credits": 240,
+        "type": "Bachelor"
+      },
+      "original_value": "mindestens 180 Kreditpunkte und maximal 240 CP",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "both",
+      "field": "total_credits",
+      "value": {
+        "credits": 300,
+        "type": "Master"
+      },
+      "original_value": "300 CP zu erlangen",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "both",
+      "field": "overall_study_duration",
+      "value": {
+        "total_years": 5,
+        "total_semesters": 10
+      },
+      "original_value": "Gesamtregelstudienzeit im Vollzeitstudium fünf Jahre (zehn Semester)",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "part_time_study_conditions",
+      "value": "Regelstudienzeit die doppelte Semesterzahl eines entsprechenden Vollzeitstudiengangs nicht überschreiten.",
+      "original_value": "die Regelstudienzeit die doppelte Semesterzahl eines entsprechenden Vollzeitstudiengangs nicht überschreiten",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

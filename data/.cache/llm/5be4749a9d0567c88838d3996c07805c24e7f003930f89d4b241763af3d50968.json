@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "immunization_requirement",
+      "field": "required_immunization",
+      "value": "Measles, mumps and rubella (MMR) immunization",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "immunization_requirement",
+      "field": "immunization_requirement_details",
+      "value": "All students born after Jan. 1, 1957, are required to meet the MMR immunization requirement before classes begin.",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "immunization_requirement",
+      "field": "documentation_upload",
+      "value": "Students can upload required documentation in their ASU My Health Portal.",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "health_services",
+      "field": "vaccination_availability",
+      "value": "The MMR vaccine is available for a fee at any of ASU's Health Services locations.",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "health_services",
+      "field": "health_services_link",
+      "value": "https://eoss.asu.edu/health/contact",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "health_portal",
+      "field": "my_health_portal_link",
+      "value": "https://asuportal.pointnclick.com/login_dualauthentication.aspx",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    }
+  ]
+}

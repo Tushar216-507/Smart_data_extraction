@@ -1,0 +1,114 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "university_name",
+      "value": "Johann Wolfgang Goethe-University",
+      "original_value": "Johann Wolfgang Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 180,
+      "original_value": "180 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_structure",
+      "value": "The Bachelor’s degree is offered as a single or multi-subject degree.",
+      "original_value": "Das Bachelorstudium wird an der Johann Wolfgang Goethe-Universität als Ein-Fach- oder als Mehr-Fächer-Studium angeboten.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "additional_requirements",
+      "value": "For multi-subject Bachelor programs, combinations must be adhered to, specifying main and subsidiary subjects.",
+      "original_value": "Bei Mehr-Fächer-Studiengängen... das Hauptfach 120 CP und das Nebenfach 60 CP.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "additional_requirements",
+      "value": "The regulations specify that the main subject can be paired with either one or two subsidiary subjects.",
+      "original_value": "Achtsemestrige Mehr-Fächer-Studiengänge können entweder mit einem Hauptfach im Umfang von 180 CP und mit einem Nebenfach im Umfang von 60 CP oder mit einem Hauptfach im Umfang von 120 CP und mit zwei Nebenfächern mit jeweils einem Umfang von 60 CP angeboten werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "facts": [
+    {
+      "category": "scholarships",
+      "field": "description",
+      "value": "All admitted students can access ASU's Scholarship Universe. There are scholarships for a wide range of talents, personal stories, creativity and more. Scholarship Universe includes both ASU and non-ASU scholarships, so there’s something for everyone.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Helpful financial resources",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "url",
+      "value": "https://tuition.asu.edu/cost/tuition-estimator",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Helpful financial resources",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "fees",
+      "field": "url",
+      "value": "https://tuition.asu.edu/financial-aid/cost-comparison",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Helpful financial resources",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "url",
+      "value": "https://tuition.asu.edu/financial-aid/fafsa",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Helpful financial resources",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Helpful financial resources",
+        "chunk_order": 1
+      }
+    },
+    {
+      "category": "admission",
+      "field": "apply_url",
+      "value": "https://webapp4.asu.edu/uga_admissionsapp/",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "steps_to_apply_url",
+      "value": "https://admission.asu.edu/transfer/apply",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fafsa_url",
+      "value": "http://fafsa.gov",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "asu_email_url",
+      "value": "http://my.asu.edu",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "my_asu_residency_link",
+      "value": "http://my.asu.edu",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "residency_classification_office_url",
+      "value": "http://registrar.asu.edu/residency",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "arizona_residency_requirement",
+      "value": "Must be an Arizona resident for tuition purposes.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_community_college_requirement",
+      "value": "Must be a transfer student from an Arizona community college.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "minimum_gpa_requirement",
+      "value": "Must have a minimum 3.50 cumulative transfer GPA.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "financial_need_requirement",
+      "value": "Must demonstrate financial need as determined by the FAFSA.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "defer_your_admission_url",
+      "value": "https://admission.asu.edu/apply/first-year/admitted/cancel-defer",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "admission",
+      "field": "reapply_for_admission_url",
+      "value": "http://asu.edu/apply",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "transfer_achievement_grant_eligibility",
+      "value": "You must continue to meet all eligibility and renewal requirements for the Transfer Achievement Grant, which include submitting a FAFSA each year.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Frequently asked questions",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Frequently asked questions",
+        "chunk_order": 2
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_name",
+      "value": "WST 100 Women, Gender, and Society",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_link",
+      "value": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=WST&catalogNbr=100",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "minimum_grade",
+      "value": "C",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "credit_hours",
+      "value": "3",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_name",
+      "value": "WST 300 Women and Gender in Contemporary Society",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_link",
+      "value": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=WST&catalogNbr=300",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_name",
+      "value": "WST 377 History of American Feminist Thought",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_link",
+      "value": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=WST&catalogNbr=377",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_name",
+      "value": "WST 378 Global Feminist Theory",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_link",
+      "value": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=WST&catalogNbr=378",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_name",
+      "value": "WST 380 Race, Gender, and Class",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_link",
+      "value": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=WST&catalogNbr=380",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "course_name",
+      "value": "WST Elective",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": null,
+        "title": "Program Requirement",
+        "url": null
+      },
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Program Requirement",
+        "chunk_order": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "field": "current_student_contribution",
+      "value": "€2,500",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + EU Students with Free fees status in receipt of a SUSI grant + EU Students with Free fees status not in receipt of a grant + Students with EU fee status not in receipt of a grant + Non-EU Students + Student Contribution + Student Levy",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "current_student_levy",
+      "value": "€104",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Programme Overview + EU Students with Free fees status in receipt of a SUSI grant + EU Students with Free fees status not in receipt of a grant + Students with EU fee status not in receipt of a grant + Non-EU Students + Student Contribution + Student Levy",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "residency",
+      "value": "You must have been living in an EU/EEA member state or Switzerland for at least 3 of the 5 years before starting your course.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "citizenship",
+      "value": "You must be a citizen of an EU/EEA member state or Switzerland or have official refugee status.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "course_requirements",
+      "value": "You must be a first time full-time undergraduate (Exceptions are provided for students who hold a Level 6 or Level 7 qualification and are progressing to a Level 8 course in the same general area of study).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "course_duration",
+      "value": "You must be undertaking a full-time undergraduate course of at least 2 years' duration.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "repeat_year_exceptions",
+      "value": "You cannot be undertaking a repeat year of study at the same level unless evidence of exceptional circumstances eg serious illness is provided (in which case this condition may be waived).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "free_fee_status",
+      "value": "You satisfy all three categories (1, 2 and 3) and therefore are eligible for the Higher Education Authority’s Free Fees scheme.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "eu_fee_status",
+      "value": "You satisfy both the citizenship and residency criteria but fail to satisfy the course requirements and are liable to EU fees.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "non_eu_fee_status",
+      "value": "You do not meet either the citizenship or residency criteria and are therefore liable to Non EU fees.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "fees_information_url",
+      "value": "/finance/about-finance/finance-documents#fees",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Tuition Fees",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "available_scholarships",
+      "value": "A range of scholarships available to all students.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "academic_scholarships_description",
+      "value": "Academic scholarships that are both course specific as well as others that are available to everyone.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "sports_scholarships_description",
+      "value": "Sports scholarships for our budding sports stars.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "international_students_scholarships_description",
+      "value": "Scholarships for international students studying with us.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Scholarships",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "erasmus_definition",
+      "value": "ERASMUS stands for EuRopean community Action Scheme for the Mobility of University Students.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "erasmus_history",
+      "value": "The ERASMUS programme was originally established as the SOCRATES programme in 1987.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "erasmus_success",
+      "value": "It has proved to be one of the most successful projects of the European Union and now offers a wider range of opportunities under the new Erasmus+ programme.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "erasmus_aim",
+      "value": "The main aim of the Erasmus+ programme is to improve students' skills and ultimately their employability as well as to support the modernisation of education and training systems across Europe.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "employer_rating",
+      "value": "The programme is also highly rated by employers.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "employability_impact_study",
+      "value": "A recent Erasmus+ Impact Study shows that the programme enhances students’ employability abroad, improves transferrable skills and enhances career development.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "ERASMUS",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "erasmus_participation_since",
+      "value": "1988",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "best_erasmus_programme_awards",
+      "value": "2018, 2019, 2022, 2024, 2025",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "largest_outgoing_cohort",
+      "value": "approximately 600",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "semester_abroad_recognition",
+      "value": "approved and academically recognised as part of the student's degree programme at UL",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "courses_with_compulsory_semester_abroad",
+      "value": "Arts (LM002), Social Sciences (LM019), Applied Languages (LM044), European Studies (LM040), International Business (LM056), Psychology & Sociology (LM038), Global Politics (LM030), Journalism & Digital Communication (LM039), Psychology (LM102)",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "tuition_fees_during_abroad",
+      "value": "students do not pay tuition fees at the host University",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "eu_mobility_grant",
+      "value": "may receive an EU mobility grant, to assist with the added cost of living abroad",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "scholarships",
+      "field": "impact_of_grant_on_local_funding",
+      "value": "this grant should not affect any other local grant funding, for example, the SUSI grant",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "student_life",
+      "field": "information_sessions_schedule",
+      "value": "held each semester",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "UL and ERASMUS + Find out more",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    }
+  ]
+}

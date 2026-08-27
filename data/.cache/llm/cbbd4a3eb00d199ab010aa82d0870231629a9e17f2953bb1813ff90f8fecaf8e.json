@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "category": "thesis",
+      "scope": "programme",
+      "field": "thesis",
+      "value": "Master's thesis",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 20,
+      "original_value": "20 Wochen",
+      "unit": "weeks",
+      "entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "word_count",
+      "scope": "programme",
+      "field": "word_count",
+      "value": {
+        "min": 15000,
+        "max": 16000
+      },
+      "original_value": "etwa 15.000 bis 16.000 Wörter",
+      "unit": "words",
+      "entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

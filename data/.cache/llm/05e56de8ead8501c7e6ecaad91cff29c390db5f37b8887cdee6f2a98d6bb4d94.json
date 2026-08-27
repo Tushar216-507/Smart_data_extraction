@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master Thesis and Thesis Seminar",
+      "original_value": "Master Thesis und Thesis Seminar",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "import_modules_information",
+      "value": "Students can take certain modules from other departments, known as import modules, based on existing cooperation agreements.",
+      "original_value": "Im Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie bestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "module_regulation_information",
+      "value": "Import modules from other programs are subject to the examination regulations of the exporting department.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "module_description_regulation_information",
+      "value": "The module descriptions and conditions for earning credits must follow the applicable version of the examination regulations from the respective home study program.",
+      "original_value": "Es gelten die Modulbeschreibungen und die Bedingungen zum Erwerb von CP gemäß der gültigen Fassung der Prüfungsordnung des jeweiligen Herkunftsstudienganges.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

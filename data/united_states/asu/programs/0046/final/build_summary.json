@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0046",
+  "program_name": "Online Bachelor of Arts in Business – Communication",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0046\\final",
+  "input_fact_count": 236,
+  "unique_fact_count": 229,
+  "exact_duplicate_count": 7,
+  "handled_fact_count": 228,
+  "unhandled_fact_count": 1,
+  "written_fact_count": 229,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 26,
+    "admission": 0,
+    "curriculum": 79,
+    "career": 9,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 4,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 105
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0046\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0046\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0046\\final\\career_data.json",
+    "contacts": "data\\united_states\\asu\\programs\\0046\\final\\contacts_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0046\\final\\student_life_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0046\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0046\\final\\other_data.json",
+    "unhandled": "data\\united_states\\asu\\programs\\0046\\final\\unhandled_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0046\\final\\build_summary.json"
+  }
+}

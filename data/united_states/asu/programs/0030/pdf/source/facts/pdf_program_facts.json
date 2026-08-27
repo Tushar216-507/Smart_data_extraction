@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "program_id": "0030",
+    "page_id": "unknown",
+    "document_id": "source",
+    "source_filename": "source.pdf",
+    "source_pdf": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+    "document_data": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\extracted\\document_data.json",
+    "evidence_file": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "identity": {
+    "university_name": "asu",
+    "program_name": "Online Master of Social Work (MSW)"
+  },
+  "extraction": {
+    "extractor": "PDFFactExtractor",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.0,
+    "max_tokens": 12000,
+    "generated_at": "2026-08-26T08:42:56Z",
+    "output_file": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\facts\\pdf_program_facts.json"
+  },
+  "summary": {
+    "evidence_chunks_available": 2,
+    "evidence_chunks_processed": 2,
+    "successful_chunks": 2,
+    "failed_chunks": 0,
+    "chunks_with_facts": 2,
+    "facts_before_deduplication": 3,
+    "exact_duplicates_removed": 0,
+    "facts_written": 3,
+    "unique_pages_referenced": 1,
+    "page_numbers": [
+      1
+    ]
+  },
+  "distribution": {
+    "by_category": {
+      "admission": 2,
+      "identity": 1
+    },
+    "by_field": {
+      "experience_requirements": 1,
+      "minimum_experience_required": 1,
+      "university_name": 1
+    },
+    "by_entity_type": {
+      "program": 2,
+      "university": 1
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "pdf_source_0001_c3d5f6d345e2",
+      "category": "identity",
+      "field": "university_name",
+      "value": "Arizona State University School of Social Work",
+      "original_value": "Arizona State University School of Social Work",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Arizona State University School of Social Work"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "Online Master of Social Work (MSW)"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0030",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+        "document_data": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "contains_table": false,
+        "table_count": 0,
+        "content_sha256": "5c5790d5b48b4eac47e8a6188cdb801c9197eed5f10f86b8b9230dfa3a9fd8a6"
+      },
+      "evidence": {
+        "text": "## Document overview\n\n<!-- PageHeader=\"Arizona State University School of Social Work\" -->",
+        "chunk_id": "pdf_source_0001",
+        "section_title": "Document overview",
+        "section_type": "identity_overview",
+        "pages": [
+          1
+        ],
+        "content_sha256": "5c5790d5b48b4eac47e8a6188cdb801c9197eed5f10f86b8b9230dfa3a9fd8a6"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0002_63b706d2fc8f",
+      "category": "admission",
+      "field": "minimum_experience_required",
+      "value": 240,
+      "original_value": "240 hours",
+      "unit": "hours",
+      "entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "Online Master of Social Work (MSW)"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "asu"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "volunteer/work experience",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0030",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+        "document_data": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "MSW Program Application - Social Work or Human Services Experience (240 hours)",
+        "section_type": "admission",
+        "pages": [
+          1
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "3749e34b14d3761aad89155b1960708cbcd3929f6bbbc99e5848819d474fd962"
+      },
+      "evidence": {
+        "text": "# MSW Program Application - Social Work or Human Services Experience (240 hours)\n\nAll MSW Program applicants must have completed a minimum of 240 hours of volunteer and/or work experience in social services in the past five\nyears. The experience must include face-to-face contact with people in need. Please complete the following table with a very specific description of\nyour duties/activities and the hours and dates of your experience.\n\n<table>\n<tr>\n<th>Dates of Volunteer/Work Experience (month/year)</th>\n<th>Total # Hours Completed</th>\n<th>Agency or Company</th>\n<th>Position Title</th>\n<th>Description of Volunteer/Work Duties/Activities</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n<!-- PageFooter=\"5/17/23\" -->",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "MSW Program Application - Social Work or Human Services Experience (240 hours)",
+        "section_type": "admission",
+        "pages": [
+          1
+        ],
+        "content_sha256": "3749e34b14d3761aad89155b1960708cbcd3929f6bbbc99e5848819d474fd962"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 1
+      }
+    },
+    {
+      "fact_id": "pdf_source_0003_a0014fe485a4",
+      "category": "admission",
+      "field": "experience_requirements",
+      "value": "All MSW Program applicants must have completed a minimum of 240 hours of volunteer and/or work experience in social services in the past five years. The experience must include face-to-face contact with people in need.",
+      "original_value": "All MSW Program applicants must have completed a minimum of 240 hours of volunteer and/or work experience in social services in the past five years. The experience must include face-to-face contact with people in need.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0030",
+        "name": "Online Master of Social Work (MSW)"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "asu"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0,
+      "source": {
+        "source_type": "pdf",
+        "provider": "Azure AI Document Intelligence",
+        "program_id": "0030",
+        "page_id": "unknown",
+        "document_id": "source",
+        "source_filename": "source.pdf",
+        "source_pdf": "data\\united_states\\asu\\programs\\0030\\pages\\0001\\assets\\source.pdf",
+        "document_data": "data\\united_states\\asu\\programs\\0030\\pdf\\source\\extracted\\document_data.json",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "MSW Program Application - Social Work or Human Services Experience (240 hours)",
+        "section_type": "admission",
+        "pages": [
+          1
+        ],
+        "contains_table": true,
+        "table_count": 1,
+        "content_sha256": "3749e34b14d3761aad89155b1960708cbcd3929f6bbbc99e5848819d474fd962"
+      },
+      "evidence": {
+        "text": "# MSW Program Application - Social Work or Human Services Experience (240 hours)\n\nAll MSW Program applicants must have completed a minimum of 240 hours of volunteer and/or work experience in social services in the past five\nyears. The experience must include face-to-face contact with people in need. Please complete the following table with a very specific description of\nyour duties/activities and the hours and dates of your experience.\n\n<table>\n<tr>\n<th>Dates of Volunteer/Work Experience (month/year)</th>\n<th>Total # Hours Completed</th>\n<th>Agency or Company</th>\n<th>Position Title</th>\n<th>Description of Volunteer/Work Duties/Activities</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n<!-- PageFooter=\"5/17/23\" -->",
+        "chunk_id": "pdf_source_0002",
+        "section_title": "MSW Program Application - Social Work or Human Services Experience (240 hours)",
+        "section_type": "admission",
+        "pages": [
+          1
+        ],
+        "content_sha256": "3749e34b14d3761aad89155b1960708cbcd3929f6bbbc99e5848819d474fd962"
+      },
+      "extraction": {
+        "extractor": "PDFFactExtractor",
+        "model": "openai/gpt-oss-120b",
+        "fact_index_in_chunk": 2
+      }
+    }
+  ],
+  "chunk_results": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 1,
+      "error": null
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "status": "success",
+      "attempts": 1,
+      "facts_extracted": 2,
+      "error": null
+    }
+  ],
+  "failed_chunks": [],
+  "quality": {
+    "all_facts_have_ids": true,
+    "all_facts_have_values": true,
+    "all_facts_have_sources": true,
+    "all_facts_have_chunk_ids": true,
+    "all_facts_have_content_hashes": true,
+    "page_traceability_available": true,
+    "partial_extraction": false
+  }
+}

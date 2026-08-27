@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "requirements_for_master_examination",
+      "value": "Admission to the Master's examination requires enrollment in the respective program at Johann Wolfgang Goethe University.",
+      "original_value": "Die Zulassung zur Masterprüfung setzt die Immatrikulation in dem jeweiligen Studiengang der Johann Wolfgang Goethe-Universität voraus.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "application_procedure",
+      "value": "Students must submit a completed application form for the Master's examination to the examination office before the first examination performance of a module.",
+      "original_value": "Spätestens mit der Meldung zur ersten Prüfungsleistung eines Moduls an der Johann Wolfgang Goethe-Universität hat die oder der Studierende ein vollständig ausgefülltes Anmeldeformular zur Masterprüfung beim Prüfungsamt einzureichen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "application_documents",
+      "value": "The application must include a statement regarding previous unsuccessful examinations and evidence of study or examination performances.",
+      "original_value": "Diesem sind insbesondere beizufügen: eine Erklärung darüber, ob die oder der Studierende bereits eine Zwischen- oder Abschlussprüfung im Masterstudiengang oder in einem anderen vergleichbaren Studiengang an einer Hochschule in Deutschland oder im Ausland endgültig nicht bestanden hat oder - gegebenenfalls unter Angabe von Fehlversuchen - ob sie oder er ein Prü-fungsverfahren in einem solchen Studiengang nicht abgeschlossen hat; ggf. Nachweise über bereits erbrachte Studien- oder Prüfungsleistungen, die in den Studiengang eingebracht werden sollen; ggf. Nachweise über fachspezifische Fremdsprachenkenntnisse; Nachweis über die Zahlung der nach dieser Ordnung zu entrichtenden Prüfungsgebühr (§ 33).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "reasons_for_denial",
+      "value": "Admission can be denied if the required documents are not provided or if the student has failed related examinations.",
+      "original_value": "Die Zulassung zur Masterprüfung muss versagt werden, wenn die oder der Studierende die in Abs. 2 genannten Nachweise nicht erbringt; die oder der Studierende die Zwischenprüfung oder Abschlussprüfung in demselben oder einem verwandten Masterstudiengang beziehungsweise Studienfach an einer Hochschule endgültig nicht bestanden hat oder sich in einem solchen in einer noch nicht abgeschlossenen Modulprüfung befindet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

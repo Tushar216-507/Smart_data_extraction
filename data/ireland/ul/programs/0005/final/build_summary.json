@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "program_id": "0005",
+  "program_name": "Bachelor/Master of Engineering in Electrical Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0005\\final",
+  "input_fact_count": 173,
+  "unique_fact_count": 173,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 169,
+  "unhandled_fact_count": 4,
+  "written_fact_count": 173,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 15,
+    "admission": 82,
+    "curriculum": 7,
+    "career": 0,
+    "fees": 19,
+    "scholarships": 13,
+    "contacts": 6,
+    "student_life": 3,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 7,
+    "statistics": 0,
+    "other": 17
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0005\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0005\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0005\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0005\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0005\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0005\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0005\\final\\student_life_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0005\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0005\\final\\other_data.json",
+    "unhandled": "data\\ireland\\ul\\programs\\0005\\final\\unhandled_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0005\\final\\build_summary.json"
+  }
+}

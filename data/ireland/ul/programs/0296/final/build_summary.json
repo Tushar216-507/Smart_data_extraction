@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0296",
+  "program_name": "Bachelor of Science in Computer Games Development",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0296\\final",
+  "input_fact_count": 136,
+  "unique_fact_count": 136,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 136,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 136,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 5,
+    "admission": 17,
+    "curriculum": 19,
+    "career": 8,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 87
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0296\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0296\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0296\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0296\\final\\career_data.json",
+    "other": "data\\ireland\\ul\\programs\\0296\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0296\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "facts": [
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "english_language_requirements",
+      "value": "B2 level English language proficiency as per the Common European Framework of Reference for Languages",
+      "original_value": "Englischkenntnissen auf dem Sprachniveau B2 des „Gemeinsamen europäischen Referenzrahmens für Sprachen des Europarates“",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "access_condition",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "accepted_english_proficiency_documents",
+      "value": [
+        "High school certificate (Abiturzeugnis)",
+        "Upper secondary school certificates",
+        "Proof of five years of English instruction",
+        "UNIcert Level 2 certificate",
+        "TOEFL test with a minimum score of 87"
+      ],
+      "original_value": [
+        "Abiturzeugnis",
+        "Oberstufenzeugnisse",
+        "Nachweis über fünfjährigen Schulunterricht in Englisch",
+        "UNIcert-Abschluss der Stufe 2",
+        "TOEFL-Test (Internet-basierter Score mindestens 87)"
+      ],
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "access_condition",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "indonesian_or_malay_language_requirements",
+      "value": "Sufficient knowledge of Indonesian (Bahasa Indonesia) or Malaysian (Bahasa Malaysia) is required.",
+      "original_value": "ausreichende Sprachkenntnisse des Indonesischen (Bahasa Indonesia) oder Malaysischen (Bahasa Malaysia) sind erforderlich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "access_condition",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "indonesian_or_malay_knowledge_proof",
+      "value": "Proof of knowledge must meet the standards after successful completion of specific beginner courses or equivalent 200 hours of language instruction.",
+      "original_value": "Nachweis... mindestens dem Kenntnisstand im Bachelor Sprachen und Kulturen Südostasiens nach... Grundkursmodule SKS1 und SKS 2 bzw. mindestens 200 Stunden Sprachunterricht auf Universitätsniveau entsprechen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "access_condition",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "submission_of_language_proof_deadline",
+      "value": "Proof of language proficiency must be submitted during the first semester to the examination board.",
+      "original_value": "Der Nachweis... innerhalb des ersten Fachsemesters dem Prüfungsausschuss vorzulegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "conditional",
+        "requirement_type": "access_condition",
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "language",
+      "scope": "programme",
+      "field": "conditional_enrollment_provision",
+      "value": "Enrollment may occur provisionally while language proof is being submitted.",
+      "original_value": "Einschreibung unter Vorbehalt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "conditional",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

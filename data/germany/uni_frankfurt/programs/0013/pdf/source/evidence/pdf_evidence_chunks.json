@@ -1,0 +1,630 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-26T08:47:51.507712+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Master Thesis and Thesis Seminar",
+    "program_id": "0013",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+    "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+    "document_data_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 14
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 37021,
+    "cleaned_character_count": 36936,
+    "characters_removed": 85,
+    "sections_detected": 2,
+    "chunks_created": 12,
+    "total_chunk_characters": 13254,
+    "total_chunk_words": 3299,
+    "chunks_with_page_references": 11,
+    "chunks_without_page_references": 1,
+    "chunks_containing_tables": 11,
+    "repeated_noise_lines_removed": 4,
+    "section_type_counts": {
+      "curriculum": 11,
+      "identity_overview": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\germany\\uni_frankfurt\\programs\\0013\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "## Document overview\n\n<!-- PageHeader=\"Goethe-Universität | 60629 Frankfurt am Main Fachbereich Wirtschaftswissenschaften | Prüfungsamt (Stand: 01.10.2025)\" -->\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 69,
+        "word_count": 7,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "f065a761f5c82ea5f289abe5c58d5e01bd2f07269244855bcf2ca269d0006344",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          2
+        ],
+        "page_start": 2,
+        "page_end": 2
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\nIm Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie\nbestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis\nvon bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich, die im\nFolgenden zusammengefasst sind.\n\nPro Studiengang ist zusammengestellt, welche Importmodule Sie an anderen Fachbereichen anmelden\nund wie Sie diese Importmodule in Ihren Studiengang am Fachbereich Wirtschaftswissenschaften\neinbringen können. Darüber hinaus können Sie keine anderen Module von anderen Fachbereichen in\nIhren Studiengang am Fachbereich Wirtschaftswissenschaften einbringen und auch keine\nabweichenden Credit Points (CP) erlangen.\n\nImportmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des\nexportierenden Fachbereichs (Herkunftsordnung). Es gelten die Modulbeschreibungen und die\nBedingungen zum Erwerb von CP gemäß der gültigen Fassung der Prüfungsordnung des jeweiligen\nHerkunftsstudienganges.\n\nBitte prüfen Sie zwingend die Modulangaben der anbietenden Studiengänge. Die Meldung zu den\nPrüfungen erfolgt i.d.R. via QIS zu den jeweiligen Fristen der zuständigen Prüfungsämter an den\nanderen Fachbereichen. Abweichend davon werden „Optionalmodule“ an anderen Fachbereichen\nteilweise mit Modulzetteln verwaltet.\n\nInhalt\n\nB.Sc. Wirtschaftswissenschaften\n3\n\nWPMX - Freier Bereich\n3\n\nFB02 - B.Sc. Wirtschaftspädagogik\n3\n\nFB03 - B.A. NF Soziologie\n\n3\n\nFB03 - B.A. NF Politikwissenschaft\n\nFB05 - B.Sc. Psychologie\n\nFB09 - B.A. Sinologie\n\nFB11 - B.A. NF Geographie\n\nFB12 - B.Sc. Informatik\n\nWPMO - Optionalmodul\n\nFB02 - B.Sc. Wirtschaftspädagogik\n\nFB03 - B.A. NF Soziologie\n\nFB03 - B.A. NF Politikwissenschaft.\n\nFB05 - B.Sc. Psychologie\n\nFB09 - B.A. Sinologie\n\nFB09 - weitere Sprachen\n\nFB11 - B.A. NF Geographie\n\nFB12 - B.Sc. Informatik\n\nWechselnde Angebote\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 1 von 14 -\" -->\n<!-- PageBreak -->\n\n<figure>\n</figure>\n\n<table>\n<tr>\n<th>Goethe-Universität | 60629 Frankfurt am Main Fachbereich Wirtschaftswissenschaften | Prüfungsamt</th>\n<th>GOETHE</th>\n</tr>\n<tr>\n<td>(Stand: 01.10.2025)</td>\n<td>UNIVERSITÄT FRANKFURT AM MAIN</td>\n</tr>\n<tr>\n<td>B.Sc. Wirtschaftspädagogik</td>\n<td>7</td>\n</tr>\n<tr>\n<td>Studienrichtung II</td>\n<td>7</td>\n</tr>\n<tr>\n<td>Lehramt - Studien- und Prüfungsordnungen (SPOL)</td>\n<td>7</td>\n</tr>\n<tr>\n<td>WPMO - Optionalmodul</td>\n<td>7</td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Soziologie</td>\n<td>7</td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Politikwissenschaft.</td>\n<td>7</td>\n</tr>\n<tr>\n<td>FB05 - B.Sc. Psychologie</td>\n<td>7</td>\n</tr>\n<tr>\n<td>FB09 - B.A. Sinologie</td>\n<td>8</td>\n</tr>\n<tr>\n<td>FB09 - weitere Sprachen</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Wechselnde Angebote</td>\n<td>8</td>\n</tr>\n<tr>\n<td>M.Sc. Betriebswirtschaftslehre</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Management</td>\n<td>8</td>\n</tr>\n<tr>\n<td>FB 09 - M.A. Modern East Asian Studies</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Information Management</td>\n<td>8</td>\n</tr>\n<tr>\n<td>FB 12 - M.Sc. Informatik</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Freier Bereich</td>\n<td>8</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. International Economics and Economic Policy</td>\n<td>8</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative „Quantitative Finance“ und „Quantitative Marketing“</td>\n<td>Economics“, 9</td>\n</tr>\n<tr>\n<td>M.Sc. Management Science</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Management</td>\n<td>10</td>\n</tr>\n<tr>\n<td>FB 09 - M.A. Modern East Asian Studies</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Freier Bereich</td>\n<td>10</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. International Economics and Economic Policy</td>\n<td>10</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative „Quantitative Finance“ und „Quantitative Marketing“</td>\n<td>Economics“, 10</td>\n</tr>\n<tr>\n<td>M.Sc. Wirtschaftspädagogik</td>\n<td>12</td>\n</tr>\n<tr>\n<td>Studienrichtung I</td>\n<td>12</td>\n</tr>\n<tr>\n<td>FB 01 - NF Rechtswissenschaft</td>\n<td>12</td>\n</tr>\n<tr>\n<td>FB 02 - M.Sc. Betriebswirtschaftslehre</td>\n<td>12</td>\n</tr>\n<tr>\n<td>FB 05 - B.Sc. Psychologie</td>\n<td>12</td>\n</tr>\n<tr>\n<td>Studienrichtung II</td>\n<td>12</td>\n</tr>\n<tr>\n<td>FB 02 - M.Sc. Betriebswirtschaftslehre</td>\n<td>12</td>\n</tr>\n<tr>\n<td>FB 02 - B.Sc. Wirtschaftspädagogik</td>\n<td>12</td>\n</tr>\n<tr>\n<td>Lehramt - Studien- und Prüfungsordnungen (SPOL)</td>\n<td>12</td>\n</tr>\n<tr>\n<td>M.Sc. International Economics and Economic Policy</td>\n<td>13</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1599,
+        "word_count": 454,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e122b311886acfd185355819714cd29fa60d3ab25b241b92531e2d8195f2a705",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 2,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 2 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n13\n\n</figure>\n\nElectives\n\nFB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“,\n„Quantitative Finance“ und „Quantitative Marketing“\n13\n\nM.Sc. Money, Macro and Finance\n14\n\nElectives\n14\n\nFB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“,\n„Quantitative Finance“ und „Quantitative Marketing“\n14\n\n<table>\n<tr>\n<th colspan=\"3\">B.Sc. Wirtschaftswissenschaften</th>\n</tr>\n<tr>\n<th>WPMX - Freier Bereich</th>\n<th></th>\n<th></th>\n</tr>\n<tr>\n<td>FB02 - B.Sc. Wirtschaftspädagogik</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Grundlagen der Wirtschaftspädagogik (OWIP)</td>\n<td>5</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Wirtschaftsenglisch A-D</td>\n<td>6</td>\n<td>Anmeldung via Wirtschaftssprachen - Qualifying Test obligatorisch</td>\n</tr>\n<tr>\n<td>Wirtschaftsfranzösisch A-D</td>\n<td>6</td>\n<td>Anmeldung via Wirtschaftssprachen - Qualifying Test obligatorisch</td>\n</tr>\n<tr>\n<td>Wirtschaftsspanisch A-D</td>\n<td>6</td>\n<td>Anmeldung via Wirtschaftssprachen - Qualifying Test obligatorisch</td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Soziologie</td>\n<td>CP</td>\n<td>Wahl eines 1 Moduls mit 2 Teilen - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Sozialstruktur und Soziale Ungleichheit</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>Kultur, Subjekt, Identität</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>Wirtschaft und Technik - Arbeit und Organisation</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>Geschlecht, Migration, Wissensproduktion</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>Soziologische Theorien</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 3 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 998,
+        "word_count": 255,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "782fcb5b92f3173143083fddda35063a96826bae8f370a33adfef1f8d939452a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 3,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          4
+        ],
+        "page_start": 4,
+        "page_end": 4
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<th>FB03 - B.A. NF Politikwissenschaft</th>\n<th>CP</th>\n<th>Wahl eines 1 Moduls mit 2 Teilen - Anmeldung via QIS</th>\n</tr>\n<tr>\n<td>Politische Theorie</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>Vergleichende Politikwissenschaft</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>Internationale Beziehungen</td>\n<td>10</td>\n<td>2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend</td>\n</tr>\n<tr>\n<td>FB05 - B.Sc. Psychologie</td>\n<td>CP</td>\n<td>Belegverfahren und Beratung am Fachbereich Psychologie</td>\n</tr>\n<tr>\n<td>Allgemeine Psychologie I (PsyBsc4)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Sozialpsychologie (PsyBsc5)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Differentielle Psychologie (PsyBsc6)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Klinische Psychologie: Psychische Störungen (VL) (PsyBsc 9 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Allgemeine Psychologie II (PsyBsc11)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Entwicklungspsychologie (PsyBsc12)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Biologische Psychologie (PsyBsc13)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Grundlagen der Psychologie: Vertiefung (PsyBsc14)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Basismodul Pädagogische Psychologie (VL) (PsyBsc 15 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Basismodul Arbeits- und Organisationpsychologie (VL) (PsyBsc 16 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>FB09 - B.A. Sinologie</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Einführung in die Sinologie (G1)</td>\n<td>6</td>\n<td>WiSe: 2 Teilmodule G1-PS (3CP) und G1-V/Ü (3CP) - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</td>\n</tr>\n<tr>\n<td>Fachliche und formale Grundkenntnisse der Sinologie (G2)</td>\n<td>9</td>\n<td>SoSe: 2 Teilmodule G2-PS (5CP) und G2-Ü (4CP) mit Voraussetzung G1-PS - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</td>\n</tr>\n<tr>\n<td>FB11 - B.A. NF Geographie</td>\n<td>CP</td>\n<td>Kumulativ möglich - Modulzettel</td>\n</tr>\n<tr>\n<td>Grundlagen der Humangeographie (HGeo-NF1)</td>\n<td>8</td>\n<td>Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 4 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1198,
+        "word_count": 307,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      "traceability": {
+        "content_sha256": "22f899dc75192f12cd407cea42cc84f0395e1bdfc95666af912b2872c44e42f9",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 4,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<th>Praxisfelder der Humangeographie (HGeo-NF2)</th>\n<th>8</th>\n<th>Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</th>\n</tr>\n<tr>\n<td>FB12 - B.Sc. Informatik</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Programmierung von Datenbanken (B-PDB)</td>\n<td>6</td>\n<td></td>\n</tr>\n<tr>\n<td>Einführung in die Methoden der Künstlichen Intelligenz (B-KI)</td>\n<td>5</td>\n<td></td>\n</tr>\n<tr>\n<td>NLP-gestützte Data Science (B-NLP-DS)</td>\n<td>6</td>\n<td></td>\n</tr>\n<tr>\n<td>Texttechnologische Datenanalyse (B-TTDA)</td>\n<td>6</td>\n<td></td>\n</tr>\n<tr>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td>WPMO - Optionalmodul</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>FB02 - B.Sc. Wirtschaftspädagogik</td>\n<td>CP</td>\n<td>Kumulativ möglich - sofern das Modul nicht bereits als WPMX erbracht wurde</td>\n</tr>\n<tr>\n<td>Grundlagen der Wirtschaftspädagogik (OWIP)</td>\n<td>5</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Bedingungen und Strukturen des beruflichen Lernens (BWIP)</td>\n<td>6</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Wirtschaftsenglisch A-D</td>\n<td>6</td>\n<td>Anmeldung via Wirtschaftssprachen - Qualifying Test obligatorisch. Nicht als WPMO möglich bei Studienrichtung II Englisch</td>\n</tr>\n<tr>\n<td>Wirtschaftsfranzösisch A-D</td>\n<td>6</td>\n<td>Anmeldung via Wirtschaftssprachen - Qualifying Test obligatorisch. Nicht als WPMO möglich bei Studienrichtung II Französisch</td>\n</tr>\n<tr>\n<td>Wirtschaftsspanisch A-D</td>\n<td>6</td>\n<td>Anmeldung via Wirtschaftssprachen - Qualifying Test obligatorisch. Nicht als WPMO möglich bei Studienrichtung II Spanisch</td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Soziologie</td>\n<td>3/7</td>\n<td>Wahl nach Kapazitäten - Informationen / WPMO Modulzettel (pro Lehrveranstaltung 3 CP TN + 4 CP Prüfung möglich)</td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Politikwissenschaft</td>\n<td>3/7</td>\n<td>Wahl nach Kapazitäten - Informationen / WPMO Modulzettel (pro Lehrveranstaltung 3 CP TN + 4 CP Prüfung möglich)</td>\n</tr>\n<tr>\n<td>FB05 - B.Sc. Psychologie</td>\n<td>CP</td>\n<td>Belegverfahrern und Beratung am Fachbereich Psychologie - sofern das Modul nicht bereits als WPMX erbracht wurde</td>\n</tr>\n<tr>\n<td>Allgemeine Psychologie I (PsyBsc4)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Sozialpsychologie (PsyBsc5)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Differentielle Psychologie (PsyBsc6)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 5 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1031,
+        "word_count": 260,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2a69af7f3eac75dd9325f48d281640763f364b686b1acdaae9e92d9dd191aa7f",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 5,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          6,
+          7
+        ],
+        "page_start": 6,
+        "page_end": 7
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<th>Klinische Psychologie: Psychische Störungen (VL) (PsyBsc 9 - Vorlesung/Prüfung)</th>\n<th>4</th>\n<th>Modulzettel wird in der Beratung ausgegeben</th>\n</tr>\n<tr>\n<td>Allgemeine Psychologie II (PsyBsc11)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Entwicklungspsychologie (PsyBsc12)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Biologische Psychologie (PsyBsc13)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Grundlagen der Psychologie: Vertiefung (PsyBsc14)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Basismodul Pädagogische Psychologie (VL) (PsyBsc 15 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Basismodul Arbeits- und Organisationpsychologie (VL) (PsyBsc 16 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>FB09 - B.A. Sinologie</td>\n<td></td>\n<td>Angebot in LSF unter Optionalmodul eingestellt - Modulzettel</td>\n</tr>\n<tr>\n<td>FB09 - weitere Sprachen</td>\n<td></td>\n<td>Interessen- und Kapzitätsklärung via Julia Becher (FB09)</td>\n</tr>\n<tr>\n<td>FB11 - B.A. NF Geographie</td>\n<td>CP</td>\n<td>Kumulativ möglich - Modulzettel</td>\n</tr>\n<tr>\n<td>Grundlagen der Humangeographie (HGeo-NF1)</td>\n<td>8</td>\n<td>Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</td>\n</tr>\n<tr>\n<td>Praxisfelder der Humangeographie (HGeo-NF2)</td>\n<td>8</td>\n<td>Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</td>\n</tr>\n<tr>\n<td>Frankfurter Kolloqium zur Humangeographie (HGeo-NF5, LVI+II))</td>\n<td>4</td>\n<td>Zweisemestriges Modul - erfolgreiches Bestehen des Gesamtmoduls obligatorisch</td>\n</tr>\n<tr>\n<td>FB12 - B.Sc. Informatik</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Programmierung von Datenbanken (B-PDB)</td>\n<td>6</td>\n<td></td>\n</tr>\n<tr>\n<td>Einführung in die Methoden der Künstlichen Intelligenz (B-KI)</td>\n<td>5</td>\n<td></td>\n</tr>\n<tr>\n<td>NLP-gestützte Data Science (B-NLP-DS)</td>\n<td>6</td>\n<td></td>\n</tr>\n<tr>\n<td>Texttechnologische Datenanalyse (B-TTDA)</td>\n<td>6</td>\n<td></td>\n</tr>\n<tr>\n<td>Wechselnde Angebote</td>\n<td>CP</td>\n<td>Angebot in LSF, Modulzettel</td>\n</tr>\n<tr>\n<td>Ringvorlesung Goethe Teaches Sustainability (+ Prüfung)</td>\n<td>3</td>\n<td>Anmeldung dezentral, Zertifikat</td>\n</tr>\n<tr>\n<td>VAN Goethe Teaches Sustainability (+ Prüfung)</td>\n<td>3</td>\n<td>Anmeldung dezentral, Zertifikat</td>\n</tr>\n<tr>\n<td>Bildungswissenschaften - Start ins Deutsche</td>\n<td>2</td>\n<td>Anmeldung dezentral, Zertifikat</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 6 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<table>\n<tr>\n<td>Skandinavistik</td>\n<td>Anmeldung dezentral, Modulzettel</td>\n</tr>\n<tr>\n<td>Angebote in LSF unter Optionalmodul</td>\n<td>Anmeldung dezentral, Bedingungen der einzelnen Veranstaltungen beachten, Modulzettel</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1199,
+        "word_count": 273,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          6,
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d0521852609af4bf35d60c88721d8d2f1eb3989ed327c2bc96b99260e7af241e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 6,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          7,
+          8
+        ],
+        "page_start": 7,
+        "page_end": 8
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<th colspan=\"3\">B.Sc. Wirtschaftspädagogik</th>\n</tr>\n<tr>\n<th>Studienrichtung II</th>\n<th></th>\n<th>Kumulativ möglich - Anmeldung via QIS</th>\n</tr>\n<tr>\n<td>Lehramt - Studien- und Prüfungsordnungen (SPoL)</td>\n<td>CP</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>L2/L3-Lehramtsmodule</td>\n<td></td>\n<td>Gemäß Fachvereinbarungen</td>\n</tr>\n<tr>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td>WPMO - Optionalmodul</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Soziologie</td>\n<td>3/7</td>\n<td>Wahl nach Kapazitäten - Informationen / WPMO Modulzettel (pro Lehrveranstaltung 3 CP TN + 4 CP Prüfung möglich)</td>\n</tr>\n<tr>\n<td>FB03 - B.A. NF Politikwissenschaft</td>\n<td>3/7</td>\n<td>Wahl nach Kapazitäten - Informationen / WPMO Modulzettel (pro Lehrveranstaltung 3 CP TN + 4 CP Prüfung möglich)</td>\n</tr>\n<tr>\n<td>FB05 - B.Sc. Psychologie</td>\n<td>CP</td>\n<td>Belegverfahrern und Beratung am Fachbereich Psychologie</td>\n</tr>\n<tr>\n<td>Allgemeine Psychologie I (PsyBsc4)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Sozialpsychologie (PsyBsc5)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Klinische Psychologie: Psychische Störungen (VL) (PsyBsc 9 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Allgemeine Psychologie II (PsyBsc11)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Entwicklungspsychologie (PsyBsc12)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Biologische Psychologie (PsyBsc13)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Grundlagen der Psychologie: Vertiefung (PsyBsc14)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n<tr>\n<td>Basismodul Pädagogische Psychologie (VL) (PsyBsc 15 - Vorlesung/Prüfung)</td>\n<td>4</td>\n<td>Modulzettel wird in der Beratung ausgegeben</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 7 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<table>\n<tr>\n<th>FB09 - B.A. Sinologie</th>\n<th></th>\n<th>Angebot in LSF unter Optionalmodul - Modulzettel</th>\n</tr>\n<tr>\n<td>FB09 - weitere Sprachen</td>\n<td></td>\n<td>Interessen- und Kapazitätsklärung via Julia Becher (FB09)</td>\n</tr>\n<tr>\n<td>Wechselnde Angebote</td>\n<td>CP</td>\n<td>Angebot in LSF, Modulzettel</td>\n</tr>\n<tr>\n<td>Ringvorlesung Goethe Teaches Sustainability (+ Prüfung)</td>\n<td>3</td>\n<td>Anmeldung dezentral, Zertifikat</td>\n</tr>\n<tr>\n<td>VAN Goethe Teaches Sustainability (+ Prüfung)</td>\n<td>3</td>\n<td>Anmeldung dezentral, Zertifikat</td>\n</tr>\n<tr>\n<td>Bildungswissenschaften - Start ins Deutsche</td>\n<td>2</td>\n<td>Anmeldung dezentral, Zertifikat</td>\n</tr>\n<tr>\n<td>Skandinavistik</td>\n<td></td>\n<td>Anmeldung, Modulzettel</td>\n</tr>\n<tr>\n<td>Angebote in LSF unter Optionalmodul</td>\n<td></td>\n<td>Anmeldung dezentral, Bedingungen der einzelnen Veranstaltungen beachten, Modulzettel</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1191,
+        "word_count": 266,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          7,
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ffb9ea6d56b1128b67193c2d463539bf468c04eee8943c7418173c73c5843e2d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "chunk_index": 8,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 7,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          8,
+          9
+        ],
+        "page_start": 8,
+        "page_end": 9
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<th colspan=\"3\">M.Sc. Betriebswirtschaftslehre</th>\n</tr>\n<tr>\n<th colspan=\"3\">Management</th>\n</tr>\n<tr>\n<th>FB 09 - M.A. Modern East Asian Studies</th>\n<th>CP</th>\n<th>Anmeldung an der Professur Storz</th>\n</tr>\n<tr>\n<td>Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)</td>\n<td>7</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td colspan=\"3\">Information Management</td>\n</tr>\n<tr>\n<td>FB 12 - M.Sc. Informatik</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Wirtschaftsinformatik (WINFO)</td>\n<td>5</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Intelligente Methoden der Wirtschaftsinformatik (IMWI)</td>\n<td>6</td>\n<td>alle 3 Semester</td>\n</tr>\n<tr>\n<td>Cloud Computing (CLC)</td>\n<td>5</td>\n<td>jährlich SoSe oder WiSe</td>\n</tr>\n<tr>\n<td>Seminar Computational Humanities (CH-S)</td>\n<td>5</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Seminar Aktuelle Themen aus der Wirtschaftsinformatik (ATWIS.MS)</td>\n<td>5</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td colspan=\"3\">Freier Bereich</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. International Economics and Economic Policy</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Fundamentals of Econometrics (FECO)</td>\n<td>6</td>\n<td>Angebot WiSe</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 8 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<table>\n<tr>\n<th>Stochastic Calculus in Finance and Economics (SCFC)</th>\n<th>6</th>\n<th>Angebot SoSe</th>\n</tr>\n<tr>\n<td>Fundamentals of Microeconomics (FMIC)</td>\n<td>6</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Fundamentals of Macroeconomics (FMAC)</td>\n<td>6</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Mathematical Methods (MAME)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 1 (AEC 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 2 (AEC 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 1 (AMI1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 2 (AMI2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Marketing 1 (AMK 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Marketing 2 (AMK 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Historical and Normative Foundations of Economics (1) + (2) (HFNE(1) + (HFNE(2))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Research Seminar in Accounting (RSAC), Research Seminar in Econometrics (RSEC), Research Seminar in Finance (RSFI), Research Seminar in Marketing (RSMK), Research Seminar in Microeconomics (RSMI)</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Marketing (1) + (2) + (3) (ATMK(1), ATMK(2), ATMK(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Microeconomics (1) + (2) + (3) (ATMI(1), ATMI(2), ATMI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Programming Language (PRLA)</td>\n<td>4</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Accounting 1 (ACC 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Accounting 2 (ACC 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Financial Economics 1 (AFE 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Financial Economics 2 (AFE 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Accounting (1) + (2) + (3) (ATAC(1), ATAC(2), ATAC(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Econometrics (1) + (2) + (3) (ATEC(1), ATEC(2), ATEC(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1525,
+        "word_count": 379,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          8,
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "a34ed2baa70b7b7e58e97bd86f31160ba3e605456cc7cfc49e1325a514718e14",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "chunk_index": 9,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 8,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 9 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<table>\n<tr>\n<th>Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))</th>\n<th>6</th>\n<th>Angebot WiSe/SoSe</th>\n</tr>\n<tr>\n<td>M.Sc. Management Science</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td colspan=\"3\">Management</td>\n</tr>\n<tr>\n<td>FB 09 - M.A. Modern East Asian Studies</td>\n<td>CP</td>\n<td>Anmeldung an der Professur Storz</td>\n</tr>\n<tr>\n<td>Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)</td>\n<td>7</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td colspan=\"3\">Freier Bereich</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. International Economics and Economic Policy</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Fundamentals of Econometrics (FECO)</td>\n<td>6</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Stochastic Calculus in Finance and Economics (SCFC)</td>\n<td>6</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Fundamentals of Microeconomics (FMIC)</td>\n<td>6</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Fundamentals of Macroeconomics (FMAC)</td>\n<td>6</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Mathematical Methods (MAME)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 1 (AEC 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 2 (AEC 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 1 (AMI1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 2 (AMI2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Marketing 1 (AMK 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Marketing 2 (AMK 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Historical and Normative Foundations of Economics (1) + (2) (HFNE(1) + (HFNE(2))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Research Seminar in Accounting (RSAC), Research Seminar in Econometrics (RSEC), Research Seminar in Finance (RSFI), Research Seminar in Marketing (RSMK), Research Seminar in Microeconomics (RSMI)</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 10 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<table>\n<tr>\n<td>Advanced Topics in Marketing (1) + (2) + (3) (ATMK(1), ATMK(2), ATMK(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Microeconomics (1) + (2) + (3) (ATMI(1), ATMI(2), ATMI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Programming Language (PRLA)</td>\n<td>4</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Accounting 1 (ACC 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Accounting 2 (ACC 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Financial Economics 1 (AFE 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Financial Economics 2 (AFE 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Accounting (1) + (2) + (3) (ATAC(1), ATAC(2), ATAC(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Econometrics (1) + (2) + (3) (ATEC(1), ATEC(2), ATEC(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1518,
+        "word_count": 378,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          10,
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e05d32eb43d57d5c7da4303dc60bfcd8d5c036ad7f4090a419bfb2bc4efc95e1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "chunk_index": 10,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 9,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          12
+        ],
+        "page_start": 12,
+        "page_end": 12
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 11 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<table>\n<tr>\n<th colspan=\"3\">M.Sc. Wirtschaftspädagogik</th>\n</tr>\n<tr>\n<th colspan=\"3\">Studienrichtung I</th>\n</tr>\n<tr>\n<th>FB 01 - NF Rechtswissenschaft</th>\n<th>CP</th>\n<th>Anmeldung beim Prüfungsamt Jura</th>\n</tr>\n<tr>\n<td>Arbeitsrecht (1 und 2)</td>\n<td></td>\n<td>Optionales Wahlpflichtmodul. Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>FB 02 - M.Sc. Betriebswirtschaftslehre</td>\n<td>CP</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Module der Schwerpunkte und des Bereichs Management</td>\n<td>6</td>\n<td>Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>FB 05 - B.Sc. Psychologie</td>\n<td>CP</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Differentielle Psychologie (PsyBsc6)</td>\n<td>4</td>\n<td>Angebot WiSe Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>Grundlagen der Diagnostik (PsyBSc11)</td>\n<td>4</td>\n<td>Angebot SoSe Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>Angewandte Psychologie: Grundlagen und Vertiefung der Arbeits- und Organisationspsychologie (MP PsyBsc16) und Personalpsychologie (SL PsyBsc18)</td>\n<td>8</td>\n<td>Angebot WiSe/SoSe, 1. Teil Anmeldung via QIS, 2. Teil Anmeldung via Dozent Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td>Studienrichtung II</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>FB 02 - M.Sc. Betriebswirtschaftslehre</td>\n<td>CP</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Wahlpflichtmodule der Schwerpunkte (keine Seminare und keine Module aus dem Bereich Management)</td>\n<td>6</td>\n<td>Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>FB 02 - B.Sc. Wirtschaftspädagogik</td>\n<td>CP</td>\n<td>Anmeldung via Wirtschaftssprachen</td>\n</tr>\n<tr>\n<td>Französisch: 2 Wirtschaftsfranzösischmodule A-D</td>\n<td>6</td>\n<td>Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>Spanisch: 2 Wirtschaftsfranzösischmodule A-D</td>\n<td>6</td>\n<td>Genaue Vorgaben entnehmen Sie Ihrem Studienverlaufsplan und § 9 der Ordnung</td>\n</tr>\n<tr>\n<td>Lehramt - Studien- und Prüfungsordnungen (SPoL)</td>\n<td>CP</td>\n<td>Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>L2/L3-Lehramtsmodule</td>\n<td></td>\n<td>Gemäß Fachvereinbarungen</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 12 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1130,
+        "word_count": 268,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "4ab73eb9e5caa504d735087636e3378e8bde662c974af3dab5fb6e9adaebe71d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "chunk_index": 11,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 10,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          13
+        ],
+        "page_start": 13,
+        "page_end": 13
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<td colspan=\"3\">M.Sc. International Economics and Economic Policy</td>\n</tr>\n<tr>\n<td colspan=\"3\">Electives</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Mathematical Methods (MAME)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 1 (AEC 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 2 (AEC 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 1 (AMI1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 2 (AMI2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Macroeconomics 1 (AMA1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Macroeconomics 2 (AMA2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Historical and Normative Foundations of Economics (1) + (2) (HFNE(1) + (HFNE(2))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Research Seminar in Development and International Economics (RSDI), Research Seminar in Econometrics (RSEC), Research Seminar in Microeconomics (RSMI), Research Seminar in Macroeconomics (RSMA)</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Development (1) + (2) + (3) (ATDI(1), ATDI(2), ATDI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Econometrics (1) + (2) + (3) (ATEC(1), ATEC(2), ATEC(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Microeconomics (1) + (2) + (3) (ATMI(1), ATMI(2), ATMI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Macroeconomics (1) + (2) + (3) (ATMA(1), ATMA(2), ATMA(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Programming Language (PRLA)</td>\n<td>4</td>\n<td>Angebot SoSe</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 13 von 14 -\" -->\n<!-- PageBreak -->\n\nGoethe-Universität | 60629 Frankfurt am Main\nFachbereich Wirtschaftswissenschaften | Prüfungsamt\n(Stand: 01.10.2025)\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 868,
+        "word_count": 218,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "5c8191bfc362e4a752e4c59221be21ce6d278f38e545903bd089a667477db5f9",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "chunk_index": 12,
+      "total_chunks": 12,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0013",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "Importmodule: Module an anderen Fachbereichen",
+        "type": "curriculum",
+        "heading_level": 1,
+        "part_number": 11,
+        "part_count": 11
+      },
+      "location": {
+        "page_numbers": [
+          14
+        ],
+        "page_start": 14,
+        "page_end": 14
+      },
+      "content": "# Importmodule: Module an anderen Fachbereichen\n\n<table>\n<tr>\n<td colspan=\"3\">M.Sc. Money, Macro and Finance</td>\n</tr>\n<tr>\n<td colspan=\"3\">Electives</td>\n</tr>\n<tr>\n<td>FB02 - M.Sc. der Studienrichtungen „Quantitative Accounting“, „Quantitative Economics“, „Quantitative Finance“ und „Quantitative Marketing“</td>\n<td>CP</td>\n<td>Kumulativ möglich - Anmeldung via QIS</td>\n</tr>\n<tr>\n<td>Mathematical Methods (MAME)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 1 (AEC 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Econometrics 2 (AEC 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 1 (AMI1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Microeonomics 2 (AMI2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Macroeconomics 1 (AMA1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Macroeconomics 2 (AMA2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Advanced Financial Economics 1 (AFE 1)</td>\n<td>8</td>\n<td>Angebot WiSe</td>\n</tr>\n<tr>\n<td>Advanced Financial Economics 2 (AFE 2)</td>\n<td>8</td>\n<td>Angebot SoSe</td>\n</tr>\n<tr>\n<td>Historical and Normative Foundations of Economics (1) + (2) (HFNE(1) + (HFNE(2))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Research Seminar in Development and International Economics (RSDI), Research Seminar in Econometrics (RSEC), Research Seminar in Microeconomics (RSMI), Research Seminar in Macroeconomics (RSMA)</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Development (1) + (2) + (3) (ATDI(1), ATDI(2), ATDI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Econometrics (1) + (2) + (3) (ATEC(1), ATEC(2), ATEC(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Microeconomics (1) + (2) + (3) (ATMI(1), ATMI(2), ATMI(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Advanced Topics in Macroeconomics (1) + (2) + (3) (ATMA(1), ATMA(2), ATMA(3))</td>\n<td>6</td>\n<td>Angebot WiSe/SoSe</td>\n</tr>\n<tr>\n<td>Programming Language (PRLA)</td>\n<td>4</td>\n<td>Angebot SoSe</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"Postadresse: Goethe-Universität Frankfurt | Fachbereich Wirtschaftswissenschaften | Prüfungsamt | 60629 Frankfurt am Main, Germany - Seite 14 von 14 -\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 928,
+        "word_count": 234,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0013\\pages\\0010\\assets\\source.pdf",
+        "source_url": "https://www.wiwi.uni-frankfurt.de/fileadmin/studium/pruefungsorganisation/dateien/importmodule.pdf",
+        "document_id": "source",
+        "program_id": "0013",
+        "page_id": null,
+        "page_numbers": [
+          14
+        ]
+      },
+      "traceability": {
+        "content_sha256": "cb65c0d376c80a086513dddc16ebc475ef991251a37a24affc5c971c2a05becc",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

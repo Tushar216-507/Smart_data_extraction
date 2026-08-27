@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "certificate_language",
+      "value": "German, with an option for English",
+      "original_value": "in deutscher Sprache, auf Antrag der oder des Studierenden mit einer Übertragung in englischer Sprache",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "certificate_content",
+      "value": "Modules with grades, thesis topic and grade, standard study period, and overall grade",
+      "original_value": "das Zeugnis enthält die Angabe der Module mit den Modulnoten, das Thema und die Note der Bachelorarbeit, die Regelstudienzeit und die Gesamtnote",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "university",
+      "field": "signature_authority",
+      "value": "Chair of the Examination Board or the Dean of the Department",
+      "original_value": "von der oder dem Vorsitzenden des Prüfungsausschusses alternativ: von der Studiendekanin oder dem Studiendekan des Fachbereichs",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "university",
+      "field": "certificate_date",
+      "value": "Date of the assessment of the last examination performance",
+      "original_value": "Das Zeugnis trägt das Datum des Tages, an dem die letzte Prüfungsleistung bewertet worden ist",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

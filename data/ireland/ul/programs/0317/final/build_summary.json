@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0317",
+  "program_name": "Bachelor of Education in Graphics, Engineering and Technology",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0317\\final",
+  "input_fact_count": 45,
+  "unique_fact_count": 35,
+  "exact_duplicate_count": 10,
+  "handled_fact_count": 35,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 35,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 14,
+    "admission": 2,
+    "curriculum": 5,
+    "career": 6,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 2,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 2,
+    "other": 2
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0317\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0317\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0317\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0317\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0317\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0317\\final\\research_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0317\\final\\statistics_data.json",
+    "other": "data\\ireland\\ul\\programs\\0317\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0317\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "email",
+      "field": "admissions_office_email",
+      "value": "pruefungsamt@wiwi.uni-frankfurt.de",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "fax",
+      "field": "admissions_office_fax",
+      "value": "+49 (0)69 798 35023",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "address",
+      "field": "admissions_office_address",
+      "value": "Goethe University Frankfurt, Department of Economics, Examination Office, 60629 Frankfurt am Main, Germany",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "documents",
+      "subcategory": "bachelor_certificate_request",
+      "field": "bachelor_certificate_request_url",
+      "value": "/fileadmin/studium/pruefungsorganisation/dateien/zeugniserstellung_bsc_nf.pdf",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "documents",
+      "subcategory": "master_certificate_request",
+      "field": "master_certificate_request_url",
+      "value": "/fileadmin/studium/pruefungsorganisation/dateien/zeugniserstellung_msc_po2014.pdf",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "appointment_for_certificate_pickup",
+      "field": "certificate_pickup_appointment_url",
+      "value": "/studium/service-beratung/terminvereinbarung",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "faq_certificate_receipt",
+      "field": "faq_certificate_receipt_url",
+      "value": "/studium/pruefungsorganisation/faq",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    },
+    {
+      "category": "student_life",
+      "subcategory": "appointment_for_submission_of_thesis",
+      "field": "thesis_submission_appointment_url",
+      "value": "/studium/service-beratung/terminvereinbarung",
+      "confidence": 1.0,
+      "programme_association": "Master in Money, Macro and Finance"
+    }
+  ]
+}

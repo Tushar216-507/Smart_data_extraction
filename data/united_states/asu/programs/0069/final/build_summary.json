@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0069",
+  "program_name": "Online Bachelor of Science in Health Care Administration and Policy",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0069\\final",
+  "input_fact_count": 45,
+  "unique_fact_count": 45,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 45,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 45,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 2,
+    "curriculum": 33,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0069\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0069\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0069\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0069\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0069\\final\\research_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0069\\final\\build_summary.json"
+  }
+}

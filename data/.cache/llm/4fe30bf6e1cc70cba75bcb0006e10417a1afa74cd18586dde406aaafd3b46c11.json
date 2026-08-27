@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "credit_transfer_policy",
+      "value": "Credits for knowledge and skills acquired outside a university before or during the study can be transferred upon request if they are equivalent in level and learning outcomes to modules of the study program.",
+      "original_value": "Für Kenntnisse und Fähigkeiten, die vor Studienbeginn oder während des Studiums außerhalb einer Hochschule erworben wurden und die in Niveau und Lernergebnis Modulen des Studiums äquivalent sind, können die CP der entsprechenden Module auf Antrag angerechnet werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "credit_transfer_limit",
+      "value": "No more than 50% of the required credits in the program may be replaced by transferred credits.",
+      "original_value": "Insgesamt dürfen nicht mehr als 50% der im Studiengang erforderlichen CP durch Anrechnung ersetzt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "grading_policy_for_transferred_credits",
+      "value": "The transfer of credits occurs without a grade.",
+      "original_value": "Die Anrechnung der CP erfolgt ohne Note.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

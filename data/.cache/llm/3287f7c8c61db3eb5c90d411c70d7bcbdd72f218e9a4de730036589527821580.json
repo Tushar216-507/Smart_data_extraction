@@ -1,0 +1,173 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "control_unit",
+      "value": "The control unit manages the computer's various components; it reads and interprets the program instructions, transforming them into control signals that activate other parts of the computer.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "program_counter",
+      "value": "A key component common to all CPUs is the program counter, a special memory cell that keeps track of which location in memory the next instruction is to be read from.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "control_system_function",
+      "value": "The control system reads the code for the next instruction, decodes it into commands for other systems, increments the program counter, reads required data, provides necessary data to an ALU or register, instructs hardware to perform operations, and writes results back to memory or output devices.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "program_counter_modification",
+      "value": "The program counter can be changed by calculations done in the ALU; adding 100 to the program counter causes the next instruction to be read from a location 100 further down.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "control_flow",
+      "value": "Instructions that modify the program counter are known as 'jumps' and allow for loops and conditional instruction execution.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "instruction_processing",
+      "value": "The sequence of operations that the control unit goes through to process an instruction is akin to a short computer program.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "microsequencer",
+      "value": "In some complex CPU designs, there is another smaller computer called a microsequencer, which runs a microcode program that causes events to happen.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "central_processing_unit",
+      "value": "The control unit, ALU, and registers are collectively known as a central processing unit (CPU).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "cpu_construction",
+      "value": "Since the 1970s, CPUs have typically been constructed on a single MOS integrated circuit chip called a microprocessor.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0018",
+        "chunk_title": "Control unit + Central processing unit (CPU)",
+        "chunk_order": 17,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module_title",
+      "value": "Multiprocessing",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module_description",
+      "value": "Some computers are designed to distribute their work across several CPUs in a multiprocessing configuration, a technique once employed in only large and powerful machines such as supercomputers, mainframe computers and servers. Multiprocessor and multi-core personal and laptop computers are now widely available, and are being increasingly used in lower-end markets as a result.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module_details",
+      "value": "Supercomputers in particular often have highly unique architectures that differ significantly from the basic stored-program architecture and from general-purpose computers. They often feature thousands of CPUs, customized high-speed interconnects, and specialized computing hardware.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "module_usage",
+      "value": "Such designs tend to be useful for only specialized tasks due to the large scale of program organization required to use most of the available resources at once. Supercomputers usually see usage in large-scale simulation, graphics rendering, and cryptography applications, as well as with other so-called 'embarrassingly parallel' tasks.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0023",
+        "chunk_title": "Multiprocessing",
+        "chunk_order": 22,
+        "source_type": "page"
+      }
+    }
+  ]
+}

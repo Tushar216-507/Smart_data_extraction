@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "admission_status",
+      "value": "not restricted",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "application_process",
+      "value": "You can enroll directly in the programme through the online application during the application period, provided you meet the admission requirements.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application",
+      "field": "additional_documents",
+      "value": "If additional documents are required, you will be informed at the end of the online application process.",
+      "confidence": 1.0,
+      "programme_association": "American Studies Bachelor"
+    }
+  ]
+}

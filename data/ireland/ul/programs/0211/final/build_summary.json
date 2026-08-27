@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0211",
+  "program_name": "Masters/PhD in History",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0211\\final",
+  "input_fact_count": 427,
+  "unique_fact_count": 427,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 427,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 427,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 49,
+    "admission": 2,
+    "curriculum": 64,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 1,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 23,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 284
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0211\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0211\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0211\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0211\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0211\\final\\scholarships_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0211\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0211\\final\\research_data.json",
+    "other": "data\\ireland\\ul\\programs\\0211\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0211\\final\\build_summary.json"
+  }
+}

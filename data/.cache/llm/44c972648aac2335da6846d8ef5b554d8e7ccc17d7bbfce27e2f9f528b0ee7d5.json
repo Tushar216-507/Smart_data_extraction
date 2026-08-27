@@ -1,0 +1,161 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced Topics in Finance",
+      "original_value": "Advanced Topics in Finance (1) + (2) + (3) (ATFI(1), ATFI(2), ATFI(3))",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "ATFI",
+        "name": "Advanced Topics in Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Core Lecture: Institutions and Innovations",
+      "original_value": "Core Lecture: Institutions and Innovations (MEAS 2.2 / ININ)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 7,
+      "original_value": "7",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MEAS 2.2",
+        "name": "Core Lecture: Institutions and Innovations"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Fundamentals of Econometrics",
+      "original_value": "Fundamentals of Econometrics (FECO)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FECO",
+        "name": "Fundamentals of Econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0007",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

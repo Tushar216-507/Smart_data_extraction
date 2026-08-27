@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "program_id": "0029",
+  "program_name": "Bachelor of Business Studies",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0029\\final",
+  "input_fact_count": 171,
+  "unique_fact_count": 171,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 171,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 171,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 15,
+    "admission": 6,
+    "curriculum": 19,
+    "career": 2,
+    "fees": 23,
+    "scholarships": 14,
+    "contacts": 15,
+    "student_life": 31,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 4,
+    "statistics": 0,
+    "other": 42
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0029\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0029\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0029\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0029\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0029\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0029\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0029\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0029\\final\\student_life_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0029\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0029\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0029\\final\\build_summary.json"
+  }
+}

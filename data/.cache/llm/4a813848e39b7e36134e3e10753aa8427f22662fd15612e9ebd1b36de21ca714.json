@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "graduation",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "The overall grade must be up to and including 1.2 and the grade of the bachelor's thesis must be 1.0 to graduate with distinction.",
+      "original_value": "Gesamtnote bis einschließlich 1,2, Note der Bachelorarbeit 1,0.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": "not mandatory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "graduation",
+      "scope": "programme",
+      "field": "award_conditions",
+      "value": "If the overall bachelor's grade is up to and including ... and the bachelor's thesis is graded ..., the overall assessment is 'passed with distinction'.",
+      "original_value": "mit Auszeichnung bestanden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "graduation",
+      "scope": "programme",
+      "field": "award_conditions",
+      "value": "The English translation of 'passed with distinction' is 'excellent'.",
+      "original_value": "excellent",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "graduation",
+      "scope": "programme",
+      "field": "additional_information",
+      "value": "An ECTS classification table will be included in the Diploma Supplement for transparency of the overall grade.",
+      "original_value": "ECTS-Einstufungstabelle gemäß § 47",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

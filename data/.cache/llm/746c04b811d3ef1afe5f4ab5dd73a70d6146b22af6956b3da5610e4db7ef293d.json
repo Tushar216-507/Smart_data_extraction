@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_system",
+      "value": [
+        {
+          "grade": 1,
+          "description": "very good",
+          "performance": "an excellent performance"
+        },
+        {
+          "grade": 2,
+          "description": "good",
+          "performance": "a performance that significantly exceeds the average requirements"
+        },
+        {
+          "grade": 3,
+          "description": "satisfactory",
+          "performance": "a performance that meets average requirements"
+        },
+        {
+          "grade": 4,
+          "description": "sufficient",
+          "performance": "a performance that, despite its deficiencies, still meets the requirements"
+        },
+        {
+          "grade": 5,
+          "description": "insufficient",
+          "performance": "a performance that does not meet the requirements due to significant deficiencies"
+        }
+      ],
+      "original_value": "(3) Für die Benotung der einzelnen Prüfungsleistungen sind folgende Noten zu verwenden: ...",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grade_scale",
+      "value": "Grades can be adjusted by 0.3 to intermediate values; permissible grades are 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, and 5.0.",
+      "original_value": "Zur differenzierten Bewertung der Prüfungsleistungen können die Noten um 0,3 auf Zwischenwerte angehoben oder abgesenkt werden; zulässig sind die Noten 1,0; 1,3; 1,7; 2,0; 2,3; 2,7; 3,0; 3,3; 3,7; 4,0 und 5,0.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

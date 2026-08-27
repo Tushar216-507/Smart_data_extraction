@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "responsibility",
+      "field": "fees_responsibility",
+      "value": "The fees are the sole responsibility of the student for the duration of their time at the University.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "payment_block",
+      "field": "payment_block_policy",
+      "value": "Fees that are not paid within the academic year will result in an automatic block for the student on the system.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "grace_period",
+      "field": "grace_period",
+      "value": "The University gives a 60-day grace period after which the student is expected to make payment.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "late_payment_fee",
+      "field": "late_payment_fee",
+      "value": "A late fee fine of €200 will apply where students fail to pay fees by the specified due date.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "company_funding",
+      "field": "company_invoice_policy",
+      "value": "The responsibility for further external arrangements regarding fee payments lies with the student and not the University, so no invoices can be generated for the company.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "international_tours",
+      "field": "workshop_costs_policy",
+      "value": "The cost of international workshops/study tours must be borne by the students.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

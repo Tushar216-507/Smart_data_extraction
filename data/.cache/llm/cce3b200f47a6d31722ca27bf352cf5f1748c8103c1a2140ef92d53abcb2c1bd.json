@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "transcript_information",
+      "value": "A certificate of passed examinations is issued to students upon request in the form of a transcript of records, which includes at least the module titles, the dates of the individual examinations, and the grades.",
+      "original_value": "Den Studierenden wird auf Antrag eine Bescheinigung über bestandene Prüfungen in Form einer Datenabschrift (Transcript of Records, Muster Anlage 7 RO) in deutscher und englischer Sprache ausgestellt, die mindestens die Modultitel, das Datum der einzelnen Prüfungen und die Noten enthält.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0002",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

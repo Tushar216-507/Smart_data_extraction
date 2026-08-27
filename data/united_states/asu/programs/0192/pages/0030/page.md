@@ -1,0 +1,3 @@
+## Graduate student 2026 – 2027 expenses
+
+As a graduate student, you'll pay ASU for tuition and fees. Some programs charge differential or program-specific tuition, which is in addition to the base tuition. See details on [ASU’s tuition estimator](https://tuition.asu.edu/cost-calculator/tuition). Housing and meals, books and supplies, transportation, and personal expenses will vary depending on your spending choices, and should be budgeted into your expenses.

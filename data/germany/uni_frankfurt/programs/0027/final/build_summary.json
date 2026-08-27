@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "program_id": "0027",
+  "program_name": "American Studies",
+  "source_file": null,
+  "output_directory": "data\\germany\\uni_frankfurt\\programs\\0027\\final",
+  "input_fact_count": 8,
+  "unique_fact_count": 8,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 8,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 8,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 0,
+    "admission": 1,
+    "curriculum": 7,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "admission": "data\\germany\\uni_frankfurt\\programs\\0027\\final\\admission_data.json",
+    "curriculum": "data\\germany\\uni_frankfurt\\programs\\0027\\final\\curriculum_data.json",
+    "summary": "data\\germany\\uni_frankfurt\\programs\\0027\\final\\build_summary.json"
+  }
+}

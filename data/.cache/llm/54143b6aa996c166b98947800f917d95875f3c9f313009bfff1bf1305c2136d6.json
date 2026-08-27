@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "student_fee_classifications",
+      "field": "classification_types",
+      "value": "EU, Non-EU",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "classification_details",
+      "field": "EU_fee_status",
+      "value": "Applies to Domestic or EU students or students who have been resident as a taxpayer in EU/EEA/Swiss State for 3 out of the last 5 years.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "classification_details",
+      "field": "Non_EU_fee_status",
+      "value": "Applies to all other students.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "useful_links",
+      "field": "fees_office_website",
+      "value": "https://www.ul.ie/fees",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "useful_links",
+      "field": "student_finance_documents",
+      "value": "https://www.ul.ie/fees/fee-regulation",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "useful_links",
+      "field": "student_faqs",
+      "value": "https://www.ul.ie/fees/faqs",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_payment_plans",
+      "field": "billing_method",
+      "value": "Fees are billed in instalments.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_payment_plans",
+      "field": "installment_1_due",
+      "value": "Due in early September of that year for the Autumn Semester.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_payment_plans",
+      "field": "installment_2_due",
+      "value": "Due in the first week of the semester in January for the Spring Semester.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_payment_plans",
+      "field": "monthly_payment_plan_eligibility",
+      "value": "Students may be eligible to apply for a monthly payment plan once registered.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt am Main",
+      "original_value": "GOETHE UNIVERSITÄT FRANKFURT AM MAIN",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "corpus_list",
+      "value": [
+        {
+          "corpus_name": "GNC Old Georgian",
+          "size": "7,101,021",
+          "updated": "2022-12-31",
+          "description": "Georgian National Corpus, Old Georgian"
+        },
+        {
+          "corpus_name": "GNC Middle Georgian",
+          "size": "1,432,262",
+          "updated": "2019-06-25",
+          "description": "Georgian National Corpus, Middle Georgian"
+        },
+        {
+          "corpus_name": "GNC Modern Georgian",
+          "size": "1,993,022",
+          "updated": "2023-01-01",
+          "description": "Georgian National Corpus, Modern Georgian"
+        },
+        {
+          "corpus_name": "GRC",
+          "size": "202,728,329",
+          "updated": "2016-12-05",
+          "description": "Georgian Reference Corpus"
+        },
+        {
+          "corpus_name": "GDC",
+          "size": "1,694,362",
+          "updated": "2015-09-14",
+          "description": "Georgian dialect corpus"
+        },
+        {
+          "corpus_name": "GNC Political texts",
+          "size": "1,436,075",
+          "updated": "2019-08-06",
+          "description": "Georgian National Corpus, Political texts"
+        },
+        {
+          "corpus_name": "GNC Law texts",
+          "size": "1,495,985",
+          "updated": "2019-04-15",
+          "description": "Georgian National Corpus, Old and Middle Georgian, Law texts"
+        },
+        {
+          "corpus_name": "GNC Megrelian",
+          "size": "89,404",
+          "updated": "2015-09-14",
+          "description": "Georgian National Corpus, Megrelian"
+        },
+        {
+          "corpus_name": "GNC Svan",
+          "size": "473,180",
+          "updated": "2015-09-14",
+          "description": "Georgian National Corpus, Svan"
+        }
+      ],
+      "original_value": "Corpus list",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

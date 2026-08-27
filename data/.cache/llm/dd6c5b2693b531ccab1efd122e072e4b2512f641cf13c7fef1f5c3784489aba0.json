@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_deadlines",
+      "field": "application_submission_period",
+      "value": "May 1 to May 31",
+      "confidence": 1.0,
+      "programme_association": "Curatorial Studies Master"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_deadlines",
+      "field": "application_submission_method",
+      "value": "must be submitted via post",
+      "confidence": 1.0,
+      "programme_association": "Curatorial Studies Master"
+    },
+    {
+      "category": "admission",
+      "subcategory": "start_date",
+      "field": "start_semester",
+      "value": "Winter semester",
+      "confidence": 1.0,
+      "programme_association": "Curatorial Studies Master"
+    }
+  ]
+}

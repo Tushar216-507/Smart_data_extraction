@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0174",
+  "program_name": "Bachelor of Arts in Journalism and Digital Communication",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0174\\final",
+  "input_fact_count": 51,
+  "unique_fact_count": 51,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 51,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 51,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 0,
+    "curriculum": 4,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 3,
+    "contacts": 16,
+    "student_life": 7,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 3,
+    "statistics": 0,
+    "other": 14
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0174\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0174\\final\\curriculum_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0174\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0174\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0174\\final\\student_life_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0174\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0174\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0174\\final\\build_summary.json"
+  }
+}

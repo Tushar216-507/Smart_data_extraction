@@ -1,0 +1,74 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "recognition_conditions",
+      "value": "The recognition of study and examination credits for the disciplinary orientation I - III from a modularized course of study is excluded.",
+      "original_value": "Die Anrechnung von Studien- und Prüfungsleistungen für die fachdisziplinäre Ausrichtung I - III aus einem modularisierten Studiengang gemäß § 20 der Ordnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwissenschaften ist ausgeschlossen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0035",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "special_conditions",
+      "value": "Special regulations apply for Frankfurt students who have completed a modularized Magister at Goethe University in specific subjects, and for students of the Free Fine Arts program at Städelschule.",
+      "original_value": "Sonderregelungen gelten für Frankfurter Studierende, die einen modularisierten Magister an der Goethe-Universität in den Fächern Ethnologie, Geschichte , Kunstgeschichte und Philosophie, Kunstpädagogik und Archäologische Wissenschaften absolviert haben, und Studierende des Studiengangs Freie Bildende Kunst der Städelschule.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "credit_recognition_application",
+      "value": "The recognition of prior achievements regarding the 'disciplinary depth' can be applied for at the examination board.",
+      "original_value": "Die Anerkennung wird beim Prüfungsausschuss beantragt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0035",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

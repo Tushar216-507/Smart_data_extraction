@@ -1,0 +1,5 @@
+The aim of the course is to give you the skills to take projects from design to reality. The course will provide you with a broadly based management and technological education so that you are capable of recognising, evaluating and solving construction and business problems associated with building and civil engineering projects.
+
+The course will teach you how to adapt to technological change in a competitive industrial climate.
+
+Managing construction projects requires a high level of organisation, both commercially and technologically. Construction management prepares you to systematically plan, organise and manage resources such as finance, labour, plant and materials. Construction engineering gives you the skills necessary to implement processes and methods of construction to produce a quality building in an efficient and safe manner. This programme is accredited by the Chartered Association of Building Engineers (CABE).

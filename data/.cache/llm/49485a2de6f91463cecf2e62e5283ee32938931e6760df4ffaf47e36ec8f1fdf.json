@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "qualification",
+      "scope": "programme",
+      "field": "description",
+      "value": "The successful completion of the program qualifies for various professional fields.",
+      "original_value": "Der erfolgreiche Abschluss des Studiums qualifiziert für ... [ Angabe]",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "note",
+      "value": "Provide an explanation of the professional fields for which the program qualifies, avoiding general phrases such as activity in public service or media.",
+      "original_value": "Hinweis zu Abs. 3: Bitte erläutern Sie, für welche Berufsfelder der Studiengang qualifizieren soll. Benennen Sie mögliche Berufe oder Berufsfelder, wobei allgemeine Phrasen i.S. von Tätigkeit im Öffentlichen Dienst oder in den Medien etc. vermieden werden sollen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

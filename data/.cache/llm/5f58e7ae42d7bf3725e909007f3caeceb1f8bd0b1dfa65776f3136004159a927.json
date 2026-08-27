@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "subcategory": "bugs",
+      "field": "definition",
+      "value": "Errors in computer programs are called 'bugs'.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "bugs",
+      "field": "effects",
+      "value": "Bugs may be benign and not affect the usefulness of the program, or have only subtle effects.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "bugs",
+      "field": "serious_effects",
+      "value": "In some cases, bugs may cause the program or the entire system to hang, becoming unresponsive to input or to completely fail, or crash.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "bugs",
+      "field": "malicious_use",
+      "value": "Otherwise benign bugs may sometimes be harnessed for malicious intent by an unscrupulous user writing an exploit, code designed to take advantage of a bug and disrupt a computer's proper execution.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "bugs",
+      "field": "responsibility",
+      "value": "Bugs are nearly always the result of programmer error or an oversight made in the program's design.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "other",
+      "subcategory": "bugs",
+      "field": "origin_of_term",
+      "value": "Admiral Grace Hopper is credited for having first used the term 'bugs' in computing after a dead moth was found shorting a relay in the Harvard Mark II computer in September 1947.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    }
+  ]
+}

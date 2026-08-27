@@ -1,0 +1,143 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "new_college_residency_requirement",
+      "value": "A minimum of 12 upper-division credit hours used toward the major requirements must be taken from the New College of Interdisciplinary Arts and Sciences.",
+      "confidence": 1.0,
+      "programme_association": "Online Bachelor of Science in Psychology"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "psychology_core_courses",
+      "value": [
+        {
+          "course_title": "Introduction to Psychology",
+          "course_code": "PSY 101",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=101"
+        },
+        {
+          "course_title": "Introduction to Statistics",
+          "course_code": "PSY 230",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=230"
+        },
+        {
+          "course_title": "Research Methods",
+          "course_code": "PSY 290",
+          "credit_hours": 4,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=290"
+        },
+        {
+          "course_title": "Statistical Methods",
+          "course_code": "PSY 330",
+          "credit_hours": 3,
+          "minimum_grade": "C",
+          "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PSY&catalogNbr=330"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Online Bachelor of Science in Psychology"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "psychology_electives",
+      "value": "3 Credit Hours minimum grade: C; up to 3 credit hours of experiential learning (PSY 384/399/484/493/499) may apply toward this requirement.",
+      "confidence": 1.0,
+      "programme_association": "Online Bachelor of Science in Psychology"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "global_and_civic_engagement_requirement",
+      "value": "Upper Division Global and Civic Engagement Requirement: satisfied through completion of six credits of upper-division courses with a Global Communities, Societies and Individuals (GCSI) or Governance and Civic Engagement (CIVI) designation, or completion of three credits from an ASU-approved global education program.",
+      "confidence": 1.0,
+      "programme_association": "Online Bachelor of Science in Psychology"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "interdisciplinary_requirements",
+      "value": [
+        {
+          "course_options": [
+            {
+              "course_title": "All About Data: Design, Query, and Visualization",
+              "course_code": "ACO 100",
+              "credit_hours": 3,
+              "minimum_grade": "C",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ACO&catalogNbr=100"
+            },
+            {
+              "course_title": "Computer Applications and Information Technology",
+              "course_code": "CIS 105",
+              "credit_hours": 3,
+              "minimum_grade": "C",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=CIS&catalogNbr=105"
+            },
+            {
+              "course_title": "Computing, Data and AI Literacy",
+              "course_code": "CSE 180",
+              "credit_hours": 3,
+              "minimum_grade": "C",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=CSE&catalogNbr=180"
+            },
+            {
+              "course_title": "Technology Literacy: Problem Solving using Digital Technology Applications",
+              "course_code": "EDT 180",
+              "credit_hours": 3,
+              "minimum_grade": "C",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=EDT&catalogNbr=180"
+            }
+          ],
+          "credit_hours": 3,
+          "minimum_grade": "C"
+        },
+        {
+          "requirement": "Students must complete a lecture and lab combination with the General Studies SCIT designation.",
+          "credit_hours": 4,
+          "minimum_grade": "C",
+          "exclusion": "PSY 290 does not count towards this requirement."
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Online Bachelor of Science in Psychology"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "first_year_composition",
+      "value": [
+        {
+          "course_options": [
+            {
+              "course_title": "First-Year Composition",
+              "course_code": "ENG 101",
+              "credit_hours": 6,
+              "minimum_grade": "C",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=101"
+            },
+            {
+              "course_title": "First-Year Composition",
+              "course_code": "ENG 102",
+              "credit_hours": 6,
+              "minimum_grade": "C",
+              "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=102"
+            }
+          ],
+          "credit_hours": 6,
+          "minimum_grade": "C"
+        }
+      ],
+      "confidence": 1.0,
+      "programme_association": "Online Bachelor of Science in Psychology"
+    }
+  ]
+}

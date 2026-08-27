@@ -1,0 +1,10 @@
+Ausnahmen: Bei Rechtswissenschaft und Lehramt gilt das Studium mit Bestehen der ersten Staatsprüfung, bei Pharmazie mit Bestehen des zweiten Teils der pharmazeutischen Prüfung als abgeschlossen.
+Sie haben Ihr Studium noch nicht ganz abgeschlossen? Wenn Sie Ihr Abschlusszeugnis noch nicht zum Ende der Bewerbungsfrist erhalten haben, handelt es sich um eine Bewerbung für ein Erststudium.
+
+[hochschulstart.de](https://hochschulstart.de/) (weitere Informationen [hier](https://hochschulstart.de/unterstuetzung/downloads)). Sollten Sie ein Zweitstudium aus wissenschaftlichen Gründen anstreben müssen die Unterlagen (Begründung, Zeugnisse etc.) inkl. Deckblatt von hochschulstart für ein Wintersemester bis spätestens 15.06. und für ein Sommersemester bis spätestens 15.12. postalisch an der Universität eingereicht werden. Die Unterlagen senden Sie bitte direkt an das Studierendensekretariat.
+Für alle sonstigen Studiengänge nutzen Sie für die Bewerbung das [Goethe-Campus-Portal](https://www.goethe-campus.uni-frankfurt.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?chco=y) der Goethe-Universität. Es gelten die üblichen Bewerbungsfristen. Bei einer Bewerbung für DoSV-Studiengänge, ist vor einer Online-Bewerbung im Goethe-Campus eine Registrierung bei hochschulstart.de notwendig, da Sie BID und BAN benötigen.
+
+## Studium Lehre Internationales
+
+- Telefon069/798 38 38 (Mo., Di. und Do.: 13:00 – 15:30 Uhr | Di., Mi. und Fr.: 09:00 – 12:00 Uhr)E-Mailsli@uni-frankfurt.dePostadresseStudium Lehre Internationales, StudierendensekretariatCampus Westend60629 Frankfurt am MainÖffnungszeitenÖffnungszeiten Studierendensekretariat: Mo.: 08:30 Uhr – 11:30 Uhr | Mi.: 12:30 Uhr – 15:30 Uhr; Öffnungszeiten Studien-Service-Point: Mo., Di. und Fr.: 9.00 bis 12.00 Uhr; Mi. und Do. 13.00 bis 15.30 Uhr
+- BesuchsadresseStudium Lehre Internationales, StudierendensekretariatCampus WestendPEG-Gebäude

@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0081",
+  "program_name": "Online Bachelor of Social Work (BSW)",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0081\\final",
+  "input_fact_count": 80,
+  "unique_fact_count": 72,
+  "exact_duplicate_count": 8,
+  "handled_fact_count": 72,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 72,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 14,
+    "admission": 2,
+    "curriculum": 53,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0081\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0081\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0081\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0081\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0081\\final\\research_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0081\\final\\build_summary.json"
+  }
+}

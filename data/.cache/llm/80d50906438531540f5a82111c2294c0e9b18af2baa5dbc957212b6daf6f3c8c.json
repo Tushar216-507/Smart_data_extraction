@@ -1,0 +1,394 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "high_school_grades_requirement",
+      "value": "Applicants are not required to self-report high school grades, but self-reporting grades expedites the admission decision.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Complete online application",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcripts_requirement",
+      "value": "If you don’t self-report your grades, then you’ll need to send your official transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Complete online application",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "future_high_school_students_requirement",
+      "value": "Future-dated high school students must submit all anticipated senior year courses and expected grades.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Complete online application",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "amount",
+      "value": "$75",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Pay your application fee",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "payment_methods",
+      "value": "credit card (Visa, Mastercard or Discover), check",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Pay your application fee",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "payment_address",
+      "value": "Admission Services Applicant Processing, Arizona State University, PO Box 871004, Tempe, AZ 85287-1004",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Pay your application fee",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "account_activation_email",
+      "value": "ASU Account Activation",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0005",
+        "chunk_title": "Pay your application fee",
+        "chunk_order": 4,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_submission_requirement",
+      "value": "ASU requires you to send official transcripts from each high school, college, university or technical school you previously attended.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Send in your transcripts",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "high_school_transcripts_info",
+      "value": "High school transcripts must show GPA and date of graduation.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Send in your transcripts",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "electronic_transcript_submission",
+      "value": "Transcripts sent via email may be accepted if sent directly from an authorized school official at the issuing institution, or from a third-party verified source, to ASU at transcripts@asu.edu.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Send in your transcripts",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_services",
+      "value": "You may also use services such as Parchment, eSCRIP or National Clearinghouse to send electronic transcripts. Choose Arizona State University on the request form to make a request for your institution to send us your official transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Send in your transcripts",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "postal_transcript_submission_address",
+      "value": "Admission Services Applicant Processing, Arizona State University, PO Box 871004, Tempe, AZ 85287",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Send in your transcripts",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "courier_transcript_submission_address",
+      "value": "Arizona State University Admission Services Applicant Processing, 1150 E. University Drive Building C, Room 226, Tempe, AZ 85281",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Send in your transcripts",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "federal_student_aid_application",
+      "value": "Free Application for Federal Student Aid (FAFSA)",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fafsa_submission_link",
+      "value": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "asu_federal_school_code",
+      "value": "001081",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fafsa_submission_frequency",
+      "value": "Submit the FAFSA every year to maximize your financial aid eligibility.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fafsa_availability",
+      "value": "The FAFSA becomes available in December for the upcoming academic year that starts in the fall.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "financial_aid_qualification",
+      "value": "You may qualify for more financial aid than you realize.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "fafsa_guide_link",
+      "value": "https://studentaid.gov/apply-for-aid/fafsa/filling-out",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "financial_aid_information_link",
+      "value": "https://asuonline.asu.edu/what-it-costs/financial-aid/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "scholarship_opportunities_link",
+      "value": "https://asuonline.asu.edu/what-it-costs/scholarship-opportunities/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0007",
+        "chunk_title": "File your FAFSA",
+        "chunk_order": 6,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "act_or_sat_scores_submission",
+      "value": "Request your ACT or SAT scores be sent directly to ASU from ACT or from the College Board for SAT scores.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Request ACT or SAT scores (optional)",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "writing_portion_requirement",
+      "value": "ASU doesn’t require the writing portion of these tests.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Request ACT or SAT scores (optional)",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "act_or_sat_scores_requirement",
+      "value": "ACT or SAT scores are not required for general admission but may be submitted for ASU course placement.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Request ACT or SAT scores (optional)",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "program_specific_score_requirement",
+      "value": "Some programs do require particular ACT or SAT scores.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Request ACT or SAT scores (optional)",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "program_verification_link",
+      "value": "Check your program from degree search to verify your program’s admission requirements.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Request ACT or SAT scores (optional)",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "application_review_process",
+      "value": "Your application will be reviewed once you submit your official transcripts and pay the application fee.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Check any next steps for an admission decision",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "admission_decision_timeline",
+      "value": "You’ll receive an admission decision within 2–6 weeks.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Check any next steps for an admission decision",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "expedited_admission_decision",
+      "value": "If you self-reported all your high school grades, you may be able to receive an admission decision in less than one week.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0009",
+        "chunk_title": "Check any next steps for an admission decision",
+        "chunk_order": 8,
+        "source_type": "page"
+      }
+    }
+  ]
+}

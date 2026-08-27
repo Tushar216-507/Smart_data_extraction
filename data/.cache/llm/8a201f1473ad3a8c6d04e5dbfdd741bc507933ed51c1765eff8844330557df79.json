@@ -1,0 +1,130 @@
+{
+  "facts": [
+    {
+      "category": "student_support",
+      "scope": "both",
+      "field": "advice_type",
+      "value": "Academic advising",
+      "original_value": "Studienfachberatung",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "0022",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "both",
+      "field": "support_description",
+      "value": "Support in questions of study design, study techniques, and course selection.",
+      "original_value": "Unterstützung insbesondere in Fragen der Studiengestaltung, der Studientechnik und der Wahl der Lehrveranstaltungen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "0022",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "university",
+      "field": "central_advising",
+      "value": "Central academic advising is available.",
+      "original_value": "Zentrale Studienberatung steht den Studierenden zur Verfügung.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "0022",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "both",
+      "field": "orientation_event",
+      "value": "An orientation event takes place before the start of each semester.",
+      "original_value": "Vor Beginn der Vorlesungszeit eines jeden Semesters... findet eine Orientierungsveranstaltung statt.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "0022",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "both",
+      "field": "orientation_event_content",
+      "value": "Information about the structure and overall framework of the program and semester-specific details.",
+      "original_value": "Informiert über die Struktur und den Gesamtaufbau des Studiengangs und über semesterspezifische Besonderheiten.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "0022",
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

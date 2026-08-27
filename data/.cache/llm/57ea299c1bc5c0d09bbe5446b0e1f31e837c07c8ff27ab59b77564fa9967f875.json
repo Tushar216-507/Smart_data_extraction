@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "undergraduate_admission",
+      "field": "application_requirements",
+      "value": "Interested students must submit a separate application for Barrett, The Honors College.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "graduate_admission",
+      "field": "application_portal",
+      "value": "All applicants should apply via the appropriate portal.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_tracking",
+      "field": "tracking_status",
+      "value": "Applicants can track their status in My ASU, the ASU admission portal.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_status",
+      "field": "missing_documents",
+      "value": "Detailed information regarding missing documents can be found in the application status section.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_status",
+      "field": "submit_transcripts",
+      "value": "Applicants can submit transcripts via the provided link.",
+      "confidence": 1.0,
+      "programme_association": "Justice Studies - BA"
+    }
+  ]
+}

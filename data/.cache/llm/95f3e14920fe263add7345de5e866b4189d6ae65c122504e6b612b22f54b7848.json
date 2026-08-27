@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "A study plan provides students with an example for a targeted design of their studies. The study plans are part of the respective program-specific annexes.",
+      "original_value": "Ein Studienverlaufsplan gibt den Studierenden ein Beispiel für eine zielgerichtete Gestaltung ihres Studiums. Die Studienverlaufspläne sind Bestandteil der jeweiligen studiengangsspezifischen Anhänge.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "important_information",
+      "value": "Based on study plans and module descriptions, the program committees create a commented module and event directory each semester.",
+      "original_value": "Auf der Basis der Studienverlaufspläne und der Modulbeschreibungen erstellen die Geschäftsführungen der Institute für jedes Semester ein kommentiertes Modul- und Veranstaltungsverzeichnis.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "description",
+      "value": "Students have the opportunity to consult the academic advising of the institutes involved in the master's program throughout their studies.",
+      "original_value": "Die Studierenden haben während des gesamten Studienverlaufs die Möglichkeit, die Studienfachberatung der an der Lehre im jeweiligen Masterstudiengang beteiligten Institute aufzusuchen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "university",
+      "field": "description",
+      "value": "The Central Academic Advising at Johann Wolfgang Goethe-University is available to inform about study opportunities, content, structure, and requirements of a study program.",
+      "original_value": "Neben der Studienfachberatung steht den Studierenden die Zentrale Studienberatung der Johann Wolfgang Goethe-Universität zur Verfügung. Sie unterrichtet als allgemeine Studienberatung über Studiermöglichkeiten, Inhalte, Aufbau und Anforderungen eines Studiums.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-University"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

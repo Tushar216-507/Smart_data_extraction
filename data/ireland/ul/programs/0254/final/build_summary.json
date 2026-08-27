@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0254",
+  "program_name": "International Management - MSc",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0254\\final",
+  "input_fact_count": 30,
+  "unique_fact_count": 30,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 30,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 30,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 13,
+    "admission": 0,
+    "curriculum": 10,
+    "career": 1,
+    "fees": 5,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 1,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0254\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0254\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0254\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0254\\final\\fees_data.json",
+    "housing": "data\\ireland\\ul\\programs\\0254\\final\\housing_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0254\\final\\build_summary.json"
+  }
+}

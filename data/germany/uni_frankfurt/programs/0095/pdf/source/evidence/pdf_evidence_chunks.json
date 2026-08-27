@@ -1,0 +1,1433 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-25T14:40:36.487563+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Empirical Linguistics",
+    "program_id": "0095",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+    "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+    "document_data_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 14
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 38280,
+    "cleaned_character_count": 38188,
+    "characters_removed": 92,
+    "sections_detected": 27,
+    "chunks_created": 29,
+    "total_chunk_characters": 12738,
+    "total_chunk_words": 4395,
+    "chunks_with_page_references": 26,
+    "chunks_without_page_references": 3,
+    "chunks_containing_tables": 6,
+    "repeated_noise_lines_removed": 0,
+    "section_type_counts": {
+      "assessment": 1,
+      "curriculum": 1,
+      "general": 16,
+      "identity_overview": 6,
+      "language": 3,
+      "research": 2
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\germany\\uni_frankfurt\\programs\\0095\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Document overview\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nStyle Sheet\nHAUS- und EXAMENSARBEITEN\nSusanne Schmidt\n\nInhalt\n\n<table>\n<tr>\n<td>1. Abgabeformate</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2. Äußere Form der Hausarbeit</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3. Zitate</td>\n<td>6</td>\n</tr>\n<tr>\n<td>4. Abkürzungen und Abkürzungsverzeichnis</td>\n<td>12</td>\n</tr>\n<tr>\n<td>5. Plagiatserklärung</td>\n<td>13</td>\n</tr>\n<tr>\n<td>6. Literatur</td>\n<td>14</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 220,
+        "word_count": 43,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "913f43fd6849799acaacd6a7522b12aadfc83fc2f89b2bfbca39718b1f1f7ae1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "1. Abgabeformate",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "# 1. Abgabeformate\n\nUm die Abgabefrist einzuhalten, genügt es theoretisch, die Hausarbeit als pdf-Datei per Mail an\nden/die Betreuer/in zu schicken.\n\nAber: Da es immer wieder vorkommt, dass Schriftzeichen spezieller Fonts in der pdf-Datei nicht\nkorrekt dargestellt werden (dies geschieht, wenn der pdf-Creator die Schriftarten nicht einbindet; bei\neinigen Programmen lässt sich dies jedoch einstellen), sollte immer zusätzlich ein Ausdruck der Arbeit\nabgegeben und eine Word-Datei mitgeschickt werden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 145,
+        "word_count": 73,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "df493e0037cdf0a7bea6c14a24e1e88c3450423d1eb4abc79dd5550108777521",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 3,
+        "title": "2. Äußere Form der Hausarbeit",
+        "type": "identity_overview",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "page_start": 1,
+        "page_end": 3
+      },
+      "content": "# 2. Äußere Form der Hausarbeit\n\n· Eine Hausarbeit besteht aus folgenden Bestandteilen (optionale Teile stehen in Klammern):\n\nTitelblatt\nInhaltsverzeichnis\n\nEinleitung\n\nHauptteil\n\nTextteil\n\nSchluss / Zusammenfassung / Fazit\n\n(Abkürzungsverzeichnis)\nLiteraturverzeichnis\n\nPlagiatserklärung\n\\> Ist ein eigenständiges Dokument und erhält daher keine Seitenzahl\nund wird auch nicht im Inhaltsverzeichnis aufgeführt.\n\n<!-- PageNumber=\"1\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n· Folgende Angaben gehören auf das Titelblatt\n(Titelblatt gehört nicht zur Seitenzählung).\n\nAlle in Abb. 1 aufgeführten Angaben müssen auf dem\nTitelblatt verzeichnet sein!\n\n· Im Inhaltverzeichnis wird jedes Kapitel und\nUnterkapitel aufgeführt und mit einer Seitenzahl\nversehen. Für die Nummerierung der Kapitel wird\ndie Dezimalgliederung verwendet:\n\n<figure>\n\nName\n\nMatrikelnummer\nStudiengang (BA / MA)\n\nStudienfachkombination / Schwerpunkt\n\nSemester\nE-Mail-Adresse\n\nTitel der Hausarbeit\n(ggf. Untertitel)\n\nName des Instituts\nTitel der Veranstaltung\nName des/der Dozenten/Dozentin\n\nAbgabetermin\n\n</figure>\n\n<!-- PageHeader=\"Abbildung 1: Gestaltungsvorschlag für das Titelblatt einer Hausarbeit\" -->\n\n„Ihre Arbeit beginnt bei Kapitel 1 - das ist ge-\nwöhnlich die Einleitung - und Sie nummerieren\nfortlaufend von Kapitel zu Kapitel mit\narabischen Ziffern. Dies bezeichnet man als\nGliederung der 1. Stufe. Die Zugehörigkeit von\nUnterkapiteln zu einem Kapitel wird durch die\nÜbernahme von dessen Kapitelnummer und\neiner eigenen, durch einen Punkt abgetrennten\nZiffer markiert, die ebenfalls unter fortlaufender\nNummerierung mit 1 beginnt. Sie erhalten damit\neine Gliederung der 2. Stufe. [ ... ] Nach der\nletzten Ziffer steht bei den Unterkapiteln in der\nRegel kein Punkt.“ (Rothstein 2011: 149f.)\n\n1\\. Einleitung\n\n2\\. Erstes Hauptkapitel\n\n2.1 Erstes Unterkapitel des ersten Hauptkapitels\n\n2.2 Zweites Unterkapitel des ersten Hauptkapitels\n\n3\\. Zweites Hauptkapitel\n\n3.1 Erstes Unterkapitel des zweiten Hauptkapitels\n\n3.2\nusw.\n...\n\n4\\. Schluss / Fazit\n\n5\\. Abkürzungsverzeichnis\n\n6\\. Literaturverzeichnis\n\nAbbildung 2: Gliederung einer Hausarbeit\n\n· Äußere Form des Textteils:\n\n<table>\n<tr>\n<td>Format</td>\n<td>DIN A4-Seiten, einseitig beschrieben</td>\n</tr>\n<tr>\n<td>Schriftart</td>\n<td>Times New Roman</td>\n</tr>\n<tr>\n<td>Schriftgröße</td>\n<td>12 pt im Fließtext; 10 pt bei Fußnoten und längeren Zitaten (mehr als 3 Zeilen)</td>\n</tr>\n<tr>\n<td>Zeilenabstand</td>\n<td>1,5 im Fließtext; 1 bei Fußnoten, längeren Zitaten und im Literaturverzeichnis</td>\n</tr>\n<tr>\n<td>Seitenformat:</td>\n<td>Rand links 3 - 3,5 cm</td>\n</tr>\n<tr>\n<td rowspan=\"2\"></td>\n<td>Rand rechts 2,5 - 3 cm</td>\n</tr>\n<tr>\n<td>Rand oben und unten je 2 - 3 cm</td>\n</tr>\n<tr>\n<td>Textumfang:</td>\n<td>Die vorgegebene Seitenanzahl ist einzuhalten!</td>\n</tr>\n</table>\n\nSorgfalt beim Schreiben beugt Tipp- und anderen Fehlern vor; genaues Korrekturlesen vor der\nAbgabe ist unabdingbar.\n\n<!-- PageNumber=\"2\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1056,
+        "word_count": 351,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e31cb55aa65ec2e04439d7c017c8dfa0bb6a6b297eb212af934325364fb88496",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 4,
+        "title": "· Textgestaltung",
+        "type": "general",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "## · Textgestaltung\n\nDiejenigen Sprachen, die Beschreibungsgegenstand einer linguistischen Studie sind, bezeichnet man\nals Objektsprachen. Die zu ihrer Darstellung verwendete Sprache nennt man Metasprache. Die\nMetasprache ist demnach die Sprache, in der publiziert wird.\n\nDie Objektsprache wird mit Beispielen illustriert. Beispiele sind in diesem Fall sprachliche Einheiten\naus der jeweiligen Objektsprache, auf die in Ihrer linguistischen Studie referiert wird. Auch für die\nVerwendung von Beispielen gelten bestimmte Regeln. Die Beispiele illustrieren die theoretischen\nErkenntnisse und Argumente, sie ersetzen die wissenschaftliche Argumentation jedoch nicht.\n\n(Rothstein 2011: 138; Hervorhebung im Original)\n\nFolgendes wird im Fließtext kursiv gesetzt:\n\n› Buchstaben, Wörter und Sätze, die als sprachliche Belege [i.e. objektsprachliche Beispiele]\ndienen;\n\n› fremdsprachliche Wörter und Wendungen, die im Text verwendet werden;\n\n› Titel von selbstständig erschienener Literatur, d.h. von Büchern und Zeitschriften, Werktitel (aber\nnicht von unselbstständig erschienener Literatur: d.h. Titel von Zeitschriftenaufsätzen, von\nBuchkapiteln etc.).\n\n\\> Griechische Schrift soll nicht kursiviert werden. Die Frage, ob griechische Wortformen\ntransliteriert werden, hängt vom Adressatenkreis ab. Entsprechendes gilt für Wortformen in\nkyrillischer und anderen Schriften. Im Zweifelsfall ist die Frage mit dem/der Betreuer/in vorab zu\nklären.\n\n› Englischsprachige Termini, die (noch) keine deutsche Entsprechung haben, werden in der Regel\nkursiv gesetzt, es sei denn, der Terminus selbst ist schon Standard.\n\n(Mumm 2004: 10; Formatierung modifiziert)\n\n› Doppelte Anführungs[zeichen] stehen bei Titeln unselbstständig erschienener Literatur, außer-\ndem kennzeichnen sie wörtliche Zitate.\n\n› Einfache Anführungs[zeichen] stehen bei Zitaten innerhalb von Zitaten, bei Bedeutungsangaben\nund für Fachtermini.\n(Mumm 2004: 11; Formatierung modifiziert)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 581,
+        "word_count": 242,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "7bda645be17e6390876b744b63c1741eeb9b5a83c784c125c7b48532cf25ec79",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 5,
+        "title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "type": "identity_overview",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 2
+      },
+      "location": {
+        "page_numbers": [
+          3,
+          4,
+          5
+        ],
+        "page_start": 3,
+        "page_end": 5
+      },
+      "content": "### · Objektsprachliche Beispiele und Interlinearversionen\n\nObjektsprachliche Beispiele außerhalb des Fließtextes - also solche, die durch einen eigenen Absatz\nhervorgehoben sind - müssen in der Hausarbeit fortlaufend nummeriert und in Klammern gesetzt sein,\ndamit im Text eindeutig auf die Beispiele verwiesen werden kann („Wie in Beispiel (1) zu sehen ... “).\nWenn mehrere Objektsprachen in der Arbeit behandelt werden, kann die jeweilige Objektsprache nach\nder Nummer angegeben werden, wie in Abb. 3 dargestellt. Die Übersetzungszeile steht in einfachen\nAnführungszeichen.\n\n<!-- PageNumber=\"3\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n<figure>\n<figcaption>Abbildung 3: Glossierter Beispielsatz außerhalb des Fließtextes</figcaption>\n\n(1)\n\nBaskisch:\n\nSchriftgröße\n\nNik begiak indarrez igurtzi nituen.\n\nZeilenabstand\n\nindar-rez igurtzi\nn-it-uen\n\n}\n}\n\n12\n\nni-k begi-a-k\n\n0 pt\n\n10\n\nISG-ERG Auge-ART-PL\n\nKraft-INS\n\nreib\nSISG-O3PL-PST\n\n,Ich habe mir kräftig die Augen gerieben“\n\n6 pt\n\n</figure>\n\nBei der Gestaltung glossierter Beispielsätze sollte man größten Wert auf Übersichtlichkeit legen,\ndamit alles gut lesbar ist. Vor allem bei Beispielen, die länger als eine Zeile sind, ist es z.B. wichtig,\ndie Abstände zwischen den Zeilen, die zusammengehören, eng zu halten (0 pt), andere Zeilen\nhingegen durch einen größeren Zeilenabstand (z.B. 6 pt) davon abzuheben.\n\nRichtlinien für die Glossierung sind in den Leipzig Glossing Rules zu finden.\n\nFür Arbeiten, die Glossierungen enthalten, ist ein Abkürzungsverzeichnis für die grammatischen\nÜbersetzungen zu erstellen - auch dann, wenn man sich bei den gewählten Abkürzungen nach den\nLeipzig Glossing Rules richtet.\n\n„Gelegentlich werden auch ungrammatische Beispiele aufgeführt, etwa um zu zeigen, dass die\nvertretene Theorie sie auszuschließen vermag. Damit der Leser weiß, dass sie ungrammatisch sind,\nwird dies jeweils vor dem Beispiel markiert“ (Rothstein 2011: 141). Ungrammatische Beispiele sollen\ndurch ein voran- und hochgestelltes Kreuz „¡“ gekennzeichnet werden, Beispiele mit fragwürdiger\nAkzeptabilität durch ein voran- und hochgestelltes Fragezeichen („?“) und unbelegte oder rekonstru-\nierte Beispiele durch einen voran- und hochgestellten Asterisk „*“.\n\n(2)\n*Gestern er geht ins Kino\n\n(3)\nDu hast das Gesicht geschminkter als Kiss\n\n(4)\n*hjékuo-s\n\nAbbildung 4: Beispiele für die Kennzeichnung von Beispielsätzen (Sätze (2) und (3) aus Rothstein 2011: 141)\n\nLautliche (phonetische) Realisierungen wer-\nden in eckige Klammern geschrieben, Phone-\nme werden zwischen zwei Schrägstrichen\ndargestellt und Grapheme in spitzen Klam-\nmern:\n\n<figure>\n\nIm Deutschen werden die Allophone\n[c] und [x]\ndes Phonems\n/x/\n\ndurch das Graphem\n<ch>\ndargestellt.\n\n</figure>\n\nAbbildung 5: Die Verwendung verschiedener Klammersym-\nbole in der Sprachwissenschaft\n\nFür die Darstellung von Morphemen werden geschweifte Klammern verwendet: Das deutsche Wort\ngehen besteht aus zwei Morphemen: {geh} und {-en}.\n\n<!-- PageNumber=\"4\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\n· Schaubilder und Tabellen müssen benannt und nummeriert werden:\n\n<figure>\n\nArgumentieren: Wie argumentiere ich\nwissenschaftlich?\n\n®\n30%\n\n0\n0%\n\n0\n70%\n\n@ = ,Das interessiert mich'\n\n„Das interessiert mich nicht'\n\n@ =, Weiß nicht‘\n\n</figure>\n\nAbbildung 6: Interessenlage der Soft Skills-Studierenden 2013/2014 an der Frage „Wie argumentiere ich wissenschaftlich?“\n\nDie Nummerierung dient hier - ebenso wie bei den Beispielsätzen - dazu, dass man sich im Text\neindeutig auf eine bestimmte Abbildung oder Tabelle beziehen kann (z.B. „Wie aus Tabelle 2\nersichtlich ... “).\n\nHat man ein Schaubild oder eine Tabelle nicht selbst erstellt, sondern von jemand anderem übernom-\nmen (vollständig oder teilweise), so muss man die Quelle angeben:\n\n<table>\n<caption>Tabelle 5: Transitive und detransitivierte Kasusrahmen in Ergativsprachen (Tsunoda 1988: 626)</caption>\n<tr>\n<th colspan=\"6\">O (ABS)</th>\n</tr>\n<tr>\n<th colspan=\"2\"></th>\n<th>unchanged</th>\n<th>changed to OBL</th>\n<th>changed to ERG</th>\n<th>deleted</th>\n</tr>\n<tr>\n<td>A (ERG)</td>\n<td>unchanged</td>\n<td>ERG-ABS</td>\n<td>ERG-OBL</td>\n<td>(ERG-ERG)24</td>\n<td>(ERG-Ø)</td>\n</tr>\n<tr>\n<td></td>\n<td>changed to OBL</td>\n<td>OBL-ABS</td>\n<td>OBL-OBL</td>\n<td>(OBL-ERG)</td>\n<td>(OBL-Ø)</td>\n</tr>\n<tr>\n<td></td>\n<td>changed to ABS</td>\n<td>ABS-ABS</td>\n<td>ABS-OBL</td>\n<td>(ABS-ERG)</td>\n<td>ABS-Ø</td>\n</tr>\n<tr>\n<td></td>\n<td>deleted</td>\n<td>(Ø-ABS)</td>\n<td>(Ø-OBL)</td>\n<td>(Ø-ERG)</td>\n<td>(Ø-Ø)</td>\n</tr>\n</table>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1528,
+        "word_count": 571,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          3,
+          4,
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8690cb450b3d5cfc5554ab48fa280bce7477effd1a527c05e7df4d34bf0a7bdc",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 5,
+        "title": "· Objektsprachliche Beispiele und Interlinearversionen",
+        "type": "identity_overview",
+        "heading_level": 3,
+        "part_number": 2,
+        "part_count": 2
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "### · Objektsprachliche Beispiele und Interlinearversionen\n\nAbbildung 7: Von einem ande-\n\nren Autor übernommene Tabel-\nle (aus: Schmidt 2008: 26)\n\nWenn man eine von anderen Autoren bezogene Tabelle / Grafik / Abbildung verändert hat, muss man\ndies ebenfalls kennzeichnen. Bei geringen Änderungen genügt es z.B. „(nach Tsunoda 1988: 626)“ zu\nschreiben; dadurch macht man kenntlich, dass man mit der eigenen Darstellung im Prinzip dem\ngenannten Autor folgt. Nimmt man Umsortierungen, Streichungen oder Ergänzungen vor, so fügt man\nder Quellenangabe einen entsprechenden Zusatz hinzu, aus dem durch die Abkürzung des eigenen\nNamens (z.B. durch die Inititalen) zu erkennen ist, wer die Änderung vorgenommen hat, z.B.\n„(Tsunoda 1988: 626; ergänzt S.Sch.1)“, bei Veröffentlichungen findet man hierfür häufig die Abkür-\nzung „d. Verf.“ für ,der Verfasser“.\n\n1 NB: Ich verwende meine Initialen ungern - S.Sch.\n\n<!-- PageNumber=\"5\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nAuch Fotos oder Screenshots können in schriftlichen Arbeiten als Abbildungen Verwendung finden,\nals Quellenangabe dient dann das Datum (und die Uhrzeit) der Aufnahme. Bei einem Screenshot von\neiner Webseite muss auch die Adresse der Webseite angegeben werden.\n\n<figure>\n\nA\n\nBundesagentur für Arbeit\n\nSprache\n\nDeutsch\n\n¥\nÄndern\n\nStartseite | Kontakt | Nutzungsbedingungen | D\n\nJOBBÖRSE\n\n2.990.720 Bewerberprofile 945.000 Stellen 248.452 Ausbildur\n\nMeine JOBBÖRSE\n\nAnmelden\n\nNoch nicht bei der JOBBÖRSE registriert?\nJet\n\nVorheriges Stellenangebot\n\nZurück zur Ergebnisliste\n\nStellenangebot - Flugzeugzankwart (m/w) (Berufskraftfahrer/in)\n\n</figure>\n\nAbbildung 8: Stellenanzeige auf der Website der Bundesagentur für Arbeit,\nhttps://jobboerse.arbeitsagentur.de/; letzter Zugriff: 15.06.2015. (Screenshot\nvom 15.06.2015, 21:26 Uhr)\n\n<figure>\n</figure>\n\nNoch einmal sei darauf hingewiesen, dass ein abschließendes Korrekturlesen der Arbeit dringendst\nempfohlen wird. Sorgfalt bei der Korrektur von Tipp- und anderen Fehlern hilft Missverständnisse zu\nvermeiden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 687,
+        "word_count": 277,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "d2b93c1c7ee8e08813eedab6e361f425c9a19ab394f90e3f637f1c4b80c828e8",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 6,
+        "title": "3. Zitate",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "### 3. Zitate\n\nJedes Zitat - egal, ob wörtlich oder sinngemäß zitiert wird - muss mit einer Quellenangabe versehen\nsein. Hierbei soll die Harvard-Zitierweise (Kurzbeleg) verwendet werden: In Klammern werden\nName des Autors, Erscheinungsjahr und, mit einem Doppelpunkt abgesetzt, Seitenzahl im Fließtext\ndirekt hinter (manchmal auch vor) dem Zitat angegeben; z.B. (Müller 1999: 23), bei zwei Autoren:\n(Müller & Meier 1955: 314); bei mehr als zwei Autoren schreibt man im Kurzbeleg nur den ersten\nNamen und setzt „et al.“ (Abkürzung für lat. „und andere‘) hinzu: (Müller et al. 1999: 23). Für reine\nQuellenangaben werden also keine Fußnoten verwendet2. Bei den Quellenangaben für indirekte\nZitate oder sonstige Hinweise auf Sekundärliteratur wird vor dem Autorennamen „vgl.“ (Abkürzung\nfür ,vergleiche‘) hinzugefügt.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 274,
+        "word_count": 116,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "60c03d9355cf811168d5e493df199fed39437e7e28a700c3ed36986210d3215c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "chunk_index": 8,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "· Kennzeichnung wörtlicher Zitate",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 2
+      },
+      "location": {
+        "page_numbers": [
+          6,
+          7,
+          8
+        ],
+        "page_start": 6,
+        "page_end": 8
+      },
+      "content": "### · Kennzeichnung wörtlicher Zitate\n\nKurze Zitate stehen in doppelten Anführungszeichen. Kommt in der zitierten Stelle wörtliche Rede\noder ein weiteres Zitat vor, das im Original in doppelten Anführungszeichen steht (Zitat im Zitat), so\ngibt man diese als einfache Anführungszeichen wieder: „Zitiert werden darf grundsätzlich nur anhand\ndes Originalmaterials. Ist das nicht möglich, muss auf die Sekundärquelle mit ,zitiert nach‘ verwiesen\nwerden.“ (Pages 2009: 15)\n\nLängere Zitate (ab drei Zeilen) werden abgesetzt (neue Zeile), eingerückt (um ca. 1 cm) und in\nSchriftgröße 10 formatiert, der Zeilenabstand beträgt 1:\n\n2 In Fußnoten gehören nur Zusatzinformationen wie z.B. Hinweise auf weiterführende Literatur.\n\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nZitate müssen in Form und Inhalt exakt übernommen werden. Das bedeutet, dass die vorliegende\nOrthographie und Interpunktion originalgetreu beibehalten werden muss - auch wenn es sich um\nungewöhnliche Schreibweisen oder sogar eindeutige Fehler handelt. Der Inhalt des Zitates muss in\nseinem neuen Kontext seinen ursprünglichen Sinn behalten. Eventuelle Veränderungen (z. B. Korrek-\ntur oder Hinweise auf offensichtliche Fehler) müssen kenntlich gemacht werden [ ... ].\n\n(Pages 2009: 15)\n\n<figure>\n<figcaption>Abbildung 9: Kennzeichnung von Veränderungen innerhalb von Zitaten</figcaption>\n\nAuslassungen von Wörtern, Sätzen oder Absätzen werden\ndurch drei Punkte in eckigen Klammern markiert:\n[ ... ]\n\nBei Zusätzen bzw. Korrekturen wird der Zusatz in eckige\nKlammern eingefasst:\n\nz.B .:\n\nVorlage:\nDaneben sollen sie auch ästhetischen Ansprüchen genügen.\n\nZitat:\nBefragungen unter Benutzerinnen und Benutzern der Stadtbibliothek\nergaben, dass „[ ... ] sie [die Räume - d.Verf.] auch ästhetischen\nAnsprüchen genügen [sollen]“.\n\n(Pages 2009: 17; Hervorhebung von S.Sch.)\n\nFehler im Originaltext werden, wenn man sie nicht korrigiert,\ndurch ein in eckigen Klammern stehendes sic! hinter dem\nfalsch geschriebenen Wort markiert.\n[sic!]\n\n</figure>\n\nZitate aus fremdsprachiger Literatur (z.B. Englisch) können nur dann in der Originalsprache\nstehen, wenn davon auszugehen ist, dass die Sprache ,üblicherweise‘ verstanden wird. Ansonsten\nsollte man sich um eine Übersetzung bemühen, die dem Originalzitat beigefügt wird. Übersetzt man\ndas Zitat selbst, wird dies in Klammern vermerkt (z.B. „Übersetzung S.Sch.“), verwendet man hin-\ngegen die Übersetzung eines anderen Autors, so muss man diesen als Übersetzer angeben.\n\n· Sinngemäße Zitate (Referieren der Positionen anderer)\n\nNicht gerade wenige Studierende sind der Meinung, dass sie nur dann zitieren, wenn sie Aussagen\nanderer wörtlich wiedergeben. Dies ist natürlich grober Unfug. Denn immer, wenn man Positionen,\nGedanken oder bspw. Ergebnisse Dritter in seiner wissenschaftlichen Arbeit übernimmmt, verwendet\nman ein sog. Zitat.\n\n(Kornmeier 2011: 276 f .; Hervorhebung im Original)\n\nMit einem sinngemäßen Zitat ist gemeint, dass man Gedanken bzw. Ausführungen anderer über-\nnimmt oder sich an die Argumentation anderer Autoren anlehnt, ohne indessen den betreffenden\nText wörtlich wiederzugeben. Hingegen ist mit einem indirekten Zitat nicht gemeint, dass man den\nOriginaltext (mit mehr oder weniger großer Mühe) umformuliert; vielmehr sollte man sich vom\njeweiligen Text lösen und den Inhalt in eigenen Worten wiedergeben [ ... ].\n\n(Kornmeier 2011: 280; Hervorhebung im Original)\n\n<!-- PageNumber=\"7\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nBeim Referieren der Ausführungen anderer AutorInnen ist es wichtig, dies zunächst wertneutral und\nohne Interpretationen zu tun. Eine kritische Auseinandersetzung folgt erst, nachdem man die Inhalte\nausreichend dargelegt hat.\n\nFolgende Formulierungen sind beim Referieren hilfreich:\n\n· Nach Meinung / Auffassung des Autors ist\n\n· Der Autor vertritt dabei die Position, dass\n\n· So betont der Autor, dass ...\n\n. ... , so der Autor,\n\n· Dieser Umstand sei\n\nAbbildung 10: Formulierungshilfen für das Referieren (Kornmeier 2011: 280)\n\nWenn man in einer etwas längeren Passage (mehr als ein Satz) die Inhalte eines anderen Autors\nreferiert, sollte man den Autor nicht unbedingt in jedem Satz erneut erwähnen, sondern in diesen\nFällen den Konjunktiv I (Konjunktiv Präsens) verwenden, der signalisiert, daß es sich um die Aussage\neines anderen handelt - im Gegensatz zum Konjunktiv II (Konjunktiv Präteritum), der irreale Sach-\nverhalte (vor allem in Konditionalsätzen) markiert.\n\nDer Konjunktiv I wird vom Infinitivstamm des Verbs gebildet, an den die Konjunktiv-Endungen\nangefügt werden (eindeutige Formen sind fett markiert):",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1451,
+        "word_count": 623,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          6,
+          7,
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1b8eb09f1e710bcba82ab8eaa1c1c884a5d080cbba7e69a1f6e7e438be06682c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "chunk_index": 9,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "· Kennzeichnung wörtlicher Zitate",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 2,
+        "part_count": 2
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "### · Kennzeichnung wörtlicher Zitate\n\n<table>\n<caption>Konjunktiv I</caption>\n<tr>\n<th colspan=\"4\"></th>\n<th colspan=\"2\">Modalverben:</th>\n<th>Suppletivstamm:</th>\n</tr>\n<tr>\n<td>ich</td>\n<td>~e</td>\n<td>habe</td>\n<td>gehe</td>\n<td>könne</td>\n<td>wolle</td>\n<td>sei</td>\n</tr>\n<tr>\n<td>du</td>\n<td>~est</td>\n<td>habest</td>\n<td>gehest</td>\n<td>könnest</td>\n<td>wollest</td>\n<td>seist</td>\n</tr>\n<tr>\n<td>er/sie/es</td>\n<td>~e</td>\n<td>habe</td>\n<td>gehe</td>\n<td>könne</td>\n<td>wolle</td>\n<td>sei</td>\n</tr>\n<tr>\n<td>wir</td>\n<td>~en</td>\n<td>haben</td>\n<td>gehen</td>\n<td>können</td>\n<td>wollen</td>\n<td>seien</td>\n</tr>\n<tr>\n<td>ihr</td>\n<td>~et</td>\n<td>habet</td>\n<td>gehet</td>\n<td>könnet</td>\n<td>wollet</td>\n<td>seiet</td>\n</tr>\n<tr>\n<td>sie</td>\n<td>~en</td>\n<td>haben</td>\n<td>gehen</td>\n<td>können</td>\n<td>wollen</td>\n<td>seien</td>\n</tr>\n</table>\n\nTabelle 1: Paradigma des Konjunktivs I im Deutschen\n\nZum Vergleich:\nKonjunktiv II\n\n<table>\n<caption>Tabelle 2: Paradigma des Konjunktivs II im Deutschen</caption>\n<tr>\n<th colspan=\"4\"></th>\n<th colspan=\"2\">Modalverben:</th>\n<th>Suppletivstamm:</th>\n</tr>\n<tr>\n<td>ich</td>\n<td>~e</td>\n<td>hätte</td>\n<td>ginge</td>\n<td>könnte</td>\n<td>wollte</td>\n<td>wäre</td>\n</tr>\n<tr>\n<td>du</td>\n<td>~est</td>\n<td>hättest</td>\n<td>gingest</td>\n<td>könntest</td>\n<td>wolltest</td>\n<td>wär(e)st</td>\n</tr>\n<tr>\n<td>er/sie/es</td>\n<td>~e</td>\n<td>hätte</td>\n<td>ginge</td>\n<td>könnte</td>\n<td>wollte</td>\n<td>wäre</td>\n</tr>\n<tr>\n<td>wir</td>\n<td>~en</td>\n<td>hätten</td>\n<td>gingen</td>\n<td>könnten</td>\n<td>wollten</td>\n<td>wären</td>\n</tr>\n<tr>\n<td>ihr</td>\n<td>~et</td>\n<td>hättet</td>\n<td>ginget</td>\n<td>könntet</td>\n<td>wolltet</td>\n<td>wär(e)t</td>\n</tr>\n<tr>\n<td>sie</td>\n<td>~en</td>\n<td>hätten</td>\n<td>gingen</td>\n<td>könnten</td>\n<td>wollten</td>\n<td>wären</td>\n</tr>\n</table>\n\n<!-- PageNumber=\"8\" -->\n<!-- PageBreak -->\n\n<figure>\n\n<!-- PageHeader=\"E\" -->\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nÜberall dort im Paradigma, wo die Formen des Konjunktivs I mit den Indikativ-Formen des Verbs im\nPräsens gleich sind, wird die entsprechende Form des Konjunktivs II eingesetzt, damit das Verb von\nder Indikativ-Präsens-Form zu unterscheiden ist:\n\nEr sagte, er habe mich gestern gesehen\naber:\nSie sagten, sie hätten mich gestern gesehen\n\nAbbildung 11: Beispiele für die Verwendung des Konjunktivs in indirekter Rede",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 978,
+        "word_count": 195,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3bad7f1b77901b80dfee6938c8347e0656bdfa16e70bb555bf1ec2cdbd838436",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "chunk_index": 10,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 8,
+        "title": "· Literaturverzeichnis / Bibliographie",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          9
+        ],
+        "page_start": 9,
+        "page_end": 9
+      },
+      "content": "### · Literaturverzeichnis / Bibliographie\n\nIm Literaturverzeichnis, das am Ende der Hausarbeit das letzte Kapitel bildet, werden die voll-\nständigen Literaturangaben aufgelistet, sortiert in alphabetischer Reihenfolge nach den Nachnamen\nder Autoren bzw. Herausgeber. Der Zeilenabstand im Literaturverzeichnis beträgt 1 (anders als im\nTextteil, wo ein Zeilenabstand von 1,5 einzuhalten ist) und die einzelnen Einträge werden hängend\neingerückt. Die Titel von selbständig erschienener Literatur (Monografien, Sammelbände, Zeit-\nschriften) werden kursiv gesetzt, die Titel von unselbständig erschienener Literatur (Aufsätze in einem\nSammelband oder einer Zeitschrift) stehen in doppelten Anführungszeichen.\n\n<figure>\n<figcaption>Abbildung 12: Bestandteile von Literaturangaben</figcaption>\n\nEine Literaturangabe besteht aus\n\n1\\.\ndem Namen und Vornamen des Verfassers (bzw. des Herausgebers),\n\n2\\.\nder Jahreszahl der Publikation,\n\n3\\.\ndem Titel (evtl. Untertitel sowie Angaben zur Auflage),\n\n4\\.\ndem Erscheinungsort und Verlag.\n\n5\\.\nBei nichtselbständig erschienenen Werken (z.B. Aufsätze, Artikel)\nwerden auch die Seitenzahlen der Zeitschrift oder des Sammelbandes\nangegeben, in der bzw. in dem der Aufsatz od. Artikel erschienen ist.\n\n</figure>\n\nOb deutsche oder englische Abkürzungen verwendet werden müssen, ist abhängig von der Sprache, in\nder man die eigene Arbeit verfasst, und nicht von der Sprache der verwendeten Veröffentlichung.\nAchtung: Auch die Interpunktion folgt entweder der deutschen oder der englischen Konvention.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 451,
+        "word_count": 193,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "4141abd1a11a55fb230e33ea6d1ad738b12cb997a0453da64700730a57998455",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "chunk_index": 11,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 9,
+        "title": "a) Werk von einem Autor (Monografie):",
+        "type": "general",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "#### a) Werk von einem Autor (Monografie):\n\nVornamen sollten, wo immer mög- dt.\nlich, ausgeschrieben werden.\n\nWenn es sich nicht um die erste, sondern\neine weitere Auflage einer Publikation\nhandelt, muss dies angegeben werden.\nEntweder folgt diese Angabe nach dem\nTitel der Publikation oder sie wird durch\neine hochgestellte Ziffer vor dem Erschei-\nnungsjahr gekennzeichnet.\n\nPrimus, Beatrice, 1999: Cases and thematic roles: ergative,\naccusative and active. Tübingen: Niemeyer.\n\nArens, Hans, 1969: Sprachwissenschaft. Der Gang ihrer\nEntwicklung von der Antike bis zur Gegenwart. 2. Aufl.\nFreiburg/München: Alber.\n\nArens, Hans, 21969: Sprachwissenschaft. Der Gang ihrer Ent-\nwicklung von der Antike bis zur Gegenwart. Freiburg/Mün-\nchen: Alber.\n\n<!-- PageNumber=\"9\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nengl. Primus, Beatrice. 1999. Cases and thematic roles: ergative,\naccusative and active. Tübingen: Niemeyer.\n\nArens, Hans. 1969. Sprachwissenschaft. Der Gang ihrer\nEntwicklung von der Antike bis zur Gegenwart. 2nd edition.\nFreiburg/München: Alber.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 357,
+        "word_count": 147,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "3a402a4c1408d2c9e49be3d1fa15ecdbab326a0ec98dc1bbd47dbfd1df24d1d3",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "chunk_index": 12,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 10,
+        "title": "b) Werk von zwei oder mehr Autoren:",
+        "type": "identity_overview",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "##### b) Werk von zwei oder mehr Autoren:\n\nFromkin, Victoria & Robert Rodman 1998: An Introduction to\nLanguage. 6. Aufl. Fort Worth et al .: Harcourt College\nPublishers.\n\nGippert, Jost; Schulze, Wolfgang; Aleksidze, Zaza; Mahé, Jean-\nPierre 2008: The Caucasian Albanian Palimpsests of Mount\nSinai. 2 Bde. Turnhout: Brepols (Monumenta Palaeographica\nMedii Aevi / Series Ibero-Caucasica, 2).",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 129,
+        "word_count": 54,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "4febb38d0bc78e671870b234e94b0eb26f8651c9bc00b7dbbe5dc3dffe0caae9",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0013",
+      "chunk_index": 13,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 11,
+        "title": "c) Zwei oder mehr Werke von einem Autor:",
+        "type": "language",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "#### c) Zwei oder mehr Werke von einem Autor:\n\nDixon, Robert M.W., 1972: The Dyirbal language of North\nQueensland. Cambridge: University Press.\n\n\\- 1994: Ergativity. Cambridge: University Press.\n\n\\- 2002: Australian languages: their nature and development.\nCambridge: University Press.\n\nVor allem bei englischen Veröffentlichun-\ngen ist es üblich, den Namen des Autors\nnicht mehrmals aufzulisten, sondern durch\neinen sog. Geviertstrich zu ersetzen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 125,
+        "word_count": 60,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "9f56ef6d6bbcd4f46f98884475a4220b6e95693d6f014ccc31b8e1a8361893d4",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0014",
+      "chunk_index": 14,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 12,
+        "title": "d) Mehrere Publikationen eines Autors aus einem Jahr:",
+        "type": "language",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "#### d) Mehrere Publikationen eines Autors aus einem Jahr:\n\nDie verschiedenen Publikationen werden\ndurch an die Jahreszahl angehängte Buch-\nstaben differenziert.\n\nLabov, William, 1972a: Language in the Inner City. Philadelphia:\nUniversity of Philadelphia Press.\n\n\\- 1972b: Sociolinguistic Patterns. Philadelphia: University of\nPhiladelphia Press.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 86,
+        "word_count": 41,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d276230598c11f94b92a2fcb9f6adb68a1281a045e968bfeb656ab4fa194b7ae",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0015",
+      "chunk_index": 15,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 13,
+        "title": "e) Übersetzung:",
+        "type": "general",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "#### e) Übersetzung:\n\nÜbersetzer werden namentlich\nnach dem Titel angeführt, einge-\nleitet durch dt. „Übers.“ bzw.\nengl. „Transl.“",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 45,
+        "word_count": 17,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "d13d0f6064d566f948f23c2bb66d983c3c86d0bea5f61cbb7409ff30c68a1f1e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0016",
+      "chunk_index": 16,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 14,
+        "title": "f) Sammelband:",
+        "type": "general",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "#### f) Sammelband:\n\nHerausgeber werden namentlich\nangeführt, gekennzeichnet durch\ndt, „(Hrsg.)“ bzw. engl. „ed.“\nbzw. „eds.” (im Plural).\n\ndt. Benveniste, Emile, 1977: Probleme der allgemeinen Sprachwissen-\nschaft. Übers .: Wilhelm Bolle. Frankfurt am Main: Syndikat.\n\nengl. Calvet, Louis-Jean. 1978. Die Sprachenfresser. Ein Versuch über\nLinguistik und Kolonialismus. Transl. Peter Hagemeister.\nBerlin: Arsenal.\n\ndt. Plank, Frans (Hrsg.), 1979: Ergativity: Towards a Theory of\nGrammatical Relations. New York: Academic Press.\n\nFox, Barbara & Hopper, Paul J. (Hrsg.), 1994: Voice: form and\nfunction. Amsterdam/Philadelphia: John Benjamins.\n\nengl. Plank, Frans, ed. 1979. Ergativity: Towards a Theory of\nGrammatical Relations. New York: Academic Press.\n\nFox, Barbara & Hopper, Paul J., eds. 1994. Voice: form and\nfunction. Amsterdam/Philadelphia: John Benjamins.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 280,
+        "word_count": 113,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8a3b37264f9fffb151277839612152c162e730af8f8f5091d1f8e5818de5066e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0017",
+      "chunk_index": 17,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 15,
+        "title": "g) Aufsatz aus einem Sammelband:",
+        "type": "language",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "content": "##### g) Aufsatz aus einem Sammelband:\n\nAufsatztitel werden durch Anfüh- dt. Tsunoda, Tasaku, 1988: „Antipassives in Warrungu and other\nrungszeichen markiert.\n\nAustralian languages.“ In: Shibatani, Masayoshi (Hrsg.):\nPassive and Voice. Amsterdam/Philadelphia: John\nBenjamins. 595-649.\n\nengl. Tsunoda, Tasaku. 1988. \"Antipassives in Warrungu and other\nAustralian languages.\" In: Shibatani, Masayoshi, eds. Passive\nand Voice. Amsterdam/Philadelphia: John Benjamins. 595-\n649.\n\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\n\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>\n\nh) Mehrere Aufsätze aus demselben Sammelband (dieser muss dann ebenfalls für sich angeführt werden):\n\n. werden jeder für sich angeführt. Auf\nden Sammelband wird durch „In:“ mit\ndarauf folgendem Kurztitel verwiesen; der\nSammelband selbst wird unter seinen Her-\nausgebern erfasst.\n\nCooreman, Ann, 1988: „The antipassive in Chamorro: variations\non the theme of transitivity.“ In: Shibatani, Masayoshi\n(Hrsg.), 1988. 561-593.\n\nKaswanti Purwo, Bambang, 1988: „Voice in Indonesian: a\ndiscourse study.\" In: Shibatani, Masayoshi (Hrsg.), 1988.\n196-241.\n\nShibatani, Masayoshi (Hrsg.), 1988: Passive and Voice. Amster-\ndam/Philadelphia: John Benjamins.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 419,
+        "word_count": 156,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          10,
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8f9791ee4c697e8680c36c968d3323ee29b49d495dc8aea991b09a739bcccc6e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0018",
+      "chunk_index": 18,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 16,
+        "title": "i) Einführung, Vorwort oder Nachwort zu einem Sammelband:",
+        "type": "identity_overview",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "#### i) Einführung, Vorwort oder Nachwort zu einem Sammelband:\n\nWenn der Text nicht übertitelt ist, kann\nman einen Titel ergänzen, dieser muss\ndann in eckigen Klammern stehen:\n[Vorwort], [Introduction].\n\nNichols, Johanna & Woodbury, Anthony C., 1985: Introduction.\nIn: Nichols, Johanna & Woodbury, Anthony C. (Hrsg.):\nGrammar inside and outside the clause. Cambridge:\nCambridge University Press. 1-14.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 115,
+        "word_count": 54,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e1087e55165136b8d5768f547454cf59952128fb486766e64e6b4ed1181353ad",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0019",
+      "chunk_index": 19,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 17,
+        "title": "j) Aufsatz aus einer wissenschaftlichen Zeitschrift:",
+        "type": "curriculum",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "#### j) Aufsatz aus einer wissenschaftlichen Zeitschrift:\n\nDer Zeitschriftentitel wird kursiv gesetzt,\nes folgen Bandnummer und Seitenangabe.\n\nSasse, Hans-Jürgen, 1978: „Subjekt und Ergativ: Zur pragma-\ntischen Grundlage primärer grammatischer Relationen.\"\nFolia Linguistica 12: 219-252.\n\nk) Buchrezension:\n\ndt. McCawley, James D., 1995: Rezension von Peter H. Matthews:\nGrammatical Theory in the United States from Bloomfield to\nChomsky. Journal of Linguistics 31.2: 444-453.\n\nengl. McCawley, James D. 1995. Review of Grammatical Theory in the\nUnited States from Bloomfield to Chomsky, by Peter H.\nMatthews. Journal of Linguistics 31.2: 444-453.\n\nl) Artikel aus einer Zeitung oder Wochenzeitschrift:\n\nZimmer, Dieter E., 1996: „Von Deutsch keine Rede.“ Die Zeit. 19.\nJuli 1996: 30.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 244,
+        "word_count": 113,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "20e95eb6176a77b96563fe9aade29331ce2af328c48626d7332823692842b6ef",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0020",
+      "chunk_index": 20,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 18,
+        "title": "m) Wörterbücher:",
+        "type": "general",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "##### m) Wörterbücher:\n\nFür einige Wörterbücher gibt es konven-\ntionalisierte Abkürzungen, die im Text als\nKurzverweis verwendet werden. Diese\nAbkürzungen tauchen dann auch in der\nLiteraturangabe auf.\n\nKühnel, Helmut. 1999. Wörterbuch des Baskischen. Wiesbaden:\nReichert.\n\nDictionary of Contemporary English (=DCE), 1987. 2. Aufl.\nBerlin/London: Langenscheidt/Longman.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 124,
+        "word_count": 46,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "df1107a1d7a26ffe305f953a64e19d960dc4eb591969aad21fa05a9b441977f9",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0021",
+      "chunk_index": 21,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "n) Webseiten (inklusive elektronische Corpora):",
+        "type": "general",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "##### n) Webseiten (inklusive elektronische Corpora):\n\nBei Internetadressen muss immer das Datum des letzten Zugriffs angegeben werden!\n\ndt. The Linguist List: http://www.linguistlist.org, letzter Zugriff:\n01.07.2015.\n\nInternetadressen können auch in spitzen\nKlammern stehen:\n\nCorpus of Contemporary Basque / Egungo Testuen Corpusa.\nUniversidad del País Vasco / Euskal Herriko Unibertsitatea:\nhttp://www.ehu.es/etc/, letzter Zugriff: 17.02.2014.\n\n[ ... ]<http://www.ehu.es/etc/>, letzter Zugriff: 17.02.2014.\n\nengl.\nThe British National Corpus. http://www.natcorp.ox.ac.uk,\nretrieved October 24, 2005.\n\n[ ... ]<http://www.natcorp.ox.ac.uk>, retrieved October 24, 2005.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 214,
+        "word_count": 84,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "74b2d2f52ceb456973fcbf5cdc6741e78ef6349533cb11cd83f8492ab7962ad5",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0022",
+      "chunk_index": 22,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 20,
+        "title": "o) Artikel aus einer elektronischen Zeitschrift:",
+        "type": "general",
+        "heading_level": 6,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "###### o) Artikel aus einer elektronischen Zeitschrift:\n\nKönig, Katharina, 2015: „Muss leider absagen. Muss noch nen\nreferat fertig machen.“ - Zur Dialogizität von Absagen und\nVerabredungsablehnungen in der SMS-Kommunikation.“\nLinguistik online 70: 143 - 166.\nhttps://bop.unibe.ch/linguistik-online/article/view/1747/2966,\nletzter Zugriff: 01.07.2015.\n\n<!-- PageNumber=\"11\" -->\n<!-- PageBreak -->\n\n<figure>\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 171,
+        "word_count": 57,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "837d7c06cc5f2af451512d5eb95f521e6e0f81e6aac22d14dcd7ea5cd202d6af",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0023",
+      "chunk_index": 23,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 21,
+        "title": "p) Artikel in Online-Lexika und -Enzyklopädien",
+        "type": "general",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          12
+        ],
+        "page_start": 12,
+        "page_end": 12
+      },
+      "content": "# p) Artikel in Online-Lexika und -Enzyklopädien\n\nBei Online-Lexika, wie z.B. Wikipedia,\nsollte, wenn bekannt, immer der perma-\nnente Link angegeben werden!\n\nWikipedia: Artikel „Literaturangabe“:\n\nhttps://de.wikipedia.org/w/index.php?title=Literaturangabe&\noldid=138383256, letzter Zugriff: 01.07.2015.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 97,
+        "word_count": 43,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "116e584deadb96d8819dd0d469fd9d35435ecd8728080ca2bc1326ce0a1531a6",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0024",
+      "chunk_index": 24,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 22,
+        "title": "4. Abkürzungen und Abkürzungsverzeichnis",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          12
+        ],
+        "page_start": 12,
+        "page_end": 12
+      },
+      "content": "## 4. Abkürzungen und Abkürzungsverzeichnis\n\nFür sprachwissenschaftliche Arbeiten mit Interlinearübersetzungen (Glossierungen) ist ein Abkür-\nzungsverzeichnis, in dem die Abkürzungen für die grammatischen Übersetzungen vollständig auf-\ngeführt werden, zwingend notwendig - auch dann, wenn man sich bei den gewählten Abkürzungen\nnach den Leipzig Glossing Rules richtet.\n\nDie in Tabelle 3 aufgeführten und als gebräuchlich eingestuften Abkürzungen müssen im Abkürzungs-\nverzeichnis der Arbeit nicht erläutert werden, ebensowenig folgende, die laut Duden gleichfalls als ge-\nbräuchlich gelten: u.v.m .; u.ä .; bzw .; ggf .; bspw .; usw. (vgl. Kornmeier 2011: 292). Gebräuchliche\nAbkürzungen des Deutschen sowie anderer Sprachen sind normalerweise in (guten) Wörterbüchern\nverzeichnet.\n\n<table>\n<caption>Tabelle 3: Bei Quellenangaben und Zitaten gebräuchliche Abkürzungen (nach Kornmeier 2011: 293)</caption>\n<tr>\n<th>Abkürzung (deutscher Sprachraum)</th>\n<th>Bedeutung</th>\n<th>Abkürzung (angloameri- kanischer Sprachraum)</th>\n</tr>\n<tr>\n<td>a.a.O.</td>\n<td>am angegebenen/angeführten Ort</td>\n<td>op. cit.</td>\n</tr>\n<tr>\n<td>Aufl.</td>\n<td>Auflage</td>\n<td>ed.</td>\n</tr>\n<tr>\n<td>Bd.</td>\n<td>Band</td>\n<td>vol.</td>\n</tr>\n<tr>\n<td>d.h.</td>\n<td>das heißt</td>\n<td>i.e.</td>\n</tr>\n<tr>\n<td>ders., dies.</td>\n<td>derselbe, dieselbe</td>\n<td>id.</td>\n</tr>\n<tr>\n<td>Diss.</td>\n<td>Dissertation</td>\n<td>Doct. Diss .; Ph. D. thesis</td>\n</tr>\n<tr>\n<td>ebd .; ebda.</td>\n<td>ebenda; an gleicher Stelle</td>\n<td>Loc. cit .; ibid.</td>\n</tr>\n<tr>\n<td>H.</td>\n<td>Heft</td>\n<td></td>\n</tr>\n<tr>\n<td>Hg .; Hrsg.</td>\n<td>Herausgeber</td>\n<td>ed .; eds.</td>\n</tr>\n<tr>\n<td>passim</td>\n<td>an mehreren Stellen (im Text)</td>\n<td>passim</td>\n</tr>\n<tr>\n<td>Jg.</td>\n<td>Jahrgang</td>\n<td>vol.</td>\n</tr>\n<tr>\n<td>Kap.</td>\n<td>Kapitel</td>\n<td>chap.</td>\n</tr>\n<tr>\n<td>Nachdr.</td>\n<td>Nachdruck</td>\n<td>repr.</td>\n</tr>\n<tr>\n<td>Nr.</td>\n<td>Nummer</td>\n<td>No.</td>\n</tr>\n<tr>\n<td>o.J.</td>\n<td>ohne Jahr</td>\n<td>n.d.</td>\n</tr>\n<tr>\n<td>o.O.</td>\n<td>ohne Ortsangabe</td>\n<td>n.p.</td>\n</tr>\n<tr>\n<td>o.S.</td>\n<td>ohne Seitenangabe</td>\n<td>s.p.</td>\n</tr>\n<tr>\n<td>o.V.</td>\n<td>ohne Verfasserangabe</td>\n<td>Anonymous; Anon.</td>\n</tr>\n<tr>\n<td>S.</td>\n<td>Seite / Seiten</td>\n<td>p. / pp.</td>\n</tr>\n<tr>\n<td>S.</td>\n<td>siehe</td>\n<td>cf.</td>\n</tr>\n<tr>\n<td>überarb.</td>\n<td>überarbeitet</td>\n<td>rev.</td>\n</tr>\n<tr>\n<td>u.a.</td>\n<td>und andere</td>\n<td>et al.</td>\n</tr>\n<tr>\n<td>f. / ff.</td>\n<td>und folgende Seite / Seiten; (auch: folgende / fortfolgende)</td>\n<td>sq. / sqq.</td>\n</tr>\n<tr>\n<td>u.a.</td>\n<td>unter anderem</td>\n<td>i.a.</td>\n</tr>\n<tr>\n<td>vgl.</td>\n<td>vergleiche</td>\n<td>cp.</td>\n</tr>\n<tr>\n<td>zit.n.</td>\n<td>zitiert nach</td>\n<td>cited in</td>\n</tr>\n<tr>\n<td>z.B.</td>\n<td>zum Beispiel</td>\n<td>e.g.</td>\n</tr>\n</table>\n\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->\n\n<figure>\n\nE\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1182,
+        "word_count": 269,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8dc25194a80254860f0caab312f032a3b371359320d5339a85c43084b83378d5",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0025",
+      "chunk_index": 25,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 23,
+        "title": "· Abkürzungsverzeichnis",
+        "type": "general",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13
+        ],
+        "page_start": 13,
+        "page_end": 13
+      },
+      "content": "## · Abkürzungsverzeichnis\n\nDas Abkürzungsverzeichnis steht als vor-\nletztes Kapitel vor dem Literaturver-\nzeichnis. Um Platz zu sparen, bietet sich\nan, es zweispaltig zu formatieren.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 58,
+        "word_count": 23,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2666e0e83860faaddc1f03fa602ee6223953b70cbd81d85b9e098e21659cfb31",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0026",
+      "chunk_index": 26,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 24,
+        "title": "5. Plagiatserklärung",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13
+        ],
+        "page_start": 13,
+        "page_end": 13
+      },
+      "content": "## 5. Plagiatserklärung\n\n„Die für prüfungsrelevante Arbeiten ge-\nforderte ehrenwörtliche oder eidesstatt-\nliche Erklärung befindet sich auf der\nletzten Seite des Dokuments und erhält\nkeine Seitenangabe. Diese Erklärung\ntaucht auch nicht im Inhaltsverzeichnis\noder anderen Verzeichnissen auf, da sie\nkein Bestandteil der Arbeit ist, sondern\nlediglich an die letzte Seite angehängt\nund mit dem Dokument gebunden wird.“\n(Balzert et al. 2012: 108; Hervorhebung\nim Original)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 148,
+        "word_count": 64,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "0fd19f13861b167799adea1c4242ba4357f323cc72a6b4e13a38e132b62472a5",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0027",
+      "chunk_index": 27,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 25,
+        "title": "Verzeichnis der Abkürzungen",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13
+        ],
+        "page_start": 13,
+        "page_end": 13
+      },
+      "content": "### Verzeichnis der Abkürzungen\n\n<table>\n<tr>\n<th>Ø</th>\n<th>Nullmorphem</th>\n<th colspan=\"2\">INTRANS Intransitivierer</th>\n</tr>\n<tr>\n<td>1/2/3</td>\n<td>erste / zweite / dritte Person</td>\n<td>IO</td>\n<td>indirektes Objekt</td>\n</tr>\n<tr>\n<td>A</td>\n<td>Agens</td>\n<td>K11/2/3</td>\n<td>Klassenzeichen: 1./2./3. Klasse</td>\n</tr>\n<tr>\n<td>ABL</td>\n<td>Ablativ</td>\n<td>KONJ</td>\n<td>Konjunktion</td>\n</tr>\n<tr>\n<td>ABS</td>\n<td>Absolutiv</td>\n<td>MONOP</td>\n<td>monopersonal</td>\n</tr>\n<tr>\n<td>ACC</td>\n<td>Akkusativ</td>\n<td>NOM</td>\n<td>Nominativ</td>\n</tr>\n<tr>\n<td>ADV</td>\n<td>Adverb</td>\n<td>NONFUT</td>\n<td>non future Morphem</td>\n</tr>\n<tr>\n<td>ART</td>\n<td>Artikel</td>\n<td>NP</td>\n<td>Nominalphrase</td>\n</tr>\n<tr>\n<td>ARTindef</td>\n<td>indefiniter Artikel</td>\n<td>O</td>\n<td>Objekt</td>\n</tr>\n<tr>\n<td>APM</td>\n<td>Antipassiv-Morphem</td>\n<td>Oobl</td>\n<td>obliques Objekt</td>\n</tr>\n<tr>\n<td>AUXitr</td>\n<td>intransitives Auxiliar</td>\n<td>OBL</td>\n<td>obliquer Kasus</td>\n</tr>\n<tr>\n<td>AUXtr</td>\n<td>transitives Auxiliar</td>\n<td>P</td>\n<td>Patiens</td>\n</tr>\n<tr>\n<td>CH</td>\n<td>Chômeur</td>\n<td>PASS</td>\n<td>Passiv</td>\n</tr>\n<tr>\n<td>DAT</td>\n<td>Dativ</td>\n<td>POLYP</td>\n<td>polypersonal</td>\n</tr>\n<tr>\n<td>DEM</td>\n<td>Demonstrativpronomen</td>\n<td>POSS</td>\n<td>Possessiv</td>\n</tr>\n<tr>\n<td>DO</td>\n<td>direktes Objekt</td>\n<td>PREP</td>\n<td>Präpositionalgruppe</td>\n</tr>\n<tr>\n<td>DUR</td>\n<td>Durativ</td>\n<td>PROG</td>\n<td>Progressiv</td>\n</tr>\n<tr>\n<td>ERG</td>\n<td>Ergativ</td>\n<td>PRS</td>\n<td>Präsens</td>\n</tr>\n<tr>\n<td>FUT</td>\n<td>Futur</td>\n<td>PTCP</td>\n<td>Partizip</td>\n</tr>\n<tr>\n<td>GEN</td>\n<td>Genitiv</td>\n<td>REFL</td>\n<td>Reflexiv</td>\n</tr>\n<tr>\n<td>IMP</td>\n<td>Imperativ</td>\n<td>REL</td>\n<td>Relationskasus</td>\n</tr>\n<tr>\n<td>IMPF</td>\n<td>Imperfekt</td>\n<td>RES</td>\n<td>Resultativ</td>\n</tr>\n<tr>\n<td>INDIC</td>\n<td>Indikativ</td>\n<td>S</td>\n<td>Subjekt eines intransitiven Verbs</td>\n</tr>\n<tr>\n<td>INESS</td>\n<td>Inessiv</td>\n<td>SG</td>\n<td>Singular</td>\n</tr>\n<tr>\n<td>INST</td>\n<td>Instrumental</td>\n<td>TRANS</td>\n<td>Transitivierer</td>\n</tr>\n</table>\n\nAbbildung 13: Zweispaltiges Abkürzungsverzeichnis (aus: Schmidt 2008: 2)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 927,
+        "word_count": 135,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ddd78a6322cb4a4272f5c05a1b502d7007f065c6866d64c7d6424047d679f02b",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0028",
+      "chunk_index": 28,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 26,
+        "title": "Plagiatserklärung:",
+        "type": "general",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          13,
+          14
+        ],
+        "page_start": 13,
+        "page_end": 14
+      },
+      "content": "### Plagiatserklärung:\n\nBitte lesen Sie sich diese Erklärung sorgfältig durch und überprüfen Sie Ihre Hausarbeit vor Abgabe\nder Erklärung!\n\nERKLÄRUNG ZUR URHEBERSCHAFT\n\nHiermit versichere ich, dass diese Hausarbeit von mir persönlich verfasst ist und dass ich keinerlei\nfremde Hilfe in Anspruch genommen habe. Wörtliche oder sinngemäße Übernahmen aus anderen\nSchriften oder Veröffentlichungen in gedruckter oder elektronischer Form sind gekennzeichnet.\nSämtliche Sekundärliteratur und sonstige Quellen sind nachgewiesen und in der Bibliographie\naufgeführt. Das Gleiche gilt für graphische Darstellungen und Bilder sowie für alle Internet-Quellen.\n\nFrankfurt,\n\n(Unterschrift)\n\n<!-- PageNumber=\"13\" -->\n<!-- PageBreak -->\n\n<figure>\n\n<!-- PageHeader=\"E\" -->\n\nInstitut für\nEmpirische\nSprachwissenschaft\n\n</figure>\n\n<figure>\n\nGOETHE\nUNIVERSITÄT\nFRANKFURT AM MAIN\n\n</figure>",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 248,
+        "word_count": 94,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          13,
+          14
+        ]
+      },
+      "traceability": {
+        "content_sha256": "214691321ee4c66d5b328ff64e3b28bba6dd05e13a30cdf10f25656ef3e9ad7a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0029",
+      "chunk_index": 29,
+      "total_chunks": 29,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0095",
+      "page_id": null,
+      "section": {
+        "index": 27,
+        "title": "6. Literatur",
+        "type": "research",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          14
+        ],
+        "page_start": 14,
+        "page_end": 14
+      },
+      "content": "## 6. Literatur\n\nBalzert, Helmut / Marion Schröder / Christian Schäfer: Wissenschaftliches Arbeiten. Ethik, Inhalt &\nForm wiss. Arbeiten, Handwerkszeug, Quellen, Projektmanagement, Präsentation. (2. Aufl.).\nWitten: W3L, 2012.\n\nKornmeier, Martin, 2011: Wissenschaftlich schreiben leicht gemacht. Für Bachelor, Master und\nDissertation. (6. aktual. u. erw. Aufl.). Berlin - Stuttgart - Wien: Haupt, UTB.\n\nMumm, Peter-Arnold, 2004: Hinweise zu Zweck, Konzeption und Form einer wissenschaftlichen\nHausarbeit (Institut für Vergleichende und Indogermanische Sprachwissenschaft sowie\nAlbanologie / Institut für Allgemeine und Typologische Sprachwissenschaft): http://www2.hu-\nberlin.de/indogermanistik/medien/HinweisezuZweckKonzeptionundForm.pdf, (letzter Zugriff:\n10.11.2015).\n\nPages, Kurt, 2009: Empfehlungen für die Gestaltung schriftlicher Arbeiten in Studiengängen der\nAbteilung Information und Kommunikation der Fakultät III der Fachhochschule Hannover:\nhttp://www.goslariensis.de/IK-Empfehlungen_Zitieren.pdf (letzter Zugriff: 10.11.2015).\n\nRothstein, Björn, 2011: Wissenschaftliches Arbeiten für Linguisten. Tübingen: Narr.\n\nSchmidt, Susanne, 2008: Antipassiv in typologischer Sicht. Frankfurt: unveröffentlichte Magister-\narbeit.\n\n<!-- PageNumber=\"14\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 398,
+        "word_count": 141,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0095\\pages\\0006\\assets\\source.pdf",
+        "source_url": "https://www.fb09.uni-frankfurt.de/159361760.pdf",
+        "document_id": "source",
+        "program_id": "0095",
+        "page_id": null,
+        "page_numbers": [
+          14
+        ]
+      },
+      "traceability": {
+        "content_sha256": "da52a8d1214f3b0edb71bc302c5fad6f1153a987516314ebae19cf696a43ad6a",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

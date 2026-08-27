@@ -1,0 +1,39 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "field": "modules",
+      "value": [
+        {
+          "course_name": "The ASU Experience",
+          "course_credit_hours": 1
+        },
+        {
+          "course_name": "First-Year Composition",
+          "course_credit_hours": 6
+        }
+      ],
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0002",
+        "title": "Curriculum Checksheet",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "identity",
+      "field": "programme_name",
+      "value": "Organizational Leadership (Project Management), BA",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0001",
+        "title": "Programme Information",
+        "url": null
+      },
+      "metadata": {}
+    }
+  ]
+}

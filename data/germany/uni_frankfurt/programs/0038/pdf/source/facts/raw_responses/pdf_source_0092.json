@@ -1,0 +1,5 @@
+{
+  "chunk_id": "pdf_source_0092",
+  "model": "openai/gpt-oss-120b",
+  "response": "{\"facts\": [{\"category\": \"identity\", \"scope\": \"university\", \"field\": \"university_name\", \"value\": \"Johann Wolfgang Goethe-Universität Frankfurt am Main\", \"original_value\": \"Johann Wolfgang Goethe-Universität Frankfurt am Main\", \"unit\": null, \"entity\": {\"type\": \"university\", \"id\": null, \"name\": \"Johann Wolfgang Goethe-Universität Frankfurt am Main\"}, \"parent_entity\": {\"type\": \"program\", \"id\": null, \"name\": null}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}, {\"category\": \"identity\", \"scope\": \"university\", \"field\": \"document_effective_date\", \"value\": \"August 22, 2024\", \"original_value\": \"22. August 2024\", \"unit\": null, \"entity\": {\"type\": \"university\", \"id\": null, \"name\": null}, \"parent_entity\": {\"type\": \"program\", \"id\": null, \"name\": null}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 0.95}]}"
+}

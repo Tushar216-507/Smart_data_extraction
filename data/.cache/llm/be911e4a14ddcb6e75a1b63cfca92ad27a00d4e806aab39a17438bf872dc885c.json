@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "gpa",
+      "field": "gpa_scale",
+      "value": "4.00",
+      "confidence": 1.0,
+      "programme_association": "Special Education (Applied Behavior Analysis), MA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "gpa",
+      "field": "gpa_description",
+      "value": "The average GPA of incoming students gives a sense of how competitive the college or university is.",
+      "confidence": 1.0,
+      "programme_association": "Special Education (Applied Behavior Analysis), MA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "standardized_tests",
+      "field": "sat_description",
+      "value": "The SAT is a standardized test used for college admission in the U.S.",
+      "confidence": 1.0,
+      "programme_association": "Special Education (Applied Behavior Analysis), MA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "standardized_tests",
+      "field": "sat_subjects",
+      "value": "math, reading and writing",
+      "confidence": 1.0,
+      "programme_association": "Special Education (Applied Behavior Analysis), MA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "standardized_tests",
+      "field": "act_description",
+      "value": "The ACT is a standardized college readiness and admission test.",
+      "confidence": 1.0,
+      "programme_association": "Special Education (Applied Behavior Analysis), MA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "standardized_tests",
+      "field": "act_subjects",
+      "value": "English, math, reading and science skills",
+      "confidence": 1.0,
+      "programme_association": "Special Education (Applied Behavior Analysis), MA"
+    }
+  ]
+}

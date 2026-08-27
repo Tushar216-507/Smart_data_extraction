@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0153",
+  "program_name": "Online Master of Science in Management",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0153\\final",
+  "input_fact_count": 10,
+  "unique_fact_count": 10,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 10,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 10,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 1,
+    "curriculum": 3,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 1
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0153\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0153\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0153\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0153\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0153\\final\\student_life_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0153\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0153\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0153\\final\\build_summary.json"
+  }
+}

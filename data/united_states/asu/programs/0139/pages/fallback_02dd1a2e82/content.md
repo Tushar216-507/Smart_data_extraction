@@ -1,0 +1,3 @@
+# Global Challenge: Can You Identify the Nation?
+
+## Globle will assess your geographic knowledge. The objective of the game is to pinpoint the undisclosed country on the global map. Following each attempt, you'll observe the country you've selected on the map, with the intensity of color indicating proximity to the concealed nation. With an unlimited number of attempts at your disposal, make the most of the color clues and locate the target country swiftly.

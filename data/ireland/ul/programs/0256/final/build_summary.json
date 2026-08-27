@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0256",
+  "program_name": "Irish and Global Conflict History - MA",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0256\\final",
+  "input_fact_count": 20,
+  "unique_fact_count": 20,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 20,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 20,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 11,
+    "admission": 0,
+    "curriculum": 2,
+    "career": 2,
+    "fees": 2,
+    "scholarships": 0,
+    "contacts": 2,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0256\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0256\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0256\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0256\\final\\fees_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0256\\final\\contacts_data.json",
+    "research": "data\\ireland\\ul\\programs\\0256\\final\\research_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0256\\final\\build_summary.json"
+  }
+}

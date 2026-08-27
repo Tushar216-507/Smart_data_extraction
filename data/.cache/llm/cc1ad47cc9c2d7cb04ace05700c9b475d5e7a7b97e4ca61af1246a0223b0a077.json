@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "master_exam_structure_variant_1",
+      "value": "The master's examination consists of module examinations for the four compulsory modules (SEAS 1-4), three chosen elective modules (from SEAS 4-9), and the master's thesis.",
+      "original_value": "Die Masterprüfung bei Variante 1 setzt sich zusammen aus den Modulprüfungen zu den vier Pflichtmodulen (SEAS 1-4), den drei gewählten Wahlpflichtmodulen (zu wählen aus SEAS 4-9) sowie der Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Variant 1",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "master_exam_structure_variant_2",
+      "value": "The master's examination consists of module examinations for the six compulsory modules (SEAS 1-4, SEAS 10-11) and the master's thesis.",
+      "original_value": "Die Masterprüfung bei Variante 2 setzt sich zusammen aus den Modulprüfungen zu den sechs Pflichtmodulen (SEAS 1-4, SEAS 10-11) sowie der Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Variant 2",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

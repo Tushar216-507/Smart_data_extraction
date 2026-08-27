@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "program_id": "0059",
+  "program_name": "Online Bachelor of Science in Geography",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0059\\final",
+  "input_fact_count": 48,
+  "unique_fact_count": 48,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 48,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 48,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 6,
+    "curriculum": 27,
+    "career": 2,
+    "fees": 2,
+    "scholarships": 1,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 5,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0059\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0059\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0059\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0059\\final\\career_data.json",
+    "fees": "data\\united_states\\asu\\programs\\0059\\final\\fees_data.json",
+    "scholarships": "data\\united_states\\asu\\programs\\0059\\final\\scholarships_data.json",
+    "research": "data\\united_states\\asu\\programs\\0059\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0059\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0059\\final\\build_summary.json"
+  }
+}

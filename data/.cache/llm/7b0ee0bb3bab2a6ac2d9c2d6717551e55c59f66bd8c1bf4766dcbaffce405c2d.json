@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "major_requirements",
+      "field": "english_core",
+      "value": {
+        "course": "ENG 110 Approaching Big Problems",
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "major_requirements",
+      "field": "english_core",
+      "value": {
+        "course": "ENG 300 Your Degree in the World",
+        "credit_hours": 1,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "narrative_studies_concentration",
+      "field": "narrative_studies_courses",
+      "value": {
+        "course": "ENG 240 Introduction to Narrative Studies (HUAD)",
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "narrative_studies_concentration",
+      "field": "narrative_studies_courses",
+      "value": {
+        "course": "ENG 340 Studies in Narrative",
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "directed_electives",
+      "field": "directed_electives",
+      "value": {
+        "credit_hours": 15,
+        "minimum_grade": "C",
+        "notes": "Directed elective courses may be chosen from any of the following lists: Form, Craft, and Society. Students wishing to specialize in one area may take all 21 elective credits from that list."
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "college_requirements",
+      "field": "mathematics_proficiency_requirement",
+      "value": {
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "notes": "All students are required to obtain a grade of 'C' or higher in any course that satisfies the ASU General Studies MATH requirement."
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "college_requirements",
+      "field": "first_year_seminar",
+      "value": {
+        "course": "ASU 101 or college-specific equivalent First-Year Seminar",
+        "credit_hours": 1,
+        "notes": "ASU 101-LA for campus immersion or LIA 101 for online students."
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "first_year_composition",
+      "field": "first_year_composition_courses",
+      "value": {
+        "courses": [
+          "ENG 101 First-Year Composition",
+          "ENG 102 First-Year Composition",
+          "ENG 105 Advanced First-Year Composition",
+          "ENG 107 First-Year Composition",
+          "ENG 108 First-Year Composition"
+        ],
+        "credit_hours": 6,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "English (Narrative Studies) - BA"
+    }
+  ]
+}

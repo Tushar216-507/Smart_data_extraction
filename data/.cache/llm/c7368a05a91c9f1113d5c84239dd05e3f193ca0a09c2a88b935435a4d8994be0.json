@@ -1,0 +1,364 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul BWL",
+      "original_value": "NF 2 - Anwendungsmodul BWL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "NF 2",
+        "name": "Anwendungsmodul BWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Compulsory",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 1",
+      "original_value": "Finanzen 1 (OFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OFIN",
+        "name": "Finanzen 1"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Marketing",
+      "original_value": "Marketing (OMAR)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OMAR",
+        "name": "Marketing"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Accounting",
+      "original_value": "Accounting (OACC) oder Accounting 1 (BACC)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "OACC/BACC",
+        "name": "Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Management",
+      "original_value": "Management (BMGT)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BMGT",
+        "name": "Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzwirtschaft / Finance",
+      "original_value": "NF Finanzwirtschaft / Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "finance",
+        "name": "Finanzwirtschaft / Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 2",
+      "original_value": "Finanzen 2 (BFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "BFIN",
+        "name": "Finanzen 2"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finanzen 3",
+      "original_value": "Finanzen 3 (PFIN)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PFIN",
+        "name": "Finanzen 3"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodul Finance & Accounting",
+      "original_value": "Wahlpflichtmodul Finance & Accounting (WPMF) ohne Teilnehmerbeschränkung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WPMF",
+        "name": "Wahlpflichtmodul Finance & Accounting"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Elective",
+        "semester": null,
+        "term": null,
+        "academic_year": "2022"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Anwendungsmodul VWL",
+      "original_value": "NF 2 - Anwendungsmodul VWL nach Bestehen VWL im Bachelor",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "VWLB",
+        "name": "Anwendungsmodul VWL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0008",
+        "name": "Bachelor"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagenmodule",
+      "original_value": "2 Grundlagenmodule (Fundamental Modules)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "fundamental_modules",
+        "name": "Grundlagenmodule"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": "2024"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodule aus dem Bereich International Economics and Economic Policy",
+      "original_value": "2 Wahpflichtmodule aus dem Bereich International Economics and Economic Policy ohne Teilnehmerbeschränkung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "international_economics",
+        "name": "Wahlpflichtmodule aus dem Bereich International Economics and Economic Policy"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Elective",
+        "semester": null,
+        "term": null,
+        "academic_year": "2024"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodule Finance",
+      "original_value": "4 Wahlpflichtmodule Finance ohne Teilnehmerbeschränkung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "elective_finance",
+        "name": "Wahlpflichtmodule Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": "Elective",
+        "semester": null,
+        "term": null,
+        "academic_year": "2024"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "academic_year": null,
+        "semester": null,
+        "term": null,
+        "requirement_type": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

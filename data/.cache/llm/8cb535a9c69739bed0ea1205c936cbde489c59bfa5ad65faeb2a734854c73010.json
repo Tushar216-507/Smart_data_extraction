@@ -1,0 +1,368 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Double Degree Master's Program Paris Dauphine-PSL",
+      "original_value": "Double Degree Master's Program Paris Dauphine-PSL",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Tronc commun : Validation de 3 cours sur 4",
+      "original_value": "Tronc commun : Validation de 3 cours sur 4",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_1",
+        "name": "Tronc commun : Validation de 3 cours sur 4"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Institutional Investors and Long Term Asset Management",
+      "original_value": "Institutional Investors and Long Term Asset Management",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_2",
+        "name": "Institutional Investors and Long Term Asset Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Saving and the financing of the real economy",
+      "original_value": "Saving and the financing of the real economy",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_3",
+        "name": "Saving and the financing of the real economy"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Macro-economy for market participants",
+      "original_value": "Macro-economy for market participants",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_4",
+        "name": "Macro-economy for market participants"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to life insurance",
+      "original_value": "Introduction to life insurance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_5",
+        "name": "Introduction to life insurance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Stochastic Finance",
+      "original_value": "Stochastic Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_6",
+        "name": "Stochastic Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Python, Java for Finance and Modélisation des risques de marchés en Python/SQL",
+      "original_value": "Python, Java for Finance and Modélisation des risques de marchés en Python/SQL",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_7",
+        "name": "Python, Java for Finance and Modélisation des risques de marchés en Python/SQL"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Quantitative Investment",
+      "original_value": "Quantitative Investment",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_8",
+        "name": "Quantitative Investment"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced interest rate models",
+      "original_value": "Advanced interest rate models",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_9",
+        "name": "Advanced interest rate models"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Advanced econometrics",
+      "original_value": "Advanced econometrics",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_10",
+        "name": "Advanced econometrics"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Case study 1 : Corporate strategic review",
+      "original_value": "Case study 1 : Corporate strategic review (Duff and Phelps, PwC, HSBC, Deloitte, Saint Gobain, Aurexia)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_11",
+        "name": "Case study 1 : Corporate strategic review"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Mergers, Acquisitions and Capital risk",
+      "original_value": "Mergers, Acquisitions and Capital risk",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_12",
+        "name": "Mergers, Acquisitions and Capital risk"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Master Thesis",
+      "original_value": "Master Thesis",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2_13",
+        "name": "Master Thesis"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

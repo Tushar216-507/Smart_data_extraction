@@ -1,0 +1,21 @@
+# Politics
+
+Chirag Paswan stated reservation is a constitutional right and cannot be abolished. He emphasized that caste-based discrimination still persists in society today. Paswan opposed the concept of a creamy layer within reservation. He affirmed the Modi government introduced reservation for economically weaker sections.
+
+The BJP has demanded an FIR against Congress leader Pawan Khera in Shimla. This action follows alleged derogatory remarks made by Khera about Union Home Minister Amit Shah. A BJP delegation submitted a written complaint to the Shimla superintendent of police. They requested legal action under the Bharatiya Nyaya Sanhita and other applicable laws. The party will provide electronic evidence to support their complaint.
+
+- ['Dropping Parandur Airport is not change; it's an irreversible setback': MK Stalin, Annamalai question TVK govt over project cancellation](/news/politics-and-nation/dropping-parandur-airport-is-not-change-its-an-irreversible-setback-mk-stalin-annamalai-question-tvk-govt-over-airport-project-cancellation/articleshow/133459882.cms)
+- ['I want to': Saina Nehwal expresses ambition to enter electoral politics](/news/politics-and-nation/i-want-to-saina-nehwal-expresses-ambition-to-enter-electoral-politics/articleshow/133459751.cms)
+- [Abhishek Banerjee's bank account reactivated following KYC update, Calcutta HC disposes of TMC MP's plea](/news/politics-and-nation/abhishek-banerjees-bank-account-reactivated-following-kyc-update-calcutta-hc-disposes-of-tmc-mps-plea/articleshow/133458970.cms)
+- [Congress slams government on 'skyrocketing' price rise, takes swipe over 'achche din' promise](/news/politics-and-nation/congress-slams-government-on-skyrocketing-price-rise-takes-swipe-over-achche-din-promise/articleshow/133459175.cms)
+- [Delhi HC asks Abhijit Iyer Mitra to respond to CJP spokesperson's privacy suit](/news/politics-and-nation/delhi-hc-orders-abhijit-iyer-mitra-to-answer-privacy-breach-allegations-by-cjp-spokesperson/articleshow/133457751.cms)
+- [SC agrees to hear ex-AAP MLA's plea seeking bail in MCOCA case](/news/politics-and-nation/supreme-court-to-review-ex-aap-mla-naresh-balyans-bail-plea-in-serious-mcoca-case/articleshow/133456643.cms)
+- [Mahua Moitra moves SC over alleged midnight eviction from Nadia circuit house](/news/politics-and-nation/tmc-mp-mahua-moitra-allegedly-evicted-from-nadia-circuit-house-amidst-controversy/articleshow/133456045.cms)
+- [Actor S Devan joins Tamilaga Vettri Kazhagam (TVK) in Tamil Nadu after leaving BJP in Kerala](/news/politics-and-nation/actor-s-devan-joins-tamilaga-vettri-kazhagam-tvk-in-tamil-nadu-after-leaving-bjp-in-kerala/articleshow/133455879.cms)
+
+- [Karti Chidambaram defends Congress' national song stance, hits back at BJP](/news/politics-and-nation/karti-chidambaram-defends-congress-national-song-stance-hits-back-at-bjp/articleshow/133454538.cms)
+- [Yogi Adityanath attacks Rahul Gandhi over Manusmriti remarks, asks 'why destroy India's heritage?'](/news/politics-and-nation/yogi-adityanath-attacks-rahul-gandhi-over-manusmriti-remarks-asks-why-destroy-indias-heritage/articleshow/133454615.cms)
+- [Modi government strangulating, emasculating ISRO, says Congress General Secretary Jairam Ramesh](/news/politics-and-nation/modi-government-strangulating-emasculating-isro-says-congress-general-secretary-jairam-ramesh/articleshow/133451577.cms)
+- ['Bengal must now become a prime destination for investment': Suvendu Adhikari on ₹3,500 crore defence projects](/news/politics-and-nation/bengal-must-now-become-a-prime-destination-for-investment-suvendu-adhikari-on-3500-crore-defence-projects/articleshow/133449897.cms)
+- [ET World Leaders Forum: PM Modi responsive to youth, shown that people can come together to better systems, says Smriti Irani](/news/politics-and-nation/et-world-leaders-forum-pm-modi-responsive-to-youth-shown-that-people-can-come-together-to-better-systems-says-smriti-irani/articleshow/133446140.cms)
+- [UP assembly speaker draws ire for leaving dais during National Anthem at Unnao event](/news/politics-and-nation/up-assembly-speaker-draws-ire-for-leaving-dais-during-national-anthem-at-unnao-event/articleshow/133445037.cms)

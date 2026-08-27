@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Finance",
+      "original_value": "Module : Finance",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Finance"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": "2019-2020"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Economie et Droit",
+      "original_value": "Module : Economie et Droit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Economie et Droit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": "2019-2020"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Ouverture",
+      "original_value": "Module : Ouverture (au choix une option)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Ouverture"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": "2019-2020"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Economie",
+      "original_value": "Module : Economie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Economie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": "2019-2020"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Theatre",
+      "original_value": "Module : Théâtre",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Theatre"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": "2019-2020"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

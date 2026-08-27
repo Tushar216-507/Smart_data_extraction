@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0151",
+  "program_name": "Online Master of Public Safety Leadership and Administration – Executive Fire Administration",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0151\\final",
+  "input_fact_count": 90,
+  "unique_fact_count": 90,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 90,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 90,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 1,
+    "curriculum": 3,
+    "career": 17,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 66
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0151\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0151\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0151\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0151\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0151\\final\\research_data.json",
+    "other": "data\\united_states\\asu\\programs\\0151\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0151\\final\\build_summary.json"
+  }
+}

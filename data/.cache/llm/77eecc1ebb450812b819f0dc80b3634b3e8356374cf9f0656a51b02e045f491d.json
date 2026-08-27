@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_method",
+      "value": "Module grades are calculated as a weighted average based on credit points of individual assessments.",
+      "original_value": "Bei kumulativen Modulprüfungen errechnet sich die Modulnote als ein nach CP gewichtetes Mittel der Noten für die einzelnen Teilprüfungen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_calculation",
+      "value": "The module grade is calculated by multiplying the individual assessment grades by their associated credit points and dividing by the total credit points involved.",
+      "original_value": "Zur Ermittlung der Note der Modulprüfung werden die Noten der einzelnen Modulteilprüfungen mit den ihnen zugeordneten CP multipliziert und durch die Gesamtzahl der einbezogenen CP dividiert.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "decimal_rounding",
+      "value": "Only the first decimal place is considered when forming the module grade.",
+      "original_value": "Bei der Bildung der Modulnote wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_method",
+      "value": "If the module examination is graded differently by two or more evaluators, the module grade is calculated as the arithmetic mean of the evaluators' grades.",
+      "original_value": "Wird die Modulprüfung von zwei oder mehreren Prüfenden unterschiedlich bewertet, errechnet sich die Modulnote aus dem arithmetischen Mittel der Noten der Prüferbewertungen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_method_decimal_rounding",
+      "value": "Only the first decimal place is considered when calculating the module grade from evaluators' grades.",
+      "original_value": "Bei der Bildung der Modulnote wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

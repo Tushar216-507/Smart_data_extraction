@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0177",
+  "program_name": "Bachelor of Science in Mathematical Sciences",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0177\\final",
+  "input_fact_count": 66,
+  "unique_fact_count": 66,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 66,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 66,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 6,
+    "admission": 1,
+    "curriculum": 3,
+    "career": 5,
+    "fees": 0,
+    "scholarships": 2,
+    "contacts": 29,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 20
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0177\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0177\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0177\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0177\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0177\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0177\\final\\contacts_data.json",
+    "other": "data\\ireland\\ul\\programs\\0177\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0177\\final\\build_summary.json"
+  }
+}

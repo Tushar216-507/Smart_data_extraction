@@ -1,0 +1,74 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "academic_management",
+      "value": "The academic management of the Master's programs is assumed by the Dean of Studies.",
+      "original_value": "Die akademische Leitung der Masterstudiengänge übernimmt die Studiendekanin bzw. der Studiendekan.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "module_coordination",
+      "value": "For each module, the academic management appoints a module coordinator from the faculty teaching in the module.",
+      "original_value": "Für jedes Modul ernennt die akademische Leitung des Studiengangs aus dem Kreis der Lehrenden des Moduls eine Modulbeauftragte oder einen Modulbeauftragten.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "university",
+      "scope": "both",
+      "field": "responsibilities",
+      "value": "The academic management is responsible for all content-related adjustments and organizational tasks related to the program, including coordination of teaching and examination offerings.",
+      "original_value": "Die akademische Leitung ist zusammen mit den Modulbeauftragten für alle den Studiengang betreffenden inhaltlichen Abstimmungen und organisatorischen Aufgaben verantwortlich, insbesondere: die Koordination des Lehr- und Prüfungsangebots.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

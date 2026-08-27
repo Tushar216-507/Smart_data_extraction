@@ -1,0 +1,303 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "field": "first_use_of_word_software",
+      "value": "The first use of the word software to describe computer programs is credited to mathematician John Wilder Tukey in 1958.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "first_programmable_computers",
+      "value": "The first programmable computers appeared at the end of the 1940s.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "machine_language",
+      "value": "Machines were programmed in machine language, which is difficult to debug and not portable across different computers.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "cost_of_resources",
+      "value": "Initially, hardware resources were more expensive than human resources.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "program_complexity",
+      "value": "As programs became complex, programmer productivity became the bottleneck.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "high_level_programming_languages_introduction",
+      "value": "The introduction of high-level programming languages in 1958 hid the details of the hardware and expressed the underlying algorithms into the code.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "early_programming_languages",
+      "value": "Early languages include Fortran, Lisp, and COBOL.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "History",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "content_description",
+      "value": "Software companies aim to deliver a high-quality product on time and under budget. A challenge is that software development effort estimation is often inaccurate. Software development begins by conceiving the project, evaluating its feasibility, analyzing the business requirements, and making a software design. Most software projects speed up their development by reusing or incorporating existing software, either in the form of commercial off-the-shelf (COTS) or open-source software. Software quality assurance is typically a combination of manual code review by other engineers and automated software testing. Due to time constraints, testing cannot cover all aspects of the software's intended functionality, so developers often focus on the most critical functionality. Formal methods are used in some safety-critical systems to prove the correctness of code, while user acceptance testing helps to ensure that the product meets customer expectations. There are a variety of software development methodologies, which vary from completing all steps in order to concurrent and iterative models. Software development is driven by requirements taken from prospective users, as opposed to maintenance, which is driven by events such as a change request.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Development and maintenance",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "post_release_maintenance",
+      "value": "Software is often released in an incomplete state when the development team runs out of time or funding. Despite testing and quality assurance, virtually all software contains bugs where the system does not work as intended. Post-release software maintenance is necessary to remediate these bugs when they are found and keep the software working as the environment changes over time. New features are often added after the release. Over time, the level of maintenance becomes increasingly restricted before being cut off entirely when the product is withdrawn from the market. As software ages, it becomes known as legacy software and can remain in use for decades, even if there is no one left who knows how to fix it. Over the lifetime of the product, software maintenance is estimated to comprise 75 percent or more of the total development cost.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Development and maintenance",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "curriculum",
+      "field": "project_completion_expertise",
+      "value": "Completing a software project involves various forms of expertise, not just in software programmers but also testing, documentation writing, project management, graphic design, user experience, user support, marketing, and fundraising.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Development and maintenance",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "Programming languages are the format in which software is written.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Programming languages",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "history",
+      "value": "Since the 1950s, thousands of different programming languages have been invented; some have been in use for decades, while others have fallen into disuse.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Programming languages",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "classification",
+      "value": "Some definitions classify machine code and assembly language as programming languages.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Programming languages",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "characteristics_high_level_languages",
+      "value": "Programs written in high-level programming languages used to create software share a few main characteristics: knowledge of machine code is not necessary to write them, they can be ported to other computer systems, and they are more concise and human-readable than machine code.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Programming languages",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "requirements",
+      "value": "They must be both human-readable and capable of being translated into unambiguous instructions for computer hardware.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0006",
+        "chunk_title": "Programming languages",
+        "chunk_order": 5,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "software copyright protection",
+      "value": "Since the mid-1970s, software and its source code have been protected by copyright law that vests the owner with the exclusive right to copy the code.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "underlying ideas and algorithms protection",
+      "value": "The underlying ideas or algorithms are not protected by copyright law, but are sometimes treated as a trade secret.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "ownership_of_software_copyright",
+      "value": "A software copyright is often owned by the person or company that financed or made the software, depending on their contracts with employees or contractors who helped to write it.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "public_domain_software",
+      "value": "Some software is in the public domain and has no restrictions on who can use it, copy or share it, or modify it.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "example_of_public_domain_software",
+      "value": "A notable example is software written by the United States Government.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "free_and_open_source_software",
+      "value": "Free and open-source software also allow free use, sharing, and modification, perhaps with a few specified conditions.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "software_governed_by_agreements",
+      "value": "The use of some software is governed by an agreement written by the copyright holder and imposed on the user.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "proprietary_software_licensing",
+      "value": "Proprietary software is usually sold under a restrictive license that limits its use and sharing.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0008",
+        "chunk_title": "Licenses",
+        "chunk_order": 7,
+        "source_type": "page"
+      }
+    }
+  ]
+}

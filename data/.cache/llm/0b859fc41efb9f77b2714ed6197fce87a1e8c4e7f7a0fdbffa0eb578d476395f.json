@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "graduation",
+      "scope": "programme",
+      "field": "degree_certificate_description",
+      "value": "At the same time as the Master's examination certificate, the student receives a Master's certificate dated with the certificate date. It certifies the awarding of the academic degree. The certificate will be issued in English as well.",
+      "original_value": "Gleichzeitig mit dem Zeugnis der Masterprüfung erhält die oder der Studierende eine Masterurkunde mit dem Datum des Zeugnisses. Darin wird die Verleihung des akademischen Grades beurkundet. Die Urkunde ist zusätzlich in Englisch auszustellen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "graduation",
+      "scope": "both",
+      "field": "degree_certificate_signature",
+      "value": "The certificate is signed by the Dean of the Faculty of Economics and the Chair of the Examination Board and is sealed with the seal of Goethe University.",
+      "original_value": "Die Urkunde wird von der Studiendekanin oder dem Studiendekan des Fachbereichs Wirtschaftswissenschaften sowie der oder dem Vorsitzenden des Prüfungsausschusses unterzeichnet und mit dem Siegel der Goethe-Universität versehen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "graduation",
+      "scope": "programme",
+      "field": "degree_certificate_condition",
+      "value": "The academic degree may only be held after the certificate has been handed over.",
+      "original_value": "Der akademische Grad darf erst nach Aushändigung der Urkunde geführt werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "0": "nicht ausreichend",
+        "1": "sehr gut",
+        "2": "gut",
+        "3": "befriedigend",
+        "4": "ausreichend",
+        "5": "nicht ausreichend"
+      },
+      "original_value": "Notenpunkte und Notenstufen",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_criteria",
+      "value": {
+        "15": {
+          "grade": "sehr gut (1)",
+          "decimal_grade": "1,0"
+        },
+        "14": {
+          "grade": "sehr gut (1)",
+          "decimal_grade": "1,0"
+        },
+        "13": {
+          "grade": "sehr gut (1)",
+          "decimal_grade": "1,3"
+        },
+        "12": {
+          "grade": "gut (2)",
+          "decimal_grade": "1,7"
+        },
+        "11": {
+          "grade": "gut (2)",
+          "decimal_grade": "2,0"
+        },
+        "10": {
+          "grade": "gut (2)",
+          "decimal_grade": "2,3"
+        },
+        "9": {
+          "grade": "befriedigend (3)",
+          "decimal_grade": "2,7"
+        },
+        "8": {
+          "grade": "befriedigend (3)",
+          "decimal_grade": "3,0"
+        },
+        "7": {
+          "grade": "befriedigend (3)",
+          "decimal_grade": "3,3"
+        },
+        "6": {
+          "grade": "ausreichend (4)",
+          "decimal_grade": "3,7"
+        },
+        "5": {
+          "grade": "ausreichend (4)",
+          "decimal_grade": "4,0"
+        },
+        "0": {
+          "grade": "nicht ausreichend",
+          "decimal_grade": "5,0"
+        }
+      },
+      "original_value": "Tabellen mit Notenpunkten und Notenstufen",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_exam_calculation",
+      "value": "Die Note für das Modul wird aus dem arithmetischen Mittel der Noten für die einzelnen Prüfungsleistungen errechnet.",
+      "original_value": "Note Modulprüfung",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

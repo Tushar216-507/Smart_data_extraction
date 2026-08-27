@@ -1,0 +1,186 @@
+{
+  "facts": [
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "advisory_services",
+      "value": "Students have the opportunity to consult the specialized academic advising for the Master's program.",
+      "original_value": "Die Studierenden haben die Möglichkeit, während des gesamten Studienverlaufs die Studienfachberatung für den Masterstudiengang ... [Bezeichnung] des Fachbereichs ... [Bezeichnung] aufzusuchen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "advisory_services_details",
+      "value": "Advising includes support in study design, study technique, and selection of courses.",
+      "original_value": "Im Rahmen der Studienfachberatung erhalten die Studierenden Unterstützung insbesondere in Fragen der Studiengestaltung, der Studientechnik und der Wahl der Lehrveranstaltungen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "advisory_services_suggestions",
+      "value": "Students are recommended to seek academic advising at the beginning of the first semester, when failing exams, encountering difficulties in courses, or when changing programs or universities.",
+      "original_value": "Die Studienfachberatung sollte insbesondere in Anspruch genommen werden: - zu Beginn des ersten Semesters; - bei Nichtbestehen von Prüfungen und bei gescheiterten Versuchen, erforderliche Leistungsnachweise zu erwerben; - bei Schwierigkeiten in einzelnen Lehrveranstaltungen; - bei Studiengangs- beziehungsweise Hochschulwechsel.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "university",
+      "field": "central_advisory_services",
+      "value": "The Central Academic Advising of Johann Wolfgang Goethe University is available for general advising.",
+      "original_value": "Neben der Studienfachberatung steht den Studierenden die Zentrale Studienberatung der Johann Wolfgang Goethe-Universität zur Verfügung.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "orientation_event",
+      "value": "An orientation event is held before the lecture period of each semester for new students to provide information on the structure and overall framework of the program.",
+      "original_value": "Vor Beginn der Vorlesungszeit eines jeden Semesters, in dem Studierende ihr Studium aufnehmen können, findet eine Orientierungsveranstaltung statt, zu der die Studienanfängerinnen und Studienanfänger durch Aushang oder anderweitig eingeladen werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "orientation_event_information",
+      "value": "The event informs about the structure of the program and semester-specific features and allows students to clarify questions about study organization.",
+      "original_value": "In dieser wird über die Struktur und den Gesamtaufbau des Studiengangs und über semesterspezifische Besonderheiten informiert. Den Studierenden wird Gelegenheit gegeben, insbesondere die Studienorganisation betreffende Fragen zu klären.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "student_support",
+      "scope": "programme",
+      "field": "optional_orientation_event",
+      "value": "The orientation event in the Master's program is optional.",
+      "original_value": "Das Stattfinden einer Orientierungsveranstaltung im Masterstudiengang ist nach § 19 Abs. 4 RO optional.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

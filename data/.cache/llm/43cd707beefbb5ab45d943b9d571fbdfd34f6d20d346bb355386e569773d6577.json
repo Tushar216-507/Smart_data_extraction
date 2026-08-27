@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "effective_date",
+      "value": "March 15, 2024",
+      "original_value": "14.03.2024",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Johann Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "previous_program_cancellation",
+      "value": "Master's program Money and Finance dated July 15, 2015 is canceled",
+      "original_value": "Ordnung für den Masterstudiengang Money and Finance vom 15. Juli 2015 - veröffentlicht im UniReport Satzungen und Ordnungen vom 25. August 2015 - außer Kraft.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "Money and Finance",
+        "name": "Master's program Money and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "applicability_start_semester",
+      "value": "Winter semester 2024/2025",
+      "original_value": "Wintersemester 2024/2025",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "Money, Macro and Finance",
+        "name": "Master's program Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "transitional_provisions",
+      "value": "Students from the previous Master's program can take their examination until the end of Summer semester 2026",
+      "original_value": "Studierende, die das Studium im Masterstudiengang Money and Finance vor Inkrafttreten dieser Ordnung aufgenommen haben, können die Masterprüfung nach der Ordnung vom 15. Juli 2015 bis spätestens Ende des Sommersemesters 2026 ablegen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "Money and Finance",
+        "name": "Master's program Money and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+## As the nation’s most innovative university, ASU is pushing the boundaries of higher education
+
+[Dreamscape Learn](https://news.asu.edu/devils-in-the-details/dreamscape-learn?_ga=2.181121767.1355370305.1649653940-1872442989.1646970036) engages students and teaches them in an entirely new way — by enabling them to become part of the story. The highly engrossing virtual reality curriculum creates a focused environment for students that can dramatically improve how much they learn and retain. In fact, ASU research shows that the median grade for Dreamscape Learn lab assignments is an “A,” almost a full letter grade higher than the same class that does not use Dreamscape Learn.
+
+[general requirements](https://catalog.asu.edu/ug_gsr) for the natural sciences. Talk to your [academic advisor](https://students.asu.edu/advising) about how to enroll.

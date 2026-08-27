@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "deferment",
+      "field": "deferment_application_instructions",
+      "value": "If you want to defer your admission to a later semester: Withdraw from classes (if registered) and submit your deferral request at least two weeks before the first day of classes.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferment",
+      "field": "deferment_application_deadline",
+      "value": "Requests received after the deadline will not be approved. You’ll need to submit a new application.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferment",
+      "field": "contact_email_for_deferment",
+      "value": "[email protected]",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "deferment",
+      "field": "information_needed_for_deferment_request",
+      "value": "Your ASU ID, your reason for requesting a deferment, the term you wish to enroll.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "financial_aid",
+      "subcategory": "scholarship_deferment",
+      "field": "scholarship_deferment_instructions",
+      "value": "If any scholarships or financial aid have already been disbursed, you must return those funds.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    },
+    {
+      "category": "financial_aid",
+      "subcategory": "scholarship_deferment",
+      "field": "contact_scholarship_sponsor",
+      "value": "You must contact your scholarship sponsor directly to request a deferment. The sponsor will decide whether to approve it.",
+      "confidence": 1.0,
+      "programme_association": "Liberal Studies - BA"
+    }
+  ]
+}

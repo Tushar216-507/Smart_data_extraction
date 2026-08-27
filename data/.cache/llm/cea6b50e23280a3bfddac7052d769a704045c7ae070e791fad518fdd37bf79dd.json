@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "description",
+      "value": "Students in the economics department can take certain modules from other departments, referred to as import modules. This is only possible based on existing cooperation agreements between the departments.",
+      "original_value": "Im Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie bestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Import modules from other programs are subject to the examination regulations of the exporting department.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "content",
+      "value": "Students cannot incorporate other modules from other departments or achieve differing Credit Points in their studies at the economics department.",
+      "original_value": "Darüber hinaus können Sie keine anderen Module von anderen Fachbereichen in Ihren Studiengang am Fachbereich Wirtschaftswissenschaften einbringen und auch keine abweichenden Credit Points (CP) erlangen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0045",
+        "name": "Supplementary Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "contact_information",
+      "value": "Goethe-Universität Frankfurt, Fachbereich Wirtschaftswissenschaften, Prüfungsamt, 60629 Frankfurt am Main, Germany.",
+      "original_value": "Goethe-Universität | 60629 Frankfurt am Main Fachbereich Wirtschaftswissenschaften | Prüfungsamt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

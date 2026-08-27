@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0008",
+  "program_name": "Online Bachelor of Arts in Art – Art Studies",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0008\\final",
+  "input_fact_count": 36,
+  "unique_fact_count": 33,
+  "exact_duplicate_count": 3,
+  "handled_fact_count": 33,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 33,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 4,
+    "admission": 0,
+    "curriculum": 23,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 3,
+    "other": 1
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0008\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0008\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0008\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0008\\final\\student_life_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0008\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0008\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0008\\final\\build_summary.json"
+  }
+}

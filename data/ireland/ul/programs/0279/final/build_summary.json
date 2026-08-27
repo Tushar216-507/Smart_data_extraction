@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0279",
+  "program_name": "Bachelor of Architecture",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0279\\final",
+  "input_fact_count": 105,
+  "unique_fact_count": 105,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 105,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 105,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 7,
+    "admission": 63,
+    "curriculum": 7,
+    "career": 2,
+    "fees": 18,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 6
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0279\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0279\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0279\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0279\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0279\\final\\fees_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0279\\final\\student_life_data.json",
+    "other": "data\\ireland\\ul\\programs\\0279\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0279\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "university",
+      "field": "examination_fees",
+      "value": {
+        "bachelor_fees": 150,
+        "master_fees": 100,
+        "fee_adjustment": {
+          "amount_per_semester": 25
+        }
+      },
+      "original_value": "Die Prüfungsgebühren betragen 1. für die Bachelorprüfung einschließlich der Bachelorarbeit bei Bachelorstudiengängen mit einer Regelstudienzeit von sechs Semestern insgesamt 150,- Euro 2. für die Masterprüfung einschließlich der Masterarbeit bei Masterstudiengängen mit einer Regelstudienzeit von vier Semestern insgesamt 100,- Euro Bei Studiengängen mit hiervon abweichenden Regelstudienzeiten erhöht oder verringert sich der Betrag um 25 Euro pro Semester Regelstudienzeit.",
+      "unit": "Euro",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe - Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "payment_conditions",
+      "value": "The examination fees are due in two equal installments: the first installment upon application for admission to the bachelor or master's examination, and the second installment upon admission to the bachelor or master's thesis.",
+      "original_value": "Die Prüfungsgebühren werden in zwei hälftigen Raten fällig, und zwar die erste Rate bei der Beantragung der Zulassung zur Bachelor- beziehungsweise Masterprüfung, die zweite Rate bei der Zulassung zur Bachelor- beziehungsweise Masterarbeit.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe - Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

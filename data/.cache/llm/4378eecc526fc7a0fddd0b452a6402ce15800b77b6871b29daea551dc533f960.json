@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application requirements",
+      "field": "required_courses",
+      "value": "All courses and grades for school years 9 to 11 as they appear on the official high school transcript.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application requirements",
+      "field": "in_progress_courses",
+      "value": "In-progress courses for year 12.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "transfer student definition",
+      "field": "transfer_student_criteria",
+      "value": "Anyone applying for admission who has attended another college or university and has completed 12 or more transferable credits post-high school, at the time of application.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "freshman definition",
+      "field": "freshman_criteria",
+      "value": "If you are completing college courses while in high school, you are considered a freshman and not a transfer student.",
+      "confidence": 1.0,
+      "programme_association": "Global Studies - BA"
+    }
+  ]
+}

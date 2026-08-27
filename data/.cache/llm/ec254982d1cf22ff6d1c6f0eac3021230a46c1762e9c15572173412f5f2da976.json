@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "motivation_letter_assessment_criteria",
+      "value": "The assessment of the motivation letter is based on the external quality and the convincing explanation of the interest in the Master's program Money, Macro and Finance, as well as the presentation of special suitability and motivation for this study program.",
+      "original_value": "Die Bewertung des Motivationsschreibens stützt sich neben der äußeren Qualität auf die überzeugende Erklärung des Interesses am Masterstudiengang Money, Macro and Finance sowie der Darstellung der besonderen Eignung und Motivation für diesen Studiengang.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "motivation_letter_scoring",
+      "value": [
+        {
+          "score_range": "1.0 - 1.4",
+          "points": 10
+        },
+        {
+          "score_range": "1.5 - 1.7",
+          "points": 9
+        },
+        {
+          "score_range": "1.8 - 1.9",
+          "points": 8
+        },
+        {
+          "score_range": "2.0 - 2.1",
+          "points": 7
+        },
+        {
+          "score_range": "2.2 - 2.3",
+          "points": 6
+        },
+        {
+          "score_range": "2.6 - 2.7",
+          "points": 4
+        },
+        {
+          "score_range": "2.8 - 2.9",
+          "points": 3
+        },
+        {
+          "score_range": "3.0 - 3.1",
+          "points": 2
+        },
+        {
+          "score_range": "3.2 - 4.0",
+          "points": 1
+        },
+        {
+          "score_range": "≥ 3.2",
+          "points": 0
+        }
+      ],
+      "original_value": "<table> ... </table>",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

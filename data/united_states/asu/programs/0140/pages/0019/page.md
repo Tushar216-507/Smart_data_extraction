@@ -1,0 +1,1 @@
+ASU Online is dedicated to providing innovative, high-quality online education to students from across the country and around the world.

@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "graduation_requirement",
+      "value": "A certificate will be issued in German within four weeks of the last examination evaluation upon request, with an English translation available.",
+      "original_value": "Über die bestandene Masterprüfung ist möglichst innerhalb von vier Wochen nach Eingang der Bewertung der letzten Prüfungsleistung ein Zeugnis in deutscher Sprache, auf Antrag der oder des Studierenden mit einer Übertragung in englischer Sprache, jeweils nach den Vorgaben der Rahmenordnung auszustellen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "graduation_certificate_content",
+      "value": "The certificate will include the modules with grades, the topic and grade of the Master's thesis, the standard period of study, and the overall grade.",
+      "original_value": "Das Zeugnis enthält die Angabe der Module mit den Modulnoten (dabei werden diejenigen Module gekennzeichnet, welche nicht in die Gesamtnote für die Masterprüfung eingegangen sind), das Thema und die Note der Masterarbeit, die Regelstudienzeit und die Gesamtnote.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "certificate_signature",
+      "value": "The certificate will be signed by the chairperson of the examination committee and will bear the seal of the Johann Wolfgang Goethe University.",
+      "original_value": "Das Zeugnis ist von der oder dem Vorsitzenden des Prüfungsausschusses zu unterzeichnen und mit dem Siegel der Johann Wolfgang Goethe-Universität zu versehen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Johann Wolfgang Goethe-Universität"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "master_degree_equivalence",
+      "value": "The examination board will issue a confirmation upon request that the obtained Master's degree is equivalent to a diploma or Magister degree.",
+      "original_value": "Der Prüfungsausschuss stellt auf Antrag eine Bescheinigung darüber aus, dass der erworbene Masterabschluss inhaltlich dem Diplomabschluss beziehungsweise dem Magisterabschluss entspricht.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "facts": [
+    {
+      "category": "other",
+      "field": "operating_systems_definition",
+      "value": "Operating systems are the layer of software that manages a computer's resources for its users and their applications.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Types",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "operating_systems_purposes",
+      "value": "1. Allocating resources between different applications, deciding when they will receive CPU time or space in memory. 2. Providing an interface that abstracts the details of accessing hardware details to make things easier for programmers. 3. Offering common services, such as an interface for accessing network and disk devices, allowing applications to run on different hardware without needing to be rewritten.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Types",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "application_software_definition",
+      "value": "Application software runs on top of the operating system and uses the computer's resources to perform a task.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Types",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "traditional_applications_definition",
+      "value": "Traditional applications are purchased with a perpetual license for a specific version of the software, downloaded, and run on hardware belonging to the purchaser.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Types",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "saas_definition",
+      "value": "Software as a service (SaaS) is a model in which the provider hosts the software and provides the use of the software to customers, often in exchange for a subscription fee.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Types",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "saas_trends",
+      "value": "By 2023, SaaS products had become the primary method that companies deliver applications, usually delivered via a web application.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0003",
+        "title": "Types",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "definition",
+      "value": "Programming languages are the format in which software is written.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "history",
+      "value": "Since the 1950s, thousands of different programming languages have been invented; some have been in use for decades, while others have fallen into disuse.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "classification",
+      "value": "Some definitions classify machine code and assembly language as programming languages.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "high_level_language_characteristics",
+      "value": "Programs written in high-level programming languages must be both human-readable and capable of being translated into unambiguous instructions for computer hardware.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "high_level_language_characteristics",
+      "value": "Knowledge of machine code is not necessary to write high-level programming languages.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "high_level_language_characteristics",
+      "value": "High-level programming languages can be ported to other computer systems.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "high_level_language_characteristics",
+      "value": "High-level programming languages are more concise and human-readable than machine code.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0006",
+        "title": "Programming languages",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "introduction_to_high_level_programming_languages",
+      "value": "The invention of high-level programming languages was simultaneous with compilers needed to translate them automatically into machine code.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "compilers_and_libraries",
+      "value": "Most programs do not contain all the resources needed to run them and rely on external libraries.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "compiler_function",
+      "value": "Part of the compiler's function is to link these files in such a way that the program can be executed by the hardware.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "object_file",
+      "value": "Once compiled, the program can be saved as an object file and the loader can take this saved file and execute it as a process on the computer hardware.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "interpreter_and_performance",
+      "value": "Some programming languages use an interpreter instead of a compiler. An interpreter converts the program into machine code at run time, which makes them 10 to 100 times slower than compiled programming languages.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "software_liability",
+      "value": "Software is often released with the knowledge that it is incomplete or contains bugs.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "purchaser_awareness",
+      "value": "Purchasers knowingly buy it in this state, which has led to a legal regime where liability for software products is significantly curtailed compared to other products.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0007",
+        "title": "Compilation, interpretation, and execution + Legal issues + Liability",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "copyright_law_description",
+      "value": "Since the mid-1970s, software and its source code have been protected by copyright law that vests the owner with the exclusive right to copy the code.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0008",
+        "title": "Licenses",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "trade_secret_description",
+      "value": "The underlying ideas or algorithms are not protected by copyright law, but are sometimes treated as a trade secret and concealed by such methods as non-disclosure agreements.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0008",
+        "title": "Licenses",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "software_copyright_ownership",
+      "value": "A software copyright is often owned by the person or company that financed or made the software (depending on their contracts with employees or contractors who helped to write it).",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0008",
+        "title": "Licenses",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "public_domain_description",
+      "value": "Some software is in the public domain and has no restrictions on who can use it, copy or share it, or modify it; a notable example is software written by the United States Government.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0008",
+        "title": "Licenses",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "free_open_source_software_description",
+      "value": "Free and open-source software also allow free use, sharing, and modification, perhaps with a few specified conditions.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0008",
+        "title": "Licenses",
+        "url": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "other",
+      "field": "software_license_description",
+      "value": "The use of some software is governed by an agreement (software license) written by the copyright holder and imposed on the user.",
+      "confidence": 1.0,
+      "source": {
+        "source_type": "page",
+        "source_id": "page_0008",
+        "title": "Licenses",
+        "url": null
+      },
+      "metadata": {}
+    }
+  ]
+}

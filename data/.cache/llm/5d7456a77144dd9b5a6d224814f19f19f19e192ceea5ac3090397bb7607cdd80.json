@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "fee_classification",
+      "field": "eu_fee_status",
+      "value": "Applies to Domestic or EU students or students who have been resident as a taxpayer in EU/EEA/Swiss State for 3 out of the last 5 years.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture - MLA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee_classification",
+      "field": "non_eu_fee_status",
+      "value": "Applies to all other students.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture - MLA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "payment_plan",
+      "field": "fee_billing",
+      "value": "Fees are billed in instalments.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture - MLA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "payment_plan",
+      "field": "instalment_1_due",
+      "value": "Due in early September of that year for the Autumn Semester.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture - MLA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "payment_plan",
+      "field": "instalment_2_due",
+      "value": "Due in the first week of the semester in January for the Spring Semester.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture - MLA"
+    },
+    {
+      "category": "fees",
+      "subcategory": "payment_plan",
+      "field": "monthly_payment_plan_eligibility",
+      "value": "Students may be eligible to apply for a monthly payment plan once registered.",
+      "confidence": 1.0,
+      "programme_association": "Master of Landscape Architecture - MLA"
+    }
+  ]
+}

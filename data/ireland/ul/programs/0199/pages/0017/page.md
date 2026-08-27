@@ -1,0 +1,7 @@
+### Yordanka (Dani) Tegarkova, BA Voice
+
+I chose the Irish World Academy of Music and Dance at the University of Limerick, because of the reputation and atmosphere it carried. Graduating with a BA in Performing Arts - Voice, my favourite aspect of the programme was the opportunity for personal development and creativity. Practical lessons, accompanied by academic classes, prepared me for multiple performance possibilities, ranging from Pop and Jazz to Classical and Musical Theatre. And that would not have been possible without the inspiring tutors and lecturers that call the Academy home.
+
+Coming from Bulgaria, for me, UL was a leap of faith. It was my first time living away from home, my first time in an English-speaking country, and most importantly, the first time I believed in myself and my dreams. I am humbled and honoured to have been able to spend four years as a student at UL. This course has changed my life in ways I would have never imagined. The friends I made, the lessons I learned, will stay with me forever.
+
+My advice to all prospective students is to just jump. One leap of faith for the best four years in your life.

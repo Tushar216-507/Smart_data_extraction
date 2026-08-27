@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "category": "language",
+      "scope": "university",
+      "field": "language_offered",
+      "value": "Various languages offered",
+      "original_value": "Viele Institute bieten in unregelmäßigen Abständen weitere Sprachkurse an.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "credit_conversion",
+      "value": {
+        "hours": 2,
+        "credits": 3
+      },
+      "original_value": "die CP-Vergabe richtet sich nach dem anbietenden Studiengang; für gewöhnlich entsprechen 2 SWS ca. 3 CP.",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0095",
+        "name": "Empirical Linguistics"
+      },
+      "parent_entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "university",
+      "field": "contact_information",
+      "value": "For inquiries, contact kofer@em-uni-frankfurt.de",
+      "original_value": "Ergänzungen und Korrekturen bitte an: kofer@em-uni-frankfurt.de",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": "uni_frankfurt",
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Study achievements will usually be graded according to the module description and paragraph 3, but the grades do not contribute to the overall grade of the Master's examination. Exceptionally, the module description may also provide that the study achievements are evaluated as 'passed' or 'not passed'.",
+      "original_value": "Studienleistungen werden in der Regel nach Maßgabe der Modulbeschreibung und von Abs. 3 benotet, die Noten gehen aber nicht in die Gesamtnote der Masterprüfung ein. Ausnahmsweise kann die Modulbeschreibung auch vorsehen, dass die Studienleistungen mit „bestanden“ oder „nicht bestanden“ bewertet werden.",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "Examination performances are usually graded. The grading of the examination performances is carried out by the respective examiners, and the individual performance of the student must always be taken into account.",
+      "original_value": "Prüfungsleistungen werden in der Regel benotet Die Benotung beziehungsweise Bewertung der Prüfungsleistungen wird von den jeweiligen Prüferinnen und Prüfern vorgenommen. Dabei ist stets die individuelle Leistung der oder des Studierenden zugrunde zu legen.",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scheme",
+      "value": {
+        "grades": [
+          {
+            "value": 1,
+            "description": "very good",
+            "criteria": "an excellent performance"
+          },
+          {
+            "value": 2,
+            "description": "good",
+            "criteria": "a performance that is significantly above average requirements"
+          },
+          {
+            "value": 3,
+            "description": "satisfactory",
+            "criteria": "a performance that meets average requirements"
+          },
+          {
+            "value": 4,
+            "description": "sufficient",
+            "criteria": "a performance that, despite its deficiencies, still meets the requirements"
+          },
+          {
+            "value": 5,
+            "description": "fail",
+            "criteria": "a performance that, due to significant deficiencies, no longer meets the requirements"
+          }
+        ]
+      },
+      "original_value": "<table><tr><th>1</th><th>sehr gut</th><th>eine hervorragende Leistung;</th></tr><tr><td>2</td><td>gut</td><td>eine Leistung, die erheblich über den durchschnittlichen Anforderungen liegt;</td></tr><tr><td>3</td><td>befriedigend</td><td>eine Leistung, die durchschnittlichen Anforderungen entspricht;</td></tr><tr><td>4</td><td>ausreichend</td><td>eine Leistung, die trotz ihrer Mängel noch den Anforderungen genügt;</td></tr><tr><td>5</td><td>nicht ausrei- chend</td><td>eine Leistung, die wegen erheblicher Mängel den Anforderungen nicht mehr genügt.</td></tr></table>",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "overall_grading_scheme",
+      "value": {
+        "grades": [
+          {
+            "range": "1.0 to 1.5",
+            "description": "very good"
+          },
+          {
+            "range": "1.6 to 2.5",
+            "description": "good"
+          },
+          {
+            "range": "2.6 to 3.5",
+            "description": "satisfactory"
+          },
+          {
+            "range": "3.6 to 4.0",
+            "description": "sufficient"
+          },
+          {
+            "range": "over 4.0",
+            "description": "fail"
+          }
+        ]
+      },
+      "original_value": "<table><tr><td>1,0 bis einschließlich 1,5</td><td>sehr gut</td></tr><tr><td>1,6 bis einschließlich 2,5</td><td>gut</td></tr><tr><td>2,6 bis einschließlich 3,5</td><td>befriedigend</td></tr><tr><td>3,6 bis einschließlich 4,0</td><td>ausreichend</td></tr><tr><td>über 4,0</td><td>nicht ausreichend</td></tr></table>",
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

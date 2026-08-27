@@ -1,0 +1,53 @@
+## Our Services
+
+## News and Updates
+
+## See what our VLEs had to Say
+
+Common Services Centers (CSC) are one of the crucial enablers of the Digital India Programme.
+
+Aman Khan, a dedicated Village Level Entrepreneur (VLE) in Raisen, Madhya Pradesh, has been a
+transformative force in bridging the gap between rural communities and government welfare.
+Through
+his CSC centre, Aman has facilitated over 40,000 eShram registrations and 16,000 Ayushman Bharat
+cards, providing healthcare and social security to unorganized workers. His relentless efforts
+have
+also enabled 10,000 KYC verifications, fostering financial inclusion for tribal and
+underprivileged
+communities. Aman’s work has redefined digital accessibility in rural areas, earning trust and
+respect from citizens across Raisen and neighboring districts. His impact showcases the
+transformative potential of grassroots entrepreneurship in driving social change.
+
+#### Aman Khan
+
+Raisen, Madhya Pradesh
+
+Sangita Karmakar's journey as a CSC entrepreneur is truly inspiring. Starting her venture in
+2020,
+just as the COVID-19 lockdown hit, she demonstrated remarkable resilience and determination. Her
+ability to connect with her community highlighted the pressing need for e-governance and banking
+services in Amarpur. With encouragement from her husband, she embraced the challenge and
+transformed
+her CSC into a vital resource, offering a wide range of services even during tough times.
+Sangita's
+unwavering dedication to her work and family is commendable; she balances her responsibilities
+while
+ensuring her community can rely on her. Her contributions and the trust she has built is surely
+admirable.
+
+#### Sangita Karmakar
+
+Gomati, Tripura
+
+Chandrashekara K from Anekal is truly an inspiring entrepreneur who embodies the essence of
+creating opportunities for others. Since joining the CSC in 2016, he has transformed countless
+lives by empowering fellow VLEs through knowledge and support. His initiative to host weekly
+webinars is commendable, providing valuable insights into various CSC products. The "LEARN MORE
+AND EARN MORE" group he established has fostered a collaborative spirit among VLEs across
+Karnataka. He has become a trusted resource for locals seeking guidance on government programs,
+earning him recognition as a friend, philosopher, and guide. He says, Running CSC Centre
+provided me fulfilment and made me very strong morally, socially and financially.
+
+#### Chandrashekara K
+
+Bangalore, Karnataka

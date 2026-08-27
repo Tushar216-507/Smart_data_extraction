@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "program_id": "0004",
+  "program_name": "Bachelor/Master of Engineering in Biomedical Engineering",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0004\\final",
+  "input_fact_count": 151,
+  "unique_fact_count": 151,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 151,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 151,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 18,
+    "admission": 59,
+    "curriculum": 1,
+    "career": 1,
+    "fees": 17,
+    "scholarships": 12,
+    "contacts": 6,
+    "student_life": 4,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 7,
+    "statistics": 0,
+    "other": 26
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0004\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0004\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0004\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0004\\final\\career_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0004\\final\\fees_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0004\\final\\scholarships_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0004\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0004\\final\\student_life_data.json",
+    "documents": "data\\ireland\\ul\\programs\\0004\\final\\documents_data.json",
+    "other": "data\\ireland\\ul\\programs\\0004\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0004\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Religion - Media - Interculturality",
+      "original_value": "Religion - Media - Interculturality",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Christentum und Religionen in Politik und Gesellschaft",
+      "original_value": "Christentum und Religionen in Politik und Gesellschaft",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Christentum und Religionen in Politik und Gesellschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Christliche Kultur- und Religionstheorie Oder",
+      "original_value": "Christliche Kultur- und Religionstheorie Oder",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Christliche Kultur- und Religionstheorie Oder"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Interkulturelle Religionsphilosophie",
+      "original_value": "Interkulturelle Religionsphilosophie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Interkulturelle Religionsphilosophie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Directed Studies",
+      "original_value": "Directed Studies",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Directed Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Modulprüfung",
+      "original_value": "Modulprüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Modulprüfung"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "total_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Explore scholarships at University of Limerick and discover a wide range of financial supports for undergraduate, postgraduate and international students.
+
+UL scholarships recognise academic excellence, sporting achievement, leadership potential and contributions to community engagement, helping students achieve their educational goals while reducing the cost of study.
+
+Whether you are a prospective student, current UL student or international applicant, this page provides up-to-date information on available scholarships, eligibility criteria, application deadlines and funding opportunities at one of Ireland’s leading universities.

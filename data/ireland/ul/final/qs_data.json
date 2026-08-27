@@ -1,0 +1,387 @@
+{
+  "schema": {
+    "name": "qs_university_data",
+    "version": "1.0"
+  },
+  "source": {
+    "provider": "QS TopUniversities",
+    "profile_url": "https://www.topuniversities.com/universities/university-limerick",
+    "university_slug": "university-limerick",
+    "built_at": "2026-08-25T15:32:50.685375+00:00"
+  },
+  "identifiers": {
+    "qs_profile_id": 347,
+    "drupal_node_id": 294053
+  },
+  "university": {
+    "name": "University of Limerick",
+    "description": "Learn more about studying at University of Limerick including how it performs in QS rankings, the cost of tuition and further course information.",
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/university-of-limerick_592560cf2aeae70239af4be0_large.jpg"
+  },
+  "overview": {
+    "content": "The University of Limerick\n(UL) is an independent, internationally focused University with over 15,000\nstudents and 1,500 faculty and staff. It is a young, energetic and enterprising\nUniversity with a proud record of innovation in education and excellence in\nresearch and scholarship. UL’s mission is to promote and advance learning and\nknowledge through teaching, research and scholarship with a particular focus on\nthe generation of knowledge which is relevant to the needs of Ireland’s\nsocio-economic development. The university offers a range of programmes up\nto doctoral levels in the disciplines of Arts, Humanities and Social Sciences,\nBusiness, Education and Health Sciences, Science and Engineering.\nUL\noffers high quality, innovative degree programmes which are relevant and\ncurrent for the world in which we live. Our broad range of full and part-time\npostgraduate programmes, combine innovative teaching methods and award-winning\nfaculty with state-of-the-art facilities. The University has an established\nreputation as an institution that has strong links with industry, commerce and\nthe professions as well as the public sector.\ngraduates continue to enjoy exceptional employment prospects with a graduate\nemployment rate that is consistently higher than the national average. Part of\nthe reason for this is that UL has built an outstanding reputation and\nexcellent relationships with employers through a variety of partnerships and\nthrough the university’s Cooperative Education programme, one of the largest in\nEurope. Each year, approximately 2,000 UL students across 56 degree programmes\nundertake a six- to eight-month placement as part of their undergraduate degree\nprogramme, one fifth of which are with international companies. This means that\nas well as having the academic credentials, students graduate from UL with\nprofessional experience that provides them with a solid career foundation."
+  },
+  "locations": {
+    "campuses": [
+      {
+        "name": "University of Limerick",
+        "address": {
+          "street": "Limerick",
+          "city": "Limerick",
+          "country": "Ireland"
+        }
+      }
+    ]
+  },
+  "statistics": {
+    "total_students": {
+      "display_value": "12,604",
+      "value": 12604,
+      "breakdown": {
+        "undergraduate_percentage": 80.4,
+        "postgraduate_percentage": 19.6
+      }
+    },
+    "international_students": {
+      "display_value": "2,345",
+      "value": 2345,
+      "breakdown": {
+        "undergraduate_percentage": 49.1,
+        "postgraduate_percentage": 50.9
+      }
+    },
+    "total_faculty_staff": {
+      "display_value": "1,046",
+      "value": 1046,
+      "breakdown": {
+        "domestic_percentage": 63.0,
+        "international_percentage": 37.0
+      }
+    }
+  },
+  "rankings": [
+    {
+      "ranking_id": 513,
+      "name": "QS World University Rankings",
+      "current": {
+        "year": 2027,
+        "rank": "#=388",
+        "rank_numeric": 388,
+        "is_tied": true,
+        "is_range": false,
+        "score": 39
+      },
+      "overall_score": 39,
+      "history": [
+        {
+          "year": 2027,
+          "rank": "#=388",
+          "rank_numeric": 388,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2026,
+          "rank": "#=401",
+          "rank_numeric": 401,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=421",
+          "rank_numeric": 421,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#426",
+          "rank_numeric": 426,
+          "is_tied": false,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#531-540",
+          "rank_min": 531,
+          "rank_max": 540,
+          "is_tied": false,
+          "is_range": true
+        },
+        {
+          "year": 2022,
+          "rank": "#501-510",
+          "rank_min": 501,
+          "rank_max": 510,
+          "is_tied": false,
+          "is_range": true
+        },
+        {
+          "year": 2021,
+          "rank": "#511-520",
+          "rank_min": 511,
+          "rank_max": 520,
+          "is_tied": false,
+          "is_range": true
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 39
+        },
+        {
+          "name": "Academic Reputation",
+          "score": 30.7
+        },
+        {
+          "name": "Citations per Faculty",
+          "score": 30.9
+        },
+        {
+          "name": "Employment Outcomes",
+          "score": 21.9
+        },
+        {
+          "name": "Employer Reputation",
+          "score": 41.8
+        },
+        {
+          "name": "Faculty Student Ratio",
+          "score": 23.5
+        },
+        {
+          "name": "International Faculty Ratio",
+          "score": 94.7
+        },
+        {
+          "name": "International Research Network",
+          "score": 69.7
+        },
+        {
+          "name": "International Student Ratio",
+          "score": 48.9
+        },
+        {
+          "name": "Sustainability",
+          "score": 81.9
+        }
+      ],
+      "source": {
+        "profile_id": 347,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/513/347/0?_wrapper_format=drupal_ajax"
+      }
+    },
+    {
+      "ranking_id": 4085,
+      "name": "QS Sustainability Rankings",
+      "current": {
+        "year": 2026,
+        "rank": "#=194",
+        "rank_numeric": 194,
+        "is_tied": true,
+        "is_range": false,
+        "score": 83.7
+      },
+      "overall_score": 83.7,
+      "history": [
+        {
+          "year": 2026,
+          "rank": "#=194",
+          "rank_numeric": 194,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2025,
+          "rank": "#=224",
+          "rank_numeric": 224,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2024,
+          "rank": "#=175",
+          "rank_numeric": 175,
+          "is_tied": true,
+          "is_range": false
+        },
+        {
+          "year": 2023,
+          "rank": "#301-320",
+          "rank_min": 301,
+          "rank_max": 320,
+          "is_tied": false,
+          "is_range": true
+        }
+      ],
+      "criteria": [
+        {
+          "name": "Overall",
+          "score": 83.7
+        },
+        {
+          "name": "Impact of Education",
+          "score": 73.8
+        },
+        {
+          "name": "Employability & Opportunities",
+          "score": 85.3
+        },
+        {
+          "name": "Environmental Impact",
+          "score": 74.5
+        },
+        {
+          "name": "Equality",
+          "score": 97.8
+        },
+        {
+          "name": "Governance",
+          "score": 98.7
+        },
+        {
+          "name": "Knowledge Exchange",
+          "score": 83.6
+        },
+        {
+          "name": "Health and Wellbeing",
+          "score": 93.5
+        },
+        {
+          "name": "Social Impact",
+          "score": 88
+        },
+        {
+          "name": "Environmental Education",
+          "score": 73.7
+        },
+        {
+          "name": "Environmental Sustainability",
+          "score": 59.1
+        },
+        {
+          "name": "Environmental Research",
+          "score": 92.5
+        }
+      ],
+      "source": {
+        "profile_id": 347,
+        "offset": 0,
+        "endpoint_url": "https://www.topuniversities.com/qs-profiles/rank-data/4085/347/0?_wrapper_format=drupal_ajax"
+      }
+    }
+  ],
+  "scholarships": {
+    "available": true,
+    "sections": [
+      {
+        "title": "Scholarships",
+        "content": "Scholarships\nSelecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n995.4K\n2242\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n503.9K\n789\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n227.0K\n335"
+      },
+      {
+        "title": "Scholarships",
+        "content": "Selecting the right scholarship can be a daunting process. With countless options available, students often find themselves overwhelmed and confused. The decision can be especially stressful for those facing financial constraints or pursuing specific academic or career goals.\nTo help students navigate this challenging process, we recommend the following articles:\nHow to get a full scholarship\nLooking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n995.4K\n2242\nScholarships to study abroad\nFind scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n503.9K\n789\nScholarship Applications: Frequently Asked Questions\nGet answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n227.0K\n335"
+      },
+      {
+        "title": "How to get a full scholarship",
+        "content": "Looking for a fully-funded scholarship to see you into university? Find out how to boost your chances of getting one.\nBy Sabrina Collier\nUpdated Aug 29, 2024\n995.4K\n2242"
+      },
+      {
+        "title": "Scholarships to study abroad",
+        "content": "Find scholarships to study abroad with our lists of international scholarships – categorized by country, by subject, and by type of student.\nBy Staff Writer\nUpdated Aug 21, 2024\n503.9K\n789"
+      },
+      {
+        "title": "Scholarship Applications: Frequently Asked Questions",
+        "content": "Get answers to all your questions about scholarship applications, including tips on how to find scholarships and chances of success.\nBy Laura Tucker\nUpdated Aug 14, 2021\n227.0K\n335"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/how-get-full-scholarship"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=913584&redirect_path=/universities/university-limerick"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/sabrinacollier"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-abroad"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=118181&redirect_path=/universities/university-limerick"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/qs-staff-writer"
+      },
+      {
+        "url": "https://www.topuniversities.com/student-info/scholarship-advice/scholarship-applications-frequently-asked-questions"
+      },
+      {
+        "url": "https://www.topuniversities.com/signup?nid=268050&redirect_path=/universities/university-limerick"
+      },
+      {
+        "url": "https://www.topuniversities.com/users/laurat"
+      }
+    ]
+  },
+  "social_links": [],
+  "media": {
+    "logo_url": "https://www.topuniversities.com/sites/default/files/profiles/logos/university-of-limerick_592560cf2aeae70239af4be0_large.jpg",
+    "image_urls": [
+      "https://www.topuniversities.com/sites/default/files/profiles/logos/university-of-limerick_592560cf2aeae70239af4be0_large.jpg"
+    ],
+    "image_count": 1
+  },
+  "extraction": {
+    "profile": {
+      "json_ld_items_found": 5,
+      "profile_badges_found": 1,
+      "campuses_found": 1,
+      "social_links_found": 0,
+      "website_urls_found": 0,
+      "images_found": 1,
+      "statistics_found": 3,
+      "cost_items_found": 0,
+      "scholarship_sections_found": 5,
+      "university_information_sections_found": 5,
+      "ranking_summaries_found": 1,
+      "ranking_endpoints_found": 4,
+      "additional_sections_found": 0
+    },
+    "rankings": {
+      "endpoints_discovered": 4,
+      "unique_endpoints": 4,
+      "endpoints_processed": 2,
+      "endpoints_failed": 2,
+      "ranking_records_found": 11,
+      "failed_endpoints": [
+        {
+          "ranking_id": 516,
+          "url": "https://www.topuniversities.com/qs-profiles/rank-data/516/347/3625?_wrapper_format=drupal_ajax",
+          "error": "RuntimeError: \nQS ranking request failed.\nURL: https://www.topuniversities.com/qs-profiles/rank-data/516/347/3625?_wrapper_format=drupal_ajax\nHTTP status: 403\nResponse preview: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-vgrj1Av5y2U2JgIR1EYOK9&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+        },
+        {
+          "ranking_id": 3684,
+          "url": "https://www.topuniversities.com/qs-profiles/rank-data/3684/347/0?_wrapper_format=drupal_ajax",
+          "error": "RuntimeError: \nQS ranking request failed.\nURL: https://www.topuniversities.com/qs-profiles/rank-data/3684/347/0?_wrapper_format=drupal_ajax\nHTTP status: 403\nResponse preview: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-1b0UhD7AUL8T95vTO2nVvP&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s"
+        }
+      ],
+      "extracted_at": "2026-08-25T15:32:50.685306+00:00"
+    }
+  },
+  "build_summary": {
+    "ranking_count": 2,
+    "ranking_history_records": 11,
+    "ranking_criteria_count": 22,
+    "campus_count": 1,
+    "social_link_count": 0,
+    "image_count": 1,
+    "statistics_sections": 3,
+    "has_cost_of_living": false,
+    "has_programmes": false
+  }
+}

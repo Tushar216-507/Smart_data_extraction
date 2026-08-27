@@ -1,0 +1,62 @@
+# teaching
+
+- What is teaching?
+
+  Teaching is the act of helping students learn by sharing knowledge and creating environments for effective learning. It involves a teacher and a learner working together with a subject to improve the learner's understanding. A teacher's role is complex, ranging from mediator and disciplinarian to confidant and organizer.
+
+  Effective teaching requires maturity, humor, firmness, and sympathy. It also requires an understanding of how children develop and learn, adapting to new educational technologies and evolving social values. The goal is to motivate students, encouraging them to set realistic achievement standards. Teaching can occur at different levels, with foreign language instruction, for example, stressing reading knowledge in secondary school.
+
+  5 Britannica Sources
+- Who can be a teacher?
+
+  Teacher education is divided into two stages: preservice and in-service. Preservice includes all education and training stages before a teacher's paid employment in a school, while in-service is the education and training a teacher receives after beginning their career.
+
+  Arrangements for teacher preparation vary widely across countries. Some areas use short training courses to prepare "monitors" to teach large classes of young children. In North America and other developed countries, most teachers are university graduates who begin their preparation after completing four to six years of secondary education.
+
+  Generally, each state or province sets its own certification requirements, which shape teacher-education programs. Regulations vary, and teachers trained in one province or state may not be qualified to teach elsewhere without meeting additional requirements.
+- What are some common methods teachers use?
+
+  Teachers commonly employ varied instructional media, such as objects, models, videos, charts, and graphs, to help students understand concepts. Modern approaches incorporate virtual reality, holographic technology, and 3D printers to create immersive and interactive experiences.
+
+  Other methods include the grammar-translation method, which focuses on reading and writing; the direct method, which uses only the target language; and the audiolingual method, which includes concentrated drill. Teachers often act as group leaders, creating stimulating environments while considering the influence of group dynamics and social forces on the learning situation. They also use adaptive learning, tailoring materials to individual needs, and collaborative learning, encouraging peer support and shared knowledge.
+
+  3 Britannica Sources
+- How do teachers help students learn new topics?
+
+  Teachers employ various strategies to help students grasp new topics. One approach involves "scaffolding," where educators offer support that allows students to solve problems and complete tasks independently. This involves managing elements initially beyond the student's capacity, enabling them to focus on aspects within their competence.
+
+  Teachers also make relevant experience available to students at the right time. Effective teachers should be mature, humorous, firm, sympathetic and able to share work programs that modify a student's experiences.
+
+  Modern educational methods also incorporate technology, such as virtual reality and 3D printers, to create immersive and interactive experiences. Adaptive learning, which uses data to customize educational materials to individual needs, is another method.
+
+  3 Britannica Sources
+- What tools or materials do teachers often use in the classroom?
+
+  Teachers use a variety of tools and materials in the classroom to aid instruction, rather than replace the teacher. These include both traditional and modern technologies.
+
+  Visual materials such as objects, models, diagrams, charts, graphs, videos, and films are useful, along with facilities like whiteboards, bulletin boards, and display cases. Field trips and guest speakers are also commonly utilized.
+
+  Digital tools are increasingly popular, with laptops, desktops, tablets, and interactive whiteboards being used regularly. Many schools are transitioning to digital learning environments, using digital textbooks and resources. Technologies such as virtual reality, holographic technology, cloud computing, adaptive learning, 3D printers, connected learning, and artificial intelligence are emerging as potentially useful for education.
+
+  3 Britannica Sources
+- How can good teaching affect students' futures?
+
+  Good teaching profoundly shapes students' futures by cultivating
+
+  [critical thinking](https://www.britannica.com/topic/critical-thinking/Introduction#ref1), curiosity, and self-awareness, equipping them to be engaged, productive citizens who can cooperate and rationally overcome differences inherent in a pluralistic society. Teachers share work programs that modify a student's experiences, making relevant experiences available at the right time. By stimulating learning situations, teachers motivate students to set realistic achievement standards, supplementing intrinsic motivation with appropriate support.
+
+teaching, the profession of those who give instruction, especially in an [elementary school](https://www.britannica.com/topic/elementary-education) or a [secondary school](https://www.britannica.com/topic/secondary-education) or in a [university](https://www.britannica.com/topic/university).
+
+Measured in terms of its members, teaching is the world’s largest profession. In the 21st century it was estimated that there were about 80 million teachers throughout the world. Though their roles and functions vary from country to country, the variations among teachers are generally greater within a country than they are between countries. Because the nature of the activities that constitute teaching depends more on the age of the persons being taught than on any other one thing, it is useful to recognize three subgroups of teachers: primary-school, or [elementary-school](https://www.britannica.com/topic/elementary-education), teachers; [secondary-school](https://www.britannica.com/topic/secondary-education) teachers; and [university](https://www.britannica.com/topic/university) teachers. Elementary-school teachers are by far the most numerous worldwide, making up nearly half of all teachers in some developed countries and three-fourths or more in developing countries. Teachers at the [university level](https://www.britannica.com/topic/higher-education) are the smallest group.
+
+The entire teaching corps, wherever its members may be located, shares most of the criteria of a profession, namely (1) a process of formal training, (2) a body of specialized knowledge, (3) a procedure for certifying, or validating, membership in the profession, and (4) a set of standards of performance—intellectual, practical, and ethical—that is defined and enforced by members of the profession. Teaching young children and even adolescents could hardly have been called a profession anywhere in the world before the 20th century. It was instead an art or a craft in which the relatively young and untrained women and men who held most of the teaching positions “kept school” or “heard lessons” because they had been better-than-average pupils themselves. They had learned the art solely by observing and imitating their own teachers. Only university professors and possibly a few teachers of elite secondary schools would have merited being called members of a profession in the sense that medical [doctors](https://www.britannica.com/topic/doctor-degree), [lawyers](https://www.britannica.com/topic/lawyer), or [priests](https://www.britannica.com/topic/priest-Christianity) were professionals; in some countries even today primary-school teachers may accurately be described as semiprofessionals. The dividing line is imprecise. It is useful, therefore, to consider the following questions: (1) What is the status of the profession? (2) What kinds of work are done? (3) How is the profession organized?
+
+## The [status](https://www.britannica.com/topic/social-status) of teachers
+
+Teaching enjoys average to high status, depending in part on the amount of study required to prepare for employment. Since this ranges from a relatively brief time to many years, the levels of social and economic status span a wide range.
+
+## The economic status
+
+The salaries of elementary- and secondary-school teachers have generally been relatively low, particularly before 1955, at which time they increased sharply in some countries. When salaries are too low to provide what teachers regard as necessities, they add other jobs. Men are more likely to do this than women. In 1965–66, male municipal schoolteachers in the United States derived 84 percent of their total income from their salaries as teachers; 7 percent from summer employment; and 6 percent from “moonlighting,” or working at a second job, during the school year. Working at a second job is much more frequent in countries in which the school day is less than seven hours or the teaching load (for secondary-school teachers) less than about 25 classes a week. In Brazil and other Latin American countries, for example, where the average teaching load of a secondary-school teacher is about 12 classes a week, many teachers take two full-time teaching jobs, and some are forced to go beyond that to earn a living.
+
+The salaries of university teachers and others who teach in postsecondary institutions have traditionally been substantially higher than those of secondary-school teachers. This reflects the fact that university professors generally have spent more years in preparation for their work and are more highly selected. But in the 21st century, university salaries have not increased as much as those of other teachers. Though North American university salaries are among the highest of their kind in the world, they fall below the average incomes of medical doctors, dentists, [lawyers](https://www.britannica.com/topic/lawyer), and engineers. Salaries in higher education in Russia are higher, in relation to other comparable occupations, than in the United States. A teacher in a Russian pedagogical institute (which trains schoolteachers), for example, is paid slightly more than an engineer who has completed a university course.

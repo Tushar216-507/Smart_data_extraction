@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0225",
+  "program_name": "Bachelor/Master of Science in Artificial Intelligence and Machine Learning Course content",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0225\\final",
+  "input_fact_count": 54,
+  "unique_fact_count": 54,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 54,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 54,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 1,
+    "admission": 0,
+    "curriculum": 52,
+    "career": 0,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 1,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0225\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0225\\final\\curriculum_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0225\\final\\contacts_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0225\\final\\build_summary.json"
+  }
+}

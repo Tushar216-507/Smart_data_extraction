@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "Students must have successfully completed modules totalling at least 60 credits to apply for the Master's module.",
+      "original_value": "Die Zulassung zum Mastermodul kann beantragt werden, wenn Module im Umfang von mindestens 60 CP erfolgreich abgeschlossen worden sind.",
+      "unit": "credits",
+      "entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "thesis",
+      "scope": "programme",
+      "field": "thesis_credits",
+      "value": 26,
+      "original_value": "26 CP",
+      "unit": "credits",
+      "entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": "6 months",
+      "original_value": "6 Monaten",
+      "unit": "months",
+      "entity": {
+        "type": "program",
+        "id": "0021",
+        "name": "Curatorial Studies - Theory - History - Criticism"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

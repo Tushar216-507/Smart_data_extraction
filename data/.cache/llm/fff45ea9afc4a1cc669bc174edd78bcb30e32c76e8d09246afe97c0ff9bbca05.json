@@ -1,0 +1,30 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "competency_requirements",
+      "field": "required_competency_requirements_international_students_us_high_school",
+      "value": {
+        "English": "four years (composition/literature based)",
+        "Math": "four years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "Laboratory science": "three years total (one year each from any of the following areas are accepted: biology, chemistry, earth science, integrated sciences, and physics)",
+        "Social science": "two years (including one year American history)",
+        "Foreign language": "two years (same language)",
+        "Fine arts": "one year"
+      },
+      "confidence": 1.0,
+      "programme_association": "Asian Pacific American Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "competency_requirements",
+      "field": "required_competency_requirements_international_students_non_us_high_school",
+      "value": {
+        "Math": "four years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "Laboratory science": "three years total (one year each from any of the following areas are accepted: biology, chemistry, earth science, integrated sciences and physics)"
+      },
+      "confidence": 1.0,
+      "programme_association": "Asian Pacific American Studies - BA"
+    }
+  ]
+}

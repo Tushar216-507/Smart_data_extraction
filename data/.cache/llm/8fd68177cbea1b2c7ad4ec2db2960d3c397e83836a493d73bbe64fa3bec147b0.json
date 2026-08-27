@@ -1,0 +1,286 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "description",
+      "value": "The Master's program in Scandinavian Studies includes seven compulsory modules and one elective module.",
+      "original_value": "Das Studium im Masterstudiengang Skandinavistik umfasst sieben Pflichtmodule und ein Wahlpflichtmodul.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wissenschaft als Projekt: Philologische Arbeitsweisen in der Skandinavistik",
+      "original_value": "Wissenschaft als Projekt: Philologische Arbeitsweisen in der Skandinavistik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.1",
+        "name": "Wissenschaft als Projekt: Philologische Arbeitsweisen in der Skandinavistik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Forschungsfragen der Skandinavistik",
+      "original_value": "Forschungsfragen der Skandinavistik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.2",
+        "name": "Forschungsfragen der Skandinavistik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Skandinavistik im philologischen Kontext",
+      "original_value": "Skandinavistik im philologischen Kontext",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.1",
+        "name": "Skandinavistik im philologischen Kontext"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte, Kulturtransfer",
+      "original_value": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte, Kulturtransfer",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.2",
+        "name": "Der Norden und Europa im Mittelalter: Kontakte, Konflikte, Kulturtransfer"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Literatur und Kultur der Neuzeit",
+      "original_value": "Literatur und Kultur der Neuzeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.3.3",
+        "name": "Literatur und Kultur der Neuzeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Skandinavische Sprachen: Literatur, Kultur und Gesellschaft",
+      "original_value": "Skandinavische Sprachen: Literatur, Kultur und Gesellschaft",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.4",
+        "name": "Skandinavische Sprachen: Literatur, Kultur und Gesellschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Lektüremodul",
+      "original_value": "Lektüremodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.5",
+        "name": "Lektüremodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optionalbereich",
+      "original_value": "Optionalbereich",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.6",
+        "name": "Optionalbereich"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Masterarbeit",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": "final_requirements",
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Kolloquium",
+      "original_value": "Kolloquium",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.7",
+        "name": "Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

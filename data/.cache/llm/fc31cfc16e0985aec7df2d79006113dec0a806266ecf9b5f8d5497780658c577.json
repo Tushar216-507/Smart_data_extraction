@@ -1,0 +1,75 @@
+{
+  "facts": [
+    {
+      "category": "registration",
+      "scope": "programme",
+      "field": "registration_deadlines",
+      "value": {
+        "summer_semester": {
+          "thesis_seminar": {
+            "start_date": "2026-04-09",
+            "end_date": "2026-04-22"
+          },
+          "master_thesis": {
+            "start_date": "2026-04-23",
+            "end_date": "2026-05-26"
+          }
+        },
+        "winter_semester": {
+          "thesis_seminar": {
+            "start_date": "2026-10-08",
+            "end_date": "2026-10-21"
+          },
+          "master_thesis": {
+            "start_date": "2026-10-22",
+            "end_date": "2026-11-24"
+          }
+        }
+      },
+      "original_value": "Anmeldefristen Sommersemester 2026\n. Thesis Seminar: 09. April 2026 - 22. April 2026\n· Masterarbeit: 23. April 2026 - 26. Mai 2026\n\nAnmeldefristen Wintersemester 2026/27\n· Thesis Seminar: 08. Oktober 2026 - 21. Oktober 2026\n. Masterarbeit: 22. Oktober 2026 - 24. November 2026",
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "registration",
+      "scope": "programme",
+      "field": "registration_procedure",
+      "value": "Students must register for the Thesis Seminar and Master's Thesis in the same semester. Registration for the Thesis Seminar should be done via QIS during the Thesis Seminar deadline. Following this, students will receive the registration form for the Master's Thesis from the Examination Office via their @stud email address. They must then agree on a topic with their supervisor within the deadline for the Master's Thesis and submit the completed registration form immediately after the topic has been determined.",
+      "original_value": "Gemäß Ordnung müssen Sie das Thesis Seminar und die Masterarbeit im selben Semester wie folgt anmelden:\n\n1) Sie melden das Thesis Seminar innerhalb der Thesis Seminar-Frist über QIS an.\n\n2) Danach erhalten Sie das Anmeldeformular für die Masterarbeit vom Prüfungsamt per E-Mail an Ihre @stud-E-Mail-Adresse.\n\n3) Sie müssen dann innerhalb der Frist für die Masterarbeit ein Thema mit Ihrem Betreuer vereinbaren und das ausgefüllte Anmeldeformular für die Masterarbeit unverzüglich nach Festsetzung des Themas im Prüfungsamt einreichen.\n\nWenn Sie sich nicht innerhalb der Anmeldefrist für die Masterarbeit beim Prüfungsamt anmelden, verfällt Ihre Anmeldung für das Thesis Seminar und Sie können das Thesis Seminar und die Masterarbeit dann erst im nächsten Semester anmelden.",
+      "entity": {
+        "type": "program",
+        "id": "0013",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

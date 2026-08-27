@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "submission_requirements",
+      "value": "The term paper must be submitted in a single copy along with a declaration as required by § 31 Abs. 8.",
+      "original_value": "Die Hausarbeit ist innerhalb der festgelegten Bearbeitungsfrist in einfacher Ausfertigung mit einer Erklärung gemäß § 31 Abs. 8 versehen, bei der Prüferin oder dem Prüfer einzureichen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "weeks": 4,
+        "minimum_weeks": 2,
+        "maximum_weeks": 4,
+        "credits": {
+          "min": 2,
+          "max": 5
+        }
+      },
+      "original_value": "Hausarbeiten sollen mindestens zwei und längstens vier Wochen Bearbeitungszeit (Vollzeit, d.h. 2 bis 5 CP Workload) umfassen.",
+      "unit": "weeks and credits",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_policy",
+      "value": "If a student's term paper is graded as 'not sufficient' (5.0), they may request a revision.",
+      "original_value": "Eine Studierende oder ein Studierender, deren oder dessen Hausarbeit mit „nicht ausreichend“ (5,0) bewertet worden ist, kann bei der oder dem Prüfenden die Nachbesserung der Hausarbeit beantragen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

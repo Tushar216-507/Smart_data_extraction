@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0310",
+  "program_name": "Bachelor of Science in Environmental Science (Direct Entry)",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0310\\final",
+  "input_fact_count": 30,
+  "unique_fact_count": 30,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 30,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 30,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 10,
+    "admission": 3,
+    "curriculum": 11,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0310\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0310\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0310\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0310\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0310\\final\\student_life_data.json",
+    "research": "data\\ireland\\ul\\programs\\0310\\final\\research_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0310\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0310\\final\\build_summary.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application process",
+      "field": "application_url",
+      "value": "https://webapp4.asu.edu/dgsadmissions/Index.jsp",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application process",
+      "field": "law_application_url",
+      "value": "https://law.asu.edu/admission",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application fee",
+      "field": "application_fee",
+      "value": "$115",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application fee",
+      "field": "application_fee_nonrefundable",
+      "value": "The application fee is not refundable under any circumstance, regardless of the admission decision.",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application fee payment methods",
+      "field": "payment_methods",
+      "value": "Visa or Mastercard",
+      "confidence": 1.0,
+      "programme_association": "Disability Studies - BA"
+    }
+  ]
+}

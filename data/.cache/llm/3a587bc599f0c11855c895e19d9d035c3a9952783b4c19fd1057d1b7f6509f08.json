@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_deadline",
+      "value": "January 15 to May 15 (exclusion period) each year",
+      "confidence": 1.0,
+      "programme_association": "Double Degree Master's Program Paris Dauphine-PSL"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_details",
+      "field": "notification_of_admission",
+      "value": "Official admission notices can only be sent after the selection process is completed, but very good applicants will be notified during the process.",
+      "confidence": 1.0,
+      "programme_association": "Double Degree Master's Program Paris Dauphine-PSL"
+    },
+    {
+      "category": "admission",
+      "subcategory": "document_submission",
+      "field": "missing_documents_policy",
+      "value": "It is not possible to submit missing documents after the application deadline. This applies to all documents, including language certificates.",
+      "confidence": 1.0,
+      "programme_association": "Double Degree Master's Program Paris Dauphine-PSL"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0220",
+  "program_name": "Masters/PhD in Irish World Academy of Music and Dance",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0220\\final",
+  "input_fact_count": 60,
+  "unique_fact_count": 60,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 60,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 60,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 5,
+    "admission": 0,
+    "curriculum": 6,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 1,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 2,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 44
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0220\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0220\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0220\\final\\career_data.json",
+    "scholarships": "data\\ireland\\ul\\programs\\0220\\final\\scholarships_data.json",
+    "research": "data\\ireland\\ul\\programs\\0220\\final\\research_data.json",
+    "other": "data\\ireland\\ul\\programs\\0220\\final\\other_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0220\\final\\build_summary.json"
+  }
+}

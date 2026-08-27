@@ -1,0 +1,6 @@
+While every effort has been made to follow citation style rules, there may be some discrepancies.
+Please refer to the appropriate style manual or other sources if you have any questions.
+
+justice, In philosophy, the concept of a proper proportion between a person’s deserts (what is merited) and the good and bad things that befall or are allotted to him or her. Aristotle’s discussion of the virtue of justice has been the starting point for almost all Western accounts. For him, the key element of justice is treating like cases alike, an idea that has set later thinkers the task of working out which similarities (need, desert, talent) are relevant. Aristotle distinguishes between justice in the distribution of wealth or other goods (distributive justice) and justice in reparation, as, for example, in punishing someone for a wrong he has done (retributive justice). The notion of justice is also essential in that of the just state, a central concept in political philosophy. See alsolaw.
+
+This article was most recently revised and updated by Brian Duignan.

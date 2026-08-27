@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "module_title",
+      "value": "Multiprocessing",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "module_description",
+      "value": "Some computers are designed to distribute their work across several CPUs in a multiprocessing configuration, a technique once employed in only large and powerful machines such as supercomputers, mainframe computers and servers. Multiprocessor and multi-core personal and laptop computers are now widely available, and are being increasingly used in lower-end markets as a result.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "module_details",
+      "value": "Supercomputers in particular often have highly unique architectures that differ significantly from the basic stored-program architecture and from general-purpose computers. They often feature thousands of CPUs, customized high-speed interconnects, and specialized computing hardware.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "module_usage",
+      "value": "Such designs tend to be useful for only specialized tasks due to the large scale of program organization required to use most of the available resources at once. Supercomputers usually see usage in large-scale simulation, graphics rendering, and cryptography applications, as well as with other so-called 'embarrassingly parallel' tasks.",
+      "confidence": 1.0,
+      "programme_association": "Computer Systems - BSc"
+    }
+  ]
+}

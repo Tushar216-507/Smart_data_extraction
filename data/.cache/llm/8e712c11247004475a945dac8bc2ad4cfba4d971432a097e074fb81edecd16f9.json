@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "staff_contact",
+      "field": "contact_method",
+      "value": "UL Staff can contact us via Topdesk",
+      "confidence": 1.0,
+      "programme_association": "Applied Languages - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "student_parent_requests",
+      "field": "contact_method",
+      "value": "Please refer them to this page so they can contact us through the appropriate channel.",
+      "confidence": 1.0,
+      "programme_association": "Applied Languages - BA"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "urgent_queries",
+      "field": "contact_phone",
+      "value": "061 233 755",
+      "confidence": 1.0,
+      "programme_association": "Applied Languages - BA"
+    }
+  ]
+}

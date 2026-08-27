@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "fees",
+      "subcategory": "debit card payment issues",
+      "field": "daily limit for debit card payments",
+      "value": "€1,500",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "debit card payment issues",
+      "field": "payment over multiple days",
+      "value": "For larger payments, please make them over multiple days.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee reminders",
+      "field": "fee reminder process",
+      "value": "Reminder emails will be sent periodically if fees are outstanding.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "fee reminders",
+      "field": "finance task during registration",
+      "value": "During registration, students will complete a Finance Task, which generates fees for each semester.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

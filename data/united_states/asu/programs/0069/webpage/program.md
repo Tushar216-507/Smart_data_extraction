@@ -1,0 +1,45 @@
+# Online Bachelor of Science in Health Care Administration and Policy
+
+Arizona State University's Bachelor of Science in health care administration and policy online provides you with the tools needed to understand the nonclinical side of health care. In this program, you’ll gain expertise in various topics, including law, policy analysis, data analysis and quality improvement. You’ll also gain a cross-cultural perspective by comparing the U.S. health care system to other countries.
+
+[Learn more](#program-detail)
+
+Quick facts
+
+Next start date: 10/14/2026
+
+Total classes: 40
+
+Weeks per class: 7.5–15
+
+Total credit hours: 120
+
+## Make an impact on your community with a role in health care administration
+
+## Online health care administration courses
+
+In this program, you’ll cover topics relating to health care administration and policy to give you the versatility to enter a variety of positions after graduation. Courses range from biostatistics and health care finance to population health management and global health care systems. You’ll also dive deeper into topics of interest through experiential learning projects, internships and research opportunities.
+
+## The jobs this degree prepares you for
+
+Earning a health care administration and policy degree prepares you for entry-level jobs in health care administration, hospital administration, policy, advocacy and more. Upon graduation, you’ll also have the knowledge needed to pursue graduate programs in health care delivery, administration or management.
+
+## Developing tomorrow’s health workforce
+
+In the College of Health Solutions, students learn and prepare to become the health workforce of the future. Faculty and students also collaborate to research solutions to pressing global health challenges. Partnerships with the medical community offer students access to professional resources and networking opportunities with Mayo Clinic, Banner Health, HonorHealth, Dignity Health and more.
+
+### 6,500+
+
+students.
+
+### 250+
+
+Barrett honors scholars.
+
+### 160+
+
+faculty members.
+
+### $14.5
+
+million in research expenditures.

@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_start_date",
+      "value": "September 24, 2026, 9:00 AM",
+      "confidence": 1.0,
+      "programme_association": "Master in Management Science"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_period",
+      "field": "application_end_date",
+      "value": "October 16, 2026, 5:00 PM",
+      "confidence": 1.0,
+      "programme_association": "Master in Management Science"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "modules",
+      "field": "language_courses_start_date",
+      "value": "October 12, 2026",
+      "confidence": 1.0,
+      "programme_association": "Master in Management Science"
+    }
+  ]
+}

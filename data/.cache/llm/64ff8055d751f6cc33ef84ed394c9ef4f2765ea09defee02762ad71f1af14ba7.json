@@ -1,0 +1,100 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "examination_inspection",
+      "value": "Students may request to inspect examination records within one year after completing a module and after completing the entire examination process.",
+      "original_value": "Innerhalb eines Jahres nach Abschluss eines Moduls und nach Abschluss des gesamten Prüfungsverfahrens wird der oder dem Studierenden auf Antrag Einsicht in die sie oder ihn betreffenden Prüfungsakten (Prüfungsprotokolle, Prüfungsarbeiten nebst Gutachten) gewährt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "examination_inspection_alternative",
+      "value": "Students may request inspection of their written examinations and related assessments shortly after the announcement of examination results.",
+      "original_value": "Der oder dem Studierenden wird auf Antrag zeitnah nach der Bekanntgabe von Prüfungsergebnissen Einsicht in ihre seine schriftlichen Prüfungsarbeiten, die darauf bezogenen Gutachten und in die Prüfungsprotokolle gewährt.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "examination_records_management",
+      "value": "Examination records are managed by the examination offices.",
+      "original_value": "Die Prüfungsakten sind von den Prüfungsämtern zu führen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "examination_record_retention_period",
+      "value": "The retention periods for examination documents are determined by § 20 of the Hessian Enrollment Regulation (HImmaVO) in the respective valid version.",
+      "original_value": "Maßgeblich für die Aufbewahrungsfristen von Prüfungsunterlagen ist § 20 der Hessischen Immatrikulationsverordnung (HImmaVO) in der jeweils gültigen Fassung.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

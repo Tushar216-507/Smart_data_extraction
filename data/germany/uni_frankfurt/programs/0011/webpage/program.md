@@ -1,0 +1,13 @@
+Take the opportunity to study a demanding degree program taught by committed and research-driven professors and high-profile practitioners. Our lecturers apply state-of-the-art teaching methods and encourage you to examine challenging real-world problems.
+
+Together with students from all around the globe, this master's program offers a unique experience and is the perfect stepping stone for an international career. Around 80 percent of our students have an international background, creating a special study and learning atmosphere.
+
+The Master of Science in Management Science allows students to choose modules according to their preferences. There are no mandatory courses!
+
+The program consists of one elective in Management, one elective in Ethics, 12 elective modules from four fields of concentration, two seminars, and a master's thesis. More information about the program content can be found [here](/en/study/study-programs/master/master-in-management-science/program-content).
+
+You can choose any module from the four fields below. Hence, you may specialize in one or two fields or aquire a broad knowledge in the field of business administration:
+
+More information about the fields of study can be found [here](/en/study/study-programs/master/master-in-management-science/program-content).
+
+You can apply for the master's program from April 1 until May 15 (application for the first semester). Applications are managed via the central online platform for master's programs of Goethe University in cooperation with uni-assist. More information can be found [here](/en/study/study-programs/master/master-in-management-science/application).

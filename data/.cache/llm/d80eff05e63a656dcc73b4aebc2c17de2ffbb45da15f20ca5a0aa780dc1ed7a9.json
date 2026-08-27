@@ -1,0 +1,300 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Fundamental Courses",
+      "original_value": "Fundamental Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Politische Theorie",
+      "original_value": "Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB03-1",
+        "name": "Politische Theorie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "FB03-1",
+        "name": "Politische Theorie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "assessment",
+      "value": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend",
+      "original_value": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB03-1",
+        "name": "Politische Theorie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Vergleichende Politikwissenschaft",
+      "original_value": "Vergleichende Politikwissenschaft",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB03-2",
+        "name": "Vergleichende Politikwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "FB03-2",
+        "name": "Vergleichende Politikwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "assessment",
+      "value": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend",
+      "original_value": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB03-2",
+        "name": "Vergleichende Politikwissenschaft"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Internationale Beziehungen",
+      "original_value": "Internationale Beziehungen",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB03-3",
+        "name": "Internationale Beziehungen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 10,
+      "original_value": "10",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "FB03-3",
+        "name": "Internationale Beziehungen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "assessment",
+      "value": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend",
+      "original_value": "2 Veranstaltungen jeweils mit Teilnahmenachweis (2x3 CP), davon 1 Veranstaltung zusätzlich mit Prüfungsleistung (+4 CP) verpflichtend",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB03-3",
+        "name": "Internationale Beziehungen"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "both",
+      "field": "module_name",
+      "value": "Allgemeine Psychologie I",
+      "original_value": "Allgemeine Psychologie I (PsyBsc4)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB05-1",
+        "name": "Allgemeine Psychologie I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Compulsory elective",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "both",
+      "field": "module_credits",
+      "value": 4,
+      "original_value": "4",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "FB05-1",
+        "name": "Allgemeine Psychologie I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "both",
+      "field": "assessment",
+      "value": "Modulzettel wird in der Beratung ausgegeben",
+      "original_value": "Modulzettel wird in der Beratung ausgegeben",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "FB05-1",
+        "name": "Allgemeine Psychologie I"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Fundamental Courses",
+      "original_value": "Fundamental Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "module_name",
+      "value": "M.Sc. Wirtschaftsbildung",
+      "original_value": "M.Sc. Wirtschaftspädagogik",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "M.Sc. Wirtschaftsbildung"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Module der Schwerpunkte und des Bereichs Management",
+      "original_value": "Module der Schwerpunkte und des Bereichs Management",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Module der Schwerpunkte und des Bereichs Management"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Optional compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Differentielle Psychologie",
+      "original_value": "Differentielle Psychologie (PsyBsc6)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBsc6",
+        "name": "Differentielle Psychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Optional elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Grundlagen der Diagnostik",
+      "original_value": "Grundlagen der Diagnostik (PsyBSc11)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PsyBSc11",
+        "name": "Grundlagen der Diagnostik"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Optional elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "program",
+      "field": "module_name",
+      "value": "Angewandte Psychologie",
+      "original_value": "Angewandte Psychologie: Grundlagen und Vertiefung der Arbeits- und Organisationspsychologie (MP PsyBsc16) und Personalpsychologie (SL PsyBsc18)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP PsyBsc16",
+        "name": "Angewandte Psychologie"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Optional elective module",
+        "requirement_type": null,
+        "semester": "Winter semester/Summer semester",
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodule der Schwerpunkte",
+      "original_value": "Wahlpflichtmodule der Schwerpunkte (keine Seminare und keine Module aus dem Bereich Management)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Elective",
+        "name": "Wahlpflichtmodule der Schwerpunkte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0042",
+        "name": "Fundamental Courses"
+      },
+      "qualifiers": {
+        "status": "Optional elective module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

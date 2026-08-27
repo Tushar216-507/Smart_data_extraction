@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "application_instructions",
+      "field": "application_process_steps",
+      "value": "Go to Professional Education Programmes, choose the programme of your choice, pay an application fee of €50 (electronic transfer), and then submit your application.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "fees",
+      "subcategory": "application_fee",
+      "field": "application_fee_amount",
+      "value": "€50",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "application_instructions",
+      "field": "application_fee_description",
+      "value": "which allows you to apply for two postgraduate programmes in one online application.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "application_support",
+      "field": "application_support_contact",
+      "value": "please contact us",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}

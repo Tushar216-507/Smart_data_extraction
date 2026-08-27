@@ -1,0 +1,3 @@
+## ASU has the resources, technology and passion to help you succeed
+
+At ASU, student success is our highest priority. You’ll have the support to help you succeed at every step of your ASU experience. We offer tutoring, advising and professor office hours to help keep you on track and do well in your classes, as well as innovative digital tools like eAdvisor™ to alert you if you get off track. You’ll graduate prepared for the workplace and ready to find a job after college.

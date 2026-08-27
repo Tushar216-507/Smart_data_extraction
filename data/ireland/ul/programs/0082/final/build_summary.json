@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0082",
+  "program_name": "Economics and Policy Analysis - MSc Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0082\\final",
+  "input_fact_count": 11,
+  "unique_fact_count": 11,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 11,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 11,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 8,
+    "admission": 0,
+    "curriculum": 1,
+    "career": 0,
+    "fees": 2,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0082\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0082\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0082\\final\\fees_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0082\\final\\build_summary.json"
+  }
+}

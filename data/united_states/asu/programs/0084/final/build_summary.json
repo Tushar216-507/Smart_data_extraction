@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0084",
+  "program_name": "Online Bachelor of Science in Planning in Urban Planning",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0084\\final",
+  "input_fact_count": 30,
+  "unique_fact_count": 30,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 30,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 30,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 1,
+    "curriculum": 18,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 5,
+    "other": 2
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0084\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0084\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0084\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0084\\final\\career_data.json",
+    "research": "data\\united_states\\asu\\programs\\0084\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0084\\final\\statistics_data.json",
+    "other": "data\\united_states\\asu\\programs\\0084\\final\\other_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0084\\final\\build_summary.json"
+  }
+}

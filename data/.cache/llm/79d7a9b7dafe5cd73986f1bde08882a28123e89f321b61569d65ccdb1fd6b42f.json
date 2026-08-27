@@ -1,0 +1,175 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Graded",
+      "original_value": "benotet",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Passing or failing",
+      "original_value": "bestanden oder nicht bestanden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "The grading of individual assessments is based on the student's performance.",
+      "original_value": "Dabei ist stets die individuelle Leistung der oder des Studierenden zugrunde zu legen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "important_information",
+      "value": "For external practical modules, the assessment performance may be ungraded and only evaluated as passed or failed.",
+      "original_value": "Insbesondere für externe Praxismodule kann vorgesehen werden, dass die Prüfungsleistung unbenotet bleibt und lediglich mit „bestanden“ oder „nicht bestanden“ bewertet wird.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "grades": [
+          {
+            "value": 1,
+            "description": "very good",
+            "criteria": "an excellent performance"
+          },
+          {
+            "value": 2,
+            "description": "good",
+            "criteria": "a performance that significantly exceeds average requirements"
+          },
+          {
+            "value": 3,
+            "description": "satisfactory",
+            "criteria": "a performance that meets average requirements"
+          },
+          {
+            "value": 4,
+            "description": "adequate",
+            "criteria": "a performance that, despite its deficiencies, still meets requirements"
+          },
+          {
+            "value": 5,
+            "description": "unsatisfactory",
+            "criteria": "a performance that does not meet requirements due to significant deficiencies"
+          }
+        ],
+        "allowable_grades": [
+          "1.0",
+          "1.3",
+          "1.7",
+          "2.0",
+          "2.3",
+          "2.7",
+          "3.0",
+          "3.3",
+          "3.7",
+          "4.0",
+          "5.0"
+        ]
+      },
+      "original_value": "Für die Benotung der einzelnen Prüfungsleistungen sind folgende Noten zu verwenden: ... zulässig sind die Noten 1,0; 1,3; 1,7; 2,0; 2,3; 2,7; 3,0; 3,3; 3,7; 4,0 und 5,0.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

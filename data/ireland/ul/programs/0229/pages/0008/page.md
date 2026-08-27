@@ -1,0 +1,14 @@
+Department of Management and Marketing
+
+The Department of Management and Marketing is one of four departments within the Kemmy Business School and encompasses a teaching and research community across the disciplines of Marketing, Management, Information Management, Communications, Project Management and Entrepreneurship.   The Department makes a strong contribution to the [Bachelor of Business Studies Programmes (BBS)](https://www.ul.ie/courses/bachelor-business-studies) undergraduate and [graduate](https://www.ul.ie/business/courses-list/postgraduate-courses) programmes of the Kemmy Business School and delivers modules across disciplines to non-business students. We offer a suite of Postgraduate programmes.
+
+The Department also hosts the [Centre for Project Management](https://www.ul.ie/business/courses/executive-education/centre-project-management) which provides a suite of academic programmes catered for project managers.
+
+The highly engaged teaching staff draw on insights gained from their research and industry experience to provide students with applied learning experience that fosters student' creative abilities and enable them to apply theoretical concepts to a changing international work environment. Faculty have won prestigious regional and national Excellence in Teaching Awards.
+
+The Department has an active research culture, much of which is conducted in collaboration with a range of industry partners in private and public sectors and across the small and large firm spectrum. This research informs not only teaching and curriculum development, but also policy and practice in Ireland and beyond. Faculty have contributed to important debates and led research in their respective fields as reflected through publications, special issue editorships, conference contributions, editorial board memberships and services to the international academic community. Sharing this research knowledge with a wider audience is also a priority and the department holds regular seminars and conferences and contributes to public discourse through expert commentary featured in print, radio and online media. Faculty have a strong publication track record in areas such as International Human Resource Management, Cross-cultural management, Intercultural issues in management, Marketing and Business Strategy, Customer Value, Marketing Resources and Capabilities, Branding, Services and Relationship Marketing, E-service quality, Interactivity and e-relationship marketing, Consumer Culture Theory, Marketing Leadership theory, Marketing in profit and non-profit sectors, Entrepreneurship Education and Social Entrepreneurship.
+
+Please explore our website to find out more about the opportunities available to you, and we welcome further enquiries on [Conor.Carroll@ul.ie](mailto:conor.carroll@ul.ie)
+
+[Dr. Conor Carroll](https://www.ul.ie/research/dr-conor-carroll)
+Head, Department of Management & Marketing

@@ -1,0 +1,9 @@
+Fulfil your potential as an international manager of the future with UL’s one-year, full-time Master of Science in International Management .
+
+An MSc in International Management helps you stand out in a competitive global job market by demonstrating advanced strategic and analytical capabilities.
+
+You’ll develop a deep understanding of how businesses operate across borders, cultures, and regulatory systems. The programme strengthens your leadership, negotiation, and communication skills, essential for success in international roles. Most importantly, you’ll gain the confidence and expertise to make informed, ethical decisions that shape the future of global business.
+
+The programme offers a unique blend of academic and practical learning, providing an in-depth understanding of the successful management of the global enterprise that enables students to develop an international, cross-cultural and global mindset.
+
+The programme is delivered by an internationally experienced teaching team in state-of-the-art teaching facilities at the Kemmy Business School and offers a dual degree opportunity with one of seven business schools in France.

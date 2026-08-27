@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "accreditation",
+      "scope": "both",
+      "field": "accreditation_system",
+      "value": "A national accreditation system for study programs has existed since 1999 under the supervision of the Accreditation Council.",
+      "original_value": "Seit 1999 existiert ein bundesweites Akkreditierungssystem für Studiengänge unter der Aufsicht des Akkreditierungsrates.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "accreditation",
+      "scope": "both",
+      "field": "quality_assurance",
+      "value": "The organization and structure of study programs must align with the principles and regulations of the Standing Conference of the Ministers of Education and Cultural Affairs.",
+      "original_value": "Um die Qualität und die Vergleichbarkeit von Qualifikationen sicher zu stellen, müssen sich sowohl die Organisation und Struktur von Studiengängen als auch die grundsätzlichen Anforderungen an Studienabschlüsse an den Prinzipien und Regelungen der Ständigen Konferenz der Kultusminister der Länder (KMK) orientieren.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "accreditation",
+      "scope": "both",
+      "field": "accreditation_rights",
+      "value": "Accredited programs are entitled to carry the quality seal of the Accreditation Council.",
+      "original_value": "Akkreditierte Studiengänge sind berechtigt, das Qualitätssiegel des Akkreditierungsrates zu führen.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

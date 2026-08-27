@@ -1,0 +1,1 @@
+Mathematical पाठशाला is India's Premier institution established with the sole aim to initiate, enable and empower individuals to grow up to be extraordinary professionals.

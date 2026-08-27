@@ -1,0 +1,134 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "participation_requirements",
+      "value": "Successful completion of the module may depend on proof of attendance and/or academic performance, as stipulated in the respective module description.",
+      "original_value": "Der erfolgreiche Abschluss des Moduls kann, soweit dies in der jeweiligen Modulbeschreibung geregelt ist, über das Bestehen der Modulprüfung hinaus vom Erbringen von Teilnahmenachweisen und/oder Studienleistungen als Nachweis des ordnungsgemäßen Studiums oder als Voraussetzung für die Zulassung zu einer Modulprüfung abhängig gemacht werden.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "programme",
+      "field": "attendance_proof",
+      "value": "Proof of regular and/or active participation must be provided, which can only be determined if it is essential for the acquisition of knowledge and competencies linked to the module.",
+      "original_value": "Unter Teilnahmenachweisen ist der Nachweis einer regelmäßigen und/oder aktiven Teilnahme zu verstehen. Eine regelmäßige und/oder aktive Teilnahme im Sinne des Absatz 3 und des Absatz 4 können nur festgelegt werden, wenn sie zur Gewährleistung des mit dem Modul verknüpften Kenntnis- und Kompetenzerwerbs zwingend erforderlich sind.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Academic performance can include presentations or term papers.",
+      "original_value": "Studienleistungen können insbesondere Präsentationen oder Hausarbeiten sein.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_status",
+      "value": "Academic performances for small tasks such as protocols, oral presentations, and group work are neither graded nor assessed as passed/failed.",
+      "original_value": "Diese Aufgaben werden weder benotet noch mit bestanden/nicht bestanden bewertet.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "repeating_assessment",
+      "value": "Passed academic performances cannot be repeated. Unpassed performances can be repeated without restriction.",
+      "original_value": "Bestandene Studienleistungen können nicht wiederholt werden. Nicht bestandene Studienleistungen sind unbeschränkt wiederholbar.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0001",
+        "name": "Double Degree Master's Program Paris Dauphine-PSL"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

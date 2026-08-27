@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "category": "documents",
+      "subcategory": "mandatory_information",
+      "field": "incident_date_and_time",
+      "value": "Incident Date and Time.",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    },
+    {
+      "category": "documents",
+      "subcategory": "mandatory_information",
+      "field": "incident_details",
+      "value": "Incident details (minimum 200 characters) without any special characters (#$@^\\*`’’~|!).",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    },
+    {
+      "category": "documents",
+      "subcategory": "mandatory_information",
+      "field": "soft_copy_of_national_id",
+      "value": "Soft copy of any national Id ( Voter Id, Driving license, Passport, PAN Card, Aadhaar Card) of complainant in .jpeg, .jpg, .png format (file size should not more than 5 MB).",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    },
+    {
+      "category": "documents",
+      "subcategory": "mandatory_information",
+      "field": "financial_fraud_information",
+      "value": "In case of financial fraud, please keep the following information ready: Name of the Bank/ Wallet/Merchant, 12-digit Transaction id/UTR No., Date of transaction, Fraud amount.",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    },
+    {
+      "category": "documents",
+      "subcategory": "mandatory_information",
+      "field": "soft_copy_of_relevant_evidences",
+      "value": "Soft copy of all the relevant evidences related to the cyber crime (not more than 10 MB each).",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    },
+    {
+      "category": "documents",
+      "subcategory": "optional_information",
+      "field": "suspected_website_urls_social_media_handles",
+      "value": "Suspected website URLs/ Social Media handles (wherever applicable).",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    },
+    {
+      "category": "documents",
+      "subcategory": "optional_information",
+      "field": "suspect_details",
+      "value": "Suspect Details (if available): Mobile No, Email id, Bank Account No, Address, Soft copy of photograph of suspect in .jpeg, .jpg, .png format (not more than 5 MB), Any other document through which suspect can be identified.",
+      "confidence": 1.0,
+      "programme_association": "Cyber Security and IT Forensics - BSc"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Compulsory Module I for Advanced Learners",
+      "original_value": "Pflichtmodul I für Fortgeschrittene",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PF 1",
+        "name": "Compulsory Module I for Advanced Learners"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Specialization Module I (Focus A)",
+      "original_value": "Vertiefungsmodul I (Schwerpunkt A)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WP 1-x",
+        "name": "Specialization Module I (Focus A)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optional Module: Required, Supplementary Specialization for the Chosen Focus A",
+      "original_value": "Optionalmodul: vorgeschriebene, ergänzende Vertiefung zum gewählten Schwerpunkt A",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "O-PF x",
+        "name": "Optional Module: Required, Supplementary Specialization for the Chosen Focus A"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Compulsory Module II for Advanced Learners",
+      "original_value": "Pflichtmodul II für Fortgeschrittene",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PF 2",
+        "name": "Compulsory Module II for Advanced Learners"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Elective Module A or B",
+      "original_value": "Wahlpflichtmodul A oder B",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WP A oder B",
+        "name": "Elective Module A or B"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Specialization Module II (Focus B)",
+      "original_value": "Vertiefungsmodul II (Schwerpunkt B)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "WP 2-x",
+        "name": "Specialization Module II (Focus B)"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Specialization in One of the Two Chosen Focus Areas",
+      "original_value": "Spezialisierung in einem der beiden gewählten Schwerpunkte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "S-PF x.x",
+        "name": "Specialization in One of the Two Chosen Focus Areas"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Optional Module: Choice of a Non-Disciplinary Module",
+      "original_value": "Optionalmodul: Wahl eines fachfremden Moduls",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "O-PF 2",
+        "name": "Optional Module: Choice of a Non-Disciplinary Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Elective",
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Writing Workshop/Colloquium",
+      "original_value": "Schreibwerkstatt/Kolloquium",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "PF 4",
+        "name": "Writing Workshop/Colloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 3,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Final Module",
+      "original_value": "Abschlussmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "AM",
+        "name": "Final Module"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory",
+        "requirement_type": null,
+        "semester": 4,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

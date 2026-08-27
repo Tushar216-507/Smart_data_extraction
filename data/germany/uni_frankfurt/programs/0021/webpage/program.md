@@ -1,0 +1,30 @@
+## Course content and focus areas
+
+The master's program Curatorial Studies – Theory – History – Criticism, established in 2010, is a two-year cooperative degree program offered by Goethe University and the Städelschule Academy of Fine Arts, in collaboration with the Städel Museum, Liebieghaus Sculpture Collection, Museum MMK for Modern Art, Historical Museum Frankfurt, Weltkulturen Museum, and Portikus.
+
+At Goethe University, the following disciplines are represented through institutes and/or faculty members: art history, philosophy, ethnology, archaeological sciences, art education, and history. The program is housed within the Department of Art History at Goethe University.
+The degree program is characterized by its unique structure, combining the university, the university of the arts, and Frankfurt's diverse museum landscape. This exclusive program, limited to 12 to 15 people annually, offers students the opportunity to connect academic learning and scientific research with curatorial questions and professional experiences through intensive exchange. Science, artistic practice, curating, and theoretical-critical reflection are experienced not as separate endeavors but as interconnected and shared practices—this is the special value of the collaborations. No tuition fees are charged.
+Concept:
+The degree program focuses on the academic reflection on curating and art criticism as intellectual and aesthetic challenges with a practical perspective. The aim is to develop expertise that combines object-based work with theoretical and specialist knowledge. A key objective of the program is to broaden the discussions on curating and art criticism, which have traditionally been closely tied to contemporary art, to include earlier periods and other cultural studies disciplines. Museums and exhibition institutions in the 21st century face new tasks and challenges. Over the past decades, postcolonial theory and geopolitical shifts since the end of the Cold War have led to a fundamental rethink. In light of these shifts in perspective within the global art world, as well as in response to developments in contemporary art, the presentation of artworks and cultural-historical objects has become a sociopolitical challenge that requires consideration of art historical, cultural, social, political, and philosophical aspects.
+
+Degree Program:
+The master’s program Curatorial Studies – Theory – History – Criticism provides future museum curators, exhibition organizers, and art critics with a theoretical and practical foundation for their professional careers. Through the unique collaboration of dedicated university institutes, an internationally renowned art academy, and outstanding museums, students have the opportunity to combine specialist knowledge with practical skills and curatorial questions. The Städelschule offers a high level of internationality through its English-language program.
+
+Course Structure:
+In the first year, students maintain continuous contact with the collaborating museums, participating in discussions about the conception and implementation of exhibitions and collection presentations. University courses deepen their specialist knowledge, while criteria and categories of art criticism, as well as theoretical foundations in art theory and aesthetics, are explored. Courses on the history of museums and exhibitions complement the instruction. A two-month internship, ideally involving participation in an exhibition project, provides insights into the curatorial operations of a museum or exhibition institution. The second year focuses on the development of the master’s thesis, with an emphasis on integrating object-based approaches with theoretical questions.
+
+Curatorial Cohort Projects:
+During the second and third semesters, each cohort works together as a group, alongside faculty from the university and collaborating museums, on a specific curatorial project. Students are tasked with developing and implementing a concept within a defined framework.
+
+Additionally, the program has its own project space located in downtown Frankfurt, where students can independently test curatorial exhibition practices and collaborate in various formats with artists, primarily from the Städelschule or HfG Offenbach.
+
+Degree:
+The master’s thesis involves the theoretical and methodological substantiation of a curatorial and art criticism project, with formats that may vary. A scholarly text is mandatory in all cases. Parts of the thesis may be presented in other forms (e.g., exhibition concept, exhibition documentation, etc.). The master’s thesis is supervised by professors from Goethe University and may also be supervised by professors from the Städelschule. Exams are conducted at Goethe University and/or the Städelschule. The academic degree “Master of Arts” (M.A.) is jointly awarded by Goethe University and the Städelschule, with the respective areas of expertise documented in a “Diploma Supplement.”
+
+The master’s program also opens the door to a subject-specific doctorate. Graduates have consistently achieved excellent placement in professional fields, including museums, exhibition institutions, and universities.
+
+Faculty:
+Faculty members include professors and lecturers from Goethe University and the Städelschule, as well as directors and curators from the Städel Museum, Liebieghaus Sculpture Collection, Museum MMK for Modern Art Frankfurt, Historical Museum Frankfurt, Weltkulturen Museum, and Portikus. Additional experts are brought in for specific events and projects. Courses are taught in German and English, and excellent English proficiency is required.
+
+Mentoring:
+The mentoring program allows students to complete their studies and master’s thesis with close guidance from professors, researchers, and curators.

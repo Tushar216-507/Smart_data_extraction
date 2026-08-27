@@ -1,0 +1,388 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "field": "transcript_delivery_method",
+      "value": "CCAF now offers electronic transcript delivery through Parchment, a digital credentialing service.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transcript_account_creation",
+      "value": "Students can create an account on Parchment to send transcripts.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "identity",
+      "field": "institution_name",
+      "value": "Community College of the Air Force",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transcript_request_url",
+      "value": "https://www.airuniversity.af.edu/Registrar/Transcript-Requests/",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "account_creation_url",
+      "value": "https://www.parchment.com/u/registration/32882/institution",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Enlisted members",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "transcript_management",
+      "value": "Officer transcripts are maintained by Air University.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "account_creation",
+      "value": "First-time users must create an account by accessing the AU Service Desk.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "service_desk_url",
+      "value": "https://auservicedesk.af.edu/education",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "usage_advice",
+      "value": "This works better on non-NIPR and Google Chrome.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "quick_links_tab",
+      "value": "On the homepage under the Quick Links tab, select Official Transcript Request.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "form_submission",
+      "value": "Complete the required components of the form, add the attachments and submit.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "device_accessibility",
+      "value": "The Service Desk can be accessed by any device that has internet access.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "cac_enabled",
+      "value": "It is Common Access Card (CAC) enabled, but this is not required.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "application_security",
+      "value": "The AU Service Desk is a secure application and certified for submission of Privacy Act information.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Officers",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transcripts_replacement",
+      "value": "The Joint Services Transcript has replaced the Coast Guard Institute Transcript, the Army/American Council on Education Registry Transcript System, and the Sailor/Marine American Council on Education Registry Transcript.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "eligibility",
+      "value": "All enlisted members, officers and warrant officers, both active and veterans from all Army components, Coast Guard, Marine Corps and Navy, are eligible for a JST.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "access_conditions",
+      "value": "You do not have to be on active duty to access the JST website and your transcript. Active duty, reserve, veterans or National Guard personnel can use JSTs.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "security_warning_details",
+      "value": "Some students may have concerns about a security warning when accessing the website. This happens when a user logs in to a Department of Defense network from a non-networked computer without a CAC.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "confirmation_requirement",
+      "value": "You can confirm the security exception to proceed to the JST request site. If you do not confirm this exception, you will be unable to place your order.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "register_link",
+      "value": "https://jst.doded.mil/jst/registration",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "transcript_request_instruction",
+      "value": "Direct the DoD to send your transcript to ASU.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0004",
+        "chunk_title": "Army, Marine Corps, Navy and Coast Guard members",
+        "chunk_order": 3,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "contact_person",
+      "value": "John McGuire",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "contact_position",
+      "value": "Coordinator Senior, Military and Veteran Recruitment Admission Services",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "service_description",
+      "value": "John works directly with military-connected students and their families to help them navigate the admissions process at Arizona State University.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "appointment_duration",
+      "value": "30 minutes",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "discussion_topics",
+      "value": [
+        "Applying to ASU",
+        "Military and veteran education benefits",
+        "Financial aid and scholarships",
+        "Military and transfer credit",
+        "Enrollment and next steps",
+        "Veteran student support services and the Pat Tillman Veterans Center"
+      ],
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Meet with John McGuire Coordinator Senior, Military and Veteran Recruitment Admission Services",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "wue_tuition_rate",
+      "value": "Students admitted to ASU under the Western Undergraduate Exchange, or WUE, program in spring 2026 or earlier will continue to receive the WUE tuition rate for the duration of their undergraduate program, provided they maintain continuous enrollment and meet renewal criteria.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE update",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "maintaining_wue_eligibility",
+      "value": "Learn more about maintaining WUE eligibility",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE update",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "other",
+      "field": "eligibility_link",
+      "value": "https://admission.asu.edu/cost-aid/wue/maintaining-eligibility",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "WUE update",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    }
+  ]
+}

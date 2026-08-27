@@ -1,0 +1,13 @@
+## Maya Brennan
+
+I chose to study at UL both for its amazing campus facilities and its unique selection of courses. UL is one of only a small handful of colleges in Ireland that offer my course (Product Design) and I have enjoyed every minute of it.
+
+When I was deciding on a future career, I was torn between studying Art or Engineering. Then I discovered Product Design and Technology, the perfect mix of both! I was first drawn to the course’s hands-on approach to teaching, as there seemed to be a great balance of lectures, labs and workshops.
+
+Product Design and Technology has a really great variety of modules. I especially enjoyed our Design Studio modules, where we learned about sketching, model making, graphics, problem solving and computer aided design. The best part is that we have our own studio space, workshop and computer lab open to all product designers.
+
+Once of the best things about Product Design is that I was constantly pushed to learn different skills and explore new ideas. Each project allowed me to express my creativity, broaden my skillset and work with super talented people. The course also presented me with huge opportunities like winning the AutoCAD Design Student Award in first year, and the Johnson & Johnson’s Women in STEM2D Scholarship in second year.
+
+I was lucky to go on Erasmus last year, to the world-famous TU Delft in Holland. Although my travels were cut short by the COVID-19 pandemic, it was still an incredible experience. In the weeks I was there, I learned so much about design and dutch culture – I also made loads of new friends from all around Europe.
+
+Outside of my studies, I have always enjoyed taken part in UL’s vibrant student life. The campus is fun and modern, with everything from restaurants, lecture halls and student villages all at walking distance from each other. When I first started out at UL, I made loads of friends by joining the Drama Society and becoming First Year Rep. After that, I joined the Dance Society which was a great way to meet new people and stay in shape during my studies.

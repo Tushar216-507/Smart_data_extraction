@@ -1,0 +1,182 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Masterarbeit",
+      "original_value": "Sk.MA.8: Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "qualifiers": {
+        "status": "compulsory",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "credits",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 30,
+      "original_value": "30 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload_hours",
+      "value": 900,
+      "original_value": "900 Arbeitsstunden",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "duration",
+      "scope": "programme",
+      "field": "duration",
+      "value": 1,
+      "original_value": "ein Semester",
+      "unit": "semester",
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "Masterarbeit",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "progression",
+      "scope": "programme",
+      "field": "completion_conditions",
+      "value": "Bestehen der Modulabschlussprüfung",
+      "original_value": "Voraussetzung für die Vergabe der CP: Bestehen der Modulabschlussprüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "eligibility",
+      "scope": "programme",
+      "field": "prerequisites",
+      "value": "Abschluss der Module Sk.MA.1-6",
+      "original_value": "Teilnahmevoraussetzungen: Abschluss der Module Sk.MA.1-6",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "overview",
+      "scope": "programme",
+      "field": "content",
+      "value": "In diesem Modul schreiben die Studierenden ihre Masterarbeit, die in einem Zeitraum von sechs Monaten als selbständige wissenschaftliche Arbeit zu verfassen ist. Der Umfang sollte bei etwa 70 Standardseiten (ca. 30.000 Wörter / 126.000 Zeichen) liegen.",
+      "original_value": "In diesem Modul schreiben die Studierenden ihre Masterarbeit, die in einem Zeitraum von sechs Monaten als selbständige wissenschaftliche Arbeit zu verfassen ist. Der Umfang sollte bei etwa 70 Standardseiten (ca. 30.000 Wörter / 126.000 Zeichen) liegen.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "competencies",
+      "scope": "programme",
+      "field": "competencies",
+      "value": "Mit ihrer Abschlussarbeit zeigen die Studierenden, dass sie selbstgewählte komplexe wissenschaftliche Problemstellungen bearbeiten können. Sie können die aktuelle Forschungsliteratur kritisch reflektieren und einen eigenständigen Beitrag zur wissenschaftlichen Diskussion liefern.",
+      "original_value": "Kompetenzen: Mit ihrer Abschlussarbeit zeigen die Studierenden, dass sie selbstgewählte komplexe wissenschaftliche Problemstellungen bearbeiten können. Sie können die aktuelle Forschungsliteratur kritisch reflektieren und einen eigenständigen Beitrag zur wissenschaftlichen Diskussion liefern.",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Sk.MA.8",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0098",
+        "name": "Goethe University — Master's"
+      },
+      "confidence": 1.0
+    }
+  ]
+}

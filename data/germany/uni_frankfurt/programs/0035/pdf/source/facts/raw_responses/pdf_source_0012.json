@@ -1,0 +1,5 @@
+{
+  "chunk_id": "pdf_source_0012",
+  "model": "openai/gpt-oss-120b",
+  "response": "{\"facts\": [{\"category\": \"assessment\", \"scope\": \"programme\", \"field\": \"assessment_type\", \"value\": \"Short reviews\", \"original_value\": \"Kurzrezensionen\", \"unit\": null, \"entity\": {\"type\": \"module\", \"id\": \"Module 2\", \"name\": null}, \"parent_entity\": {\"type\": \"program\", \"id\": \"0035\", \"name\": \"Curatorial Studies - Theory - History - Criticism\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}, {\"category\": \"workload\", \"scope\": \"programme\", \"field\": \"workload_hours\", \"value\": 1, \"original_value\": \"1 bis 2 Seiten\", \"unit\": \"pages\", \"entity\": {\"type\": \"module\", \"id\": \"Module 2\", \"name\": null}, \"parent_entity\": {\"type\": \"program\", \"id\": \"0035\", \"name\": \"Curatorial Studies - Theory - History - Criticism\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}]}"
+}

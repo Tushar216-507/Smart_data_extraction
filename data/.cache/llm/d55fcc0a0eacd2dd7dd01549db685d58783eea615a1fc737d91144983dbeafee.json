@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "grades_importance",
+      "field": "grades_considered",
+      "value": "Some programs require even higher grades than the university does, making it an important factor in being admitted.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "grades_importance",
+      "field": "honors_college_grades_considered",
+      "value": "Good grades are important for applying to Barrett, The Honors College, although a minimum GPA is not required.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "grades_importance",
+      "field": "honors_college_admission_factor",
+      "value": "Grades are viewed as a major factor in deciding on honors college admission.",
+      "confidence": 1.0,
+      "programme_association": "Jewish Studies - BA"
+    }
+  ]
+}

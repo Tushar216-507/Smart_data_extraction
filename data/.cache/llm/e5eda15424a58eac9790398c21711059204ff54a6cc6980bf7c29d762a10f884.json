@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "assessment",
+      "value": "Assessment results are generally graded and exceptionally may be evaluated with 'passed' or 'not passed' based on the module description.",
+      "original_value": "Prüfungsleistungen werden [in der Regel] benotet und ausnahmsweise nach Maßgabe der Modulbeschreibung mit „bestanden“ oder „nicht bestanden“ bewertet“.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": [
+        {
+          "grade": "1",
+          "description": "Very good: an excellent performance."
+        },
+        {
+          "grade": "2",
+          "description": "Good: a performance that substantially exceeds the average requirements."
+        },
+        {
+          "grade": "3",
+          "description": "Satisfactory: a performance that meets the average requirements."
+        },
+        {
+          "grade": "4",
+          "description": "Sufficient: a performance that, despite its deficiencies, still meets the requirements."
+        },
+        {
+          "grade": "5",
+          "description": "Insufficient: a performance that does not meet the requirements due to significant deficiencies."
+        }
+      ],
+      "original_value": "<table>...</table>",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "grading_scheme",
+      "value": "Grades may be adjusted by 0.3 to create intermediate values, acceptable grades are 1.0; 1.3; 1.7; 2.0; 2.3; 2.7; 3.0; 3.3; 3.7; 4.0 and 5.0.",
+      "original_value": "Zur differenzierten Bewertung der Prüfungsleistungen können die Noten um 0,3 auf Zwischenwerte angehoben oder abgesenkt werden; zulässig sind die Noten 1,0; 1,3; 1,7; 2,0; 2,3; 2,7; 3,0; 3,3; 3,7; 4,0 und 5,0.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

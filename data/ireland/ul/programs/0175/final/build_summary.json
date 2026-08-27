@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0175",
+  "program_name": "Bachelor of Science (Education) in Biology with Physics or Chemistry or Agricultural Science",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0175\\final",
+  "input_fact_count": 29,
+  "unique_fact_count": 29,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 29,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 29,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 11,
+    "admission": 2,
+    "curriculum": 5,
+    "career": 4,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 5,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0175\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0175\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0175\\final\\curriculum_data.json",
+    "career": "data\\ireland\\ul\\programs\\0175\\final\\career_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0175\\final\\student_life_data.json",
+    "statistics": "data\\ireland\\ul\\programs\\0175\\final\\statistics_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0175\\final\\build_summary.json"
+  }
+}

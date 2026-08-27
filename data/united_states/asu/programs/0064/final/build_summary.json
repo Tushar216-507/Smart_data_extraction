@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "program_id": "0064",
+  "program_name": "Online Bachelor of Science in Management",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0064\\final",
+  "input_fact_count": 40,
+  "unique_fact_count": 25,
+  "exact_duplicate_count": 15,
+  "handled_fact_count": 25,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 25,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 6,
+    "admission": 0,
+    "curriculum": 14,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 4,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0064\\final\\program_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0064\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0064\\final\\career_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0064\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0064\\final\\build_summary.json"
+  }
+}

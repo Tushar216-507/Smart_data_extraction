@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "readmission",
+      "field": "priority_readmission_application_deadline",
+      "value": "May 1",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "requirements",
+      "field": "submission_requirements",
+      "value": "You must submit the application for undergraduate admission, along with the application fee, by the deadline specified for each semester. In order to expedite the evaluation of your application, also submit official transcripts, test scores and supporting credentials immediately.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "readmission",
+      "field": "status_of_previous_admission",
+      "value": "If you have previously been admitted to ASU but did not attend, you will be considered a first-year student or a transfer student.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Religion - Media - Interculturality",
+      "original_value": "Religion - Medien - Interkulturalität",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "duration",
+      "value": "2 semesters",
+      "original_value": "2 Semester",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar, Lecture, Tutorial or practical class",
+      "original_value": "Seminar, Vorlesung, Übung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "language_of_instruction",
+      "value": "German",
+      "original_value": "Deutsch",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Module final examination",
+      "original_value": "Modulabschlussprüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Written examination",
+      "original_value": "Klausur",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": null
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Contexts of Theology",
+      "original_value": "Kontexte der Theologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "workload",
+      "value": {
+        "total_hours": 450,
+        "presence_study_hours": 120,
+        "self_study_hours": 330
+      },
+      "original_value": "insg. 450 Zeitstunden (h)",
+      "unit": "hours",
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 15,
+      "original_value": "15 CP",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "M2",
+        "name": "Contexts of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": "Compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to the Theology of Interculturality",
+      "original_value": "Einführung in Theologie der Interkulturalität",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Introduction to the Theology of Interculturality"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Introduction to Media Theory of Theology",
+      "original_value": "Einführung in Medientheorie der Theologie",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Introduction to Media Theory of Theology"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Making of Religion",
+      "original_value": "Making of Religion",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Making of Religion"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Philosophy of Religion of Modernity",
+      "original_value": "Religionsphilosophie der Moderne",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Philosophy of Religion of Modernity"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Module final examination",
+      "original_value": "Modulabschlussprüfung",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Module final examination"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0038",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

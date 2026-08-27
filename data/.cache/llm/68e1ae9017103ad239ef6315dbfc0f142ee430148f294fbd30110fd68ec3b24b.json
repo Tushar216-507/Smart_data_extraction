@@ -1,0 +1,162 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "credit_system",
+      "value": "European Credit Transfer System (ECTS)",
+      "original_value": "European Credit Transfer Systems (ECTS)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "cp_definition",
+      "value": "CP (credit points) are a quantitative measure for the workload that average students must invest for the successful completion of a corresponding module.",
+      "original_value": "CP sind ein quantitatives Maß für den Arbeitsaufwand (Workload), den durchschnittlich begabte Studierende für den erfolgreichen Abschluss des entsprechenden Moduls aufwenden müssen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "cp_equivalence",
+      "value": "One CP corresponds to a workload of 30 hours.",
+      "original_value": "Ein CP entspricht einem Arbeitsaufwand von 30 Stunden.",
+      "unit": "hours",
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "university",
+      "field": "annual_workload",
+      "value": "The regular workload is set at a maximum of 1800 working hours per academic year.",
+      "original_value": "Als regelmäßige Arbeitsbelastung werden höchstens 1800 Arbeitsstunden je Studienjahr angesetzt.",
+      "unit": "hours",
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "semester_workload",
+      "value": "30 CP correspond to the average workload of one semester.",
+      "original_value": "30 CP entsprechen der durchschnittlichen Arbeitsbelastung eines Semesters.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "university",
+      "field": "modularization_requirement",
+      "value": "Modularization and the introduction of a credit point system for newly established study programs are mandated.",
+      "original_value": "Die Modularisierung und die Einführung eines Leistungspunktesystems für neu einzurichtende Studiengänge verpflichtend vor.",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "workload",
+      "scope": "programme",
+      "field": "module_workload_min_max",
+      "value": "The workload for a module must be between 5 and 15 CP. Modules below 3 CP are excluded.",
+      "original_value": "Der Workload (CP) für ein Modul muss sich aus der Modulbeschreibung ergeben. Er beträgt mindestens 5 CP und höchstens 15 CP. Module unter 3 CP sind ausgeschlossen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

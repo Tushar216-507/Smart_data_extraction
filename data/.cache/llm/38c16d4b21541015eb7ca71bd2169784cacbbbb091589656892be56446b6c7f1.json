@@ -1,0 +1,115 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "export_modules",
+      "value": [
+        {
+          "module_name": "NF 1 - Ergänzungsmodul VWL",
+          "module_credits": 10,
+          "completion_conditions": "Erfolgreiches Absolvieren beider Module"
+        },
+        {
+          "module_name": "Einführung in die Volkswirtschaftslehre (OVWL)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Philosophie, Politik und Wirtschaft (OPPE)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "NF 1 - Ergänzungsmodul BWL",
+          "module_credits": 10,
+          "completion_conditions": "Erfolgreiches Absolvieren beider Module"
+        },
+        {
+          "module_name": "Finanzen 1 (OFIN)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Marketing (OMAR)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul VWL",
+          "module_credits": "20/22",
+          "completion_conditions": "Erfolgreiches Absolvieren von 3 Modulen - OVWL+OPPE+OMIK/BMAK"
+        },
+        {
+          "module_name": "Einführung in die Volkswirtschaftslehre (OVWL)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Philosophie, Politik und Wirtschaft (OPPE)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Mikroökonomik 1 (OMIK)",
+          "module_credits": 10,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Makroökonomik 1 (BMAK)",
+          "module_credits": 12,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "NF 2 - Anwendungsmodul BWL",
+          "module_credits": "21/22",
+          "completion_conditions": "Erfolgreiches Absolvieren von 4 Modulen - OFIN+OMAR+OACC/BACC+BMGT - Anmeldung via QIS"
+        },
+        {
+          "module_name": "Finanzen 1 (OFIN)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Marketing (OMAR)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Accounting (OACC)",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Accounting 1 (BACC)",
+          "module_credits": 6,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Management (BMGT)",
+          "module_credits": 6,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        }
+      ],
+      "original_value": "Exportmodule des Fachbereichs Wirtschaftswissenschaften für Studierende anderer Fachbereiche",
+      "entity": {
+        "type": "program",
+        "id": "0009",
+        "name": "Bachelor meets Business"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

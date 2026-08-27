@@ -1,0 +1,1060 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-26T08:48:23.194585+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "American Studies",
+    "program_id": "0017",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+    "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+    "document_data_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 12
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 24309,
+    "cleaned_character_count": 24286,
+    "characters_removed": 23,
+    "sections_detected": 23,
+    "chunks_created": 21,
+    "total_chunk_characters": 8808,
+    "total_chunk_words": 3700,
+    "chunks_with_page_references": 21,
+    "chunks_without_page_references": 0,
+    "chunks_containing_tables": 0,
+    "repeated_noise_lines_removed": 0,
+    "section_type_counts": {
+      "assessment": 14,
+      "curriculum": 6,
+      "identity_overview": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\germany\\uni_frankfurt\\programs\\0017\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Document overview\n\nIEAS Prüfungstermine Sommersemester 2026\n\nBA English Studies\n\nBAES 1 - Grundlagen der Literaturwissenschaft (MP 2602)\n\nPflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Susanne Bayerlipp - Women in Power (Do 12-14)\n\nGianluca Calio - The Postmodern Condition (Mo 12-14)\n\nGrace Evans - Invisible Women* (Mi 14-16)\n\nNina Heise - Contemporary Shrews (Di 12-14)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nBAES 2.1 - Grundlagen der Kultur-, Ideen- und Sozialgeschichte (MP 2605)\nWahlpflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüferin & Veranstaltung:\n\nProf. Dr. Susanne Scholz - Einführung KIS Cultural Theory (Mo 12-14)\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\n\nKlausurtermin: 13.07.2026\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 421,
+        "word_count": 165,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "72ee1769a88402b3f7750ba91e3826664c66bcc68e7adf5809edd6895892b276",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "BAES 2.2 - Grundlagen der neuen Englischsprachigen Literaturen und Kulturen (MP 2630)",
+        "type": "assessment",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "# BAES 2.2 - Grundlagen der neuen Englischsprachigen Literaturen und Kulturen (MP 2630)\n\nWahlpflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nDanyal Büyükasik - Translation as a Mode of Writing (Di 10-12)\n\nDanyal Büyükasik - Ecological Narrations of Work (Di 12-14)\n\nDr. Michelle Stork - Energy in Tanscultural Anglophone Texts (Di 16-18)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 230,
+        "word_count": 97,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "833f3f1779a15f72d26955407faf1539d913191f34762a6c1722354dfe147d93",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 3,
+        "title": "BAES 2.3 - Grundlagen der Englischen Sprachwissenschaft (MP 2631)",
+        "type": "assessment",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "page_start": 1,
+        "page_end": 3
+      },
+      "content": "# BAES 2.3 - Grundlagen der Englischen Sprachwissenschaft (MP 2631)\n\nWahlpflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüfer & Veranstaltung:\n\nDr. Sascha Bargmann - Introduction to Linguistics 2 (Mo 14-16)\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\n\nKlausurtermin: 13.07.2026\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)\n\n<!-- PageBreak -->\n\nBAES 3.1 - Englische Literatur und Literaturwissenschaft (MP 2616)\nWahlpflichtmodul Hauptfach und Nebenfach\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Martina Allen - Genre in Contemporary British Fiction (Do 10-12)\nDr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)\n\nDr. Daniel Dornhofer - Renaissance Love Poetry (Di 16-18)\nProf. Dr. Susanne Scholz - Narratives of Evolution (Mo 14-16)\nProf. Dr. Susanne Scholz - Restoration Comedy (Do 12-14)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nBAES 3.2 - Britische Kultur-, Ideen- und Sozialgeschichte (KIS) (MP 2619)\n\nWahlpflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Martina Allen - Genre in Contemporary British Fiction (Do 10-12)\n\nDr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)\n\nDr. Daniel Dornhofer - Renaissance Love Poetry (Di 16-18)\nProf. Dr. Susanne Scholz - Narratives of Evolution (Mo 14-16)\nProf. Dr. Susanne Scholz - Restoration Comedy (Do 12-14)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nBAES 3.3 - Neue Englischsprachige Literaturen und Kulturen (MP 2622)\n\nWahlpflichtmodul Hauptfach und Nebenfach\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\nProf. Dr. Astrid Erll - Narrating South Africa (Di 16-18)\n\nProf. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)\n\nDr. Michelle Stork - African Travel Writing (Di 14-16)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nBAES 3.4 - Vertiefungsmodul Englische Sprachwissenschaft (MP 2625)\n\nWahlpflichtmodul Hauptfach und Nebenfach\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\nDr. Sascha Bargmann - (In)Definites (Mo 12-14)\n\nDr. Janina Radó - Psycholinguistics (Mi 10-12)\n\nApl. Prof. Dr. Frank Richter - Constraint-Based Semantics (Mo 14-16)\n\nApl. Prof. Dr. Frank Richter - Meaning in Language (Do 16-18)\n\nProf. Dr. Gert Webelhuth - Syntax 2 (Mo 14-16)\n\nProf. Dr. Gert Webelhuth - Contrastive Grammar (Mi 16-18)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\n<!-- PageBreak -->\n\nRücktritt spätestens bis 21.09.2026\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1201,
+        "word_count": 498,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "f2f319010afaa3eabba6f9f6e28e101a6ba847623c3243dbbb7a96dc68f3fbfc",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 4,
+        "title": "BAS 1 - Fremdsprachliche Kommunikation I (MP 2613) Pflichtmodul Hauptfach und Nebenfach",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "## BAS 1 - Fremdsprachliche Kommunikation I (MP 2613) Pflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Patricia Benstein - ILS II (BLOCK)\n\nDr. Patricia Benstein - ILS II (BLOCK)\nMaren Michel - ILS II (Do 10-12) - 16.07.2026\n\nMaren Michel - ILS II (Do 12-14) - 16.07.2026\n\nOlivia Smith - ILS II (Mo 12-14) - 13.07.2026\nOlivia Smith - ILS II (Do 16-18) - 16.07.2026\nLaura Sprague - ILS II (Fr 10-12) - 17.07.2026\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\nKlausurtermin: s.o. (KW 29)\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 289,
+        "word_count": 113,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "63a4b6a318d1a01290cabb730a380ecb699dd2a3c41c35155ec70b6bf8226592",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 5,
+        "title": "BAS 2 - Fremdsprachliche Kommunikation II (MP 2627)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "## BAS 2 - Fremdsprachliche Kommunikation II (MP 2627)\n\nPflichtmodul Hauptfach (NF 2688)\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüfer*innen & Veranstaltungen:\nOlivia Smith - Writing II (Mo 14-16) - 13.07.2026\n\nOlivia Smith - ILS II (Mo 16-18) - 13.07.2026\nJames Fisk - Writing II (Do 16-18) - 16.07.2026\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\n\nKlausurtermin: s.o. (KW 29)\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 222,
+        "word_count": 81,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "b71dcb662bee3f06f13a73d4eec054b1de6b1a429949671ac72c7bd98eecef2f",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "BAAS 1 - Grundlagen der amerikanischen Literatur und Literaturwissenschaft (MP 2651)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          4
+        ],
+        "page_start": 4,
+        "page_end": 4
+      },
+      "content": "## BAAS 1 - Grundlagen der amerikanischen Literatur und Literaturwissenschaft (MP 2651)\n\nPflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: kleine Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Martina Allen - Einführung in die Literaturwissenschaft (Do 12-14) - 16.07.\n\nDr. Susanne Bayerlipp - Einführung in die Literaturwissenschaft (Do 14-16) - 16.07.\n\nDr. Magdalena Majewska - Einführung in die Literaturwissenschaft (Mo 14-16) - 13.07.\n\nDr. Magdalena Majewska - Einführung in die Literaturwissenschaft (Do 10-12) - 16.07.\n\nDr. Cameron Seglias - Einführung in die Literaturwissenschaft (Di 16-18) - 14.07.\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\n\nKlausurtermin: s.o. (KW 29)\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 305,
+        "word_count": 115,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      "traceability": {
+        "content_sha256": "9056cc5a7f2f97cb941d51de60e687fb4bc9c45f2568363b58e09e8cc0ab54e2",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 8,
+        "title": "BAAS 2 - Grundlagen der amerikanischen Kultur und Kulturwissenschaft (MP 2653)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          4,
+          5
+        ],
+        "page_start": 4,
+        "page_end": 5
+      },
+      "content": "## BAAS 2 - Grundlagen der amerikanischen Kultur und Kulturwissenschaft (MP 2653)\n\nPflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Yusuf Buhurcu - Einführung in die amerikanische Kultur und Kulturwissenschaft\n(Mo 10-12)\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\n\nKlausurtermin: 13.07.2026\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)\n\nDr. Marlon Lieber - Einführung in die amerikanische Kultur und Kulturwissenschaft\n(Fr 10-14)\n\nAnmeldung zur Klausur: 08.05 .- 05.06.2026 über QIS\n\nRücktritt: spätestens bis 05.06.2026\n\nKlausurtermin: 12.06.2026\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)\n\nBAAS 3 - Grundlagen der amerikanischen Geschichte und Gesellschaft (MP 2685)\n\nPflichtmodul Hauptfach und Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüfer*innen & Veranstaltungen:\n\nProf. Dr. Simon Wendt - Geschichte und Gesellschaft II (Di 14-16)\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\n\nKlausurtermin: 14.07.2026\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)\n\nBAAS 4.1.1 Amerikanische Literatur und Literaturwissenschaft - Textanalyse\n(MP 2658 / 2659)\n\nPflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Take Home (MP 2658) oder Hausarbeit (2659)\n\nPrüfer*innen & Veranstaltungen:\n\nMax José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (Block)\n\n<!-- PageBreak -->\n\nPD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)\n\nDr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\n\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 835,
+        "word_count": 330,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          4,
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "45acc7df5e161380db694a490b045182dfefc0bc5000f62aba228286ee544f63",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "chunk_index": 8,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 9,
+        "title": "BAAS 4.1.2 Amerikanische Literatur und Literaturwissenschaft - Literaturgeschichte (MP 2661 / 2662)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5
+        ],
+        "page_start": 5,
+        "page_end": 5
+      },
+      "content": "## BAAS 4.1.2 Amerikanische Literatur und Literaturwissenschaft - Literaturgeschichte (MP 2661 / 2662)\n\nPflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Take Home (MP 2661) oder Hausarbeit (2662)\n\nPrüfer*innen & Veranstaltungen:\n\nMax José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (Block)\n\nPD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)\n\nDr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\n\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 358,
+        "word_count": 156,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "350ee948462191c165d312f33ebbca96c5d9c29cb0edc0e24956727e78569213",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "chunk_index": 9,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 10,
+        "title": "BAAS 4.2.1 Amerikanische Kultur und Kulturwissenschaft - Kulturanalyse (MP 2664 / 2665)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5,
+          6
+        ],
+        "page_start": 5,
+        "page_end": 6
+      },
+      "content": "## BAAS 4.2.1 Amerikanische Kultur und Kulturwissenschaft - Kulturanalyse (MP 2664 / 2665)\n\nPflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Take Home (MP 2664) oder Hausarbeit (2665)\n\nPrüfer*innen & Veranstaltungen:\n\nVenus Bender - Black Power in American History (Mo 14-16)\n\nMax José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (Block)\n\nDr. Gregory Jones-Katz - American Pragmatism (BLOCK)\n\nPD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)\n\nDr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)\nMiloš Rouzek - Exploring Corporeality (Do 14-16)\n\nProf. Dr. Simon Wendt - The American Civil War (Di 16-18)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\n\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\n<!-- PageFooter=\"BAAS 4.2.2 Amerikanische Kultur und Kulturwissenschaft - Kulturgeschichte (MP 2667 / 2668)\" -->\n<!-- PageBreak -->\n\nPflichtmodul Hauptfach, Wahlpflichtmodul Nebenfach\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Take Home (MP 2667) oder Hausarbeit (2668)\n\nPrüfer*innen & Veranstaltungen:\n\nVenus Bender - Black Power in American History (Mo 14-16)\n\nMax José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form (Mo 12-14)\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (Block)\nDr. Gregory Jones-Katz - American Pragmatism (BLOCK)\n\nPD Dr. Tim Lanzendörfer - Close Reading (Di 10-12)\nDr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald (Mi 10-12)\nMiloš Rouzek - Exploring Corporeality (Do 14-16)\n\nProf. Dr. Simon Wendt - The American Civil War (Di 16-18)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 862,
+        "word_count": 370,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          5,
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "0cd72e48edd44e2d7aa9873abe849c0fc407e9d9d1e1f73ace88296d5f8a3c53",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "chunk_index": 10,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 11,
+        "title": "BAAS 4.3.1 Amerikanische Geschichte und Gesellschaft - Ideengeschichte (MP 2670 / 2671)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "## BAAS 4.3.1 Amerikanische Geschichte und Gesellschaft - Ideengeschichte (MP 2670 / 2671)\n\nPflichtmodul Hauptfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Take Home (MP 2670) oder Hausarbeit (2671)\n\nPrüfer*innen & Veranstaltungen:\n\nVenus Bender - Black Power in American History (Mo 14-16)\n\nDr. Gregory Jones-Katz - American Pragmatism (BLOCK)\n\nProf. Dr. Simon Wendt - The American Civil War (Di 16-18)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\n\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nBAAS 4.3.2 Amerikanische Geschichte und Gesellschaft - Sozialgeschichte\n(MP 2673 / 2674)\n\nPflichtmodul Hauptfach\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Take Home (MP 2673) oder Hausarbeit (2674)\nVenus Bender - Black Power in American History (Mo 14-16)\n\nDr. Gregory Jones-Katz - American Pragmatism (BLOCK)\n\nProf. Dr. Simon Wendt - The American Civil War (Di 16-18)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 616,
+        "word_count": 275,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1f7a91a04e9935992069384b4911bc3c5ed0f594cdfa2f66dad91af79da29ef7",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "chunk_index": 11,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 12,
+        "title": "BAS 2 - Fremdsprachliche Kommunikation II (MP 2678)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          7
+        ],
+        "page_start": 7,
+        "page_end": 7
+      },
+      "content": "## BAS 2 - Fremdsprachliche Kommunikation II (MP 2678)\n\nPflichtmodul Hauptfach und Nebenfach\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Klausur\n\nPrüfer*innen & Veranstaltungen:\nDr. Patricia Benstein - ILS II (BLOCK)\nDr. Patricia Benstein - ILS II (BLOCK)\nMaren Michel - ILS II (Do 10-12) - 16.07.2026\nMaren Michel - ILS II (Do 12-14) - 16.07.2026\nOlivia Smith - ILS II (Mo 12-14) - 13.07.2026\nOlivia Smith - ILS II (Do 16-18) - 16.07.2026\nLaura Sprague - ILS II (Fr 10-12) - 17.07.2026\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\nRücktritt: spätestens bis 06.07.2026\nKlausurtermin: s.o. (KW 29)\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 294,
+        "word_count": 113,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "2128a55b9287e9df599470deccdad53bd1c9026f7c491a2000b782cfffe1a3e5",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "chunk_index": 12,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 14,
+        "title": "MAALCM 2 - Literature and Media Culture I (PO 25: MP 9406 / PO 17: MP 9003) Wahlpflichtmodul",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "## MAALCM 2 - Literature and Media Culture I (PO 25: MP 9406 / PO 17: MP 9003) Wahlpflichtmodul\n\nPrüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung\n\nPrüfer*innen & Veranstaltungen :\n\nDr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)\n\nProf. Dr. Astrid Erll - Narrating South Africa (Di 16-18)\n\nProf. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 217,
+        "word_count": 95,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "9b844c147fb0f16521e6ef4d00ccc7973b4bba3ea640f6a683cdfb24b5624ac4",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0013",
+      "chunk_index": 13,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 15,
+        "title": "MAALCM 3 (PO 25: MP 9409) / 5 (PO 17: MP 9007) - Literature and Media Culture II Wahlpflichtmodul",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "## MAALCM 3 (PO 25: MP 9409) / 5 (PO 17: MP 9007) - Literature and Media Culture II Wahlpflichtmodul\n\nPrüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung\n\nPrüfer*innen & Veranstaltungen :\n\nDr. Daniel Dornhofer - Actualising Euripides' Medea (Mo 16-18)\n\nProf. Dr. Astrid Erll - Narrating South Africa (Di 16-18)\n\nProf. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 224,
+        "word_count": 95,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "95c80169c2540c69d14147315fb104fbe72155421e5ded1f11a87c3ff298f353",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0014",
+      "chunk_index": 14,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 16,
+        "title": "MAALCM 4 (PO 25: 9412) / 3 (PO 17: MP 9005) - Literature and Cultural History I Wahlpflichtmodul",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          8
+        ],
+        "page_start": 8,
+        "page_end": 8
+      },
+      "content": "## MAALCM 4 (PO 25: 9412) / 3 (PO 17: MP 9005) - Literature and Cultural History I Wahlpflichtmodul\n\nPrüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung\n\nPrüfer*innen & Veranstaltungen :\n\nDr. Daniel Dornhofer - Actualising Euripides' Medea (Mo 16-18)\n\nDr. Daniel Dornhofer - Post-War British Poetry (Di 14-16)\n\nProf. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)\n\nProf. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)\n\nProf. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nMAALCM 5 (PO 25: MP 9415) / 6 (PO 17: 9009) - Literature and Cultural History II\nWahlpflichtmodul\n\nPrüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung\n\nPrüfer*innen &Veranstaltungen:\n\nDr. Daniel Dornhofer - Actualising Euripides' Medea (Mo 16-18)\n\nProf. Dr. Astrid Erll - Narrating South Africa (Di 16-18)\n\nProf. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)\n\nProf. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)\n\nProf. Dr. Susanne Scholz - Shakespeare Adaptations (Do 14-16)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 538,
+        "word_count": 230,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          8
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ab0360d7046c26826114e3fdaddfe25d53b6e6ac9d9cff0e724ac0df20890e0a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0015",
+      "chunk_index": 15,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 17,
+        "title": "MAALCM 6 (PO 25: MP 9418) / 4 (PO17: MP 9011) - Transcultural Anglophone Studies I Wahlpflichtmodul",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          9
+        ],
+        "page_start": 9,
+        "page_end": 9
+      },
+      "content": "## MAALCM 6 (PO 25: MP 9418) / 4 (PO17: MP 9011) - Transcultural Anglophone Studies I Wahlpflichtmodul\n\nPrüfungsform: Hausarbeit / einzelne veranstaltungsbezogene Prüfung\n\nPrüfer*innen & Veranstaltungen :\n\nProf. Dr. Astrid Erll - Narrating South Africa (Di 16-18)\n\nProf. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)\n\nProf. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 224,
+        "word_count": 96,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "ee7d56971d4b8c27b2f88d4da0689dc3c19f9cb386a4fa3105fa264d2ea51d86",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0016",
+      "chunk_index": 16,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 18,
+        "title": "MAALCM 7 - Transcultural Anglophone Studies II (PO 25: 9421 / PO 17: MP 9013) Wahlpflichtmodul",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          9
+        ],
+        "page_start": 9,
+        "page_end": 9
+      },
+      "content": "## MAALCM 7 - Transcultural Anglophone Studies II (PO 25: 9421 / PO 17: MP 9013) Wahlpflichtmodul\n\nPrüfungsform : Hausarbeit / einzelne veranstaltungsbezogene Prüfung\n\nProf. Dr. Astrid Erll - Narrating South Africa (Di 16-18)\n\nProf. Dr. Astrid Erll - Writing the Anglophone Caribbean (Do 14-16)\n\nProf. Dr. Astrid Erll - Transcultural Memory Studies (Do 16-18)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 215,
+        "word_count": 92,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "69706870e649c0d0138c6f8ae1a8b95e0669d341d64477fd88417f288abb211c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0017",
+      "chunk_index": 17,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "MA American Studies",
+        "type": "assessment",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10
+        ],
+        "page_start": 10,
+        "page_end": 10
+      },
+      "content": "# MA American Studies\n\nMAAS OMAL (MP 9143)\n\nWahlpflichtmodul\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)\n\nDr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)\n\nMartin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)\nDr. Cameron Seglias - James Baldwin and His World (Mi 10-12)\n\nPD Dr. Eva Zehelein - Narratives of Home (BLOCK)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 239,
+        "word_count": 108,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          10
+        ]
+      },
+      "traceability": {
+        "content_sha256": "bac79e05cd6bd4db4acc99fdc8e7ce841414c386b049b021e678519f843af44c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0018",
+      "chunk_index": 18,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 20,
+        "title": "MAAS OMAC (MP 9145)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "content": "## MAAS OMAC (MP 9145)\n\nWahlpflichtmodul\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)\n\nProf. Dr. Bernd Herzogenrath - Writing Film (Mo 16-18)\n\nDr. Andrey Logutov - Aesthetics of Repetition in Mass Culture (Do 14-16)\n\nDr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)\nMartin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)\n\nDr. Cameron Seglias - James Baldwin and His World (Mi 10-12)\nProf. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)\n\nPD Dr. Eva Zehelein - Narratives of Home (BLOCK)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nMAAS OMAH (MP 9147)\n\nWahlpflichtmodul\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer & Veranstaltungen:\n\nDr. Cameron Seglias - James Baldwin and His World (Mi 10-12)\n\nProf. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nMAAS PMAL (MP 9149)\nWahlpflichtmodul\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)\n\nProf. Dr. Bernd Herzogenrath - Writing Film (Mo 16-18)\n\nDr. Andrey Logutov - Aesthetics of Repetition in Mass Culture (Do 14-16)\n\n<!-- PageBreak -->\n\nDr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)\nMartin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)\nDr. Cameron Seglias - James Baldwin and His World (Mi 10-12)\nPD Dr. Eva Zehelein - Narratives of Home (BLOCK)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 762,
+        "word_count": 341,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          10,
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "0836f803cb3200388316757884945591dcfc50b0a3833358d6a1e1d7109f2a2d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0019",
+      "chunk_index": 19,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 21,
+        "title": "MAAS PMMS (MP 9151)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "## MAAS PMMS (MP 9151)\n\nWahlpflichtmodul\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nProf. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)\n\nProf. Dr. Bernd Herzogenrath - Writing Film (Mo 16-18)\n\nDr. Andrey Logutov - Aesthetics of Repetition in Mass Culture (Do 14-16)\n\nDr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)\nMartin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)\nDr. Cameron Seglias - James Baldwin and His World (Mi 10-12)\nPD Dr. Eva Zehelein - Narratives of Home (BLOCK)\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 280,
+        "word_count": 126,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1dbf0aa72f19e98186cc3c300ffab53e773d0ff99bd7a42b6de39fe842b64265",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0020",
+      "chunk_index": 20,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 22,
+        "title": "MAAS PMASH (MP 9153)",
+        "type": "assessment",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          11
+        ],
+        "page_start": 11,
+        "page_end": 11
+      },
+      "content": "## MAAS PMASH (MP 9153)\n\nWahlpflichtmodul\n\neinzelne veranstaltungsbezogene Prüfung\n\nPrüfungsform: Hausarbeit\n\nPrüfer*innen & Veranstaltungen:\n\nDr. Cameron Seglias - James Baldwin and His World (Mi 10-12)\n\nProf. Dr. Simon Wendt - The African American Freedom Struggle (Mi 12-14)\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 183,
+        "word_count": 78,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "a123125860f36fe047eb1682aa554e52b85e8337244b1e40a80499a95570fd08",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0021",
+      "chunk_index": 21,
+      "total_chunks": 21,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0017",
+      "page_id": null,
+      "section": {
+        "index": 23,
+        "title": "IEAS Prüfungstermine Sommersemester 2026",
+        "type": "assessment",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          12
+        ],
+        "page_start": 12,
+        "page_end": 12
+      },
+      "content": "# IEAS Prüfungstermine Sommersemester 2026\n\nHausarbeit\n\nAnmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\n\nRücktritt spätestens bis 21.09.2026\n\nAbgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nTake Home bzw. Kleine Hausarbeit\n\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS\n\nRücktrittstermin: spätestens bis 03.08.2026\n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n\n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\n\nKlausur\n\nAnmeldung zur Klausur: 08.06 .- 06.07.2026 über QIS\n\nRücktritt: spätestens bis 06.07.2026\nKlausurtermin: letzte Sitzung (KW 29)\n\nWiederholungstermin: 22.09.2026, 12-14 Uhr (Raum NG 1.741a)",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 293,
+        "word_count": 126,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0017\\pages\\0002\\assets\\source.pdf",
+        "source_url": "https://www.fb10.uni-frankfurt.de/172437661/ieas-prufungen-pgks-ieas.pdf",
+        "document_id": "source",
+        "program_id": "0017",
+        "page_id": null,
+        "page_numbers": [
+          12
+        ]
+      },
+      "traceability": {
+        "content_sha256": "bbda7eb0ce2d76f2e1bd6b3a904bc309e615a12d505a8aef8a741c17252788f2",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

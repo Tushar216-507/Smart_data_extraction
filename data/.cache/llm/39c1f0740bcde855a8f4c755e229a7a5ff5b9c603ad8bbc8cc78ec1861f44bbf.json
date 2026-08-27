@@ -1,0 +1,141 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "institution",
+      "value": "Goethe-Universität Frankfurt am Main",
+      "original_value": "Goethe-Universität Frankfurt am Main",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt am Main"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "programme",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "Master Thesis and Thesis Seminar",
+      "original_value": "Master Thesis and Thesis Seminar",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "both",
+      "field": "table",
+      "value": [
+        {
+          "module_name": "Mikroökonomik 1",
+          "module_code": "OMIK",
+          "module_credits": 10,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Einführung in die Volkswirtschaftslehre",
+          "module_code": "OVWL",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Philosophie, Politik und Wirtschaft",
+          "module_code": "OPPE",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Finanzen 1",
+          "module_code": "OFIN",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Marketing",
+          "module_code": "OMAR",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Accounting",
+          "module_code": "OACC",
+          "module_credits": 5,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Vertiefung Mikroökonomik",
+          "module_code": null,
+          "module_credits": 15,
+          "program_reference": "M.A. Wirtschaftssoziologie"
+        },
+        {
+          "module_name": "Vertiefung Makroökonomik",
+          "module_code": null,
+          "module_credits": 12,
+          "program_reference": null
+        },
+        {
+          "module_name": "Makroökonomik 1",
+          "module_code": "BMAK",
+          "module_credits": 12,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        },
+        {
+          "module_name": "Theoriegeschichte",
+          "module_code": null,
+          "module_credits": 6,
+          "program_reference": "M.A. Politische Theorie"
+        },
+        {
+          "module_name": "Wahlpflichtmodul Economics",
+          "module_code": "WPME",
+          "module_credits": 6,
+          "program_reference": "B. Sc. Wirtschaftswissenschaften PO 2022"
+        }
+      ],
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0005",
+        "name": "Master Thesis and Thesis Seminar"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt am Main"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "export_modules_description",
+      "value": "Students from other disciplines can enroll in certain modules offered by the Department of Economics as export modules, based on existing cooperation agreements.",
+      "original_value": "Im Rahmen Ihres Studienganges an einem anderen Fachbereich können Sie bestimmte Module an unserem Fachbereich Wirtschaftswissenschaften absolvieren, sog. Exportmodule des Fachbereichs Wirtschaftswissenschaften. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_enrollment_rules",
+      "value": "Students can only enroll in predefined export modules and cannot take other modules from the Department of Economics.",
+      "original_value": "Pro Studiengang ist zusammengestellt, welche Exportmodule Sie am Fachbereich Wirtschaftswissenschaften anmelden und wie Sie diese Exportmodule in Ihren Studiengang am Ihrem Fachbereich einbringen können. Darüber hinaus können Sie keine anderen Module vom Fachbereich Wirtschaftswissenschaften in Ihren Studiengang am anderen Fachbereich einbringen und auch keine abweichenden Credit Points (CP) am Fachbereich Wirtschaftswissenschaften erlangen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "exam_regulations",
+      "value": "Export modules are subject to the examination regulations of the exporting department.",
+      "original_value": "Exportmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_exams_information",
+      "value": "Each module is concluded with a module examination; there are no attendance certificates at the Department of Economics.",
+      "original_value": "Jedes Modul des Fachbereichs Wirtschaftswissenschaften wird mit einer Modulprüfung abgeschlossen. Es gibt am Fachbereich Wirtschaftswissenschaften keine „Sitzscheine“.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0012",
+        "name": "Master in International Economics and Economic Policy"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

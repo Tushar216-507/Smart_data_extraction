@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "category": "qualification",
+      "scope": "programme",
+      "field": "official_program_name",
+      "value": "Bachelor of Science",
+      "original_value": "Bachelor of Science",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "qualification",
+      "scope": "programme",
+      "field": "degree_abbreviation",
+      "value": "B.Sc.",
+      "original_value": "B.Sc.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "important_information",
+      "value": "The degree designation is based on the framework regulation (RO) § 3. Subject-specific additions are excluded.",
+      "original_value": "Der Abschlussgrad richtet sich nach § 3 der Rahmenordnung (RO). Fachliche Zusätze sind ausgeschlossen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}

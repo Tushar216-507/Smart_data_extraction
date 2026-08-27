@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "program",
+      "field": "import_modules_info",
+      "value": "Students can complete specific modules from other departments as import modules based on existing cooperation agreements between departments.",
+      "original_value": "Im Rahmen Ihres Studienganges an unserem Fachbereich Wirtschaftswissenschaften können Sie bestimmte Module an anderen Fachbereichen absolvieren, sog. Importmodule. Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "program",
+      "field": "import_modules_regulations",
+      "value": "Import modules are subject to the examination regulations of the exporting department.",
+      "original_value": "Importmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "module_application_info",
+      "value": "Modules from other departments can only be integrated into the program based on specified rules.",
+      "original_value": "darüber hinaus können Sie keine anderen Module von anderen Fachbereichen in Ihren Studiengang am Fachbereich Wirtschaftswissenschaften einbringen und auch keine abweichenden Credit Points (CP) erlangen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0010",
+        "name": "Bachelor"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "other",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

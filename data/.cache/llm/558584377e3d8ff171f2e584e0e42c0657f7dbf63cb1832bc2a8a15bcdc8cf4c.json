@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "transfer_students_requirements",
+      "field": "transfer_students_12_23_credits_gpa",
+      "value": "minimum 2.50 cumulative transfer GPA",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "transfer_students_requirements",
+      "field": "transfer_students_24_or_more_credits_gpa",
+      "value": "minimum 2.50 cumulative transfer GPA",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "transfer_students_requirements",
+      "field": "transfer_students_associate_degree_gpa",
+      "value": "minimum 2.00 cumulative GPA",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "other_requirements",
+      "field": "college_courses_acceptance",
+      "value": "ASU accepts college-level courses in which you have earned a 'C-' or better",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "gpa_information",
+      "field": "gpa_scale",
+      "value": "4.00 scale",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "gpa_information",
+      "field": "gpa_definition",
+      "value": "A GPA or grade point average is the average of letter grades (A = 4, B = 3, C = 2, D = 1, F = 0) earned in school.",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "standardized_tests",
+      "field": "sat_definition",
+      "value": "The SAT is a standardized test used for college admission in the U.S. The SAT tests math, reading and writing.",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    },
+    {
+      "category": "admission",
+      "subcategory": "standardized_tests",
+      "field": "act_definition",
+      "value": "The ACT is a standardized college readiness and admission test. The ACT tests English, math, reading and science skills.",
+      "confidence": 1.0,
+      "programme_association": "Interdisciplinary Studies - BA"
+    }
+  ]
+}

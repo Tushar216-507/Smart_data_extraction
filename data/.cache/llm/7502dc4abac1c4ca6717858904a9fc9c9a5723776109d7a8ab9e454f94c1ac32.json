@@ -1,0 +1,128 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodul",
+      "original_value": "Wahlpflichtmodul",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9143",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Term paper",
+      "original_value": "Hausarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 9143",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "important_information",
+      "scope": "programme",
+      "field": "submission_information",
+      "value": {
+        "submission_window": "29.06 - 21.09.2026",
+        "submission_format": "pdf",
+        "submission_due_date": "28.09.2026",
+        "resubmission_due_date": "21.12.2026"
+      },
+      "original_value": {
+        "submission_window": "29.06 .- 21.09.2026",
+        "submission_format": "pdf",
+        "submission_due_date": "28.09.2026",
+        "resubmission_due_date": "21.12.2026"
+      },
+      "entity": {
+        "type": "module",
+        "id": "MP 9143",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "instructors",
+      "value": [
+        "Prof. Dr. Bernd Herzogenrath",
+        "Dr. Magdalena Majewska",
+        "Martin Renz",
+        "Dr. Cameron Seglias",
+        "PD Dr. Eva Zehelein"
+      ],
+      "original_value": [
+        "Prof. Dr. Bernd Herzogenrath - Theory into Practice (BLOCK)",
+        "Dr. Magdalena Majewska - Pynchon and the Postmodern Condition (Mo 10-12)",
+        "Martin Renz - Infrastructures and Intermediaries of US Cultural Production (Mi 14-18)",
+        "Dr. Cameron Seglias - James Baldwin and His World (Mi 10-12)",
+        "PD Dr. Eva Zehelein - Narratives of Home (BLOCK)"
+      ],
+      "entity": {
+        "type": "module",
+        "id": "MP 9143",
+        "name": "Wahlpflichtmodul"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

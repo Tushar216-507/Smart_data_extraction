@@ -1,0 +1,564 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1"><title>
+	Cyber Police Portal Login
+</title><link rel="icon" href="Images/favicon.ico" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="Login/css/bootstrap.min.css" rel="stylesheet" /><link href="Login/css/all.css" rel="stylesheet" /><link href="Login/css/loginStyle.css" rel="stylesheet" /><link href="Login/css/swiper-bundle.min.css" rel="stylesheet" /><link href="dist/css/sb-admin-2.css" rel="stylesheet" />
+    <script src="Login/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript">
+        function ClearPassword() {
+            document.getElementById('txtHidSalt').value = "";
+            try {
+                document.getElementById('TxtPWD').value = "";
+            }
+            catch (ex) {
+            }
+        }
+        function doCHAP() {
+            if (document.getElementById('TxtPWD').value === null) {
+                alert("User Name Or Password Is not Allow Null");
+                document.getElementById('txtHidSalt').value = "";
+                document.getElementById('txtHid').value = "";
+                return;
+            }
+            else {
+                var pwd = document.getElementById('TxtPWD').value;
+                var len = pwd.length;
+                var Salt = document.getElementById('txtHidSalt').value
+                var chlng;
+                var clientEnc;
+                var str = "";
+                chlng = sha256(pwd).toUpperCase();
+                pwd = '';
+                clientEnc = sha256(Salt + chlng).toUpperCase();
+                document.getElementById('txtHidSalt').value = "";
+                document.getElementById('txtHid').value = clientEnc;
+                ClearPassword();
+            }
+        }
+    </script>
+    <script>
+        function foricjs() {
+            if (document.getElementById('TxtPWD').value === null) {
+                alert("User Name Or Password Is not Allow Null");
+                document.forms[0].txtHidSalt.value = "";
+                document.forms[0].txtHid.value = "";
+                return;
+            }
+            else {
+
+                var pwd = document.getElementById('TxtPWD').value;
+
+                var len = pwd.length;
+                var Salt = document.getElementById('txtHidSalt').value;
+                var chlng;
+                var clientEnc;
+                var str = "";
+                chlng = sha256(pwd);
+                clientEnc = sha256(chlng + Salt);
+                document.getElementById('txtHidSalt').value = ""
+                document.getElementById('txtHid').value = clientEnc;
+                ClearPassword();
+            }
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery(function () {
+                jQuery(this).bind("contextmenu", function (event) {
+                    event.preventDefault();
+
+                });
+            });
+        });
+        function SessionExpireAlert(timeout) {
+            var seconds = timeout / 1000;
+            document.getElementById("resend").style.display = 'none';
+            document.getElementById("timeleft").style.display = "";
+
+
+            hours = Math.floor(seconds / 3600);
+            if (hours < 10) {
+                hours = '0' + hours;
+            }
+            minutes = Math.floor((seconds - (hours * 3600)) / 60);
+            secondss = seconds - (hours * 3600) - (minutes * 60);
+            if (minutes < 10) {
+                minutes = '0' + minutes;
+            }
+            if (secondss < 10) {
+                secondss = '0' + secondss;
+            }
+            timeString = hours.toString() + ':' + minutes.toString() + ':' + secondss.toString();
+            document.getElementsByName("timer").innerHTML = timeString;
+
+
+
+            setInterval(function () {
+                seconds--;
+                hours = Math.floor(seconds / 3600);
+                if (hours < 10) {
+                    hours = '0' + hours;
+                }
+                minutes = Math.floor((seconds - (hours * 3600)) / 60);
+                secondss = seconds - (hours * 3600) - (minutes * 60);
+                if (minutes < 10) {
+                    minutes = '0' + minutes;
+                }
+                if (secondss < 10) {
+                    secondss = '0' + secondss;
+                }
+                timeString = minutes.toString() + ':' + secondss.toString();
+                document.getElementById("timer").innerHTML = timeString.toString();
+            }, 1000);
+            setTimeout(function () {
+                document.getElementById("resend").style.display = '';
+                document.getElementById("timeleft").style.display = 'none';
+            }, timeout - (1000));
+            setTimeout(function () {
+            }, timeout);
+        };
+
+    </script>
+    <style>
+        .region {
+            position: relative;
+        }
+        /*#rdologintype tr td{
+                 width: 50%;
+                     float: left;
+        }*/
+        .carousel, .carousel-item, .carousel-inner {
+            height: 100%;
+        }
+
+
+        input[type=radio] {
+            margin: 0px 0px 0px 11px;
+            line-height: normal;
+        }
+
+        .design {
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            background: seashell;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .panel-heading label {
+            color: #000;
+            font-weight: 700;
+        }
+
+        #rdologintype td {
+            padding: 1px 2px;
+        }
+
+
+        .design {
+            background: #fff;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            border: 0px;
+        }
+
+        .navbar-default {
+            box-shadow: rgb(67 71 85 / 27%) 0px 0px 0.25em, rgb(90 125 188 / 5%) 0px 0.25em 1em;
+        }
+
+        .copyright {
+            text-align: center;
+        }
+
+
+        #rdologintype {
+            width: 100%;
+        }
+
+            #rdologintype label {
+                padding-left: 10px;
+            }
+
+        #rdologin_icjs {
+            width: 43%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer_bottom {
+            width: 100%;
+            bottom: 0px;
+            background: #fff;
+        }
+
+        .form-group label {
+            color: #094562;
+            display: block;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+
+        .fade-exit-active {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .login_inner {
+            padding: 1px 10px 1px 10px;
+        }
+
+        .imgfix {
+            height: 63px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <form method="post" action="./" id="form1" autocomplete="off">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="1lX754OcgEEgIn9lSMsVlu3LDP4mm8+V1DI+imfjkicECU23Wi8eBeBrKWGDAs8WrfLEdRcOX2s/nbtc9cuH8toDqWeRPcm/FUC4Q1DDpzE5n5q/MFcMuj3DNAquqQDOt6HQq7RKHC8mG8mF74CFJGljR1FdXcdTr5+R5KTMUPBuVKakIImEGbnOXI2cWhwGA23rqkcHpTWGmMUsodPonM+npRq8UbWY+7Ms77XhnY45Dsdx1qN6UrYa2o9+88iTF0orPdIJlUe+HVJSA1Jpd1dteA6mT9j4SikV2yPFNTWudypgAXfZZao5dN0KoH2uWHxsrzhDosuVpdbA2gboPPG/mJ34QMKc+iWwa2V6J6Y04Ichxk+h0A+5aIeJZyuNmdxxbClvDQcvt15RztZo1k877KxNmOvahG21r5jUpeaF6MS89ZHOzphGgPeyWQDYIjgP7vm8bn+RbsiH1bM18CCSJkmY9SJT/Sp19S/glVAOGSW88RaGx19an1f6Q7g5V1wUvP0wtr9Iq8BFM5/H14yMcVNnTNqLQFQUDxHgs8m97thIaPg4Q8KQaGDv23+0WZvBpw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZFEi8YDxQvECL0mngU87Ufef3zjw4oLwDCSnC2Sqss1QhMhSGw2&amp;t=638901739900000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvqjXbi9cPWUyokVhKz19m10KW1m8TosdebJXFRF8r0NahVMTFnNyR4TZs5YqZifajTnZA3BWK7UMTLKTpUw9w2xFKccGxVHqoDCf3NYDgEgc6Z3xt_30HvMUFSirb00vKdn9xMo1&amp;t=5c0e0825" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OIeOH-ZhwWmH0LgmwOu3Gx3dn8-Ydj2c1TFpKIUztiw4ECyw-7XCHkcwWpzy7n8PY3zazq3j4ORRjwfdt0eL_sM-lxcNx1XPkbyRnQEQqd_uySKszms_LXynRbV3ApGahPEQNNY1&amp;t=5c0e0825" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LkSbRRtTbnpvh0g927IxkC_LZjtm69SrPkddwhfLcvjRqfO9vCz8a4O7Y3fIN4kAAVvk60RfvRxDkg0TRIiuN4zH5Q6hBKIzcvkyDYo-_TAIJq9Sn8wbIQCChukhPFTLwtrdNQ2&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8CjII1v0OLoMNKf5zGXmeohpYJ6F4uco7jvRcaoxkMDneYqDtbasbsr53qc_KPI95lrtctRghIcxpfnDoxSXAeiqHNoqyXuzazbb0q1GHJbUVIhr24CY0zyMNZ-50LZsQFiz_P30HjmDvUftsKlRIlCBzKk1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qiCbui8_q4m0BAPh1b3lI3vOTdUnxLnLndSgyQ4lXNY8SzmuGEEebyXryMfRvejkbNPt224xMT0ZOJHjhq_a10sal8qRrNmWqvZlCUcOT_hwq2vjjpbrjLtkMJctBJCeVudwGRuQbdjUGff50F_dgKYfjF2BOBX-EkFEIVfmBuCg0FRY0&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/WebResource.axd?d=JoBkLzP19aTuxbWOhHobYlEJaK6fCpsCiQD9z2hX3dQ_VAeWxZm2ve8ZLOpDhaAcGrRe6Q2&amp;t=638901739900000000" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="828150C3" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Y+EXnV4EZKXf1Z4YCYi3+hmXBjdlBidavdY7WL/IzaMOrTMwNswLT9riJTe3HHth5ijRbtUfHr1u90zTw68FKjMNZ/agYDLDRqBnMoLHdtHQCtaBiw1ytWW6PxfNthHjoyBaAKCSPN9XL0Dau5I//f57Z1U72WLEBroyp+0mhjT2KXyu+jazDbIcnzUJ9EknO2JmnKmffVTwUCiqUQSgCnsgGAJBaFdXbdi9NO/dCEQsKwP91tQNkYRBWmj9m5byaTK0elGrnXrjAr76mnTIWB/sQGCkl/jVLt8L7L/oOjmV9XWe" />
+</div>
+
+        <div class="bg"></div>
+
+        <div class="region region-header-top">
+            <div class="wrapper1">
+                <div class="container">
+                    <div class="common-left clearfix">
+                        <ul>
+                            <li class="gov-india"><span class="responsive_go_hindi" lang="hi"><a target="_blank" href="https://india.gov.in/hi" title="भारत सरकार" role="link">भारत सरकार</a></span><span class="li_eng responsive_go_eng"><a target="_blank" href="https://india.gov.in/" title="Government of india,External Link that opens in a new window" role="link">Government of india</a></span></li>
+                            <li class="ministry">
+                                <a href="https://mha.gov.in/hi" target="_blank" alt="Ministry Name" title="गृह मंत्रालय"><span class="responsive_minis_hi" lang="hi">गृह मंत्रालय</span></a>
+                                <a href="https://mha.gov.in" target="_blank" alt="Ministry Name" title="Ministry of Home Affairs"><span class="li_eng responsive_minis_eng">Ministry of Home Affairs</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div id="wrapper" style="">
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0; padding: 5px 0px; background: #fff;">
+                <div class="container">
+                    <div class="row" style="width: 100%">
+                        <div class="col-lg-3 col-md-5 col-sm-5 col-7">
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="Images/cyber-logo.png" alt="Eve"></a>
+
+                        </div>
+
+                        <div class="col-lg-7 col-md-4 col-sm-4 col-1">
+                        </div>
+
+                        <div class="col-lg-2 col-md-3 col-sm-3 col-4 text-end">
+                            <a class="navbar-brand" href="#">
+                                <img class="img-fluid" src="Images/i4cpng.png" alt="Eve"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="col-lg-12" style="display: none;">
+            <marquee direction="left" onmouseover="stop()" onmouseout="start()">
+                <span id="lblm" class="stylem" style="color:Red;font-size:20pt;">Important maintenance activities will be going on 19/August/2026 from 08:00 PM To 10:00 PM. Inconvenience is regretted.</span></marquee>
+        </div>
+        <div class="container">
+            <div class="row login-panel">
+                <div class="col-12 col-sm-12 col-md-0 col-lg-6 col-xl-7 col-xxl-7">
+                    <div class="imgLeftLogin">
+                        <div class="crntrimg">
+                            <div style="margin: 10px auto;">
+                                <img class="img-fluid" src="Images/i4cpng.png" alt="Eve">
+                            </div>
+                        </div>
+
+                        <div class="leftvision" style="background-color: #041b5b;">
+                            <div class="ribbon-front">
+                                <h3>VISION</h3>
+                            </div>
+                            <br />
+                            <p class="text-white">To create a safe cyber space for the citizens of India.</p>
+                            <div class="ribbon-edge-topleft2"></div>
+                            <div class="ribbon-edge-bottomleft"></div>
+                        </div>
+
+
+                        <div class="leftvision" style="background-color: #019db8; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px;">
+                            <div class="ribbon-front">
+                                <h3>MISSION</h3>
+                            </div>
+
+                            <br />
+                            <p class="text-white">To create an effective framework and ecosystem for the prevention, detection, investigation, and prosecution of Cybercrime in the country . </p>
+                            <div class="ribbon-edge-topleft2"></div>
+                            <div class="ribbon-edge-bottomleft"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5">
+                    <div class="login_outerbx">
+                        <div class="panel panel-default">
+                            <h3 style="text-align: center;">LOGIN</h3>
+                            <div class="radioSelect" style="color: black;">
+                                <div class="checkbox">
+                                    <table id="rdologintype" class="form-control design" style="font-size:12px;">
+	<tr>
+		<td><input id="rdologintype_0" type="radio" name="rdologintype" value="C" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;rdologintype$0\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="rdologintype_0">I4C MHA</label></td><td><input id="rdologintype_1" type="radio" name="rdologintype" value="Police" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;rdologintype$1\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="rdologintype_1">Police Official</label></td><td><input id="rdologintype_2" type="radio" name="rdologintype" value="DOT" checked="checked" /><label for="rdologintype_2">Others</label></td><td><input id="rdologintype_3" type="radio" name="rdologintype" value="BMW1" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;rdologintype$3\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="rdologintype_3">Bank/FIs</label></td><td><span style="display:none"><input id="rdologintype_4" type="radio" name="rdologintype" value="ICJS" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;rdologintype$4\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="rdologintype_4">ICJS Login</label></span></td><td><span style="display:none"><input id="rdologintype_5" type="radio" name="rdologintype" value="Alternate" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;rdologintype$5\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="rdologintype_5">Alternate Login</label></span></td><td><span style="display:none"><input id="rdologintype_6" type="radio" name="rdologintype" value="Back" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;rdologintype$6\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="rdologintype_6">Back</label></span></td>
+	</tr>
+</table>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+
+                            <div class="login_inner">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="usr_pas">
+                                        <div id="div_step1" class="form-group fade-enter">
+                                            <label for="txtuserididothers">User Id:</label>
+                                            <input name="txtuseridothers" type="text" autocomplete="off" maxlength="50" id="txtuseridothers" tabindex="1" placeholder="Enter User ID" class="form-control" AutoComplete="off" />
+                                            
+                                            
+
+                                            
+
+                                            <div class="mt-3 mb-3 text-end">
+                                                <input type="submit" name="btn_next_user_id" value="Continue" id="btn_next_user_id" class="btn btn-primary" />
+                                            </div>
+                                        </div>
+
+                                        
+
+
+                                        
+
+                                        <!-- Change this to a button or input when using this as a form -->
+                                        
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="login_inner">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="mt-0 text-start" style="float: right !important; margin-bottom: 20px !important"><a href="pages/ResetPassword.aspx" id="anchorforgetpassword">Forgot Password?</a>  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="imgLeftLogin" style="height: auto;">
+
+                        <div class="leftvision" style="background-color: #fff; border-radius: 7px; height: auto;">
+                            <div class="ribbon-front">
+                                <h3 style="font-size: 1em;">DISCLAIMER</h3>
+                            </div>
+
+                            <br />
+                            <p class="text-black" style="font-size: 16px; text-align: justify;">
+                                The National Cyber Reporting Platform (NCRP) of the Indian Cyber
+         Crime Coordination Centre (I4C) under the Ministry of Home Affairs is a centralized 
+         online platform for registering cybercrime complaints, which are automatically assigned 
+         to the relevant States or Union Territories (UTs). It is clarified that neither NCRP nor
+         I4C has the authority to place liens, freeze, or unfreeze bank accounts. The responsibility 
+         lies with the law enforcement agencies (LEAs) of the respective States/UTs, as per provisions
+         of BNSS/CrPC. The Indian Cyber Crime Coordination Centre serves as a platform for reporting 
+         complaints and does not exercise administrative control over LEA actions within States/UTs.
+         I4C’s role is limited to coordinating with LEAs and other stakeholders for cybercrime
+         prevention and detection efforts.
+                            </p>
+                            <div class="ribbon-edge-topleft2"></div>
+                            <div class="ribbon-edge-bottomleft"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer" style="padding: 10px 0 !important; background-color: #fff;">
+
+
+
+
+
+
+
+
+            <script type="text/javascript">
+                function sitevisit() {
+                    if (!confirm('This is external link, Are you sure you want to continue? \n यह बाहरी लिंक है, क्या आप जारी रखना चाहते हैं?'))
+                        return false;
+                }
+            </script>
+        </footer>
+
+        <div style="background-color: #003281;">
+            <div class="container">
+                <div class="col-lg-12">
+                    <p id="vmname" class="copyright text-white mb-0">Website content managed by Ministry of Home Affairs, Govt. of India.  Best viewed in Mozilla Firefox &amp; Google Chrome. (C )</p>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('txtuseridothers');Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":".- _@","id":"flttxtuseridothers"}, null, null, $get("txtuseridothers"));
+});
+//]]>
+</script>
+</form>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery/sha256.min.js"></script>
+    <script src="Login/js/swiper-bundle.min.js"></script>
+
+    <script>
+        new Swiper('.testimonials-slider', {
+            speed: 600,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 'auto',
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+
+                1200: {
+                    slidesPerView: 6,
+                    spaceBetween: 20
+                }
+            }
+        });
+
+        new Swiper('.gallery-slider', {
+            speed: 600,
+            loop: true,
+            autoplay: {
+                delay: 7000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 'auto',
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                769: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 20
+                }
+            }
+        });
+
+
+    </script>
+
+    <script>
+
+        $(".cancel").click(function () {
+            //$("#a").fadeOut();
+            $("#b").fadeOut();
+        });
+        $(document).ready(function () {
+            //$("#a").css("display", "block");
+            $("#b").css("display", "block");
+
+        })
+    </script>
+
+</body>
+</html>

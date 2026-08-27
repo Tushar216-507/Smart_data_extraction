@@ -1,0 +1,48 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "core courses",
+      "field": "number_of_core_courses",
+      "value": 8,
+      "confidence": 1.0,
+      "programme_association": "Master of Leadership and Management"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "applied learning project and capstone",
+      "field": "applied_learning_project_exists",
+      "value": "Yes",
+      "confidence": 1.0,
+      "programme_association": "Master of Leadership and Management"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "specialization courses",
+      "field": "specialization_in_topics",
+      "value": "AI, analytics, and fintech innovations",
+      "confidence": 1.0,
+      "programme_association": "Master of Leadership and Management"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "specialization courses",
+      "field": "specialization_courses",
+      "value": [
+        "AI, Chip Strategy and the Future of Work",
+        "Analytics and Machine Learning in Global Business",
+        "Navigating Global Fintech Innovations"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Master of Leadership and Management"
+    },
+    {
+      "category": "career",
+      "subcategory": "career paths",
+      "field": "potential_career_paths",
+      "value": "manage global projects, open subsidiaries in foreign locations, advance business in multinational companies",
+      "confidence": 1.0,
+      "programme_association": "Master of Leadership and Management"
+    }
+  ]
+}

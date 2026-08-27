@@ -1,0 +1,76 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "grading_scale",
+      "value": {
+        "1.0_to_1.5": "very good",
+        "1.6_to_2.5": "good",
+        "2.6_to_3.5": "satisfactory",
+        "3.6_to_4.0": "sufficient",
+        "above_4.0": "fail"
+      },
+      "original_value": "1,0 bis einschließlich 1,5 -> very good; 1,6 bis einschließlich 2,5 -> good; 2,6 bis einschließlich 3.5 -> satisfactory; 3,6 bis einschließlich 4,0 -> sufficient; über 4,0 -> fail",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "graduation_with_honors",
+      "value": "excellent",
+      "original_value": "mit Auszeichnung bestanden",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "transparency_of_final_grade",
+      "value": "includes ECTS classification table in Diploma Supplement",
+      "original_value": "in das Diploma Supplement eine ECTS-Einstufungstabelle gemäß § 50 Abs. 2 aufgenommen",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

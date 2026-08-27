@@ -1,0 +1,336 @@
+{
+  "facts": [
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "new_college_residency_requirement",
+      "value": "A minimum of 12 upper-division credit hours used toward the major requirements must be taken from the New College of Interdisciplinary Arts and Sciences.",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "biology_core",
+      "value": {
+        "course_name": "General Biology I",
+        "course_code": "BIO 181",
+        "credit_hours": 4,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=BIO&catalogNbr=181"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "biology_core",
+      "value": {
+        "course_name": "General Biology II",
+        "course_code": "BIO 182",
+        "credit_hours": 4,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=BIO&catalogNbr=182"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "biology_core",
+      "value": {
+        "course_name": "Fundamentals of Ecology",
+        "course_code": "BIO 320",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=BIO&catalogNbr=320"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "biology_core",
+      "value": {
+        "course_name": "Fundamentals of Ecology Laboratory",
+        "course_code": "LSC 322",
+        "credit_hours": 1,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=LSC&catalogNbr=322"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "chemistry_core",
+      "value": {
+        "course_name": "General Chemistry I",
+        "course_code": "CHM 113",
+        "credit_hours": 4,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=CHM&catalogNbr=113"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "chemistry_core",
+      "value": {
+        "course_name": "General Chemistry II",
+        "course_code": "CHM 116",
+        "credit_hours": 4,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=CHM&catalogNbr=116"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_science_core",
+      "value": {
+        "course_name": "Fundamentals of Environmental Science",
+        "course_code": "ENV 201",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "note": "Transfer students or students changing majors to this program may be able to apply a previously completed introductory environmental science course as a substitution.",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENV&catalogNbr=201"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_science_core",
+      "value": {
+        "course_name": "Spatial Analysis in the Environmental Sciences",
+        "course_code": "ENV 345",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENV&catalogNbr=345"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_science_core",
+      "value": {
+        "course_name": "Introduction to Geology I (Physical)",
+        "course_code": "GLG 101",
+        "credit_hours": 4,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=GLG&catalogNbr=101"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_science_core",
+      "value": {
+        "course_name": "Introduction to Geology I: Laboratory",
+        "course_code": "ENV 103",
+        "credit_hours": 1,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENV&catalogNbr=103"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_science_core",
+      "value": {
+        "course_name": "Introduction to Geology I: Laboratory",
+        "course_code": "GLG 103",
+        "credit_hours": 1,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=GLG&catalogNbr=103"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_science_core",
+      "value": {
+        "course_name": "Water Planet",
+        "course_code": "GLG 108",
+        "credit_hours": 4,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=GLG&catalogNbr=108"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "environmental_studies_electives",
+      "value": {
+        "courses": [
+          "Organismal Conservation",
+          "Chemicals in the Environment",
+          "Earth's Landscape",
+          "Environmental Law, Policy, and Management",
+          "Environmental Ethics and Philosophy"
+        ],
+        "credit_hours": 15,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "proficiency_global_civic_engagement",
+      "value": {
+        "description": "Upper Division Global and Civic Engagement Requirement satisfied through completion of six credits of upper-division courses with a Global Communities, Societies and Individuals (GCSI) or Governance and Civic Engagement (CIVI) designation, or completion of three credits from an ASU-approved global education program.",
+        "credit_hours": 6,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "interdisciplinary_requirements",
+      "value": {
+        "courses": [
+          {
+            "course_name": "Environmental Philosophy and Policy",
+            "course_code": "IAS 407 or PHI 407",
+            "credit_hours": 3,
+            "minimum_grade": "C",
+            "link": [
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=IAS&catalogNbr=407",
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PHI&catalogNbr=407"
+            ]
+          },
+          {
+            "course_name": "Eco-Community Ethics",
+            "course_code": "IAS 409 or PHI 409",
+            "credit_hours": 3,
+            "minimum_grade": "C",
+            "link": [
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=IAS&catalogNbr=409",
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=PHI&catalogNbr=409"
+            ]
+          }
+        ],
+        "credit_hours": 3,
+        "minimum_grade": "C"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "mathematics_requirements",
+      "value": {
+        "course_name": "Precalculus",
+        "course_code": "MAT 170",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=MAT&catalogNbr=170"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "statistics_requirement",
+      "value": {
+        "course_name": "Elements of Statistics",
+        "course_code": "STP 226",
+        "credit_hours": 3,
+        "minimum_grade": "C",
+        "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=STP&catalogNbr=226"
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "first_year_seminar",
+      "value": {
+        "description": "ASU 101 or college-specific equivalent First-Year Seminar required of all first-year students.",
+        "course_options": [
+          {
+            "course_name": "The ASU New College Experience",
+            "course_code": "NEW 101",
+            "credit_hours": "1 - 3",
+            "minimum_grade": "C",
+            "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=NEW&catalogNbr=101"
+          },
+          {
+            "course_name": "Career Strategies and Personal Resilience",
+            "course_code": "IAS 300",
+            "credit_hours": "1 - 3",
+            "minimum_grade": "C",
+            "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=IAS&catalogNbr=300"
+          }
+        ]
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    },
+    {
+      "category": "curriculum",
+      "subcategory": "program_requirements",
+      "field": "first_year_composition",
+      "value": {
+        "courses": [
+          {
+            "course_name": "First-Year Composition",
+            "course_code": "ENG 101 and ENG 102",
+            "credit_hours": 6,
+            "minimum_grade": "C",
+            "link": [
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=101",
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=102"
+            ]
+          },
+          {
+            "course_name": "Advanced First-Year Composition",
+            "course_code": "ENG 105",
+            "credit_hours": 6,
+            "minimum_grade": "C",
+            "link": "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=105"
+          },
+          {
+            "course_name": "First-Year Composition",
+            "course_code": "ENG 107 and ENG 108",
+            "credit_hours": 6,
+            "minimum_grade": "C",
+            "link": [
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=107",
+              "https://catalog.apps.asu.edu/catalog/courses/courselist?subject=ENG&catalogNbr=108"
+            ]
+          }
+        ]
+      },
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies - BA"
+    }
+  ]
+}

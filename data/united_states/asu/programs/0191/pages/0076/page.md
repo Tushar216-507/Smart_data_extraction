@@ -1,0 +1,3 @@
+Thank you for using ASU's new degree searching tool. It is designed to help students search through ASU's degrees and find out more about program requirements and career opportunities. We would like your feedback to improve it. Let us know what did and didn't work for you or if you couldn't find something. (Don't worry, you won't hurt our feelings.)
+
+Looking for related information? Here are some related links that you may find useful:

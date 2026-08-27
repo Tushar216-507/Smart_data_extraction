@@ -1,0 +1,31 @@
+They recorded the changes with mathematical precision.
+The team has only a mathematical chance of making the play-offs.
+
+Recent Examples on the Web
+
+Examples are automatically compiled from online sources to
+show current usage.Read More
+Opinions expressed in the examples do not represent those of Merriam-Webster or its editors.
+Send us feedback.
+
+Quantum computers running Shor’s algorithm bypass this mathematical barrier completely.—
+Adi Karisik,
+Forbes.com,
+21 Aug. 2026
+Is all of mathematical knowledge out there in some kind of textual or video format?—Quanta Magazine,
+20 Aug. 2026
+The simulator uses this data to generate a probability model, which is a mathematical model that accounts for uncertainties about the future.—
+Stefan Chavez-Norgaard,
+The Conversation,
+20 Aug. 2026
+TPUs belong to the class of chips known as AI accelerators, which are tailored to perform the mathematical computations that underpin generative AI models.—
+Kevin Stankiewicz,jeff Marks,
+CNBC,
+19 Aug. 2026
+See All Example Sentences for mathematical
+
+Word History
+
+Etymology
+
+Middle English mathematicalle, from Latin mathematicus, from Greek mathēmatikos, from mathēmat-, mathēma learning, mathematics, from manthanein to learn; probably akin to Goth mundon to pay attention

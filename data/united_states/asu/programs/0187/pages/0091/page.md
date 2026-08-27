@@ -1,0 +1,113 @@
+### Faculty Associate, Writing Programs (JOB # 185774)
+
+### Arizona State University - Department of English
+
+The Department of English on the Tempe Campus at Arizona State University invites applicants to apply for the Faculty Associate position to teach in person in the Writing Programs in Tempe. These positions are one semester appointments, part time, non-benefits eligible with no tenure implications. A typical Faculty Associate course load is one to two classes per semester. This is for the Tempe campus with courses assigned in Writing Programs only: ENG 101, ENG 102, ENG 105, ENG 107, ENG 108, ENG 302. Courses will be taught in person. To be considered for online teaching, prior teaching in the online format in Writing Programs is required. Teaching duties include preparing course materials, responding to and evaluating student work, and availability for one-on-one assistance (via weekly office hours for on-campus classes and remotely for online classes). Anticipated start date: Fall 2026, Spring 2027, Summer 2027 and Fall 2027.
+
+ About the Department of English:
+
+The Department of English's motto - "Start here, go anywhere" - captures the unique value of our undergraduate and graduate English degrees, ones that can serve students in any art form, any discipline, and any profession. In fact, our degrees can take students anywhere they wish to travel. The Department of English faculty is internationally renowned for innovative research and teaching and explores the pan-world expression of the English language and its literature, which span the global yet connect directly to the local. The skills of critical thinking, reading comprehension, and analytic expression cultivated in the degrees are transferable into any endeavor. In particular, such skills provide the foundation for creative problem-solving and cultivate individual and collective expression. The department takes as its purview not just historical positioned work, whether linguistic or textual, but includes all forms of expression and all modes of new media, whether analogical or digital. We emphasize writing- academic, creative, personal, public, and workplace- that explores difference reflectively and functionally. Our goal is to educate citizens who can think, read, write, and act in robust and significant ways to meet new challenges.
+
+About The College:
+
+The College of Liberal Arts and Sciences is the academic heart of Arizona State University, committed to improving communities on a local, national, and global scale. We support the professional development and growth of our faculty and staff in their cutting-edge research to advance these aims. Within The College, our faculty engage with a large, curious student body, guiding them as they grow into socially aware, critical thinkers and writers able to succeed in a wide range of careers and to address the challenges of the twenty-first century. Advancing the success of our students remains our top priority. To learn more about The College of Liberal Arts and Sciences, please visit <https://thecollege.asu.edu>.
+
+About Arizona State University:
+
+ASU exemplifies a new prototype for the American public research university. As articulated in the [ASU Charter](https://www.asu.edu/about/charter-mission), ASU is a comprehensive public research university, measured not by whom it excludes, but by whom it includes and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural, and overall health of the communities it serves.
+
+Essential Functions of the job:
+
+- Teach undergraduate students in Writing Programs courses and other disciplinary areas as needed, including creating lesson plans, evaluation of student work, office hours, and other essential teaching functions
+- Use Canvas for assessment of student work
+- Participate in all unit and university assessment activities
+- Attend annual Convocation in-person at the beginning of each semester
+
+Required Qualifications:
+
+- Master’s degree in relevant field by time of appointment
+- Evidence of effective teaching.
+
+Desired qualifications:
+
+- Ph.D. in relevant field by time of appointment
+- Record of scholarly publication and/or evidence of professional development in relevant field
+- Minimum of two years of post-secondary teaching experience (to be considered for composition courses, this experience must be in composition)
+- Demonstrated commitment to working with faculty, staff, students and communities to advance the principles of the [ASU Charter](https://www.asu.edu/about/charter-mission).
+
+Application Instructions:
+
+Initial review of applications will begin on August 5, 2026, and continue on a weekly basis in subsequent months throughout the academic year as needed until the search is closed. Candidates will be asked to create or use an existing Interfolio Dossier to submit the following application materials: [apply.interfolio.com/188251](https://apply.interfolio.com/188251)
+
+- Cover Letter of application
+- Curriculum vita (CV)
+- One-page statement of teaching philosophy
+- Contact information for three (3) academic references including email addresses (one document)
+- Unofficial graduate transcripts
+
+The applicant’s last name should appear in each uploaded file name. Questions about the position should be directed to the search committee: Demetria Baker at [[email protected]](/cdn-cgi/l/email-protection#77131b153716040259121302) or Professor Roger Thompson at [[email protected]](/cdn-cgi/l/email-protection#3745435f585a47000e7756444219525342). Faculty Associate vacancy announcements will be posted on an annual basis. Applicants who are not hired within the current application period are welcome to re-apply - applications do not roll forward from the previous pool recruitment.
+
+Equal Employment Opportunity Statement:
+
+A background check is required for employment. Arizona State University is a VEVRAA Federal Contractor and an Equal Opportunity/Affirmative Action Employer. All qualified applicants will be considered without regard to race, color, sex, sexual orientation, gender identity, religion, national origin, disability, protected veteran status, or any other basis protected by law. ASU’s full nondiscrimination statement (ACD 401) is located on the ASU website at <https://www.asu.edu/aad/manuals/acd/acd401.html> and <https://www.asu.edu/titleIX/>
+
+Clery Act Statement
+
+In compliance with federal law, ASU prepares an annual report on campus security and fire safety programs and resources. ASU’s Annual Security and Fire Safety Report is available online at <https://www.asu.edu/police/PDFs/ASU-Clery-Report.pdf>. You may request a hard copy of the report by contacting the ASU Police Department at 480-965-3456.
+
+### Faculty Associate in English (JOB # 185783)
+
+### Arizona State University - Department of English
+
+The Department of English on the Tempe Campus at Arizona State University invites applications for the Faculty Associate positions to teach undergraduate and/or graduate courses, online and/or on-campus in: Creative Writing; English Education; Film and Media Studies; Linguistics and Applied Linguistics; Literature; Writing, and Rhetorics and Literacies. These positions are one semester appointments, part time, non-benefits eligible with no tenure implications. A typical Faculty Associate course load is one to two classes per semester. Teaching duties include: setting assignment deadlines, responding to and evaluating student work, and availability for one-on-one assistance (via weekly office hours for on-campus classes and electronically for online classes).  Anticipated start date: Fall 2026, Spring 2027, Summer 2027 and Fall 2027.
+
+About the Department of English:
+
+The Department of English's motto - "Start here, go anywhere" - captures the unique value of our undergraduate and graduate English degrees, ones that can serve students in any art form, any discipline, and any profession. In fact, our degrees can take students anywhere they wish to travel. The Department of English faculty is internationally renowned for innovative research and teaching and explores the pan-world expression of the English language and its literature, which span the global yet connect directly to the local. The skills of critical thinking, reading comprehension, and analytic expression cultivated in the degrees are transferable into any endeavor. In particular, such skills provide the foundation for creative problem-solving and cultivate individual and collective expression. The department takes as its purview not just historical positioned work, whether linguistic or textual, but includes all forms of expression and all modes of new media, whether analogical or digital. We emphasize writing- academic, creative, personal, public, and workplace- that explores difference reflectively and functionally. Our goal is to educate citizens who can think, read, write, and act in robust and significant ways to meet new challenges.
+
+About The College:
+
+ The College of Liberal Arts and Sciences is the academic heart of Arizona State University, committed to improving communities on a local, national, and global scale. We support the professional development and growth of our faculty and staff in their cutting-edge research to advance these aims. Within The College, our faculty engage with a large, curious student body, guiding them as they grow into socially aware, critical thinkers and writers able to succeed in a wide range of careers and to address the challenges of the twenty-first century. Advancing the success of our students remains our top priority. To learn more about The College of Liberal Arts and Sciences, please visit <https://thecollege.asu.edu>.
+
+About Arizona State University:
+
+ ASU exemplifies a new prototype for the American public research university. As articulated in the [ASU Charter](https://www.asu.edu/about/charter-mission), ASU is a comprehensive public research university, measured not by whom it excludes, but by whom it includes and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural, and overall health of the communities it serves.
+
+Essential Functions:
+
+- Teach undergraduate and graduate students in Creative Writing; English Education; Film and Media Studies; Linguistics and Applied Linguistics; Literature; Writing, and Rhetorics and Literacies courses and other disciplinary areas as needed, including creating lesson plans, evaluation of student work, office hours, and other essential teaching functions
+- Use Canvas for assessment of student work
+- Participate in all unit and university assessment activities
+
+Required Qualifications:
+
+- Master’s degree in relevant field by the time of appointment
+- Evidence of effective teaching
+
+Desired qualifications:
+
+- MFA or Ph.D. in relevant field by time of appointment
+- Record of scholarly publication and/or evidence of professional development in relevant field
+- Minimum of two years of post-secondary teaching experience
+- Demonstrated commitment to working with faculty, staff, students and communities to advance the principles of the [ASU Charter](https://www.asu.edu/about/charter-mission).
+
+Application Instructions:
+
+Initial review of applications will begin on August 5, 2026, and continue on a weekly basis in subsequent months throughout the academic year as needed until the search is closed. Candidates will be asked to create or use an existing Interfolio Dossier to submit the following application materials at: [apply.interfolio.com/188259](https://apply.interfolio.com/188259)
+
+- Cover Letter of application
+- Curriculum vita (CV)
+- One-page statement of teaching philosophy
+- One (1) letter of recommendation about teaching ability (non-confidential)
+- Contact information for 2 additional references
+- Unofficial graduate transcripts
+
+The applicant’s last name should appear in each uploaded file name. Questions about the position should be directed to the search committee chair: Professor Julia Himberg at [[email protected]](/cdn-cgi/l/email-protection#2369564f4a420d6b4a4e41465144634250560d464756). Faculty Associate vacancy announcements will be posted on an annual basis. Applicants who are not hired within the current application period are welcome to re-apply - applications do not roll forward from the previous pool recruitment.
+
+Equal Employment Opportunity Statement:
+
+A background check is required for employment. Arizona State University is a VEVRAA Federal Contractor and an Equal Opportunity/Affirmative Action Employer. All qualified applicants will be considered without regard to race, color, sex, sexual orientation, gender identity, religion, national origin, disability, protected veteran status, or any other basis protected by law. ASU’s full nondiscrimination statement (ACD 401) is located on the ASU website at <https://www.asu.edu/aad/manuals/acd/acd401.html> and <https://www.asu.edu/titleIX/>
+
+Clery Act Statement
+
+In compliance with federal law, ASU prepares an annual report on campus security and fire safety programs and resources. ASU’s Annual Security and Fire Safety Report is available online at <https://www.asu.edu/police/PDFs/ASU-Clery-Report.pdf>. You may request a hard copy of the report by contacting the ASU Police Department at 480-965-3456.

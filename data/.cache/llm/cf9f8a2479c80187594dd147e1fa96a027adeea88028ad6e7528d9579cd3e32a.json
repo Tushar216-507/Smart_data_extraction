@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university",
+      "value": "Goethe-Universität Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "department",
+      "value": "Fachbereich Wirtschaftswissenschaften",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": "Fachbereich Wirtschaftswissenschaften"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe-Universität Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Wahlpflichtmodule der Schwerpunkte",
+      "original_value": "Wahlpflichtmodule der Schwerpunkte (keine Seminare und keine Module aus dem Bereich Management)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Wahlpflichtmodule der Schwerpunkte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 6,
+      "original_value": "6",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": null,
+        "name": "Wahlpflichtmodule der Schwerpunkte"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "qualifiers": {
+        "status": "Optional compulsory module",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Dr. D. Y. PATIL MEDICAL COLLEGE, HOSPITAL AND RESEARCH CENTRE, PIMPRI, PUNE-018
+
+NABH/NABL Accredited Hospital and Laboratory
+
+ISO 9001 : 2015 and 14001 : 2015 Certified University

@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "main_postal_address",
+      "field": "address",
+      "value": "University of Limerick, Limerick, V94 T9PX, Ireland",
+      "confidence": 1.0,
+      "programme_association": "Accounting - MSc"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "telephone",
+      "field": "general_telephone",
+      "value": "+353 (0)61 202700",
+      "confidence": 1.0,
+      "programme_association": "Accounting - MSc"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "email",
+      "field": "general_email",
+      "value": "reception@ul.ie",
+      "confidence": 1.0,
+      "programme_association": "Accounting - MSc"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "emergency_telephone",
+      "field": "emergency_phone",
+      "value": "061 213333",
+      "confidence": 1.0,
+      "programme_association": "Accounting - MSc"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "program_id": "0286",
+  "program_name": "Bachelor of Arts (International Advanced Access)",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0286\\final",
+  "input_fact_count": 48,
+  "unique_fact_count": 47,
+  "exact_duplicate_count": 1,
+  "handled_fact_count": 47,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 47,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 9,
+    "admission": 1,
+    "curriculum": 14,
+    "career": 0,
+    "fees": 17,
+    "scholarships": 0,
+    "contacts": 3,
+    "student_life": 3,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0286\\final\\program_data.json",
+    "admission": "data\\ireland\\ul\\programs\\0286\\final\\admission_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0286\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0286\\final\\fees_data.json",
+    "contacts": "data\\ireland\\ul\\programs\\0286\\final\\contacts_data.json",
+    "student_life": "data\\ireland\\ul\\programs\\0286\\final\\student_life_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0286\\final\\build_summary.json"
+  }
+}

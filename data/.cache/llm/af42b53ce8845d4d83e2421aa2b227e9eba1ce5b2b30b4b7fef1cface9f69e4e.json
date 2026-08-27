@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "category": "identity",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität Frankfurt",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "identity",
+      "scope": "programme",
+      "field": "program_name",
+      "value": "German Courses",
+      "original_value": "German Courses",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "academic_structure",
+      "scope": "university",
+      "field": "department",
+      "value": "Department of Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "department",
+        "id": null,
+        "name": "Department of Economics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {},
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "program_structure",
+      "value": {
+        "modules": [
+          {
+            "module_name": "Introduction to Economics",
+            "module_code": "OVWL",
+            "credits": 5
+          },
+          {
+            "module_name": "Philosophy, Politics and Economics",
+            "module_code": "OPPE",
+            "credits": 5
+          },
+          {
+            "module_name": "Finance 1",
+            "module_code": "OFIN",
+            "credits": 5
+          },
+          {
+            "module_name": "Marketing",
+            "module_code": "OMAR",
+            "credits": 5
+          },
+          {
+            "module_name": "Accounting",
+            "module_code": "OACC",
+            "credits": 5
+          },
+          {
+            "module_name": "Microeconomics 1",
+            "module_code": "OMIK",
+            "credits": 10
+          }
+        ]
+      },
+      "original_value": null,
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0048",
+        "name": "German Courses"
+      },
+      "parent_entity": null,
+      "qualifiers": {},
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "student_inquiries",
+      "field": "email",
+      "value": "studium@wiwi.uni-frankfurt.de",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "general_inquiries",
+      "field": "email",
+      "value": "dekanat02@wiwi.uni-frankfurt.de",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "other",
+      "subcategory": "application_deadline",
+      "field": "application_deadline",
+      "value": "May 31, 2026",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "housing",
+      "subcategory": "contact_address",
+      "field": "visiting_address",
+      "value": "Campus Westend, Theodor-W.-Adorno-Platz 4, 60323 Frankfurt am Main",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "housing",
+      "subcategory": "postal_address",
+      "field": "postal_address",
+      "value": "60629 Frankfurt am Main",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    },
+    {
+      "category": "other",
+      "subcategory": "application_status",
+      "field": "status",
+      "value": "closed",
+      "confidence": 1.0,
+      "programme_association": "Bachelor - Department 02 | Goethe University Frankfurt"
+    }
+  ]
+}

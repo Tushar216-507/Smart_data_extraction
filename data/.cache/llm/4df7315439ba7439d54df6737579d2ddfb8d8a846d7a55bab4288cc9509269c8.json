@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "regulation",
+      "scope": "programme",
+      "field": "study_certificate_regulations",
+      "value": "Regulations for study certificates (performance and participation certificates) must only be made if corresponding certificates are included in the curriculum, meaning that not only module examinations need to be completed.",
+      "original_value": "Eine Regelung zu den Studiennachweisen (Leistungs- und Teilnahmenachweisen) ist nur dann zu treffen, wenn im Curriculum entsprechende Nachweise vorgesehen sind, d.h. nicht ausschließlich Modulprüfungen i. S. von §§ 22, 31 absolviert werden müssen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "regulation",
+      "scope": "both",
+      "field": "performance_certificates",
+      "value": "Performance certificates can only be required in modules that do not conclude with a cumulative module examination.",
+      "original_value": "Leistungsnachweise können nur in Modulen verlangt werden, die nicht mit einer kumulativen Modulprüfung abschließen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

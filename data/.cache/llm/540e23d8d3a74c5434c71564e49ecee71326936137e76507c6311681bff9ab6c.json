@@ -1,0 +1,36 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "subcategory": "main_postal_address",
+      "field": "address",
+      "value": "University of Limerick, Limerick, V94 T9PX, Ireland",
+      "confidence": 1.0,
+      "programme_association": "Electrical Engineering - BE or ME | University of Limerick"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "telephone",
+      "field": "general_telephone",
+      "value": "[+353 (0)61 202700](tel:0035361202700)",
+      "confidence": 1.0,
+      "programme_association": "Electrical Engineering - BE or ME | University of Limerick"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "email",
+      "field": "general_email",
+      "value": "[reception@ul.ie](mailto:reception@ul.ie)",
+      "confidence": 1.0,
+      "programme_association": "Electrical Engineering - BE or ME | University of Limerick"
+    },
+    {
+      "category": "contacts",
+      "subcategory": "emergency_contact",
+      "field": "emergency_phone",
+      "value": "[061 213333](tel:061213333)",
+      "confidence": 1.0,
+      "programme_association": "Electrical Engineering - BE or ME | University of Limerick"
+    }
+  ]
+}

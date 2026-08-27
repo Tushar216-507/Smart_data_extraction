@@ -1,0 +1,1 @@
+Nurturing Quality & Excellence in Pharma Education and Research

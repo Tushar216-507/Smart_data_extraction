@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_grading",
+      "value": "Grading of study and examination achievements; formation of grades and overall grade; failing the final examination",
+      "original_value": "Bewertung/Benotung der Studien- und Prüfungsleistungen; Bildung der Noten und der Gesamtnote; Nichtbestehen der Gesamtprüfung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "examination_pass_fail",
+      "value": "Passing and failing of examinations; announcement of grades",
+      "original_value": "Bestehen und Nichtbestehen von Prüfungen; Notenbekanntgabe",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "transcript_of_records",
+      "value": "Compilation of examination results (Transcript of Records)",
+      "original_value": "Zusammenstellung des Prüfungsergebnisses (Transcript of Records)",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0037",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

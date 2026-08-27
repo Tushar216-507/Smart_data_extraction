@@ -1,0 +1,56 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "evaluation_criteria",
+      "value": "The result of the admission interview is evaluated based on suitability points corresponding to the convincing presentation of suitability and motivation for the program. This may also include study, professional, or practical experiences.",
+      "original_value": "Das Ergebnis des Bewerbungsgesprächs wird mit Eignungspunkten entsprechend § 39 Abs. 3 und 4 bewertet, die sich auf die überzeugende Darstellung der Eignung und Motivation für den Studiengang stützt. Dazu können auch Studien-, Berufs- oder Praxiserfahrungen gehören.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "admission",
+      "scope": "programme",
+      "field": "admission_test_details",
+      "value": "An invitation to the suitability test is given in writing with sufficient notice. Those who do not appear have no claim for a new appointment. The test serves to determine suitability for the Master's program based on specified criteria.",
+      "original_value": "Zum Eignungstest wird mit angemessener Frist schriftlich eingeladen. Wer nicht erscheint, hat keinen Anspruch auf Anberaumung eines neuen Termins. Der Test dient zur Feststellung der Eignung für das Masterstudium anhand der folgenden Kriterien.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0022",
+        "name": "Southeast Asian Studies"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": null,
+        "name": null
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

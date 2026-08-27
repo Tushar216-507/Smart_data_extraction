@@ -1,0 +1,234 @@
+{
+  "facts": [
+    {
+      "category": "university",
+      "scope": "university",
+      "field": "university_name",
+      "value": "Goethe University Frankfurt",
+      "original_value": "Goethe-Universität",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Master of Arts in Sociology",
+      "original_value": "M.A. Soziologie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.A. Soziologie",
+        "name": "Master of Arts in Sociology"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Master of Arts in Economic Sociology",
+      "original_value": "M.A. Wirtschaftssoziologie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.A. Wirtschaftssoziologie",
+        "name": "Master of Arts in Economic Sociology"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Master of Arts in Political Theory",
+      "original_value": "M.A. Politische Theorie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.A. Politische Theorie",
+        "name": "Master of Arts in Political Theory"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Master of Arts in Geography",
+      "original_value": "M.A. Geographie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.A. Geographie",
+        "name": "Master of Arts in Geography"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Master of Science in Physical Geography",
+      "original_value": "M.Sc. Physische Geographie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.Sc. Physische Geographie",
+        "name": "Master of Science in Physical Geography"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Bachelor of Science in Meteorology",
+      "original_value": "B.Sc. Meteorologie",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "B.Sc. Meteorologie",
+        "name": "Bachelor of Science in Meteorology"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Bachelor of Science in Mathematics",
+      "original_value": "B.Sc. Mathematik",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "B.Sc. Mathematik",
+        "name": "Bachelor of Science in Mathematics"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "program",
+      "scope": "university",
+      "field": "program_name",
+      "value": "Master of Arts in Globalization Geography",
+      "original_value": "M.A. Geographie der Globalisierung",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "M.A. Geographie der Globalisierung",
+        "name": "Master of Arts in Globalization Geography"
+      },
+      "parent_entity": {
+        "type": "university",
+        "id": null,
+        "name": "Goethe University Frankfurt"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

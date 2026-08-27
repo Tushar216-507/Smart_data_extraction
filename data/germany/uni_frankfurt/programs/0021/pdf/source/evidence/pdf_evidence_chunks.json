@@ -1,0 +1,1157 @@
+{
+  "schema_version": "1.0",
+  "builder": {
+    "name": "PDFEvidenceBuilder",
+    "built_at": "2026-08-26T08:48:43.296833+00:00",
+    "strategy": "structure_aware_markdown_chunking",
+    "country_specific": false,
+    "llm_used": false
+  },
+  "identity": {
+    "university_name": null,
+    "program_name": "Curatorial Studies - Theory - History - Criticism",
+    "program_id": "0021",
+    "page_id": null,
+    "document_id": "source"
+  },
+  "source": {
+    "source_type": "pdf",
+    "provider": "Azure AI Document Intelligence",
+    "filename": "source.pdf",
+    "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+    "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+    "document_data_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pdf\\source\\extracted\\document_data.json",
+    "page_count": 17
+  },
+  "configuration": {
+    "target_chunk_tokens": 1600,
+    "max_chunk_tokens": 2200,
+    "min_chunk_tokens": 60,
+    "overlap_tokens": 80,
+    "preserve_tables": true,
+    "remove_repeated_noise": true
+  },
+  "statistics": {
+    "original_character_count": 38728,
+    "cleaned_character_count": 38681,
+    "characters_removed": 47,
+    "sections_detected": 20,
+    "chunks_created": 23,
+    "total_chunk_characters": 12550,
+    "total_chunk_words": 3853,
+    "chunks_with_page_references": 22,
+    "chunks_without_page_references": 1,
+    "chunks_containing_tables": 8,
+    "repeated_noise_lines_removed": 4,
+    "section_type_counts": {
+      "admission": 1,
+      "assessment": 4,
+      "curriculum": 12,
+      "general": 1,
+      "identity_overview": 4,
+      "regulations": 1
+    }
+  },
+  "quality": {
+    "all_chunks_have_content": true,
+    "all_chunks_have_hashes": true,
+    "page_mapping_available": true,
+    "tables_preserved": true
+  },
+  "generated_files": {
+    "evidence_chunks": "data\\germany\\uni_frankfurt\\programs\\0021\\pdf\\source\\evidence\\pdf_evidence_chunks.json"
+  },
+  "chunks": [
+    {
+      "chunk_id": "pdf_source_0001",
+      "chunk_index": 1,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 1,
+        "title": "Document overview",
+        "type": "identity_overview",
+        "heading_level": null,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Document overview\n\n<!-- PageHeader=\"12. Juni 2014\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 16,
+        "word_count": 2,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "a24b6b397d437385dd62a0c3946c7abf8a566ae4c63d3bd730b309c949ebfb1d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0002",
+      "chunk_index": 2,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 2,
+        "title": "UniReport",
+        "type": "regulations",
+        "heading_level": 1,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [],
+        "page_start": null,
+        "page_end": null
+      },
+      "content": "# UniReport\n\n<figure>\n</figure>\n\nGoethe-Universität | Frankfurt am Main\nSatzungen und Ordnungen\n\nFachspezifische Bestimmungen des Fachbereichs Sprach- und\nKulturwissenschaften für den Masterstudiengang Curatorial Studies -\nTheorie - Geschichte - Kritik mit dem Abschluss Master of Arts (M.A.) vom\n16. Januar 2013\n\nGenehmigt vom Präsidium in der Sitzung am 28. Mai 2014",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 113,
+        "word_count": 46,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": []
+      },
+      "traceability": {
+        "content_sha256": "71dcd13247c1b512c37f4e810609e08d29f1fc73b46deeb1663aece3953bf28d",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0003",
+      "chunk_index": 3,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 3,
+        "title": "Inhaltsverzeichnis",
+        "type": "identity_overview",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Inhaltsverzeichnis\n\nI. Allgemeines\n\nII. Gegenstand und Ziele\n\nIII. Studienverlauf und Lehrkörper\n\nIV. Voraussetzungen für die Zulassung zum Masterstudiengang\n\nV. Prüfungsausschuss\n\nVI. Aufbau des Studiums\n\nVII. Formen der Leistungskontrolle im Rahmen von Studienleistungen\n\nVIII. Mastermodul gemäß § 23 Abs. 2\n\nIX. Prüfungszeugnis und Masterurkunde\n\nX. Bewertung der Prüfungsleistungen; Gesamtnote\n\nXI. Anrechnung früherer Studien- und Prüfungsleistungen\n\nXII. Inkrafttreten",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 170,
+        "word_count": 55,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3cb292bc689290965d6ee7a1816960a47ae4442b4e7de9e22f4175add08793f2",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0004",
+      "chunk_index": 4,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 4,
+        "title": "Anhänge:",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          1
+        ],
+        "page_start": 1,
+        "page_end": 1
+      },
+      "content": "## Anhänge:\n\nAnhang 1: Modulbeschreibungen für den Masterstudiengang Curatorial Studies - Theorie -\nGeschichte - Kritik\n\nAnhang 2: Exemplarischer Studienverlaufsplan\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 81,
+        "word_count": 16,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          1
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1e60bbfca02e95a5cd5831041259264a3250cf4eb386eb56522d0647893f35db",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0005",
+      "chunk_index": 5,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 5,
+        "title": "Abkürzungen:",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          2
+        ],
+        "page_start": 2,
+        "page_end": 2
+      },
+      "content": "## Abkürzungen:\n\n<table>\n<tr>\n<td>CP:</td>\n<td>Credit Points</td>\n</tr>\n<tr>\n<td>E:</td>\n<td>Exkursion</td>\n</tr>\n<tr>\n<td>KQ:</td>\n<td>Kolloquium</td>\n</tr>\n<tr>\n<td>LN:</td>\n<td>Leistungsnachweis</td>\n</tr>\n<tr>\n<td>MA:</td>\n<td>Mastermodul</td>\n</tr>\n<tr>\n<td>MAB:</td>\n<td>Masterarbeit</td>\n</tr>\n<tr>\n<td>P:</td>\n<td>Praxisstation</td>\n</tr>\n<tr>\n<td>PL:</td>\n<td>Prüfungsleistung</td>\n</tr>\n<tr>\n<td>S:</td>\n<td>Seminar</td>\n</tr>\n<tr>\n<td>SWS:</td>\n<td>Semesterwochenstunden</td>\n</tr>\n<tr>\n<td>T:</td>\n<td>Tutorium</td>\n</tr>\n<tr>\n<td>TN:</td>\n<td>Teilnahmenachweis (aktive Teilnahme)</td>\n</tr>\n<tr>\n<td>Ü:</td>\n<td>Übung</td>\n</tr>\n<tr>\n<td>V:</td>\n<td>Vorlesung</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"2\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 318,
+        "word_count": 32,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          2
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3352ad39d438b42cd2d9d76b71a07be0fa05a6b8963db8c5ea85df05b8eaab5b",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0006",
+      "chunk_index": 6,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 6,
+        "title": "I. Allgemeines",
+        "type": "curriculum",
+        "heading_level": 2,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3
+        ],
+        "page_start": 3,
+        "page_end": 3
+      },
+      "content": "## I. Allgemeines\n\nDie Ordnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwissenschaften (FB 09) an der\nJohann Wolfgang Goethe-Universität Frankfurt am Main vom 21.05.2008 ist in der jeweils geltenden Fassung\nBestandteil dieser fachspezifischen Bestimmungen. Diese regeln insbesondere die Ziele und den Aufbau des Stu-\ndiengangs, die Zulassung zur Masterprüfung und zur Masterarbeit und beschreiben die Module im Masterstudi-\nengang Curatorial Studies - Theorie - Geschichte - Kritik.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 146,
+        "word_count": 67,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          3
+        ]
+      },
+      "traceability": {
+        "content_sha256": "8ebf63d394ebc705ec7bd0447823e583421266577c74ca9d63781d6e56473f8f",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0007",
+      "chunk_index": 7,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 7,
+        "title": "II. Gegenstand und Ziele",
+        "type": "identity_overview",
+        "heading_level": 3,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          3,
+          4
+        ],
+        "page_start": 3,
+        "page_end": 4
+      },
+      "content": "### II. Gegenstand und Ziele\n\nCuratorial Studies - Theorie - Geschichte - Kritik ist ein Kooperationsstudiengang der Goethe-Universität und\nder Staatlichen Hochschule für Bildende Künste - Städelschule - in enger Zusammenarbeit mit fünf Frankfurter\nMuseen: dem Städel Museum und Liebieghaus, dem Museum für Moderne Kunst, dem Museum der Weltkultu-\nren und dem Historischen Museum. Innerhalb der Goethe-Universität sind folgende Fächer beteiligt: Kunstge-\nschichte, Philosophie, Ethnologie, Kunstpädagogik und Archäologische Wissenschaften. Der akademische Grad\n„Master of Arts“ (M.A.) wird von beiden Hochschulen gemeinsam verliehen, die jeweiligen fachlichen Schwer-\npunkte werden durch ein „Diploma Supplement“ nachgewiesen.\n\nDie wissenschaftliche kritische Reflexion über das Kuratieren und dessen Operationalisierungsmöglichkeiten -\nals eine intellektuelle und ästhetische Herausforderung - stehen im Zentrum des Masterstudiengangs. Ziel ist das\nErwerben einer fundierten Kompetenz, für die die Verbindung einer objektbezogenen Herangehensweise mit\nTheorie- und Fachwissen konstitutiv ist. Der Masterstudiengang zielt nicht allein auf den Ausstellungs- und\nMuseumsbereich (obgleich dies im Zentrum steht), sondern auf das gesamte Feld der kritischen Moderierung\nöffentlicher Diskurse mit ästhetischen Mitteln. Diskussionskulturen des Kuratorischen sind bislang im Wesentli-\nchen im Bereich der Gegenwartskunst etabliert. Es ist ein besonderes Anliegen des neuen Studiengangs, diese\neng an die Gegenwartskunst gebundene Diskussion zu öffnen und auf ein breites Spektrum kulturwissenschaftli-\ncher Disziplinen zu beziehen.\n\nAusstellungs- und Museumsbetrieb des 21. Jahrhunderts stehen vor neuen Aufgaben und Herausforderungen.\nUnter den Bedingungen einer internationalisierten Kunstwelt und eines zunehmend heterogenen Publikums,\naber auch als Reaktion auf Entwicklungen innerhalb der Gegenwartskunst ist die Präsentation von Kunstwerken\nund Objekten zu einer komplexen Herausforderung geworden, die kunsthistorische ebenso wie kulturelle, sozia-\nle, politische und philosophische Dimensionen impliziert. Kunstinstitutionen, Sammlungen und Museen müssen\nauf diesen Wandel reagieren und sich der Aufgabe stellen, ihren Begriff von Öffentlichkeit neu zu formulieren.\nMuseen sind schon lange nicht mehr allein Orte, an denen ausschließlich Objekte präsentiert werden. Die sich\ndaraus ergebenden Konsequenzen gelten keineswegs nur für solche Institutionen, die direkt mit der Gegen-\nwartskunst befasst sind. Vielmehr sind die entsprechenden Veränderungen derart grundlegend, dass sie auch den\n„traditionellen' Betrieb kunsthistorischer, ethnologischer oder historischer Sammlungen betreffen.\n\nDer Studiengang reagiert auf diese Herausforderungen und bietet zukünftigen Ausstellungsmachern, Museums-\nkuratoren und Kunstkritikern ein innovatives Studium, in dem akademisches Fachwissen aus den Bereichen\nKunstgeschichte, Philosophie, Ethnologie, Geschichte, Kunstpädagogik und Archäologische Wissenschaften mit\npraktischen Kenntnissen kombiniert wird. Die Besonderheit des Frankfurter Studiengangs liegt in der engen\nVerschränkung von Universität, Kunstakademie und Museum. Schwerpunkte des Studiums sind neben der wis-\nsenschaftlichen Vertiefung im jeweils eigenen Fach, auf das man sich zu Beginn des Studiums festlegen muss, die\nVermittlung von theoretischen und fachlichen Grundlagen kuratorischen Urteilens sowie die Entwicklung der\nFähigkeit - sei es im Medium der Ausstellungskritik, sei es in dem der Ausstellung selbst - qualifiziert zu argu-\nmentieren.\n\nDas Berufsfeld, auf das der Masterstudiengang in besonderer Weise vorbereitet, ist das Feld der Museums- und\nAusstellungsarbeit, insbesondere das Kuratieren von Museumssammlungen und Sonderausstellungen, der\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->\n\nKunstkritik sowie des Medienbereichs und des Journalismus. Ferner bieten sich aufgrund der Kombination von\nfachwissenschaftlichen und anwendungsbezogenen Kompetenzen Arbeitsmöglichkeiten im Bereich der Kunst-\nvermittlung und Art Education sowie in Marketing, Öffentlichkeitsarbeit und Fundraising, aber auch in Stiftun-\ngen und Kunsthandel.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1147,
+        "word_count": 499,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          3,
+          4
+        ]
+      },
+      "traceability": {
+        "content_sha256": "0a623b59e9502eb54e9c4ea62f42276c66d449f52c73dfb519780ee6fac38a4c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0008",
+      "chunk_index": 8,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 8,
+        "title": "III. Studienverlauf und Lehrkörper",
+        "type": "identity_overview",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          4
+        ],
+        "page_start": 4,
+        "page_end": 4
+      },
+      "content": "#### III. Studienverlauf und Lehrkörper\n\nDer Studiengang verbindet ein erstes Jahr mit einem verpflichtenden Stundenplan (Kurs-Phase) mit einem\nzweiten, weitgehend selbst bestimmten, das sich nach den individuellen Vorgeschichten und Perspektiven richtet\n(Individuelle Betreuungs-Phase). In der Kurs-Phase sollen die Studierenden einerseits die wesentlichen histori-\nschen und gegenwärtigen Grundlagen der Konzeption und Realisierung von Ausstellungen und Sammlungsprä-\nsentationen sowie Kriterien und Kategorien der Kunstkritik erlernen; andererseits geht es um theoretische\nGrundlagen auf dem Feld von Kunsttheorie und Ästhetik. Ausstellungs- und museumsgeschichtliche Studienan-\nteile vertiefen das Wissen um die Bindung des Museums- und Ausstellungsapparates an Gesellschaft und Politik.\nEine zweimonatige Praxisstation, möglichst mit der Chance, in ein Ausstellungsprojekt eingebunden zu sein,\nmacht die Studierenden mit dem Alltag eines Museums oder einer Ausstellungshalle vertraut.\n\nIn der Individuellen Betreuungs-Phase geht es um die weitere fachliche Qualifizierung und Spezialisierung in der\nDisziplin, in der im Hauptfach der erste berufsqualifizierende Abschluss abgelegt worden ist. Die Studierenden\nsollen in der Lage sein, umfassende Themen mit dem jeweils aktuellen Forschungsgegenstand überblicken, adä-\nquat erschließen und kontextualisieren zu können. Ziel ist es, kritische Einsichten in die Grundlagen und Me-\nthoden des jeweiligen Faches zu gewinnen, ein fundiertes Wissen von seinen Gegenständen sowie die Befähi-\ngung, wissenschaftliche Fragestellungen eigenständig entwickeln und sachlich und sprachlich angemessen dar-\nstellen zu können. Darüberhinaus wird erwartet, dass sich alle Studierenden mit der materiellen Erschließung\nvon Objekten vertraut machen, etwa mit gemäldetechnologischen Untersuchungen oder anderen objektbezoge-\nnen Herangehensweisen. Möglich sind auch Projektarbeiten in Zusammenarbeit mit einer der kooperierenden\nInstitutionen. Das Mentoring bietet den Studierenden die Möglichkeit, mit einzelnen Museumsexperten und\nKuratoren in engen Austausch zu treten.\n\nLehrende sind Hochschullehrer der Goethe-Universität (derzeit Kunstgeschichte, Philosophie, Ethnologie, Ge-\nschichte, Kunstpädagogik und Archäologische Wissenschaften) und der Städelschule sowie Direktoren und Ku-\nratoren der Frankfurter Museums- und Ausstellungshäuser. Für einzelne Veranstaltungen und Projekte werden\nzusätzlich Externe gewonnen, insbesondere Kunstkritiker, Ausstellungsarchitekten, Graphiker und andere Fach-\nleute. Die jährliche Aufnahme von 12 bis 15 Studierenden garantiert in den eigens für den Studiengang einge-\nrichteten Veranstaltungen ein besonders gutes Verhältnis von Lehrenden und Studierenden.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 750,
+        "word_count": 335,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          4
+        ]
+      },
+      "traceability": {
+        "content_sha256": "9a54acbaa4fbe7a8409a356085ad0b34d3eabcd497e3017c87a357c75979a393",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0009",
+      "chunk_index": 9,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 9,
+        "title": "IV. Voraussetzungen für die Zulassung zum Masterstudiengang",
+        "type": "admission",
+        "heading_level": 4,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          4,
+          5
+        ],
+        "page_start": 4,
+        "page_end": 5
+      },
+      "content": "#### IV. Voraussetzungen für die Zulassung zum Masterstudiengang\n\n1\\. Das Studium kann nur im Wintersemester aufgenommen werden.\n\n2\\. Voraussetzung für die Zulassung zum Studiengang ist der Bachelorabschluss oder ein mindestens gleichwerti-\nger Abschluss mit einer Mindestregelstudienzeit von 6 Semestern in Kunstgeschichte, Philosophie, Ethnologie,\nGeschichte, Kunstpädagogik, Archäologische Wissenschaften oder in verwandten kulturwissenschaftlichen Fä-\nchern.\n\n3\\. Über die Zulassung zum Masterstudiengang entscheidet der Prüfungsausschuss. Die Bewerbung muss die\nentsprechenden Zeugnisse, ein Motivationsschreiben und den Lebenslauf enthalten. Innerhalb der Bewerbungs-\nunterlagen wird die Note des Bachelors oder Magisters 51 % gewichtet, das eine Seite umfassende Motivations-\nschreiben 49 %. Die Bewertung des Motivationsschreibens stützt sich neben der äußeren Qualität auf die über-\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"4\" -->\n<!-- PageBreak -->\n\nzeugende Darstellung des persönlichen und des spezifischen Interesses am Masterstudiengang. Darüber hinaus\nstützt sich die Bewertung des Motivationsschreibens unter Heranziehung des eingereichten Lebenslaufs auf bis-\nherige Studien-, Berufs- und Praxiserfahrungen oder studienrelevante außeruniversitäre Leistungen, die über\ndie Eignung für den Masterstudiengang besonderen Aufschluss geben können. Das Motivationsschreiben wird\nbenotet („1 = sehr gut“, „2 = gut“, „3 = befriedigend“, „4 = ausreichend“ bis „5 = mangelhaft“). Die Zulassung\nzum Masterstudiengang erfolgt, wenn der aus Bachelorabschluss und Motivationsschreiben ermittelte Noten-\nwert mindestens 2,0 beträgt.\n\n4\\. Die Zulassung zum Studiengang setzt Lateinkenntnisse (Sprachprüfung des Instituts für Klassische Philologie\nder Goethe-Universität, äquivalente Kenntnisse/Prüfungen oder drei Jahre Lateinunterricht) und Kenntnisse in\nzwei weiteren modernen Fremdsprachen (davon eine Englisch oder Französisch) voraus. Nachgewiesen werden\nkönnen die Sprachkenntnisse durch:\n\na) das Abiturzeugnis oder\n\nb) entsprechende Oberstufenzeugnisse, wobei die Benotung nicht schlechter als „ausreichend (4,0)“ bzw.\nfünf Punkte sein darf, oder\n\nc) Zertifikate über erfolgreich absolvierte Sprachkurse von deutschen und/oder ausländischen Universitäten,\nwobei mindestens 120 Stunden Unterricht nachzuweisen sind, oder\n\nd) Fachgutachten bzw. Lektorenprüfungen über Sprachkenntnisse, die durch Auslandsaufenthalte, Universi-\ntätssprachkurse oder im Selbststudium erworben wurden, oder\n\ne) Zertifikate über einen anderen vom Institut für Klassische Philologie als gleichwertig anerkannten Nach-\nweis.\n\nBei Studierenden mit der fachwissenschaftlichen Ausrichtung in Ethnologie, Kunstpädagogik und Philosophie\nentfällt der Nachweis der Lateinkenntnisse.\n\nDie in der Ordnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwissenschaften gemäß § 4\nAbs. 3 vorausgesetzten Deutschkenntnisse bei ausländischen Studienbewerberinnen und Studienbewerbern sind\näquivalent zu einer der in S. 4 geforderten Kenntnisse in zwei modernen Fremdsprachen. In diesem Fall ist nur\nnoch der Nachweis der Sprachkenntnisse in Englisch oder Französisch gemäß Satz 2 zu erbringen.\n\n5\\. Absolventen künstlerischer Studiengänge können ebenfalls zugelassen werden. Über die Aufnahme entschei-\ndet der Prüfungsausschuss. Bei ihnen können die Lateinkenntnisse von den allgemeinen Anforderungen abwei-\nchen. Entscheidungen trifft hier der Prüfungsausschuss.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1033,
+        "word_count": 404,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          4,
+          5
+        ]
+      },
+      "traceability": {
+        "content_sha256": "daf7e0cf2f25aabff17da8043883424ddb33462d7795809ff90026259c05526e",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0010",
+      "chunk_index": 10,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 10,
+        "title": "V. Prüfungsausschuss",
+        "type": "assessment",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          5,
+          6
+        ],
+        "page_start": 5,
+        "page_end": 6
+      },
+      "content": "##### V. Prüfungsausschuss\n\n1\\. Abweichend von § 12 Abs. 1 bis 3 der Masterordnung für die Masterstudiengänge des Fachbereichs Sprach-\nund Kulturwissenschaften (FB 09) an der Johann Wolfgang Goethe-Universität richten der Fachbereich Sprach-\nund Kulturwissenschaften, der Fachbereich Philosophie und Geschichtswissenschaften (FB 08) und die Staatli-\nche Hochschule für Bildende Künste Frankfurt am Main - Städelschule - für den gemeinsamen Masterstudien-\ngang Curatorial Studies - Theorie - Geschichte - Kritik einen gemeinsamen Prüfungsausschuss ein. Der Prü-\nfungsausschuss setzt sich wie folgt zusammen:\n\n3 Professorinnen oder Professoren der Goethe-Universität,\n\n1 Professorin oder Professor der Städelschule,\n\n2 wissenschaftliche Mitarbeiterinnen oder Mitarbeiter beider Hochschulen,\n\n1 Studierende oder Studierender der Goethe-Universität.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->\n\n2\\. Bestimmt wird der Prüfungsausschuss durch den Fachbereichsrat des FB 09, nach Rücksprache mit den betei-\nligten Fächern.\n\nMit Ausnahme der akademischen Leitung werden die Mitglieder des Prüfungsausschusses nebst ihrer Stellvertre-\nter, soweit sie der Goethe-Universität angehören, auf Vorschlag der jeweiligen Gruppen vom Fachbereichsrat\ngewählt. Das professorale Mitglied der Städelschule wird von dieser bestimmt. Aus dem Kreis der gewählten\nMitglieder wählt der Prüfungsausschuss eine Professorin oder einen Professor als Vorsitzende oder Vorsitzenden\nund eine Professorin oder einen Professor als Stellvertreterin oder Stellvertreter.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 444,
+        "word_count": 185,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          5,
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "1ec183d04dc9c12109e585ce040360033810ee58193879dbf1f646334823c010",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0011",
+      "chunk_index": 11,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 11,
+        "title": "VI. Aufbau des Studiums",
+        "type": "curriculum",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "##### VI. Aufbau des Studiums\n\n1\\. Die im Rahmen des Masterstudiengangs zu erwerbenden CP verteilen sich wie folgt:\n\nDer Pflichtbereich besteht aus 7 Pflichtmodulen\n\n90 CP\n\nDas Mastermodul umfasst\n\n30 CP\n\n(davon entfallen auf die Masterarbeit 26 CP)\n\n2\\. Für die Masterprüfung sind folgende Module zu absolvieren:\n\n<table>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 1</td>\n<td>Kuratorisches Urteilen und inszenierendes Argumentieren</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 2</td>\n<td>Kultur-, Museums- und Ausstellungspolitiken in Geschichte und Gegenwart</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 3</td>\n<td>Ästhetische Theorie und Praxis</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 4</td>\n<td>Fachdisziplinäre Ausrichtung I</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 5</td>\n<td>Fachdisziplinäre Ausrichtung II</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 6</td>\n<td>Fachdisziplinäre Ausrichtung III</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 7</td>\n<td>Praxisstation und Exkursion</td>\n</tr>\n<tr>\n<td>·</td>\n<td>Pflichtmodul MA 8</td>\n<td>Master</td>\n</tr>\n</table>\n\nDie Studierenden legen zu Beginn des Studiums fest, in welchem Fach sie ihre „Fachwissenschaftliche Vertie-\nfung“ leisten, dabei muss es sich um ein Fach handeln, in dem sie im Hauptfach ihren ersten berufsqualifizieren-\nden Abschluss abgelegt haben.\n\nDie Beschreibungen der einzelnen Module des Pflichtbereichs und des Mastermoduls einschließlich der erforder-\nlichen Studien- und Prüfungsleistungen sind Anhang 1 zu entnehmen.\n\n3\\. Bei den Modulen M 4, M 5 und M 6 gelten die Regelungen für die fachspezifischen Zugangsvoraussetzungen\ndes jeweils anbietenden Faches.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 565,
+        "word_count": 181,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "f6372ccaedc8efa11f22fd1b80635c9cf95e744f239180f540e34a414c2ee1fe",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0012",
+      "chunk_index": 12,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 12,
+        "title": "VII. Formen der Leistungskontrolle im Rahmen von Studienleistungen",
+        "type": "curriculum",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "##### VII. Formen der Leistungskontrolle im Rahmen von Studienleistungen\n\nErgänzend zu § 9 Abs. 6 der Ordnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwissen-\nschaften werden in Modul 2 als Studienleistung in der Übung Kurzrezensionen gefordert. Diese umfassen 1 bis 2\nSeiten. Darin sollen die Studierenden die in der Übung erarbeiteten Kriterien und Kategorien der Kunstkritik in\neigenen Kurzrezensionen umsetzen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 139,
+        "word_count": 59,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "dffcdf4beaf64cc3ff35594f8c91835bc586a29cc255f5617c2ad43bfb58bdb6",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0013",
+      "chunk_index": 13,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 13,
+        "title": "VIII. Mastermodul gem. § 23 Abs. 2",
+        "type": "curriculum",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          6
+        ],
+        "page_start": 6,
+        "page_end": 6
+      },
+      "content": "##### VIII. Mastermodul gem. § 23 Abs. 2\n\nDie Zulassung zum Mastermodul kann beantragt werden, wenn Module im Umfang von mindestens 60 CP er-\nfolgreich abgeschlossen worden sind. Die Masterarbeit wird innerhalb eines Zeitraumes von 6 Monaten angefer-\ntigt und ergibt eine Leistung von 26 CP.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"6\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 119,
+        "word_count": 44,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          6
+        ]
+      },
+      "traceability": {
+        "content_sha256": "6c1af009c5e67ec659ff787d62ec38fd22ee93ddd44224c6f938dbf66dd5b67c",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0014",
+      "chunk_index": 14,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 14,
+        "title": "IX. Prüfungszeugnis und Masterurkunde",
+        "type": "assessment",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          7
+        ],
+        "page_start": 7,
+        "page_end": 7
+      },
+      "content": "##### IX. Prüfungszeugnis und Masterurkunde\n\nAbweichend von § 3 der Masterordnung für die Masterstudiengänge des Fachbereichs Sprach- und Kulturwis-\nsenschaften (FB 09) an der Johann Wolfgang Goethe-Universität verleihen beide beteiligten Hochschulen den\nakademischen Grad. Das Zeugnis gem. § 27 ist zusätzlich von einem Hochschullehrer oder einer Hochschullehre-\nrin der Städelschule zu unterschreiben. Die Masterurkunde ist abweichend zu § 28 vom Dekan bzw. der Dekanin\ndes Fachbereichs 9 und von einem Professor oder Professorin der Städelschule zu unterzeichnen.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 171,
+        "word_count": 74,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "7106896cf1145e667720e97b94aa846e9740da4062889f7e28c8cdde22dd27d1",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0015",
+      "chunk_index": 15,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 15,
+        "title": "X. Bewertung der Prüfungsleistungen; Gesamtnote",
+        "type": "assessment",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          7
+        ],
+        "page_start": 7,
+        "page_end": 7
+      },
+      "content": "##### X. Bewertung der Prüfungsleistungen; Gesamtnote\n\nDie Gesamtnote der Masterprüfung errechnet sich aus dem arithmetrischen Mittel der Modulprüfungen und der\nNote der Masterarbeit. Die Masterarbeit wird bei der Berechnung der Masternote doppelt gewertet. Das Gesamt-\nurteil „mit Auszeichnung bestanden“ wird erteilt, wenn sämtliche Prüfungsleistungen mit „sehr gut“ (1,0) be-\nwertet sind",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 120,
+        "word_count": 51,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "080f9f9cd1f975a5d6072f70db6aba16a63665f6fe5715d13e88cbb2fdce2b85",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0016",
+      "chunk_index": 16,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 16,
+        "title": "XI. Anrechnung früherer Studien- und Prüfungsleistungen",
+        "type": "assessment",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          7
+        ],
+        "page_start": 7,
+        "page_end": 7
+      },
+      "content": "##### XI. Anrechnung früherer Studien- und Prüfungsleistungen\n\nDie Anrechnung von Studien- und Prüfungsleistungen für die fachdisziplinäre Ausrichtung I - III aus einem\nmodularisierten Studiengang gemäß § 20 der Ordnung für die Masterstudiengänge des Fachbereichs Sprach-\nund Kulturwissenschaften ist ausgeschlossen. Sonderregelungen gelten für Frankfurter Studierende, die einen\nmodularisierten Magister an der Goethe-Universität in den Fächern Ethnologie, Geschichte , Kunstgeschichte\nund Philosophie, Kunstpädagogik und Archäologische Wissenschaften absolviert haben, und Studierende des\nStudiengangs Freie Bildende Kunst der Städelschule. Ihre Vorleistungen werden, was die „fachdisziplinäre Ver-\ntiefung“ angeht, in bestimmtem Umfang anerkannt. Die Anerkennung wird beim Prüfungsausschuss beantragt.",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 245,
+        "word_count": 91,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e5f10fbc8fe6e11c9483822af5cf359cf104f4de61a96a7dddb9e0c08df80e67",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0017",
+      "chunk_index": 17,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 17,
+        "title": "XII. Inkrafttreten",
+        "type": "general",
+        "heading_level": 5,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          7
+        ],
+        "page_start": 7,
+        "page_end": 7
+      },
+      "content": "##### XII. Inkrafttreten\n\nDie fachspezifischen Bestimmungen treten am Tage nach ihrer Bekanntgabe im Uni-Report in Kraft. Sie gelten\nerstmals ab Wintersemester 2014/15.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 77,
+        "word_count": 23,
+        "contains_table": false,
+        "table_count": 0
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          7
+        ]
+      },
+      "traceability": {
+        "content_sha256": "c4087c7f1e6623eddbccc3d4de70dc90cc8b6823960e0b1dba4d131d277a58b3",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0018",
+      "chunk_index": 18,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "Überblick:",
+        "type": "curriculum",
+        "heading_level": 6,
+        "part_number": 1,
+        "part_count": 5
+      },
+      "location": {
+        "page_numbers": [
+          8,
+          9
+        ],
+        "page_start": 8,
+        "page_end": 9
+      },
+      "content": "###### Überblick:\n\n<table>\n<tr>\n<td rowspan=\"4\">MA 1: Kuratorisches Urteilen und inszenieren- des Argumentieren</td>\n<td>1 KQ</td>\n<td>6 CP</td>\n</tr>\n<tr>\n<td>1 KQ</td>\n<td>6 CP</td>\n</tr>\n<tr>\n<td>1 T</td>\n<td>2 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>14 CP</td>\n</tr>\n<tr>\n<td rowspan=\"3\">MA 2: Kultur-, Museums- und Ausstellungspoliti- ken in Geschichte und Gegenwart</td>\n<td>1 S</td>\n<td>9 CP</td>\n</tr>\n<tr>\n<td>1 Ü</td>\n<td>6 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>15 CP</td>\n</tr>\n<tr>\n<td rowspan=\"3\">MA 3: Ästhetische Theorie und Praxis</td>\n<td>1 V oder S</td>\n<td>2 CP</td>\n</tr>\n<tr>\n<td>1 Ü</td>\n<td>6 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>8 CP</td>\n</tr>\n<tr>\n<td rowspan=\"3\">MA 4: Fachdisziplinäre Ausrichtung I</td>\n<td>1 V</td>\n<td>2 CP</td>\n</tr>\n<tr>\n<td>1 S</td>\n<td>9 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>11 CP</td>\n</tr>\n<tr>\n<td rowspan=\"4\">MA 5: Fachdisziplinäre Ausrichtung II</td>\n<td>1 V</td>\n<td>2 CP</td>\n</tr>\n<tr>\n<td>1 V</td>\n<td>2 CP</td>\n</tr>\n<tr>\n<td>1 S</td>\n<td>9 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>13 CP</td>\n</tr>\n<tr>\n<td rowspan=\"3\">MA 6: Fachdisziplinäre Ausrichtung III</td>\n<td>1 S</td>\n<td>6 CP</td>\n</tr>\n<tr>\n<td>1 S</td>\n<td>9 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>15 CP</td>\n</tr>\n<tr>\n<td rowspan=\"3\">MA 7: Praxisstation und Exkursion</td>\n<td>1 P</td>\n<td>9 CP</td>\n</tr>\n<tr>\n<td>1 E</td>\n<td>5 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>14 CP</td>\n</tr>\n<tr>\n<td rowspan=\"3\">MA 8: Masterqualifikation</td>\n<td>1 KQ</td>\n<td>4 CP</td>\n</tr>\n<tr>\n<td>Masterarbeit</td>\n<td>26 CP</td>\n</tr>\n<tr>\n<td>Summe</td>\n<td>30 CP</td>\n</tr>\n<tr>\n<td></td>\n<td>Summe gesamt</td>\n<td>120 CP</td>\n</tr>\n</table>\n\n<!-- PageNumber=\"8\" -->\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->\n\n<table>\n<tr>\n<th>Bezeichnung</th>\n<th colspan=\"5\">Modul 1: Kuratorisches Urteilen und inszenierendes Argumentieren</th>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"5\">3 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"5\">Das Modul wird jährlich angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"2\">4</td>\n<td colspan=\"2\"></td>\n<td></td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"2\">14</td>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td colspan=\"2\"></td>\n<td colspan=\"4\">Semester/Workload in CP</td>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n</tr>\n<tr>\n<td>KQ 1</td>\n<td>2</td>\n<td>3+ 3</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>KQ 2</td>\n<td>2</td>\n<td></td>\n<td>3+ 3</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>T</td>\n<td>1</td>\n<td></td>\n<td></td>\n<td>2</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"3\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>KQ 1</td>\n<td colspan=\"4\">LN oder Prüfungsleistung: Hausarbeit</td>\n</tr>\n<tr>\n<td>KQ 2</td>\n<td colspan=\"4\">LN oder Prüfungsleistung Hausarbeit</td>\n</tr>\n<tr>\n<td>T</td>\n<td>TN</td>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"5\">Das Modul soll vertraut machen mit Museums- und Ausstellungskonzeptionen, insbesondere dem ausstellungsrelevanten Operationalisieren von Ideen und Interpretationen, also dem sinnstiftenden Auswählen, im Spannungsfeld zwischen Objekt und Diskurs. Die Studierenden diskutieren mit Kuratoren der am Studiengang beteiligten Museen laufende Projekte an den Institutionen: Sammlungspräsentationen, Sonderausstellungen, Ankaufspolitik.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"5\">Ziel ist die Reflexion über das visuelle Inszenieren aktueller Fachdiskussionen bzw. das Verknüpfen von Ausstellungen oder Sammlungspräsentationen mit wissenschaftlichen/ intellektuellen Ansätzen und Perspektiven.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"5\">Hausarbeit zu KQ 1 oder KQ 2 (Umfang ca. 35.000 Zeichen/ ca. 15 - 20 Seiten)</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"5\">Die Voraussetzung für die Vergabe von CP ist TN und LN zu den KQ und TN zu T sowie das Bestehen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1564,
+        "word_count": 328,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          8,
+          9
+        ]
+      },
+      "traceability": {
+        "content_sha256": "3fdc780a96158fc566854263547bb1549bad524d260e40072c9b45518c964228",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0019",
+      "chunk_index": 19,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "Überblick:",
+        "type": "curriculum",
+        "heading_level": 6,
+        "part_number": 2,
+        "part_count": 5
+      },
+      "location": {
+        "page_numbers": [
+          10,
+          11
+        ],
+        "page_start": 10,
+        "page_end": 11
+      },
+      "content": "###### Überblick:\n\n<table>\n<tr>\n<td>Bezeichnung</td>\n<td colspan=\"4\">Modul 2: Kultur-, Museums- und Ausstellungspolitiken in Geschichte und Gegenwart</td>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"4\">2 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"4\">Das Modul wird jährlich angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"4\">4</td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"4\">15</td>\n</tr>\n<tr>\n<td colspan=\"2\"></td>\n<td colspan=\"3\">Semester/Workload in CP</td>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1</td>\n<td>2</td>\n<td>3 4</td>\n</tr>\n<tr>\n<td>1 S</td>\n<td>2</td>\n<td>3+ 6</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>1 Ü</td>\n<td>2</td>\n<td></td>\n<td>3+ 3</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>S</td>\n<td colspan=\"3\">LN: Referat</td>\n</tr>\n<tr>\n<td>Ü</td>\n<td colspan=\"3\">LN: Kurzrezensionen</td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"4\">Das Modul behandelt die Rolle von Museen und Ausstellungen im gesellschaft- lichen Kontext von Geschichte und Gegenwart. Gewährleistet sein soll ein si- cherer Umgang mit der Geschichte epochemachender und epochenspezifischer Ausstellungen bzw. Museumspräsentationen. Das Modul verlangt die Teilnah- me sowohl an historisch ausgerichteten Veranstaltungen als auch an gegen- wartsorientierten.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"4\">Ziel des Moduls ist ein kompetenter und kritischer Umgang mit der politischen und gesellschaftlichen Rolle des Museums- und Ausstellungswesens, insbe- sondere im Umfeld der multikulturellen, -religiösen und -ethnischen Umfelder des 21. Jahrhunderts.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"4\">Hausarbeit zum S (Umfang ca. 35.000 Zeichen/ ca. 15 - 20 Seiten)</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"4\">Die Voraussetzung für die Vergabe von CP ist LN zu S und Ü sowie das Beste- hen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"10\" -->\n<!-- PageBreak -->\n\n<table>\n<tr>\n<th>Bezeichnung</th>\n<th colspan=\"3\">Modul 3: Ästhetische Theorie und Praxis</th>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"3\">2 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"3\">Das Modul wird jährlich angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"3\">4</td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"3\">8</td>\n</tr>\n<tr>\n<th colspan=\"2\"></th>\n<th colspan=\"2\">Semester/Workload in CP</th>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1 2</td>\n<td>3 4</td>\n</tr>\n<tr>\n<td>1 V oder S</td>\n<td>2</td>\n<td>2</td>\n<td></td>\n</tr>\n<tr>\n<td>1 Ü</td>\n<td>2</td>\n<td>3+ 3</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>V oder S</td>\n<td colspan=\"2\">TN</td>\n</tr>\n<tr>\n<td>Ü</td>\n<td colspan=\"2\">TN</td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"3\">Das Modul macht mit historischen und aktuellen ästhetischen Theorien vertraut. Basierend auf den Optionen, welche die Kooperation mit einer Kunsthochschule bietet, geht es überdies um die Schnittstellen zwischen kuratorischen und per- formativen Praktiken. Zusätzliche Angebote in Form von Workshops beziehen sich auf Szenographie, Ausstellungsarchitektur, graphische Gestaltung, Fragen zur Restaurierung, aber auch auf Art Education und neue Formen der Kunst- vermittlung.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"3\">Ziel des Moduls ist es, auf die komplexer gewordenen Kompetenzanforderungen im Bereich der kuratorischen Arbeit zu reagieren und neben der wissenschaftli- chen Methode auch künstlerische Perspektiven erfahrbar zu machen.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"3\">Referat zur Ü</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"3\">Die Voraussetzung für die Vergabe von CP ist TN zu V oder S sowie das Beste- hen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1372,
+        "word_count": 347,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          10,
+          11
+        ]
+      },
+      "traceability": {
+        "content_sha256": "a209913eafd405875c2f3b1dd34a081c9a9fb795bf28fab0ad8f9f0f825f8517",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0020",
+      "chunk_index": 20,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "Überblick:",
+        "type": "curriculum",
+        "heading_level": 6,
+        "part_number": 3,
+        "part_count": 5
+      },
+      "location": {
+        "page_numbers": [
+          12,
+          13
+        ],
+        "page_start": 12,
+        "page_end": 13
+      },
+      "content": "###### Überblick:\n\n<table>\n<tr>\n<td>Bezeichnung</td>\n<td colspan=\"4\">Modul 4: Fachdisziplinäre Ausrichtung I</td>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"4\">1 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"4\">Das Modul wird jedes Semester angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"4\">4</td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"4\">11</td>\n</tr>\n<tr>\n<td colspan=\"2\"></td>\n<td colspan=\"3\">Semester/Workload in CP</td>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1 2</td>\n<td>3</td>\n<td>4</td>\n</tr>\n<tr>\n<td>V</td>\n<td>2</td>\n<td>2</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>S</td>\n<td>2</td>\n<td>3+ 6</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>V</td>\n<td colspan=\"3\"></td>\n</tr>\n<tr>\n<td>S</td>\n<td colspan=\"3\">LN: Referat</td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"4\">Das Modul soll zur kompetenten und kritischen Analyse der Diskus- sionen im jeweils eigenen Fach befähigen. Nur wer die Diskussionen im eigenen Fach beherrscht, kann über sie im kuratorischen Kon- text, etwa im Rahmen von Ausstellungskonzeptionen, reflektieren. Die Studierenden sollen das Wissen, das sie durch den Erstab- schluss mitbringen, intensivieren und ausbauen. Sie sollen sich mit den unterschiedlichen wissenschaftlichen Herangehensweisen und Methoden in ihrem Fach vertraut machen.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"4\">Ziel ist die Reflexion und eigenständige Erarbeitung fachspezifischer Themen und Fragestellungen in den verschiedenen Bereichen und Arbeitsfeldern der Kunstgeschichte bzw. Geschichte, Ethnologie, Philosophie, Kunstpädagogik und Archäologischen Wissenschaften.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"4\">Hausarbeit zum S (Umfang ca. 35.000 Zeichen/ ca. 15 - 20 Seiten)</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"4\">Die Voraussetzung für die Vergabe von CP ist TN zu der V und LN zu dem S sowie das Bestehen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"12\" -->\n<!-- PageBreak -->\n\n<table>\n<tr>\n<th>Bezeichnung</th>\n<th colspan=\"4\">Modul 5: Fachdisziplinäre Ausrichtung II</th>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"4\">2 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"4\">Das Modul wird jährlich angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"3\">6</td>\n<td></td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"2\">13</td>\n<td colspan=\"2\"></td>\n</tr>\n<tr>\n<td colspan=\"2\"></td>\n<td colspan=\"3\">Semester/Workload in CP</td>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1</td>\n<td>2</td>\n<td>3 4</td>\n</tr>\n<tr>\n<td>V</td>\n<td>2</td>\n<td></td>\n<td>2</td>\n<td></td>\n</tr>\n<tr>\n<td>V</td>\n<td>2</td>\n<td></td>\n<td></td>\n<td>2</td>\n</tr>\n<tr>\n<td>S</td>\n<td>2</td>\n<td></td>\n<td>3+ 6</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>V V</td>\n<td></td>\n<td colspan=\"2\"></td>\n</tr>\n<tr>\n<td>S</td>\n<td>LN: Referat</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"4\">Das Modul soll dazu dienen, eine vertiefte Kenntnis der fachspezifischen Herangehensweisen, Methoden und Texte zu erwerben, darüber angemessen reflektieren und selbständig forschungsrelevante Fragestellungen entwickeln zu können. Das Seminar des Moduls soll die Wahrnehmung medialer Parame- ter für die materielle Bedingtheit von Objekten schärfen. Studierende aller Fachrichtungen sollen sich exemplarisch mit einer objektbezogenen Methode vertraut machen, etwa mit gemäldetechnologischen Untersuchungen, filmi- schen Materialanalysen, oder vergleichbaren Herangehensweisen.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"4\">Ziel ist es, die Studierenden mit Objekten als Exponaten und Sammlungsge- genständen vertraut zu machen und zu erkennen, inwiefern dies Einfluss auf die Interpretation und Rezeption von Kunstwerken und Artefakten hat.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"4\">Hausarbeit zum S (Umfang ca. 35.000 Zeichen/ ca. 15 - 20 Seiten)</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"4\">Die Voraussetzung für die Vergabe von CP ist TN zu den V und LN zu S sowie das Bestehen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1493,
+        "word_count": 369,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          12,
+          13
+        ]
+      },
+      "traceability": {
+        "content_sha256": "e2b83e0325ff7de3058c595225dd6a079da47c43b582f2b417cfbd68dd6c2358",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0021",
+      "chunk_index": 21,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "Überblick:",
+        "type": "curriculum",
+        "heading_level": 6,
+        "part_number": 4,
+        "part_count": 5
+      },
+      "location": {
+        "page_numbers": [
+          14,
+          15
+        ],
+        "page_start": 14,
+        "page_end": 15
+      },
+      "content": "###### Überblick:\n\n<table>\n<tr>\n<th>Bezeichnung</th>\n<th colspan=\"3\">Modul 6: Fachdiziplinäre Ausrichtung III</th>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"3\">1 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"3\">Das Modul wird jedes Semester angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"3\">4</td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"3\">15</td>\n</tr>\n<tr>\n<td colspan=\"2\"></td>\n<td colspan=\"2\">Semester/Workload in CP</td>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1 2 3</td>\n<td>4</td>\n</tr>\n<tr>\n<td>S</td>\n<td>2</td>\n<td>6 (+ 3)</td>\n<td></td>\n</tr>\n<tr>\n<td>S</td>\n<td>2</td>\n<td>6 (+ 3)</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>S</td>\n<td colspan=\"2\">LN: Referat</td>\n</tr>\n<tr>\n<td>S</td>\n<td colspan=\"2\">LN: Referat</td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"3\">Das Modul dient zur Ausprägung eines individuellen Schwerpunktes. Es berei- tet inhaltlich und methodisch eigenständige Forschung im jeweiligen Fachge- biet vor. Das besondere Augenmerk gilt historischen und aktuellen For- schungsdiskussionen, die gemäß der in Modul 4 skizzierten Herangehenswei sen zu reflektieren und zu problematisieren sind. Die Studierenden werden zum forschungsorientierten Arbeiten hingeführt, um eigene wissenschaftliche Interessen zu formulieren.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"3\">Ziel ist es, eigenständig neue, forschungsrelevante Fragestellungen entwickeln zu können.</td>\n</tr>\n<tr>\n<td>Modulabschlussprüfung</td>\n<td colspan=\"3\">Hausarbeit zu einem S (Umfang ca. 35.000 Zeichen/ ca. 15 - 20 Seiten)</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"3\">Die Voraussetzung für die Vergabe von CP sind die LN zu den S sowie das Bestehen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"14\" -->\n<!-- PageBreak -->\n\n<table>\n<tr>\n<th>Bezeichnung</th>\n<th colspan=\"3\">Modul 7: Praxisstation und Exkursion</th>\n</tr>\n<tr>\n<th>Dauer</th>\n<th colspan=\"3\">1 Semester</th>\n</tr>\n<tr>\n<th>Angebotshäufigkeit</th>\n<th colspan=\"3\">Das Modul wird jährlich angeboten</th>\n</tr>\n<tr>\n<th>SWS gesamt</th>\n<th colspan=\"3\"></th>\n</tr>\n<tr>\n<th>CP gesamt</th>\n<th colspan=\"3\">14</th>\n</tr>\n<tr>\n<th colspan=\"2\"></th>\n<th colspan=\"2\">Semester/Workload in CP</th>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1 2 3</td>\n<td>4</td>\n</tr>\n<tr>\n<td>P</td>\n<td>2 Monate (320 Std.)</td>\n<td>9</td>\n<td></td>\n</tr>\n<tr>\n<td>E</td>\n<td>3 Tage</td>\n<td>2+ 3</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prüfungsvorleistungen/ Studienleistungen</td>\n<td>P</td>\n<td colspan=\"2\">TN</td>\n</tr>\n<tr>\n<td>E</td>\n<td>TN</td>\n<td></td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"3\">Das Modul soll mit den praktischen und konzeptionellen Vorbereitungen eines Ausstellungsprojektes in einem Museum oder in einer Ausstellungshalle ver- traut machen. Ferner sollen Besuche nationaler oder auch internationaler Ausstellungs- und Museumsprojekte bereits aufgeworfene Fragestellungen vertiefend problematisieren.</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"3\">Ziel ist es, die Studierenden frühzeitig mit Fragestellungen und Perspektiven aus der Praxis vertraut zu machen.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"3\">Referat oder Hausarbeit zur Exkursion (Umfang ca. 35.000 Zeichen/ ca. 10 - 15 Seiten)</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"3\">Die Voraussetzung für die Vergabe von CP ist TN des P (Praktikumsbescheini- gung) sowie das Bestehen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 1280,
+        "word_count": 297,
+        "contains_table": true,
+        "table_count": 2
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          14,
+          15
+        ]
+      },
+      "traceability": {
+        "content_sha256": "82273e69473070c3a0283b3c84b679a366d5ef5418b5d0d1908fdc26b744068a",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0022",
+      "chunk_index": 22,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 19,
+        "title": "Überblick:",
+        "type": "curriculum",
+        "heading_level": 6,
+        "part_number": 5,
+        "part_count": 5
+      },
+      "location": {
+        "page_numbers": [
+          16
+        ],
+        "page_start": 16,
+        "page_end": 16
+      },
+      "content": "###### Überblick:\n\n<table>\n<tr>\n<th>Bezeichnung</th>\n<th colspan=\"2\">Modul 8: Masterqualifikation</th>\n</tr>\n<tr>\n<td>Dauer</td>\n<td colspan=\"2\">1 Semester</td>\n</tr>\n<tr>\n<td>Angebotshäufigkeit</td>\n<td colspan=\"2\">Das Modul wird jährlich angeboten.</td>\n</tr>\n<tr>\n<td>SWS gesamt</td>\n<td colspan=\"2\">4</td>\n</tr>\n<tr>\n<td>CP gesamt</td>\n<td colspan=\"2\">30</td>\n</tr>\n<tr>\n<td colspan=\"2\"></td>\n<td>Semester/Workload in CP</td>\n</tr>\n<tr>\n<td>Lehrveranstaltung</td>\n<td>SWS</td>\n<td>1 2 3 4</td>\n</tr>\n<tr>\n<td>KQ</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>MAB</td>\n<td></td>\n<td>26</td>\n</tr>\n<tr>\n<td>Prüfungsvorleistun- gen/Studienleistungen</td>\n<td>KQ</td>\n<td>LN (Präsentation des Masterexposés als Referat und schriftliche Projektskizze)</td>\n</tr>\n<tr>\n<td>Lehrinhalte</td>\n<td colspan=\"2\">Das Modul dient zur Vorbereitung und Begleitung der Masterarbeit. In ihm werden allgemeine Probleme beim Schreiben einer Masterarbeit diskutiert und einzelne Masterprojekte vorgestellt. Die Masterarbeit besteht in der Entwick- lung und fachlichen, theoretischen und methodischen Begründung eines kuratorischen Projektes, wobei die Formate unterschiedlich sein können. Ein wissenschaftlicher Text ist in jedem Fall obligatorisch. Teile der Masterarbeit können durch eine andere Form erbracht werden (z.B. Ausstellungskonzept, Dokumentation einer Ausstellung etc.)</td>\n</tr>\n<tr>\n<td>Lernziele</td>\n<td colspan=\"2\">Die Studierenden sollen selbständig, aber mit Betreuung, in der Lage sein, eine wissenschaftliche Arbeit zu verfassen, in welche die Erfahrungen und Lernziele des zweijährigen Masterstudiums einfließen. Die Arbeit kann auch von einer Professorin oder einem Professor der Städelschule betreut werden.</td>\n</tr>\n<tr>\n<td>Modulprüfung</td>\n<td colspan=\"2\">Masterarbeit</td>\n</tr>\n<tr>\n<td>Bedingungen für die Vergabe der CP</td>\n<td colspan=\"2\">Die Voraussetzung für die Vergabe von CP ist TN und LN zum KQ sowie das Bestehen der Modulprüfung.</td>\n</tr>\n</table>\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->\n<!-- PageNumber=\"16\" -->\n<!-- PageBreak -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 663,
+        "word_count": 186,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          16
+        ]
+      },
+      "traceability": {
+        "content_sha256": "686f9f4c695c014a70dbb0a732b37f9cc943995f32ba218e932addfd8bd1f5df",
+        "evidence_preserved": true
+      }
+    },
+    {
+      "chunk_id": "pdf_source_0023",
+      "chunk_index": 23,
+      "total_chunks": 23,
+      "source_type": "pdf",
+      "document_id": "source",
+      "program_id": "0021",
+      "page_id": null,
+      "section": {
+        "index": 20,
+        "title": "Anhang 2: Exemplarischer Studienverlauf",
+        "type": "curriculum",
+        "heading_level": 6,
+        "part_number": 1,
+        "part_count": 1
+      },
+      "location": {
+        "page_numbers": [
+          17
+        ],
+        "page_start": 17,
+        "page_end": 17
+      },
+      "content": "###### Anhang 2: Exemplarischer Studienverlauf\n\nDie Module müssen nicht in numerischer Reihenfolge absolviert werden; eine freie Kombination\nder unterschiedlichen Veranstaltungsformen ist durchaus möglich. Allerdings ist das Belegen\nbestimmter Veranstaltungen, die sich dezidiert auf den Studiengang Curatorial Studies - Theorie -\nGeschichte - Kritik beziehen im jeweils angegebenen Semester obligatorisch.\n\n<table>\n<tr>\n<td>Semester 1</td>\n<td>MA 1: KQ</td>\n<td>MA 2: S</td>\n<td>MA 3: V/S</td>\n<td>MA 4: V</td>\n<td>MA 4: S</td>\n<td>28 CP</td>\n</tr>\n<tr>\n<td>Semester 2</td>\n<td>MA 1: KQ</td>\n<td>MA 2: Ü</td>\n<td>MA 3: Ü</td>\n<td>MA 5: V</td>\n<td>MA 5: S</td>\n<td>29 CP</td>\n</tr>\n<tr>\n<td>Semester 3</td>\n<td>MA 7: P + E</td>\n<td>MA 1: T</td>\n<td>MA 5: V</td>\n<td>MA 6: S</td>\n<td>MA 6: S</td>\n<td>33 CP</td>\n</tr>\n<tr>\n<td>Semester 4</td>\n<td>MA 8: KQ</td>\n<td>MA 8: MAB</td>\n<td></td>\n<td></td>\n<td></td>\n<td>30 CP</td>\n</tr>\n</table>\n\nFrankfurt, den 06. Juni 2014\n\nProf. Dr. Iwo Amelung\nDekan des Fachbereichs Sprach- und Kulturwissenschaften\n\n####### Impressum\n\nUniReport Satzungen und Ordnungen erscheint\nunregelmäßig und anlassbezogen als Sonderausgabe\ndes UniReport. Die Auflage wird für jede Ausgabe\nseparat festgesetzt.\n\nHerausgeber ist der Präsident der Johann Wolfgang\nGoethe-Universität Frankfurt am Main.\n\n<!-- PageFooter=\"UniReport Satzungen und Ordnungen vom 12.06.2014\" -->",
+      "content_format": "markdown",
+      "statistics": {
+        "character_count": 524,
+        "word_count": 162,
+        "contains_table": true,
+        "table_count": 1
+      },
+      "source": {
+        "source_type": "pdf",
+        "pdf_path": "data\\germany\\uni_frankfurt\\programs\\0021\\pages\\0001\\assets\\source.pdf",
+        "source_url": "https://www.uni-frankfurt.de/54721162/Veroeff_-Curatorial-Studies.pdf",
+        "document_id": "source",
+        "program_id": "0021",
+        "page_id": null,
+        "page_numbers": [
+          17
+        ]
+      },
+      "traceability": {
+        "content_sha256": "b36fcdeae76f2acd2a3fa8db6b4ba10012a6f9d560409fa7ee657f10f4484d3d",
+        "evidence_preserved": true
+      }
+    }
+  ]
+}

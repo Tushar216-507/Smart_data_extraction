@@ -1,0 +1,152 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "American Literature and Literary Studies - Literary History",
+      "original_value": "Amerikanische Literatur und Literaturwissenschaft - Literaturgeschichte",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": "Compulsory module for major, Elective module for minor",
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "assessment_type",
+      "value": "Take Home or Term paper",
+      "original_value": "Take Home (MP 2661) oder Hausarbeit (2662)",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "registration_period",
+      "value": {
+        "assignment": {
+          "start": "29.06.2026",
+          "end": "21.09.2026"
+        },
+        "take_home": {
+          "start": "08.06.2026",
+          "end": "03.08.2026"
+        }
+      },
+      "original_value": "Anmeldung zur Hausarbeit: 29.06 .- 21.09.2026 über QIS\nAnmeldung zum Take Home: 08.06. - 03.08.2026 über QIS",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "submission_deadlines",
+      "value": {
+        "term_paper_due": "28.09.2026",
+        "repeat_due": "21.12.2026",
+        "take_home_due": "10.08.2026"
+      },
+      "original_value": "Abgabe der Hausarbeit: 28.09.2026 als pdf an den/die Lehrende/n\nAbgabe der Wiederholung: 21.12.2026 als pdf an den/die Lehrende/n\nAbgabe: 10.08.2026 als pdf an den/die Lehrende/n",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "teaching",
+      "scope": "programme",
+      "field": "instructors",
+      "value": [
+        "Max José Dreysse Passos de Carvalho",
+        "Prof. Dr. Bernd Herzogenrath",
+        "PD Dr. Tim Lanzendörfer",
+        "Dr. Magdalena Majewska"
+      ],
+      "original_value": "Max José Dreysse Passos de Carvalho - Computer Games as Aesthetic Form\nProf. Dr. Bernd Herzogenrath - Theory into Practice\nPD Dr. Tim Lanzendörfer - Close Reading\nDr. Magdalena Majewska - Short Stories of F. Scott Fitzgerald",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "MP 2661",
+        "name": "American Literature and Literary Studies - Literary History"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0017",
+        "name": "American Studies"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "chunk_id": "pdf_source_0007",
+  "model": "openai/gpt-oss-120b",
+  "response": "{\"facts\": [{\"category\": \"overview\", \"scope\": \"programme\", \"field\": \"academic_degree\", \"value\": \"Master of Arts\", \"original_value\": \"Master of Arts\", \"unit\": null, \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"uni_frankfurt\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}, {\"category\": \"overview\", \"scope\": \"both\", \"field\": \"abbreviation\", \"value\": \"M.A.\", \"original_value\": \"M.A.\", \"unit\": null, \"entity\": {\"type\": \"program\", \"id\": \"0022\", \"name\": \"Southeast Asian Studies\"}, \"parent_entity\": {\"type\": \"university\", \"id\": null, \"name\": \"uni_frankfurt\"}, \"qualifiers\": {\"status\": null, \"requirement_type\": null, \"semester\": null, \"term\": null, \"academic_year\": null}, \"confidence\": 1.0}]}"
+}

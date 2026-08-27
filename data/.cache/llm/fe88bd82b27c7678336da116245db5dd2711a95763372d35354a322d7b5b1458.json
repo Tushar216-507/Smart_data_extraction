@@ -1,0 +1,355 @@
+{
+  "facts": [
+    {
+      "category": "contacts",
+      "field": "address",
+      "value": "1151 S. Forest Ave. Tempe, AZ 85281",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Main admission line 480-965-7788",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "address",
+      "value": "13590 N. 47th Ave. Phoenix, AZ 85306",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Main admission line 480-965-7788",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "contacts",
+      "field": "phone",
+      "value": "866-277-6589",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "Main admission line 480-965-7788",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "financial_aid",
+      "field": "types",
+      "value": "Pell grants, Scholarships, Loans, Work-study.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Paying for college with financial aid",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "financial_aid",
+      "field": "application",
+      "value": "All students should complete the Free Application for Federal Student Aid each year to find out how much federal financial aid they are eligible for.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Paying for college with financial aid",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "financial_aid",
+      "field": "scholarship_search",
+      "value": "You can also seek out other forms of aid, such as scholarships, using ASU's Scholarship Universe.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Paying for college with financial aid",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "financial_aid",
+      "field": "total_cost_link",
+      "value": "http://tuition.asu.edu/cost",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "Paying for college with financial aid",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "fees",
+      "field": "resident_tuition_and_fees",
+      "value": "$14,814/yr",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "In-state transfer student tuition cost + $14,814/yr + 85% + 85% + 15,221 + 42% + 34%",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "statistics",
+      "field": "percentage_of_students_receiving_aid",
+      "value": "85%",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "In-state transfer student tuition cost + $14,814/yr + 85% + 85% + 15,221 + 42% + 34%",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "statistics",
+      "field": "retention_rate",
+      "value": "85%",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "In-state transfer student tuition cost + $14,814/yr + 85% + 85% + 15,221 + 42% + 34%",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "statistics",
+      "field": "number_of_transfer_students",
+      "value": "15,221",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "In-state transfer student tuition cost + $14,814/yr + 85% + 85% + 15,221 + 42% + 34%",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "statistics",
+      "field": "percentage_of_first_generation_students",
+      "value": "42%",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "In-state transfer student tuition cost + $14,814/yr + 85% + 85% + 15,221 + 42% + 34%",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "statistics",
+      "field": "percentage_of_undergraduates_receiving_pell_grants",
+      "value": "34%",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "In-state transfer student tuition cost + $14,814/yr + 85% + 85% + 15,221 + 42% + 34%",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "required_competency_areas",
+      "value": "Students must earn a minimum 2.00 GPA in each competency area.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to meet ASU course competency requirements + English competency requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "deficiency_limitations",
+      "value": "Admission may be granted with one deficiency in no more than two competency areas. Deficiencies in both math and laboratory science are not acceptable.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to meet ASU course competency requirements + English competency requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "accepted_english_competency_proofs",
+      "value": "Four years of high school English (composition- or literature-based).",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to meet ASU course competency requirements + English competency requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "accepted_english_competency_proofs",
+      "value": "Minimum test score of 21 on ACT English, or 580 on SAT evidence-based reading and writing.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to meet ASU course competency requirements + English competency requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "accepted_english_competency_proofs",
+      "value": "One transferable 3-credit college English composition course.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0001",
+        "chunk_title": "How to meet ASU course competency requirements + English competency requirement",
+        "chunk_order": 0,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "placement_requirements",
+      "value": "All new students will be placed in First-Year Composition ENG 101. Students whose native language is not English will be enrolled in ENG 107. Enrollment in ENG 105, Advanced First Year composition, is based on placement test scores.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English composition placement + Mathematics competency requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "transfer_credit",
+      "value": "If you have college-level transfer credit or test credit equivalent to ASU’s first year composition course(s), that credit will be considered in placement.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English composition placement + Mathematics competency requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "equivalency_database_url",
+      "value": "https://tcg.asu.edu",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English composition placement + Mathematics competency requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "requirements",
+      "value": "Meet one of the following: Four years of high school courses: one year each of algebra I, geometry, algebra II and an advanced math class for which algebra II is a prerequisite; Minimum test score of 24 on ACT math, or 580 on SAT math; One transferable 3-credit college math course for which at least intermediate algebra is a prerequisite.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0002",
+        "chunk_title": "English composition placement + Mathematics competency requirement",
+        "chunk_order": 1,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "laboratory_science_courses_requirement",
+      "value": "Three distinct laboratory-based science courses completed with a 2.00 unweighted GPA or higher.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Laboratory science competency requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "high_school_laboratory_sciences",
+      "value": "Three years of high school laboratory sciences in three different subject areas, preferably biology, chemistry, earth science or physics.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Laboratory science competency requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "substitution_options",
+      "value": "A laboratory-based integrated science course may be allowed to substitute for one of the three lab sciences. Each course should be one year in length.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Laboratory science competency requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "advanced_science_course_substitution",
+      "value": "Additionally, a laboratory-based advanced science course may be allowed to substitute for one of the three lab sciences. An advanced science class is a lab science that is generally taken in the last two years of high school and is at least one of the following: an advanced placement course, a higher-level international baccalaureate course, a dual enrollment course, or other honors course for which the previous lab science course is a prerequisite.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Laboratory science competency requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    },
+    {
+      "category": "admission",
+      "field": "minimum_test_scores_options",
+      "value": "Minimum test scores in three standardized tests from three different subject matters. SAT II subject test score in chemistry-600, biology-590, physics-620 or ACT test score in science-20.",
+      "confidence": 1.0,
+      "source": null,
+      "metadata": {
+        "chunk_id": "page_0003",
+        "chunk_title": "Laboratory science competency requirement",
+        "chunk_order": 2,
+        "source_type": "page"
+      }
+    }
+  ]
+}

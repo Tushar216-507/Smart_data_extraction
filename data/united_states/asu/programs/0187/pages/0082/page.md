@@ -1,0 +1,1 @@
+We look forward to having you join the Department of English in the College of Liberal Arts and Sciences. If you have any questions regarding undergraduate admission, degree programs, application deadlines or anything in between, please call (480) 965-3168 or email [[email protected]](/cdn-cgi/l/email-protection#e68388818a8f958e8782908f958f8881a6879593c8838293).

@@ -1,0 +1,160 @@
+{
+  "facts": [
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Master-Kolloquium",
+      "original_value": "Master-Kolloquium",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Master-Kolloquium",
+        "name": "Master-Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "teaching_format",
+      "value": "Seminar",
+      "original_value": "K",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Master-Kolloquium",
+        "name": "Master-Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "contact_hours",
+      "value": 2,
+      "original_value": "2",
+      "unit": "SWS",
+      "entity": {
+        "type": "module",
+        "id": "Master-Kolloquium",
+        "name": "Master-Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 5,
+      "original_value": "5",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Master-Kolloquium",
+        "name": "Master-Kolloquium"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 1,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_name",
+      "value": "Masterarbeit",
+      "original_value": "Masterarbeit",
+      "unit": null,
+      "entity": {
+        "type": "module",
+        "id": "Masterarbeit",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "module",
+      "scope": "programme",
+      "field": "module_credits",
+      "value": 25,
+      "original_value": "25",
+      "unit": "CP",
+      "entity": {
+        "type": "module",
+        "id": "Masterarbeit",
+        "name": "Masterarbeit"
+      },
+      "parent_entity": {
+        "type": "program",
+        "id": "0023",
+        "name": "Religion - Media - Interculturality"
+      },
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": 2,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

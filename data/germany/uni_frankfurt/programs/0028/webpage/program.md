@@ -1,0 +1,11 @@
+## Inhalte und Schwerpunkte
+
+Der Master Southeast Asian Studies bietet Studierenden, die Kenntnisse der indonesischen bzw. malaysischen Sprache haben und mit der Region Südostasien vertraut sind, die Möglichkeit, ihre Kenntnisse über die Kulturen, Gesellschaften und Sprachen Südostasiens zu vertiefen. Der Fokus liegt dabei auf der Malaiischen Welt (Indonesien, Malaysia, Singapur, Brunei und Osttimor). Ziel des forschungsorientierten Masterstudiengang ist es, zu selbständiger Forschung auf fortgeschrittenem Niveau zu befähigen. Der Masterstudiengang vertieft und ergänzt im Bachelorstudiengang erlernte Methoden und befähigt die Studierenden, sie kritisch zu reflektieren, sowie sich mit theoretischen Konzepten des eigenen Faches auseinanderzusetzen und diese zu allgemein diskutierten Theorien und Forschungsentwicklungen in Beziehung zu setzen. Die Studierenden werden zur kulturwissenschaftlichen Analyse und zu wissenschaftlichem Arbeiten angeleitet.
+
+Der Masterstudiengang Southeast Asian Studies kann in zwei verschiedenen Varianten studiert werden. Variante 2 unterscheidet sich durch ein integriertes Auslandssemester von Variante 1.
+
+Studierenden nach Variante 1 erlaubt der Wahlpflichtbereich individuelle inhaltliche Schwerpunkte zu setzen, etwa für die folgenden vorgeschlagenen Profile:
+
+- klassische Philologie und Geschichte der Malaiischen Welt
+- moderne Sprachanwendung und Gesellschaft in der Malaiischen Welt
+- Kultur und Wirtschaft in Südostasien

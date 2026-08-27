@@ -1,0 +1,9 @@
+## Why study Chemical and Biochemical Engineering at UL?
+
+This programme is the only course of its kind in the Mid-West and Western regions of the country. Process engineering is the central area of expertise underpinning many important, sustainable industries and businesses within both the Irish and global economies. Such enterprises include: biopharmaceuticals, fuels, chemicals, and drug manufacture, energy production, food and beverage processing, environmental waste remediation, and electronic component manufacture.
+
+The Irish pharmaceutical, chemical and biochemical industries have been primarily responsible for the recent consistent increases in the national export performance, proving these sectors to be stable and resilient, even in harsh economic conditions.
+
+In all of these areas, the chemical/biochemical engineer is of key importance both in the design and operation of the processing systems and in the development and manufacture of novel products.
+
+This programme is IChemE accredited to ensure international professional recognition for graduates of the degree.

@@ -1,0 +1,19 @@
+Design - Knowledge of design techniques, tools, and principles involved in production of precision technical plans, blueprints, drawings, and models.
+
+Computers and Electronics - Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.
+
+English Language - Knowledge of the structure and content of the English language including the meaning and spelling of words, and rules of composition and grammar.
+
+Fine Arts - Knowledge of the theory and techniques required to compose, produce, and perform works of music, dance, visual arts, drama, and sculpture.
+
+Communications and Media - Knowledge of media production, communication, and dissemination techniques and methods. This includes alternative ways to inform and entertain via written, oral, and visual media.
+
+Sales and Marketing - Knowledge of principles and methods for showing, promoting, and selling products or services. This includes marketing strategy and tactics, product demonstration, sales techniques, and sales control systems.
+
+Customer and Personal Service - Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction.
+
+Administration and Management - Knowledge of business and management principles involved in strategic planning, resource allocation, human resources modeling, leadership technique, production methods, and coordination of people and resources.
+
+Production and Processing - Knowledge of raw materials, production processes, quality control, costs, and other techniques for maximizing the effective manufacture and distribution of goods.
+
+Sociology and Anthropology - Knowledge of group behavior and dynamics, societal trends and influences, human migrations, ethnicity, cultures, and their history and origins.

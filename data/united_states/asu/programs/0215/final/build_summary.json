@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "program_id": "0215",
+  "program_name": "Gender, Women and Sexuality Studies, MA",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0215\\final",
+  "input_fact_count": 15,
+  "unique_fact_count": 15,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 15,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 15,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 5,
+    "curriculum": 4,
+    "career": 2,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 2,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0215\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0215\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0215\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0215\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0215\\final\\student_life_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0215\\final\\build_summary.json"
+  }
+}

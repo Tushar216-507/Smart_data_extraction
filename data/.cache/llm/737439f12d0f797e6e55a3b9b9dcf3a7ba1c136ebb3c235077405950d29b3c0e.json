@@ -1,0 +1,136 @@
+{
+  "facts": [
+    {
+      "category": "academic_structure",
+      "scope": "both",
+      "field": "department",
+      "value": "Department of Business and Economics",
+      "original_value": "Fachbereich Wirtschaftswissenschaften",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "export_modules",
+      "value": "Students from other departments can complete certain modules from our Department of Business and Economics as export modules.",
+      "original_value": "Im Rahmen Ihres Studienganges an einem anderen Fachbereich können Sie bestimmte Module an unserem Fachbereich Wirtschaftswissenschaften absolvieren, sog. Exportmodule des Fachbereichs Wirtschaftswissenschaften.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "module_registration_conditions",
+      "value": "Registration for export modules is only possible based on existing cooperation agreements between departments.",
+      "original_value": "Dies ist nur auf Basis von bestehenden Kooperationsvereinbarungen zwischen den Fachbereichen möglich.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "curriculum",
+      "scope": "programme",
+      "field": "export_module_conditions",
+      "value": "Export modules from other study programs are subject to the examination regulations of the exporting department.",
+      "original_value": "Exportmodule aus dem Angebot anderer Studiengänge unterliegen den Prüfungsregelungen des exportierenden Fachbereichs (Herkunftsordnung).",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "assessment",
+      "scope": "programme",
+      "field": "module_assessment",
+      "value": "Each module from the Department of Business and Economics concludes with a module examination.",
+      "original_value": "Jedes Modul des Fachbereichs Wirtschaftswissenschaften wird mit einer Modulprüfung abgeschlossen.",
+      "unit": null,
+      "entity": {
+        "type": "program",
+        "id": "0006",
+        "name": "Master in Money, Macro and Finance"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "category": "contact",
+      "scope": "university",
+      "field": "examination_office_contact",
+      "value": "For inquiries regarding examination schedules, contact the examination office via email at pruefungsamt@wiwi.uni-frankfurt.de.",
+      "original_value": "Bei Rückfragen und Problemen kontaktieren Sie bitte vor Ablauf der geltenden Frist das Prüfungsamt (nicht die Prüfenden) per E-Mail (pruefungsamt@wiwi.uni-frankfurt.de).",
+      "unit": null,
+      "entity": {
+        "type": "university",
+        "id": null,
+        "name": "uni_frankfurt"
+      },
+      "parent_entity": null,
+      "qualifiers": {
+        "status": null,
+        "requirement_type": null,
+        "semester": null,
+        "term": null,
+        "academic_year": null
+      },
+      "confidence": 1.0
+    }
+  ]
+}

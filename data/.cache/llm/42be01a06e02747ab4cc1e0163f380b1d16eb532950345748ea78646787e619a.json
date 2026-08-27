@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "unemployment_limit_post_opt",
+      "value": "90 days during the initial 12-month period of Post-OPT",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "unemployment_limit_stem_extension",
+      "value": "150 days total during the STEM extension period",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "total_unemployment_days",
+      "value": "150 days over their entire Post-OPT and STEM periods",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "unemployment_start_date",
+      "value": "From your approved OPT/EAD start date (the date listed on your EAD card) but not working",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "violation_status_unemployment",
+      "value": "If you accumulate 150 days or more of unemployment, you are in violation of your F-1 status",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "advice_on_job_offers",
+      "value": "Do not suggest taking a job offer if it starts after your 150 days of unemployment as it may lead to unlawful presence",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "consequences_of_exceeding_limitations",
+      "value": "A student may be denied future immigration benefits that rely on the student’s valid F-1 status if DHS determines that the student exceeded the limitations on unemployment",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "vacation_counting",
+      "value": "Approved vacation from a job does not count as 'unemployment' if you are still considered an employee there",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "work_hours_requirement_stem_opt",
+      "value": "Jobs that are less than 20 hours per week are not permitted on STEM OPT",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    },
+    {
+      "category": "visa",
+      "subcategory": "employment",
+      "field": "unemployment_time_counted",
+      "value": "If you work less than 20 hours a week, it will count as unemployment time",
+      "confidence": 1.0,
+      "programme_association": "Environmental Studies (Environmental Justice) - BA"
+    }
+  ]
+}

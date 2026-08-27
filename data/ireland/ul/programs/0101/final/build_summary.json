@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "program_id": "0101",
+  "program_name": "Occupational Therapy (Professional Qualification) - MSc Graduate profile",
+  "source_file": null,
+  "output_directory": "data\\ireland\\ul\\programs\\0101\\final",
+  "input_fact_count": 17,
+  "unique_fact_count": 17,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 17,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 17,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 9,
+    "admission": 0,
+    "curriculum": 6,
+    "career": 0,
+    "fees": 2,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 0,
+    "research": 0,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 0,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\ireland\\ul\\programs\\0101\\final\\program_data.json",
+    "curriculum": "data\\ireland\\ul\\programs\\0101\\final\\curriculum_data.json",
+    "fees": "data\\ireland\\ul\\programs\\0101\\final\\fees_data.json",
+    "summary": "data\\ireland\\ul\\programs\\0101\\final\\build_summary.json"
+  }
+}

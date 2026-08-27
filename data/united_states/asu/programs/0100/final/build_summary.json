@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "program_id": "0100",
+  "program_name": "Online Master of Science in Clinical Research Management",
+  "source_file": null,
+  "output_directory": "data\\united_states\\asu\\programs\\0100\\final",
+  "input_fact_count": 11,
+  "unique_fact_count": 11,
+  "exact_duplicate_count": 0,
+  "handled_fact_count": 11,
+  "unhandled_fact_count": 0,
+  "written_fact_count": 11,
+  "dropped_fact_count": 0,
+  "section_fact_counts": {
+    "program": 2,
+    "admission": 2,
+    "curriculum": 3,
+    "career": 1,
+    "fees": 0,
+    "scholarships": 0,
+    "contacts": 0,
+    "student_life": 1,
+    "research": 1,
+    "housing": 0,
+    "visa": 0,
+    "documents": 0,
+    "statistics": 1,
+    "other": 0
+  },
+  "generated_files": {
+    "program": "data\\united_states\\asu\\programs\\0100\\final\\program_data.json",
+    "admission": "data\\united_states\\asu\\programs\\0100\\final\\admission_data.json",
+    "curriculum": "data\\united_states\\asu\\programs\\0100\\final\\curriculum_data.json",
+    "career": "data\\united_states\\asu\\programs\\0100\\final\\career_data.json",
+    "student_life": "data\\united_states\\asu\\programs\\0100\\final\\student_life_data.json",
+    "research": "data\\united_states\\asu\\programs\\0100\\final\\research_data.json",
+    "statistics": "data\\united_states\\asu\\programs\\0100\\final\\statistics_data.json",
+    "summary": "data\\united_states\\asu\\programs\\0100\\final\\build_summary.json"
+  }
+}

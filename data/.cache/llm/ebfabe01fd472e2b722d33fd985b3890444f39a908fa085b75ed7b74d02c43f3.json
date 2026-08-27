@@ -1,0 +1,35 @@
+{
+  "facts": [
+    {
+      "category": "admission",
+      "subcategory": "funding",
+      "field": "types_of_funding_available",
+      "value": [
+        "Springboard+",
+        "MicroCred Learner Fee Subsidy 2026",
+        "Self-Financing",
+        "Skillnet Ireland",
+        "Generation Apprenticeship",
+        "Government Support"
+      ],
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "funding",
+      "field": "springboard_funding_details",
+      "value": "The Springboard+ offers 90% funding for those who are employed and 100% funding for those who are unemployed or engaging in a NFQ Level 6 programme.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    },
+    {
+      "category": "admission",
+      "subcategory": "funding",
+      "field": "springboard_funding_availability",
+      "value": "There are a limited number of funded Springboard+ places available across pre-selected programmes in UL. They are offered on a first come first served basis.",
+      "confidence": 1.0,
+      "programme_association": "Master of Professional Practice"
+    }
+  ]
+}
