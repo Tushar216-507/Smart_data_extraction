@@ -214,6 +214,22 @@ IMPORTANT
                             "source_type": chunk.source_type,
                         }
                     )
+                    
+                    # Resolve source URL immediately from evidence pack if not program
+                    # Program evidence uses the main program url
+                    source_url = ""
+                    if chunk.source_type == "program":
+                        source_url = getattr(pack.program, "url", getattr(pack.program, "source_url", ""))
+                    else:
+                        # Find the page this chunk belongs to
+                        for page in pack.pages:
+                            if page.id in chunk.chunk_id or chunk.chunk_id in page.id:
+                                source_url = page.metadata.get("url", page.source)
+                                break
+                        
+                        if not source_url:
+                            # Fallback if we couldn't match IDs cleanly
+                            source_url = getattr(pack.program, "url", "")
 
                     collection.add(
                         ExtractedFact(
@@ -221,8 +237,9 @@ IMPORTANT
                             subcategory=item.get("subcategory", item.get("category", "other")),
                             field=item["field"],
                             value=item["value"],
+                            value_verbatim=item.get("value_verbatim", ""),
                             confidence=item.get("confidence", 1.0),
-                            source_url=getattr(pack.program, "url", ""),
+                            source_url=source_url,
                             source_type=chunk.source_type,
                             programme_association=item.get("programme_association", ""),
                             metadata=fact_metadata,

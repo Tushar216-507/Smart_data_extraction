@@ -19,3 +19,17 @@ class Config:
     AZURE_PDF_ENDPOINT=os.getenv('AZURE_PDF_ENDPOINT')
     AZURE_IMG_KEY=os.getenv('AZURE_IMG_KEY')
     AZURE_PDF_KEY=os.getenv('AZURE_PDF_KEY')
+
+    # ── Pipeline Defaults ────────────────────────────────────────
+    LLM_MODEL = "gpt-4o-mini"
+
+    # ── Budget Limits ────────────────────────────────────────────
+    MAX_LLM_CALLS_PER_PROGRAMME = int(os.getenv("MAX_LLM_CALLS_PER_PROGRAMME", "50"))
+    MAX_LLM_CALLS_PER_RUN = int(os.getenv("MAX_LLM_CALLS_PER_RUN", "5000"))
+    MAX_COST_PER_RUN_USD = float(os.getenv("MAX_COST_PER_RUN_USD", "10.0"))
+
+    # ── QS Compliance ────────────────────────────────────────────
+    QS_SCRAPING_ENABLED = os.getenv("QS_SCRAPING_ENABLED", "false").lower() == "true"
+
+    # ── Confidence Threshold ─────────────────────────────────────
+    MIN_FACT_CONFIDENCE = float(os.getenv("MIN_FACT_CONFIDENCE", "0.3"))

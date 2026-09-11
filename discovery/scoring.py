@@ -44,6 +44,26 @@ class URLScorer:
         r"\bprivacy\b": -100,
         r"\bcookies?\b": -100,
         r"\blogin\b": -100,
+
+        # ── Aggressive filters (Stage 1) ─────────────────────────
+        r"\bpolicies?\b": -200,
+        r"\bprocedures?\b": -200,
+        r"\bhandbooks?\b": -200,
+        r"\bguidelines?\b": -150,
+        r"\bgallery\b": -200,
+        r"\bimage-gallery\b": -200,
+        r"\bvideo-gallery\b": -200,
+        r"\bdirectory\b": -200,
+        r"\bteam\b": -150,
+        r"\bfacilities\b": -100,
+        r"\blibrary\b": -100,
+        r"\barchive\b": -100,
+        r"\bgovernance\b": -200,
+        r"\bcompliance\b": -150,
+        r"\bterms\b": -100,
+        r"\bdisclaimer\b": -100,
+        r"\d{4}/\d{2}/": -200,  # Date-based URLs (news/blog posts)
+        r"/profiles?/": -150,   # Staff profile pages
     }
 
     SOURCE_BONUS = {

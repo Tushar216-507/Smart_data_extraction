@@ -121,6 +121,17 @@ class UsageTracker:
         return dict(summary)
 
     # ------------------------------------------------------------------
+    # Budget Enforcement
+    # ------------------------------------------------------------------
+
+    def check_budget(self) -> None:
+        from config import Config
+        if self.total_calls >= Config.MAX_LLM_CALLS_PER_RUN:
+            raise BudgetExhaustedError(f"LLM call budget exhausted: {self.total_calls} >= {Config.MAX_LLM_CALLS_PER_RUN}")
+        if self.total_cost >= Config.MAX_COST_PER_RUN_USD:
+            raise BudgetExhaustedError(f"Cost budget exhausted: ${self.total_cost:.2f} >= ${Config.MAX_COST_PER_RUN_USD:.2f}")
+
+    # ------------------------------------------------------------------
     # Printing
     # ------------------------------------------------------------------
 
@@ -154,3 +165,6 @@ class UsageTracker:
         )
 
         print()
+
+class BudgetExhaustedError(Exception):
+    pass

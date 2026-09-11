@@ -61,6 +61,9 @@ class LLMClient:
             else:
                 return cached_result
 
+        # Stage 7 - Budget check before calling LLM
+        self.usage_tracker.check_budget()
+
         response: LLMResponse = self.provider.extract(
 
             system_prompt=system_prompt,
@@ -152,6 +155,9 @@ class LLMClient:
 
         if cached_result is not None:
             return cached_result
+
+        # Stage 7 - Budget check before calling LLM
+        self.usage_tracker.check_budget()
 
         response: LLMResponse = self.provider.extract(
             system_prompt=system_prompt,

@@ -220,6 +220,53 @@ def translate_batch(candidates):
 
     return candidates
 
+def _load_university_config(base_url: str) -> dict | None:
+    """
+    Load the university-specific config from university_configs/.
+    Matches by checking if the base_url's domain appears in the config's
+    base_url or subdomains list.
+    """
+    import os
+    import json
+    from urllib.parse import urlparse
+
+    config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "university_configs")
+    if not os.path.isdir(config_dir):
+        return None
+
+    target_domain = urlparse(base_url).netloc.lower()
+    if target_domain.startswith("www."):
+        target_domain = target_domain[4:]
+
+    for filename in os.listdir(config_dir):
+        if not filename.endswith(".json"):
+            continue
+        filepath = os.path.join(config_dir, filename)
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                config = json.load(f)
+
+            # Check base_url
+            config_domain = urlparse(config.get("base_url", "")).netloc.lower()
+            if config_domain.startswith("www."):
+                config_domain = config_domain[4:]
+
+            if target_domain == config_domain or target_domain.endswith(config_domain):
+                return config
+
+            # Check subdomains list
+            for subdomain in config.get("subdomains", []):
+                subdomain = subdomain.lower()
+                if subdomain.startswith("www."):
+                    subdomain = subdomain[4:]
+                if target_domain == subdomain or target_domain.endswith(subdomain):
+                    return config
+        except Exception:
+            continue
+
+    return None
+
+
 # def discover_programs(base_url, candidate_limit=500)
 def discover_programs(base_url):
     """
@@ -329,6 +376,51 @@ def discover_programs(base_url):
         evaluator.evaluate(c)
 
     program_candidates.sort(key=lambda x: x.score, reverse=True)
+
+    # ── Stage 1: Load university config if available ─────────────
+    uni_config = _load_university_config(base_url)
+    page_type_whitelist = None
+    if uni_config:
+        page_type_whitelist = uni_config.get("page_type_whitelist")
+        print(f"\n  [CONFIG] Loaded config for: {uni_config.get('name', 'unknown')}")
+        if page_type_whitelist:
+            print(f"  [CONFIG] Page type whitelist: {page_type_whitelist}")
+        expected = uni_config.get("expected_programme_count", {})
+        if expected:
+            print(f"  [CONFIG] Expected programmes: {expected.get('min', '?')}–{expected.get('max', '?')}")
+
+    # ── Stage 1: STRICT FILTERING ────────────────────────────────
+    # Two hard rules:
+    #   1. A candidate with a negative score is NEVER processed.
+    #   2. Anything not classified as "Degree Programme" is SKIPPED.
+    pre_filter_count = len(program_candidates)
+
+    filtered_candidates = []
+    filtered_out_negative = 0
+    filtered_out_page_type = 0
+
+    for c in program_candidates:
+        # Rule 1: Negative score = never process
+        if c.score <= 0:
+            filtered_out_negative += 1
+            continue
+
+        # Rule 2: Non-programme page types = skip
+        if page_type_whitelist and c.page_type not in page_type_whitelist:
+            filtered_out_page_type += 1
+            continue
+
+        filtered_candidates.append(c)
+
+    program_candidates = filtered_candidates
+
+    print(f"\n  [FILTER] Before: {pre_filter_count} candidates")
+    print(f"  [FILTER] Dropped (score <= 0): {filtered_out_negative}")
+    print(f"  [FILTER] Dropped (page_type): {filtered_out_page_type}")
+    print(f"  [FILTER] After: {len(program_candidates)} candidates")
+
+    # ── End Stage 1 filtering ────────────────────────────────────
+
     print()
     print("\nTop 10 Ranked Program Candidates")
     print("-" * 120)

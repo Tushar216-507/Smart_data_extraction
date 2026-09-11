@@ -265,6 +265,11 @@ class QSProfileExtractor:
         university_slug: Optional[str] = None,
         output_directory: Optional[str | Path] = None,
     ) -> Dict[str, Any]:
+        
+        from config import Config
+        if not Config.QS_SCRAPING_ENABLED:
+            print("  [WARN] QS Scraping is disabled in config. Skipping QS profile extraction.")
+            return {}
 
         normalized_profile_url = self._normalize_profile_url(
             profile_url
@@ -341,6 +346,8 @@ class QSProfileExtractor:
                 paths.extracted_profile_file
             ),
         }
+        
+        result["provenance"] = "WEB_SCRAPER"
 
         # ---------------------------------------------------------
         # Save extracted profile JSON

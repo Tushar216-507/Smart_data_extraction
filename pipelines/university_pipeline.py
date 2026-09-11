@@ -66,6 +66,8 @@ from knowledge.normalization.semantic_normalizer import (
 from knowledge.output.final_output_builder import FinalOutputBuilder
 from knowledge.storage.fact_repository import FactRepository
 from knowledge.facts import FactCollection
+from knowledge.billing.usage_tracker import BudgetExhaustedError
+from validators.acceptance_gate import AcceptanceGate
 
 from extractor.extractor import ProgramExtractor as EvidenceCollector
 
@@ -231,6 +233,11 @@ class UniversityPipeline:
 
         context.discovery = self._discover_programs(context)
 
+        # Stage 1: Load config to pass to AcceptanceGate later
+        import main
+        uni_config = main._load_university_config(university_url) or {}
+        expected_range = uni_config.get("expected_programme_count", {})
+
         programs = context.discovery
 
         if not programs:
@@ -290,6 +297,13 @@ class UniversityPipeline:
                 )
                 succeeded += 1
 
+            except BudgetExhaustedError as error:
+                failed += 1
+                failed_programs.append((program_id, program.display_name, str(error)))
+                self._print_error(f"  [FAIL] Budget Exhausted: {error}")
+                self._print_error("  Stopping pipeline run to prevent further costs.")
+                break # Hard stop on budget exhaust
+
             except Exception as error:
 
                 failed += 1
@@ -316,6 +330,47 @@ class UniversityPipeline:
 
         usage_tracker.print_summary()
 
+        # ----------------------------------------------------------
+        # Stage 8: Acceptance Gate
+        # ----------------------------------------------------------
+        print("\n" + "=" * 80)
+        print("STAGE 8: RUN-LEVEL ACCEPTANCE GATE")
+        print("=" * 80 + "\n")
+        
+        # Collect all final facts for verification
+        all_final_facts = []
+        for program_id in [f"{i:04d}" for i in range(1, len(programs) + 1)]:
+            final_path = workspace.final_dir(program_id) / "program_data.json"
+            if final_path.exists():
+                import json
+                try:
+                    with open(final_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        all_final_facts.extend(data.get("university_facts", []))
+                        all_final_facts.extend(data.get("programme_facts", []))
+                except Exception:
+                    pass
+
+        discovery_results = {
+            "total_working_program_urls": len(programs),
+            "program_urls": [p.to_dict() for p in programs]
+        }
+        
+        gate_result = AcceptanceGate.verify_run(
+            discovery_results=discovery_results,
+            all_facts=all_final_facts,
+            usage_tracker=usage_tracker,
+            expected_range=expected_range
+        )
+        
+        if gate_result["passed"]:
+            print("  [PASS] Acceptance Gate verified.")
+            print(f"  - Facts checked: {gate_result['total_facts_checked']}")
+        else:
+            print("  [FAIL] Acceptance Gate failed!")
+            for failure in gate_result["failures"]:
+                print(f"    - {failure}")
+
         self._print_footer(
             succeeded=succeeded,
             failed=failed,
@@ -325,7 +380,8 @@ class UniversityPipeline:
         )
 
         return {
-            "status": "success" if failed == 0 else "partial",
+            "status": "success" if failed == 0 and gate_result["passed"] else "partial",
+            "acceptance_gate": gate_result,
             "programs_discovered": len(programs),
             "programs_succeeded": succeeded,
             "programs_failed": failed,
@@ -479,13 +535,44 @@ class UniversityPipeline:
     
             if normalized_facts is None:
                 raise RuntimeError("Semantic normalization failed.")
+                
+            # ----------------------------------------------------------
+            # Stage 4: ClaimValidator & Stage 5: Field Registry
+            # ----------------------------------------------------------
+            from validators.claim_validator import ClaimValidator
+            from validators.rejected_facts import RejectedFactsLogger
+            from schema.field_registry import canonicalize_field
+            
+            # Map page metadata for page-type check
+            page_meta_lookup = {}
+            if getattr(context, "evidence_pack", None):
+                for page in context.evidence_pack.pages:
+                    url = page.metadata.get("url", page.source)
+                    page_meta_lookup[url] = page.metadata
+            
+            logger = RejectedFactsLogger(workspace.program_root(program_id))
+            validator = ClaimValidator(
+                logger=logger,
+                program_id=program_id,
+                allowed_subdomains=[urlparse(context.university_url).netloc]
+            )
+            
+            validated_facts = validator.validate(normalized_facts.facts, page_meta_lookup)
+            
+            # Stage 5: Canonicalize
+            for f in validated_facts:
+                canon_field, canon_domain = canonicalize_field(f.get("field", ""), f.get("subcategory", ""))
+                f["field"] = canon_field
+                f["subcategory"] = canon_domain
+                
+            normalized_facts.facts = validated_facts
     
             self.fact_repository.save(
                 normalized_facts.facts,
                 normalized_path,
             )
     
-            print(f"  [PASS] {len(normalized_facts.facts)} normalized facts")
+            print(f"  [PASS] {len(normalized_facts.facts)} normalized/validated facts")
             
             # Stage 7: Coverage Analysis & Targeted Search
             self._print_stage(7, total_stages, self.STAGES[6])

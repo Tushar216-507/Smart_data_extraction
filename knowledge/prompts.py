@@ -83,6 +83,7 @@ JSON format:
       "subcategory": "...",
       "field": "...",
       "value": "...",
+      "value_verbatim": "...",
       "confidence": 1.0,
       "programme_association": "..."
     }

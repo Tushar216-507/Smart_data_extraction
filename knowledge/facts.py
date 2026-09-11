@@ -7,7 +7,9 @@ class ExtractedFact:
     subcategory: str = ""      # 'admission', 'curriculum', 'fees', etc.
     field: str            
     value: Any
+    value_verbatim: str = ""   # Original source-language text for verification
     confidence: float = 1.0
+    conflict: bool = False      # Whether this fact conflicts with another
     source_url: str = ""
     source_type: str = "" # program, webpage, pdf
     programme_association: str = ""

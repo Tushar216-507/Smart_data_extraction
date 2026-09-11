@@ -151,9 +151,15 @@ class ProgramExtractor:
 
     def process_program(self, metadata):
 
-        page = self.page_pipeline.process(
-            metadata["url"]
-        )
+        try:
+            page = self.page_pipeline.process(
+                metadata["url"]
+            )
+        except Exception as e:
+            print(f"    [WARN] Primary fetch failed ({e}). Attempting fallback...")
+            page = self._fallback_process(metadata["url"])
+            if not page:
+                raise e
 
         program_folder = self.workspace.program_root(self.program_id)
 
@@ -190,6 +196,65 @@ class ProgramExtractor:
         print(
             f"[PASS] {metadata['title_en']}"
         )
+
+    def _fallback_process(self, url):
+        # 1. Playwright fallback
+        try:
+            from playwright.sync_api import sync_playwright
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                browser_page = browser.new_page()
+                browser_page.goto(url, timeout=30000, wait_until="domcontentloaded")
+                html = browser_page.content()
+                browser.close()
+                
+            clean_html = self.page_pipeline.cleaner.clean(html)
+            markdown = self.page_pipeline.markdown.convert(clean_html)
+            return {
+                "url": url,
+                "status": 200,
+                "title": "",
+                "raw_html": html,
+                "clean_html": clean_html,
+                "markdown": markdown
+            }
+        except ImportError:
+            print("    [WARN] Playwright not installed. Skipping local fallback.")
+        except Exception as e:
+            print(f"    [WARN] Playwright fallback failed: {e}")
+            
+        # 2. ScrapingBee fallback
+        import os
+        api_key = os.getenv("SCRAPINGBEE_API_KEY")
+        if api_key:
+            import requests
+            try:
+                response = requests.get(
+                    url="https://app.scrapingbee.com/api/v1/",
+                    params={
+                        "api_key": api_key,
+                        "url": url,
+                        "render_js": "false"
+                    }
+                )
+                response.raise_for_status()
+                html = response.text
+                clean_html = self.page_pipeline.cleaner.clean(html)
+                markdown = self.page_pipeline.markdown.convert(clean_html)
+                return {
+                    "url": url,
+                    "status": response.status_code,
+                    "title": "",
+                    "raw_html": html,
+                    "clean_html": clean_html,
+                    "markdown": markdown
+                }
+            except Exception as e:
+                print(f"    [WARN] ScrapingBee fallback failed: {e}")
+        else:
+            print("    [WARN] ScrapingBee API key not configured. Skipping fallback.")
+            
+        return None
 
     def run(
 

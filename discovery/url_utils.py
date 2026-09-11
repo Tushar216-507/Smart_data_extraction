@@ -59,7 +59,17 @@ class ConservativeFilter:
     BLOCKED_PATHS = {
         "/news", "/events", "/staff", "/faculty-staff", "/login", "/admin", 
         "/directory", "/contact", "/about-us", "/privacy", "/terms",
-        "/cookie-policy", "/press", "/alumni", "/library"
+        "/cookie-policy", "/press", "/alumni", "/library",
+        # ── Stage 1 additions ────────────────────────────────────
+        "/gallery", "/image-gallery", "/video-gallery", "/photo-gallery",
+        "/policies", "/policy", "/procedures", "/handbook", "/handbooks",
+        "/governance", "/compliance", "/guidelines",
+        "/team", "/our-team", "/our-people", "/people",
+        "/profiles", "/staff-profiles", "/faculty-profiles",
+        "/facilities", "/campus-life",
+        "/archive", "/archives",
+        "/disclaimer", "/terms-of-use", "/terms-and-conditions",
+        "/sitemap", "/search", "/feed", "/rss",
     }
     
     @classmethod
